@@ -11,5 +11,11 @@ class Page
                         "R&eacute;sum&eacute;" => "resume.php",
                         "Achievements" => "achievements.php"
                     );
+					
+// class Page's operations
+  public function __set($name, $value)
+  {
+    $this->$name = $value;
+  }
 }
 ?>
