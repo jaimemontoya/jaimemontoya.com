@@ -27,5 +27,15 @@ class Page
   {
     echo "<meta name='keywords' content='".$this->keywords."'/>";
   }
+  
+  public function DisplayHeader()
+  {
+    ?>
+    <!-- page header -->
+    <header>
+      <h1>Jaime Montoya</h1>
+    </header>
+    <?php
+  }
 }
 ?>
