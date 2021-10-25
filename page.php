@@ -17,5 +17,10 @@ class Page
   {
     $this->$name = $value;
   }
+  
+  public function DisplayTitle()
+  {
+    echo "<title>".$this->title."</title>";
+  }
 }
 ?>
