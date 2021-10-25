@@ -22,5 +22,10 @@ class Page
   {
     echo "<title>".$this->title."</title>";
   }
+  
+  public function DisplayKeywords()
+  {
+    echo "<meta name='keywords' content='".$this->keywords."'/>";
+  }
 }
 ?>
