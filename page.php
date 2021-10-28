@@ -18,6 +18,17 @@ class Page
     $this->$name = $value;
   }
   
+  public function Display()
+  {
+    echo "<html>\n<head>\n";
+    $this -> DisplayTitle();
+    $this -> DisplayKeywords();
+    echo "</head>\n<body>\n";
+    $this -> DisplayHeader();
+    echo $this->content;
+    echo "</body>\n</html>\n";
+  }
+  
   public function DisplayTitle()
   {
     echo "<title>".$this->title."</title>";
