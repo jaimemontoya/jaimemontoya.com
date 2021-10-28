@@ -12,7 +12,7 @@ class Page
                         "Achievements" => "achievements.php"
                     );
 					
-// class Page's operations
+  // class Page's operations
   public function __set($name, $value)
   {
     $this->$name = $value;
