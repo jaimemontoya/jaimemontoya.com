@@ -52,6 +52,49 @@ class Page
   public function DisplayHeader()
   {
     echo "\t\t<!-- page header -->\n\t\t<header>\n\t\t\t<div class=\"container\">\n\t\t\t\t<div class=\"logo\">\n\t\t\t\t\t<a href=\"/\" title=\"Jaime Montoya\">Jaime Montoya</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</header>\n";
+	$this -> DisplayMenu($this->buttons);
+  }
+  public function DisplayMenu($buttons)
+  {
+    echo "<!-- menu -->
+    <nav>";
+
+    while (list($name, $url) = each($buttons)) {
+      $this->DisplayButton($name, $url, 
+               !$this->IsURLCurrentPage($url));
+    }
+    echo "</nav>\n";
+  }
+
+  public function IsURLCurrentPage($url)
+  {
+    if(strpos($_SERVER['PHP_SELF'],$url)===false)
+    {
+      return false;
+    }
+    else
+    {
+      return true;
+    }
+  }
+
+  public function DisplayButton($name,$url,$active=true)
+  {
+    if ($active) { ?>
+      <div class="menuitem">
+        <a href="<?=$url?>">
+        <img src="s-logo.gif" alt="" height="20" width="20" />
+        <span class="menutext"><?=$name?></span>
+        </a>
+      </div>
+      <?php
+    } else { ?>
+      <div class="menuitem">
+      <img src="side-logo.gif">
+      <span class="menutext"><?=$name?></span>
+      </div>
+      <?php
+    }  
   }
 }
 ?>
