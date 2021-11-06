@@ -30,6 +30,10 @@ class Page
   {
     echo "\t\t<title>".$this->title."</title>\n";
   }
+  public function DisplayFavicon()
+  {
+    echo "<link rel=\"icon\" href=\"img/favicon.ico\" type=\"image/x-icon\" />";
+  }
   public function DisplayMetaKeywords()
   {
     echo "\t\t<meta name=\"keywords\" content=\"".$this->metaKeywords."\" />\n";
