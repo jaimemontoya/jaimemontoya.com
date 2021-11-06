@@ -16,7 +16,7 @@
 	          </a>
             </div>
           </div>
-        </div>";
+        </div>\n";
   $index->Display();
 ?>
 
