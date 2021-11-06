@@ -77,11 +77,8 @@ class Page
   }
   public function DisplayButton($name,$url,$active=true)
   {
-    if ($active) { ?>
-      <li>
-        <a href="<?=$url?>"><?=$name?></a>
-      </li>
-      <?php
+    if ($active) {
+		echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=".$url.">".$name."</a>\n\t\t\t\t\t</li>";
     } else { ?>
       <li><?=$name?></li>
       <?php
