@@ -37,7 +37,7 @@ class Page
   }
   public function DisplayHeader()
   {
-    echo "\t\t<!-- page header -->\n\t\t<header>\n\t\t\t<h1>Jaime Montoya</h1>\n\t\t</header>\n";
+    echo "\t\t<!-- page header -->\n\t\t<header>\n\t\t\t<div class=\"container\">\t\t\t\t<h1>Jaime Montoya</h1>\n\t\t\t</header>\t\t</header>\n";
   }
 }
 ?>
