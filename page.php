@@ -52,8 +52,8 @@ class Page
   public function DisplayHeader()
   {
     echo "\t\t<!-- page header -->\n\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"Jaime Montoya\">Jaime Montoya</a>\n\t\t\t</div>\n";
-	$this -> DisplayMenu($this->buttons);
-	echo "\t\t</header>\n";
+    $this -> DisplayMenu($this->buttons);
+    echo "\t\t</header>\n";
   }
   public function DisplayMenu($buttons)
   {
