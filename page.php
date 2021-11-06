@@ -17,7 +17,7 @@ class Page
   {
     echo "<html lang=\"en-CA\">\n\t<head>\n";
     $this -> DisplayTitle();
-    $this -> DisplayKeywords();
+    $this -> DisplayMetaKeywords();
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo $this->content;
@@ -29,7 +29,7 @@ class Page
     echo "\t\t<title>".$this->title."</title>\n";
   }
   
-  public function DisplayKeywords()
+  public function DisplayMetaKeywords()
   {
     echo "\t\t<meta name='keywords' content='".$this->keywords."' />\n";
   }
