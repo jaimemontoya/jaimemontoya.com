@@ -40,12 +40,7 @@ class Page
   
   public function DisplayHeader()
   {
-    ?>
-    <!-- page header -->
-		<header>
-		  <h1>Jaime Montoya</h1>
-		</header>
-    <?php
+    echo "<!-- page header --><header><h1>Jaime Montoya</h1></header>";
   }
 }
 ?>
