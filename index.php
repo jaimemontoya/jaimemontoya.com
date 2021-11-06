@@ -4,7 +4,7 @@
   $index = new Page();
 
   $index->content ="<!-- page content -->
-	  <p>Jaime Montoya</p>";
+	<p>Jaime Montoya</p>";
   $index->Display();
 ?>
 
