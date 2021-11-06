@@ -16,7 +16,7 @@
 	                </a>
                 </div>
             </div>
-        </div>\n
+        </div>
 		<div class=\"container\">
             <div class=\"book\">
                 <a href=\"scala-programming-projects/\">
