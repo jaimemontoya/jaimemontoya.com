@@ -80,7 +80,7 @@ class Page
     if ($active) {
 		echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=".$url.">".$name."</a>\n\t\t\t\t\t</li>\n";
     } else {
-		echo "\t\t\t\t\t<li>".$name."</li>";
+		echo "\t\t\t\t\t<li>".$name."</li>\n";
     }  
   }
 }
