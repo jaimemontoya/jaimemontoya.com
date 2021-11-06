@@ -1,10 +1,11 @@
 body{padding:0}
 header{text-align:center;background:#000}
+.logo{padding:13px 0}
+.logo a{font:20px/20px Carter One;color:#fff;text-decoration:none;font-size:35px}
 nav{background:#000}
 nav ul{list-style-type:none;margin:0;padding-left:15px}
 nav li{display:inline-block;font-size:12px;color:#afafaf}
 nav li a{display:block;color:#fff;text-align:center;padding:5px 16px;text-decoration:none}
 nav li a:hover:not(.active){color:#afafaf;background-color:#000;text-decoration:none}
 nav li a.active{background:#000}
-.logo{padding:13px 0}
-.logo a{font:20px/20px Carter One;color:#fff;text-decoration:none;font-size:35px}
+#scala-programming-projects-img{background-image:url(&quot;scala-programming-projects/img/scala-programming-projects-thumb.jpg&quot;)}
