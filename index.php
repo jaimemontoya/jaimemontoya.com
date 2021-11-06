@@ -3,7 +3,7 @@
 
   $index = new Page();
 
-  $index->content ="<!-- page content -->
+  $index->content ="/t<!-- page content -->
     <p>Jaime Montoya</p>\n";
   $index->Display();
 ?>
