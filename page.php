@@ -43,11 +43,9 @@ class Page
   {
     ?>
     <!-- page header -->
-	<html lang="en-US">
 		<header>
 		  <h1>Jaime Montoya</h1>
 		</header>
-	</html>
     <?php
   }
 }
