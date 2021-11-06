@@ -8,7 +8,7 @@
     </a>
     <div class=\"book-title-authors-read-by\">
 	  <a href=\"scala-programming-projects/\">
-		<h3>Scala Programming Projects</h3>
+		<div>Scala Programming Projects</div>
 	  </a>
 	  <a href=\"scala-programming-projects/\">
 		<p>By Mikael Valot, Nicolas Jorand. Read by Jaime Montoya from 1:23 PM July 6, 2021 to 8:21 AM September 10, 2021 GMT.</p>
