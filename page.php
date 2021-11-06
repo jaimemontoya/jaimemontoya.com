@@ -18,6 +18,7 @@ class Page
     $this -> DisplayTitle();
     $this -> DisplayMetaKeywords();
 	$this -> DisplayMetaDescription();
+	$this -> DisplayStyles();
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo $this->content;
@@ -34,6 +35,10 @@ class Page
   public function DisplayMetaDescription()
   {
     echo "\t\t<meta name='description' content='".$this->metaDescription."' />\n";
+  }
+  public function DisplayStyles()
+  {
+    echo "\t\t<link href=\"bootstrap.css\" type=\"text/css\" rel=\"stylesheet\">";
   }
   public function DisplayHeader()
   {
