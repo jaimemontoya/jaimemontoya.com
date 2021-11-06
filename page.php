@@ -15,7 +15,7 @@ class Page
   }  
   public function Display()
   {
-    echo "<!DOCTYPE html>\n\t<head>\n";
+    echo "<!DOCTYPE html lang='en'>\n\t<head>\n";
     $this -> DisplayTitle();
     $this -> DisplayFavicon();
     $this -> DisplayMetaKeywords();
