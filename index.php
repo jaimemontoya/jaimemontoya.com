@@ -1,7 +1,7 @@
 <?php
   require("page.php");
   $index = new Page();
-  $index->content ="\t\t<!-- page content -->\n\t\t
+  $index->content ="\t\t<!-- page content -->
   <div class=\"container\">
   <div class=\"book\">
     <a href=\"scala-programming-projects/\">
