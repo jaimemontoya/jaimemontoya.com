@@ -52,7 +52,7 @@ class Page
     echo "\t\t<link href=\"bootstrap.css\" type=\"text/css\" rel=\"stylesheet\" />\n";
     echo "\t\t<link href=\"bootstrap-responsive.css\" type=\"text/css\" rel=\"stylesheet\" />\n";
     echo "\t\t<link href=\"styles.css\" type=\"text/css\" rel=\"stylesheet\" />\n";
-    echo "\t\t<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Carter&nbsp;One\" />\n";
+    echo "\t\t<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Carter One\" />\n";
   }
   public function DisplayHeader()
   {
