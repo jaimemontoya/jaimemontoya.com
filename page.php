@@ -56,12 +56,12 @@ class Page
   }
   public function DisplayMenu($buttons)
   {
-    echo "\t\t<!-- menu --><nav>";
+    echo "\t\t<!-- menu --><nav><ul>";
     while (list($name, $url) = each($buttons)) {
       $this->DisplayButton($name, $url, 
                !$this->IsURLCurrentPage($url));
     }
-    echo "</nav>\n";
+    echo "</ul></nav>\n";
   }
   public function IsURLCurrentPage($url)
   {
@@ -77,16 +77,16 @@ class Page
   public function DisplayButton($name,$url,$active=true)
   {
     if ($active) { ?>
-      <div class="menuitem">
+      <li>
         <a href="<?=$url?>">
         <span class="menutext"><?=$name?></span>
         </a>
-      </div>
+      </li>
       <?php
     } else { ?>
-      <div class="menuitem">
+      <li>
       <span class="menutext"><?=$name?></span>
-      </div>
+      </li>
       <?php
     }  
   }
