@@ -3,8 +3,7 @@
 
   $index = new Page();
 
-  $index->content ="\t<!-- page content -->
-    <p>Jaime Montoya</p>\n";
+  $index->content ="\t\t<!-- page content -->\n\t\t<p>Jaime Montoya</p>\n";
   $index->Display();
 ?>
 

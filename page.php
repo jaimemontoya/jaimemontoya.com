@@ -40,7 +40,7 @@ class Page
   
   public function DisplayHeader()
   {
-    echo "\t<!-- page header -->\n\t<header>\n\t\t<h1>Jaime Montoya</h1>\n\t</header>\n";
+    echo "\t\t<!-- page header -->\n\t\t<header>\n\t\t\t<h1>Jaime Montoya</h1>\n\t\t</header>\n";
   }
 }
 ?>
