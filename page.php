@@ -36,7 +36,7 @@ class Page
   
   public function DisplayKeywords()
   {
-    echo "<meta name='keywords' content='".$this->keywords."'/>";
+    echo "\t\t<meta name='keywords' content='".$this->keywords."'/>";
   }
   
   public function DisplayHeader()
