@@ -3,5 +3,8 @@ header{text-align:center;background:#000}
 nav{background:#000}
 nav ul{list-style-type:none;margin:0;padding:0}
 nav li{display:inline-block}
+#navigation li a{display:block;color:#fff;text-align:center;padding:8px 16px;text-decoration:none}
+#navigation li a:hover:not(.active){color:#afafaf;background-color:#000}
+#navigation li a.active{color:#afafaf;background:#000}
 .logo{padding:15px 0}
 .logo a{font:20px/20px Carter One;color:#fff;text-decoration:none;font-size:35px}
