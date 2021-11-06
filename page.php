@@ -83,14 +83,12 @@ class Page
     if ($active) { ?>
       <div class="menuitem">
         <a href="<?=$url?>">
-        <img src="s-logo.gif" alt="" height="20" width="20" />
         <span class="menutext"><?=$name?></span>
         </a>
       </div>
       <?php
     } else { ?>
       <div class="menuitem">
-      <img src="side-logo.gif">
       <span class="menutext"><?=$name?></span>
       </div>
       <?php
