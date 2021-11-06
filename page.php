@@ -22,10 +22,10 @@ class Page
     echo "<html>\n\t<head>\n";
     $this -> DisplayTitle();
     $this -> DisplayKeywords();
-    echo "\t</head>\n<body>\n";
+    echo "\t</head>\n]t<body>\n";
     $this -> DisplayHeader();
     echo $this->content;
-    echo "</body>\n</html>\n";
+    echo "\t</body>\n</html>\n";
   }
   
   public function DisplayTitle()
