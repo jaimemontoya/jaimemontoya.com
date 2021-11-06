@@ -30,11 +30,11 @@ class Page
   }
   public function DisplayMetaKeywords()
   {
-    echo "\t\t<meta name='keywords' content='".$this->metaKeywords."' />\n";
+    echo "\t\t<meta name=\"keywords\" content=\"".$this->metaKeywords."\" />\n";
   }
   public function DisplayMetaDescription()
   {
-    echo "\t\t<meta name='description' content='".$this->metaDescription."' />\n";
+    echo "\t\t<meta name=\"description\" content=\"".$this->metaDescription."\" />\n";
   }
   public function DisplayStyles()
   {
