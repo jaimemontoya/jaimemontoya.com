@@ -62,7 +62,7 @@ class Page
       $this->DisplayButton($name, $url, 
                !$this->IsURLCurrentPage($url));
     }
-    echo "</ul></nav>\n";
+    echo "\t\t\t\t</ul></nav>\n";
   }
   public function IsURLCurrentPage($url)
   {
