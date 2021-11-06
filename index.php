@@ -4,7 +4,7 @@
   $index->content ="\t\t<!-- page content -->\n\t\t
   <div class=\"book\">
     <a href=\"scala-programming-projects/\">
-	  <div class=\"book-cover\" style=\"background-image: url(&quot;scala-programming-projects/img/scala-programming-projects-thumb.jpg&quot;); background-position: left top;\"></div>
+	  <div class=\"book-cover\" id=\"scala-programming-projects-img\" style=\"background-image: url(&quot;scala-programming-projects/img/scala-programming-projects-thumb.jpg&quot;); background-position: left top;\"></div>
     </a>
     <div class=\"book-title-authors-read-by\">
 	  <a href=\"scala-programming-projects/\">
