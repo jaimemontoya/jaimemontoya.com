@@ -7,7 +7,7 @@ class Page
   public $metaKeywords = "Jaime Montoya's website featuring books I have read, courses I have taken, my self-discipline agenda, r&eacute;&eacute; and achievements.";
   public $metaDescription = "Scala programmer specialist in software development building ETL processes for big data applications.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
-  public $buttons = array("Home" => "home.php", "Self-discipline" => "self-discipline.php", "R&eacute;sum&eacute;" => "resume.php", "Achievements" => "achievements.php");
+  public $buttons = array("Home" => "/", "Self-discipline" => "self-discipline/", "R&eacute;sum&eacute;" => "resume/", "Achievements" => "achievements/");
   // class Page's operations
   public function __set($name, $value)
   {
