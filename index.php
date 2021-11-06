@@ -2,13 +2,13 @@
   require("page.php");
   $index = new Page();
   $index->content ="\t\t<!-- page content -->\n\t\t
-  <div>
+  <div class=\"book\">
     <a href=\"scala-programming-projects/\">
-	  <div style=\"background-image: url(&quot;scala-programming-projects/img/scala-programming-projects-thumb.jpg&quot;); background-position: left top;\"></div>
+	  <div class=\"book-cover\" style=\"background-image: url(&quot;scala-programming-projects/img/scala-programming-projects-thumb.jpg&quot;); background-position: left top;\"></div>
     </a>
-    <div>
+    <div class=\"book-title-authors-read-by\">
 	  <a href=\"scala-programming-projects/\">
-		<h5>Scala Programming Projects</h5>
+		<h3>Scala Programming Projects</h3>
 	  </a>
 	  <a href=\"scala-programming-projects/\">
 		<p>By Mikael Valot, Nicolas Jorand. Read by Jaime Montoya from 1:23 PM July 6, 2021 to 8:21 AM September 10, 2021 GMT.</p>
