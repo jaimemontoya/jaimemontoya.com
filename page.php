@@ -38,7 +38,7 @@ class Page
   }
   public function DisplayStyles()
   {
-    echo "\t\t<link href=\"bootstrap.css\" type=\"text/css\" rel=\"stylesheet\">";
+    echo "\t\t<link href=\"bootstrap.css\" type=\"text/css\" rel=\"stylesheet\">\n";
   }
   public function DisplayHeader()
   {
