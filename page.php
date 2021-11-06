@@ -33,7 +33,7 @@ class Page
   }
   public function DisplayFavicon()
   {
-    echo "<link rel=\"icon\" href=\"img/favicon.ico\" type=\"image/x-icon\" />";
+    echo "\t\t<link rel=\"icon\" href=\"img/favicon.ico\" type=\"image/x-icon\" />\n";
   }
   public function DisplayMetaKeywords()
   {
