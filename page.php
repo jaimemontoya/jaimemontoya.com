@@ -20,7 +20,7 @@ class Page
   
   public function Display()
   {
-    echo "<html>\n<head>\n";
+    echo "<html>\n\t<head>\n";
     $this -> DisplayTitle();
     $this -> DisplayKeywords();
     echo "</head>\n<body>\n";
