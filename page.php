@@ -18,9 +18,9 @@ class Page
     echo "<html lang=\"en-CA\">\n\t<head>\n";
     $this -> DisplayTitle();
     $this -> DisplayMetaKeywords();
-	$this -> DisplayMetaDescription();
-	$this -> DisplayMetaViewport();
-	$this -> DisplayStyles();
+    $this -> DisplayMetaDescription();
+    $this -> DisplayMetaViewport();
+    $this -> DisplayStyles();
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo $this->content;
