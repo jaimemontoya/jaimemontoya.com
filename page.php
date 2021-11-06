@@ -58,14 +58,12 @@ class Page
   {
     echo "<!-- menu -->
     <nav>";
-
     while (list($name, $url) = each($buttons)) {
       $this->DisplayButton($name, $url, 
                !$this->IsURLCurrentPage($url));
     }
     echo "</nav>\n";
   }
-
   public function IsURLCurrentPage($url)
   {
     if(strpos($_SERVER['PHP_SELF'],$url)===false)
@@ -77,7 +75,6 @@ class Page
       return true;
     }
   }
-
   public function DisplayButton($name,$url,$active=true)
   {
     if ($active) { ?>
