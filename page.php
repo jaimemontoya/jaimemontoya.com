@@ -31,7 +31,7 @@ class Page
   
   public function DisplayTitle()
   {
-    echo "<title>".$this->title."</title>";
+    echo "\t\t<title>".$this->title."</title>";
   }
   
   public function DisplayKeywords()
