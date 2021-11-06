@@ -17,6 +17,7 @@ class Page
   {
     echo "<html lang=\"en-CA\">\n\t<head>\n";
     $this -> DisplayTitle();
+    $this -> DisplayFavicon();
     $this -> DisplayMetaKeywords();
     $this -> DisplayMetaDescription();
     $this -> DisplayMetaViewport();
