@@ -57,7 +57,7 @@ class Page
   }
   public function DisplayMenu($buttons)
   {
-    echo "\t\t\t<!-- menu -->\n\t\t\t<nav>\n<ul>";
+    echo "\t\t\t<!-- menu -->\n\t\t\t<nav>\n\t\t\t\t<ul>";
     while (list($name, $url) = each($buttons)) {
       $this->DisplayButton($name, $url, 
                !$this->IsURLCurrentPage($url));
