@@ -78,15 +78,11 @@ class Page
   {
     if ($active) { ?>
       <li>
-        <a href="<?=$url?>">
-        <span class="menutext"><?=$name?></span>
-        </a>
+        <a href="<?=$url?>"><?=$name?></a>
       </li>
       <?php
     } else { ?>
-      <li>
-      <span class="menutext"><?=$name?></span>
-      </li>
+      <li><?=$name?></li>
       <?php
     }  
   }
