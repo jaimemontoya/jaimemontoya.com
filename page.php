@@ -77,9 +77,9 @@ class Page
   public function DisplayButton($name,$url,$active=true)
   {
     if ($active) {
-         echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=".$url.">".$name."</a>\n\t\t\t\t\t</li>\n";
+      echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=".$url.">".$name."</a>\n\t\t\t\t\t</li>\n";
     } else {
-        echo "\t\t\t\t\t<li>".$name."</li>\n";
+      echo "\t\t\t\t\t<li>".$name."</li>\n";
     }  
   }
 }
