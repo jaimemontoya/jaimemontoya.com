@@ -15,7 +15,7 @@ class Page
   
   public function Display()
   {
-    echo "<html>\n\t<head>\n";
+    echo "<html lang=\"en-CA\">\n\t<head>\n";
     $this -> DisplayTitle();
     $this -> DisplayKeywords();
     echo "\t</head>\n\t<body>\n";
