@@ -12,5 +12,6 @@ nav li a.active{background:#000}
 .book > a:first-child{display:flex;align-self:center;flex-basis:49%;height:128px;max-width:88px}
 .book-cover{align-items:center;background-color:transparent;background-repeat:no-repeat;background-size:contain;display:flex;flex:0 1 auto;justify-content:center;max-height:144px;max-width:84px;min-width:84px;position:relative;width:100%;}
 .book-title-authors-read-by{flex-grow:2;margin-left:16px;padding-top:10px}
-.book-title-authors-read-by span{color:#000000;font:12px/14px Guardian Text Sans\ 2,sans-serif;margin-top:0}
+.book-title-authors-read-by span{display:inline-block;font:20px/24px Guardian Text Sans,sans-serif;font-weight:500;margin-bottom:8px;margin-top:0;color:#000}
+.book-title-authors-read-by p{color:#000000;font:12px/14px Guardian Text Sans\ 2,sans-serif;margin-top:0}
 #scala-programming-projects-img{background-image:url('scala-programming-projects/img/scala-programming-projects-thumb.jpg')}
