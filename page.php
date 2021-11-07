@@ -24,9 +24,9 @@ class Page
     $this -> DisplayStyles();
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
-	echo "<div class=\"container\">";
+	echo "\t\t<div class=\"container\">\n";
     echo $this->content;
-	echo "</div>";
+	echo "\t\t</div>";
 	$this -> DisplayFooter();
     echo "\t</body>\n</html>\n";
   }
