@@ -9,7 +9,7 @@
 	                <div class=\"book-cover\" id=\"scala-programming-projects-img\"></div>
                 </a>
                 <div class=\"book-title-authors-read-by\">
-	                <div>By Mikael Valot, Nicolas Jorand.</div>
+	                <div>By Mikael Valot, Nicolas Jorand</div>
 					<div>Publisher: Packt Publishing</div>
 					<div>Release date: September 2018</div>
 					<div>ISBN 978-1-78839-764-3</div>
