@@ -2,20 +2,19 @@
   require("../page.php");
   $scala_programming_projects = new Page();
   $scala_programming_projects->content ="\t\t<!-- page content -->
-        <div class=\"container\">
-		    <h1 class=\"page-title\">Scala Programming Projects</h1>
-            <div class=\"book no-margin-nor-padding\">
-	            <div class=\"book-cover\" id=\"scala-programming-projects-img\"></div>
-                <div class=\"book-metadata\">
-	                <div>By Mikael Valot, Nicolas Jorand</div>
-					<div>Publisher: Packt Publishing</div>
-					<div>Release date: September 2018</div>
-					<div>ISBN 978-1-78839-764-3</div>
-					<div>Topic: Web Services, Java Programming, Computer Programming Languages, Scala Programming.</div>
-					<div>Read by <a href=\"/resume/\">Jaime Montoya</a> from 1:23 PM July 6, 2021 to 8:21 AM September 10, 2021 GMT.</div>
+            <div class=\"book\">
+                <a href=\"scala-programming-projects/\">
+	                <div class=\"book-cover\" id=\"scala-programming-projects-img\"></div>
+                </a>
+                <div class=\"book-title-authors-read-by\">
+	                <a href=\"scala-programming-projects/\">
+		                <span>Scala Programming Projects</span>
+	                </a>
+	                <a href=\"scala-programming-projects/\">
+		                <p>By Mikael Valot, Nicolas Jorand. Read by Jaime Montoya from 1:23 PM July 6, 2021 to 8:21 AM September 10, 2021 GMT.</p>
+	                </a>
                 </div>
-            </div>
-        </div>\n";
+            </div>\n";
   $scala_programming_projects->Display();
 ?>
 
