@@ -1,6 +1,6 @@
 <?php
   echo "Hello World!";
-  //require("../page.php");
+  require("../page.php");
   /*$scala-programming-projects = new Page();
   $scala-programming-projects->content ="\t\t<!-- page content -->
         <div class=\"container\">
