@@ -9,7 +9,7 @@ nav li a{display:block;color:#fff;text-align:center;padding:5px 16px;text-decora
 nav li a:hover:not(.active){color:#afafaf;background-color:#000;text-decoration:none}
 nav li a.active{background:#000}
 .active-button{padding-right:16px}
-.book{display:flex;flex-direction:row;margin:14px 14px 0}
+.book{display:flex;flex-direction:row;margin-top:14px}
 .book a{text-decoration:none}
 .book > a:first-child{display:flex;align-self:center;flex-basis:49%;height:137px;max-width:88px}
 .book-cover{align-items:center;background-color:transparent;background-repeat:no-repeat;background-size:contain;display:flex;flex:0 1 auto;justify-content:center;max-height:144px;max-width:84px;min-width:84px;position:relative;width:100%;}
