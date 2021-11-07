@@ -50,7 +50,7 @@
 		<div class=\"container\">
             <div class=\"book\">
                 <a href=\"10-000-hours-become-practice/\">
-	                <div class=\"book-cover\" id=\"10-000-hours-become-practice-img\"></div>
+	                <div class=\"book-cover\" id=\"book-10-000-hours-become-practice-img\"></div>
                 </a>
                 <div class=\"book-title-authors-read-by\">
 	                <a href=\"10-000-hours-become-practice/\">
