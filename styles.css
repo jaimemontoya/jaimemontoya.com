@@ -42,4 +42,5 @@ nav li a.active{background:#000}
 #born-to-blog-img{background-image:url('born-to-blog/img/born-to-blog-thumb.jpeg')}
 #success-in-programming-img{background-image:url('success-in-programming/img/success-in-programming-thumb.jpeg')}
 h1{line-height:35px;font-size:2.5em;padding:0;margin:0;font:normal 35px/55px Roboto}
+.no-margin-nor-padding{margin:0;padding:0}
 footer{text-align:center;padding:10px 0 15px}
