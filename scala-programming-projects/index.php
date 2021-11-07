@@ -6,7 +6,7 @@
 		    <h1 class=\"page-title\">Scala Programming Projects</h1>
             <div class=\"book no-margin-nor-padding\">
 	            <div class=\"book-cover\" id=\"scala-programming-projects-img\"></div>
-                <div class=\"book-title-authors-read-by no-margin-nor-padding\">
+                <div class=\"book-metadata\">
 	                <div>By Mikael Valot, Nicolas Jorand</div>
 					<div>Publisher: Packt Publishing</div>
 					<div>Release date: September 2018</div>
