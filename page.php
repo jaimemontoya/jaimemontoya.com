@@ -25,6 +25,7 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo $this->content;
+	$this -> DisplayFooter();
     echo "\t</body>\n</html>\n";
   }
   public function DisplayTitle()
@@ -86,6 +87,13 @@ class Page
     } else {
       echo "\t\t\t\t\t<li class=\"active-button\">".$name."</li>\n";
     }  
+  }
+  public function DisplayFooter()
+  {
+    echo "<!-- page footer -->
+    <footer>
+        <div><a href=\"#\"><span>Top</span></a></div>
+    </footer>";
   }
 }
 ?>
