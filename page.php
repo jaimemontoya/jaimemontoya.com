@@ -91,10 +91,7 @@ class Page
   }
   public function DisplayFooter()
   {
-    echo "<!-- page footer -->
-    <footer>
-        <div><a href=\"#\"><span>Back to top</span></a></div>
-    </footer>";
+    echo "\t\t<!-- page footer -->\n\t\t<footer>\n\t\t\t<div>\n\t\t\t<a href=\"#\">Back to top</a>\n\t\t\t</div>\n\t\t</footer>";
   }
 }
 ?>
