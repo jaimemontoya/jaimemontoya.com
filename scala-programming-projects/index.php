@@ -2,8 +2,8 @@
   require("../page.php");
   $scala_programming_projects = new Page();
   $scala_programming_projects->content ="\t\t<!-- page content -->
-        <h1 class=\"page-title\">Scala Programming Projects</h1>
         <div class=\"container\">
+		    <h1 class=\"page-title\">Scala Programming Projects</h1>
             <div class=\"book\">
                 <a href=\"scala-programming-projects/\">
 	                <div class=\"book-cover\" id=\"scala-programming-projects-img\"></div>
