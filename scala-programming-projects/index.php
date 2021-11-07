@@ -4,11 +4,11 @@
   $scala_programming_projects->content ="\t\t<!-- page content -->
         <div class=\"container\">
 		    <h1 class=\"page-title\">Scala Programming Projects</h1>
-            <div class=\"book\">
+            <div class=\"book no-margin-nor-padding\">
                 <a href=\"scala-programming-projects/\">
 	                <div class=\"book-cover\" id=\"scala-programming-projects-img\"></div>
                 </a>
-                <div class=\"book-title-authors-read-by\">
+                <div class=\"book-title-authors-read-by no-margin-nor-padding\">
 	                <div>By Mikael Valot, Nicolas Jorand</div>
 					<div>Publisher: Packt Publishing</div>
 					<div>Release date: September 2018</div>
