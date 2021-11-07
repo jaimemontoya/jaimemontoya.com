@@ -1,4 +1,4 @@
-body{padding:0;color:#000;font-family:PT Sans, sans-serif}
+body{padding:0;color:#000}
 header{text-align:center;background:#000}
 .container{padding: 0 14px}
 .logo{padding-top:15px}
@@ -17,7 +17,7 @@ nav li a.active{background:#000}
 .book-title-authors-read-by{flex-grow:2;margin-left:16px;padding-top:10px}
 .book-title-authors-read-by span{display:inline-block;font:20px/20px Guardian Text Sans,sans-serif;font-weight:500;margin-bottom:8px;margin-top:0;color:#000}
 .book-title-authors-read-by p{color:#000000;font:12px/14px Guardian Text Sans\ 2,sans-serif;margin-top:0}
-.book-metadata{padding:0flex-grow:2;margin-left:16px}
+.book-metadata{normal 35px/55px Roboto;padding:0;flex-grow:2;margin-left:16px}
 .book-metadata span{display:inline-block;font:20px/20px Guardian Text Sans,sans-serif;font-weight:500;margin-bottom:8px;margin-top:0;color:#000}
 .book-metadata p{color:#000000;font:12px/14px Guardian Text Sans\ 2,sans-serif;margin-top:0}
 .book-metadata a{color:red}
