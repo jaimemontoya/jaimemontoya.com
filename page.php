@@ -92,7 +92,7 @@ class Page
   {
     echo "<!-- page footer -->
     <footer>
-        <div><a href=\"#\"><span>Top</span></a></div>
+        <div><a href=\"#\"><span>Back to top</span></a></div>
     </footer>";
   }
 }
