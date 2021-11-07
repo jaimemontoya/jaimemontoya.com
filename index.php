@@ -242,7 +242,7 @@
                 </div>
             </div>
         </div>
-		div class=\"container\">
+		<div class=\"container\">
 		    <div class=\"book\">
                 <a href=\"personal-branding-for/\">
 	                <div class=\"book-cover\" id=\"personal-branding-for-img\"></div>
