@@ -2,7 +2,7 @@
   require("page.php");
   $index = new Page();
   $index->content ="\t\t<!-- page content -->
-        <div class=\"container\">
+        
             <div class=\"book\">
                 <a href=\"scala-programming-projects/\">
 	                <div class=\"book-cover\" id=\"scala-programming-projects-img\"></div>
@@ -315,7 +315,7 @@
 	                </a>
                 </div>
             </div>
-        </div>\n";
+        \n";
   $index->Display();
 ?>
 
