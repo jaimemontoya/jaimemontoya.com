@@ -10,7 +10,7 @@ nav li a:hover:not(.active){color:#afafaf;background-color:#000;text-decoration:
 nav li a.active{background:#000}
 .book{display:flex;flex-direction:row;margin:14px 14px 0}
 .book a{text-decoration:none}
-.book > a:first-child{display:flex;align-self:center;flex-basis:49%;height:103px;max-width:88px}
+.book > a:first-child{display:flex;align-self:center;flex-basis:49%;height:129px;max-width:88px}
 .book-cover{align-items:center;background-color:transparent;background-repeat:no-repeat;background-size:contain;display:flex;flex:0 1 auto;justify-content:center;max-height:144px;max-width:84px;min-width:84px;position:relative;width:100%;}
 .book-title-authors-read-by{flex-grow:2;margin-left:16px;padding-top:10px}
 .book-title-authors-read-by span{display:inline-block;font:20px/16px Guardian Text Sans,sans-serif;font-weight:500;margin-bottom:8px;margin-top:0;color:#000}
