@@ -10,7 +10,11 @@
                 </a>
                 <div class=\"book-title-authors-read-by\">
 	                <div>By Mikael Valot, Nicolas Jorand.</div>
-					<div>Read by Jaime Montoya from 1:23 PM July 6, 2021 to 8:21 AM September 10, 2021 GMT.</div>
+					<div>Publisher: Packt Publishing</div>
+					<div>Release date: September 2018</div>
+					<div>ISBN 978-1-78839-764-3</div>
+					<div>Topic: Web Services, Java Programming, Computer Programming Languages, Scala Programming.</div>
+					<div>Read by <a href=\"/resume/\">Jaime Montoya</a> from 1:23 PM July 6, 2021 to 8:21 AM September 10, 2021 GMT.</div>
                 </div>
             </div>
         </div>\n";
