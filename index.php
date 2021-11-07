@@ -212,6 +212,7 @@
                 </div>
             </div>
         </div>
+		<div class=\"container\">
 		    <div class=\"book\">
                 <a href=\"the-logic-of-god/\">
 	                <div class=\"book-cover\" id=\"the-logic-of-god-img\"></div>
