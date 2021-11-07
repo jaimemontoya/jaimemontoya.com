@@ -16,7 +16,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"success-habits-dummies-zeller/\">
 	                <div class=\"book-cover\" id=\"success-habits-dummies-zeller-img\"></div>
@@ -30,7 +29,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"lightbend-scala-language-professional/\">
 	                <div class=\"book-cover\" id=\"lightbend-scala-language-professional-img\"></div>
@@ -44,7 +42,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"10-000-hours-become-practice/\">
 	                <div class=\"book-cover\" id=\"book-10-000-hours-become-practice-img\"></div>
@@ -58,7 +55,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"pragmatic-scala/\">
 	                <div class=\"book-cover\" id=\"pragmatic-scala-img\"></div>
@@ -72,7 +68,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"scala-for-the-impatient-second-edition/\">
 	                <div class=\"book-cover\" id=\"scala-for-the-impatient-second-edition-img\"></div>
@@ -86,7 +81,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"outliers-malcolm-gladwell/\">
 	                <div class=\"book-cover\" id=\"outliers-malcolm-gladwell-img\"></div>
@@ -100,7 +94,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"learning-spark-2nd/\">
 	                <div class=\"book-cover\" id=\"learning-spark-2nd-img\"></div>
@@ -114,7 +107,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"apache-spark-quick/\">
 	                <div class=\"book-cover\" id=\"apache-spark-quick-img\"></div>
@@ -128,7 +120,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"wordpress-5-complete/\">
 	                <div class=\"book-cover\" id=\"wordpress-5-complete-img\"></div>
@@ -142,7 +133,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"the-power-of-habit/\">
 	                <div class=\"book-cover\" id=\"the-power-of-habit-img\"></div>
@@ -156,7 +146,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"niv-gospel-john-devotional-notes/\">
 	                <div class=\"book-cover\" id=\"niv-gospel-john-devotional-notes-img\"></div>
@@ -170,7 +159,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"place-participant-guide/\">
 	                <div class=\"book-cover\" id=\"place-participant-guide-img\"></div>
@@ -184,7 +172,6 @@
 	                </a>
                 </div>
             </div>
-        
             <div class=\"book\">
                 <a href=\"the-lambs-supper-the-mass-as-heaven-on-earth/\">
 	                <div class=\"book-cover\" id=\"the-lambs-supper-the-mass-as-heaven-on-earth-img\"></div>
@@ -198,7 +185,6 @@
 	                </a>
                 </div>
             </div>
-        
 		    <div class=\"book\">
                 <a href=\"the-logic-of-god/\">
 	                <div class=\"book-cover\" id=\"the-logic-of-god-img\"></div>
@@ -212,7 +198,6 @@
 	                </a>
                 </div>
             </div>
-        
 		    <div class=\"book\">
                 <a href=\"ab-testing-the/\">
 	                <div class=\"book-cover\" id=\"ab-testing-the-img\"></div>
@@ -226,7 +211,6 @@
 	                </a>
                 </div>
             </div>
-        
 		    <div class=\"book\">
                 <a href=\"personal-branding-for/\">
 	                <div class=\"book-cover\" id=\"personal-branding-for-img\"></div>
@@ -240,7 +224,6 @@
 	                </a>
                 </div>
             </div>
-        
 		    <div class=\"book\">
                 <a href=\"income-investing-an/\">
 	                <div class=\"book-cover\" id=\"income-investing-an-img\"></div>
@@ -254,7 +237,6 @@
 	                </a>
                 </div>
             </div>
-        
 		    <div class=\"book\">
                 <a href=\"wharton-marketing/\">
 	                <div class=\"book-cover\" id=\"wharton-marketing-img\"></div>
@@ -268,7 +250,6 @@
 	                </a>
                 </div>
             </div>
-        
 		    <div class=\"book\">
                 <a href=\"scaling-up-companies-rockefeller-habits/\">
 	                <div class=\"book-cover\" id=\"scaling-up-companies-rockefeller-habits-img\"></div>
@@ -282,7 +263,6 @@
 	                </a>
                 </div>
             </div>
-        
 		    <div class=\"book\">
                 <a href=\"google-speaks-secrets/\">
 	                <div class=\"book-cover\" id=\"google-speaks-secrets-img\"></div>
@@ -296,7 +276,6 @@
 	                </a>
                 </div>
             </div>
-        
 		    <div class=\"book\">
                 <a href=\"twitter-101-everything/\">
 	                <div class=\"book-cover\" id=\"twitter-101-everything-img\"></div>
@@ -310,7 +289,6 @@
 	                </a>
                 </div>
             </div>
-        
 		    <div class=\"book\">
                 <a href=\"born-to-blog/\">
 	                <div class=\"book-cover\" id=\"born-to-blog-img\"></div>
@@ -324,7 +302,6 @@
 	                </a>
                 </div>
             </div>
-        
 		    <div class=\"book\">
                 <a href=\"success-in-programming/\">
 	                <div class=\"book-cover\" id=\"success-in-programming-img\"></div>
