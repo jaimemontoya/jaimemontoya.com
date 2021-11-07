@@ -1,6 +1,7 @@
 <?php
-  require("/page.php");
-  $scala-programming-projects = new Page();
+  echo "Hello World!";
+  //require("../page.php");
+  /*$scala-programming-projects = new Page();
   $scala-programming-projects->content ="\t\t<!-- page content -->
         <div class=\"container\">
             <div class=\"book\">
@@ -362,6 +363,6 @@
                 </div>
             </div>
         </div>\n";
-  $scala-programming-projects->Display();
+  $scala-programming-projects->Display();*/
 ?>
 
