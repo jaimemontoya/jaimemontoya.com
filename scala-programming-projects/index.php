@@ -1,7 +1,7 @@
 <?php
   require("../page.php");
   $index = new Page();
-  $index->content = require("scala-programming-projects-book-info.php");
+  $index->content = "abc";//require("scala-programming-projects-book-info.php");
   $index->Display();
 ?>
 
