@@ -65,7 +65,7 @@ class Page
   {
     echo "\t\t\t<nav>\n\t\t\t\t<ul>\n";
     while (list($name, $url) = each($buttons)) {
-      $this->DisplayButton($name, $url, !$this->IsURLCurrentPage($url));
+      $this->DisplayButton($name, $url);
     }
     echo "\t\t\t\t</ul>\n\t\t\t</nav>\n";
   }
