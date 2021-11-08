@@ -11,6 +11,7 @@ nav li a:hover:not(.active){color:#afafaf;background-color:#000;text-decoration:
 nav li a.active{background:#000}
 .active-button{padding-right:16px}
 .center{text-align:center}
+.smaller-font{font-size:0.9em}
 .book{display:flex;flex-direction:row;margin-top:14px}
 .book a{text-decoration:none}
 .book > a:first-child{display:flex;align-self:center;flex-basis:49%;height:137px;max-width:88px}
