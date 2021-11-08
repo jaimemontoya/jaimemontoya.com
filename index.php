@@ -2,7 +2,7 @@
   require("page.php");
   $index = new Page();
   require("scala-programming-projects/scala-programming-projects-book-info.php");
-  require("success-habits-dummies-zeller/success-habits-dummies-zeller-book-info.php");
+  /*require("success-habits-dummies-zeller/success-habits-dummies-zeller-book-info.php");
   require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
   require("10-000-hours-become-practice/10-000-hours-become-practice-book-info.php");
   require("pragmatic-scala/pragmatic-scala-book-info.php");
@@ -24,7 +24,7 @@
   require("google-speaks-secrets/google-speaks-secrets-book-info.php");
   require("twitter-101-everything/twitter-101-everything-book-info.php");
   require("born-to-blog/born-to-blog-book-info.php");
-  require("success-in-programming/success-in-programming-book-info.php");
+  require("success-in-programming/success-in-programming-book-info.php");*/
   $index->Display();
 ?>
 
