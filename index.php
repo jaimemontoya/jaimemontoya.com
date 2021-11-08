@@ -13,7 +13,7 @@
   require("wordpress-5-complete/wordpress-5-complete-book-info.php");
   require("the-power-of-habit/the-power-of-habit-book-info.php");
   require("niv-gospel-john-devotional-notes/niv-gospel-john-devotional-notes-book-info.php");
-  require("place-participant-guide-notes/place-participant-guide-notes-book-info.php");
+  /*require("place-participant-guide-notes/place-participant-guide-notes-book-info.php");
   require("the-lambs-supper-the-mass-as-heaven-on-earth/the-lambs-supper-the-mass-as-heaven-on-earth-book-info.php");
   require("the-logic-of-god/the-logic-of-god-book-info.php");
   require("ab-testing-the/ab-testing-the-book-info.php");
@@ -24,7 +24,7 @@
   require("google-speaks-secrets/google-speaks-secrets-book-info.php");
   require("twitter-101-everything/twitter-101-everything-book-info.php");
   require("born-to-blog/born-to-blog-book-info.php");
-  require("success-in-programming/success-in-programming-book-info.php");
+  require("success-in-programming/success-in-programming-book-info.php");*/
   $index->Display();
 ?>
 
