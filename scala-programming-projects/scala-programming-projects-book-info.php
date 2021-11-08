@@ -1,7 +1,5 @@
 <?php
-  require("../page.php");
-  $scala_programming_projects = new Page();
-  /*$scala_programming_projects->content ="\t\t<!-- page content -->
+  $scala_programming_projects->content ="\t\t<!-- page content -->
             <div class=\"book\">
                 <a href=\"scala-programming-projects/\">
 	                <div class=\"book-cover\" id=\"scala-programming-projects-img\"></div>
@@ -14,8 +12,5 @@
 		                <p>By Mikael Valot, Nicolas Jorand. Read by Jaime Montoya from 1:23 PM July 6, 2021 to 8:21 AM September 10, 2021 GMT.</p>
 	                </a>
                 </div>
-            </div>\n";*/
-  requite("scala-programming-projects-book-info.php");
-  $scala_programming_projects->Display();
+            </div>\n";
 ?>
-
