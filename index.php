@@ -15,10 +15,10 @@
   require("niv-gospel-john-devotional-notes/niv-gospel-john-devotional-notes-book-info.php");
   require("place-participant-guide/place-participant-guide-notes-book-info.php");
   require("the-lambs-supper-the-mass-as-heaven-on-earth/the-lambs-supper-the-mass-as-heaven-on-earth-book-info.php");
-  require("the-logic-of-god/the-logic-of-god-book-info.php");
+  /*require("the-logic-of-god/the-logic-of-god-book-info.php");
   require("ab-testing-the/ab-testing-the-book-info.php");
   require("personal-branding-for/personal-branding-for-book-info.php");
-  /*require("income-investing-an/income-investing-an-book-info.php");
+  require("income-investing-an/income-investing-an-book-info.php");
   require("wharton-marketing/wharton-marketing-book-info.php");
   require("scaling-up-companies-rockefeller-habits/scaling-up-companies-rockefeller-habits-book-info.php");
   require("google-speaks-secrets/google-speaks-secrets-book-info.php");
