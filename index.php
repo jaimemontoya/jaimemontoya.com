@@ -2,7 +2,7 @@
   require("page.php");
   $index = new Page();
   require("scala-programming-projects/scala-programming-projects-book-info.php");
-  /*require("success-habits-dummies-zeller/success-habits-dummies-zeller-book-info.php");
+  require("success-habits-dummies-zeller/success-habits-dummies-zeller-book-info.php");
   require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
   require("10-000-hours-become-practice/10-000-hours-become-practice-book-info.php");
   require("pragmatic-scala/pragmatic-scala-book-info.php");
@@ -12,7 +12,7 @@
   require("apache-spark-quick/apache-spark-quick-book-info.php");
   require("wordpress-5-complete/wordpress-5-complete-book-info.php");
   require("the-power-of-habit/the-power-of-habit-book-info.php");
-  require("niv-gospel-john-devotional-notes/niv-gospel-john-devotional-notes-book-info.php");
+  /*require("niv-gospel-john-devotional-notes/niv-gospel-john-devotional-notes-book-info.php");
   require("place-participant-guide/place-participant-guide-notes-book-info.php");
   require("the-lambs-supper-the-mass-as-heaven-on-earth/the-lambs-supper-the-mass-as-heaven-on-earth-book-info.php");
   require("the-logic-of-god/the-logic-of-god-book-info.php");
