@@ -59,13 +59,13 @@ class Page
   }
   public function DisplayHeader()
   {
-    echo "\t\t<!-- page header -->\n\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"Jaime Montoya\">Jaime Montoya</a>\n\t\t\t</div>\n";
+    echo "\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"Jaime Montoya\">Jaime Montoya</a>\n\t\t\t</div>\n";
     $this -> DisplayMenu($this->buttons);
     echo "\t\t</header>\n";
   }
   public function DisplayMenu($buttons)
   {
-    echo "\t\t\t<!-- menu -->\n\t\t\t<nav>\n\t\t\t\t<ul>\n";
+    echo "\t\t\t<nav>\n\t\t\t\t<ul>\n";
     while (list($name, $url) = each($buttons)) {
       $this->DisplayButton($name, $url, !$this->IsURLCurrentPage($url));
     }
@@ -93,7 +93,7 @@ class Page
   }
   public function DisplayFooter()
   {
-    echo "\t\t<!-- page footer -->\n\t\t<footer>\n\t\t\t<div>\n\t\t\t<a href=\"#\">Back to top</a>\n\t\t\t</div>\n\t\t</footer>\n";
+    echo "\t\t<footer>\n\t\t\t<div>\n\t\t\t<a href=\"#\">Back to top</a>\n\t\t\t</div>\n\t\t</footer>\n";
   }
 }
 ?>
