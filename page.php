@@ -69,18 +69,7 @@ class Page
     }
     echo "\t\t\t\t</ul>\n\t\t\t</nav>\n";
   }
-  public function IsURLCurrentPage($url)
-  {
-    if(strpos($_SERVER['PHP_SELF'],$url)===false)
-    {
-      return false;
-    }
-    else
-    {
-      return true;
-    }
-  }
-  public function DisplayButton($name,$url,$active=true)
+  public function DisplayButton($name, $url)
   {
     echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=".$url.">".$name."</a>\n\t\t\t\t\t</li>\n";
   }
