@@ -15,7 +15,7 @@
 	                </a>
                 </div>
             </div>\n";*/
-  requite("scala-programming-projects-book-info.php");
+  require("scala-programming-projects-book-info.php");
   $scala_programming_projects->Display();
 ?>
 
