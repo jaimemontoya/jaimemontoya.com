@@ -23,7 +23,7 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
 	echo "\t\t<div class=\"container\">\n";
-    echo $this->content;
+    $this->content;
 	echo "\t\t</div>\n";
 	$this -> DisplayFooter();
     echo "\t</body>\n</html>\n";
