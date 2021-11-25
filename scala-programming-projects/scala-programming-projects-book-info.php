@@ -1,6 +1,6 @@
 <?php
   $index->content .=
-           "aaa\t\t\t<div class=\"book\">
+           "\t\t\t<div class=\"book\">
                 <a href=\"scala-programming-projects/\">
 	                <div class=\"book-cover\" id=\"scala-programming-projects-img\"></div>
                 </a>
@@ -12,5 +12,5 @@
 		                <p>By Mikael Valot, Nicolas Jorand. Read by Jaime Montoya from 1:23 PM July 6, 2021 to 8:21 AM September 10, 2021 GMT.</p>
 	                </a>
                 </div>
-            </div>\nzzz";
+            </div>\n";
 ?>

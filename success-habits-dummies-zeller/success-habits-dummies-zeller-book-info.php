@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "bbb\t\t\t<div class=\"book\">
+           "\t\t\t<div class=\"book\">
                 <a href=\"success-habits-dummies-zeller/\">
 	                <div class=\"book-cover\" id=\"success-habits-dummies-zeller-img\"></div>
                 </a>
@@ -12,5 +12,5 @@
 		                <p>By Dirk Zeller. Read by Jaime Montoya from 3:20 PM July 14, 2021 GMT to [in progress...]</p>
 	                </a>
                 </div>
-            </div>\nyyy";
+            </div>\n";
 ?>
