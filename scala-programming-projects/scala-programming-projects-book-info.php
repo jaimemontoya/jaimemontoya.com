@@ -1,6 +1,6 @@
 <?php
-  $index->content .= 
-           "\t\t\t<div class=\"book\">
+  $index->content .=
+           "abc\t\t\t<div class=\"book\">
                 <a href=\"scala-programming-projects/\">
 	                <div class=\"book-cover\" id=\"scala-programming-projects-img\"></div>
                 </a>
