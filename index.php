@@ -1,7 +1,7 @@
 <?php
   require("page.php");
   $index = new Page();
-  $index->content .= "\t\t\t<div class=\"center smaller-font\">\n\t\t\t\t<a href=\"https://github.com/jaimemontoya/jaimemontoya.com\">https://github.com/jaimemontoya/jaimemontoya.com</a>\n\t\t\t</div>\n";
+  $index->content .=
   require("scala-programming-projects/scala-programming-projects-book-info.php");
   require("success-habits-dummies-zeller/success-habits-dummies-zeller-book-info.php");
   require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
