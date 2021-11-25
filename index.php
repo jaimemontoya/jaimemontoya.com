@@ -2,7 +2,7 @@
   require("page.php");
   $index = new Page();
   $index->content .=
-  require("scala-programming-projects/scala-programming-projects-book-info.php");echo "a z";
+  require("scala-programming-projects/scala-programming-projects-book-info.php");
   require("success-habits-dummies-zeller/success-habits-dummies-zeller-book-info.php");
   require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
   require("10-000-hours-become-practice/10-000-hours-become-practice-book-info.php");
