@@ -6,7 +6,7 @@ header{text-align:center;background:#000}
 nav{background:#000}
 nav ul{list-style-type:none;margin:0}
 nav li{display:inline-block;font-size:12px;color:#afafaf}
-nav li a{display:block;color:#fff;text-align:center;padding:5px 16px;text-decoration:none}
+nav li a{display:block;color:#fff;text-align:center;padding:5px 25px;text-decoration:none}
 nav li a:hover{color:#afafaf;background-color:#000;text-decoration:none}
 .center{text-align:center}
 .book{display:flex;flex-direction:row;margin-top:14px}
