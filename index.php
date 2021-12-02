@@ -1,10 +1,10 @@
 <?php
   require("page.php");
   $index = new Page();
-  require("programming-scala-3rd/programming-scala-3rd-book-info.php");
-  require("scala-programming-projects/scala-programming-projects-book-info.php");
   require("success-habits-dummies-zeller/success-habits-dummies-zeller-book-info.php");
   require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
+  require("programming-scala-3rd/programming-scala-3rd-book-info.php");
+  require("scala-programming-projects/scala-programming-projects-book-info.php");
   require("10-000-hours-become-practice/10-000-hours-become-practice-book-info.php");
   require("pragmatic-scala/pragmatic-scala-book-info.php");
   require("scala-for-the-impatient-second-edition/scala-for-the-impatient-second-edition-book-info.php");
