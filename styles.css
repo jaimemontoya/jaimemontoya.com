@@ -41,6 +41,6 @@ nav li a:hover{color:#afafaf;background-color:#000;text-decoration:none}
 #born-to-blog-img{background-image:url('born-to-blog/img/born-to-blog-thumb.jpeg')}
 #success-in-programming-img{background-image:url('success-in-programming/img/success-in-programming-thumb.jpeg')}
 h1{line-height:35px;font-size:2.5em;padding:0;margin:0;font:normal 35px/55px Guardian Text Sans}
-#calendar{margin-top:14px;border:solid 1px #777}
+#calendar{margin-top:14px}
 #resume{margin-top:14px;border:solid 1px #777}
 footer{text-align:center;padding:10px 0 15px}
