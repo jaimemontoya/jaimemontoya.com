@@ -3,10 +3,10 @@ class Page
 {
   public $content;
   public $title = "Jaime Montoya";
-  public $metaKeywords = "Jaime Montoya's website featuring books I have read, courses I have taken, calendar, resume and achievements.";
+  public $metaKeywords = "Jaime Montoya's website featuring books I have read, courses I have taken, calendar and resume.";
   public $metaDescription = "Scala programmer specialist in software development building ETL processes for big data applications.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
-  public $buttons = array("Home" => "/", "Calendar" => "/calendar/", "Resume" => "/resume/", "Achievements" => "/achievements/");
+  public $buttons = array("Home" => "/", "Calendar" => "/calendar/", "Resume" => "/resume/");
   public function __set($name, $value)
   {
     $this->$name = $value;
