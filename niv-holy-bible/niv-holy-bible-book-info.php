@@ -6,7 +6,7 @@
                 </a>
                 <div class=\"book-title-authors-read-by\">
 	                <a href=\"/niv-holy-bible/\">
-		                <span>Scala Programming Projects</span>
+		                <span>NIV Holy Bible</span>
 	                </a>
 	                <a href=\"/niv-holy-bible/\">
 		                <p>By Zondervan. Read by Jaime Montoya from 0:00 AM September 30, 2019 to [in progress...]</p>
