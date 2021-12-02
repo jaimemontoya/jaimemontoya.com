@@ -5,7 +5,7 @@ header{text-align:center;background:#000}
 .logo a{font:20px/20px Carter One;color:#fff;text-decoration:none;font-size:35px}
 nav{background:#000}
 nav ul{list-style-type:none;margin:0}
-nav li{display:inline-block;font-size:12px;color:#afafaf}
+nav li{display:inline-block;font-size:14px;color:#afafaf}
 nav li a{display:block;color:#fff;text-align:center;padding:5px 25px;text-decoration:none}
 nav li a:hover{color:#afafaf;background-color:#000;text-decoration:none}
 .center{text-align:center}
