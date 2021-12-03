@@ -17,6 +17,7 @@ class Page
 	$this -> DisplayGoogleAnalytics();
     $this -> DisplayTitle();
     $this -> DisplayFavicon();
+    $this -> DisplayMetaCharset();
     $this -> DisplayMetaKeywords();
     $this -> DisplayMetaDescription();
     $this -> DisplayMetaViewport();
