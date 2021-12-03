@@ -6,7 +6,7 @@
                 </a>
                 <div class=\"book-title-authors-read-by\">
 	                <a href=\"/programming-scala-3rd/\">
-		                <span>Scala Programming Projects</span>
+		                <span>Programming Scala, 3rd Edition</span>
 	                </a>
 	                <a href=\"/programming-scala-3rd/\">
 		                <p>By Dean Wampler. Read by Jaime Montoya from 1:23 PM February 5, 2021 to 1:37 AM October 17, 2021 GMT.</p>
