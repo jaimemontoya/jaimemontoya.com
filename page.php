@@ -13,7 +13,7 @@ class Page
   }  
   public function Display()
   {
-    echo "<!DOCTYPE html>\n\t<head>\n";
+    echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
 	$this -> DisplayGoogleAnalytics();
     $this -> DisplayTitle();
     $this -> DisplayFavicon();
