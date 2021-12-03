@@ -41,24 +41,28 @@ class Page
   {
     echo "\t\t<link rel=\"icon\" href=\"/img/favicon.ico\" type=\"image/x-icon\" />\n";
   }
+  public function DisplayMetaCharset()
+  {
+    echo "\t\t<meta charset=\"utf-8\">\n";
+  }
   public function DisplayMetaKeywords()
   {
-    echo "\t\t<meta name=\"keywords\" content=\"".$this->metaKeywords."\" />\n";
+    echo "\t\t<meta name=\"keywords\" content=\"".$this->metaKeywords."\">\n";
   }
   public function DisplayMetaDescription()
   {
-    echo "\t\t<meta name=\"description\" content=\"".$this->metaDescription."\" />\n";
+    echo "\t\t<meta name=\"description\" content=\"".$this->metaDescription."\">\n";
   }
   public function DisplayMetaViewport()
   {
-    echo "\t\t<meta name=\"viewport\" content=\"".$this->metaViewport."\" />\n";
+    echo "\t\t<meta name=\"viewport\" content=\"".$this->metaViewport."\">\n";
   }
   public function DisplayStyles()
   {
-    echo "\t\t<link href=\"/bootstrap.css\" type=\"text/css\" rel=\"stylesheet\" />\n";
-    echo "\t\t<link href=\"/bootstrap-responsive.css\" type=\"text/css\" rel=\"stylesheet\" />\n";
-    echo "\t\t<link href=\"/styles.css\" type=\"text/css\" rel=\"stylesheet\" />\n";
-    echo "\t\t<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Carter+One\" />\n";
+    echo "\t\t<link href=\"/bootstrap.css\" type=\"text/css\" rel=\"stylesheet\">\n";
+    echo "\t\t<link href=\"/bootstrap-responsive.css\" type=\"text/css\" rel=\"stylesheet\">\n";
+    echo "\t\t<link href=\"/styles.css\" type=\"text/css\" rel=\"stylesheet\">\n";
+    echo "\t\t<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Carter+One\">\n";
   }
   public function DisplayHeader()
   {
