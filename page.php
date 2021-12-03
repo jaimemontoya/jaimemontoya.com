@@ -14,6 +14,7 @@ class Page
   public function Display()
   {
     echo "<!DOCTYPE html>\n\t<head>\n";
+	$this -> DisplayGoogleAnalytics();
     $this -> DisplayTitle();
     $this -> DisplayFavicon();
     $this -> DisplayMetaKeywords();
@@ -27,6 +28,10 @@ class Page
 	echo "\t\t</div>\n";
 	$this -> DisplayFooter();
     echo "\t</body>\n</html>\n";
+  }
+  public function DisplayGoogleAnalytics()
+  {
+    echo "\t\t<!-- Global site tag (gtag.js) - Google Analytics -->\n\t\t<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-112469917-1\"></script>\n\t\t<script>\n\t\t\twindow.dataLayer = window.dataLayer || [];\n\t\t\tfunction gtag(){dataLayer.push(arguments);}\n\t\t\tgtag('js', new Date());\n\t\t\tgtag('config', 'UA-112469917-1');\n\t\t</script>\n";
   }
   public function DisplayTitle()
   {
