@@ -9,7 +9,7 @@
 		                <span>Get Programming with Scala</span>
 	                </a>
 	                <a href=\"/get-programming-scala/\">
-		                <p>By Daniela Sfregola. Read by Jaime Montoya from 5:21 AM October 17, 2021 GMT to [in progress...]</p>
+		                <p>By Daniela Sfregola. Read by Jaime Montoya from 5:21 AM October 17, 2021 to 2:09 PM December 19, 2021 GMT.</p>
 	                </a>
                 </div>
             </div>\n";
