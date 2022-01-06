@@ -9,7 +9,7 @@
 		                <span>Introduction to Marketing</span>
 	                </a>
 	                <a href=\"/wharton-marketing/\">
-		                <p>By University of Pennsylvania. Successfully completed by Jaime Montoya from 4:30 PM Apr 22, 2019 to Apr 30, 2019 GMT. Verify at https://coursera.org/verify/UN9PAZ74UDAB.</p>
+		                <p>By University of Pennsylvania. Successfully completed by Jaime Montoya from 4:30 PM April 22, 2019 to April 30, 2019 GMT. Verify at https://coursera.org/verify/UN9PAZ74UDAB.</p>
 	                </a>
                 </div>
             </div>\n";

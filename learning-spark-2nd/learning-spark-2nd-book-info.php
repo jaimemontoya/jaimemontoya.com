@@ -9,7 +9,7 @@
 		                <span>Learning Spark, 2nd Edition</span>
 	                </a>
 	                <a href=\"/learning-spark-2nd/\">
-		                <p>By Jules S. Damji, Brooke Wenig, Tathagata Das, Denny Lee. Read by Jaime Montoya from 2:50 AM Oct 14, 2020 to 5:54 AM Dec 6, 2020 GMT.</p>
+		                <p>By Jules S. Damji, Brooke Wenig, Tathagata Das, Denny Lee. Read by Jaime Montoya from 2:50 AM October 14, 2020 to 5:54 AM December 6, 2020 GMT.</p>
 	                </a>
                 </div>
             </div>\n";

@@ -9,7 +9,7 @@
 		                <span>The Lamb's Supper: The Mass as Heaven on Earth</span>
 	                </a>
 	                <a href=\"/the-lambs-supper-the-mass-as-heaven-on-earth/\">
-		                <p>By Scott Hahn. Read by Jaime Montoya from 4:27 AM Jan 3, 2020 to 02:16 AM Apr 15, 2020 GMT.</p>
+		                <p>By Scott Hahn. Read by Jaime Montoya from 4:27 AM January 3, 2020 to 02:16 AM April 15, 2020 GMT.</p>
 	                </a>
                 </div>
             </div>\n";

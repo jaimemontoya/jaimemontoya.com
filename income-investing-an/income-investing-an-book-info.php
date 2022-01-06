@@ -9,7 +9,7 @@
 		                <span>Income Investing: An Intelligent Approach to Profiting from Bonds, Stocks, and Money Markets</span>
 	                </a>
 	                <a href=\"/income-investing-an/\">
-		                <p>By Jason Brady. Read by Jaime Montoya from 6:30 PM Jul 21, 2019 to 7:41 AM Jul 22, 2019 GMT.</p>
+		                <p>By Jason Brady. Read by Jaime Montoya from 6:30 PM July 21, 2019 to 7:41 AM July 22, 2019 GMT.</p>
 	                </a>
                 </div>
             </div>\n";

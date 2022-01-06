@@ -9,7 +9,7 @@
 		                <span>NIV, Gospel of John, eBook: With Devotional Notes</span>
 	                </a>
 	                <a href=\"/niv-gospel-john-devotional-notes/\">
-		                <p>By Zondervan. Read by Jaime Montoya from 10:11 PM Jul 12, 2020 to 0:20 PM Jul 13, 2020 GMT.</p>
+		                <p>By Zondervan. Read by Jaime Montoya from 10:11 PM July 12, 2020 to 0:20 PM July 13, 2020 GMT.</p>
 	                </a>
                 </div>
             </div>\n";

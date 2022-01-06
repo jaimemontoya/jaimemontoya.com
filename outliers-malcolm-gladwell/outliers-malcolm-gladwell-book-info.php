@@ -9,7 +9,7 @@
 		                <span>Outliers: The Story of Success</span>
 	                </a>
 	                <a href=\"/outliers-malcolm-gladwell/\">
-		                <p>By Malcolm Gladwell. Read by Jaime Montoya from 6:40 PM Feb 23, 2021 to 5:58 AM Mar 31, 2021 GMT.</p>
+		                <p>By Malcolm Gladwell. Read by Jaime Montoya from 6:40 PM February 23, 2021 to 5:58 AM March 31, 2021 GMT.</p>
 	                </a>
                 </div>
             </div>\n";

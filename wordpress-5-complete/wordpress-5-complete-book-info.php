@@ -9,7 +9,7 @@
 		                <span>WordPress 5 Complete: Build beautiful and feature-rich websites from scratch, 7th Edition</span>
 	                </a>
 	                <a href=\"/wordpress-5-complete/\">
-		                <p>By Karol Krol. Read by Jaime Montoya from 1:27 AM Apr 1, 2019 to 00:58 AM Sep 10, 2020 GMT.</p>
+		                <p>By Karol Krol. Read by Jaime Montoya from 1:27 AM April 1, 2019 to 00:58 AM September 10, 2020 GMT.</p>
 	                </a>
                 </div>
             </div>\n";

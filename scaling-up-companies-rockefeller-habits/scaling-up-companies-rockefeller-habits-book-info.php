@@ -9,7 +9,7 @@
 		                <span>Scaling Up: How a Few Companies Make It...and Why the Rest Don't (Mastering the Rockefeller Habits 2.0)</span>
 	                </a>
 	                <a href=\"/scaling-up-companies-rockefeller-habits/\">
-		                <p>By Verne Harnish. Read by Jaime Montoya from 5:42 PM Feb 28, 2019 to 02:57 AM Mar 23, 2019 GMT.</p>
+		                <p>By Verne Harnish. Read by Jaime Montoya from 5:42 PM February 28, 2019 to 02:57 AM March 23, 2019 GMT.</p>
 	                </a>
                 </div>
             </div>\n";

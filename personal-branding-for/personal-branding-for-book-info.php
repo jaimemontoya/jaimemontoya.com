@@ -9,7 +9,7 @@
 		                <span>Personal Branding For Dummies, 2nd Edition</span>
 	                </a>
 	                <a href=\"/personal-branding-for/\">
-		                <p>By Susan Chritton. Read by Jaime Montoya from 11:57 AM May 12, 2019 to 4:13 AM Aug 12, 2019 GMT.</p>
+		                <p>By Susan Chritton. Read by Jaime Montoya from 11:57 AM May 12, 2019 to 4:13 AM August 12, 2019 GMT.</p>
 	                </a>
                 </div>
             </div>\n";

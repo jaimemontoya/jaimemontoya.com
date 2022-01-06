@@ -9,7 +9,7 @@
 		                <span>10,000 Hours: You Become What You Practice</span>
 	                </a>
 	                <a href=\"/10-000-hours-become-practice/\">
-		                <p>By Phyllis Lane. Read by Jaime Montoya from 2:38 PM July 4, 2021 to 6:19 AM Jul 14, 2021 GMT.</p>
+		                <p>By Phyllis Lane. Read by Jaime Montoya from 2:38 PM July 4, 2021 to 6:19 AM July 14, 2021 GMT.</p>
 	                </a>
                 </div>
             </div>\n";

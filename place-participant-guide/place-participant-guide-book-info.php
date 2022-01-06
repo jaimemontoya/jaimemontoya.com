@@ -9,7 +9,7 @@
 		                <span>PLACE Participant Guide and Assessment Tool</span>
 	                </a>
 	                <a href=\"/place-participant-guide/\">
-		                <p>By Jay McSwain. Read by Jaime Montoya from 1:42 PM Feb 25, 2020 to 7:52 PM Jul 11, 2020 GMT.</p>
+		                <p>By Jay McSwain. Read by Jaime Montoya from 1:42 PM February 25, 2020 to 7:52 PM July 11, 2020 GMT.</p>
 	                </a>
                 </div>
             </div>\n";

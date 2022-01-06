@@ -9,7 +9,7 @@
 		                <span>Lightbend Scala Language - Professional</span>
 	                </a>
 	                <a href=\"/lightbend-scala-language-professional/\">
-		                <p>By Lightbend, Course Staff Petro Verkhogliad. Completed by Jaime Montoya from 0:00 AM Jun 12, 2021 GMT to [in progress...]</p>
+		                <p>By Lightbend, Course Staff Petro Verkhogliad. Completed by Jaime Montoya from 0:00 AM June 12, 2021 GMT to [in progress...]</p>
 	                </a>
                 </div>
             </div>\n";

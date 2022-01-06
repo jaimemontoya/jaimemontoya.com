@@ -9,7 +9,7 @@
 		                <span>Success in Programming: How to Gain Recognition, Power, and Influence through Personal Branding</span>
 	                </a>
 	                <a href=\"/success-in-programming/\">
-		                <p>By Fr&eacute;d&eacute;ric Harper. Read by Jaime Montoya from 1:59 AM Aug 31, 2018 to 11:52 PM Sep 6, 2018 GMT.</p>
+		                <p>By Fr&eacute;d&eacute;ric Harper. Read by Jaime Montoya from 1:59 AM August 31, 2018 to 11:52 PM September 6, 2018 GMT.</p>
 	                </a>
                 </div>
             </div>\n";
