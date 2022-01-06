@@ -1,6 +1,7 @@
 <?php
   require("page.php");
   $index = new Page();
+  require("emotional-intelligence-dummies/emotional-intelligence-dummies-book-info.php");
   require("esv-holy-bible/esv-holy-bible-book-info.php");
   require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
   require("success-habits-dummies-zeller/success-habits-dummies-zeller-book-info.php");
