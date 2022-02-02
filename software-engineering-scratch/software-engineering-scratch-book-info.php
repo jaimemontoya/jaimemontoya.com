@@ -9,7 +9,7 @@
 		                <span>Software Engineering from Scratch: A Comprehensive Introduction Using Scala</span>
 	                </a>
 	                <a href=\"/software-engineering-scratch/\">
-		                <p>By Jason Lee Hodges. Read by Jaime Montoya from 4:47 PM January 1, 2022 GMT to [in progress...]</p>
+		                <p>By Jason Lee Hodges. Read by Jaime Montoya from 4:47 PM January 1, 2022 GMT to 1:01 PM January 28, 2022 GMT.</p>
 	                </a>
                 </div>
             </div>\n";
