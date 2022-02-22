@@ -1,6 +1,7 @@
 <?php
   require("page.php");
   $index = new Page();
+  echo "Spaniard Pablo de Sarasate, internationally acclaimed as the greatest violinist of the nineteenth century, was once called a genius by a famous critic. In reply to this Sarasate said, <mark>\"Genius! For 37 years I've practiced 14 hours a day, and now they call me a genius.</mark>\"</span>";
   require("modern-scala-projects/modern-scala-projects-book-info.php");
   require("sacred-marriage/sacred-marriage-book-info.php");
   require("emotional-intelligence-dummies/emotional-intelligence-dummies-book-info.php");
