@@ -1,6 +1,7 @@
 <?php
   require("page.php");
   $index = new Page();
+  require("pablo-de-sarasate-14-hours-a-day/pablo-de-sarasate-14-hours-a-day.php");
   require("modern-scala-projects/modern-scala-projects-book-info.php");
   require("sacred-marriage/sacred-marriage-book-info.php");
   require("emotional-intelligence-dummies/emotional-intelligence-dummies-book-info.php");

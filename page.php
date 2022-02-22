@@ -7,8 +7,6 @@ class Page
   public $metaDescription = "Scala programmer specialist in software development building ETL processes for big data applications.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
   public $buttons = array("Home" => "/", "Calendar" => "/calendar/", "Resume" => "/resume/");
-  public $quotation = "<p><a href=\"https://github.com/jaimemontoya/jaimemontoya.com\">https://github.com/jaimemontoya/jaimemontoya.com</a> Spaniard Pablo de Sarasate, internationally acclaimed as the greatest violinist of the nineteenth century, was once called a genius by a famous critic. In reply to this Sarasate said, <mark>\"Genius! For 37 years I've practiced 14 hours a day, and now they call me a genius.\"</mark></p>";
->>>>>>> dev
   public function __set($name, $value)
   {
     $this->$name = $value;
@@ -27,7 +25,6 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
 	echo "\t\t<div class=\"container\">\n";
-	$this -> DisplayQuotation();
     echo $this->content;
 	echo "\t\t</div>\n";
 	$this -> DisplayFooter();
@@ -85,9 +82,6 @@ class Page
   public function DisplayButton($name, $url)
   {
     echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=".$url.">".$name."</a>\n\t\t\t\t\t</li>\n";
-  }
-  public function DisplayQuotation() {
-	  echo $this->quotation;
   }
   public function DisplayFooter()
   {
