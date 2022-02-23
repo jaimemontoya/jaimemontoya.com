@@ -1,5 +1,5 @@
 <?php
-  $index->content .= 
+  $index->content = 
            "\t\t\t<div class=\"book\">
                 <a href=\"/sacred-marriage/\">
 	                <div class=\"book-cover\" id=\"sacred-marriage-img\"></div>
