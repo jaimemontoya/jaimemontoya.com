@@ -5,5 +5,6 @@
   $index->metaDescription = "In Sacred Marriage, best-selling author Gary Thomas uncovers the ways that your marriage can become a doorway to a closer walk with God and with each other.";
   require("sacred-marriage-book-info.php");
   require("../vocabulary-title.php");
+  require("sacred-marriage-vocabulary.php");
   $index->Display();
 ?>
