@@ -13,4 +13,5 @@
 	                </a>
                 </div>
             </div>\n";
+	require("../vocabulary-title.php");
 ?>
