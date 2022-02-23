@@ -13,5 +13,5 @@
 	                </a>
                 </div>
             </div>\n";
-  require("vocabulary-title.php");
+  index->content .= $index->vocabularyTitle;
 ?>

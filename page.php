@@ -7,6 +7,7 @@ class Page
   public $metaDescription = "Scala programmer specialist in software development building ETL processes for big data applications.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
   public $buttons = array("Home" => "/", "Calendar" => "/calendar/", "Resume" => "/resume/");
+  public $vocabularyTitle = "<h1>Vocabulary I have learned from this book</h1>";
   public function __set($name, $value)
   {
     $this->$name = $value;
