@@ -13,5 +13,5 @@
 	                </a>
                 </div>
             </div>\n";
-	require("../vocabulary-title.php");
+  require("vocabulary-title.php");
 ?>
