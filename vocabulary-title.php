@@ -1,4 +1,4 @@
 <?php
-  $index->content .= "<div>Vocabulary I have learned from this book</div>";
+  $index->content .= "<h2>Vocabulary I have learned from this book</h2>";
 ?>
 
