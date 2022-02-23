@@ -13,5 +13,5 @@
 	                </a>
                 </div>
             </div>\n";
-  index->content .= $index->vocabularyTitle;
+  //index->content .= $index->vocabularyTitle;
 ?>
