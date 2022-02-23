@@ -12,6 +12,5 @@
 		                <p>By Gary Thomas. Read by Jaime Montoya from 5:20 PM January 22, 2022 GMT to [in progress...]</p>
 	                </a>
                 </div>
-            </div>\n";
-  //index->content .= $index->vocabularyTitle;
+            </div>\n".$index->vocabularyTitle;
 ?>

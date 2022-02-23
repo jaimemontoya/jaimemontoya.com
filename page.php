@@ -27,6 +27,7 @@ class Page
     $this -> DisplayHeader();
 	echo "\t\t<div class=\"container\">\n";
     echo $this->content;
+	echo $this->vocabularyTitle;
 	echo "\t\t</div>\n";
 	$this -> DisplayFooter();
     echo "\t</body>\n</html>\n";
