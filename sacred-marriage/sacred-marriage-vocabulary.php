@@ -10,5 +10,6 @@
 				<li>De Sales put the troubled young woman <mark>at ease</mark>, telling her that, far from being a compromise, in one sense, marriage might be the toughest ministry she could ever undertake.
 				<li>\"It is a perpetual exercise of <mark>mortification</mark>... In spite of the bitter nature of its juice, you may be able to draw and make the honey of a holy life.\"
 				<li>We have to look at our disappointments, <mark>own up to</mark> our ugly attitudes, and confront our selfishness.
+				<li>What if God had an end in mind that went beyond our happiness, our comfort, and our desire to be <mark>infatuated</mark> and happy, as if the world were a perfect place?
 			</ul>\n";
 ?>
