@@ -12,5 +12,6 @@
 				<li>We have to look at our disappointments, <mark>own up to</mark> our ugly attitudes, and confront our selfishness.
 				<li>What if God had an end in mind that went beyond our happiness, our comfort, and our desire to be <mark>infatuated</mark> and happy, as if the world were a perfect place?
 				<li>Who can be truly \"happy\" while filled with anger, <mark>rage</mark>, and <mark>malice</mark>? Who can be happy while <mark>nursing</mark> resentment or envy?
+				<li>The problem I'm trying to address is that a \"happy marriage\" (defined romantically and in terms of pleasant feelings) is too often the <mark>endgame</mark> of most marriage books (even Christian marriage books).
 			</ul>\n";
 ?>
