@@ -9,6 +9,6 @@
 				<li>One woman wrote in great distress, <mark>torn</mark> because she wanted to get married while a friend was encouraging her to remain single, insisting it would be \"more holy\" for her to care for her father and then devote herself as a celibate to God after her father died.
 				<li>De Sales put the troubled young woman <mark>at ease</mark>, telling her that, far from being a compromise, in one sense, marriage might be the toughest ministry she could ever undertake.
 				<li>\"It is a perpetual exercise of <mark>mortification</mark>... In spite of the bitter nature of its juice, you may be able to draw and make the honey of a holy life.\"
-				<li>We have to look at our disappointments, <mark>own up</mark> to our ugly attitudes, and confront our selfishness.
+				<li>We have to look at our disappointments, <mark>own up to</mark> our ugly attitudes, and confront our selfishness.
 			</ul>\n";
 ?>
