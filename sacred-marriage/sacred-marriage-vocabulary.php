@@ -11,6 +11,6 @@
 				<li>\"It is a perpetual exercise of <mark>mortification</mark>... In spite of the bitter nature of its juice, you may be able to draw and make the honey of a holy life.\"
 				<li>We have to look at our disappointments, <mark>own up to</mark> our ugly attitudes, and confront our selfishness.
 				<li>What if God had an end in mind that went beyond our happiness, our comfort, and our desire to be <mark>infatuated</mark> and happy, as if the world were a perfect place?
-				<li>Who can be truly \"happy\" while filled with anger, <mark>rage</mark>, and <mark>malice</mark>?
+				<li>Who can be truly \"happy\" while filled with anger, <mark>rage</mark>, and <mark>malice</mark>? Who can be happy while <mark>nursing</mark> resentment or envy?
 			</ul>\n";
 ?>
