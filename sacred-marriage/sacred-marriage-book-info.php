@@ -9,7 +9,8 @@
 		                <span>Sacred Marriage: What If God Designed Marriage to Make Us Holy More Than to Make Us Happy?</span>
 	                </a>
 	                <a href=\"/sacred-marriage/\">
-		                <p>By Gary Thomas. Read by Jaime Montoya from 5:20 PM January 22, 2022 GMT to [in progress...]</p>
+		                <p>By Gary Thomas. Read by Jaime Montoya from 5:20 PM January 22, 2022 
+to 12:56 AM March 15, 2022 GMT.</p>
 	                </a>
                 </div>
             </div>\n";
