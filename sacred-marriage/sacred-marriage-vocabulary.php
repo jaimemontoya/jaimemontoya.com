@@ -18,5 +18,7 @@
 are in the house), rather than seeing how God could use our marriages to help us grow in character, in prayer, in worship, and in service.
 				<li>This book seems marriage the way medieval writers saw the monastery: as a setting full of opportunities to <mark>foster</mark> spiritual growth 
 and service to God.
+				<li>We're going to cut open many marriages, find out where the commitment <mark>rubs</mark>, explore where the poisoned attitudes hide, search out 
+where we are forced to confront our weakness and sin, and learn how to grow through the process.
 			</ul>\n";
 ?>
