@@ -16,5 +16,7 @@
 				<li>We'd have to do the same spiritual exercises, best performed by single people (long periods of prayer that don't allow for child 
 <mark>rearing</mark> or marital discussion, seasons of fasting that make preparing meals difficult for a family, times of quiet meditation that seem impossible when kids of any age 
 are in the house), rather than seeing how God could use our marriages to help us grow in character, in prayer, in worship, and in service.
+				<li>This book seems marriage the way medieval writers saw the monastery: as a setting full of opportunities to <mark>foster</mark> spiritual growth 
+and service to God.
 			</ul>\n";
 ?>
