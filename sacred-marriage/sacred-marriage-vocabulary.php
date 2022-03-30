@@ -13,5 +13,8 @@
 				<li>What if God had an end in mind that went beyond our happiness, our comfort, and our desire to be <mark>infatuated</mark> and happy, as if the world were a perfect place?
 				<li>Who can be truly \"happy\" while filled with anger, <mark>rage</mark>, and <mark>malice</mark>? Who can be happy while <mark>nursing</mark> resentment or envy?
 				<li>The problem I'm trying to address is that a \"happy marriage\" (defined romantically and in terms of pleasant feelings) is too often the <mark>endgame</mark> of most marriage books (even Christian marriage books).
+				<li>We'd have to do the same spiritual exercises, best performed by single people (long periods of prayer that don't allow for child 
+<mark>rearing</mark> or marital discussion, seasons of fasting that make preparing meals difficult for a family, times of quiet meditation that seem impossible when kids of any age 
+are in the house), rather than seeing how God could use our marriages to help us grow in character, in prayer, in worship, and in service.
 			</ul>\n";
 ?>
