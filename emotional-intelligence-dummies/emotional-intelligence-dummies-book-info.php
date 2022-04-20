@@ -9,7 +9,7 @@
 		                <span>Emotional Intelligence For Dummies</span>
 	                </a>
 	                <a href=\"/emotional-intelligence-dummies/\">
-		                <p>By Steven J. Stein. Read by Jaime Montoya from 5:05 PM January 3, 2022 GMT to [in progress...]</p>
+		                <p>By Steven J. Stein. Read by Jaime Montoya from 5:05 PM January 3, 2022 to 4:23 AM April 20, 2022 GMT.</p>
 	                </a>
                 </div>
             </div>\n";
