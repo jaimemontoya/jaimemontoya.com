@@ -34,7 +34,7 @@
   require("twitter-101-everything/twitter-101-everything-book-info.php");
   require("born-to-blog/born-to-blog-book-info.php");
   require("success-in-programming/success-in-programming-book-info.php");
-  echo "Hi.";
+  $index->content .= "Hi.";
   $index->Display();
 ?>
 
