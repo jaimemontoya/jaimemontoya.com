@@ -9,7 +9,7 @@
 		                <span>Modern Scala Projects: Leverage the power of Scala for building data-driven and high-performant projects</span>
 	                </a>
 	                <a href=\"/modern-scala-projects/\">
-		                <p>By Ilango Gurusamy. Read by Jaime Montoya from 1:26 PM February 1, 2022 GMT to [in progress...]</p>
+		                <p>By Ilango Gurusamy. Read by Jaime Montoya from 1:26 PM February 1, 2022 to 1:56 PM May 7, 2022 GMT.</p>
 	                </a>
                 </div>
             </div>\n";
