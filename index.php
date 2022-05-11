@@ -2,6 +2,7 @@
   require("page.php");
   $index = new Page();
   //require("pablo-de-sarasate-14-hours-a-day/pablo-de-sarasate-14-hours-a-day.php");
+  require("personal-finance-in/personal-finance-in-book-info.php");
   require("scala-design-patterns/scala-design-patterns-book-info.php");
   require("esv-holy-bible/esv-holy-bible-book-info.php");
   require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
