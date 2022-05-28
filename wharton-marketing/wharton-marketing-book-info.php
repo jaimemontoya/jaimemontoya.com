@@ -1,16 +1,12 @@
 <?php
   $index->content .= 
            "\t\t\t<div class=\"book\">
-                <a href=\"/wharton-marketing/\">
+                <div class=\"book-thumbnail\">
 	                <div class=\"book-cover\" id=\"wharton-marketing-img\"></div>
-                </a>
+                </div>
                 <div class=\"book-title-authors-read-by\">
-	                <a href=\"/wharton-marketing/\">
-		                <span>Introduction to Marketing</span>
-	                </a>
-	                <a href=\"/wharton-marketing/\">
-		                <p>By University of Pennsylvania. Successfully completed by Jaime Montoya from 4:30 PM April 22, 2019 to April 30, 2019 GMT. Verify at https://coursera.org/verify/UN9PAZ74UDAB.</p>
-	                </a>
+	                <span>Introduction to Marketing</span>
+	                <p>By University of Pennsylvania. Successfully completed by Jaime Montoya from 4:30 PM April 22, 2019 to April 30, 2019 GMT. Verify at https://coursera.org/verify/UN9PAZ74UDAB.</p>
                 </div>
             </div>\n";
 ?>
