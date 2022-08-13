@@ -6,6 +6,7 @@
   //require("personal-finance-in/personal-finance-in-book-info.php");
   //require("esv-holy-bible/esv-holy-bible-book-info.php");
   //require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
+  require("own-it-love-it-make-it-work/own-it-love-it-make-it-work-book-info.php");    
   require("pragmatic-programmer/pragmatic-programmer-book-info.php");    
   require("moving-to-canada/moving-to-canada-book-info.php");  
   require("immigrating-to-canada/immigrating-to-canada-book-info.php");
