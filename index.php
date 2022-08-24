@@ -6,7 +6,7 @@
   //require("personal-finance-in/personal-finance-in-book-info.php");
   //require("esv-holy-bible/esv-holy-bible-book-info.php");
   //require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
-  require("mind-gym/mind-gym-info.php");  
+  //require("mind-gym/mind-gym-info.php");  
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");
   require("the-hidden-history-of-monopolies/the-hidden-history-of-monopolies-book-info.php");
   require("man-s-search-for-meaning/man-s-search-for-meaning-book-info.php");  
