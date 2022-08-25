@@ -8,8 +8,8 @@
   //require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
   require("mind-gym/mind-gym-book-info.php");  
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");
-  require("the-hidden-history-of-monopolies/the-hidden-history-of-monopolies-book-info.php");
   require("man-s-search-for-meaning/man-s-search-for-meaning-book-info.php");  
+  require("the-hidden-history-of-monopolies/the-hidden-history-of-monopolies-book-info.php");
   require("it-starts-with-passion/it-starts-with-passion-book-info.php"); 
   require("own-it-love-it-make-it-work/own-it-love-it-make-it-work-book-info.php");    
   require("pragmatic-programmer/pragmatic-programmer-book-info.php");    
