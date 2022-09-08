@@ -7,6 +7,7 @@
   //require("esv-holy-bible/esv-holy-bible-book-info.php");
   //require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");
+  require("dramatized-audio-bible-niv/dramatized-audio-bible-niv-book-info.php");  
   require("ielts-50-things-to-know/ielts-50-things-to-know-book-info.php");  
   require("ielts-listening-raise-your-score/ielts-listening-raise-your-score-book-info.php");  
   require("official-ielts-prep/official-ielts-prep-book-info.php");   
