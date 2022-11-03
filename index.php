@@ -8,6 +8,7 @@
   //require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
   require("multiply/multiply-book-info.php");
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");
+  require("crazy-love/crazy-love-book-info.php");   
   require("authentic-faith/authentic-faith-book-info.php");  
   require("the-pilgrim-s-progress/the-pilgrim-s-progress-book-info.php");
   require("dramatized-audio-bible-niv/dramatized-audio-bible-niv-book-info.php");  
