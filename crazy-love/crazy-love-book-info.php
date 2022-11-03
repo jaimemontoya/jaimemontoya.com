@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"multiply-img\"></div>
+					<div class=\"book-cover\" id=\"crazy-love-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Crazy Love: Overwhelmed by a Relentless God</span>
