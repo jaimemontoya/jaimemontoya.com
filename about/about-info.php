@@ -1,4 +1,4 @@
 <?php
   $index->content .= 
-           "\t\t\t<h2>Mission:</h2>\n";
+           "\t\t\t<span class=\"bold\">Mission:</span><span>To graduate</span>\n";
 ?>
