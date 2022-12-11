@@ -6,7 +6,7 @@ class Page
   public $metaKeywords = "Jaime Montoya's website featuring books I have read, courses I have taken, calendar and resume.";
   public $metaDescription = "Scala programmer specialist in software development building ETL processes for big data applications.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
-  public $buttons = array("Home" => "/", "Resume" => "/resume/");
+  public $buttons = array("Home" => "/", "Resume" => "/resume/", "About" => "/about/");
   public function __set($name, $value)
   {
     $this->$name = $value;
