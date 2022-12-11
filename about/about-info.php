@@ -1,4 +1,4 @@
 <?php
   $index->content .= 
-           "\t\t\t<h1>Mission:</h1>\n";
+           "\t\t\t<h2>Mission:</h2>\n";
 ?>
