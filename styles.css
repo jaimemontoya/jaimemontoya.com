@@ -4,7 +4,7 @@ p{margin:10px 0 20px}
 mark{background-color:yellow}
 .black{color:#000!important}
 .bold{font-weight:bold}
-.resetlink{font:inherit}
+.resetlink{font:inherit!important}
 .floatleft{float:left}
 .margintop25{margin-top:25px}
 .margintop15{margin-top:15px}
