@@ -2,6 +2,7 @@ body{padding:0;color:#000}
 header{text-align:center;background:#000}
 p{margin:10px 0 20px}
 mark{background-color:yellow}
+.black{#000}
 .bold{font-weight:bold}
 .floatleft{float:left}
 .margintop25{margin-top:25px}
