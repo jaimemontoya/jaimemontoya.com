@@ -2,6 +2,7 @@ body{padding:0;color:#000}
 header{text-align:center;background:#000}
 p{margin:10px 0 20px}
 mark{background-color:yellow}
+a[href^=tel]{color:black}
 .black{color:#000!important}
 .bold{font-weight:bold}
 .underline{text-decoration:underline}
