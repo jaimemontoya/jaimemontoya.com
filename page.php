@@ -67,6 +67,7 @@ class Page
   }
   public function DisplayHeader()
   {
+	echo "<div id=\"dailyVersesWrapper\"></div><script async defer src=\"https://dailyverses.net/get/random.js?language=niv\"></script>";
     echo "\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"Jaime Montoya\">Jaime Montoya</a>\n\t\t\t</div>\n";
     $this -> DisplayMenu($this->buttons);
     echo "\t\t</header>\n";
