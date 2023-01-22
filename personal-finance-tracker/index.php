@@ -18,8 +18,9 @@
 		$result = $conn->query($sql);
 		if ($result->num_rows > 0) {
 			echo "<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment methodPayment method</th><th>Buyer</th><th>Category</th><th>Total</th></tr>";
+			print_r($result);
 			while($row = $result->fetch_assoc()) {
-				echo "<tr><td>" . $row["Description"]. "</td><td>" . $row["DateKey"]. " " . $row["CityName"]. "</td><td>" . $row["PaymentMethodName"]. " " . $row["BuyerName"]. "</td><td>" . $row["Category"]. " " . $row["TotalSales"]. "</td></tr>";print_r($result);
+				echo "<tr><td>" . $row["Description"]. "</td><td>" . $row["DateKey"]. " " . $row["CityName"]. "</td><td>" . $row["PaymentMethodName"]. " " . $row["BuyerName"]. "</td><td>" . $row["Category"]. " " . $row["TotalSales"]. "</td></tr>";
 			}
 			echo "</table>";
 		} else {
