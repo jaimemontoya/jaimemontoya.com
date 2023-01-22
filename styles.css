@@ -4,7 +4,7 @@ p{margin:10px 0 20px}
 mark{background-color:yellow}
 a[href^=tel]{color:black!important;font:inherit!important}
 .black{color:#000!important}
-.bold{font-weight:bold}
+.bold{font-weight:bold!important}
 .underline{text-decoration:underline}
 .italic{font-style:italic}
 .resetlink{font:inherit!important;color:blue!important}
