@@ -1,5 +1,5 @@
 <?php
-echo phpinfo();
+//echo phpinfo();
 /*$user = "jmontoya";
 $password = "SuperEasy@1";
 $database = "finance";
@@ -16,4 +16,16 @@ try {
     print "Error!: " . $e->getMessage() . "<br/>";
     die();
 }*/
+$servername = "localhost";
+$username = "username";
+$password = "SuperEasy@1";
+
+// Create connection
+$conn = new mysqli($servername, $username, $password);
+
+// Check connection
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
+echo "Connected successfully";
 ?>
