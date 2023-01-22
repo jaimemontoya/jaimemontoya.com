@@ -19,7 +19,7 @@
 		if ($result->num_rows > 0) {
 			echo "<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment methodPayment method</th><th>Buyer</th><th>Category</th><th>Total</th></tr>";			
 			while($row = $result->fetch_assoc()) {
-				echo "<tr><td>" . $row["Description"]. "</td><td>" . $row["Date"]. " " . $row["City"]. "</td><td>" . $row["Payment method"]. " " . $row["Buyer"]. "</td><td>" . $row["Category"]. " " . $row["Total"]. "</td></tr>";
+				echo "<tr><td>" . $row["Description"]. "</td><td>" . $row["Date"]. "</td><td>" . $row["City"]. "</td><td>" . $row["Payment method"]. "</td><td>" . $row["Buyer"]. "</td><td>" . $row["Category"]. "</td><td>" . $row["Total"]. "</td></tr>";
 			}
 			echo "</table>";
 		} else {
