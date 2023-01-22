@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-	<head>Personal Finance Tracker</head>
+	<!--<head>Personal Finance Tracker</head>-->
 	<body>
 	<?php
 	$servername = "localhost";
