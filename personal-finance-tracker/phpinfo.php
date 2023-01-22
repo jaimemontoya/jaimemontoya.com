@@ -17,7 +17,7 @@ try {
     die();
 }*/
 $servername = "localhost";
-$username = "username";
+$username = "jmontoya";
 $password = "SuperEasy@1";
 
 // Create connection
