@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>The Holy Bible, English Standard Version</span>
-					<p>By Crossway. Read by Jaime Montoya from January 1, 2022 GMT to [in progress...]</p>
+					<p>By Crossway. Read by Jaime Montoya from January 1, 2022 GMT to [reading progress: 99% read]</p>
                 </div>
             </div>\n";
 ?>
