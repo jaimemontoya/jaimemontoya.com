@@ -6,6 +6,7 @@
   //require("personal-finance-in/personal-finance-in-book-info.php");
   //require("esv-holy-bible/esv-holy-bible-book-info.php");
   //require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
+  require("ielts-listening-tips/ielts-listening-tips-book-info.php");  
   require("multiply/multiply-book-info.php");
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");
   require("crazy-love/crazy-love-book-info.php");   
