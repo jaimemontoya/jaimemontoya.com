@@ -1,5 +1,6 @@
 <?php
-$user = "jmontoya";
+echo phpinfo();
+/*$user = "jmontoya";
 $password = "SuperEasy@1";
 $database = "finance";
 $table = "FactSales";
@@ -14,5 +15,5 @@ try {
 } catch (PDOException $e) {
     print "Error!: " . $e->getMessage() . "<br/>";
     die();
-}
+}*/
 ?>
