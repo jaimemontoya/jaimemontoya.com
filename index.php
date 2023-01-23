@@ -8,7 +8,8 @@
   require("multiply/multiply-book-info.php");
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");
   require("the-dangers-of-a-shallow-faith/the-dangers-of-a-shallow-faith-book-info.php");  
-  require("the-crucified-life/the-crucified-life-book-info.php");   
+  require("the-crucified-life/the-crucified-life-book-info.php");
+  require("sweat-think-go-faster/sweat-think-go-faster-book-info.php"); 
   require("crazy-love/crazy-love-book-info.php");   
   require("authentic-faith/authentic-faith-book-info.php");  
   require("the-pilgrim-s-progress/the-pilgrim-s-progress-book-info.php");
