@@ -4,6 +4,7 @@
   require("ielts-listening-strategies-guide/ielts-listening-strategies-guide-book-info.php");  
   require("ielts-listening-strategies/ielts-listening-strategies-book-info.php");
   require("ielts-listening-tips/ielts-listening-tips-book-info.php");  
+  require("ielts-writing-section-skills-mastery/ielts-writing-section-skills-mastery-book-info.php");  
   require("amplified-bible-classic-edition/amplified-bible-classic-edition-book-info.php");  
   require("ielts-success-formula-general/ielts-success-formula-general-book-info.php");  
   require("the-everything-store/the-everything-store-book-info.php");  
