@@ -7,6 +7,7 @@
   require("the-everything-store/the-everything-store-book-info.php");  
   require("multiply/multiply-book-info.php");
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");
+  require("the-amazon-way/the-amazon-way-book-info.php");  
   require("the-dangers-of-a-shallow-faith/the-dangers-of-a-shallow-faith-book-info.php");  
   require("the-crucified-life/the-crucified-life-book-info.php");
   require("the-pursuit-of-god/the-pursuit-of-god-book-info.php");
