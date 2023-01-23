@@ -4,6 +4,7 @@
   require("ielts-listening-strategies-guide/ielts-listening-strategies-guide-book-info.php");  
   require("ielts-listening-strategies/ielts-listening-strategies-book-info.php");
   require("ielts-listening-tips/ielts-listening-tips-book-info.php");  
+  require("amplified-bible-classic-edition/amplified-bible-classic-edition-book-info.php");  
   require("the-everything-store/the-everything-store-book-info.php");  
   require("multiply/multiply-book-info.php");
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");
