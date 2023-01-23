@@ -1,11 +1,7 @@
 <?php
   require("page.php");
   $index = new Page();
-  //require("pablo-de-sarasate-14-hours-a-day/pablo-de-sarasate-14-hours-a-day.php");  
-  //require("scala-design-patterns/scala-design-patterns-book-info.php");
-  //require("personal-finance-in/personal-finance-in-book-info.php");
-  //require("esv-holy-bible/esv-holy-bible-book-info.php");
-  //require("lightbend-scala-language-professional/lightbend-scala-language-professional-book-info.php");
+  require("ielts-listening-strategies-guide/ielts-listening-strategies-guide-book-info.php");  
   require("ielts-listening-strategies/ielts-listening-strategies-book-info.php");
   require("ielts-listening-tips/ielts-listening-tips-book-info.php");  
   require("the-everything-store/the-everything-store-book-info.php");  
