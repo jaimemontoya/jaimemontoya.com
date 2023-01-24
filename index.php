@@ -11,6 +11,7 @@
   require("knights-24-hour-trainer-sql-server-2008-integration-services/knights-24-hour-trainer-sql-server-2008-integration-services-book-info.php");
   require("multiply/multiply-book-info.php");
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");
+  require("official-ielts-prep-bonus-guide-included/official-ielts-prep-bonus-guide-included-book-info.php");  
   require("the-amazon-way/the-amazon-way-book-info.php");  
   require("the-dangers-of-a-shallow-faith/the-dangers-of-a-shallow-faith-book-info.php");  
   require("the-crucified-life/the-crucified-life-book-info.php");
