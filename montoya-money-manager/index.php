@@ -13,7 +13,7 @@
 	</head>
 	<body>		
 		<?php
-		include '../../../db.inc';
+		include '../../db.inc';
 		/* Content of '../../db.inc':
 		<?php
 		$servername = "localhost";
