@@ -14,7 +14,7 @@
 	<body>		
 		<?php
 		//include '../../db.inc';
-		echo $_CONF['path'] . "/../db.php"; 
+		echo $_CONF['path'] . "/../db.inc";
 		/* Content of '../../db.inc':*/
 		<?php
 		$servername = "localhost";
