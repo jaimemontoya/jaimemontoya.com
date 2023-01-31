@@ -13,8 +13,9 @@
 	</head>
 	<body>		
 		<?php
-		include '../../db.inc';
-		/* Content of '../../db.inc':
+		//include '../../db.inc';
+		echo $_CONF['path'] . "/../db.php"; 
+		/* Content of '../../db.inc':*/
 		<?php
 		$servername = "localhost";
 		$username = "[Type your username here]";
@@ -25,7 +26,7 @@
 				die("Connection failed: " . $conn->connect_error);
 		}
 		?>
-		*/
+		
 		?>
 		echo "<h1>Montoya Money Manager</h1>";
 		echo "<h1>Expenses</h1>";
