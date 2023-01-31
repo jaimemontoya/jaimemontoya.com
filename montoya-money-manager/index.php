@@ -30,7 +30,7 @@
 		$sumSales = $conn->query($sqlSumSales);
 		$result = $conn->query($sql);
 		if ($result->num_rows > 0) {
-			echo $sqlTotalExpenses;print_r($totalExpenses);echo "<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total = ".$totalExpenses->fetch_assoc()["TotalExpenses"]."</th></tr>";
+			echo $sqlTotalExpenses;print_r($totalExpenses->fetch_assoc());echo "<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total = ".$totalExpenses->fetch_assoc()["TotalExpenses"]."</th></tr>";
 			while($row = $result->fetch_assoc()) {
 				echo "<tr><td>" . $row["Description"]. "</td><td>" . $row["Date"]. "</td><td>" . $row["City"]. "</td><td>" . preg_replace('/[0-9]/', '*', $row["Payment method"]). "</td><td>" . $row["Seller"]. "</td><td>" . $row["Category"]. "</td><td>" . $row["Total"]. "</td></tr>";
 			}
