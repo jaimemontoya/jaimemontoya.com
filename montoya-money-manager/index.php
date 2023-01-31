@@ -9,7 +9,7 @@
 			gtag('js', new Date());
 			gtag('config', 'UA-112469917-1');
 		</script>
-		<title>Personal Finance Tracker</title>
+		<title>Montoya Money Manager</title>
 	</head>
 	<body>		
 		<?php
