@@ -21,7 +21,6 @@
 		/*$username = "[Type your username here]";
 		$password = "[Type your password here]";
 		$dbname = "[Type your database here]";*/
-		$servername = "localhost";
 		$username = "jmontoya";
 		$password = "SuperEasy@1";
 		$dbname = "finance";
