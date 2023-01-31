@@ -16,7 +16,7 @@
 		//include '../../db.inc';
 		//echo $_CONF['path'] . "/../db.inc";
 		//include '/var/www/db.inc';
-		include '../db.inc';
+		include '../../db.inc';
 		
 		/* Content of '../../db.inc':*/
 		$servername = "localhost";
