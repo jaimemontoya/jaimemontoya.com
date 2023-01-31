@@ -14,7 +14,8 @@
 	<body>		
 		<?php
 		//include '../../db.inc';
-		echo $_CONF['path'] . "/../db.inc";
+		//echo $_CONF['path'] . "/../db.inc";
+		include '/var/www/db.inc';
 		/* Content of '../../db.inc':*/
 		$servername = "localhost";
 		/*$username = "[Type your username here]";
