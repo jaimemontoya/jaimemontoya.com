@@ -13,14 +13,7 @@
 	</head>
 	<body>		
 		<?php
-		$servername = "localhost";
-		$username = "jmontoya";
-		$password = "SuperEasy@1";
-		$dbname = "finance";
-		$conn = new mysqli($servername, $username, $password, $dbname);
-		if ($conn->connect_error) {
-			die("Connection failed: " . $conn->connect_error);
-		}		
+		include 'db.inc';
 		echo "<h1>Montoya Money Manager</h1>";
 		echo "<h1>Expenses</h1>";
 		$sqlTotalExpenses = "SELECT SUM(Total) sumExpenses FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID) purchases GROUP BY TotalPurchases, Description, DateKey, CityName, PaymentMethodName, SellerName ORDER BY DateKey DESC) expenses;";
