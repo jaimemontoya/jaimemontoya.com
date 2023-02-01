@@ -29,7 +29,7 @@
 		?>
 		<form action="<?="index.php";?>" method="GET">
 			<div>Start date:</div>
-			<div><input type="text" name="startDateKey" value="<?$_POST["startDateKey"];?>"></div>
+			<div><input type="text" name="startDateKey" value="<?echo $_POST["startDateKey"];?>"></div>
 			<div>End date:</div>
 			<div><input type="text" name="endDateKey" value=""></div>
 			<br>
