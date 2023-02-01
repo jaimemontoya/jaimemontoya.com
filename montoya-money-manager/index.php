@@ -41,7 +41,7 @@
 		}
 		//echo "Date type: ".gettype(var_dump(validateDate($_GET['dateKey'])));
 		echo "Date type: ".gettype(validateDate($_GET['dateKey']));
-		if (var_dump(validateDate($_GET['dateKey']))) {
+		if (validateDate($_GET['dateKey'])) {
 			echo "Good format: ".$_GET['dateKey'];
 		} else {
 			echo "Bad format: ".$_GET['dateKey'];
