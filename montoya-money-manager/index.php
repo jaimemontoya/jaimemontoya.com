@@ -28,6 +28,7 @@
 		echo "<h1>Montoya Money Manager</h1>";
 		?>
 		<form action="<?php echo "index.php";?>" method="GET">
+			<div>Date format 'Y-m-d', e.g. 2023-01-18</div>
 			<div>Start date:</div>
 			<div><input type="text" name="startDateKey" value="<?php echo $_GET['startDateKey'];?>"></div>
 			<div>End date:</div>
