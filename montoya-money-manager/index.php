@@ -31,7 +31,7 @@
 			<div>Start date:</div>
 			<div><input type="text" name="startDateKey" value="<?php echo $_GET['startDateKey'];?>"></div>
 			<div>End date:</div>
-			<div><input type="text" name="endDateKey" value=""></div>
+			<div><input type="text" name="endDateKey" value="<?php echo $_GET['endDateKey'];?>"></div>
 			<br>
 			<div><input type="submit" value="Submit"></div>
 		</form>
