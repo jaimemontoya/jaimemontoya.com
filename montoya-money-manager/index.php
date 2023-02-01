@@ -39,7 +39,7 @@
 			$d = DateTime::createFromFormat($format, $date);
 			return $d && $d->format($format) === $date;
 		}
-		if (var_dump(validateDate($_GET['dateKey']))) {
+		if (var_dump(validateDate($_GET['dateKey']))==true) {
 			echo "Good format: ".$_GET['dateKey'];
 		} else {
 			echo "Bad format: ".$_GET['dateKey'];
