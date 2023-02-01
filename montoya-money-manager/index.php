@@ -27,7 +27,7 @@
 		*/
 		echo "<h1>Montoya Money Manager</h1>";
 		?>
-		<form action="<?="index.php";?>" method="GET">
+		<form action="<?php echo "index.php";?>" method="GET">
 			<div>Start date:</div>
 			<div><input type="text" name="startDateKey" value="<?php echo $_GET['startDateKey'];?>"></div>
 			<div>End date:</div>
