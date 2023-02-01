@@ -35,7 +35,11 @@
 		</form>
 		<?php
 		echo "<h1>Expenses</h1>";
-		if (DateTimeImmutable::createFromFormat('Y-m-d', $_GET['dateKey'])) {
+		function validateDate($date, $format = 'Y-m-d'){
+			$d = DateTime::createFromFormat($format, $date);
+			return $d && $d->format($format) === $date;
+		}
+		if (var_dump(validateDate($_GET['dateKey']))) {
 			echo "Good format: ".$_GET['dateKey'];
 		} else {
 			echo "Bad format: ".$_GET['dateKey'];
