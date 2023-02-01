@@ -35,12 +35,11 @@
 		</form>
 		<?php
 		echo "<h1>Expenses</h1>";
-		/*function validateDate($date, $format = 'Y-m-d'){
+		function validateDate($date, $format = 'Y-m-d'){
 			$d = DateTime::createFromFormat($format, $date);
 			return $d && $d->format($format) === $date;
-		}*/
-		//if (validateDate($_GET['dateKey'])) {
-		if (DateTime::createFromFormat('Y-m-d', $_GET['dateKey'])) {
+		}
+		if (validateDate($_GET['dateKey'])) {
 			echo "Good format: ".$_GET['dateKey'];
 		} else {
 			echo "Bad format: ".$_GET['dateKey'];
