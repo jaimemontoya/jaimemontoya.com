@@ -30,6 +30,7 @@
 		<form action="<?="index.php";?>" method="GET">
 			<div>Start date:</div>
 			<div><input type="text" name="DateKey" value=""></div>
+			<br>
 			<div><input type="submit" value="Submit"></div>
 		</form>
 		<?php
