@@ -36,7 +36,8 @@
 		<?php
 		echo "<h1>Expenses</h1>";
 		print_r($_GET);
-		if (DateTime::createFromFormat('Y-m-d', $_GET['dateKey']){
+		//if (DateTime::createFromFormat('Y-m-d', $_GET['dateKey']){
+		if (DateTime::createFromFormat('Y-m-d', "hello"){
 			echo "Good format: "/*.$_GET['dateKey']*/;
 		} else {
 			echo "Bad format: "/*.$_GET['dateKey']*/;
