@@ -29,8 +29,8 @@
 		?>
 		<form action="<?="index.php";?>" method="GET">
 			<div>Start date:</div>
-			<input type="text" name="DateKey" value="">
-			<input type="submit" value="">
+			<div><input type="text" name="DateKey" value=""></div>
+			<div><input type="submit" value="Submit"></div>
 		</form>
 		<?php
 		echo "<h1>Expenses</h1>";
