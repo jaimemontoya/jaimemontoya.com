@@ -52,7 +52,7 @@
 			<div><input type="submit" value="Submit"></div>
 		</form>
 		<?php
-		print_r($_GET);
+		print_r($_GET['category']);
 		echo "<h1>Expenses</h1>";
 		function validateDate($date, $format = 'Y-m-d'){
 			$d = DateTime::createFromFormat($format, $date);
