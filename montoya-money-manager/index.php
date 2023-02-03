@@ -41,7 +41,7 @@
 				$resultCategories = $conn->query($sqlGetCategories);
 				if ($resultCategories->num_rows > 0) {
 					while($row = $resultCategories->fetch_assoc()) {
-						echo '<input type="checkbox" name='.$row['CategoryName'].' value='.$row['CategoryID'].' />'.$row['CategoryName'].' ';
+						echo '<input type="checkbox" name="category[]" value='.$row['CategoryID'].' />'.$row['CategoryName'].' ';
 					}
 				} else {
 					echo "0 categories";
