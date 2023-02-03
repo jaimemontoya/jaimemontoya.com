@@ -72,6 +72,7 @@
 		if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
 			$sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."' AND dca.CategoryID IN (".implode(', ', $_GET['category']).")";
 		}
+		echo $sqlExpenses;
 		$sumExpenses = $conn->query($sqlSumExpenses);
 		$resultExpenses = $conn->query($sqlExpenses);
 		if ($resultExpenses->num_rows > 0) {
