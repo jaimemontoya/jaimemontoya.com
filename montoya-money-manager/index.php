@@ -37,7 +37,7 @@
 			<div>Select categories:</div>
 			<div>
 				<?php
-				$sqlGetCategories = "SELECT CategoryName FROM DimCategory;";
+				$sqlGetCategories = "SELECT CategoryName FROM DimCategory ORDER BY CategoryName ASC;";
 				$resultCategories = $conn->query($sqlGetCategories);
 				if ($resultCategories->num_rows > 0) {
 					while($row = $resultCategories->fetch_assoc()) {
