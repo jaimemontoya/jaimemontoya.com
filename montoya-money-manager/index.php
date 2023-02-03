@@ -55,6 +55,7 @@
 		print_r($_GET['category']);
 		$List = implode(', ', $_GET['category']);
 		print_r($List);
+		print_r(explode(", ", $List));
 		echo "<h1>Expenses</h1>";
 		function validateDate($date, $format = 'Y-m-d'){
 			$d = DateTime::createFromFormat($format, $date);
