@@ -47,8 +47,8 @@
 					echo "0 categories";
 				}
 				?>
-				<br />
 			</div>
+			<br />
 			<div><input type="submit" value="Submit"></div>
 		</form>
 		<?php
