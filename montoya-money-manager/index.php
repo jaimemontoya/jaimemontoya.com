@@ -34,6 +34,20 @@
 			<div>End date:</div>
 			<div><input type="text" name="endDateKey" value="<?php echo $_GET['endDateKey'];?>"></div>
 			<br>
+			<div>Select categories:</div>
+			<div>
+				<?php
+				$sqlGetCategories = "SELECT CategoryName FROM DimCategory;";
+				$resultCategories = $conn->query($sqlGetCategories);
+				if ($resultCategories->num_rows > 0) {
+					while($row = $resultCategories->fetch_assoc()) {
+						echo '<input type="checkbox" name='.$row['CategoryName'].' value='.$row['CategoryName'].'>'.$row['CategoryName'];
+					}
+				} else {
+					echo "0 categories";
+				}
+				?>
+			</div>
 			<div><input type="submit" value="Submit"></div>
 		</form>
 		<?php
