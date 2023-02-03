@@ -37,11 +37,11 @@
 			<div>Select categories:</div>
 			<div>
 				<?php
-				$sqlGetCategories = "SELECT CategoryName FROM DimCategory ORDER BY CategoryName ASC;";
+				$sqlGetCategories = "SELECT * FROM DimCategory ORDER BY CategoryName ASC;";
 				$resultCategories = $conn->query($sqlGetCategories);
 				if ($resultCategories->num_rows > 0) {
 					while($row = $resultCategories->fetch_assoc()) {
-						echo '<input type="checkbox" name='.$row['CategoryName'].' value='.$row['CategoryName'].' />'.$row['CategoryName'].' ';
+						echo '<input type="checkbox" name='.$row['CategoryName'].' value='.$row['CategoryID'].' />'.$row['CategoryName'].' ';
 					}
 				} else {
 					echo "0 categories";
