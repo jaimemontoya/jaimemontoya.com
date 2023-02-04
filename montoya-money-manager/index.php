@@ -52,7 +52,7 @@
 			<div><input type="submit" value="Submit"></div>
 		</form>
 		<?php
-		if($_GET['category']){echo "At least 1 element selected."}else{"No elements selected."}
+		if($_GET['category']){echo "At least 1 element selected.";}else{"No elements selected.";}
 		print_r($_GET['category']);
 		print_r(implode(', ', $_GET['category']));
 		echo "<h1>Expenses</h1>";
