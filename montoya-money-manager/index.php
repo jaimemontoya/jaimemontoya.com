@@ -54,6 +54,7 @@
 		<?php
 		print_r($_GET);
 		print_r($_GET['category']);
+		if (isset($_GET['category'])){echo "Yes, it is set.";}else{"No, it is not set.";}
 		print_r(implode(', ', $_GET['category']));
 		echo "<h1>Expenses</h1>";
 		function validateDate($date, $format = 'Y-m-d'){
