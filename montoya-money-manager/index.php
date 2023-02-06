@@ -65,7 +65,7 @@
 		if(isset($_GET['category'])){
 			$sqlSumExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
 		}
-		$sqlSumExpenses .= ") purchases GROUP BY TotalPurchases, Description, DateKey, CityName, PaymentMethodName, SellerName ORDER BY DateKey DESC) expenses";
+		$sqlSumExpenses .= " AND fp.TicketDivisionNumber = fpxdc.TicketDivisionNumber) purchases GROUP BY TotalPurchases, Description, DateKey, CityName, PaymentMethodName, SellerName ORDER BY DateKey DESC) expenses";
 		if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
 			$sqlSumExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
 		}
@@ -81,7 +81,7 @@
 		if(isset($_GET['category'])){
 			$sqlExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
 		}
-		$sqlExpenses .= ") purchases GROUP BY TotalPurchases, Description, DateKey, CityName, PaymentMethodName, SellerName ORDER BY DateKey DESC) expensesTable";
+		$sqlExpenses .= " AND fp.TicketDivisionNumber = fpxdc.TicketDivisionNumber) purchases GROUP BY TotalPurchases, Description, DateKey, CityName, PaymentMethodName, SellerName ORDER BY DateKey DESC) expensesTable";
 		if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
 			$sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
 		}
