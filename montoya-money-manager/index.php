@@ -42,7 +42,7 @@
 				if ($resultCategories->num_rows > 0) {
 					while($row = $resultCategories->fetch_assoc()) {
 						echo '<input type="checkbox" name="category[]" value="'.$row['CategoryID'].'" />'.$row['CategoryName'].' ';
-						print_r($_GET);
+						print_r($_GET['category']);
 					}
 				} else {
 					echo "0 categories";
