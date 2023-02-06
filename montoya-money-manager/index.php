@@ -52,9 +52,6 @@
 			<div><input type="submit" value="Submit"></div>
 		</form>
 		<?php
-		print_r($_GET);
-		print_r($_GET['category']);
-		print_r(implode(', ', $_GET['category']));
 		echo "<h1>Expenses</h1>";
 		function validateDate($date, $format = 'Y-m-d'){
 			$d = DateTime::createFromFormat($format, $date);
@@ -80,7 +77,6 @@
 		if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
 			$sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
 		}
-		echo $sqlExpenses;
 		$sumExpenses = $conn->query($sqlSumExpenses);
 		$resultExpenses = $conn->query($sqlExpenses);
 		if ($resultExpenses->num_rows > 0) {
