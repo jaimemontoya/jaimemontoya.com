@@ -4,12 +4,12 @@
   require("ielts-listening-strategies-guide/ielts-listening-strategies-guide-book-info.php");  
   require("ielts-listening-strategies/ielts-listening-strategies-book-info.php");
   require("ielts-listening-tips/ielts-listening-tips-book-info.php");  
-  require("ielts-writing-section-skills-mastery/ielts-writing-section-skills-mastery-book-info.php");  
   require("amplified-bible-classic-edition/amplified-bible-classic-edition-book-info.php");
   require("the-everything-store/the-everything-store-book-info.php");  
   require("knights-24-hour-trainer-sql-server-2008-integration-services/knights-24-hour-trainer-sql-server-2008-integration-services-book-info.php");
   require("multiply/multiply-book-info.php");
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");
+  require("ielts-writing-section-skills-mastery/ielts-writing-section-skills-mastery-book-info.php");
   require("ielts-success-formula-general/ielts-success-formula-general-book-info.php"); 
   require("official-ielts-prep-bonus-guide-included/official-ielts-prep-bonus-guide-included-book-info.php");  
   require("the-amazon-way/the-amazon-way-book-info.php");  
