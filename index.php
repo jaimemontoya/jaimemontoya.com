@@ -1,6 +1,6 @@
 <?php
   require("page.php");
-  $index = new Page();
+  $index = new Page();f
   require("ielts-listening-and-speaking-sections-skills-mastery/ielts-listening-and-speaking-sections-skills-mastery-book-info.php");  
   require("ielts-listening-strategies-guide/ielts-listening-strategies-guide-book-info.php");  
   require("ielts-listening-strategies/ielts-listening-strategies-book-info.php");
