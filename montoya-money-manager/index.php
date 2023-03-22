@@ -141,7 +141,7 @@
 		<div id="id01" class="modal">
 		  <form class="modal-content animate" action="" method="post">
 			<div class="imgcontainer">
-			  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>ww
+			  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 			  <div class="logo">
 				<a href="/" title="Jaime Montoya">Jaime Montoya</a>
 			</div>
