@@ -143,7 +143,7 @@
 			<div class="imgcontainer">
 			  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 			  <div class="logo">
-				<a href="/" title="Jaime Montoya">Jaime Montoya</a>
+				<a href="/" title="Montoya Money Manager">Montoya Money Manager</a>
 			</div>
 			</div>
 			<div class="container">
