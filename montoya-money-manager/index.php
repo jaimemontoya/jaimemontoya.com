@@ -175,8 +175,8 @@
 		<?php
 		/* These are our valid username and passwords */
 		$user = 'jmontoya';
-		$pass = 'MontoyaMM$$$1';/*
-		if (isset($_POST['username']) && isset($_POST['password')) {
+		$pass = 'MontoyaMM$$$1';
+		if (isset($_POST['username']) && isset($_POST['password')) {/*
 			if (($_POST['username'] == $user) && ($_POST['password'] == $pass)) {
 				if (isset($_POST['rememberme'])) {
 					/* Set cookie to last 1 year 
@@ -281,10 +281,10 @@
 				$conn->close();
 			} else {
 				echo 'Username/Password Invalid';
-			}
+			}*/
 		} else {
 			echo 'You must supply a username and password.';
-		}*/
+		}
 		?>
 	</body>
 </html>
