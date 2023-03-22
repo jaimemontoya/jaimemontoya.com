@@ -1,3 +1,7 @@
+<?php
+// Start the session
+session_start();
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -190,7 +194,6 @@
 					setcookie('username', $_POST['username'], false, '/montoya-money-manager', 'www.jaimemontoya.com');
 					setcookie('password', md5($_POST['password']), false, '/montoya-money-manager', 'www.jaimemontoya.com');
 				}
-				session_start();
 				$_SESSION["user"] = "jmontoya";
 				echo "<h1>Montoya Money Manager</h1>";
 				?>
