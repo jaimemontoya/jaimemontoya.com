@@ -140,6 +140,9 @@
 			<div class="imgcontainer">
 			  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 			  <img src="img_avatar2.png" alt="Avatar" class="avatar">
+			  <div class="logo">
+				<a href="/" title="Jaime Montoya">Jaime Montoya</a>
+			</div>
 			</div>
 			<div class="container">
 			  <label for="uname"><b>Username</b></label>
