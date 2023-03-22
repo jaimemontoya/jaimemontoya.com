@@ -117,7 +117,7 @@
 			  }
 			}
 			.logo{padding-top:15px}
-			.logo a{font:20px/20px Carter One;color:#fff;text-decoration:none;font-size:35px}
+			.logo a{font:20px/20px Carter One;color:#04AA6D;text-decoration:none;font-size:35px}
 		</style>
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Carter+One">
 	</head>
