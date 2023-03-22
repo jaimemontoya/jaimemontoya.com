@@ -174,6 +174,7 @@
 		</script>
 		<?php
 		echo "<h1>Montoya Money Manager</h1>";
+		print_r($_POST);
 		?>
 		<form action="<?php echo "index.php";?>" method="GET">
 			<div>Date format 'Y-m-d', e.g. 2023-01-18</div>
