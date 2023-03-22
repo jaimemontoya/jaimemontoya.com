@@ -177,7 +177,7 @@
 		$user = 'jmontoya';
 		$pass = 'MontoyaMM$$$1';
 		if (isset($_POST['uname']) && isset($_POST['psw'])) {
-			if (($_POST['username'] == $user) && ($_POST['password'] == $pass)) {/*
+			if (($_POST['uname'] == $user) && ($_POST['psw'] == $pass)) {/*
 				if (isset($_POST['rememberme'])) {
 					/* Set cookie to last 1 year 
 					setcookie('username', $_POST['username'], time()+60*60*24*365, '/montoya-money-manager', 'www.jaimemontoya.com');
