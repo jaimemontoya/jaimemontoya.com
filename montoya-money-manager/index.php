@@ -139,7 +139,7 @@ session_start();
 				die("Connection failed: " . $conn->connect_error);
 		}
 		*/
-		if (!isset($_SESSION["user"]) {
+		if (!isset($_SESSION["user"])) {
 		?>
 		<h2>Montoya Money Manager</h2>
 		<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
