@@ -181,7 +181,7 @@ session_start();
 		$user = 'jmontoya';
 		$pass = 'MontoyaMM$$$1';
 		echo "Session BEGIN";
-		print_r($_SESSION);
+		print_r($_SESSION["user"]);
 		echo "Session END";
 		if (isset($_POST['uname']) && isset($_POST['psw']) || (isset($_SESSION["user"]))) {
 			if (($_POST['uname'] == $user) && ($_POST['psw'] == $pass) || (isset($_SESSION["user"]))) {
