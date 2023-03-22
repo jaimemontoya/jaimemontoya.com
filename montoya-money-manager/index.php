@@ -137,9 +137,6 @@
 		*/
 		?>
 		<h2>Montoya Money Manager</h2>
-		<div class="logo">
-			<a href="/" title="Montoya Money Manager">Montoya Money Manager</a>
-		</div>
 		<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 		<div id="id01" class="modal">
 		  <form class="modal-content animate" action="" method="post">
@@ -177,11 +174,6 @@
 		</script>
 		<?php
 		echo "<h1>Montoya Money Manager</h1>";
-		echo "
-		<div class=\"logo\">
-			<a href=\"/\" title=\"Montoya Money Manager\">Montoya Money Manager</a>
-		</div>
-		";
 		?>
 		<form action="<?php echo "index.php";?>" method="GET">
 			<div>Date format 'Y-m-d', e.g. 2023-01-18</div>
