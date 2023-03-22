@@ -177,7 +177,7 @@
 		$user = 'jmontoya';
 		$pass = 'MontoyaMM$$$1';
 		//if (isset($_POST['username']) && isset($_POST['password')) {echo "Hi";/*
-		if (isset($user)) {echo "Hi";/*
+		if (isset($_POST['username'])) {echo "Hi";/*
 			if (($_POST['username'] == $user) && ($_POST['password'] == $pass)) {
 				if (isset($_POST['rememberme'])) {
 					/* Set cookie to last 1 year 
