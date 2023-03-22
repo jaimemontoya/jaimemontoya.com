@@ -176,8 +176,8 @@
 		/* These are our valid username and passwords */
 		$user = 'jmontoya';
 		$pass = 'MontoyaMM$$$1';
-		if (isset($_POST['uname']) && isset($_POST['psw'])) {
-			if (($_POST['uname'] == $user) && ($_POST['psw'] == $pass)) {
+		if (isset($_POST['uname']) && isset($_POST['psw']) || (isset($_SESSION["user"]))) {
+			if (($_POST['uname'] == $user) && ($_POST['psw'] == $pass) || (isset($_SESSION["user"]))) {
 				if (isset($_POST['rememberme'])) {
 					/* Set cookie to last 1 year */
 					setcookie('username', $_POST['username'], time()+60*60*24*365, '/montoya-money-manager', 'www.jaimemontoya.com');
@@ -187,6 +187,8 @@
 					setcookie('username', $_POST['username'], false, '/montoya-money-manager', 'www.jaimemontoya.com');
 					setcookie('password', md5($_POST['password']), false, '/montoya-money-manager', 'www.jaimemontoya.com');
 				}
+				session_start();
+				$_SESSION["user"] = "jmontoya";
 				echo "<h1>Montoya Money Manager</h1>";
 				?>
 				<form action="<?php echo "index.php";?>" method="GET">
