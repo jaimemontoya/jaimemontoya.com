@@ -6,7 +6,7 @@
                 </div>
                 <div class=\"book-title-authors-read-by\">
 	                <span>The Logic of God: 52 Christian Essentials for the Heart and Mind</span>
-	                <p>By Ravi Zacharias. Read by Jaime Montoya from 4:06 AM January 6, 2020 to 6:38 AM April 12, 2020 GMT.</p>
+	                <p>By Ravi Zacharias. Book 10 read by Jaime Montoya from 4:06 AM January 6, 2020 to 6:38 AM April 12, 2020 GMT.</p>
                 </div>
             </div>\n";
 ?>
