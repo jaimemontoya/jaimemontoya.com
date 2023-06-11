@@ -6,7 +6,7 @@
                 </div>
                 <div class=\"book-title-authors-read-by\">
 	                <span>The Lamb's Supper: The Mass as Heaven on Earth</span>
-	                <p>By Scott Hahn. Book 9 read by Jaime Montoya from 4:27 AM January 3, 2020 to 02:16 AM April 15, 2020 GMT.</p>
+	                <p>By Scott Hahn. Book 10 read by Jaime Montoya from 4:27 AM January 3, 2020 to 02:16 AM April 15, 2020 GMT.</p>
                 </div>
             </div>\n";
 ?>

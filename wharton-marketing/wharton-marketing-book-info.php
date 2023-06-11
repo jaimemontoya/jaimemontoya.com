@@ -6,7 +6,7 @@
                 </div>
                 <div class=\"book-title-authors-read-by\">
 	                <span>Introduction to Marketing</span>
-	                <p>By University of Pennsylvania. Successfully completed by Jaime Montoya from 4:30 PM April 22, 2019 to April 30, 2019 GMT. Verify at https://coursera.org/verify/UN9PAZ74UDAB.</p>
+	                <p>By University of Pennsylvania. Course 1 successfully completed by Jaime Montoya from 4:30 PM April 22, 2019 to April 30, 2019 GMT. Verify at https://coursera.org/verify/UN9PAZ74UDAB.</p>
                 </div>
             </div></a>\n";
 ?>
