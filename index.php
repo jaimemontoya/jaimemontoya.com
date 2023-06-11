@@ -27,7 +27,7 @@
   require("crazy-love/crazy-love-book-info.php");   
   require("authentic-faith/authentic-faith-book-info.php");  
   require("the-pilgrim-s-progress/the-pilgrim-s-progress-book-info.php");
-  require("dramatized-audio-bible-niv/dramatized-audio-bible-niv-book-info.php");  
+  //require("dramatized-audio-bible-niv/dramatized-audio-bible-niv-book-info.php");  
   require("ielts-50-things-to-know/ielts-50-things-to-know-book-info.php");  
   require("ielts-listening-raise-your-score/ielts-listening-raise-your-score-book-info.php");  
   require("official-ielts-prep/official-ielts-prep-book-info.php");   
