@@ -6,7 +6,7 @@
                 </div>
                 <div class=\"book-title-authors-read-by\">
 	                <span>NIV Holy Bible</span>
-	                <p>By Zondervan. Read by Jaime Montoya from 0:00 AM September 30, 2019 to 9:56 PM December 31, 2021 GMT.</p>
+	                <p>By Zondervan. <mark>Book 24 read by Jaime Montoya</mark> from 0:00 AM September 30, 2019 to 9:56 PM December 31, 2021 GMT.</p>
                 </div>
             </div>\n";
 ?>

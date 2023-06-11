@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Immigrate to Canada: How to Prepare Materials for Express Entry Like a Pro</span>
-					<p>By Ye Tian. Read by Jaime Montoya from 1:14 PM June 30, 2022 to 4:31 AM July 2, 2022 GMT.</p>
+					<p>By Ye Tian. <mark>Book 30 read by Jaime Montoya</mark> from 1:14 PM June 30, 2022 to 4:31 AM July 2, 2022 GMT.</p>
                 </div>
             </div>\n";
 ?>

@@ -6,7 +6,7 @@
                 </div>
                 <div class=\"book-title-authors-read-by\">
 	                <span>Emotional Intelligence For Dummies</span>
-	                <p>By Steven J. Stein. Read by Jaime Montoya from 5:05 PM January 3, 2022 to 4:23 AM April 20, 2022 GMT.</p>
+	                <p>By Steven J. Stein. <mark>Book 28 read by Jaime Montoya</mark> from 5:05 PM January 3, 2022 to 4:23 AM April 20, 2022 GMT.</p>
                 </div>
             </div>\n";
 ?>
