@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>The Hidden History of Monopolies</span>
-					<p>By Thom Hartmann. Read by Jaime Montoya from 6:09 PM August 11, 2022 to 1:04 PM August 15, 2022 GMT.</p>
+					<p>By Thom Hartmann. <mark>Book 36 read by Jaime Montoya</mark> from 6:09 PM August 11, 2022 to 1:04 PM August 15, 2022 GMT.</p>
                 </div>
             </div>\n";
 ?>

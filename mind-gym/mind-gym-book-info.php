@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Mind Gym: An Athlete's Guide to Inner Excellence</span>
-					<p>By Gary Mack, David Casstevens. Read by Jaime Montoya from 7:20 PM August 24, 2022 to 3:19 PM August 28 GMT.</p>
+					<p>By Gary Mack, David Casstevens. <mark>Book 38 read by Jaime Montoya</mark> from 7:20 PM August 24, 2022 to 3:19 PM August 28 GMT.</p>
                 </div>
             </div>\n";
 ?>
