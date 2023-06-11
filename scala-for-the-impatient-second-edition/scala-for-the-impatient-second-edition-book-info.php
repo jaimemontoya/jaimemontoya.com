@@ -6,7 +6,7 @@
                 </div>
                 <div class=\"book-title-authors-read-by\">
 	                <span>Scala for the Impatient Second Edition</span>
-	                <p>By Cay Horstmann. Read by Jaime Montoya from 1:20 AM April 2, 2021 to 2:26 AM May 31, 2021 GMT.</p>
+	                <p>By Cay Horstmann. <mark>Book 17 read by Jaime Montoya</mark> from 1:20 AM April 2, 2021 to 2:26 AM May 31, 2021 GMT.</p>
                 </div>
             </div>\n";
 ?>

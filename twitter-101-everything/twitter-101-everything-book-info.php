@@ -6,7 +6,7 @@
                 </div>
                 <div class=\"book-title-authors-read-by\">
 	                <span>Twitter 101: Everything You Need to Know about Twitter Marketing</span>
-	                <p>By Lauren Dugan. Book 3 read by Jaime Montoya from 9:14 AM September 15, 2018 to 10:24 PM September 16, 2018 GMT.</p>
+	                <p>By Lauren Dugan. <mark>Book 3 read by Jaime Montoya</mark> from 9:14 AM September 15, 2018 to 10:24 PM September 16, 2018 GMT.</p>
                 </div>
             </div>\n";
 ?>
