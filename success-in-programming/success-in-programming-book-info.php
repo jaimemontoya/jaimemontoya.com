@@ -6,7 +6,7 @@
                 </div>
                 <div class=\"book-title-authors-read-by\">
 	                <span>Success in Programming: How to Gain Recognition, Power, and Influence through Personal Branding</span>
-	                <p>By Fr&eacute;d&eacute;ric Harper. Book 1 read by Jaime Montoya from 1:59 AM August 31, 2018 to 11:52 PM September 6, 2018 GMT.</p>
+	                <p>By Fr&eacute;d&eacute;ric Harper. <mark>Book 1</mark> read by Jaime Montoya from 1:59 AM August 31, 2018 to 11:52 PM September 6, 2018 GMT.</p>
                 </div>
             </div>\n";
 ?>
