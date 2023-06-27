@@ -16,7 +16,7 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .clearboth{clear:both}
 .container{padding: 0 14px}
 .logo{padding-top:15px}
-.logo a{font:20px/20px Carter One;color:#fff;text-decoration:none;font-size:35px}
+.logo a{font:20px/20px Carter One;color:#fff!important;text-decoration:none;font-size:35px}
 nav{background:#000}
 nav ul{list-style-type:none;margin:0}
 nav li{display:inline-block;font-size:14px;color:#afafaf}
