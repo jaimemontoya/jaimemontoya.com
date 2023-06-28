@@ -8,7 +8,7 @@
   require("amplified-bible-classic-edition/amplified-bible-classic-edition-book-info.php");
   require("the-everything-store/the-everything-store-book-info.php");  
   require("knights-24-hour-trainer-sql-server-2008-integration-services/knights-24-hour-trainer-sql-server-2008-integration-services-book-info.php");*/
-  echo "abc";
+  $index->content .= echo "abc";
   require("think-learn-succeed/think-learn-succeed-book-info.php");   
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");  
   require("mere-christianity/mere-christianity-book-info.php");  
