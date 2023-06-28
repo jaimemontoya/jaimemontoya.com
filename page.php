@@ -25,7 +25,7 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
 	echo "\t\t<div class=\"container\">\n";
-	echo "'Spaniard Pablo de Sarasate, internationally acclaimed as the greatest violinist of the nineteenth century, was once called a genius by a famous critic. In reply to this Sarasate said, <mark>\"Genius! For 37 years I've practiced 14 hours a day, and now they call me a genius.' Pellegrini, R. J. (2014). <i>Education For The Joy Of It: How To Thrive Not Just Survive In High School, College and Beyond.</i> AuthorHouse. https://books.google.com/books?id=boOrBAAAQBAJ&lpg=PT158&ots=gYjDedfiWf&dq=Spaniard%20Pablo%20de%20Sarasate%2C%20internationally%20acclaimed%20as%20the%20greatest%20violinist%20of%20the%20nineteenth%20century%2C%20was%20once%20called%20a%20genius%20by%20a%20famous%20critic.%20In%20reply%20to%20this%20Sarasate%20said&pg=PT158#v=onepage&q=Spaniard%20Pablo%20de%20Sarasate,%20internationally%20acclaimed%20as%20the%20greatest%20violinist%20of%20the%20nineteenth%20century,%20was%20once%20called%20a%20genius%20by%20a%20famous%20critic.%20In%20reply%20to%20this%20Sarasate%20said&f=false";
+	echo "'Spaniard Pablo de Sarasate, internationally acclaimed as the greatest violinist of the nineteenth century, was once called a genius by a famous critic. In reply to this Sarasate said, <mark>\"Genius! For 37 years I've practiced 14 hours a day, and now they call me a genius.' Pellegrini, R. J. (2014). <i>Education For The Joy Of It: How To Thrive Not Just Survive In High School, College and Beyond.</i> AuthorHouse.";
     echo $this->content;
 	echo "\t\t</div>\n";
 	$this -> DisplayFooter();
