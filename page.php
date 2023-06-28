@@ -25,7 +25,7 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
 	echo "\t\t<div class=\"container\">\n";
-	echo "'Spaniard Pablo de Sarasate, internationally acclaimed as the greatest violinist of the nineteenth century, was once called a genius by a famous critic. In reply to this Sarasate said, \"Genius! For 37 years I've practiced 14 hours a day, and now they call me a genius.\"' Pellegrini, R. J. (2014). <i>Education For The Joy Of It: How To Thrive Not Just Survive In High School, College and Beyond.</i> AuthorHouse. https://bitly.com/202306282324";
+	echo "'Spaniard Pablo de Sarasate, internationally acclaimed as the greatest violinist of the nineteenth century, was once called a genius by a famous critic. In reply to this Sarasate said, \"Genius! For 37 years I've practiced 14 hours a day, and now they call me a genius.\"' Pellegrini, R. J. (2014). <i>Education For The Joy Of It: How To Thrive Not Just Survive In High School, College and Beyond.</i> AuthorHouse. https://bit.ly/202306282328";
     echo $this->content;
 	echo "\t\t</div>\n";
 	$this -> DisplayFooter();
