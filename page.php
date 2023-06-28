@@ -25,7 +25,7 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
 	echo "\t\t<div class=\"container\">\n";
-	echo "'abc'";
+	echo "Pellegrini, R. J. (2014). <i>Education For The Joy Of It: How To Thrive Not Just Survive In High School, College and Beyond.</i> AuthorHouse.";
     echo $this->content;
 	echo "\t\t</div>\n";
 	$this -> DisplayFooter();
