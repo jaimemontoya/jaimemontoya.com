@@ -4,9 +4,9 @@ class Page
   public $content;
   public $title = "Jaime Montoya";
   public $metaKeywords = "Jaime Montoya's website featuring books I have read, courses I have taken, calendar and resume.";
-  public $metaDescription = "Scala programmer specialist in software development building ETL processes for big data applications.";
+  public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
-  public $buttons = array("Home" => "/", "Calendar" => "/calendar/", "Resume" => "/resume/");
+  public $buttons = array("Home" => "/", "Resume" => "/resume/");
   public function __set($name, $value)
   {
     $this->$name = $value;
@@ -67,7 +67,7 @@ class Page
   }
   public function DisplayHeader()
   {
-    echo "\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"Jaime Montoya\">Jaime Montoya</a>\n\t\t\t</div>\n";
+    echo "\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"jaimemontoya.com\">jaimemontoya.com</a>\n\t\t\t</div>\n";
     $this -> DisplayMenu($this->buttons);
     echo "\t\t</header>\n";
   }

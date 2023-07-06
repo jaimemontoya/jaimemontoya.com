@@ -1,9 +1,24 @@
-body{padding:0;color:#000}
+body{padding:0;color:#fff!important;background:#000}
 header{text-align:center;background:#000}
-p{margin:10px 0 13px}
+p{margin:10px 0 20px}
+mark{background-color:yellow}
+a{color:#fff}
+a:hover{color:#fff!important}
+a[href^=tel]{color:black!important;font:inherit!important}
+.black{color:#000!important}
+.bold{font-weight:bold!important}
+.underline{text-decoration:underline}
+.italic{font-style:italic}
+.resetlink{font:inherit!important;color:blue!important}
+.floatleft{float:left}
+.margintop25{margin-top:25px}
+.marginbottom25{margin-bottom:25px}
+.margintop15{margin-top:15px}
+.marginbottom0{margin-bottom:0}
+.clearboth{clear:both}
 .container{padding: 0 14px}
 .logo{padding-top:15px}
-.logo a{font:20px/20px Carter One;color:#fff;text-decoration:none;font-size:35px}
+.logo a{font:20px/20px Carter One;color:#fff!important;text-decoration:none;font-size:35px}
 nav{background:#000}
 nav ul{list-style-type:none;margin:0}
 nav li{display:inline-block;font-size:14px;color:#afafaf}
@@ -11,12 +26,12 @@ nav li a{display:block;color:#fff;text-align:center;padding:5px 25px;text-decora
 nav li a:hover{color:#afafaf;background-color:#000;text-decoration:none}
 .center{text-align:center}
 .book{display:flex;flex-direction:row;margin-top:14px}
-.book a{text-decoration:none}
-.book > a:first-child{display:flex;align-self:center;flex-basis:49%;height:137px;max-width:88px}
+.book .book-thumbnail{text-decoration:none}
+.book > .book-thumbnail:first-child{display:flex;align-self:center;flex-basis:49%;height:137px;max-width:88px}
 .book-cover{align-items:center;background-color:transparent;background-repeat:no-repeat;background-size:contain;display:flex;flex:0 1 auto;justify-content:center;max-height:144px;max-width:84px;min-width:84px;position:relative;width:100%;}
 .book-title-authors-read-by{flex-grow:2;margin-left:16px;padding-top:10px}
-.book-title-authors-read-by span{display:inline-block;font:20px/20px Guardian Text Sans;font-weight:500;margin-bottom:8px;margin-top:0;color:#000}
-.book-title-authors-read-by p{color:#000000;font:12px/14px Guardian Text Sans\ 2,sans-serif;margin-top:0}
+.book-title-authors-read-by span{display:inline-block;font:20px/20px Guardian Text Sans;font-weight:500;margin-bottom:8px;margin-top:0}
+.book-title-authors-read-by p{font:12px/14px Guardian Text Sans\ 2,sans-serif;margin-top:0}
 #get-programming-scala-img{background-image:url('get-programming-scala/img/get-programming-scala-thumb.jfif')}
 #scala-programming-projects-img{background-image:url('scala-programming-projects/img/scala-programming-projects-thumb.jpg')}
 #success-habits-dummies-zeller-img{background-image:url('success-habits-dummies-zeller/img/success-habits-dummies-zeller-thumb.png')}
@@ -49,7 +64,51 @@ nav li a:hover{color:#afafaf;background-color:#000;text-decoration:none}
 #software-engineering-scratch-img{background-image:url('software-engineering-scratch/img/software-engineering-scratch-thumb.jpg')}
 #modern-scala-projects-img{background-image:url('modern-scala-projects/img/modern-scala-projects-thumb.jpg')}
 #sacred-marriage-img{background-image:url('sacred-marriage/img/sacred-marriage-thumb.jpg')}
+#scala-design-patterns-img{background-image:url('scala-design-patterns/img/scala-design-patterns-thumb.jpg')}
+#personal-finance-in-img{background-image:url('personal-finance-in/img/personal-finance-in-thumb.jpg')}
+#immigrate-to-canada-img{background-image:url('immigrate-to-canada/img/immigrate-to-canada-thumb.jpg')}
+#immigrating-to-canada-img{background-image:url('immigrating-to-canada/img/immigrating-to-canada-thumb.jpg')}
+#moving-to-canada-img{background-image:url('moving-to-canada/img/moving-to-canada-thumb.jpg')}
+#pragmatic-programmer-img{background-image:url('pragmatic-programmer/img/pragmatic-programmer-thumb.jpg')}
+#own-it-love-it-make-it-work-img{background-image:url('own-it-love-it-make-it-work/img/own-it-love-it-make-it-work-thumb.jpg')}
+#it-starts-with-passion-img{background-image:url('it-starts-with-passion/img/it-starts-with-passion-thumb.jpg')}
+#the-hidden-history-of-monopolies-img{background-image:url('the-hidden-history-of-monopolies/img/the-hidden-history-of-monopolies-thumb.jpg')}
+#man-s-search-for-meaning-img{background-image:url('man-s-search-for-meaning/img/man-s-search-for-meaning-thumb.jpg')}
+#the-holy-bible-esv-img{background-image:url('the-holy-bible-esv/img/the-holy-bible-esv-thumb.jpg')}
+#mind-gym-img{background-image:url('mind-gym/img/mind-gym-thumb.jpg')}
+#ielts-listening-raise-your-score-img{background-image:url('ielts-listening-raise-your-score/img/ielts-listening-raise-your-score-thumb.jpg')}
+#ielts-reading-and-listening-img{background-image:url('ielts-reading-and-listening/img/ielts-reading-and-listening-thumb.jpg')}
+#official-ielts-prep-img{background-image:url('official-ielts-prep/img/official-ielts-prep-thumb.jpg')}
+#ielts-50-things-to-know-img{background-image:url('ielts-50-things-to-know/img/ielts-50-things-to-know-thumb.jpg')}
+#dramatized-audio-bible-niv-img{background-image:url('dramatized-audio-bible-niv/img/dramatized-audio-bible-niv-thumb.jpg')}
+#the-pilgrim-s-progress-img{background-image:url('the-pilgrim-s-progress/img/the-pilgrim-s-progress-thumb.jpg')}
+#authentic-faith-img{background-image:url('authentic-faith/img/authentic-faith-thumb.jpg')}
+#multiply-img{background-image:url('multiply/img/multiply-thumb.jpg')}
+#crazy-love-img{background-image:url('crazy-love/img/crazy-love-thumb.jpg')}
+#ielts-listening-tips-img{background-image:url('ielts-listening-tips/img/ielts-listening-tips-thumb.jpg')}
+#the-everything-store-img{background-image:url('the-everything-store/img/the-everything-store-thumb.jpg')}
+#ielts-listening-strategies-img{background-image:url('ielts-listening-strategies/img/ielts-listening-strategies-thumb.jpg')}
+#ielts-listening-strategies-guide-img{background-image:url('ielts-listening-strategies-guide/img/ielts-listening-strategies-guide-thumb.jpg')}
+#the-crucified-life-img{background-image:url('the-crucified-life/img/the-crucified-life-thumb.jpg')}
+#the-dangers-of-a-shallow-faith-img{background-image:url('the-dangers-of-a-shallow-faith/img/the-dangers-of-a-shallow-faith-thumb.jpg')}
+#sweat-think-go-faster-img{background-image:url('sweat-think-go-faster/img/sweat-think-go-faster-thumb.jpg')}
+#the-mental-training-guide-for-elite-athletes-img{background-image:url('the-mental-training-guide-for-elite-athletes/img/the-mental-training-guide-for-elite-athletes-thumb.jpg')}
+#the-pursuit-of-god-img{background-image:url('the-pursuit-of-god/img/the-pursuit-of-god-thumb.jpg')}
+#the-amazon-way-img{background-image:url('the-amazon-way/img/the-amazon-way-thumb.jpg')}
+#amplified-bible-classic-edition-img{background-image:url('amplified-bible-classic-edition/img/amplified-bible-classic-edition-thumb.jpg')}
+#ielts-success-formula-general-img{background-image:url('ielts-success-formula-general/img/ielts-success-formula-general-thumb.jpg')}
+#knights-24-hour-trainer-sql-server-2008-integration-services-img{background-image:url('knights-24-hour-trainer-sql-server-2008-integration-services/img/knights-24-hour-trainer-sql-server-2008-integration-services-thumb.jpg')}
+#ielts-writing-section-skills-mastery-img{background-image:url('ielts-writing-section-skills-mastery/img/ielts-writing-section-skills-mastery-thumb.jpg')}
+#official-ielts-prep-bonus-guide-included-img{background-image:url('official-ielts-prep-bonus-guide-included/img/official-ielts-prep-bonus-guide-included-thumb.jpg')}
+#ielts-listening-and-speaking-sections-skills-mastery-img{background-image:url('ielts-listening-and-speaking-sections-skills-mastery/img/ielts-listening-and-speaking-sections-skills-mastery-thumb.jpg')}
+#boundaries-img{background-image:url('boundaries/img/boundaries-thumb.jpg')}
+#the-5-love-languages-img{background-image:url('the-5-love-languages/img/the-5-love-languages-thumb.jpg')}
+#endure-img{background-image:url('endure/img/endure-thumb.jpg')}
+#cleaning-up-your-mental-mess-img{background-image:url('cleaning-up-your-mental-mess/img/cleaning-up-your-mental-mess-thumb.jpg')}
+#mere-christianity-img{background-image:url('mere-christianity/img/mere-christianity-thumb.jpg')}
+#think-learn-succeed-img{background-image:url('think-learn-succeed/img/think-learn-succeed-thumb.jpg')}
 h1{line-height:35px;font-size:2.5em;padding:0;margin:0;font:normal 35px/55px Guardian Text Sans}
+h2{line-height:35px;font-size:1.5em;padding:0;margin:0 0 10px;font:normal 20px/20px Guardian Text Sans}
 #resume-container{max-width:525.6pt;margin:0 auto}
 #calendar, #resume{margin-top:14px;border:0}
 footer{text-align:center;padding:10px 0 15px}
