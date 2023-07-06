@@ -1,13 +1,6 @@
 <?php
   require("page.php");
   $index = new Page();
-  /*require("ielts-listening-and-speaking-sections-skills-mastery/ielts-listening-and-speaking-sections-skills-mastery-book-info.php");  
-  require("ielts-listening-strategies-guide/ielts-listening-strategies-guide-book-info.php");  
-  require("ielts-listening-strategies/ielts-listening-strategies-book-info.php");
-  require("ielts-listening-tips/ielts-listening-tips-book-info.php");  
-  require("amplified-bible-classic-edition/amplified-bible-classic-edition-book-info.php");
-  require("the-everything-store/the-everything-store-book-info.php");  
-  require("knights-24-hour-trainer-sql-server-2008-integration-services/knights-24-hour-trainer-sql-server-2008-integration-services-book-info.php");*/
   require("think-learn-succeed/think-learn-succeed-book-info.php");   
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");  
   require("mere-christianity/mere-christianity-book-info.php");  
@@ -24,11 +17,10 @@
   require("the-crucified-life/the-crucified-life-book-info.php");
   require("the-pursuit-of-god/the-pursuit-of-god-book-info.php");
   require("sweat-think-go-faster/sweat-think-go-faster-book-info.php"); 
-  require("the-mental-training-guide-for-elite-athletes/the-mental-training-guide-for-elite-athletes-book-info.php");   
+  require("the-mental-training-guide-for-elite-athletes/the-mental-training-guide-for-elite-athletes-book-info.php");
   require("crazy-love/crazy-love-book-info.php");   
   require("authentic-faith/authentic-faith-book-info.php");  
-  require("the-pilgrim-s-progress/the-pilgrim-s-progress-book-info.php");
-  //require("dramatized-audio-bible-niv/dramatized-audio-bible-niv-book-info.php");  
+  require("the-pilgrim-s-progress/the-pilgrim-s-progress-book-info.php"); 
   require("ielts-50-things-to-know/ielts-50-things-to-know-book-info.php");  
   require("ielts-listening-raise-your-score/ielts-listening-raise-your-score-book-info.php");  
   require("official-ielts-prep/official-ielts-prep-book-info.php");   
