@@ -2,8 +2,8 @@
 class Page
 {
   public $content;
-  public $title = "Jaime Montoya";
-  public $metaKeywords = "Jaime Montoya's website featuring books I have read, courses I have taken, calendar and resume.";
+  public $title = "jaimemontoya.com";
+  public $metaKeywords = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
   public $buttons = array("Home" => "/", "Resume" => "/resume/");
