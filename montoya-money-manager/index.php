@@ -180,7 +180,7 @@ session_start();
 		<?php
 		}
 		/* These are our valid username and passwords */
-		$user = 'jmontoya';
+		$user = 'jaimemontoya';
 		$pass = 'jaimemontoya.com';
 		if (isset($_POST['uname']) && isset($_POST['psw']) || (isset($_SESSION["user"]))) {
 			if (($_POST['uname'] == $user) && ($_POST['psw'] == $pass) || (isset($_SESSION["user"]))) {
