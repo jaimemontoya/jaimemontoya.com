@@ -6,7 +6,7 @@ class Page
   public $metaKeywords = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
-  public $buttons = array("Home" => "/", "Resume" => "/resume/");
+  public $buttons = array("Home" => "/", "Resume" => "/resume/", "GitHub" => "https://github.com/jaimemontoya/jaimemontoya.com/");
   public function __set($name, $value)
   {
     $this->$name = $value;
