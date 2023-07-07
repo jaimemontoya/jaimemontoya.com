@@ -33,7 +33,7 @@ class Page
   }
   public function DisplayFontAwesome()
   {
-	echo "/t/t<script src=\"https://kit.fontawesome.com/90e0428d46.js\" crossorigin=\"anonymous\"></script>\n";
+	echo "\t\t<script src=\"https://kit.fontawesome.com/90e0428d46.js\" crossorigin=\"anonymous\"></script>\n";
   }
   public function DisplayGoogleAnalytics()
   {
