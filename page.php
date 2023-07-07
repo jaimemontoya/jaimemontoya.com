@@ -15,6 +15,7 @@ class Page
   {
     echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
 	$this -> DisplayGoogleAnalytics();
+	$this -> DisplayFontAwesome();
     $this -> DisplayTitle();
     $this -> DisplayFavicon();
     $this -> DisplayMetaCharset();
@@ -29,6 +30,10 @@ class Page
 	echo "\t\t</div>\n";
 	$this -> DisplayFooter();
     echo "\t</body>\n</html>\n";
+  }
+  public function DisplayFontAwesome()
+  {
+	echo "/t/t<script src=/"https://kit.fontawesome.com/90e0428d46.js\" crossorigin=\"anonymous\"></script>\n";
   }
   public function DisplayGoogleAnalytics()
   {
