@@ -2,11 +2,11 @@
 class Page
 {
   public $content;
-  public $title = "Jaime Montoya";
-  public $metaKeywords = "Jaime Montoya's website featuring books I have read, courses I have taken, calendar and resume.";
+  public $title = "jaimemontoya.com";
+  public $metaKeywords = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
-  public $buttons = array("Home" => "/", "Resume" => "/resume/");
+  public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-solid fa-money-check-dollar\"></i>" => "#", "<i class=\"fa-brands fa-github\"></i>" => "https://github.com/jaimemontoya/jaimemontoya.com/", "<i class=\"fa-brands fa-linkedin\"></i>" => "https://www.linkedin.com/in/jaimemontoyain/","<i class=\"fa-solid fa-envelope\"></i>" => "/resume/");
   public function __set($name, $value)
   {
     $this->$name = $value;
@@ -15,6 +15,7 @@ class Page
   {
     echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
 	$this -> DisplayGoogleAnalytics();
+	$this -> DisplayFontAwesome();
     $this -> DisplayTitle();
     $this -> DisplayFavicon();
     $this -> DisplayMetaCharset();
@@ -29,6 +30,10 @@ class Page
 	echo "\t\t</div>\n";
 	$this -> DisplayFooter();
     echo "\t</body>\n</html>\n";
+  }
+  public function DisplayFontAwesome()
+  {
+	echo "\t\t<script src=\"https://kit.fontawesome.com/90e0428d46.js\" crossorigin=\"anonymous\"></script>\n";
   }
   public function DisplayGoogleAnalytics()
   {

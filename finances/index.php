@@ -13,10 +13,10 @@ session_start();
 			gtag('js', new Date());
 			gtag('config', 'UA-112469917-1');
 		</script>
-		<title>Montoya Money Manager</title>
+		<title>Finances</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
-			body {font-family: Arial, Helvetica, sans-serif;}
+			body{font-family:Arial,Helvetica,sans-serif;color:#fff;background:#000}
 			/* Full-width input fields */
 			input[type=text], input[type=password] {
 			  width: 100%;
@@ -141,14 +141,14 @@ session_start();
 		*/
 		if (!isset($_SESSION["user"])) {
 		?>
-		<h2>Montoya Money Manager</h2>
+		<h2>Finances</h2>
 		<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
 		<div id="id01" class="modal">
 		  <form class="modal-content animate" action="" method="post">
 			<div class="imgcontainer">
 			  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
 			  <div class="logo">
-				<a href="/" title="Montoya Money Manager">Montoya Money Manager</a>
+				<a href="/" title="Finances">Finances</a>
 			</div>
 			</div>
 			<div class="container">
@@ -180,8 +180,8 @@ session_start();
 		<?php
 		}
 		/* These are our valid username and passwords */
-		$user = 'jmontoya';
-		$pass = 'MontoyaMM$$$1';
+		$user = 'jaimemontoya';
+		$pass = 'jaimemontoya.com';
 		if (isset($_POST['uname']) && isset($_POST['psw']) || (isset($_SESSION["user"]))) {
 			if (($_POST['uname'] == $user) && ($_POST['psw'] == $pass) || (isset($_SESSION["user"]))) {
 				if (isset($_POST['rememberme'])) {
@@ -194,7 +194,7 @@ session_start();
 					setcookie('password', md5($_POST['password']), false, '/montoya-money-manager', 'www.jaimemontoya.com');
 				}
 				$_SESSION["user"] = "jmontoya";
-				echo "<h1>Montoya Money Manager</h1>";
+				echo "<h1>Finances</h1>";
 				?>
 				<form action="<?php echo "index.php";?>" method="GET">
 					<div>Date format 'Y-m-d', e.g. 2023-01-18</div>

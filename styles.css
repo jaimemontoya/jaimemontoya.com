@@ -20,8 +20,8 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .logo{padding-top:15px}
 .logo a{font:20px/20px Carter One;color:#fff!important;text-decoration:none;font-size:35px}
 nav{background:#000}
-nav ul{list-style-type:none;margin:0}
-nav li{display:inline-block;font-size:14px;color:#afafaf}
+nav ul{list-style-type:none;margin:10px 0 0}
+nav li{display:inline-block;font-size:23px;color:#afafaf}
 nav li a{display:block;color:#fff;text-align:center;padding:5px 25px;text-decoration:none}
 nav li a:hover{color:#afafaf;background-color:#000;text-decoration:none}
 .center{text-align:center}
@@ -107,6 +107,7 @@ nav li a:hover{color:#afafaf;background-color:#000;text-decoration:none}
 #cleaning-up-your-mental-mess-img{background-image:url('cleaning-up-your-mental-mess/img/cleaning-up-your-mental-mess-thumb.jpg')}
 #mere-christianity-img{background-image:url('mere-christianity/img/mere-christianity-thumb.jpg')}
 #think-learn-succeed-img{background-image:url('think-learn-succeed/img/think-learn-succeed-thumb.jpg')}
+#the-accidental-billionaires-img{background-image:url('the-accidental-billionaires/img/the-accidental-billionaires-thumb.jpg')}
 h1{line-height:35px;font-size:2.5em;padding:0;margin:0;font:normal 35px/55px Guardian Text Sans}
 h2{line-height:35px;font-size:1.5em;padding:0;margin:0 0 10px;font:normal 20px/20px Guardian Text Sans}
 #resume-container{max-width:525.6pt;margin:0 auto}
