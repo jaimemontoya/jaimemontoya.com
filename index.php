@@ -1,6 +1,7 @@
 <?php
   require("page.php");
   $index = new Page();
+  require("the-accidental-billionaires/the-accidental-billionaires-book-info.php");   
   require("think-learn-succeed/think-learn-succeed-book-info.php");   
   require("the-holy-bible-esv/the-holy-bible-esv-book-info.php");  
   require("mere-christianity/mere-christianity-book-info.php");  
