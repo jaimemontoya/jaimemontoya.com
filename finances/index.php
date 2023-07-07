@@ -16,7 +16,7 @@ session_start();
 		<title>Finances</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<style>
-			body {font-family: Arial, Helvetica, sans-serif;}
+			body{font-family:Arial,Helvetica,sans-serif;color:#fff;background:#000}
 			/* Full-width input fields */
 			input[type=text], input[type=password] {
 			  width: 100%;
