@@ -13,9 +13,9 @@ class Page
   }  
   public function Display()
   {
-	echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
-	$this -> DisplayGoogleAnalytics();
-	$this -> DisplayFontAwesome();
+    echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
+    $this -> DisplayGoogleAnalytics();
+    $this -> DisplayFontAwesome();
     $this -> DisplayTitle();
     $this -> DisplayFavicon();
     $this -> DisplayMetaCharset();
