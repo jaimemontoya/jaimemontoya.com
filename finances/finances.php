@@ -3,9 +3,11 @@
   $sqlGetCategories = "SELECT * FROM DimCategory ORDER BY CategoryName ASC;";
   $resultCategories = $conn->query($sqlGetCategories);
   if ($resultCategories->num_rows > 0) {
-  $finances ->content .=
-	   "\t\t\t<div>hi
-		</div>\n";	
+	while($row = $resultCategories->fetch_assoc()) {
+	$finances ->content .=
+	   "\t\t\t<div>".$row['CategoryName']."
+		</div>\n";
+	}
   } else {
   $finances ->content .=
 	   "\t\t\t<div>bye
