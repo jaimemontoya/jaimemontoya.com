@@ -16,7 +16,7 @@ class FinancesPage extends Page
     $this -> DisplayStyles();
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
-    echo "\t\t<div>\n";
+    echo "\t\t<div class=\"container-finances\">\n";
     echo $this->content;
     echo "\t\t</div>\n";
 	$this -> DisplayFooter();
