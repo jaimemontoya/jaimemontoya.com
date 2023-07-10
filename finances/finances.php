@@ -4,6 +4,7 @@
     $finances ->content .=
     "\t\t\t<div>
 	 \t\t\t<h1>Finances</h1>
+	 \t\t\t<button onclick=\"document.getElementById('loginform').style.display='block'\" style=\"width:auto;\">Login</button>
 	 \t\t</div>\n";
   }
 ?>
