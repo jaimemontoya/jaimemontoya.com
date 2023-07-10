@@ -18,6 +18,7 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .clearboth{clear:both}
 .container{padding: 0 14px}
 .container-finances{margin:0 8px}
+.container-finances h1{font-size:1.5em}
 .logo{padding-top:15px}
 .logo a{font:20px/20px Carter One;color:#fff!important;text-decoration:none;font-size:35px}
 nav{background:#000}
