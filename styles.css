@@ -17,6 +17,12 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .marginbottom0{margin-bottom:0}
 .clearboth{clear:both}
 .container{padding: 0 14px}
+.container-finances{margin:0 8px}
+.container-finances h1{font-size:1.5em;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
+.container-finances button{background-color:#04AA6D;color:white;padding:10px 20px;margin:8px 0;border:none;cursor:pointer;width:100%;font-size:0.9em}
+.container-finances .modal{display:none;position:fixed;z-index:1;left:0;top:0;width:100%;height:100%;overflow:auto;background-color: rgb(0,0,0);background-color:rgba(0,0,0,0.4);padding-top:60px}
+.container-finances	button:hover{opacity:0.8}
+.widthauto{width:auto!important}
 .logo{padding-top:15px}
 .logo a{font:20px/20px Carter One;color:#fff!important;text-decoration:none;font-size:35px}
 nav{background:#000}
@@ -108,8 +114,8 @@ nav li a:hover{color:#afafaf;background-color:#000;text-decoration:none}
 #mere-christianity-img{background-image:url('mere-christianity/img/mere-christianity-thumb.jpg')}
 #think-learn-succeed-img{background-image:url('think-learn-succeed/img/think-learn-succeed-thumb.jpg')}
 #the-accidental-billionaires-img{background-image:url('the-accidental-billionaires/img/the-accidental-billionaires-thumb.jpg')}
+#fire-in-the-valley-img{background-image:url('fire-in-the-valley/img/fire-in-the-valley-thumb.jpg')}
+#time-magazine-2023-07-03-img{background-image:url('time-magazine-2023-07-03/img/time-magazine-2023-07-03-thumb.jpg')}
 h1{line-height:35px;font-size:2.5em;padding:0;margin:0;font:normal 35px/55px Guardian Text Sans}
 h2{line-height:35px;font-size:1.5em;padding:0;margin:0 0 10px;font:normal 20px/20px Guardian Text Sans}
-#resume-container{max-width:525.6pt;margin:0 auto}
-#calendar, #resume{margin-top:14px;border:0}
 footer{text-align:center;padding:10px 0 15px}
