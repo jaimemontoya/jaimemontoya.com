@@ -33,7 +33,7 @@
 	 \t\t\tvar modal = document.getElementById('id01');
 	 \t\t\twindow.onclick = function(event) {
      \t\t\t\tif (event.target == modal) {
-     \t\t\t\t\tmodal.style.display = "none";
+     \t\t\t\t\tmodal.style.display = \"none\";
      \t\t\t\t}
      \t\t\t}
 	 \t\t\t</script>
