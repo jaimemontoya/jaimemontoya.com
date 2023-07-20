@@ -8,6 +8,7 @@ class FinancesPage extends Page
     $this -> DisplayGoogleAnalytics();
     $this -> DisplayFontAwesome();
     $this -> DisplayTitle();
+    $this -> DisplayMetaViewPort();
     $this -> DisplayFavicon();
     $this -> DisplayMetaCharset();
     $this -> DisplayMetaKeywords();
@@ -21,6 +22,10 @@ class FinancesPage extends Page
     echo "\t\t</div>\n";
 	$this -> DisplayFooter();
     echo "\t</body>\n</html>\n";
+  }
+  public function DisplayMetaViewPort()
+  {
+    echo "\t\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n";
   }
 }
 ?>
