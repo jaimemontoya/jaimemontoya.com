@@ -29,6 +29,10 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .container-finances .modal-content{background-color:#fefefe;margin:5% auto 15%;border:1px solid #888;width: 80%}
 .container-finances .close{position:absolute;right:25px;top:0;color:#000;font-size:35px;font-weight:bold}
 .container-finances	.close:hover,.close:focus{color:red;cursor:pointer}
+.container-finances	.animate{-webkit-animation:animatezoom 0.6s;animation:animatezoom 0.6s}
+.container-finances	@-webkit-keyframes animatezoom{from {-webkit-transform: scale(0)} to {-webkit-transform: scale(1)}}		  
+.container-finances @keyframes animatezoom{from {transform: scale(0)} to {transform: scale(1)}}
+.container-finances @media screen and (max-width: 300px){span.psw{display:block;float:none}.cancelbtn{width:100%}}
 .widthauto{width:auto!important}
 .logo{padding-top:15px}
 .logo a{font:20px/20px Carter One;color:#fff!important;text-decoration:none;font-size:35px}
