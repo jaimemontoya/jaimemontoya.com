@@ -2,7 +2,7 @@ body{padding:0;color:#fff!important;background:#000;font-family:PT Sans, sans-se
 header{text-align:center;background:#000}
 p{margin:10px 0 20px}
 mark{background-color:yellow}
-a{color:#fff}
+a{color:#fff;text-decoration:none}
 a:hover{color:#fff!important}
 a[href^=tel]{color:black!important;font:inherit!important}
 .black{color:#000!important}
