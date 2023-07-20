@@ -27,5 +27,10 @@ class FinancesPage extends Page
   {
     echo "\t\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n";
   }
+  public function DisplayStyles()
+  {
+    echo "\t\t<link href=\"/styles.css\" type=\"text/css\" rel=\"stylesheet\">\n";
+    echo "\t\t<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Carter+One\">\n";
+  }
 }
 ?>
