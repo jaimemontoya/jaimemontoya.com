@@ -26,7 +26,7 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .container-finances .imgcontainer{text-align:center;margin:24px 0 12px 0;position:relative}
 .container-finances .container{padding:16px}
 .container-finances .modal{display:none;position:fixed;z-index:1;left:0;top:0;width:100%;height:100%;overflow:auto;background-color: rgb(0,0,0);background-color:rgba(0,0,0,0.4);padding-top:60px}
-.container-finances .modal-content{background-color:#fefefe;margin:5% auto 15%;border:1px solid #888;width: 80%}
+.container-finances .modal-content{background-color:#fefefe;margin:5% auto 15% auto;border:1px solid #888;width: 80%}
 .container-finances .close{position:absolute;right:25px;top:0;color:#000;font-size:35px;font-weight:bold}
 .container-finances	.close:hover,.close:focus{color:red;cursor:pointer}
 .widthauto{width:auto!important}
