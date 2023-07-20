@@ -29,6 +29,14 @@
      \t\t\t\t\t</div>
      \t\t\t\t</form>
      \t\t\t</div>
+	 \t\t\t<script>
+	 \t\t\tvar modal = document.getElementById('id01');
+	 \t\t\twindow.onclick = function(event) {
+     \t\t\t\tif (event.target == modal) {
+     \t\t\t\t\tmodal.style.display = "none";
+     \t\t\t\t}
+     \t\t\t}
+	 \t\t\t</script>
      \t\t</div>\n";
   }
 ?>
