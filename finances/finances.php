@@ -6,7 +6,6 @@
      \t\t\t<h1>Finances</h1>
      \t\t\t<button onclick=\"document.getElementById('loginform').style.display='block'\" class=\"widthauto\">Login</button>
      \t\t\t<div id=\"loginform\" class=\"modal\">
-     \t\t\t<div id=\"loginform\" class=\"modal\">
      \t\t\t\t<form class=\"modal-content animate\" action=\"\" method=\"post\">
      \t\t\t\t\t<div class=\"imgcontainer\">
      \t\t\t\t\t\t<span onclick=\"document.getElementById('loginform').style.display='none'\" class=\"close\" title=\"Close Modal\">&times;</span>
@@ -25,11 +24,10 @@
      \t\t\t\t\t\t</label>
      \t\t\t\t\t</div>
      \t\t\t\t\t<div class=\"container\">
-	 \t\t\t\t\t\<button type=\"button\" onclick=\"document.getElementById('id01').style.display='none'\" class=\"cancelbtn\">Cancel</button>
-	 \t\t\t\t\t\<span class=\"psw\">Forgot <a href=\"#\">password?</a></span>
+	 \t\t\t\t\t\t<button type=\"button\" onclick=\"document.getElementById('id01').style.display='none'\" class=\"cancelbtn\">Cancel</button>
+	 \t\t\t\t\t\t<span class=\"psw\">Forgot <a href=\"#\">password?</a></span>
      \t\t\t\t\t</div>
      \t\t\t\t</form>
-     \t\t\t</div>
      \t\t\t</div>
      \t\t</div>\n";
   }
