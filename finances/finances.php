@@ -24,13 +24,13 @@
      \t\t\t\t\t\t</label>
      \t\t\t\t\t</div>
      \t\t\t\t\t<div class=\"container\">
-	 \t\t\t\t\t\t<button type=\"button\" onclick=\"document.getElementById('id01').style.display='none'\" class=\"cancelbtn\">Cancel</button>
+	 \t\t\t\t\t\t<button type=\"button\" onclick=\"document.getElementById('loginform').style.display='none'\" class=\"cancelbtn\">Cancel</button>
 	 \t\t\t\t\t\t<span class=\"psw\">Forgot <a href=\"#\">password?</a></span>
      \t\t\t\t\t</div>
      \t\t\t\t</form>
      \t\t\t</div>
 	 \t\t\t<script>
-	 \t\t\tvar modal = document.getElementById('id01');
+	 \t\t\tvar modal = document.getElementById('loginform');
 	 \t\t\twindow.onclick = function(event) {
      \t\t\t\tif (event.target == modal) {
      \t\t\t\t\tmodal.style.display = \"none\";
