@@ -25,7 +25,6 @@
      \t\t\t\t\t</div>
      \t\t\t\t\t<div class=\"container\">
 	 \t\t\t\t\t\t<button type=\"button\" onclick=\"document.getElementById('loginform').style.display='none'\" class=\"cancelbtn\">Cancel</button>
-	 \t\t\t\t\t\t<span class=\"psw\">Forgot <a href=\"#\">password?</a></span>
      \t\t\t\t\t</div>
      \t\t\t\t</form>
      \t\t\t</div>
