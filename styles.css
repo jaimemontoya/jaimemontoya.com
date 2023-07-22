@@ -33,6 +33,7 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .container-finances	@-webkit-keyframes animatezoom{from {-webkit-transform: scale(0)} to {-webkit-transform: scale(1)}}		  
 .container-finances @keyframes animatezoom{from {transform: scale(0)} to {transform: scale(1)}}
 .container-finances @media screen and (max-width: 300px){span.psw{display:block;float:none}.cancelbtn{width:100%}}
+.container-finances nav ul{padding:0}
 .widthauto{width:auto!important}
 .logo{padding-top:15px}
 .logo a{font:20px/20px Carter One;color:#fff!important;text-decoration:none;font-size:35px}
