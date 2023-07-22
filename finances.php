@@ -8,6 +8,7 @@ class FinancesPage extends Page
     $this -> DisplayGoogleAnalytics();
     $this -> DisplayFontAwesome();
     $this -> DisplayTitle();
+    $this -> DisplayMetaViewPort();
     $this -> DisplayFavicon();
     $this -> DisplayMetaCharset();
     $this -> DisplayMetaKeywords();
@@ -21,6 +22,15 @@ class FinancesPage extends Page
     echo "\t\t</div>\n";
 	$this -> DisplayFooter();
     echo "\t</body>\n</html>\n";
+  }
+  public function DisplayMetaViewPort()
+  {
+    echo "\t\t<meta name=\"viewport\" content=\"width=device-width,initial-scale=1\" />\n";
+  }
+  public function DisplayStyles()
+  {
+    echo "\t\t<link href=\"/styles.css\" type=\"text/css\" rel=\"stylesheet\">\n";
+    echo "\t\t<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Carter+One\">\n";
   }
 }
 ?>
