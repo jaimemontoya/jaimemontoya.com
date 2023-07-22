@@ -35,7 +35,7 @@
      \t\t\t\t\tmodal.style.display = \"none\";
      \t\t\t\t}
      \t\t\t}
-	 \t\t\t</script>
+     \t\t\t</script>
      \t\t</div>\n";
   }
 ?>
