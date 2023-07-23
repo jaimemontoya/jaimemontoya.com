@@ -39,8 +39,6 @@
      \t\t\t</script>
      \t\t</div>\n";
   }
-  $finances->content .=
-  "\t\t\t<h1>Finances</h1>\n";
   $user = 'jaimemontoya';
   $pass = 'jaimemontoya.com';
   if (isset($_POST['uname']) && isset($_POST['psw']) || isset($_SESSION["user"])) {
@@ -53,8 +51,8 @@
 		setcookie('password', md5($_POST['password']), false, '/finances', 'www.jaimemontoya.com');
       }
       $_SESSION["user"] = "jaimemontoya";
-      //$finances->content .=
-      //"\t\t\t<h1>Finances</h1>\n";
+      $finances->content .=
+      "\t\t\t<h1>Finances</h1>\n";
     } else {
       $finances->content .=
 	  "\t\t\t<a href=\"/finances\"><button class=\"widthauto\">Try again</button></a>
