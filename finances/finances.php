@@ -72,7 +72,7 @@
 			"checked";
 		  }
           $finances->content .=
-		  " />".$row['CategoryName']." ";
+		  " />".$row['CategoryName']." \n";
         }
       } else {
         $finances->content .=
