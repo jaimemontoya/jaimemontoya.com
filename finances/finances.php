@@ -55,12 +55,12 @@
       "\t\t\t<h1>Finances</h1>\n";
     } else {
       $finances->content .=
-	  "Username/Password Invalid";
+	  "Username/Password Invalid\n
+      <button onclick=\"document.getElementById('loginform').style.display='block'\" class=\"widthauto\">Login</button>";
     }
   } else {
     $finances->content .=
-    "You must supply a username and password.\n
-    <button onclick=\"document.getElementById('loginform').style.display='block'\" class=\"widthauto\">Login</button>";
+    "You must supply a username and password.";
   }
   echo "POST:";
   print_r($_POST);
