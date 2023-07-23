@@ -59,7 +59,8 @@
     }
   } else {
     $finances->content .=
-    "You must supply a username and password.";
+    "You must supply a username and password.\n
+    <button onclick=\"document.getElementById('loginform').style.display='block'\" class=\"widthauto\">Login</button>";
   }
   echo "POST:";
   print_r($_POST);
