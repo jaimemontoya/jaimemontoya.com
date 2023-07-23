@@ -56,6 +56,6 @@
   }
   echo "POST:";
   print_r($_POST);
-  echo "SESSION";
+  echo "SESSION:";
   print_r($_SESSION);
 ?>
