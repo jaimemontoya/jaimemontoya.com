@@ -49,7 +49,7 @@
         setcookie('username', $_POST['username'], false, '/finances', 'www.jaimemontoya.com');
 		setcookie('password', md5($_POST['password']), false, '/finances', 'www.jaimemontoya.com');
       }
-      $_SESSION["user"] = "jmontoya";
+      $_SESSION["user"] = "jaimemontoya";
       $finances ->content .=
       "\t\t\t<h1>Finances</h1>\n";
     }
