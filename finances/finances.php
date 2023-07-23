@@ -54,4 +54,6 @@
       "\t\t\t<h1>Finances</h1>\n";
     }
   }
+  print_r($_POST);
+  print_r($_SESSION);
 ?>
