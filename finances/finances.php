@@ -60,6 +60,27 @@
 	  \t\t\t<div>End date:</div>
 	  \t\t\t<div><input type=\"text\" name=\"endDateKey\" value=\"".$_GET['endDateKey']."\"></div>
 	  \t\t\t<div>Select categories:</div>
+	  \t\t\t<div>";
+      $sqlGetCategories = "SELECT * FROM DimCategory ORDER BY CategoryName ASC;";
+      $resultCategories = $conn->query($sqlGetCategories);
+      if ($resultCategories->num_rows > 0) {
+        while($row = $resultCategories->fetch_assoc()) {
+          $finances->content .=
+          "\t\t\t\t<input type=\"checkbox\" name=\"category[]\" value=\"".$row['CategoryID']."\" ";
+          if (in_array($row['CategoryID'], $_GET['category'])) {
+            $finances->content .=
+			"checked";
+		  }
+          $finances->content .=
+		  " />".$row['CategoryName']." ";
+        }
+      } else {
+        $finances->content .=
+        "0 categories";
+      }
+	  $finances->content .=
+	  "\t\t\t</div>
+      \t\t\t<div><input type=\"submit\" value=\"Submit\"></div>
       \t\t</form>\n";
     } else {
       $finances->content .=
