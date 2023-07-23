@@ -51,12 +51,14 @@
 		setcookie('password', md5($_POST['password']), false, '/finances', 'www.jaimemontoya.com');
       }
       $_SESSION["user"] = "jaimemontoya";
-      $finances ->content .=
+      $finances->content .=
       "\t\t\t<h1>Finances</h1>\n";
+    } else {
+      $financesecho 'Username/Password Invalid';
     }
   } else {
-    $finances ->content .=
-      "You must supply a username and password.";
+    $finances->content .=
+    "You must supply a username and password.";
   }
   echo "POST:";
   print_r($_POST);
