@@ -55,7 +55,8 @@
       "\t\t\t<h1>Finances</h1>\n";
     }
   } else {
-    echo 'You must supply a username and password.';
+    $finances ->content .=
+      "You must supply a username and password.";
   }
   echo "POST:";
   print_r($_POST);
