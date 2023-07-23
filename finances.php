@@ -4,6 +4,7 @@ class FinancesPage extends Page
 {
   public function Display()
   {
+    session_start();
     echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
     $this -> DisplayGoogleAnalytics();
     $this -> DisplayFontAwesome();
