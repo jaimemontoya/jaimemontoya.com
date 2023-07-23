@@ -60,7 +60,7 @@
 	  \t\t\t<div>End date:</div>
 	  \t\t\t<div><input type=\"text\" name=\"endDateKey\" value=\"".$_GET['endDateKey']."\"></div>
 	  \t\t\t<div>Select categories:</div>
-	  \t\t\t<div>";
+	  \t\t\t<div>\n";
       $sqlGetCategories = "SELECT * FROM DimCategory ORDER BY CategoryName ASC;";
       $resultCategories = $conn->query($sqlGetCategories);
       if ($resultCategories->num_rows > 0) {
