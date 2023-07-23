@@ -54,7 +54,8 @@
       $finances->content .=
       "\t\t\t<h1>Finances</h1>\n";
     } else {
-      $financesecho 'Username/Password Invalid';
+      $finances->content .=
+	  "Username/Password Invalid";
     }
   } else {
     $finances->content .=
