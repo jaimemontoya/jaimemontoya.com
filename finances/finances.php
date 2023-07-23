@@ -38,4 +38,22 @@
      \t\t\t</script>
      \t\t</div>\n";
   }
+  $user = 'jaimemontoya';
+  $pass = 'jaimemontoya.com';
+  if (isset($_POST['uname']) && isset($_POST['psw']) || isset($_SESSION["user"])) {
+    if (($_POST['uname'] == $user) && ($_POST['psw'] == $pass) || (isset($_SESSION["user"]))) {
+      if (isset($_POST['rememberme'])) {
+        setcookie('username', $_POST['username'], time()+60*60*24*365, '/finances', 'www.jaimemontoya.com');
+        setcookie('password', md5($_POST['password']), time()+60*60*24*365, '/finances', 'www.jaimemontoya.com');
+      } else {
+        setcookie('username', $_POST['username'], false, '/finances', 'www.jaimemontoya.com');
+		setcookie('password', md5($_POST['password']), false, '/finances', 'www.jaimemontoya.com');
+      }
+      $_SESSION["user"] = "jmontoya";
+?>
+    $finances ->content .=
+    "\t\t\t<h1>Finances</h1>\n";
+<?php
+    }
+  }
 ?>
