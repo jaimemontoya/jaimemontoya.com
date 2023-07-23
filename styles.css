@@ -34,6 +34,8 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .container-finances	@-webkit-keyframes animatezoom{from {-webkit-transform: scale(0)} to {-webkit-transform: scale(1)}}		  
 .container-finances @keyframes animatezoom{from {transform: scale(0)} to {transform: scale(1)}}
 .container-finances @media screen and (max-width: 300px){span.psw{display:block;float:none}.cancelbtn{width:100%}}
+.container-finances #submit{background-color:#04AA6D;color:white;padding:10px 20px;margin:8px 0;border:none;cursor:pointer;width:100%;font-size:0.9em}
+.container-finances	#submit:hover{opacity:0.8}
 .imgcontainer .logo a{color:#04AA6D!important}
 .widthauto{width:auto!important}
 .logo{padding-top:15px}

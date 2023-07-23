@@ -80,7 +80,7 @@
       }
 	  $finances->content .=
 	  "\t\t\t\t</div>
-      \t\t\t<div><input type=\"submit\" value=\"Submit\"></div>
+      \t\t\t<div><input type=\"submit\" value=\"Submit\" id=\"submit\"></div>
       \t\t</form>\n";
     } else {
       $finances->content .=
