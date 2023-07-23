@@ -52,7 +52,9 @@
       }
       $_SESSION["user"] = "jaimemontoya";
       $finances->content .=
-      "\t\t\t<h1>Finances</h1>\n";
+      "\t\t\t<h1>Finances</h1>\n
+      \t\t\t<form action=\""."index.php"."\" method=\"GET\">\n
+      \t\t\t</form>";
     } else {
       $finances->content .=
 	  "\t\t\t<a href=\"/finances\"><button class=\"widthauto\">Try again</button></a>
