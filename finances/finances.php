@@ -60,6 +60,6 @@
     }
   } else {
     $finances->content .=
-    "You must supply a username and password.";
+    "\t\t\tYou must supply a username and password.\n";
   }
 ?>
