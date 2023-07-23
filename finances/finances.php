@@ -113,6 +113,19 @@
       }
       $sumExpenses = $conn->query($sqlSumExpenses);
       $resultExpenses = $conn->query($sqlExpenses);
+      if ($resultExpenses->num_rows > 0) {
+        $finances->content .=
+        "\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total = ".$sumExpenses->fetch_assoc()[sumExpenses]."</th></tr>";
+        while($row = $resultExpenses->fetch_assoc()) {
+          $finances->content .=
+          "\t\t\t<tr><td>".$row["Description"]."</td><td>".$row["Date"]."</td><td>".$row["City"]."</td><td>".preg_replace('/[0-9]/','*',$row["Payment method"])."</td><td>".$row["Seller"]."</td><td>".$row["Category"]."</td><td>".$row["Total"]."</td></tr>";
+        }
+        $finances->content .=
+        "\t\t</table>";
+      } else {
+        $finances->content .=\
+        "0 results";
+      }
     } else {
       $finances->content .=
 	  "\t\t\t<a href=\"/finances\"><button class=\"widthauto\">Try again</button></a>
