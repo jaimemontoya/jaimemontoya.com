@@ -123,7 +123,7 @@
         $finances->content .=
         "\t\t</table>";
       } else {
-        $finances->content .=\
+        $finances->content .=
         "0 results";
       }
     } else {
