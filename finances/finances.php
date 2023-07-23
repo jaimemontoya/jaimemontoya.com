@@ -1,7 +1,7 @@
 <?php
   include '../../db.inc';
   if (!isset($_POST['uname']) && !isset($_POST['psw']) && !isset($_SESSION["user"])) {
-    $finances ->content .=
+    $finances->content .=
     "\t\t\t<div>
      \t\t\t<h1>Finances</h1>
      \t\t\t<button onclick=\"document.getElementById('loginform').style.display='block'\" class=\"widthauto\">Login</button>
@@ -50,10 +50,8 @@
 		setcookie('password', md5($_POST['password']), false, '/finances', 'www.jaimemontoya.com');
       }
       $_SESSION["user"] = "jmontoya";
-?>
-    $finances ->content .=
-    "\t\t\t<h1>Finances</h1>\n";
-<?php
+      $finances ->content .=
+      "\t\t\t<h1>Finances</h1>\n";
     }
   }
 ?>
