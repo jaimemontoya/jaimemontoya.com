@@ -82,7 +82,7 @@
 	  "\t\t\t\t</div>
       \t\t\t<div><input type=\"submit\" value=\"Submit\" id=\"submit\"></div>
       \t\t</form>
-      \t\t<h1>Expenses</h1>";
+      \t\t<h1>Expenses</h1>\n";
       function validateDate($date, $format = 'Y-m-d'){
         $d = DateTime::createFromFormat($format, $date);
         return $d && $d->format($format) === $date;
