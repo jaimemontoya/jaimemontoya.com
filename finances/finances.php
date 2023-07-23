@@ -55,7 +55,7 @@
       "\t\t\t<h1>Finances</h1>\n";
     } else {
       $finances->content .=
-	  "Username/Password Invalid. <a href=\"/finances\">Try again</a>.";
+	  "Username/Password Invalid. <a href=\"/finances\"><button>Try again</button></a>.";
     }
   } else {
     $finances->content .=
