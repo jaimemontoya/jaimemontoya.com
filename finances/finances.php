@@ -55,8 +55,8 @@
       "\t\t\t<h1>Finances</h1>\n";
     } else {
       $finances->content .=
-	  "Username/Password Invalid.\n
-      <button onclick=\"document.getElementById('loginform').style.display='block'\" class=\"widthauto\">Login</button>";
+	  "<button onclick=\"document.getElementById('loginform').style.display='block'\" class=\"widthauto\">Login</button>.\n
+      Username/Password Invalid.";
     }
   } else {
     $finances->content .=
