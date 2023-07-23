@@ -54,6 +54,11 @@
       $finances->content .=
       "\t\t\t<h1>Finances</h1>
       \t\t<form action=\""."index.php"."\" method=\"GET\">\n
+      \t\t\t<div>Date format 'Y-m-d', e.g. 2023-01-18</div>\n
+      \t\t\t<div>Start date:</div>\n
+	  \t\t\t<div><input type=\"text\" name=\"startDateKey\" value=\".$_GET['startDateKey'].\"></div>\n
+	  \t\t\t<div>End date:</div>\n
+	  \t\t\t<div><input type=\"text\" name=\"endDateKey\" value=\".$_GET['endDateKey'].\"></div>
       \t\t</form>\n";
     } else {
       $finances->content .=
