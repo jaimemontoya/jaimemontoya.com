@@ -169,10 +169,9 @@
 		  $finances->content .= "<tr><td>" . $row["Description"]. "</td><td>" . $row["Date"]. "</td><td>" . $row["City"]. "</td><td>" . $row["Payment method"]. "</td><td>" . $row["Buyer"]. "</td><td>" . $row["Category"]. "</td><td>" . $row["Total"]. "</td></tr>";
 		}
 		$finances->content .= "</table>";
-		} else {
+	  } else {
 		  $finances->content .= "0 results";
-		}
-	  }
+	  }	  
 	  $conn->close();
     } else {
       $finances->content .=
