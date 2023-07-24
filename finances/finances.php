@@ -155,13 +155,13 @@
 		if(isset($_GET['category'])){
           $sqlSales .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
 		}
-		/*$sqlSales .= ") sales GROUP BY Description, DateKey, CityName, PaymentMethodName, BuyerName, TotalSales ORDER BY DateKey DESC) salesTable";
+		$sqlSales .= ") sales GROUP BY Description, DateKey, CityName, PaymentMethodName, BuyerName, TotalSales ORDER BY DateKey DESC) salesTable";
 		if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
 		  $sqlSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
 		}
 		$sumSales = $conn->query($sqlSumSales);		
 		$resultSales = $conn->query($sqlSales);
-		if ($resultSales->num_rows > 0) {
+		/*if ($resultSales->num_rows > 0) {
 		  $finances->content .=
 		  "<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Buyer</th><th>Category</th><th>Total = ".$sumSales->fetch_assoc()[sumSales]."</th></tr>";
 	    while($row = $resultSales->fetch_assoc()) {
