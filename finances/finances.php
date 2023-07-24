@@ -182,7 +182,7 @@
         } else {
           $finances->content .=
           "0 results";
-		}
+        }
       }		
       $conn->close();
     } else {
