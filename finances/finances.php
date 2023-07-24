@@ -54,11 +54,11 @@
       $finances->content .=
       "\t\t\t<h1>Finances</h1>
       \t\t<form action=\""."index.php"."\" method=\"GET\">
-	  \t\t\t<label for=\"reporttype\">Choose a report type:</label>
-	  \t\t\t<select id=\"reporttype\" name=\"reporttype\">
-	  \t\t\t\t<option value=\"None\">[Choose report type]</option>
-	  \t\t\t\t<option value=\"Expenses\"";
-	  if($_GET["reporttype"]=="Expenses"){
+      \t\t\t<label for=\"reporttype\">Choose a report type:</label>
+      \t\t\t<select id=\"reporttype\" name=\"reporttype\">
+      \t\t\t\t<option value=\"None\">[Choose report type]</option>
+      \t\t\t\t<option value=\"Expenses\"";
+      if($_GET["reporttype"]=="Expenses"){
         $finances->content .=
         " selected";
       }
