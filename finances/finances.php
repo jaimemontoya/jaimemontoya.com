@@ -83,6 +83,7 @@
       \t\t\t<div><input name=\"submit\" type=\"submit\" value=\"Submit\" id=\"submit\"></div>
       \t\t</form>
 	  ";
+	  print_r($_POST);
 	  if(isset($_POST["submit"])){
 	    $finances->content .=
 		"\t\t<h1>Expenses</h1>\n";
