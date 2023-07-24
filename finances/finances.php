@@ -57,14 +57,14 @@
 	  \t\t\t<label for=\"reporttype\">Choose a report type:</label>
 	  \t\t\t<select id=\"reporttype\" name=\"reporttype\">
 	  \t\t\t\t<option value=\"None\">[Choose report type]</option>
-	  \t\t\t\t<option value=\"Expenses\">Expenses</option>
+	  \t\t\t\t<option value=\"Expenses\"".if($_GET(['reporttype'])=="Expenses"{" selected"}).">Expenses</option>
 	  \t\t\t\t<option value=\"Income\">Income</option>
 	  \t\t\t</select>
       \t\t\t<div>Date format 'Y-m-d', e.g. 2023-01-18</div>
       \t\t\t<div>Start date:</div>
-	  \t\t\t<div><input type=\"text\" name=\"startDateKey\" class=\"widthauto\"value=\"".$_GET['startDateKey']."\"></div>
+	  \t\t\t<div><input type=\"text\" name=\"startDateKey\" class=\"widthauto\" value=\"".$_GET['startDateKey']."\"></div>
 	  \t\t\t<div>End date:</div>
-	  \t\t\t<div><input type=\"text\" name=\"endDateKey\" class=\"widthauto\"value=\"".$_GET['endDateKey']."\"></div>
+	  \t\t\t<div><input type=\"text\" name=\"endDateKey\" class=\"widthauto\" value=\"".$_GET['endDateKey']."\"></div>
 	  \t\t\t<div>Select categories:</div>
 	  \t\t\t<div>\n";
       $sqlGetCategories = "SELECT * FROM DimCategory ORDER BY CategoryName ASC;";
@@ -89,7 +89,7 @@
       \t\t\t<div><input name=\"submit\" type=\"submit\" value=\"Submit\" id=\"submit\"></div>
       \t\t</form>
 	  ";
-	  if(isset($_GET["submit"])){
+	  if(isset($_GET["submit"]) && $_GET["reporttype"]="Expenses"){
 	    $finances->content .=
 		"\t\t<h1>Expenses</h1>\n";
 		function validateDate($date, $format = 'Y-m-d'){
