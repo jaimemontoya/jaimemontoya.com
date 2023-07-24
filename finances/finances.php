@@ -64,8 +64,8 @@
       }
       $finances->content .=
       ">Expenses</option>
-	  \t\t\t\t<option value=\"Income\"";
-	  if($_GET["reporttype"]=="Income"){
+      \t\t\t\t<option value=\"Income\"";
+      if($_GET["reporttype"]=="Income"){
         $finances->content .=
         " selected";
       }
