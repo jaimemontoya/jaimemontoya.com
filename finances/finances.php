@@ -57,7 +57,13 @@
 	  \t\t\t<label for=\"reporttype\">Choose a report type:</label>
 	  \t\t\t<select id=\"reporttype\" name=\"reporttype\">
 	  \t\t\t\t<option value=\"None\">[Choose report type]</option>
-	  \t\t\t\t<option value=\"Expenses\"".if($_GET(['reporttype'])=="Expenses"){" selected"}.">Expenses</option>
+	  \t\t\t\t<option value=\"Expenses\"";
+	  if($_GET(['reporttype'])=="Expenses"){
+        $finances->content .=
+        " selected";
+      }
+	  $finances->content .= 
+	  ">Expenses</option>
 	  \t\t\t\t<option value=\"Income\">Income</option>
 	  \t\t\t</select>
       \t\t\t<div>Date format 'Y-m-d', e.g. 2023-01-18</div>
