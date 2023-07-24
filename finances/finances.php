@@ -164,6 +164,10 @@
 		if ($resultSales->num_rows > 0) {
 		  $finances->content .=
 		  "\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Buyer</th><th>Category</th><th>Total = ".$sumSales->fetch_assoc()[sumSales]."</th></tr>";
+		  while($row = $resultSales->fetch_assoc()) {
+		     $finances->content .=
+			 "<tr><td>" . $row["Description"]. "</td><td>" . $row["Date"]. "</td><td>" . $row["City"]. "</td><td>" . $row["Payment method"]. "</td><td>" . $row["Buyer"]. "</td><td>" . $row["Category"]. "</td><td>" . $row["Total"]. "</td></tr>";
+		  }
 		  $finances->content .=
 		  "\t\t\t</table>";
 		} else {echo "Bye";
