@@ -79,14 +79,14 @@
       \t\t\t<div><input type=\"text\" name=\"endDateKey\" class=\"widthauto\" value=\"".$_GET['endDateKey']."\"></div>\n";
       if(($_GET["reporttype"]=="Expenses") || ($_GET["reporttype"]=="Income")){
         $finances->content .=
-		"\t\t\t<div>Select categories:</div>
-	    \t\t\t<div>\n";
-	    if($_GET["reporttype"]=="Expenses"){
+        "\t\t\t<div>Select categories:</div>
+        \t\t\t<div>\n";
+        if($_GET["reporttype"]=="Expenses"){
           $sqlGetCategories = "SELECT * FROM DimCategory WHERE CategoryID IN (SELECT DISTINCT CategoryID FROM FactPurchasesXDimCategory) ORDER BY CategoryName ASC;";
-	    }
-	    if($_GET["reporttype"]=="Income"){
+        }
+        if($_GET["reporttype"]=="Income"){
           $sqlGetCategories = "SELECT * FROM DimCategory WHERE CategoryID IN (SELECT DISTINCT CategoryID FROM FactSalesXDimCategory) ORDER BY CategoryName ASC;";
-	    }
+        }
         $resultCategories = $conn->query($sqlGetCategories);
         if ($resultCategories->num_rows > 0) {
           while($row = $resultCategories->fetch_assoc()) {
@@ -94,31 +94,31 @@
             "\t\t\t\t\t<input type=\"checkbox\" name=\"category[]\" value=\"".$row['CategoryID']."\" ";
             if (in_array($row['CategoryID'], $_GET['category'])) {
               $finances->content .=
-			  "checked";
-		    }
+              "checked";
+            }
             $finances->content .=
-		    " />".$row['CategoryName']." \n";
+            " />".$row['CategoryName']." \n";
+            }
+          } else {
+            $finances->content .=
+            "0 categories";
           }
-        } else {
           $finances->content .=
-          "0 categories";
+          "\t\t\t\t</div>";
         }
-		$finances->content .=
-		"\t\t\t\t</div>";
-	  }
-	  $finances->content .=
-	  "\t\t\t<div><input name=\"submit\" type=\"submit\" value=\"Submit\" id=\"submit\"></div>
-      \t\t</form>
-	  ";
-	  function validateDate($date, $format = 'Y-m-d'){
-        $d = DateTime::createFromFormat($format, $date);
-        return $d && $d->format($format) === $date;
-      }
-	  if(isset($_GET["submit"]) && $_GET["reporttype"]=="Expenses"){
-	    $finances->content .=
-		"\t\t<h1>Expenses</h1>\n";		
-        $sqlSumExpenses = "SELECT SUM(Total) sumExpenses FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
-        if(isset($_GET['category'])){
+        $finances->content .=
+        "\t\t\t<div><input name=\"submit\" type=\"submit\" value=\"Submit\" id=\"submit\"></div>
+        \t\t</form>
+        ";
+        function validateDate($date, $format = 'Y-m-d'){
+          $d = DateTime::createFromFormat($format, $date);
+          return $d && $d->format($format) === $date;
+        }
+        if(isset($_GET["submit"]) && $_GET["reporttype"]=="Expenses"){
+          $finances->content .=
+          "\t\t<h1>Expenses</h1>\n";
+          $sqlSumExpenses = "SELECT SUM(Total) sumExpenses FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
+          if(isset($_GET['category'])){
           $sqlSumExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
         }
         $sqlSumExpenses .= " AND fp.TicketDivisionNumber = fpxdc.TicketDivisionNumber) purchases GROUP BY TotalPurchases, Description, DateKey, CityName, PaymentMethodName, SellerName ORDER BY DateKey DESC) expenses";
