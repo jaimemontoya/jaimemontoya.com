@@ -64,7 +64,12 @@
       }
 	  $finances->content .= 
 	  ">Expenses</option>
-	  \t\t\t\t<option value=\"Income\">Income</option>
+	  \t\t\t\t<option value=\"Income\"";
+	  if($_GET["reporttype"]=="Income"){
+        $finances->content .=
+        " selected";
+      }
+	  ">Income</option>
 	  \t\t\t</select>
       \t\t\t<div>Date format 'Y-m-d', e.g. 2023-01-18</div>
       \t\t\t<div>Start date:</div>
