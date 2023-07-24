@@ -58,7 +58,7 @@
 	  \t\t\t<select id=\"reporttype\" name=\"reporttype\">
 	  \t\t\t\t<option value=\"None\">[Choose report type]</option>
 	  \t\t\t\t<option value=\"Expenses\"";
-	  if($_GET["reporttype"]="Expenses"){
+	  if($_GET["reporttype"]=="Expenses"){
         $finances->content .=
         " selected";
       }
@@ -95,7 +95,7 @@
       \t\t\t<div><input name=\"submit\" type=\"submit\" value=\"Submit\" id=\"submit\"></div>
       \t\t</form>
 	  ";
-	  if(isset($_GET["submit"]) && $_GET["reporttype"]="Expenses"){
+	  if(isset($_GET["submit"]) && $_GET["reporttype"]=="Expenses"){
 	    $finances->content .=
 		"\t\t<h1>Expenses</h1>\n";
 		function validateDate($date, $format = 'Y-m-d'){
