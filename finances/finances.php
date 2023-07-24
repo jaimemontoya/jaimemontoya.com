@@ -58,7 +58,7 @@
 	  \t\t\t<select id=\"reporttype\" name=\"reporttype\">
 	  \t\t\t\t<option value=\"None\">[Choose report type]</option>
 	  \t\t\t\t<option value=\"Expenses\"";
-	  if($_GET(['reporttype'])="Expenses"){
+	  if($_GET["reporttype"]="Expenses"){
         $finances->content .=
         " selected";
       }
