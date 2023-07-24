@@ -162,26 +162,26 @@
         }
         $sqlSales = "SELECT * FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', BuyerName Buyer, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalSales Total FROM (SELECT Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, db.BuyerName, dca.CategoryName, TotalSales FROM FactSales fs INNER JOIN DimCity dc ON fs.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fs.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimBuyer db ON fs.BuyerID=db.BuyerID INNER JOIN FactSalesXDimCategory fsxdc ON fs.CityID=fsxdc.CityID AND fs.DayID=fsxdc.DayID AND fs.PaymentMethodID=fsxdc.PaymentMethodID AND fs.BuyerID=fsxdc.BuyerID INNER JOIN DimCategory dca ON fsxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fs.DayID=dd.DayID";
         if(isset($_GET['category'])){
-		  $sqlSales .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
-		}
-		$sqlSales .= ") sales GROUP BY Description, DateKey, CityName, PaymentMethodName, BuyerName, TotalSales ORDER BY DateKey DESC) salesTable";
-		if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
-		  $sqlSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
-		}
-		$sumSales = $conn->query($sqlSumSales);		
-		$resultSales = $conn->query($sqlSales);
-		if ($resultSales->num_rows > 0) {
-		  $finances->content .=
-		  "\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Buyer</th><th>Category</th><th>Total = ".$sumSales->fetch_assoc()[sumSales]."</th></tr>";
-		  while($row = $resultSales->fetch_assoc()) {
-		     $finances->content .=
-			 "<tr><td>" . $row["Description"]. "</td><td>" . $row["Date"]. "</td><td>" . $row["City"]. "</td><td>" . $row["Payment method"]. "</td><td>" . $row["Buyer"]. "</td><td>" . $row["Category"]. "</td><td>" . $row["Total"]. "</td></tr>";
-		  }
-		  $finances->content .=
-		  "\t\t\t</table>";
-		} else {echo "Bye";
-		  $finances->content .=
-		  "0 results";
+          $sqlSales .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
+        }
+        $sqlSales .= ") sales GROUP BY Description, DateKey, CityName, PaymentMethodName, BuyerName, TotalSales ORDER BY DateKey DESC) salesTable";
+        if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
+          $sqlSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
+        }
+        $sumSales = $conn->query($sqlSumSales);
+        $resultSales = $conn->query($sqlSales);
+        if ($resultSales->num_rows > 0) {
+          $finances->content .=
+          "\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Buyer</th><th>Category</th><th>Total = ".$sumSales->fetch_assoc()[sumSales]."</th></tr>";
+          while($row = $resultSales->fetch_assoc()) {
+            $finances->content .=
+            "<tr><td>" . $row["Description"]. "</td><td>" . $row["Date"]. "</td><td>" . $row["City"]. "</td><td>" . $row["Payment method"]. "</td><td>" . $row["Buyer"]. "</td><td>" . $row["Category"]. "</td><td>" . $row["Total"]. "</td></tr>";
+          }
+          $finances->content .=
+          "\t\t\t</table>";
+        } else {
+          $finances->content .=
+          "0 results";
 		}
       }		
 	  $conn->close();
