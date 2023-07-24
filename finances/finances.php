@@ -161,13 +161,13 @@
 		}
 		$sumSales = $conn->query($sqlSumSales);		
 		$resultSales = $conn->query($sqlSales);
-		if ($resultSales->num_rows > 0) {
+		/*if ($resultSales->num_rows > 0) {
 		  $finances->content .=
 		  "<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Buyer</th><th>Category</th><th>Total = ".$sumSales->fetch_assoc()[sumSales]."</th></tr>";
 		} else {
 		  $finances->content .=
 		  "0 results";
-		}
+		}*/
       }		
 	  $conn->close();
     } else {
