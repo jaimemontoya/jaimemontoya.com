@@ -79,7 +79,6 @@
 	  \t\t\t<div><input type=\"text\" name=\"endDateKey\" class=\"widthauto\" value=\"".$_GET['endDateKey']."\"></div>
 	  \t\t\t<div>Select categories:</div>
 	  \t\t\t<div>\n";
-      //$sqlGetCategories = "SELECT * FROM DimCategory ORDER BY CategoryName ASC;";
 	  if($_GET["reporttype"]=="Expenses"){
         $sqlGetCategories = "SELECT * FROM DimCategory WHERE CategoryID IN (SELECT DISTINCT CategoryID FROM FactPurchasesXDimCategory) ORDER BY CategoryName ASC;";
 	  }
