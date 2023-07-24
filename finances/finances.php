@@ -74,11 +74,11 @@
       \t\t\t</select>
       \t\t\t<div>Date format 'Y-m-d', e.g. 2023-01-18</div>
       \t\t\t<div>Start date:</div>
-	  \t\t\t<div><input type=\"text\" name=\"startDateKey\" class=\"widthauto\" value=\"".$_GET['startDateKey']."\"></div>
-	  \t\t\t<div>End date:</div>
-	  \t\t\t<div><input type=\"text\" name=\"endDateKey\" class=\"widthauto\" value=\"".$_GET['endDateKey']."\"></div>\n";
+      \t\t\t<div><input type=\"text\" name=\"startDateKey\" class=\"widthauto\" value=\"".$_GET['startDateKey']."\"></div>
+      \t\t\t<div>End date:</div>
+      \t\t\t<div><input type=\"text\" name=\"endDateKey\" class=\"widthauto\" value=\"".$_GET['endDateKey']."\"></div>\n";
       if(($_GET["reporttype"]=="Expenses") || ($_GET["reporttype"]=="Income")){
-		$finances->content .=
+        $finances->content .=
 		"\t\t\t<div>Select categories:</div>
 	    \t\t\t<div>\n";
 	    if($_GET["reporttype"]=="Expenses"){
