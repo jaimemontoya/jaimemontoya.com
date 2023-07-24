@@ -126,6 +126,7 @@
         $finances->content .=
         "0 results";
       }
+	  print_r($POST);
     } else {
       $finances->content .=
 	  "\t\t\t<a href=\"/finances\"><button class=\"widthauto\">Try again</button></a>
