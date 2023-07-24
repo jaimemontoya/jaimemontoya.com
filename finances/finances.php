@@ -80,53 +80,56 @@
       }
 	  $finances->content .=
 	  "\t\t\t\t</div>
-      \t\t\t<div><input type=\"submit\" value=\"Submit\" id=\"submit\"></div>
+      \t\t\t<div><input name=\"submit\" type=\"submit\" value=\"Submit\" id=\"submit\"></div>
       \t\t</form>
-      \t\t<h1>Expenses</h1>\n";
-      function validateDate($date, $format = 'Y-m-d'){
-        $d = DateTime::createFromFormat($format, $date);
-        return $d && $d->format($format) === $date;
-      }
-      $sqlSumExpenses = "SELECT SUM(Total) sumExpenses FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
-      if(isset($_GET['category'])){
-        $sqlSumExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
-      }
-      $sqlSumExpenses .= " AND fp.TicketDivisionNumber = fpxdc.TicketDivisionNumber) purchases GROUP BY TotalPurchases, Description, DateKey, CityName, PaymentMethodName, SellerName ORDER BY DateKey DESC) expenses";
-      if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
-        $sqlSumExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
-      }
-      $sqlSumSales = "SELECT SUM(Total) sumSales FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', BuyerName Buyer, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalSales Total FROM (SELECT Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, db.BuyerName, dca.CategoryName, TotalSales FROM FactSales fs INNER JOIN DimCity dc ON fs.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fs.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimBuyer db ON fs.BuyerID=db.BuyerID INNER JOIN FactSalesXDimCategory fsxdc ON fs.CityID=fsxdc.CityID AND fs.DayID=fsxdc.DayID AND fs.PaymentMethodID=fsxdc.PaymentMethodID AND fs.BuyerID=fsxdc.BuyerID INNER JOIN DimCategory dca ON fsxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fs.DayID=dd.DayID";
-      if(isset($_GET['category'])){
-        $sqlSumSales .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
-      }
-      $sqlSumSales .= ") sales GROUP BY Description, DateKey, CityName, PaymentMethodName, BuyerName, TotalSales ORDER BY DateKey DESC) sales";
-      if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
-        $sqlSumSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
-      }
-      $sqlExpenses = "SELECT * FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
-      if(isset($_GET['category'])){
-        $sqlExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
-      }
-      $sqlExpenses .= " AND fp.TicketDivisionNumber = fpxdc.TicketDivisionNumber) purchases GROUP BY TotalPurchases, Description, DateKey, CityName, PaymentMethodName, SellerName ORDER BY DateKey DESC) expensesTable";
-      if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
-        $sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
-      }
-      $sumExpenses = $conn->query($sqlSumExpenses);
-      $resultExpenses = $conn->query($sqlExpenses);
-      if ($resultExpenses->num_rows > 0) {
-        $finances->content .=
-        "\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total = ".$sumExpenses->fetch_assoc()[sumExpenses]."</th></tr>";
-        while($row = $resultExpenses->fetch_assoc()) {
-          $finances->content .=
-          "\t\t\t<tr><td>".$row["Description"]."</td><td>".$row["Date"]."</td><td>".$row["City"]."</td><td>".preg_replace('/[0-9]/','*',$row["Payment method"])."</td><td>".$row["Seller"]."</td><td>".$row["Category"]."</td><td>".$row["Total"]."</td></tr>";
+	  ";
+	  if(isset($_POST["submit"])){
+	    $finances->content .=
+		"\t\t<h1>Expenses</h1>\n";
+		function validateDate($date, $format = 'Y-m-d'){
+          $d = DateTime::createFromFormat($format, $date);
+          return $d && $d->format($format) === $date;
         }
-        $finances->content .=
-        "\t\t</table>";
-      } else {
-        $finances->content .=
-        "0 results";
-      }
-	  print_r($_POST);
+        $sqlSumExpenses = "SELECT SUM(Total) sumExpenses FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
+        if(isset($_GET['category'])){
+          $sqlSumExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
+        }
+        $sqlSumExpenses .= " AND fp.TicketDivisionNumber = fpxdc.TicketDivisionNumber) purchases GROUP BY TotalPurchases, Description, DateKey, CityName, PaymentMethodName, SellerName ORDER BY DateKey DESC) expenses";
+        if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
+          $sqlSumExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
+        }
+        $sqlSumSales = "SELECT SUM(Total) sumSales FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', BuyerName Buyer, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalSales Total FROM (SELECT Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, db.BuyerName, dca.CategoryName, TotalSales FROM FactSales fs INNER JOIN DimCity dc ON fs.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fs.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimBuyer db ON fs.BuyerID=db.BuyerID INNER JOIN FactSalesXDimCategory fsxdc ON fs.CityID=fsxdc.CityID AND fs.DayID=fsxdc.DayID AND fs.PaymentMethodID=fsxdc.PaymentMethodID AND fs.BuyerID=fsxdc.BuyerID INNER JOIN DimCategory dca ON fsxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fs.DayID=dd.DayID";
+        if(isset($_GET['category'])){
+          $sqlSumSales .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
+        }
+        $sqlSumSales .= ") sales GROUP BY Description, DateKey, CityName, PaymentMethodName, BuyerName, TotalSales ORDER BY DateKey DESC) sales";
+        if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
+          $sqlSumSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
+        }
+        $sqlExpenses = "SELECT * FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
+        if(isset($_GET['category'])){
+          $sqlExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
+        }
+        $sqlExpenses .= " AND fp.TicketDivisionNumber = fpxdc.TicketDivisionNumber) purchases GROUP BY TotalPurchases, Description, DateKey, CityName, PaymentMethodName, SellerName ORDER BY DateKey DESC) expensesTable";
+        if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
+          $sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
+        }
+        $sumExpenses = $conn->query($sqlSumExpenses);
+        $resultExpenses = $conn->query($sqlExpenses);
+        if ($resultExpenses->num_rows > 0) {
+          $finances->content .=
+          "\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total = ".$sumExpenses->fetch_assoc()[sumExpenses]."</th></tr>";
+          while($row = $resultExpenses->fetch_assoc()) {
+            $finances->content .=
+            "\t\t\t<tr><td>".$row["Description"]."</td><td>".$row["Date"]."</td><td>".$row["City"]."</td><td>".preg_replace('/[0-9]/','*',$row["Payment method"])."</td><td>".$row["Seller"]."</td><td>".$row["Category"]."</td><td>".$row["Total"]."</td></tr>";
+          }
+          $finances->content .=
+          "\t\t</table>";
+        } else {
+          $finances->content .=
+          "0 results";
+        }
+	  }
     } else {
       $finances->content .=
 	  "\t\t\t<a href=\"/finances\"><button class=\"widthauto\">Try again</button></a>
