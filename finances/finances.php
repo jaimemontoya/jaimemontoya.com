@@ -56,9 +56,9 @@
       \t\t<form action=\""."index.php"."\" method=\"GET\">
       \t\t\t<div>Date format 'Y-m-d', e.g. 2023-01-18</div>
       \t\t\t<div>Start date:</div>
-	  \t\t\t<div><input type=\"text\" name=\"startDateKey\" value=\"".$_GET['startDateKey']."\"></div>
+	  \t\t\t<div><input type=\"text\" name=\"startDateKey\" value=\"".$_GET['startDateKey']."\" width=\"widthauto\"></div>
 	  \t\t\t<div>End date:</div>
-	  \t\t\t<div><input type=\"text\" name=\"endDateKey\" value=\"".$_GET['endDateKey']."\"></div>
+	  \t\t\t<div><input type=\"text\" name=\"endDateKey\" value=\"".$_GET['endDateKey']."\" width=\"widthauto\"></div>
 	  \t\t\t<div>Select categories:</div>
 	  \t\t\t<div>\n";
       $sqlGetCategories = "SELECT * FROM DimCategory ORDER BY CategoryName ASC;";
