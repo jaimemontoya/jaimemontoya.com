@@ -76,10 +76,11 @@
       \t\t\t<div>Start date:</div>
 	  \t\t\t<div><input type=\"text\" name=\"startDateKey\" class=\"widthauto\" value=\"".$_GET['startDateKey']."\"></div>
 	  \t\t\t<div>End date:</div>
-	  \t\t\t<div><input type=\"text\" name=\"endDateKey\" class=\"widthauto\" value=\"".$_GET['endDateKey']."\"></div>
-	  \t\t\t<div>Select categories:</div>
-	  \t\t\t<div>\n";
+	  \t\t\t<div><input type=\"text\" name=\"endDateKey\" class=\"widthauto\" value=\"".$_GET['endDateKey']."\"></div>\n";
       if(($_GET["reporttype"]=="Expenses") || ($_GET["reporttype"]=="Income")){
+		$finances->content .=
+		"\t\t\t<div>Select categories:</div>
+	    \t\t\t<div>\n";
 	    if($_GET["reporttype"]=="Expenses"){
           $sqlGetCategories = "SELECT * FROM DimCategory WHERE CategoryID IN (SELECT DISTINCT CategoryID FROM FactPurchasesXDimCategory) ORDER BY CategoryName ASC;";
 	    }
@@ -102,10 +103,11 @@
           $finances->content .=
           "0 categories";
         }
+		$finances->content .=
+		"\t\t\t\t</div>";
 	  }
 	  $finances->content .=
-	  "\t\t\t\t</div>
-      \t\t\t<div><input name=\"submit\" type=\"submit\" value=\"Submit\" id=\"submit\"></div>
+	  "\t\t\t<div><input name=\"submit\" type=\"submit\" value=\"Submit\" id=\"submit\"></div>
       \t\t</form>
 	  ";
 	  function validateDate($date, $format = 'Y-m-d'){
