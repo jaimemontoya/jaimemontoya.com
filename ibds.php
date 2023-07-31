@@ -1,3 +1,4 @@
+<?php
 /*
 Tested with tables from 4.1.23, 5.0.68, 5.1.28, and 6.0.7.
 */
@@ -94,3 +95,4 @@ The table id is $ibd_id_dec
              echo "so please enable debug output, and check for proper positions.";
 }
 *************/
+?>
