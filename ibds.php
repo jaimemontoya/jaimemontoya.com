@@ -15,20 +15,9 @@ echo "filename = $filename
 ";
 
 // Open the filename
-$handle = fopen($filename, 'w');
+$handle = fopen($filename, 'w') or die("Can not open the file");
 
-// Define redundant, local variables for possible later functionality and/or checks
-$ibd_id_bin = 0;
-$ibd_id_hex = 0;
-$ibd_id_dec = 0;
-$ibd_id_bin2 = 0;
-$ibd_id_hex2 = 0;
-$ibd_id_dec2 = 0;
 
-// Find the filesize (note: below command messes up script)
-$filesize = filesize($filename));
-
-echo $filesize;
 /*****************************
 // Set the filename
 $filename = "C:\Users\Chris\Desktop\mysql\working\ibds\z1.ibd";
