@@ -15,7 +15,7 @@ echo "filename = $filename
 ";
 
 // Open the filename
-//$handle = fopen($filename, 'w') or die("Can not open the file");
+$handle = fopen($filename, 'w') or die("Can not open the file");
 
 
 /*****************************
