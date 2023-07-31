@@ -4,7 +4,7 @@ Tested with tables from 4.1.23, 5.0.68, 5.1.28, and 6.0.7.
 */
 
 // Set the filename
-$filename = "/var/www/jaimemontoya.com/DimBank.ibd";
+$filename = "DimBank.ibd";
 
 // Read 2 bytes in at a time
 $offset = 2;
@@ -15,7 +15,7 @@ echo "filename = $filename
 ";
 
 // Open the filename
-$handle = fopen($filename, 'w') or die("Can not open the file");
+//$handle = fopen($filename, 'w') or die("Can not open the file");
 
 
 /*****************************
