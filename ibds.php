@@ -15,7 +15,7 @@ echo "filename = $filename
 ";
 
 // Open the filename
-$handle = fopen($filename);
+$handle = fopen($filename, 'w');
 
 // Define redundant, local variables for possible later functionality and/or checks
 $ibd_id_bin = 0;
