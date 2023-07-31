@@ -8,6 +8,11 @@ $filename = "/var/www/jaimemontoya.com/DimBank.ibd";
 
 // Read 2 bytes in at a time
 $offset = 2;
+
+// Echo filename and path
+echo "filename = $filename
+
+";
 /*****************************
 // Set the filename
 $filename = "C:\Users\Chris\Desktop\mysql\working\ibds\z1.ibd";
