@@ -2,7 +2,12 @@
 /*
 Tested with tables from 4.1.23, 5.0.68, 5.1.28, and 6.0.7.
 */
-echo "Hello World! 2023-07-31 2:04 PM";
+
+// Set the filename
+$filename = "/var/www/jaimemontoya.com/DimBank.ibd";
+
+// Read 2 bytes in at a time
+$offset = 2;
 /*****************************
 // Set the filename
 $filename = "C:\Users\Chris\Desktop\mysql\working\ibds\z1.ibd";
