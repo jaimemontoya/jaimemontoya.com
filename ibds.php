@@ -27,6 +27,8 @@ $ibd_id_dec2 = 0;
 
 // Find the filesize (note: below command messes up script)
 $filesize = filesize($filename));
+
+echo $filesize;
 /*****************************
 // Set the filename
 $filename = "C:\Users\Chris\Desktop\mysql\working\ibds\z1.ibd";
