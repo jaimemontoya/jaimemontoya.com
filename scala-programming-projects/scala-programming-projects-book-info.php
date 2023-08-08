@@ -6,7 +6,7 @@
                 </div>
                 <div class=\"book-title-authors-read-by\">
 	                  <span>Scala Programming Projects</span>
-	                <p>By Mikael Valot, Nicolas Jorand. <mark>Book 21 read by Jaime Montoya</mark> from 1:23 PM July 6, 2021 to 8:21 AM September 10, 2021 GMT.</p>
+	                <p>By Mikael Valot, Nicolas Jorand. <mark>Book 20 read by Jaime Montoya</mark> from 1:23 PM July 6, 2021 to 8:21 AM September 10, 2021 GMT.</p>
                 </div>
             </div>\n";
 ?>
