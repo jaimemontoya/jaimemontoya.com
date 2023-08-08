@@ -1,6 +1,7 @@
 <?php
   require("page.php");
   $index = new Page();
+  require("data-concepts-azure/data-concepts-azure-book-info.php");   
   require("time-magazine-2023-07-03/time-magazine-2023-07-03-book-info.php");   
   require("fire-in-the-valley/fire-in-the-valley-book-info.php");   
   require("the-accidental-billionaires/the-accidental-billionaires-book-info.php");   
