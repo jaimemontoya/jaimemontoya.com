@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Immigrating to Canada through the Express Entry Stream (Living the Canadian dream Book 1)</span>
-					<p>By Ola Sofeso. <mark>Book 31 read by Jaime Montoya</mark> from 4:31 AM July 2, 2022 to 1:30 PM July 3, 2022 GMT.</p>
+					<p>By Ola Sofeso. <mark>Book 30 read by Jaime Montoya</mark> from 4:31 AM July 2, 2022 to 1:30 PM July 3, 2022 GMT.</p>
                 </div>
             </div>\n";
 ?>
