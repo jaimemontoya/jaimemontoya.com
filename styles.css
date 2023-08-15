@@ -44,7 +44,7 @@ a[href^=tel]{color:black!important;font:inherit!important}
 nav{background:#000}
 nav ul{list-style-type:none;margin:10px 0 0;padding:0}
 nav li{display:inline-block;font-size:23px;color:#afafaf}
-nav li a{display:block;color:#fff;text-align:center;padding:5px 23px;text-decoration:none}
+nav li a{display:block;color:#fff;text-align:center;padding:5px 22px;text-decoration:none}
 nav li a:hover{color:#afafaf;background-color:#000;text-decoration:none}
 .center{text-align:center}
 .book{display:flex;flex-direction:row;margin-top:14px}
