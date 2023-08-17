@@ -9,7 +9,7 @@ class Page
   public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-solid fa-money-check-dollar\"></i>" => "/finances/", "<i class=\"fa-brands fa-github\"></i>" => "https://github.com/jaimemontoya/jaimemontoya.com/", "<i class=\"fa-brands fa-canadian-maple-leaf\"></i>" => "/toronto/", "<i class=\"fa-solid fa-envelope\"></i>" => "/resume/");
   public function __set($name, $value)
   {
-    $this->name = $value;
+    $this->$name = $value;
   }  
   public function Display()
   {
@@ -78,7 +78,7 @@ class Page
   }
   public function DisplayMenu($buttons)
   {
-    echo "\t\t\t<nav>\n\t\t\t\t<ul>\n".$name." jjjjj";
+    echo "\t\t\t<nav>\n\t\t\t\t<ul>\n".$this->$name." jjjjj";
     /*while (list($name, $url) = each($buttons)) {
       $this->DisplayButton($name, $url);
     }*/
