@@ -78,7 +78,7 @@ class Page
   }
   public function DisplayMenu($buttons)
   {
-    echo "\t\t\t<nav>\n\t\t\t\t<ul>\n".$this->$name." jjjjj";
+    echo "\t\t\t<nav>\n\t\t\t\t<ul>\n".$title." jjjjj";
     /*while (list($name, $url) = each($buttons)) {
       $this->DisplayButton($name, $url);
     }*/
