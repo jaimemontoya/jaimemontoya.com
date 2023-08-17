@@ -7,14 +7,10 @@ class Page
   public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
   public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-solid fa-money-check-dollar\"></i>" => "/finances/", "<i class=\"fa-brands fa-github\"></i>" => "https://github.com/jaimemontoya/jaimemontoya.com/", "<i class=\"fa-brands fa-canadian-maple-leaf\"></i>" => "/toronto/", "<i class=\"fa-solid fa-envelope\"></i>" => "/resume/");
-  public function __construct(public $name = "", public $value = "")
+  public function __set($name, $value)
   {
-    $name = $value;
+    $this->$name = $value;
   }
-  /*public function __set($name, $value)
-  {
-    //$this->$name = $value;
-  }*/
   public function Display()
   {
     echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
@@ -82,10 +78,10 @@ class Page
   }
   public function DisplayMenu($buttons)
   {
-    echo "\t\t\t<nav>\n\t\t\t\t<ul>\n".$name." jjjjj";
-    /*while (list($name, $url) = each($buttons)) {
+    echo "\t\t\t<nav>\n\t\t\t\t<ul>\n";
+    foreach($buttons as $name => $url) {
       $this->DisplayButton($name, $url);
-    }*/
+    }
     echo "\t\t\t\t</ul>\n\t\t\t</nav>\n";
   }
   public function DisplayButton($name, $url)
