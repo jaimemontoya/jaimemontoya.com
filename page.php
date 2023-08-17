@@ -9,7 +9,7 @@ class Page
   public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-solid fa-money-check-dollar\"></i>" => "/finances/", "<i class=\"fa-brands fa-github\"></i>" => "https://github.com/jaimemontoya/jaimemontoya.com/", "<i class=\"fa-brands fa-canadian-maple-leaf\"></i>" => "/toronto/", "<i class=\"fa-solid fa-envelope\"></i>" => "/resume/");
   public function __set($name, $value)
   {
-    $this->$name = $value;
+    public $this->$name = $value;
   }  
   public function Display()
   {
