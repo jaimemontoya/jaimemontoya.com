@@ -10,7 +10,7 @@ class Page
   public function __set($name, $value)
   {
     $this->$name = $value;
-  }  
+  }
   public function Display()
   {
     echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
@@ -79,7 +79,7 @@ class Page
   public function DisplayMenu($buttons)
   {
     echo "\t\t\t<nav>\n\t\t\t\t<ul>\n";
-    while (list($name, $url) = each($buttons)) {
+    foreach($buttons as $name => $url) {
       $this->DisplayButton($name, $url);
     }
     echo "\t\t\t\t</ul>\n\t\t\t</nav>\n";
