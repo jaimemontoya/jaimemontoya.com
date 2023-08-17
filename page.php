@@ -1,7 +1,7 @@
 <?php
 class Page
 {
-  public $content;
+  public $content;$this->$variable = "jaime";
   public $title = "jaimemontoya.com";
   public $metaKeywords = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
@@ -78,7 +78,7 @@ class Page
   }
   public function DisplayMenu($buttons)
   {
-    echo "\t\t\t<nav>\n\t\t\t\t<ul>\n".$title." jjjjj";
+    echo "\t\t\t<nav>\n\t\t\t\t<ul>\n".$this->$variable." jjjjj";
     /*while (list($name, $url) = each($buttons)) {
       $this->DisplayButton($name, $url);
     }*/
