@@ -14,6 +14,7 @@ class Page
   public function Display()
   {
     echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
+    $this -> DisplayGoogleAdSense();
     $this -> DisplayGoogleAnalytics();
     $this -> DisplayFontAwesome();
     $this -> DisplayTitle();
@@ -30,6 +31,10 @@ class Page
     echo "\t\t</div>\n";
 	$this -> DisplayFooter();
     echo "\t</body>\n</html>\n";
+  }
+  public function DisplayGoogleAdSense()
+  {
+    echo "\t\t<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7783699462803040\" crossorigin=\"anonymous\"></script>";
   }
   public function DisplayFontAwesome()
   {
