@@ -6,7 +6,7 @@ class Page
   public $metaKeywords = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
-  public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-solid fa-money-check-dollar\"></i>" => "/finances/", "<i class=\"fa-brands fa-github\"></i>" => "https://github.com/jaimemontoya/jaimemontoya.com/", "<i class=\"fa-brands fa-canadian-maple-leaf\"></i>" => "/toronto/", "<i class=\"fa-solid fa-envelope\"></i>" => "/resume/");
+  public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-brands fa-github\"></i>" => "https://github.com/jaimemontoya/jaimemontoya.com/", "<i class=\"fa-brands fa-canadian-maple-leaf\"></i>" => "/toronto/", "<i class=\"fa-solid fa-envelope\"></i>" => "/resume/");
   public function __set($name, $value)
   {
     $this->$name = $value;
@@ -14,6 +14,7 @@ class Page
   public function Display()
   {
     echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
+    $this -> DisplayGoogleAdSense();
     $this -> DisplayGoogleAnalytics();
     $this -> DisplayFontAwesome();
     $this -> DisplayTitle();
@@ -30,6 +31,10 @@ class Page
     echo "\t\t</div>\n";
 	$this -> DisplayFooter();
     echo "\t</body>\n</html>\n";
+  }
+  public function DisplayGoogleAdSense()
+  {
+    echo "\t\t<script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7783699462803040\" crossorigin=\"anonymous\"></script>";
   }
   public function DisplayFontAwesome()
   {
