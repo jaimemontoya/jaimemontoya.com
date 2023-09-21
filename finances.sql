@@ -1,6 +1,4 @@
-USE [master]
-GO
-/****** Object:  Database [Finances]    Script Date: 9/5/2023 9:19:33 PM ******/
+DROP DATABASE IF EXISTS [Finances]
 CREATE DATABASE [Finances]
  CONTAINMENT = NONE
  ON  PRIMARY 
@@ -281,7 +279,8 @@ CREATE TABLE [dbo].[FactPurchases](
 	[DayID] ASC,
 	[PaymentMethodID] ASC,
 	[SellerID] ASC,
-	[CategoryID] ASC
+	[CategoryID] ASC,
+	[CategoryDeduplicate] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
@@ -391,8 +390,8 @@ ON DELETE CASCADE
 GO
 ALTER TABLE [dbo].[DimProvince] CHECK CONSTRAINT [FK_DimProvince_DimCountry]
 GO
-ALTER TABLE [dbo].[FactPurchases]  WITH CHECK ADD  CONSTRAINT [FK_FactPurchases_FactPurchasesXDimCategory] FOREIGN KEY([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryDeduplicate])
-REFERENCES [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryDeduplicate])
+ALTER TABLE [dbo].[FactPurchases]  WITH CHECK ADD  CONSTRAINT [FK_FactPurchases_FactPurchasesXDimCategory] FOREIGN KEY([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate])
+REFERENCES [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate])
 ON UPDATE CASCADE
 ON DELETE CASCADE
 GO
@@ -431,8 +430,8 @@ ON DELETE CASCADE
 GO
 ALTER TABLE [dbo].[FactPurchasesXDimCategory] CHECK CONSTRAINT [FK_FactPurchasesXDimCategory_DimSeller]
 GO
-ALTER TABLE [dbo].[FactSales]  WITH CHECK ADD  CONSTRAINT [FK_FactSales_FactSales] FOREIGN KEY([CityID], [DayID], [PaymentMethodID], [BuyerID], [CategoryDeduplicate])
-REFERENCES [dbo].[FactSalesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [BuyerID], [CategoryDeduplicate])
+ALTER TABLE [dbo].[FactSales]  WITH CHECK ADD  CONSTRAINT [FK_FactSales_FactSales] FOREIGN KEY([CityID], [DayID], [PaymentMethodID], [BuyerID], [CategoryID], [CategoryDeduplicate])
+REFERENCES [dbo].[FactSalesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [BuyerID], [CategoryID], [CategoryDeduplicate])
 ON UPDATE CASCADE
 ON DELETE CASCADE
 GO
