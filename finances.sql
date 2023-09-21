@@ -391,8 +391,8 @@ ON DELETE CASCADE
 GO
 ALTER TABLE [dbo].[DimProvince] CHECK CONSTRAINT [FK_DimProvince_DimCountry]
 GO
-ALTER TABLE [dbo].[FactPurchases]  WITH CHECK ADD  CONSTRAINT [FK_FactPurchases_FactPurchasesXDimCategory] FOREIGN KEY([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate])
-REFERENCES [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate])
+ALTER TABLE [dbo].[FactPurchases]  WITH CHECK ADD  CONSTRAINT [FK_FactPurchases_FactPurchasesXDimCategory] FOREIGN KEY([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryDeduplicate])
+REFERENCES [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryDeduplicate])
 ON UPDATE CASCADE
 ON DELETE CASCADE
 GO
@@ -431,8 +431,8 @@ ON DELETE CASCADE
 GO
 ALTER TABLE [dbo].[FactPurchasesXDimCategory] CHECK CONSTRAINT [FK_FactPurchasesXDimCategory_DimSeller]
 GO
-ALTER TABLE [dbo].[FactSales]  WITH CHECK ADD  CONSTRAINT [FK_FactSales_FactSales] FOREIGN KEY([CityID], [DayID], [PaymentMethodID], [BuyerID], [CategoryID], [CategoryDeduplicate])
-REFERENCES [dbo].[FactSalesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [BuyerID], [CategoryID], [CategoryDeduplicate])
+ALTER TABLE [dbo].[FactSales]  WITH CHECK ADD  CONSTRAINT [FK_FactSales_FactSales] FOREIGN KEY([CityID], [DayID], [PaymentMethodID], [BuyerID], [CategoryDeduplicate])
+REFERENCES [dbo].[FactSalesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [BuyerID], [CategoryDeduplicate])
 ON UPDATE CASCADE
 ON DELETE CASCADE
 GO
