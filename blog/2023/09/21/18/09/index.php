@@ -1,5 +1,5 @@
 <?php
-  require("../../../../../page.php");
+  require("../../../../../../page.php");
   $index = new Page();
   $index->title = "6:09 PM GMT · Sep 21, 2023";
   $index->metaDescription = "Hello, World!";
