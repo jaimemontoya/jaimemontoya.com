@@ -5,7 +5,6 @@ class FinancesPage extends Page
   public function Display()
   {
     echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
-    $this -> DisplayGoogleAdSense();
     $this -> DisplayGoogleAnalytics();
     $this -> DisplayFontAwesome();
     $this -> DisplayTitle();
