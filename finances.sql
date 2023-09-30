@@ -465,7 +465,7 @@ REFERENCES [dbo].[DimPaymentMethod] ([PaymentMethodID])
 GO
 ALTER TABLE [dbo].[FactSalesXDimCategory] CHECK CONSTRAINT [FK_FactSalesXDimCategory_DimPaymentMethod]
 GO
-USE [master]
+USE [Finances]
 GO
 ALTER DATABASE [Finances] SET  READ_WRITE 
 GO
