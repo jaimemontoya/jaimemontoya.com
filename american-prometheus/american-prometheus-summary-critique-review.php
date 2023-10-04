@@ -21,6 +21,7 @@
 				<div class=\"margintop15 underline bold\">2. OUTLINING THE BOOK</div>
 				<div class=\"margintop15 bold\">2.1. Providing general view of the organization of the book</div>
 				<p>The book is divided into five parts and forty chapters. The Illustration Credits includes pictures of Oppenheimer and places where he lived, his family, contemporary physicists, and friends. Some of the pictures show Oppenheimer with prominent American politicians, as well as media and FBI documents highlighting his achievements, and investigations from the United States Department of Justice, respectively.</p>
+				<p>In addition, the book includes the following sections: Dedication, Praise, Preface, Prologue, Epilogue: - \"There's Only One Robert\", Acknowledgments, Notes, Bibliography, About the Author, Also by Kai Bird and Martin J. Sherwin, and Copyright Page.</p>
 				<div class=\"margintop15 bold\">2.2. Stating the topic of each chapter</div>
 				<div class=\"margintop15 bold\">2.3. Citing extra-text material</div>
 				<div class=\"margintop15 underline bold\">3. HIGHLIGHTING PARTS OF THE BOOK</div>
