@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
            "\t\t\t<div>
-                <h1>Introducing the book</h1>
+                <div class=\"margintop15 underline bold\">INTRODUCING THE BOOK</div>
             </div>\n";
 ?>
