@@ -17,5 +17,7 @@
 				<div class=\"margintop15 bold\">3.1. Providing focused evaluation</div>
 				<div class=\"margintop15 underline bold\">4. PROVIDING CLOSING EVALUATION OF THE BOOK</div>
 				<div class=\"margintop15 bold\">4.1. Definitely recommending/disqualifying the book or recommending the book despite indicated shortcomings</div>
-            </div>\n".$index->BookReviewsBibliography().$index->DisplayFooter();
+            </div>\n";
+	$index->content .= $index->BookReviewsBibliography();
+	$index->content .= $index->DisplayFooter();
 ?>
