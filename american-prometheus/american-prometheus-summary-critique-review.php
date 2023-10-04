@@ -20,7 +20,7 @@
 				<p>This book examines the biography of J. Robert Oppenheimer in the context of the Cold War and the political debate of the moral consequences of the atomic bomb.</p>
 				<div class=\"margintop15 underline bold\">2. OUTLINING THE BOOK</div>
 				<div class=\"margintop15 bold\">2.1. Providing general view of the organization of the book</div>
-				<p>The book is organized in five parts and forty chapters. The Illustration Credits includes pictures of Oppenheimer and places where he lived, his family, contemporary physicists, and friends. Some of the pictures show Oppenheimer with prominent American politicians as well as media and FBI documents highlighting his achievements, and investigations from the United States Department of Justice.</p>
+				<p>The book is organized in five parts and forty chapters. The Illustration Credits includes pictures of Oppenheimer and places where he lived, his family, contemporary physicists, and friends. Some of the pictures show Oppenheimer with prominent American politicians, as well as media and FBI documents highlighting his achievements, and investigations from the United States Department of Justice, respectively.</p>
 				<div class=\"margintop15 bold\">2.2. Stating the topic of each chapter</div>
 				<div class=\"margintop15 bold\">2.3. Citing extra-text material</div>
 				<div class=\"margintop15 underline bold\">3. HIGHLIGHTING PARTS OF THE BOOK</div>
