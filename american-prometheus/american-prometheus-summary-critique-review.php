@@ -3,7 +3,7 @@
            "\t\t\t<div>
                 <div class=\"margintop15 underline bold\">1. INTRODUCING THE BOOK</div>
                 <div class=\"margintop15 bold\">1.1. Defining the general topic of the book</div>
-				<ul>
+				<ul class=\"margintop15\">
 				    <li>World War I, World War II and the Cold War history.
 					<li>The United States government supporting global anti-communism in the context of World War I, World War II and the Cold War.
 					<li>Biography of J. Robert Oppenheimer.
