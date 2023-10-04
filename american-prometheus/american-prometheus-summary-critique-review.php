@@ -12,6 +12,7 @@
                 <div class=\"margintop15 bold\">1.2. Informing about potential readership</div>
 				<p><span class=\"\">\"American Prometheus: The Inspiration for the Major Motion Picture OPPENHEIMER</span>\" by  Kai Bird and Martin J. Sherwin is a book for readers interested in World War I, World War II and the Cold War history in the context of the political anti-communism battles in the United States. This is also an excellent biography of J. Robert Oppenheimer for people who want to know about his leadership to build the atomic bomb.</p>
                 <div class=\"margintop15 bold\">1.3. Informing about the author</div>
+				<p>Kai Bird is a historian, journalist, author and columnist who was born in 1951 in Eugene, Oregon. He won the Pulitzer Prize for Biography in 2006 for \"American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer\", the book that inspired the major motion picture, Oppenheimer, released in 2023 by Universal Studios.</p>
                 <div class=\"margintop15 bold\">1.4. Making topic generalizations</div>
                 <div class=\"margintop15 bold\">1.5. Inserting book in the field</div>
 				<div class=\"margintop15 underline bold\">2. OUTLINING THE BOOK</div>
