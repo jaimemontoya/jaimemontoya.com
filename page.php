@@ -93,9 +93,13 @@ class Page
   {
     echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=".$url.">".$name."</a>\n\t\t\t\t\t</li>\n";
   }
+  public function BookReviewsBibliography()
+  {
+    echo "\t\t<div class=\"margintop15\">* \"Schematic description of rhetorical moves in book reviews\", template from \"<span>Motta-Roth, D. (1998), Discourse analysis and academic book reviews: A study of text and disciplinary cultures. In 1. Fartanet, S. Posteguillo, J.C. Palmer,</span> and J. F. Coli (Eds.), <span class=\"italic\">Genre studies in English for academic purposes</span> (pp. 29-58). Castello, Spain: Universitat Jaume I.\"</div>";
+  }
   public function DisplayFooter()
   {
-    echo "\t\t<footer>\n\t\t\t<div>\n\t\t\t<a href=\"#\">fffffBack to top</a>\n\t\t\t</div>\n\t\t</footer>\n";
+    echo "\t\t<footer>\n\t\t\t<div>\n\t\t\t<a href=\"#\">Back to top</a>\n\t\t\t</div>\n\t\t</footer>\n";
   }
 }
 ?>
