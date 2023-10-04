@@ -1,6 +1,7 @@
 <?php
   require("page.php");
   $index = new Page();
+  require("american-prometheus/american-prometheus-book-info.php");
   require("how-not-to-diet/how-not-to-diet-book-info.php");
   require("fp-magazine-summer-2023/fp-magazine-summer-2023-book-info.php");
   require("data-concepts-azure/data-concepts-azure-book-info.php");
