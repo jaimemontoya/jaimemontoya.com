@@ -18,5 +18,5 @@
 				<div class=\"margintop15 underline bold\">4. PROVIDING CLOSING EVALUATION OF THE BOOK</div>
 				<div class=\"margintop15 bold\">4.1. Definitely recommending/disqualifying the book or recommending the book despite indicated shortcomings</div>
 				<div class=\"margintop15\">* \"Schematic description of rhetorical moves in book reviews\", template from \"<span>Motta-Roth, D. (1998), Discourse analysis and academic book reviews: A study of text and disciplinary cultures. In 1. Fartanet, S. Posteguillo, J.C. Palmer,</span> and J. F. Coli (Eds.), <span class=\"italic\">Genre studies in English for academic purposes</span> (pp. 29-58). Castello, Spain: Universitat Jaume I.\"</div>
-            </div>\n";
+            </div>\n".$index->DisplayFooter();
 ?>
