@@ -14,7 +14,7 @@
                 <div class=\"margintop15 bold\">1.3. Informing about the author</div>
 				<p>Kai Bird is a historian, journalist, author and columnist who was born in 1951 in Eugene, Oregon. He won the Pulitzer Prize for Biography in 2006 for \"American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer\", the book that inspired the major motion picture, Oppenheimer, released in 2023 by Universal Studios.</p>
                 <div class=\"margintop15 bold\">1.4. Making topic generalizations</div>
-				<p>The moral debate about the use of the atomic bomb during World War II resulted in a political turmoil in the United States, creating division to define the legacy Oppenheimer because his life was a mix of triumph and tragedy. Was he a tragic hero, a loyal patriotic American, or a hidden communist enemy of the United States? The public debate lasted many years and resulted in resulted in court proceedings at high levels of the American political and judiciary systems.</p>
+				<p>The moral debate about the use of the atomic bomb during World War II resulted in a political turmoil in the United States, creating division to define the legacy of Oppenheimer. His life was a mix of triumph and tragedy. Was he a tragic hero, a loyal patriotic American, or a hidden communist enemy of the United States? The public debate lasted many years and resulted in resulted in court proceedings at high levels of the American political and judiciary systems.</p>
                 <div class=\"margintop15 bold\">1.5. Inserting book in the field</div>
 				<div class=\"margintop15 underline bold\">2. OUTLINING THE BOOK</div>
 				<div class=\"margintop15 bold\">2.1. Providing general view of the organization of the book</div>
