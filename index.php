@@ -1,6 +1,7 @@
 <?php
   require("page.php");
   $index = new Page();
+  require("american-prometheus/american-prometheus-book-info.php");
   require("how-not-to-diet/how-not-to-diet-book-info.php");
   require("fp-magazine-summer-2023/fp-magazine-summer-2023-book-info.php");
   require("data-concepts-azure/data-concepts-azure-book-info.php");
@@ -58,6 +59,7 @@
   require("the-power-of-habit/the-power-of-habit-book-info.php");
   require("niv-gospel-john-devotional-notes/niv-gospel-john-devotional-notes-book-info.php");
   require("place-participant-guide/place-participant-guide-book-info.php");
+  require("the-lambs-supper-the-mass-as-heaven-on-earth/the-lambs-supper-the-mass-as-heaven-on-earth-book-info.php");
   require("the-logic-of-god/the-logic-of-god-book-info.php");
   require("ab-testing-the/ab-testing-the-book-info.php");
   require("personal-branding-for/personal-branding-for-book-info.php");
