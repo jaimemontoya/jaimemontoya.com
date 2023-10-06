@@ -17,7 +17,7 @@
                 <div class=\"margintop15 bold\">1.4. Making topic generalizations</div>
 				<p>The moral debate about the use of the atomic bomb during World War II resulted in a political turmoil in the United States, creating division to define the legacy of Oppenheimer. His life was a mix of triumph and tragedy. Was he a tragic hero, a loyal patriotic American, or a hidden communist enemy of the United States? The public debate lasted many years and resulted in resulted in court proceedings at high levels of the American political and judiciary systems.</p>
                 <div class=\"margintop15 bold\">1.5. Inserting book in the field</div>
-				<p>This book examines the biography of J. Robert Oppenheimer in the context of the Cold War and the political debate of the moral consequences of the atomic bomb.</p>
+				<p>This book examines the biography of J. Robert Oppenheimer in the context of World War I, World War II and the Cold War, highlighting the political debate of the moral consequences of the atomic bomb.</p>
 				<div class=\"margintop15 underline bold\">2. OUTLINING THE BOOK</div>
 				<div class=\"margintop15 bold\">2.1. Providing general view of the organization of the book</div>
 				<p>The book is divided into five parts and forty chapters. The Illustration Credits includes pictures of Oppenheimer and places where he lived, his family, contemporary physicists, and friends. Some of the pictures show Oppenheimer with prominent American politicians, as well as media and FBI documents highlighting his achievements, and investigations from the United States Department of Justice, respectively.</p>
