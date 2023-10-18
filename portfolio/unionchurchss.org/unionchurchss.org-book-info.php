@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>unionchurchss.org</span>
-					<p>By Jaime Montoya. <mark>Website 3; created, upgraded and maintained by Jaime Montoya</mark> (InMotion Hosting, since June 9, 2019 GMT).</p>
+					<p>By Jaime Montoya. <mark>Website 2; created, upgraded and maintained by Jaime Montoya</mark> (InMotion Hosting, since June 9, 2019 GMT).</p>
                 </div>
             </div></a>\n";
 ?>
