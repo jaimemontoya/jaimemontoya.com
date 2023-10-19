@@ -1,6 +1,7 @@
 <?php
   require("page.php");
   $index = new Page();
+  require("the-7-habits-of-highly-effective-people/the-7-habits-of-highly-effective-people-book-info.php");
   require("american-prometheus/american-prometheus-book-info.php");
   require("how-not-to-diet/how-not-to-diet-book-info.php");
   require("fp-magazine-summer-2023/fp-magazine-summer-2023-book-info.php");
