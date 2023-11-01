@@ -3,10 +3,12 @@ class Page
 {
   public $content;
   public $title = "jaimemontoya.com";
+  public $parentPage = "";
   public $metaKeywords = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
   public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-brands fa-github\"></i>" => "https://github.com/jaimemontoya/jaimemontoya.com/", "<i class=\"fa-brands fa-canadian-maple-leaf\"></i>" => "/portfolio/", "<i class=\"fa-solid fa-blog\"></i>" => "/blog/", "<i class=\"fa-brands fa-linkedin\"></i>" => "/about/");
+  public $parentPages array("Portfolio" => "/portfolio/", "Blog" => "/blog/");
   public function __set($name, $value)
   {
     $this->$name = $value;
@@ -27,7 +29,7 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo "\t\t<div class=\"container\">\n";
-	echo $this -> DisplayBreadcrumb($this->title);
+	echo $this -> DisplayBreadcrumb($this->title, $this->parentPage);
     echo $this->content;
     echo "\t\t</div>\n";
 	$this -> DisplayFooter();
@@ -90,7 +92,7 @@ class Page
     }
     echo "\t\t\t\t</ul>\n\t\t\t</nav>\n";
   }
-  public function DisplayBreadcrumb($title)
+  public function DisplayBreadcrumb($title, $parentPage)
   {
     $homePage = "/";
     $currentPage = $_SERVER['REQUEST_URI'];
