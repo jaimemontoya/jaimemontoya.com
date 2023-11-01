@@ -96,7 +96,7 @@ class Page
     $currentPage = $_SERVER['REQUEST_URI'];
 	$actualLink = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 	$section = file_get_contents('http://www.example.com/', FALSE, NULL, 0, 114);
-	$title = preg_match("/<title>(.*)<\/title>/siU", $section);
+	$title = preg_match("/<title>(.*)<\/title>/siU", $section, $matches);
 	
 	
 	/*$lines = file($actualLink);
@@ -112,7 +112,7 @@ foreach ($lines as $line_num => $line) {
 
 	
     if($currentPage != $homePage AND $currentPage != '/index.php') {
-      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$title."</ul>";
+      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$matches[0]."</ul>";
     }         
   }
   public function DisplayButton($name, $url)
