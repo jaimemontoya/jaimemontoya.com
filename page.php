@@ -27,7 +27,7 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo "\t\t<div class=\"container\">\n";
-	//echo $this -> DisplayBreadcrumb();
+	echo $this -> DisplayBreadcrumb();
     echo $this->content;
     echo "\t\t</div>\n";
 	$this -> DisplayFooter();
