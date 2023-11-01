@@ -97,7 +97,11 @@ class Page
     $homePage = "/";
     $currentPage = $_SERVER['REQUEST_URI'];
     if($currentPage != $homePage AND $currentPage != '/index.php') {
-      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$title."</ul>";
+      $breadcrumb = "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ";
+	  if (!empty($parentPage)) {
+        $breadcrumb .= "Blog › ";
+	  }
+	  $breadcrumb .= $title."</ul>";
     }         
   }
   public function DisplayButton($name, $url)
