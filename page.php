@@ -90,7 +90,7 @@ class Page
     }
     echo "\t\t\t\t</ul>\n\t\t\t</nav>\n";
   }
-  public function DisplayBreadcrumb($buttons)
+  public function DisplayBreadcrumb($title)
   {
     $homePage = "/";
     $currentPage = $_SERVER['REQUEST_URI'];
@@ -113,7 +113,7 @@ foreach ($lines as $line_num => $line) {
 
 	
     if($currentPage != $homePage AND $currentPage != '/index.php') {
-      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › a</ul>";
+      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$title."</ul>";
     }         
   }
   public function DisplayButton($name, $url)
