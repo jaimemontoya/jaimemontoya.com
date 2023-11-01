@@ -27,6 +27,7 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo "\t\t<div class=\"container\">\n";
+	echo $this -> DisplayBreadcrumb();
     echo $this->content;
     echo "\t\t</div>\n";
 	$this -> DisplayFooter();
@@ -79,7 +80,6 @@ class Page
   {
     echo "\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"jaimemontoya.com\">jaimemontoya.com</a>\n\t\t\t</div>\n";
     $this -> DisplayMenu($this->buttons);
-    $this -> DisplayBreadcrumb();
     echo "\t\t</header>\n";
   }
   public function DisplayMenu($buttons)
