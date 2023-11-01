@@ -95,7 +95,7 @@ class Page
     $homePage = "/";
     $currentPage = $_SERVER['REQUEST_URI'];
 	$actualLink = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-	
+	$section = file_get_contents($actualLink, FALSE, NULL, 20, 14);
 
 	
     if($currentPage != $homePage AND $currentPage != '/index.php') {
