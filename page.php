@@ -95,7 +95,7 @@ class Page
     $homeurl = '/index.php';                               
     $homepage = "/";
     $currentpage = $_SERVER['REQUEST_URI'];
-    if($currentpage == $homepage or $currentpage == 'index.php') {
+    if($currentpage == $homepage or $currentpage == '/index.php') {
       echo 'no content';
     } else {
       echo 'content';
