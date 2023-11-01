@@ -27,7 +27,7 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo "\t\t<div class=\"container\">\n";
-	echo $this -> DisplayBreadcrumb();
+	//echo $this -> DisplayBreadcrumb();
     echo $this->content;
     echo "\t\t</div>\n";
 	$this -> DisplayFooter();
@@ -96,10 +96,7 @@ class Page
     $currentPage = $_SERVER['REQUEST_URI'];
 	$actualLink = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 	
-	
-	
 
-}
 	
     if($currentPage != $homePage AND $currentPage != '/index.php') {
       echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> ›</ul>";
