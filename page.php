@@ -79,6 +79,7 @@ class Page
   {
     echo "\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"jaimemontoya.com\">jaimemontoya.com</a>\n\t\t\t</div>\n";
     $this -> DisplayMenu($this->buttons);
+    $this -> DisplayBreadcrumb();
     echo "\t\t</header>\n";
   }
   public function DisplayMenu($buttons)
@@ -88,6 +89,10 @@ class Page
       $this->DisplayButton($name, $url);
     }
     echo "\t\t\t\t</ul>\n\t\t\t</nav>\n";
+  }
+  public function DisplayBreadcrumb()
+  {
+    echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a></ul>";
   }
   public function DisplayButton($name, $url)
   {
