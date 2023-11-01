@@ -92,12 +92,12 @@ class Page
   }
   public function DisplayBreadcrumb()
   {
-    $homeurl = '/index.php';                               
-    $homepage = "/";
-    $currentpage = $_SERVER['REQUEST_URI'];
-	$actual_link = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-    if($currentpage != $homepage AND $currentpage != '/index.php') {
-      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$actual_link."</ul>";
+    $homePage = "/";
+    $currentPage = $_SERVER['REQUEST_URI'];
+	$actualLink = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+	$fileContent = file_get_contents($actualLink);
+    if($currentPage != $homePage AND $currentPage != '/index.php') {
+      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$fileContent."</ul>";
     }         
   }
   public function DisplayButton($name, $url)
