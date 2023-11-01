@@ -100,6 +100,7 @@ class Page
 	
     if($currentPage != $homePage AND $currentPage != '/index.php') {
       //echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> ›</ul>";
+	  echo "ok";
     }         
   }
   public function DisplayButton($name, $url)
