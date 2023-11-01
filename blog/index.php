@@ -1,7 +1,7 @@
 <?php
   require("../page.php");
   $index = new Page();
-  $index->title = "Jaime Montoya's blog";
+  $index->title = "Blog";
   $index->metaDescription = "Welcome to my blog, where you will find information about jaimemontoya.com and updates related to the content of this website.";
   require("2023/10/30/21/58/book-info-20231030-2158.php");
   require("2023/10/17/23/21/book-info-20231017-2321.php");

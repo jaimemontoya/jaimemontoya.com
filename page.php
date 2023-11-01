@@ -94,24 +94,6 @@ class Page
   {
     $homePage = "/";
     $currentPage = $_SERVER['REQUEST_URI'];
-	/*$actualLink = 'https://jaimemontoya.com/';
-	//$section = file_get_contents('http://www.example.com/', FALSE, NULL, 0, 114);
-	$section = file_get_contents($actualLink, FALSE, NULL, 0, 114);
-	$title = preg_match("/<title>(.*)<\/title>/siU", $section, $matches);*/
-	
-	
-	/*$lines = file($actualLink);
-
-// Loop through our array, show HTML source as HTML source; and line numbers too.
-$count = 0;
-foreach ($lines as $line_num => $line) {
-	if ($count = 2){
-      $result = "Line #<b>{$line_num}</b> : " . htmlspecialchars($line) . "<br />\n";
-	}
-	$count += 1;
-}*/
-
-	
     if($currentPage != $homePage AND $currentPage != '/index.php') {
       echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$title."</ul>";
     }         
