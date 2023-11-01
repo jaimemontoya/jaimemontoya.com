@@ -95,7 +95,7 @@ class Page
     $homeurl = '/index.php';                               
     $homepage = "/";
     $currentpage = $_SERVER['REQUEST_URI'];
-    if($currentpage != $homepage or $currentpage != '/index.php') {
+    if($currentpage != $homepage AND $currentpage != '/index.php') {
       echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a>".basename(__FILE__)."</ul>";
     }         
   }
