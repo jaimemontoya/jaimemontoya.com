@@ -98,18 +98,11 @@ class Page
 	
 	
 	
-	$title = '';
-$dom = new DOMDocument();
 
-if($dom->loadHTMLFile($actualLink)) {
-    $list = $dom->getElementsByTagName("title");
-    if ($list->length > 0) {
-        $title = $list->item(0)->textContent;
-    }
 }
 	
     if($currentPage != $homePage AND $currentPage != '/index.php') {
-      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$title."</ul>";
+      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> ›</ul>";
     }         
   }
   public function DisplayButton($name, $url)
