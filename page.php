@@ -95,11 +95,20 @@ class Page
     $homePage = "/";
     $currentPage = $_SERVER['REQUEST_URI'];
 	$actualLink = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-	$section = file_get_contents($actualLink, FALSE, NULL, 20, 14);
+	/////$section = file_get_contents($actualLink, FALSE, NULL, 20, 14);
+	
+	
+	
+	$lines = file('http://www.example.com/');
+
+// Loop through our array, show HTML source as HTML source; and line numbers too.
+foreach ($lines as $line_num => $line) {
+    $result .= "Line #<b>{$line_num}</b> : " . htmlspecialchars($line) . "<br />\n";
+}
 
 	
     if($currentPage != $homePage AND $currentPage != '/index.php') {
-      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$section."</ul>";
+      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$result."</ul>";
     }         
   }
   public function DisplayButton($name, $url)
