@@ -95,14 +95,21 @@ class Page
     $homePage = "/";
     $currentPage = $_SERVER['REQUEST_URI'];
 	$actualLink = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-	$fileContent = file_get_contents($actualLink);
-	if (!$fileContent)
-      return null;
-    $pageTitle = preg_match("/<title>(.*)<\/title>/siU", $fileContent, $titleMatches);
-	if (!$pageTitle)
-      return null; 
+	
+	
+	
+	$title = '';
+$dom = new DOMDocument();
+
+if($dom->loadHTMLFile($actualLink)) {
+    $list = $dom->getElementsByTagName("title");
+    if ($list->length > 0) {
+        $title = $list->item(0)->textContent;
+    }
+}
+	
     if($currentPage != $homePage AND $currentPage != '/index.php') {
-      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$pageTitle."</ul>";
+      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$title."</ul>";
     }         
   }
   public function DisplayButton($name, $url)
