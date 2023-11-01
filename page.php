@@ -90,14 +90,14 @@ class Page
     }
     echo "\t\t\t\t</ul>\n\t\t\t</nav>\n";
   }
-  public function DisplayBreadcrumb()
+  public function DisplayBreadcrumb($title)
   {
     $homePage = "/";
     $currentPage = $_SERVER['REQUEST_URI'];
-	$actualLink = 'https://jaimemontoya.com/';
+	/*$actualLink = 'https://jaimemontoya.com/';
 	//$section = file_get_contents('http://www.example.com/', FALSE, NULL, 0, 114);
 	$section = file_get_contents($actualLink, FALSE, NULL, 0, 114);
-	$title = preg_match("/<title>(.*)<\/title>/siU", $section, $matches);
+	$title = preg_match("/<title>(.*)<\/title>/siU", $section, $matches);*/
 	
 	
 	/*$lines = file($actualLink);
@@ -113,7 +113,7 @@ foreach ($lines as $line_num => $line) {
 
 	
     if($currentPage != $homePage AND $currentPage != '/index.php') {
-      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$matches[1]."</ul>";
+      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$title."</ul>";
     }         
   }
   public function DisplayButton($name, $url)
