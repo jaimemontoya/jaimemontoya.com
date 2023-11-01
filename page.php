@@ -102,8 +102,12 @@ class Page
 	$lines = file($actualLink);
 
 // Loop through our array, show HTML source as HTML source; and line numbers too.
+$count = 0;
 foreach ($lines as $line_num => $line) {
-    $result .= "Line #<b>{$line_num}</b> : " . htmlspecialchars($line) . "<br />\n";
+	if ($count = 2){
+      $result = "Line #<b>{$line_num}</b> : " . htmlspecialchars($line) . "<br />\n";
+	}
+	$count += 1;
 }
 
 	
