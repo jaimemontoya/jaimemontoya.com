@@ -112,7 +112,7 @@ foreach ($lines as $line_num => $line) {
 
 	
     if($currentPage != $homePage AND $currentPage != '/index.php') {
-      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › </ul>";
+      echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ".$section."</ul>";
     }         
   }
   public function DisplayButton($name, $url)
