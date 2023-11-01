@@ -102,7 +102,8 @@ class Page
         $breadcrumb .= "Blog › ";
 	  }
 	  $breadcrumb .= $title."</ul>";
-    }         
+    }
+	echo $breadcrumb;
   }
   public function DisplayButton($name, $url)
   {
