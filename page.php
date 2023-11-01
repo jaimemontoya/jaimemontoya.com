@@ -95,7 +95,8 @@ class Page
     $homePage = "/";
     $currentPage = $_SERVER['REQUEST_URI'];
 	$actualLink = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-	$section = file_get_contents('http://www.example.com/', FALSE, NULL, 0, 114);
+	//$section = file_get_contents('http://www.example.com/', FALSE, NULL, 0, 114);
+	$section = file_get_contents($actualLink, FALSE, NULL, 0, 114);
 	$title = preg_match("/<title>(.*)<\/title>/siU", $section, $matches);
 	
 	
