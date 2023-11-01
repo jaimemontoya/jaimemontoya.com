@@ -92,6 +92,14 @@ class Page
   }
   public function DisplayBreadcrumb()
   {
+    $homeurl = '/index.php';                               
+    $homepage = "/";
+    $currentpage = $_SERVER['REQUEST_URI'];
+    if($currentpage == $homepage or $currentpage == 'index.php') {
+      echo 'no content';
+    } else {
+      echo 'content';
+    }         
     echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a>".basename(__FILE__)."</ul>";
   }
   public function DisplayButton($name, $url)
