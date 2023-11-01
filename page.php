@@ -92,7 +92,7 @@ class Page
   }
   public function DisplayBreadcrumb()
   {
-    echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a>".$_SERVER['REQUEST_URI']."</ul>";
+    echo "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a>".basename(__FILE__)."</ul>";
   }
   public function DisplayButton($name, $url)
   {
