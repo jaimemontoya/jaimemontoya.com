@@ -1,7 +1,7 @@
 <?php
   require("../page.php");
   $index = new Page();
-  $index->title = "Jaime Montoya's portfolio";
+  $index->title = "Portfolio";
   $index->metaDescription = "Websites designed, developed and/or hosted by Jaime Montoya";
   require("jaimemontoya.net/jaimemontoya.net-book-info.php");
   require("unionchurchss.org/unionchurchss.org-book-info.php");
