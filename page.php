@@ -90,7 +90,7 @@ class Page
     }
     echo "\t\t\t\t</ul>\n\t\t\t</nav>\n";
   }
-  public function DisplayBreadcrumb($title)
+  public function DisplayBreadcrumb($buttons)
   {
     $homePage = "/";
     $currentPage = $_SERVER['REQUEST_URI'];
