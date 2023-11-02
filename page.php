@@ -101,8 +101,8 @@ class Page
 	  /*if (!empty($parentPage)) {
         $breadcrumb .= "Blog › ";
 	  }*/
-	  if (array_key_exists($parentPage, $parentPage)) {
-        $breadcrumb .= $parentPages[0];
+	  if (array_key_exists($parentPage, $parentPages)) {
+        $breadcrumb .= "exists";
 	  }
 	  $breadcrumb .= $title."</ul>";
     }
