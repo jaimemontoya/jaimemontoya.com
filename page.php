@@ -102,7 +102,7 @@ class Page
         $breadcrumb .= "Blog › ";
 	  }*/
 	  if (array_key_exists($parentPage, $parentPages)) {
-        $breadcrumb .= "exists";
+        $breadcrumb .= $parentPages['Portfolio'];
 	  }
 	  $breadcrumb .= $title."</ul>";
     }
