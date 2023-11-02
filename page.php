@@ -7,7 +7,7 @@ class Page
   public $metaKeywords = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
-  public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-brands fa-github\"></i>" => "https://github.com/jaimemontoya/jaimemontoya.com/", "<i class=\"fa-brands fa-canadian-maple-leaf\"></i>" => "/portfolio/", "<i class=\"fa-solid fa-blog\"></i>" => "/blog/", "<i class=\"fa-brands fa-stack-overflow\"></i>" => "https://stackoverflow.com/users/4242086/jaime-montoya", "<i class=\"fa-brands fa-linkedin\"></i>" => "https://linkedin.com/in/jaimemontoyain/", "<i class=\"fa-solid fa-address-card\"></i>" => "/about/");
+  public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-brands fa-github\"></i>" => "https://github.com/jaimemontoya/jaimemontoya.com/", "<i class=\"fa-brands fa-canadian-maple-leaf\"></i>" => "/portfolio/", "<i class=\"fa-solid fa-blog\"></i>" => "/blog/", "<i class=\"fa-brands fa-stack-overflow\"></i>" => "https://stackoverflow.com/users/4242086/jaime-montoya", "<i class=\"fa-brands fa-linkedin\"></i>" => "https://linkedin.com/in/jaimemontoyain/", "<i class=\"fa-brands fa-strava\"></i>" => "/strava/", "<i class=\"fa-solid fa-address-card\"></i>" => "/about/");
   public $parentPages = array("Portfolio" => "/portfolio/", "Blog" => "/blog/");
   public function __set($name, $value)
   {
