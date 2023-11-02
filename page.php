@@ -29,7 +29,7 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo "\t\t<div class=\"container\">\n";
-	echo $this -> DisplayBreadcrumb($this->title, $this->parentPage);
+	echo $this -> DisplayBreadcrumb($this->title, $this->parentPage, $this->parentPages);
     echo $this->content;
     echo "\t\t</div>\n";
 	$this -> DisplayFooter();
@@ -92,14 +92,17 @@ class Page
     }
     echo "\t\t\t\t</ul>\n\t\t\t</nav>\n";
   }
-  public function DisplayBreadcrumb($title, $parentPage)
+  public function DisplayBreadcrumb($title, $parentPage, $parentPages)
   {
     $homePage = "/";
     $currentPage = $_SERVER['REQUEST_URI'];
     if($currentPage != $homePage AND $currentPage != '/index.php') {
       $breadcrumb = "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ";
-	  if (!empty($parentPage)) {
+	  /*if (!empty($parentPage)) {
         $breadcrumb .= "Blog › ";
+	  }*/
+	  if (array_key_exists($parentPage, $parentPage)) {
+        $breadcrumb .= $parentPages;
 	  }
 	  $breadcrumb .= $title."</ul>";
     }
