@@ -3,7 +3,7 @@ header{text-align:center;background:#000}
 p{margin:10px 0 20px}
 mark{background-color:yellow}
 a{color:#0f0;text-decoration:none}
-a:hover{color:#f0f!important}
+a:hover{color:#0f0!important}
 a[href^=tel]{color:black!important;font:inherit!important}
 .black{color:#0f0!important}
 .bold{font-weight:bold!important}
