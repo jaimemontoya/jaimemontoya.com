@@ -47,7 +47,7 @@ nav li{display:inline-block;font-size:23px;color:#afafaf}
 nav li a{display:block;color:#0f0;text-align:center;padding:5px 22px;text-decoration:none}
 nav li a:hover{color:#afafaf;background-color:#0f0;text-decoration:none}
 .breadcrumb{background-color:#000;margin:15px 0;padding:0}
-.breadcrumb a,a:hover{color:#0f0!important}
+/*.breadcrumb a,a:hover{color:#0f0!important}*/
 .center{text-align:center}
 .book{display:flex;flex-direction:row;margin-top:14px}
 .book .book-thumbnail{text-decoration:none}
