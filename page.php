@@ -97,7 +97,7 @@ class Page
     $homePage = "/";
     $currentPage = $_SERVER['REQUEST_URI'];
     if($currentPage != $homePage AND $currentPage != '/index.php') {
-      $breadcrumb = "\t\t\t<ul class=\"breadcrumb\"><li><a href=\"/\">Home</a> › ";
+      $breadcrumb = "\t\t\t<ul class=\"breadcrumb-block\"><li><a href=\"/\">Home</a> › ";
 	  if (array_key_exists($parentPage, $parentPages)) {
         $breadcrumb .= "<a href=\"".$parentPages[$parentPage]."\">".$parentPage."</a> › ";
 	  }
