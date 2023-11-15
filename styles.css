@@ -41,7 +41,7 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .widthauto{width:auto!important}
 .logo{padding-top:15px}
 .logo a{font:20px/20px Carter One;color:#0f0!important;text-decoration:none;font-size:35px}
-nav{background:#0f0}
+nav{background:#000}
 nav ul{list-style-type:none;margin:10px 0 0;padding:0}
 nav li{display:inline-block;font-size:23px;color:#afafaf}
 nav li a{display:block;color:#0f0;text-align:center;padding:5px 22px;text-decoration:none}
