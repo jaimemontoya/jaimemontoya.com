@@ -1,8 +1,8 @@
-body{margin:0;padding:0;color:#fff!important;background:#000;font-family:PT Sans, sans-serif;line-height:26px}
+body{margin:0;padding:0;color:#0f0!important;background:#000;font-family:PT Sans, sans-serif;line-height:26px}
 header{text-align:center;background:#000}
 p{margin:10px 0 20px}
 mark{background-color:yellow}
-a{color:#fff;text-decoration:none}
+a{color:#0f0;text-decoration:none}
 a:hover{color:#fff!important}
 a[href^=tel]{color:black!important;font:inherit!important}
 .black{color:#000!important}
@@ -40,11 +40,11 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .imgcontainer .logo a{color:#04AA6D!important}
 .widthauto{width:auto!important}
 .logo{padding-top:15px}
-.logo a{font:20px/20px Carter One;color:#fff!important;text-decoration:none;font-size:35px}
+.logo a{font:20px/20px Carter One;color:#0f0!important;text-decoration:none;font-size:35px}
 nav{background:#000}
 nav ul{list-style-type:none;margin:10px 0 0;padding:0}
 nav li{display:inline-block;font-size:23px;color:#afafaf}
-nav li a{display:block;color:#fff;text-align:center;padding:5px 22px;text-decoration:none}
+nav li a{display:block;color:#0f0;text-align:center;padding:5px 22px;text-decoration:none}
 nav li a:hover{color:#afafaf;background-color:#000;text-decoration:none}
 .breadcrumb{background-color:#000;margin:15px 0;padding:0}
 .center{text-align:center}
