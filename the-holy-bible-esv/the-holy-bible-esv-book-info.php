@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>The Holy Bible, English Standard Version</span>
-					<p>By Crossway. <mark>Book 54 read by Jaime Montoya</mark> from January 1, 2022 to 1:16 AM June 11, 2023 GMT.</p>
+					<p>By Crossway. <mark>Book 53 read by Jaime Montoya</mark> from January 1, 2022 to 1:16 AM June 11, 2023 GMT.</p>
                 </div>
             </div>\n";
 ?>

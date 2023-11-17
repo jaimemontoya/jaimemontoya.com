@@ -5,9 +5,7 @@
   require("the-7-habits-of-highly-effective-people/the-7-habits-of-highly-effective-people-book-info.php");
   require("american-prometheus/american-prometheus-book-info.php");
   require("how-not-to-diet/how-not-to-diet-book-info.php");
-  require("fp-magazine-summer-2023/fp-magazine-summer-2023-book-info.php");
   require("data-concepts-azure/data-concepts-azure-book-info.php");
-  require("time-magazine-2023-07-03/time-magazine-2023-07-03-book-info.php");
   require("fire-in-the-valley/fire-in-the-valley-book-info.php");
   require("the-accidental-billionaires/the-accidental-billionaires-book-info.php");
   require("think-learn-succeed/think-learn-succeed-book-info.php");
@@ -20,7 +18,6 @@
   require("multiply/multiply-book-info.php");
   require("ielts-writing-section-skills-mastery/ielts-writing-section-skills-mastery-book-info.php");
   require("ielts-success-formula-general/ielts-success-formula-general-book-info.php");
-  require("official-ielts-prep-bonus-guide-included/official-ielts-prep-bonus-guide-included-book-info.php");
   require("the-amazon-way/the-amazon-way-book-info.php");
   require("the-dangers-of-a-shallow-faith/the-dangers-of-a-shallow-faith-book-info.php");
   require("the-crucified-life/the-crucified-life-book-info.php");
@@ -30,10 +27,7 @@
   require("crazy-love/crazy-love-book-info.php");
   require("authentic-faith/authentic-faith-book-info.php");
   require("the-pilgrim-s-progress/the-pilgrim-s-progress-book-info.php");
-  require("ielts-50-things-to-know/ielts-50-things-to-know-book-info.php");
   require("ielts-listening-raise-your-score/ielts-listening-raise-your-score-book-info.php");
-  require("official-ielts-prep/official-ielts-prep-book-info.php");
-  require("ielts-reading-and-listening/ielts-reading-and-listening-book-info.php");
   require("mind-gym/mind-gym-book-info.php");
   require("man-s-search-for-meaning/man-s-search-for-meaning-book-info.php");
   require("it-starts-with-passion/it-starts-with-passion-book-info.php");
@@ -60,8 +54,6 @@
   require("wordpress-5-complete/wordpress-5-complete-book-info.php");
   require("the-power-of-habit/the-power-of-habit-book-info.php");
   require("niv-gospel-john-devotional-notes/niv-gospel-john-devotional-notes-book-info.php");
-  require("place-participant-guide/place-participant-guide-book-info.php");
-  require("the-lambs-supper-the-mass-as-heaven-on-earth/the-lambs-supper-the-mass-as-heaven-on-earth-book-info.php");
   require("the-logic-of-god/the-logic-of-god-book-info.php");
   require("ab-testing-the/ab-testing-the-book-info.php");
   require("personal-branding-for/personal-branding-for-book-info.php");

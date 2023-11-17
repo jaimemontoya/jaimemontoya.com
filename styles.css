@@ -1,11 +1,16 @@
-body{margin:0;padding:0;color:#fff!important;background:#000;font-family:PT Sans, sans-serif;line-height:26px}
+body{margin:0;padding:0;color:#0f0!important;background:#000;font-family:PT Sans, sans-serif;line-height:26px}
 header{text-align:center;background:#000}
 p{margin:10px 0 20px}
 mark{background-color:yellow}
-a{color:#fff;text-decoration:none}
-a:hover{color:#fff!important}
+a{color:#0f0;text-decoration:none}
+a:hover{color:#000!important}
 a[href^=tel]{color:black!important;font:inherit!important}
-.black{color:#000!important}
+.indent{padding-left:20px}
+.indent2{padding-left:40px}
+.cod{overflow-wrap:break-word;color:#fff;background-color:#00f;border:1px solid #fff;padding:2px;border-radius:4px}
+pre{padding:2px;background-color:#00f;color:#fff;border:1px solid #fff}
+hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
+.black{color:#0f0!important}
 .bold{font-weight:bold!important}
 .underline{text-decoration:underline}
 .italic{font-style:italic}
@@ -17,6 +22,7 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .marginbottom0{margin-bottom:0}
 .clearboth{clear:both}
 .container{padding: 0 14px}
+.container a:hover{color:#0f0!important}
 .container-finances{margin:0 8px}
 .container-finances h1{font-size:1.5em;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
 .container-finances select{padding:5px}
@@ -25,11 +31,11 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .container-finances	button:hover{opacity:0.8}
 .container-finances .cancelbtn{width:auto;padding:10px 18px;background-color:#f44336}
 .container-finances .imgcontainer{text-align:center;margin:24px 0 12px 0;position:relative}
-.container-finances .container{padding:16px;color:#000}
+.container-finances .container{padding:16px;color:#0f0}
 .container-finances .container a{color:#04AA6D}
 .container-finances .modal{display:none;position:fixed;z-index:1;left:0;top:0;width:100%;height:100%;overflow:auto;background-color: rgb(0,0,0);background-color:rgba(0,0,0,0.4);padding-top:60px}
 .container-finances .modal-content{background-color:#fefefe;margin:5% auto 15%;border:1px solid #888;width: 80%}
-.container-finances .close{position:absolute;right:25px;top:0;color:#000;font-size:35px;font-weight:bold}
+.container-finances .close{position:absolute;right:25px;top:0;color:#0f0;font-size:35px;font-weight:bold}
 .container-finances	.close:hover,.close:focus{color:red;cursor:pointer}
 .container-finances	.animate{-webkit-animation:animatezoom 0.6s;animation:animatezoom 0.6s}
 .container-finances	@-webkit-keyframes animatezoom{from {-webkit-transform: scale(0)} to {-webkit-transform: scale(1)}}		  
@@ -40,13 +46,15 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .imgcontainer .logo a{color:#04AA6D!important}
 .widthauto{width:auto!important}
 .logo{padding-top:15px}
-.logo a{font:20px/20px Carter One;color:#fff!important;text-decoration:none;font-size:35px}
+.logo a{font:20px/20px Carter One;color:#0f0!important;text-decoration:none;font-size:35px}
 nav{background:#000}
 nav ul{list-style-type:none;margin:10px 0 0;padding:0}
 nav li{display:inline-block;font-size:23px;color:#afafaf}
-nav li a{display:block;color:#fff;text-align:center;padding:5px 22px;text-decoration:none}
-nav li a:hover{color:#afafaf;background-color:#000;text-decoration:none}
-.breadcrumb{background-color:#000;margin:15px 0;padding:0}
+nav li a{display:block;color:#0f0;text-align:center;padding:5px 22px;text-decoration:none}
+nav li a:hover{color:#afafaf;background-color:#0f0;text-decoration:none}
+.breadcrumb-block{background-color:#000;margin:15px 0;padding:0;list-style-type:none}
+.breadcrumb-block a{color:#0f0!important}
+.breadcrumb-block a:hover{color:#0f0!important}
 .center{text-align:center}
 .book{display:flex;flex-direction:row;margin-top:14px}
 .book .book-thumbnail{text-decoration:none}

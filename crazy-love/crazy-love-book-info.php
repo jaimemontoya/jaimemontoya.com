@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Crazy Love: Overwhelmed by a Relentless God</span>
-					<p>By Francis Chan. <mark>Book 40 read by Jaime Montoya</mark> from 12:04 AM October 4, 2022 to 2:36 PM October 8, 2022 GMT.</p>
+					<p>By Francis Chan. <mark>Book 39 read by Jaime Montoya</mark> from 12:04 AM October 4, 2022 to 2:36 PM October 8, 2022 GMT.</p>
                 </div>
             </div>\n";
 ?>
