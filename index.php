@@ -5,9 +5,7 @@
   require("the-7-habits-of-highly-effective-people/the-7-habits-of-highly-effective-people-book-info.php");
   require("american-prometheus/american-prometheus-book-info.php");
   require("how-not-to-diet/how-not-to-diet-book-info.php");
-  require("fp-magazine-summer-2023/fp-magazine-summer-2023-book-info.php");
   require("data-concepts-azure/data-concepts-azure-book-info.php");
-  require("time-magazine-2023-07-03/time-magazine-2023-07-03-book-info.php");
   require("fire-in-the-valley/fire-in-the-valley-book-info.php");
   require("the-accidental-billionaires/the-accidental-billionaires-book-info.php");
   require("think-learn-succeed/think-learn-succeed-book-info.php");
