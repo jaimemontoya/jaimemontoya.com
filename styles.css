@@ -7,6 +7,7 @@ a:hover{color:#000!important}
 a[href^=tel]{color:black!important;font:inherit!important}
 .indent{padding-left:20px}
 .indent2{padding-left:40px}
+.cod{}
 hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
 .black{color:#0f0!important}
 .bold{font-weight:bold!important}
