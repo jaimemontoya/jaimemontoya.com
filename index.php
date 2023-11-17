@@ -20,7 +20,6 @@
   require("multiply/multiply-book-info.php");
   require("ielts-writing-section-skills-mastery/ielts-writing-section-skills-mastery-book-info.php");
   require("ielts-success-formula-general/ielts-success-formula-general-book-info.php");
-  require("official-ielts-prep-bonus-guide-included/official-ielts-prep-bonus-guide-included-book-info.php");
   require("the-amazon-way/the-amazon-way-book-info.php");
   require("the-dangers-of-a-shallow-faith/the-dangers-of-a-shallow-faith-book-info.php");
   require("the-crucified-life/the-crucified-life-book-info.php");
@@ -30,10 +29,7 @@
   require("crazy-love/crazy-love-book-info.php");
   require("authentic-faith/authentic-faith-book-info.php");
   require("the-pilgrim-s-progress/the-pilgrim-s-progress-book-info.php");
-  require("ielts-50-things-to-know/ielts-50-things-to-know-book-info.php");
   require("ielts-listening-raise-your-score/ielts-listening-raise-your-score-book-info.php");
-  require("official-ielts-prep/official-ielts-prep-book-info.php");
-  require("ielts-reading-and-listening/ielts-reading-and-listening-book-info.php");
   require("mind-gym/mind-gym-book-info.php");
   require("man-s-search-for-meaning/man-s-search-for-meaning-book-info.php");
   require("it-starts-with-passion/it-starts-with-passion-book-info.php");
