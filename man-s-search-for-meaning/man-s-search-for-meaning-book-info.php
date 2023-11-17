@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Man's Search for Meaning</span>
-					<p>By Viktor E. Frankl. <mark>Book 35 read by Jaime Montoya</mark> from 2:07 PM August 15, 2022 to 7:20 PM August 24, 2022 GMT.</p>
+					<p>By Viktor E. Frankl. <mark>Book 34 read by Jaime Montoya</mark> from 2:07 PM August 15, 2022 to 7:20 PM August 24, 2022 GMT.</p>
                 </div>
             </div>\n";
 ?>

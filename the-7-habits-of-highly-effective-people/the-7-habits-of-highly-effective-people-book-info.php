@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>The 7 Habits of Highly Effective People: Infographics Edition: Powerful Lessons in Personal Change</span>
-					<p>By Stephen R. Covey. <mark>Book 60 read by Jaime Montoya</mark> from 9:08 PM October 3, 2023 to 5:23 PM October 19, 2023 GMT.</p>
+					<p>By Stephen R. Covey. <mark>Book 59 read by Jaime Montoya</mark> from 9:08 PM October 3, 2023 to 5:23 PM October 19, 2023 GMT.</p>
                 </div>
             </div></a>\n";
 ?>
