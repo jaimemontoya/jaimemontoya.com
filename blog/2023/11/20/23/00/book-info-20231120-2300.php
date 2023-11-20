@@ -24,7 +24,7 @@ Certbot has set up a scheduled task to automatically renew this certificate in t
 Deploying certificate
 Successfully deployed certificate for sponsorship.jaimemontoya.net to /etc/apache2/sites-enabled/sponsorship.jaimemontoya.net-le-ssl.conf
 Successfully deployed certificate for www.sponsorship.jaimemontoya.net to /etc/apache2/sites-enabled/sponsorship.jaimemontoya.net-le-ssl.conf
-Added an HTTP->HTTPS rewrite in addition to other RewriteRules; you may wish to check for overall consistency.
+<span class=\"red\">Added an HTTP->HTTPS rewrite in addition to other RewriteRules; you may wish to check for overall consistency.</span>
 Congratulations! You have successfully enabled HTTPS on https://sponsorship.jaimemontoya.net and https://www.sponsorship.jaimemontoya.net
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
