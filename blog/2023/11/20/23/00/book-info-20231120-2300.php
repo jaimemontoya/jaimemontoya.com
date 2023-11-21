@@ -32,10 +32,9 @@ If you like Certbot, please consider supporting our work by:
  * Donating to ISRG / Let's Encrypt:   https://letsencrypt.org/donate
  * Donating to EFF:                    https://eff.org/donate-le
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-root@jaimemontoya:~# pico /etc/apache2/sites-available/sponsorship.jaimemontoya.net-le-ssl.conf
 root@jaimemontoya:~# cat /etc/apache2/sites-available/sponsorship.jaimemontoya.net-le-ssl.conf
-<IfModule mod_ssl.c>
-<VirtualHost *:443>
+<&lt;IfModule mod_ssl.c&gt;
+&lt;VirtualHost *:443&gt;
     ServerAdmin webmaster@localhost
     ServerName sponsorship.jaimemontoya.net
     ServerAlias www.sponsorship.jaimemontoya.net
@@ -45,14 +44,14 @@ root@jaimemontoya:~# cat /etc/apache2/sites-available/sponsorship.jaimemontoya.n
 Include /etc/letsencrypt/options-ssl-apache.conf
 SSLCertificateFile /etc/letsencrypt/live/sponsorship.jaimemontoya.net/fullchain.pem
 SSLCertificateKeyFile /etc/letsencrypt/live/sponsorship.jaimemontoya.net/privkey.pem
-</VirtualHost>
-</IfModule>
+&lt;/VirtualHost&gt;
+&lt;/IfModule&gt;
 root@jaimemontoya:~# pico /etc/letsencrypt/options-ssl-apache.conf
 root@jaimemontoya:~# cat /etc/apache2/sites-available/sponsorship.jaimemontoya.net.conf
 # Added to mitigate CVE-2017-8295 vulnerability
 UseCanonicalName On
 
-<VirtualHost *:80>
+&lt;VirtualHost *:80&gt;
         ServerAdmin webmaster@localhost
         ServerName sponsorship.jaimemontoya.net
         ServerAlias www.sponsorship.jaimemontoya.net
@@ -64,7 +63,7 @@ UseCanonicalName On
 RewriteCond %{SERVER_NAME} =sponsorship.jaimemontoya.net [OR]
 RewriteCond %{SERVER_NAME} =www.sponsorship.jaimemontoya.net
 RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
-</VirtualHost>
+&lt;/VirtualHost&gt;
 
 </pre><hr>\n";
 ?>
