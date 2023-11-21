@@ -34,7 +34,7 @@ If you like Certbot, please consider supporting our work by:
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 root@jaimemontoya:~# cat /etc/apache2/sites-available/sponsorship.jaimemontoya.net-le-ssl.conf
 &lt;IfModule mod_ssl.c&gt;
-&lt;VirtualHost *:443&gt;
+<span class=\"indent\">&lt;VirtualHost *:443&gt;</span>
     ServerAdmin webmaster@localhost
     ServerName sponsorship.jaimemontoya.net
     ServerAlias www.sponsorship.jaimemontoya.net
@@ -44,7 +44,7 @@ root@jaimemontoya:~# cat /etc/apache2/sites-available/sponsorship.jaimemontoya.n
 Include /etc/letsencrypt/options-ssl-apache.conf
 SSLCertificateFile /etc/letsencrypt/live/sponsorship.jaimemontoya.net/fullchain.pem
 SSLCertificateKeyFile /etc/letsencrypt/live/sponsorship.jaimemontoya.net/privkey.pem
-&lt;/VirtualHost&gt;
+<span class=\"indent\">&lt;/VirtualHost&gt;</span>
 &lt;/IfModule&gt;
 root@jaimemontoya:~# pico /etc/letsencrypt/options-ssl-apache.conf
 root@jaimemontoya:~# cat /etc/apache2/sites-available/sponsorship.jaimemontoya.net.conf
