@@ -8,6 +8,7 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .indent{padding-left:20px}
 .indent2{padding-left:40px}
 .cod{overflow-wrap:break-word;color:#fff;background-color:#00f;border:1px solid #fff;padding:2px;border-radius:4px}
+.red{color:#f00}
 pre{padding:2px;background-color:#00f;color:#fff;border:1px solid #fff}
 hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
 .black{color:#0f0!important}
