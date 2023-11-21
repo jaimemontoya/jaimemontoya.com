@@ -63,7 +63,5 @@ UseCanonicalName On
 RewriteCond %{SERVER_NAME} =sponsorship.jaimemontoya.net [OR]
 RewriteCond %{SERVER_NAME} =www.sponsorship.jaimemontoya.net
 RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
-&lt;/VirtualHost&gt;
-
-</pre><hr>\n";
+&lt;/VirtualHost&gt;</pre><hr>\n";
 ?>
