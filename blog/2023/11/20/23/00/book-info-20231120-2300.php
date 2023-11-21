@@ -56,8 +56,8 @@ UseCanonicalName On
         ServerName sponsorship.jaimemontoya.net
         ServerAlias www.sponsorship.jaimemontoya.net
         DocumentRoot /var/www/sponsorship.jaimemontoya.net/public_html
-        ErrorLog ${APACHE_LOG_DIR}/error.log
-        CustomLog ${APACHE_LOG_DIR}/access.log combined
+        ErrorLog \${APACHE_LOG_DIR}/error.log
+        CustomLog \${APACHE_LOG_DIR}/access.log combined
         RewriteEngine On
         RewriteRule ^(.*)$ https://%{HTTP_HOST}$1 [R=301,L]
 RewriteCond %{SERVER_NAME} =sponsorship.jaimemontoya.net [OR]
