@@ -35,15 +35,15 @@ If you like Certbot, please consider supporting our work by:
 root@jaimemontoya:~# cat /etc/apache2/sites-available/sponsorship.jaimemontoya.net-le-ssl.conf
 &lt;IfModule mod_ssl.c&gt;
 <span class=\"indent\">&lt;VirtualHost *:443&gt;</span>
-    ServerAdmin webmaster@localhost
-    ServerName sponsorship.jaimemontoya.net
-    ServerAlias www.sponsorship.jaimemontoya.net
-    DocumentRoot /var/www/sponsorship.jaimemontoya.net
-    ErrorLog ${APACHE_LOG_DIR}/error.log
-    CustomLog ${APACHE_LOG_DIR}/access.log combined
-Include /etc/letsencrypt/options-ssl-apache.conf
-SSLCertificateFile /etc/letsencrypt/live/sponsorship.jaimemontoya.net/fullchain.pem
-SSLCertificateKeyFile /etc/letsencrypt/live/sponsorship.jaimemontoya.net/privkey.pem
+<span class=\"indent2\">ServerAdmin webmaster@localhost</span>
+<span class=\"indent2\">ServerName sponsorship.jaimemontoya.net</span>
+<span class=\"indent2\">ServerAlias www.sponsorship.jaimemontoya.net</span>
+<span class=\"indent2\">DocumentRoot /var/www/sponsorship.jaimemontoya.net</span>
+<span class=\"indent2\">ErrorLog ${APACHE_LOG_DIR}/error.log</span>
+<span class=\"indent2\">CustomLog ${APACHE_LOG_DIR}/access.log combined</span>
+<span class=\"indent2\">Include /etc/letsencrypt/options-ssl-apache.conf</span>
+<span class=\"indent2\">SSLCertificateFile /etc/letsencrypt/live/sponsorship.jaimemontoya.net/fullchain.pem</span>
+<span class=\"indent2\">SSLCertificateKeyFile /etc/letsencrypt/live/sponsorship.jaimemontoya.net/privkey.pem</span>
 <span class=\"indent\">&lt;/VirtualHost&gt;</span>
 &lt;/IfModule&gt;
 root@jaimemontoya:~# pico /etc/letsencrypt/options-ssl-apache.conf
