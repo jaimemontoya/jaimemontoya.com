@@ -33,7 +33,7 @@ If you like Certbot, please consider supporting our work by:
  * Donating to EFF:                    https://eff.org/donate-le
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 root@jaimemontoya:~# cat /etc/apache2/sites-available/sponsorship.jaimemontoya.net-le-ssl.conf
-<&lt;IfModule mod_ssl.c&gt;
+&lt;IfModule mod_ssl.c&gt;
 &lt;VirtualHost *:443&gt;
     ServerAdmin webmaster@localhost
     ServerName sponsorship.jaimemontoya.net
