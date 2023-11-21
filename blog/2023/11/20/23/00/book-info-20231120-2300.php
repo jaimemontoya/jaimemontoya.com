@@ -41,9 +41,9 @@ root@jaimemontoya:~# cat /etc/apache2/sites-available/sponsorship.jaimemontoya.n
 <span class=\"indent2\">DocumentRoot /var/www/sponsorship.jaimemontoya.net</span>
 <span class=\"indent2\">ErrorLog \${APACHE_LOG_DIR}/error.log</span>
 <span class=\"indent2\">CustomLog \${APACHE_LOG_DIR}/access.log combined</span>
-<span class=\"indent2\">Include /etc/letsencrypt/options-ssl-apache.conf</span>
-<span class=\"indent2\">SSLCertificateFile /etc/letsencrypt/live/sponsorship.jaimemontoya.net/fullchain.pem</span>
-<span class=\"indent2\">SSLCertificateKeyFile /etc/letsencrypt/live/sponsorship.jaimemontoya.net/privkey.pem</span>
+Include /etc/letsencrypt/options-ssl-apache.conf</span>
+SSLCertificateFile /etc/letsencrypt/live/sponsorship.jaimemontoya.net/fullchain.pem</span>
+SSLCertificateKeyFile /etc/letsencrypt/live/sponsorship.jaimemontoya.net/privkey.pem</span>
 <span class=\"indent\">&lt;/VirtualHost&gt;</span>
 &lt;/IfModule&gt;
 root@jaimemontoya:~# pico /etc/letsencrypt/options-ssl-apache.conf
