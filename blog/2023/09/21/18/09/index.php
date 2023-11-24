@@ -1,7 +1,7 @@
 <?php
   require("../../../../../../page.php");
   $index = new Page();
-  $index->title = "First entry of my blog";
+  $index->title = "My first blog entry";
   $index->parentPage = "Blog";
   $index->metaDescription = "Hello, World!";
   require("book-info-20230921-1809-part1of2.php");
