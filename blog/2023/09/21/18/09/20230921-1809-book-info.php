@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>My first blog entry</span>
-					<p>Instead of social media, I decided to create a blog from scratch, not only in terms of content, but also in how I built it from a technical software development standpoint. I started with a \"Hello, World!\" program program.</p>
+					<p>Instead of using social media, I decided to create a blog from scratch, not only in terms of content, but also in how I built it from a technical software development standpoint. I started with a \"Hello, World!\" program program.</p>
                 </div>
             </div></a>\n";
 ?>
