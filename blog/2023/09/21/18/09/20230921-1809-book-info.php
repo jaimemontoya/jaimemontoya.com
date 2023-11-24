@@ -6,7 +6,8 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>My first blog entry</span>
-					<p>Instead of using social media, I decided to create a blog from scratch, not only in terms of content, but also in how I built it from a software development standpoint. I started with a \"Hello, World!\" program. <mark>Published: 6:09 PM GMT · Sep 21, 2023</mark> <span>Read more</span> <span class=\"read-more-icon\"></span></p>
+					<p>Instead of using social media, I decided to create a blog from scratch, not only in terms of content, but also in how I built it from a software development standpoint. I started with a \"Hello, World!\" program. <mark>Published: 6:09 PM GMT · Sep 21, 2023</mark> <span>Read more</span> <i class=\"fa fa-link\" aria-hidden=\"true\"></i>
+</p>
                 </div>
             </div></a>\n";
 ?>
