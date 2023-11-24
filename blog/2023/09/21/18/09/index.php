@@ -4,20 +4,10 @@
   $index->title = "First entry of my blog";
   $index->parentPage = "Blog";
   $index->metaDescription = "Hello, World!";
-  require("book-info-20230921-1809.php");
-  
-  
-  
-  $index->content .= 
-           "\t\t\t<a href=\"2023/09/21/18/09/\"><div class=\"book\">
-				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"blog-20230921-1809-img\"></div>
-				</div>
-                <div class=\"book-title-authors-read-by\">
-		            <span>jaimemontoya.com</span>
-					<p>By Jaime Montoya. <mark>Website 1; created, designed, developed, upgraded, maintained and hosted by Jaime Montoya</mark> (DigitalOcean IP 138.197.165.222; 1 other site hosted on this server; Toronto, Ontario, Canada; since 1:05 PM January 5, 2018 GMT).</p>
-                </div>
-            </div></a>\n"."Start".$index->title."End";
+  require("book-info-20230921-1809-part1of2.php");
+  $index->content .= $index->title;
+  require("book-info-20230921-1809-part2of2.php");
+
   
   
   $index->Display();
