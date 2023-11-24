@@ -1,9 +1,9 @@
 <?php
   require("../../../../../../page.php");
   $index = new Page();
-  $index->title = "11:21 PM GMT · Oct 17, 2023";
+  $index->title = "DigitalOcean vs. InMotion Hosting. IaaS vs. PaaS. Web hosting pricing comparison.";
   $index->parentPage = "Blog";
-  $index->metaDescription = "Hosting for unionchurchss.org, comparing InMotion Hosting versus DigitalOcean web hosting options.";
+  $index->metaDescription = "Pros and cons of hosting a website on DigitalOcean vs. InMotion Hosting. Compare advantages and disadvantages of IaaS vs. PaaS when hosting websites. Evaluate pricing structures.";
   require("book-info-20231017-2321.php");
   $index->Display();
 ?>
