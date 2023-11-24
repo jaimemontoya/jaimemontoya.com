@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Obtaining and installing HTTPS/TLS/SSL certificates using Certbot</span>
-					<p>Using certbot --apache and then choosing the sites that I wanted to activate HTTPS for, was all I had to do. Certbot took care of obtaining and installing HTTPS/TLS/SSL certificates for me.<mark>Published: 2:20 AM GMT · Nov 21, 2023</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i>
+					<p>Using certbot --apache to activate HTTPS. Certbot takes care of obtaining and installing HTTPS/TLS/SSL certificates automatically.<mark>Published: 2:20 AM GMT · Nov 21, 2023</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i>
 </p>
                 </div>
             </div></a>\n";
