@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "\t\t\t<div>2:20 AM GMT · Nov 21, 2023</div><p>In my previous post at <a href=\"https://jaimemontoya.com/blog/2023/11/17/13/08/\">https://jaimemontoya.com/blog/2023/11/17/13/08/</a>, the entire process to install two websites on the same server using Apache virtual hosts was explained. One of those websites was installed on a subdomain. The only issue and missing step was fixing the \"Not secure\" message:</p><div><img src=\"/blog/2023/11/17/13/08/img/subdomainWorking.png\" alt=\"Subdomain working correctly\" width=\"462\" height=\"136\"></div><p>Using <span class=\"cod\">certbot --apache</span> and then choosing the sites that I wanted to activate HTTPS for, was all I had to do. Certbot took care of obtaining and installing HTTPS/TLS/SSL certificates for me:</p><pre>root@jaimemontoya:~# certbot --apache
+           "<p>In my previous post at <a href=\"https://jaimemontoya.com/blog/2023/11/17/13/08/\">https://jaimemontoya.com/blog/2023/11/17/13/08/</a>, the entire process to install two websites on the same server using Apache virtual hosts was explained. One of those websites was installed on a subdomain. The only issue and missing step was fixing the \"Not secure\" message:</p><div><img src=\"/blog/2023/11/17/13/08/img/subdomainWorking.png\" alt=\"Subdomain working correctly\" width=\"462\" height=\"136\"></div><p>Using <span class=\"cod\">certbot --apache</span> and then choosing the sites that I wanted to activate HTTPS for, was all I had to do. Certbot took care of obtaining and installing HTTPS/TLS/SSL certificates for me:</p><pre>root@jaimemontoya:~# certbot --apache
 Saving debug log to /var/log/letsencrypt/letsencrypt.log
 
 Which names would you like to activate HTTPS for?
@@ -63,5 +63,5 @@ UseCanonicalName On
 RewriteCond %{SERVER_NAME} =sponsorship.jaimemontoya.net [OR]
 RewriteCond %{SERVER_NAME} =www.sponsorship.jaimemontoya.net
 RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
-&lt;/VirtualHost&gt;</pre><div><img src=\"/blog/2023/11/21/02/20/img/letsEncryptLock.jpg\" alt=\"Let's Encrypt lock\" width=\"328\" height=\"135\"></div><br /><div><img src=\"/blog/2023/11/21/02/20/img/connectionIsSecure.jpg\" alt=\"Connection is secure\" width=\"302\" height=\"191\"></div><hr>\n";
+&lt;/VirtualHost&gt;</pre><div><img src=\"/blog/2023/11/21/02/20/img/letsEncryptLock.jpg\" alt=\"Let's Encrypt lock\" width=\"328\" height=\"135\"></div><br /><div><img src=\"/blog/2023/11/21/02/20/img/connectionIsSecure.jpg\" alt=\"Connection is secure\" width=\"302\" height=\"191\"></div><div>Published: 2:20 AM GMT · Nov 21, 2023</div>\n";
 ?>
