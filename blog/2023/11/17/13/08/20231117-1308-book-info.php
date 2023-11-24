@@ -5,7 +5,7 @@
 					<div class=\"book-cover\" id=\"blog-20231117-1308-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
-		            <span>Configure Apache Virtual Hosts for multiple websites on the same server. Configuring subdomain.</span>
+		            <span>Configuring subdomains and Apache Virtual Hosts for multiple websites on the same server</span>
 					<p>Hosting multiple websites on the same server using Apache Virtual Hosts. Configuring subdomains to host different websites stored on separate folders.<mark>Published: 1:08 PM GMT · Nov 17, 2023</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i>
 </p>
                 </div>
