@@ -9,6 +9,7 @@
   require("2023/10/17/23/21/book-info-20231017-2321.php");
   require("2023/09/24/22/57/book-info-20230924-2257.php");
   require("2023/09/21/20/04/book-info-20230921-2004.php");
-  require("2023/09/21/18/09/book-info-20230921-1809.php");
+  require("2023/09/21/18/09/20230921-1809-book-info.php");
+  //require("2023/09/21/18/09/book-info-20230921-1809.php");
   $index->Display();
 ?>
