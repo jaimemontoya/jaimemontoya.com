@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"2023/10/17/23/21/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"blog-20231017-2321-img\"></div>
+					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Upgrading PHP from 8.0 to 8.2 on Apache and Ubuntu</span>
