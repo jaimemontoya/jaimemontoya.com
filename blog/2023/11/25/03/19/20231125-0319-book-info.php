@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Happy launch of https://mfh-elsalvador.org!</span>
-					<p>Happy launch of the redesigned version of https://mfh-elsalvador.org! <mark>Published: 3:16 PM GMT · Nov 25, 2023</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i>
+					<p>Happy launch of the redesigned version of https://mfh-elsalvador.org! <mark>Published: 3:19 AM GMT · Nov 25, 2023</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i>
 </p>
                 </div>
             </div></a>\n";
