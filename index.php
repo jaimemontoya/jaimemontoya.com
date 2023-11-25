@@ -1,6 +1,7 @@
 <?php
   require("page.php");
   $index = new Page();
+  require("12-rules-for-life/12-rules-for-life-book-info.php");
   require("atomic-habits/atomic-habits-book-info.php");
   require("the-7-habits-of-highly-effective-people/the-7-habits-of-highly-effective-people-book-info.php");
   require("american-prometheus/american-prometheus-book-info.php");
