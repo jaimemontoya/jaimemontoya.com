@@ -63,5 +63,5 @@ UseCanonicalName On
 RewriteCond %{SERVER_NAME} =sponsorship.jaimemontoya.net [OR]
 RewriteCond %{SERVER_NAME} =www.sponsorship.jaimemontoya.net
 RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,NE,R=permanent]
-&lt;/VirtualHost&gt;</pre><div><img src=\"/blog/2023/11/21/02/20/img/letsEncryptLock.jpg\" alt=\"Let's Encrypt lock\" width=\"328\" height=\"135\"></div><br /><div><img src=\"/blog/2023/11/21/02/20/img/connectionIsSecure.jpg\" alt=\"Connection is secure\" width=\"302\" height=\"191\"></div><div>Published: 2:20 AM GMT · Nov 21, 2023</div>\n";
+&lt;/VirtualHost&gt;</pre><div><img src=\"/blog/2023/11/21/02/20/img/letsEncryptLock.jpg\" alt=\"Let's Encrypt lock\" width=\"328\" height=\"135\"></div><br /><div><img src=\"/blog/2023/11/21/02/20/img/connectionIsSecure.jpg\" alt=\"Connection is secure\" width=\"302\" height=\"191\"></div><br /><div>Published: 2:20 AM GMT · Nov 21, 2023</div>\n";
 ?>
