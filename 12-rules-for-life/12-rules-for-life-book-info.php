@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>12 Rules for Life: An Antidote to Chaos</span>
-					<p>By Jordan B. Peterson. <mark>Book 60 read by Jaime Montoya</mark> from 1:37 PM October 31, 2023 to 20:11 PM November 22, 2023 GMT.</p>
+					<p>By Jordan B. Peterson. <mark>Book 61 read by Jaime Montoya</mark> from 1:37 PM October 31, 2023 to 20:11 PM November 22, 2023 GMT.</p>
                 </div>
             </div></a>\n";
 ?>
