@@ -51,7 +51,7 @@ hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
 .widthauto{width:auto!important}
 .logo{padding-top:15px}
 .logo a{font:20px/20px Carter One;color:#0f0!important;text-decoration:none;font-size:35px}
-.logo a:hover{color:#0f0}
+.logo a:hover{color:#0f0!important}
 nav{background:#000}
 nav ul{list-style-type:none;margin:10px 0 0;padding:0}
 nav li{display:inline-block;font-size:23px;color:#afafaf}
