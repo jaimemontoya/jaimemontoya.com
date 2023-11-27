@@ -29,7 +29,7 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo "\t\t<div class=\"container\">\n";
-    echo "<a href=\"https://www.digitalocean.com/?refcode=9ff562a168bb&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge\"><img src=\"https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg\" alt=\"DigitalOcean Referral Badge\" /></a>";
+    $this -> DisplayDigitalOceanReferral();
 	echo $this -> DisplayBreadcrumb($this->title, $this->parentPage, $this->parentPages);
     echo $this->content;
     echo "\t\t</div>\n";
@@ -92,6 +92,10 @@ class Page
       $this->DisplayButton($name, $url);
     }
     echo "\t\t\t\t</ul>\n\t\t\t</nav>\n";
+  }
+  public function DisplayDigitalOceanReferral()
+  {
+    echo "\t\t\t<a href=\"https://www.digitalocean.com/?refcode=9ff562a168bb&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge\"><img src=\"https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg\" alt=\"DigitalOcean Referral Badge\" /></a>";
   }
   public function DisplayBreadcrumb($title, $parentPage, $parentPages)
   {
