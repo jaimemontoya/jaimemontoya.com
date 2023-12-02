@@ -29,5 +29,6 @@
 				<div class=\"margintop15 underline bold\">4. PROVIDING CLOSING EVALUATION OF THE BOOK</div>
 				<div class=\"margintop15 bold\">4.1. Definitely recommending/disqualifying the book or recommending the book despite indicated shortcomings</div>
 				<div class=\"margintop15 bold\">References</div>
+				<div class=\"apa-reference\">Sherwin, M. J. (n.d.). <span class=\"italic\">Martin J Sherwin</span>. Retrieved December 2, 2023 from <a href=\"\">https://martinjsherwin.com</a></div>
             </div>\n";
 ?>
