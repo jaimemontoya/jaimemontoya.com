@@ -120,7 +120,7 @@ class Page
   }
   public function DisplayFooter()
   {
-    echo "\t\t<footer>\n\t\t\t<div>\n\t\t\t<a href=\"#\">Back to top</a>jaimemontoya.com is a participant in the DigitalOcean Referral Program, an affiliate advertising program where DigitalOcean will pay us a commission for linking to products on digitalocean.com.\n\t\t\t</div>\n\t\t</footer>\n";
+    echo "\t\t<footer>\n\t\t\t<div>\n\t\t\t<a href=\"#\">Back to top</a>\n\t\t\t<div>jaimemontoya.com is a participant in the DigitalOcean Referral Program, an affiliate advertising program where DigitalOcean will pay us a commission for linking to products on digitalocean.com.</div>\n\t\t\t</div>\n\t\t</footer>\n";
   }
 }
 ?>
