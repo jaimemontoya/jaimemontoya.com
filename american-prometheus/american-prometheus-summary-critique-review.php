@@ -24,7 +24,7 @@
 				<p>In addition, the book includes the following sections: Dedication, Praise, Preface, Prologue, Epilogue: - \"There's Only One Robert\", Acknowledgments, Notes, Bibliography, About the Author, Also by Kai Bird and Martin J. Sherwin, and Copyright Page.</p>
 				<div class=\"margintop15 bold\">2.2. Stating the topic of each chapter</div>
 				<div class=\"margintop15 bold\">2.2.1. Chapter 1</div>
-				<p>The first chapter provides information about the socioeconomic, cultural, political, educational and familiar background that nurtured Robert Oppenheimer. He was born in 1904 from a family of German immigrants who were ethnically and culturally Jewish. Oppenheimer lived and grew up in New York with his family.</p>
+				<p>The first chapter provides information about the socioeconomic, cultural, political, educational and familiar background that nurtured Robert Oppenheimer. He was born in 1904 from a family of German immigrants who were ethnically and culturally Jewish. Oppenheimer lived and grew up in New York with his wealthy family.</p>
 				<div class=\"margintop15 bold\">2.3. Citing extra-text material</div>
 				<div class=\"margintop15 underline bold\">3. HIGHLIGHTING PARTS OF THE BOOK</div>
 				<div class=\"margintop15 bold\">3.1. Providing focused evaluation</div>
