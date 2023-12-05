@@ -10,7 +10,7 @@
 				<div class=\"margintop15 underline bold\">2. OUTLINING THE BOOK</div>
 				<div class=\"margintop15 bold\">2.1. Providing general view of the organization of the book</div>
 				<div class=\"margintop15 bold\">2.2. Stating the topic of each chapter</div>
-				<div class=\"margintop15 bold\">2.2.1. Chapter 7</div>
+				<div class=\"margintop15 bold\">2.2.7. Chapter 7</div>
 				<p></p>
 				<div class=\"margintop15 bold\">2.3. Citing extra-text material</div>
 				<div class=\"margintop15 underline bold\">3. HIGHLIGHTING PARTS OF THE BOOK</div>
