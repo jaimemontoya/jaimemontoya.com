@@ -23,7 +23,7 @@
 				<p>Evangelist had prophecied that Faithful or Christian would die, but they did not know who of them would suffer that fate. They remained content and commited to be wise in any circumstance.</p>
 				<p>Envy, Superstition, and Flatterer testified against Faithful, while he provided arguments against the accusations. The judge quoted stories of Pharaon the Great and Nebuchadnezzar the Great to explain that Faithful had broken laws, deserving to die. The jury members anonymously concluded that Faithful was guilty. Faithful was executed.</p>
 				<p>Immediately after dying, Faithful was taken through the clouds by a chariot and a team of hourses, to the Celestial Gate.</p>
-				<p>Christian remained in prison.</p>
+				<p>Christian remained in prison after Faithful died, but eventually was able to escape to continue his journey to the Celestial City.</p>
 				<div class=\"margintop15 bold\">2.3. Citing extra-text material</div>
 				<div class=\"margintop15 underline bold\">3. HIGHLIGHTING PARTS OF THE BOOK</div>
 				<div class=\"margintop15 bold\">3.1. Providing focused evaluation</div>
