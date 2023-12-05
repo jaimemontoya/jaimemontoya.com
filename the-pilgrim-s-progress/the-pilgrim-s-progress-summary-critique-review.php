@@ -17,7 +17,7 @@
 				<div class=\"margintop15 bold\">2.2.5. Chapter 5</div>
 				<div class=\"margintop15 bold\">2.2.6. Chapter 6</div>
 				<div class=\"margintop15 bold\">2.2.7. Chapter 7</div>
-				<p></p>
+				<p>As Christian and Faithful were walking to the Celestial City, they arrived at a town called Vanity, a place of never ending festivities. Lusts, pleasures and all kinds of delights could be purchased in that town. It was impossible to reach the Celestial City without going through Vanity in the journey for those who were alive. Even the King of Kings had to pass through Vanity, when he was invited by Beelzebub to buy vanities.</p>
 				<div class=\"margintop15 bold\">2.3. Citing extra-text material</div>
 				<div class=\"margintop15 underline bold\">3. HIGHLIGHTING PARTS OF THE BOOK</div>
 				<div class=\"margintop15 bold\">3.1. Providing focused evaluation</div>
