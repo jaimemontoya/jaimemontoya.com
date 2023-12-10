@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"2023/12/10/05/59/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
+					<div class=\"book-cover\" id=\"blog-20231210-0559-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Migrating WordPress website from InMotion Hosting to DigitalOcean</span>
