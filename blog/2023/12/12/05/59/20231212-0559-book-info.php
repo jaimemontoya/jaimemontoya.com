@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "\t\t\t<a href=\"2023/12/10/05/59/\"><div class=\"book\">
+           "\t\t\t<a href=\"2023/12/12/05/59/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
 					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
 				</div>
