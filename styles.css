@@ -3,6 +3,7 @@ header{text-align:center;background:#000}
 header a:hover{color:#000!important}
 p{margin:10px 0 20px}
 p a{color:#fff;text-decoration:underline;overflow-wrap:break-word;}
+li a{color:#fff;text-decoration:underline}
 .linkstyle{color:#fff;text-decoration:underline}
 mark{background-color:yellow}
 a{color:#0f0;text-decoration:none}
@@ -30,7 +31,6 @@ hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
 .apa-reference a{color:#fff}
 .container{padding: 0 14px}
 .container h1{display:inline-block;font:1.3em Arial;font-weight:500;margin-bottom:8px;margin-top:0}
-.container a{color:#fff;text-decoration:underline}
 .container a:hover{color:#0f0!important}
 .container-finances{margin:0 8px}
 .container-finances h1{font-size:1.5em;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
