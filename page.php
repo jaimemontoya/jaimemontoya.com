@@ -32,8 +32,8 @@ class Page
     $this -> DisplayDigitalOceanReferral();
 	echo $this -> DisplayBreadcrumb($this->title, $this->parentPage, $this->parentPages);
     echo $this->content;
-    echo "\t\t</div>\n";
 	$this -> DisplayFooter();
+    echo "\t\t</div>\n";	
     echo "\t</body>\n</html>\n";
   }
   public function DisplayGoogleAdSense()
