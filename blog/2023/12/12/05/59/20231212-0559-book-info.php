@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"2023/12/12/05/59/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
+					<div class=\"book-cover\" id=\"blog-20231212-0559-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Removing duplicates using Fuzzy Grouping in SQL Server Integration Services</span>
