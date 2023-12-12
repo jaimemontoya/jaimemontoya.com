@@ -59,7 +59,7 @@ hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
 nav{background:#000}
 nav ul{list-style-type:none;margin:10px 0 0;padding:0}
 nav li{display:inline-block;font-size:30px;color:#afafaf}
-nav li a{display:block;color:#0f0;text-align:center;padding:5px 32px;text-decoration:none}
+nav li a{display:block;color:#0f0;text-align:center;padding:5px 27px;text-decoration:none}
 nav li a:hover{color:#afafaf;background-color:#0f0;text-decoration:none}
 .breadcrumb-block{background-color:#000;margin:15px 0;padding:0;list-style-type:none}
 .breadcrumb-block a{color:#0f0!important}
