@@ -3,6 +3,7 @@
   $index = new Page();
   $index->title = "Blog";
   $index->metaDescription = "Welcome to my blog, where you will find information about jaimemontoya.com and updates related to the content of this website.";
+  $index->content .= "<h1>Software technical documentation for myself and the world</h1>";
   require("2023/12/12/05/59/20231212-0559-book-info.php");
   require("2023/12/10/05/59/20231210-0559-book-info.php");
   require("2023/11/29/02/48/20231129-0248-book-info.php");
