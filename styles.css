@@ -1,7 +1,9 @@
 body{margin:0;padding:0;color:#0f0!important;background:#000;font-family:PT Sans, sans-serif;line-height:26px}
 header{text-align:center;background:#000}
 header a:hover{color:#000!important}
-.call-to-action{color:red;font-weight:bold;font-style:italic;font-size:1.25em;text-decoration:underline}
+.call-to-action{box-shadow:inset 0px 34px 0px -15px #b54b3a;background-color:#a73f2d;border-radius:10px;border:1px solid #241d13;display:inline-block;cursor:pointer;color:#ffffff;font-family:Arial;font-size:20px;font-weight:bold;padding:9px 23px;text-decoration:none;text-shadow:3px 3px 0px #7a2a1d}
+.call-to-action:hover{background-color:#b34332}
+.call-to-action:active{position:relative;top:1px}
 p{margin:10px 0 20px}
 p a{color:#fff;text-decoration:underline;overflow-wrap:break-word;}
 li a{color:#fff;text-decoration:underline}
