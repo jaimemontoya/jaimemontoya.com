@@ -7,7 +7,7 @@ class Page
   public $metaKeywords = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
-  public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-brands fa-github\"></i>" => "https://github.com/jaimemontoya/jaimemontoya.com/", "<i class=\"fa-brands fa-canadian-maple-leaf\"></i>" => "/portfolio/", "<i class=\"fa-solid fa-blog\"></i>" => "/blog/", "<i class=\"fa-solid fa-address-card\"></i>" => "/about/");
+  public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-brands fa-canadian-maple-leaf\"></i>" => "/portfolio/", "<i class=\"fa-solid fa-blog\"></i>" => "/blog/", "<i class=\"fa-solid fa-address-card\"></i>" => "/about/");
   public $parentPages = array("Portfolio" => "/portfolio/", "Blog" => "/blog/");
   public function __set($name, $value)
   {
@@ -32,8 +32,8 @@ class Page
     $this -> DisplayDigitalOceanReferral();
 	echo $this -> DisplayBreadcrumb($this->title, $this->parentPage, $this->parentPages);
     echo $this->content;
-    echo "\t\t</div>\n";
 	$this -> DisplayFooter();
+    echo "\t\t</div>\n";	
     echo "\t</body>\n</html>\n";
   }
   public function DisplayGoogleAdSense()
@@ -95,7 +95,7 @@ class Page
   }
   public function DisplayDigitalOceanReferral()
   {
-    echo "\t\t\t<a href=\"https://www.digitalocean.com/?refcode=9ff562a168bb&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge\"><img src=\"https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg\" alt=\"DigitalOcean Referral Badge\" /></a>";
+    echo "\t\t\t<div><a href=\"https://www.digitalocean.com/?refcode=9ff562a168bb&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge\"><img src=\"https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg\" alt=\"DigitalOcean Referral Badge\" /></a></div>";
   }
   public function DisplayBreadcrumb($title, $parentPage, $parentPages)
   {
