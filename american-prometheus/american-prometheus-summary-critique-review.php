@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "\t\t\t<div>
+           "\t\t\t<h1>Book review for American Prometheus: The Inspiration for the Major Motion Picture OPPENHEIMER</h1><div>
                 <div class=\"margintop15 underline bold\">1. INTRODUCING THE BOOK</div>
                 <div class=\"margintop15 bold\">1.1. Defining the general topic of the book</div>
 				<ul class=\"margintop15\">
