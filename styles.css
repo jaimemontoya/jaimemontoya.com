@@ -63,7 +63,6 @@ nav li{display:inline-block;font-size:30px;color:#afafaf}
 nav li a{display:block;color:#0f0;text-align:center;padding:5px 29px;text-decoration:none}
 nav li a:hover{color:#afafaf;background-color:#0f0;text-decoration:none}
 .breadcrumb-block{background-color:#000;margin:15px 0;padding:0;list-style-type:none}
-.breadcrumb-block a{/*color:#0f0!important;text-decoration:none*/}
 .breadcrumb-block a:hover{color:#0f0!important}
 .center{text-align:center}
 .book{display:flex;flex-direction:row;margin-top:14px}
