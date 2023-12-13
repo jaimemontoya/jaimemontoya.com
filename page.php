@@ -4,7 +4,7 @@ class Page
   public $content;
   public $title = "jaimemontoya.com: Jaime Montoya's Personal Home Page";
   public $parentPage = "";
-  public $metaKeywords = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
+  public $metaKeywords = "jaimemontoya.com, Jaime Montoya's Personal Home Page, featuring my website portfolio, software technical documentation blog, and one-page resume.";
   public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
   public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-brands fa-canadian-maple-leaf\"></i>" => "/portfolio/", "<i class=\"fa-solid fa-blog\"></i>" => "/blog/", "<i class=\"fa-solid fa-address-card\"></i>" => "/about/");
