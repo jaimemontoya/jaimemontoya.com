@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <h2>unionchurchss.org</h2>
-					<p>By Jaime Montoya. <mark>Website 2; created, developed, upgraded and maintained by Jaime Montoya</mark> (InMotion Hosting IP 173.231.209.31; Ashburn, Virginia, United States; since June 9, 2019 GMT). <span class=\"linkstyle\">Visit website</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i></p>
+					<p>By Jaime Montoya. <mark>Website 2; created, developed, upgraded and maintained by Jaime Montoya</mark> (Server location: Ashburn, Virginia, United States; since June 9, 2019 GMT). <span class=\"linkstyle\">Visit website</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i></p>
                 </div>
             </div></a>\n";
 ?>
