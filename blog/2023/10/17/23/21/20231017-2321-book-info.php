@@ -5,7 +5,7 @@
 					<div class=\"book-cover\" id=\"blog-20231017-2321-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
-		            <span>DigitalOcean vs. InMotion Hosting. IaaS vs. PaaS. Web hosting pricing comparison.</span>
+		            <h2>DigitalOcean vs. InMotion Hosting. IaaS vs. PaaS. Web hosting pricing comparison.</h2>
 					<p>Pros and cons of hosting a website on DigitalOcean vs. InMotion Hosting. Compare advantages and disadvantages of IaaS vs. PaaS when hosting websites. Evaluate pricing structures. <mark>Published: 11:21 PM GMT · Oct 17, 2023</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i>
 </p>
                 </div>

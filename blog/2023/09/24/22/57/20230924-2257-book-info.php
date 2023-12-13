@@ -5,7 +5,7 @@
 					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
-		            <span>Using Google AdSense again</span>
+		            <h2>Using Google AdSense again</h2>
 					<p>After a few years without ads on my website, I am running Google AdSense again. <mark>Published: 10:57 PM GMT · Sep 24, 2023</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i>
 </p>
                 </div>
