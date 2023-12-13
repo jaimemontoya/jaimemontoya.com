@@ -2,7 +2,7 @@
 class Page
 {
   public $content;
-  public $title = "jaimemontoya.com";
+  public $title = "jaimemontoya.com: Jaime Montoya's Personal Home Page";
   public $parentPage = "";
   public $metaKeywords = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
   public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
