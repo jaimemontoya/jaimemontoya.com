@@ -2,7 +2,7 @@
   require("../page.php");
   $index = new Page();
   $index->title = "Software technical documentation blog for myself and the world";
-  $index->metaDescription = "Welcome to my blog, where you will find information about jaimemontoya.com and updates related to the content of this website.";
+  $index->metaDescription = "Jaime Montoya's blog featuring software technical documentation related to web hosting, web development, data analysis, and data migration.";
   $index->content .= "<h1>Software technical documentation blog for myself and the world</h1>";
   require("2023/12/12/05/59/20231212-0559-book-info.php");
   require("2023/12/10/05/59/20231210-0559-book-info.php");
