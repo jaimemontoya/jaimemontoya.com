@@ -14,5 +14,5 @@
   [OccupationLabel_clean] varchar(50),
   [_Similarity_OccupationLabel] real
 )</pre>
-           <p>I clicked <span class=\"cod\">OK</span>. As soon as the <span class=\"cod\">OK</span> button was clicked, the new table was created in the database:</p><div><img src=\"/blog/2023/12/12/05/59/img/provideCodeToCreateNewTable.jpg\" alt=\"Provide code to create new table\" width=\"1792\" height=\"791\"></div><div>Published: 5:59 AM GMT · Dec 12, 2023</div>\n";
+           <p>I clicked <span class=\"cod\">OK</span>. As soon as the <span class=\"cod\">OK</span> button was clicked, the new table was created in the database:</p><div><img src=\"/blog/2023/12/12/05/59/img/provideCodeToCreateNewTable.jpg\" alt=\"Provide code to create new table\" width=\"1792\" height=\"791\"></div><p>I confirmed from the database that my table was created successfully:</p><div><img src=\"/blog/2023/12/12/05/59/img/newTableCreatedSuccessfully.jpg\" alt=\"New table created successfully\" width=\"268\" height=\"142\"></div><div>Published: 5:59 AM GMT · Dec 12, 2023</div>\n";
 ?>
