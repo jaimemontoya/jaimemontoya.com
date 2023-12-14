@@ -25,7 +25,7 @@ CUSTOMER SERIVCE REP
 ASSISTANT MANAGER
 DISTRICT MANAGER
 </pre>
-           <p>In the notation <span class=\"cod\">a -&gt; b</span> meaning <span class=\"cod\">a should be replaced with b</span>, with the data I received, I wanted the system to do the following for me, and to return the list of distinct values after applying the replacement aforementioned:</p>
+           <p>In the notation <span class=\"cod\">a -&gt; b</span> meaning <span class=\"cod\">a should be replaced with b</span>, with the data I received, I wanted the system to do the following for me. I also wanted to return the list of distinct values after applying the replacement aforementioned:</p>
 <pre>
 CUST SERVICE REP.               -> CUSTOMER SERVICE REPRESENTATIVE
 CUSTOMER SERVICE REPRESENTATIVE -> CUSTOMER SERVICE REPRESENTATIVE
