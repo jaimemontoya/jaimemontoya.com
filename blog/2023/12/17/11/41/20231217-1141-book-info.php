@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <h2>Provisioning Azure relational database services to create an Azure SQL Database resource</h2>
-					<p>Example of steps to provision from Azure subscription, an Azure SQL Database resource that is queried using SQL. <mark>Published: 11:41 AM GMT · Dec 17, 2023</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i>
+					<p>Example of steps to provision from an Azure subscription, an Azure SQL Database resource that is queried using SQL. <mark>Published: 11:41 AM GMT · Dec 17, 2023</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i>
 </p>
                 </div>
             </div></a>\n";
