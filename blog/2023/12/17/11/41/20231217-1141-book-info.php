@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"2023/12/17/11/41/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
+					<div class=\"book-cover\" id=\"blog-20231217-1141-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <h2>Provisioning Azure relational database services to create Azure SQL, MySQL, and PostgreSQL database resources</h2>
