@@ -5,8 +5,8 @@
 					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
-		            <h2>Creating an online analytical processing (OLAP) cube on top of a data mart relational database</h2>
-					<p>Development of an OLAP cube in a Multidimensional BI Semantic Model, implementing the cube's basic parts: measures and dimensions. <mark>Published: 6:14 AM GMT · Dec 31, 2023</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i>
+		            <h2>Connecting to an Azure Database for PostgreSQL server with psql</h2>
+					<p>This quickstart shows how to connect to a server that runs an Azure Database for PostgreSQL, using psql, a popular PostgreSQL client. <mark>Published: 6:15 AM GMT · Jan 11, 2024</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i>
 </p>
                 </div>
             </div></a>\n";
