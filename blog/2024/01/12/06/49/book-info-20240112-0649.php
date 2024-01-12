@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "<p>In a previous post at <a href=\"https://jaimemontoya.com/blog/2023/12/17/11/41/\">https://jaimemontoya.com/blog/2023/12/17/11/41/</a>, I explained the process I followed for provisioning Azure relational database services to create a MySQL database resource.</p><p>Instead of downloading a MySQL client tool, I connected by using <a href=\"https://learn.microsoft.com/en-us/azure/cloud-shell/overview\">Azure Cloud Shell</a> within the Azure portal.</p><p>I started by creating a new Azure Database for MySQL Flexible server with the following configurations:</p><div><img src=\"/blog/2024/01/11/06/15/img/newAzureDatabaseForMySQLFlexibleServer.jpg\" alt=\"New Azure Database for MySQL Flexible server\" width=\"1060\" height=\"967\"></div>
+           "<p>In a previous post at <a href=\"https://jaimemontoya.com/blog/2023/12/17/11/41/\">https://jaimemontoya.com/blog/2023/12/17/11/41/</a>, I explained the process I followed for provisioning Azure relational database services to create a MySQL database resource.</p><p>Instead of downloading a MySQL client tool, I connected by using <a href=\"https://learn.microsoft.com/en-us/azure/cloud-shell/overview\">Azure Cloud Shell</a> within the Azure portal.</p><p>I started by creating a new Azure Database for MySQL Flexible server with the following configurations:</p><div><img src=\"/blog/2024/01/12/06/49/img/newAzureDatabaseForMySQLFlexibleServer.jpg\" alt=\"New Azure Database for MySQL Flexible server\" width=\"1060\" height=\"967\"></div>
 		   
 		   
 		   
