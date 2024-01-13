@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"2023/12/31/06/14/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
+					<div class=\"book-cover\" id=\"blog-20231231-0614-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <h2>Creating an online analytical processing (OLAP) cube on top of a data mart relational database</h2>
