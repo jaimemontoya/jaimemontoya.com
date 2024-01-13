@@ -2,12 +2,12 @@
 class Page
 {
   public $content;
-  public $title = "jaimemontoya.com";
+  public $title = "jaimemontoya.com: Jaime Montoya's Personal Home Page";
   public $parentPage = "";
-  public $metaKeywords = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
-  public $metaDescription = "Data analyst specialist in data migration using Microsoft SSIS technologies.";
+  public $metaKeywords = "jaimemontoya.com, Jaime Montoya, Personal Home Page, website, portfolio, software technical documentation, blog, resume";
+  public $metaDescription = "jaimemontoya.com, Jaime Montoya's Personal Home Page, featuring software technical documentation blog, and one-page resume.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
-  public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-brands fa-canadian-maple-leaf\"></i>" => "/portfolio/", "<i class=\"fa-solid fa-blog\"></i>" => "/blog/", "<i class=\"fa-solid fa-address-card\"></i>" => "/about/");
+  public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-solid fa-blog\"></i>" => "/blog/", "<i class=\"fa-solid fa-address-card\"></i>" => "/about/");
   public $parentPages = array("Portfolio" => "/portfolio/", "Blog" => "/blog/");
   public function __set($name, $value)
   {
@@ -29,7 +29,6 @@ class Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo "\t\t<div class=\"container\">\n";
-    $this -> DisplayDigitalOceanReferral();
 	echo $this -> DisplayBreadcrumb($this->title, $this->parentPage, $this->parentPages);
     echo $this->content;
 	$this -> DisplayFooter();
@@ -93,10 +92,6 @@ class Page
     }
     echo "\t\t\t\t</ul>\n\t\t\t</nav>\n";
   }
-  public function DisplayDigitalOceanReferral()
-  {
-    echo "\t\t\t<div><a href=\"https://www.digitalocean.com/?refcode=9ff562a168bb&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge\"><img src=\"https://web-platforms.sfo2.cdn.digitaloceanspaces.com/WWW/Badge%201.svg\" alt=\"DigitalOcean Referral Badge\" /></a></div>";
-  }
   public function DisplayBreadcrumb($title, $parentPage, $parentPages)
   {
     $homePage = "/";
@@ -114,13 +109,9 @@ class Page
   {
     echo "\t\t\t\t\t<li>\n\t\t\t\t\t\t<a href=".$url.">".$name."</a>\n\t\t\t\t\t</li>\n";
   }
-  public function BookReviewsBibliography()
-  {
-    return "\t\t<div class=\"margintop15\">* Book review template obtained from \"Motta-Roth, D. (1998), Discourse analysis and academic book reviews: A study of text and disciplinary cultures. In 1. Fartanet, S. Posteguillo, J.C. Palmer, and J. F. Coli (Eds.), <span class=\"italic\">Genre studies in English for academic purposes</span> (pp. 29-58). Castello, Spain: Universitat Jaume I.\"</div>";
-  }
   public function DisplayFooter()
   {
-    echo "\t\t<footer>\n\t\t\t<div>\n\t\t\t<a href=\"#\">Back to top</a>\n\t\t\t<div>jaimemontoya.com is a participant in the <a href=\"https://www.digitalocean.com/?refcode=9ff562a168bb&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=badge\">DigitalOcean Referral Program</a>, an affiliate advertising program where DigitalOcean will pay us a commission for linking to products on digitalocean.com.</div>\n\t\t\t</div>\n\t\t</footer>\n";
+    echo "\t\t<footer>\n\t\t\t<div>\n\t\t\t<a href=\"#\">Back to top</a>\n\t\t\t</div>\n\t\t</footer>\n";
   }
 }
 ?>

@@ -5,7 +5,7 @@
 					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
-		            <span>Happy launch of https://mfh-elsalvador.org!</span>
+		            <h2>Happy launch of https://mfh-elsalvador.org!</h2>
 					<p>Happy launch of the redesigned version of https://mfh-elsalvador.org! <mark>Published: 3:19 AM GMT · Nov 25, 2023</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i>
 </p>
                 </div>

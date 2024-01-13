@@ -1,9 +1,13 @@
 <?php
   require("../page.php");
   $index = new Page();
-  $index->title = "Blog";
-  $index->metaDescription = "Welcome to my blog, where you will find information about jaimemontoya.com and updates related to the content of this website.";
+  $index->title = "Software technical documentation blog for myself and the world";
+  $index->metaDescription = "Jaime Montoya's blog featuring software technical documentation related to web hosting, web development, data analysis, and data migration.";
   $index->content .= "<h1>Software technical documentation blog for myself and the world</h1>";
+  require("2024/01/12/06/49/20240112-0649-book-info.php");
+  require("2024/01/11/06/15/20240111-0615-book-info.php");
+  require("2023/12/31/06/14/20231231-0614-book-info.php");
+  require("2023/12/17/11/41/20231217-1141-book-info.php");
   require("2023/12/12/05/59/20231212-0559-book-info.php");
   require("2023/12/10/05/59/20231210-0559-book-info.php");
   require("2023/11/29/02/48/20231129-0248-book-info.php");
