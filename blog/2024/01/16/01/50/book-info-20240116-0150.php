@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "After connecting to my server, I executed the following commands:
+           "<p>After connecting to my server, I executed the following commands:</p>
 <pre>
 root@jaimemontoya:/etc/php# pwd
 /etc/php
