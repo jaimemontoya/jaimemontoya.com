@@ -4,7 +4,7 @@
 		   <tr><th>Old name</th><th>New name</th><th>Name column - Source column</th></tr>
 		   <tr><td>Card ID</td><td>Card</td><td>CardNumber</td></tr>
 		   <tr><td>Card Brand ID</td><td>Card Brand</td><td>CardBrandName</td></tr>		   
-		   <tr><td>Card Type ID</td>Card Type<td></td><td>CardTypeName</td></tr>
+		   <tr><td>Card Type ID</td><td>Card Type</td><td>CardTypeName</td></tr>
 		   <tr><td>Category ID</td>Category<td></td><td>CategoryName</td></tr>
 		   <tr><td>City ID</td><td>Composite Primary Key</td><td>CityID (useless but select one just because it is required)</td></tr>
 		   <tr><td>Country ID</td><td>Country</td><td>CountryName</td></tr>
