@@ -11,7 +11,7 @@
 		   <tr><td>Day ID</td><td>Date</td><td>FullDateAlternateKey</td></tr>
 		   <tr><td>Dim City - City ID</td><td>City</td><td>CityName</td></tr>
 		   <tr><td>Parent Category ID</td><td>Parent Category</td><td>ParentCategoryName</td></tr>
-		   <tr><td>Payment Method ID</td><td>PaymentMethodName</td><td></td></tr>
+		   <tr><td>Payment Method ID</td><td>Payment Method</td><td>PaymentMethodName</td></tr>
 		   <tr><td>Province ID</td><td>Province</td><td>ProvinceName</td></tr>
 		   <tr><td>Seller ID</td><td>Seller</td><td>SellerName</td></tr>
 		   </table> <div>Published: 6:14 AM GMT · Dec 31, 2023</div>\n";
