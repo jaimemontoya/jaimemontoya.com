@@ -17,5 +17,5 @@ WHEN CalendarMonth = 11 THEN 'November'
 WHEN CalendarMonth = 12 THEN 'December'
 END
 </pre>		   
-		   </td></tr></table> <div>Published: 6:14 AM GMT · Dec 31, 2023</div>\n";
+		   </td></tr><tr><td>Day</td><td><span class=\"cod\">CONVERT(int, RIGHT(DayID, 2))</span></td></tr></table> <div>Published: 6:14 AM GMT · Dec 31, 2023</div>\n";
 ?>
