@@ -17,5 +17,5 @@ WHEN CalendarMonth = 11 THEN 'November'
 WHEN CalendarMonth = 12 THEN 'December'
 END
 </pre>		   
-		   </td></tr><tr><td>Day</td><td><span class=\"cod\">CONVERT(int, RIGHT(DayID, 2))</span></td></tr></table><p>I created the <span class=\"cod\">Named Calculation</span> for <span class=\"cod\">Month</span>:</p><div><img src=\"/blog/2023/12/31/06/14/img/createNamedCalculationForMonth.jpg\" alt=\"Create Named Calculation for Month\" width=\"1920\" height=\"1030\"></div> <div>Published: 6:14 AM GMT · Dec 31, 2023</div>\n";
+		   </td></tr><tr><td>Day</td><td><span class=\"cod\">CONVERT(int, RIGHT(DayID, 2))</span></td></tr></table><p>I created the <span class=\"cod\">Named Calculation</span> for <span class=\"cod\">Month</span>:</p><div><img src=\"/blog/2023/12/31/06/14/img/createNamedCalculationForMonth.jpg\" alt=\"Create Named Calculation for Month\" width=\"1920\" height=\"1030\"></div><p>I created the <span class=\"cod\">Named Calculation</span> for <span class=\"cod\">Day</span>:</p><div><img src=\"/blog/2023/12/31/06/14/img/createNamedCalculationForDay.jpg\" alt=\"Create Named Calculation for Day\" width=\"1920\" height=\"1026\"></div> <div>Published: 6:14 AM GMT · Dec 31, 2023</div>\n";
 ?>
