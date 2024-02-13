@@ -28,5 +28,5 @@ WHEN DayOfWeek = 6 THEN 'Friday'
 WHEN DayOfWeek = 7 THEN 'Saturday'
 END
 </pre>		   
-		   </td></tr></tbody></table> <div>Published: 6:14 AM GMT · Dec 31, 2023</div>\n";
+		   </td></tr></tbody></table><p>I created the <span class=\"cod\">Named Calculation</span> for <span class=\"cod\">Day of Week</span>:</p><div><img src=\"/blog/2023/12/31/06/14/img/namedCalculationForDayOfWeek.jpg\" alt=\"Named Calculation for Day of Week\" width=\"1917\" height=\"1030\"></div> <div>Published: 6:14 AM GMT · Dec 31, 2023</div>\n";
 ?>
