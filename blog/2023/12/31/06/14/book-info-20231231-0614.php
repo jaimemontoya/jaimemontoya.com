@@ -1,6 +1,633 @@
 <?php
   $index->content .= 
            "<p>I wanted to perform multidimensional analysis on the information in my personal finance data mart. In order to achieve that, I needed to define an OLAP cube on top of that database, which contained the following tables:</p><div><img src=\"/blog/2023/12/31/06/14/img/showDatabaseAndDataMartTablesFromSQLServerManagementStudio.jpg\" alt=\"Show database and data mart tables from SQL Server Management Studio\" width=\"631\" height=\"1030\"></div><p>I right-clicked the database <span class=\"cod\">Finances</span>, selected <span class=\"cod\">Tasks</span>, and clicked <span class=\"cod\">Generate Scripts...</span>:</p><div><img src=\"/blog/2023/12/31/06/14/img/generateScripts.jpg\" alt=\"Generate Scripts...\" width=\"1918\" height=\"1029\"></div><p>The <span class=\"cod\">Generate Scripts Wizard</span> appeared. I clicked <span class=\"cod\">Next</span>:</p><div><img src=\"/blog/2023/12/31/06/14/img/generateScriptsWizard.jpg\" alt=\"Generate Scripts Wizard\" width=\"1918\" height=\"1025\"></div><p>From the <span class=\"cod\">Choose Options</span> window, I left <span class=\"cod\">Script entire database and all database objects</span> checked and clicked <span class=\"cod\">Next</span>:</p><div><img src=\"/blog/2023/12/31/06/14/img/scriptEntireDatabaseAndAllDatabaseObjects.jpg\" alt=\"Generate Scripts...\" width=\"1339\" height=\"842\"></div><p>From the <span class=\"cod\">Set Scripting Options</span> window, I selected <span class=\"cod\">Save as script file</span> and clicked <span class=\"cod\">Advanced</span>:</p><div><img src=\"/blog/2023/12/31/06/14/img/saveScriptAsScriptFile.jpg\" alt=\"Save script as script file\" width=\"1338\" height=\"841\"></div><p>From the <span class=\"cod\">Advanced Scripting Options</span> window, for <span class=\"cod\">Types of data to script</span> I changed the value from <span class=\"cod\">Schema only</span> to <span class=\"cod\">Schema and data</span>. Then I clicked <span class=\"cod\">OK</span>:</p><div><img src=\"/blog/2023/12/31/06/14/img/chooseSchemaAndDataAsTheTypeOfDataToScript.jpg\" alt=\"Choose Schema and Data as the Type of data to script\" width=\"1838\" height=\"838\"></div><p>I clicked <span class=\"cod\">Next</span>:</p><div><img src=\"/blog/2023/12/31/06/14/img/clickNextAfterChoosingTypeOfDataToScript.jpg\" alt=\"Click Next after choosing type of data to script\" width=\"1342\" height=\"842\"></div><p>The <span class=\"cod\">Summary</span> window appeared. I clicked <span class=\"cod\">Next</span>:</p><div><img src=\"/blog/2023/12/31/06/14/img/clickNextFromSummaryWindow.jpg\" alt=\"Click Next from Summary window\" width=\"1341\" height=\"840\"></div><p>The <span class=\"cod\">Save Scripts</span> window appeared. I clicked <span class=\"cod\">Finish</span>:</p><div><img src=\"/blog/2023/12/31/06/14/img/clickFinishFromSaveScriptsWindow.jpg\" alt=\"Click Finish from Save Scripts window\" width=\"1213\" height=\"825\"></div><p>I found the script in the location I specified, saved as <span class=\"cod\">C:\Users\jmont\Documents\script.sql</span> and having the content shown below:</p><div><img src=\"/blog/2023/12/31/06/14/img/propertiesOfScriptToCreateAndPopulateTables.jpg\" alt=\"Properties of script to create and populate tables\" width=\"377\" height=\"494\"></div>
+<pre>
+USE [master]
+GO
+/****** Object:  Database [Finances]    Script Date: 2/23/2024 10:00:14 AM ******/
+CREATE DATABASE [Finances]
+ CONTAINMENT = NONE
+ ON  PRIMARY 
+( NAME = N'Finances', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Finances.mdf' , SIZE = 8192KB , MAXSIZE = UNLIMITED, FILEGROWTH = 65536KB )
+ LOG ON 
+( NAME = N'Finances_log', FILENAME = N'C:\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\DATA\Finances_log.ldf' , SIZE = 8192KB , MAXSIZE = 2048GB , FILEGROWTH = 65536KB )
+ WITH CATALOG_COLLATION = DATABASE_DEFAULT
+GO
+ALTER DATABASE [Finances] SET COMPATIBILITY_LEVEL = 150
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [Finances].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [Finances] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [Finances] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [Finances] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [Finances] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [Finances] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [Finances] SET AUTO_CLOSE OFF 
+GO
+ALTER DATABASE [Finances] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [Finances] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [Finances] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [Finances] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [Finances] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [Finances] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [Finances] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [Finances] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [Finances] SET  DISABLE_BROKER 
+GO
+ALTER DATABASE [Finances] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [Finances] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [Finances] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [Finances] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [Finances] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [Finances] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [Finances] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [Finances] SET RECOVERY SIMPLE 
+GO
+ALTER DATABASE [Finances] SET  MULTI_USER 
+GO
+ALTER DATABASE [Finances] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [Finances] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [Finances] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [Finances] SET TARGET_RECOVERY_TIME = 60 SECONDS 
+GO
+ALTER DATABASE [Finances] SET DELAYED_DURABILITY = DISABLED 
+GO
+ALTER DATABASE [Finances] SET ACCELERATED_DATABASE_RECOVERY = OFF  
+GO
+EXEC sys.sp_db_vardecimal_storage_format N'Finances', N'ON'
+GO
+ALTER DATABASE [Finances] SET QUERY_STORE = OFF
+GO
+USE [Finances]
+GO
+/****** Object:  Table [dbo].[DimBank]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimBank](
+	[BankID] [int] NOT NULL,
+	[BankName] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_DimCardBank] PRIMARY KEY CLUSTERED 
+(
+	[BankID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimBuyer]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimBuyer](
+	[BuyerID] [int] NOT NULL,
+	[BuyerName] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_DimBuyer] PRIMARY KEY CLUSTERED 
+(
+	[BuyerID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimCard]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimCard](
+	[CardID] [int] NOT NULL,
+	[CardNumber] [varchar](19) NOT NULL,
+	[CardTypeID] [int] NOT NULL,
+	[BankID] [int] NOT NULL,
+	[CardBrandID] [int] NOT NULL,
+ CONSTRAINT [PK_DimCard] PRIMARY KEY CLUSTERED 
+(
+	[CardID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimCardBrand]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimCardBrand](
+	[CardBrandID] [int] NOT NULL,
+	[CardBrandName] [varchar](10) NOT NULL,
+ CONSTRAINT [PK_DimCardBrand] PRIMARY KEY CLUSTERED 
+(
+	[CardBrandID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimCardType]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimCardType](
+	[CardTypeID] [int] NOT NULL,
+	[CardTypeName] [varchar](7) NOT NULL,
+ CONSTRAINT [PK_DimCardType] PRIMARY KEY CLUSTERED 
+(
+	[CardTypeID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimCategory]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimCategory](
+	[CategoryID] [int] NOT NULL,
+	[ParentCategoryID] [int] NOT NULL,
+	[CategoryName] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_DimCategory] PRIMARY KEY CLUSTERED 
+(
+	[CategoryID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimCity]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimCity](
+	[CityID] [int] NOT NULL,
+	[CityName] [varchar](50) NOT NULL,
+	[ProvinceID] [int] NOT NULL,
+ CONSTRAINT [PK_DimCity] PRIMARY KEY CLUSTERED 
+(
+	[CityID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimCountry]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimCountry](
+	[CountryID] [int] NOT NULL,
+	[CountryName] [varchar](255) NOT NULL,
+ CONSTRAINT [PK_DimCountry] PRIMARY KEY CLUSTERED 
+(
+	[CountryID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimDay]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimDay](
+	[DayID] [varchar](8) NOT NULL,
+	[FullDateAlternateKey] [date] NOT NULL,
+	[CalendarQuarter] [tinyint] NOT NULL,
+	[CalendarYear] [smallint] NOT NULL,
+	[CalendarSemester] [tinyint] NOT NULL,
+	[DayOfWeek] [tinyint] NOT NULL,
+	[CalendarMonth] [smallint] NOT NULL,
+ CONSTRAINT [PK_DimDay] PRIMARY KEY CLUSTERED 
+(
+	[DayID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimParentCategory]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimParentCategory](
+	[ParentCategoryID] [int] NOT NULL,
+	[ParentCategoryName] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_DimParentCategory] PRIMARY KEY CLUSTERED 
+(
+	[ParentCategoryID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimPaymentMethod]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimPaymentMethod](
+	[PaymentMethodID] [int] NOT NULL,
+	[PaymentMethodName] [varchar](50) NOT NULL,
+	[CardID] [int] NOT NULL,
+ CONSTRAINT [PK_DimPaymentMethod] PRIMARY KEY CLUSTERED 
+(
+	[PaymentMethodID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimProvince]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimProvince](
+	[ProvinceID] [int] NOT NULL,
+	[ProvinceName] [varchar](25) NOT NULL,
+	[CountryID] [int] NOT NULL,
+ CONSTRAINT [PK_DimProvince] PRIMARY KEY CLUSTERED 
+(
+	[ProvinceID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[DimSeller]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DimSeller](
+	[SellerID] [int] NOT NULL,
+	[SellerName] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_DimSeller] PRIMARY KEY CLUSTERED 
+(
+	[SellerID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[FactPurchases]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[FactPurchases](
+	[TotalPurchases] [money] NOT NULL,
+	[Description] [varchar](1000) NOT NULL,
+	[CityID] [int] NOT NULL,
+	[DayID] [varchar](8) NOT NULL,
+	[PaymentMethodID] [int] NOT NULL,
+	[SellerID] [int] NOT NULL,
+	[CategoryID] [int] NOT NULL,
+	[CategoryDeduplicate] [int] NOT NULL,
+ CONSTRAINT [PK_FactPurchases] PRIMARY KEY CLUSTERED 
+(
+	[CityID] ASC,
+	[DayID] ASC,
+	[PaymentMethodID] ASC,
+	[SellerID] ASC,
+	[CategoryID] ASC,
+	[CategoryDeduplicate] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[FactPurchasesXDimCategory]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[FactPurchasesXDimCategory](
+	[CityID] [int] NOT NULL,
+	[DayID] [varchar](8) NOT NULL,
+	[PaymentMethodID] [int] NOT NULL,
+	[SellerID] [int] NOT NULL,
+	[CategoryID] [int] NOT NULL,
+	[CategoryDeduplicate] [int] NOT NULL,
+ CONSTRAINT [PK_FactPurchasesXDimCategory] PRIMARY KEY CLUSTERED 
+(
+	[CityID] ASC,
+	[DayID] ASC,
+	[PaymentMethodID] ASC,
+	[SellerID] ASC,
+	[CategoryID] ASC,
+	[CategoryDeduplicate] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[FactSales]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[FactSales](
+	[TotalSales] [money] NOT NULL,
+	[Description] [varchar](1000) NOT NULL,
+	[CityID] [int] NOT NULL,
+	[DayID] [varchar](8) NOT NULL,
+	[PaymentMethodID] [int] NOT NULL,
+	[BuyerID] [int] NOT NULL,
+	[CategoryID] [int] NOT NULL,
+	[CategoryDeduplicate] [int] NOT NULL,
+ CONSTRAINT [PK_FactSales] PRIMARY KEY CLUSTERED 
+(
+	[CityID] ASC,
+	[DayID] ASC,
+	[PaymentMethodID] ASC,
+	[BuyerID] ASC,
+	[CategoryID] ASC,
+	[CategoryDeduplicate] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+/****** Object:  Table [dbo].[FactSalesXDimCategory]    Script Date: 2/23/2024 10:00:14 AM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[FactSalesXDimCategory](
+	[CityID] [int] NOT NULL,
+	[DayID] [varchar](8) NOT NULL,
+	[PaymentMethodID] [int] NOT NULL,
+	[BuyerID] [int] NOT NULL,
+	[CategoryID] [int] NOT NULL,
+	[CategoryDeduplicate] [int] NOT NULL,
+ CONSTRAINT [PK_FactSalesXDimCategory] PRIMARY KEY CLUSTERED 
+(
+	[CityID] ASC,
+	[DayID] ASC,
+	[PaymentMethodID] ASC,
+	[BuyerID] ASC,
+	[CategoryID] ASC,
+	[CategoryDeduplicate] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
+) ON [PRIMARY]
+GO
+INSERT [dbo].[DimBank] ([BankID], [BankName]) VALUES (1, N'N/A')
+INSERT [dbo].[DimBank] ([BankID], [BankName]) VALUES (2, N'BAC Credomatic')
+GO
+INSERT [dbo].[DimBuyer] ([BuyerID], [BuyerName]) VALUES (1, N'TEAM International, Inc.')
+GO
+INSERT [dbo].[DimCard] ([CardID], [CardNumber], [CardTypeID], [BankID], [CardBrandID]) VALUES (1, N'N/A', 1, 1, 1)
+INSERT [dbo].[DimCard] ([CardID], [CardNumber], [CardTypeID], [BankID], [CardBrandID]) VALUES (2, N'4085-18**-****-0998', 2, 2, 2)
+INSERT [dbo].[DimCard] ([CardID], [CardNumber], [CardTypeID], [BankID], [CardBrandID]) VALUES (3, N'4919-49**-****-5863', 2, 2, 2)
+INSERT [dbo].[DimCard] ([CardID], [CardNumber], [CardTypeID], [BankID], [CardBrandID]) VALUES (4, N'118961457', 3, 2, 1)
+GO
+INSERT [dbo].[DimCardBrand] ([CardBrandID], [CardBrandName]) VALUES (1, N'N/A')
+INSERT [dbo].[DimCardBrand] ([CardBrandID], [CardBrandName]) VALUES (2, N'VISA')
+GO
+INSERT [dbo].[DimCardType] ([CardTypeID], [CardTypeName]) VALUES (1, N'N/A')
+INSERT [dbo].[DimCardType] ([CardTypeID], [CardTypeName]) VALUES (2, N'Credit')
+INSERT [dbo].[DimCardType] ([CardTypeID], [CardTypeName]) VALUES (3, N'Savings')
+GO
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (1, 1, N'Restaurant for church fellowship')
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (2, 1, N'Cash donation for church')
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (3, 2, N'Email')
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (4, 2, N'Server')
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (5, 3, N'Book')
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (6, 4, N'Warehouse club membership')
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (7, 5, N'Salary')
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (8, 6, N'Health insurance')
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (9, 7, N'Parking')
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (10, 8, N'Restaurant with nuclear family')
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (11, 8, N'Household medicine')
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (12, 9, N'Gasoline')
+INSERT [dbo].[DimCategory] ([CategoryID], [ParentCategoryID], [CategoryName]) VALUES (13, 10, N'Family debt')
+GO
+INSERT [dbo].[DimCity] ([CityID], [CityName], [ProvinceID]) VALUES (1, N'Colonia Escalon', 1)
+INSERT [dbo].[DimCity] ([CityID], [CityName], [ProvinceID]) VALUES (2, N'La Mascota', 1)
+INSERT [dbo].[DimCity] ([CityID], [CityName], [ProvinceID]) VALUES (3, N'Online', 2)
+INSERT [dbo].[DimCity] ([CityID], [CityName], [ProvinceID]) VALUES (4, N'San Benito', 1)
+INSERT [dbo].[DimCity] ([CityID], [CityName], [ProvinceID]) VALUES (5, N'Antiguo Cuscatlan', 3)
+INSERT [dbo].[DimCity] ([CityID], [CityName], [ProvinceID]) VALUES (6, N'Santa Tecla', 3)
+INSERT [dbo].[DimCity] ([CityID], [CityName], [ProvinceID]) VALUES (7, N'Volcan de San Salvador', 3)
+GO
+INSERT [dbo].[DimCountry] ([CountryID], [CountryName]) VALUES (1, N'El Salvador')
+INSERT [dbo].[DimCountry] ([CountryID], [CountryName]) VALUES (2, N'Online')
+GO
+INSERT [dbo].[DimDay] ([DayID], [FullDateAlternateKey], [CalendarQuarter], [CalendarYear], [CalendarSemester], [DayOfWeek], [CalendarMonth]) VALUES (N'20231001', CAST(N'2023-10-01' AS Date), 4, 2023, 2, 1, 10)
+INSERT [dbo].[DimDay] ([DayID], [FullDateAlternateKey], [CalendarQuarter], [CalendarYear], [CalendarSemester], [DayOfWeek], [CalendarMonth]) VALUES (N'20231002', CAST(N'2023-10-02' AS Date), 4, 2023, 2, 2, 10)
+INSERT [dbo].[DimDay] ([DayID], [FullDateAlternateKey], [CalendarQuarter], [CalendarYear], [CalendarSemester], [DayOfWeek], [CalendarMonth]) VALUES (N'20231003', CAST(N'2023-10-03' AS Date), 4, 2023, 2, 3, 10)
+INSERT [dbo].[DimDay] ([DayID], [FullDateAlternateKey], [CalendarQuarter], [CalendarYear], [CalendarSemester], [DayOfWeek], [CalendarMonth]) VALUES (N'20231004', CAST(N'2023-10-04' AS Date), 4, 2023, 2, 4, 10)
+INSERT [dbo].[DimDay] ([DayID], [FullDateAlternateKey], [CalendarQuarter], [CalendarYear], [CalendarSemester], [DayOfWeek], [CalendarMonth]) VALUES (N'20231005', CAST(N'2023-10-05' AS Date), 4, 2023, 2, 5, 10)
+INSERT [dbo].[DimDay] ([DayID], [FullDateAlternateKey], [CalendarQuarter], [CalendarYear], [CalendarSemester], [DayOfWeek], [CalendarMonth]) VALUES (N'20231006', CAST(N'2023-10-06' AS Date), 4, 2023, 2, 6, 10)
+INSERT [dbo].[DimDay] ([DayID], [FullDateAlternateKey], [CalendarQuarter], [CalendarYear], [CalendarSemester], [DayOfWeek], [CalendarMonth]) VALUES (N'20231007', CAST(N'2023-10-07' AS Date), 4, 2023, 2, 7, 10)
+GO
+INSERT [dbo].[DimParentCategory] ([ParentCategoryID], [ParentCategoryName]) VALUES (1, N'Donation')
+INSERT [dbo].[DimParentCategory] ([ParentCategoryID], [ParentCategoryName]) VALUES (2, N'Digital subscription')
+INSERT [dbo].[DimParentCategory] ([ParentCategoryID], [ParentCategoryName]) VALUES (3, N'Education')
+INSERT [dbo].[DimParentCategory] ([ParentCategoryID], [ParentCategoryName]) VALUES (4, N'Membership')
+INSERT [dbo].[DimParentCategory] ([ParentCategoryID], [ParentCategoryName]) VALUES (5, N'Employee salary')
+INSERT [dbo].[DimParentCategory] ([ParentCategoryID], [ParentCategoryName]) VALUES (6, N'Insurance')
+INSERT [dbo].[DimParentCategory] ([ParentCategoryID], [ParentCategoryName]) VALUES (7, N'Parking')
+INSERT [dbo].[DimParentCategory] ([ParentCategoryID], [ParentCategoryName]) VALUES (8, N'Household expenses')
+INSERT [dbo].[DimParentCategory] ([ParentCategoryID], [ParentCategoryName]) VALUES (9, N'Transportation')
+INSERT [dbo].[DimParentCategory] ([ParentCategoryID], [ParentCategoryName]) VALUES (10, N'Debt')
+GO
+INSERT [dbo].[DimPaymentMethod] ([PaymentMethodID], [PaymentMethodName], [CardID]) VALUES (1, N'Cash', 1)
+INSERT [dbo].[DimPaymentMethod] ([PaymentMethodID], [PaymentMethodName], [CardID]) VALUES (2, N'4085-18**-****-0998', 2)
+INSERT [dbo].[DimPaymentMethod] ([PaymentMethodID], [PaymentMethodName], [CardID]) VALUES (3, N'4919-49**-****-5863', 3)
+INSERT [dbo].[DimPaymentMethod] ([PaymentMethodID], [PaymentMethodName], [CardID]) VALUES (4, N'Electronic transfer', 1)
+GO
+INSERT [dbo].[DimProvince] ([ProvinceID], [ProvinceName], [CountryID]) VALUES (1, N'San Salvador', 1)
+INSERT [dbo].[DimProvince] ([ProvinceID], [ProvinceName], [CountryID]) VALUES (2, N'Online', 2)
+INSERT [dbo].[DimProvince] ([ProvinceID], [ProvinceName], [CountryID]) VALUES (3, N'La Libertad', 1)
+GO
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (1, N'Restaurante Royal')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (2, N'Union Church of San Salvador')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (3, N'Google')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (4, N'DigitalOcean')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (5, N'Amazon')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (6, N'Pollo Campero')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (7, N'PriceSmart')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (8, N'Asesuisa')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (9, N'Multiplaza')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (10, N'San Martin')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (11, N'Farmacias Camila')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (12, N'McDonald''s')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (13, N'Restaurante y Jardin Ecologico Cafe del Volcan.')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (14, N'Texaco')
+INSERT [dbo].[DimSeller] ([SellerID], [SellerName]) VALUES (15, N'Grandmother')
+GO
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (20.0000, N'Table with Theo, for Rebeca''s birthday with Union Church people.', 1, N'20231001', 1, 1, 1, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (20.0000, N'Donation.', 1, N'20231001', 1, 2, 2, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (6.0000, N'Google Workspace Business Starter for September 2023.', 3, N'20231001', 2, 3, 3, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (6.7800, N'138.197.165.222 server for September 2023.', 3, N'20231001', 2, 4, 4, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (10.7900, N'"Academic Writing for Graduate Students: Essential Tasks and Skills", by John Swales, Christine Feak. Kindle Edition.', 3, N'20231003', 2, 5, 5, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (16.1900, N'"Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones", by James Clear. Kindle Edition.', 3, N'20231006', 2, 5, 5, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (53.2800, N'Medical insurance Policy No. 45316, payment No. 12.', 3, N'20231006', 2, 8, 8, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (1500.0000, N'Debt to grandmother.', 3, N'20231007', 4, 15, 13, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (5.0000, N'Breakfast with Michael and Theo.', 4, N'20231004', 1, 6, 1, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (90.4000, N'Platinum Membership yearly fee.', 5, N'20231005', 3, 7, 6, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (0.5000, N'Parking for dinner with Gabriela.', 5, N'20231006', 1, 9, 9, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (15.6200, N'Dinner at San Martin Multiplaza with Gabriela.', 5, N'20231006', 2, 10, 10, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (67.5500, N'By Texaco British School. Zyprexa Zydis 5MG X 14 compressed. Medicine for Gabriela.', 6, N'20231007', 2, 11, 11, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (1.6500, N'By Texaco British School. 2da Y 4rta Calle Oriente, Santa Tecla. 1 Sundae Chocolate for Gabriela.', 6, N'20231007', 2, 12, 10, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (42.3000, N'TEXACO SERVITEX. CAR PANAMERICANA KM11 ST TECLA. ROCELI CONSULTORES, S.A. DE C.V.', 6, N'20231007', 2, 14, 12, 1)
+INSERT [dbo].[FactPurchases] ([TotalPurchases], [Description], [CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (19.5300, N'Canton El Progreso KM 20. Volcan de San Salvador. With Gabriela.', 7, N'20231007', 2, 13, 10, 1)
+GO
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (1, N'20231001', 1, 1, 1, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (1, N'20231001', 1, 2, 2, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (3, N'20231001', 2, 3, 3, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (3, N'20231001', 2, 4, 4, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (3, N'20231003', 2, 5, 5, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (3, N'20231006', 2, 5, 5, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (3, N'20231006', 2, 8, 8, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (3, N'20231007', 4, 15, 13, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (4, N'20231004', 1, 6, 1, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (5, N'20231005', 3, 7, 6, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (5, N'20231006', 1, 9, 9, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (5, N'20231006', 2, 10, 10, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (6, N'20231007', 2, 11, 11, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (6, N'20231007', 2, 12, 10, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (6, N'20231007', 2, 14, 12, 1)
+INSERT [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate]) VALUES (7, N'20231007', 2, 13, 10, 1)
+GO
+INSERT [dbo].[FactSales] ([TotalSales], [Description], [CityID], [DayID], [PaymentMethodID], [BuyerID], [CategoryID], [CategoryDeduplicate]) VALUES (4175.0000, N'Salary for September 2023.', 3, N'20231006', 4, 1, 7, 1)
+GO
+INSERT [dbo].[FactSalesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [BuyerID], [CategoryID], [CategoryDeduplicate]) VALUES (3, N'20231006', 4, 1, 7, 1)
+GO
+ALTER TABLE [dbo].[DimCard]  WITH CHECK ADD  CONSTRAINT [FK_DimCard_DimBank] FOREIGN KEY([BankID])
+REFERENCES [dbo].[DimBank] ([BankID])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[DimCard] CHECK CONSTRAINT [FK_DimCard_DimBank]
+GO
+ALTER TABLE [dbo].[DimCard]  WITH CHECK ADD  CONSTRAINT [FK_DimCard_DimCardBrand] FOREIGN KEY([CardBrandID])
+REFERENCES [dbo].[DimCardBrand] ([CardBrandID])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[DimCard] CHECK CONSTRAINT [FK_DimCard_DimCardBrand]
+GO
+ALTER TABLE [dbo].[DimCard]  WITH CHECK ADD  CONSTRAINT [FK_DimCard_DimCardType] FOREIGN KEY([CardTypeID])
+REFERENCES [dbo].[DimCardType] ([CardTypeID])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[DimCard] CHECK CONSTRAINT [FK_DimCard_DimCardType]
+GO
+ALTER TABLE [dbo].[DimCategory]  WITH CHECK ADD  CONSTRAINT [FK_DimCategory_DimParentCategory] FOREIGN KEY([ParentCategoryID])
+REFERENCES [dbo].[DimParentCategory] ([ParentCategoryID])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[DimCategory] CHECK CONSTRAINT [FK_DimCategory_DimParentCategory]
+GO
+ALTER TABLE [dbo].[DimCity]  WITH CHECK ADD  CONSTRAINT [FK_DimCity_DimProvince] FOREIGN KEY([ProvinceID])
+REFERENCES [dbo].[DimProvince] ([ProvinceID])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[DimCity] CHECK CONSTRAINT [FK_DimCity_DimProvince]
+GO
+ALTER TABLE [dbo].[DimPaymentMethod]  WITH CHECK ADD  CONSTRAINT [FK_DimPaymentMethod_DimCard] FOREIGN KEY([CardID])
+REFERENCES [dbo].[DimCard] ([CardID])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[DimPaymentMethod] CHECK CONSTRAINT [FK_DimPaymentMethod_DimCard]
+GO
+ALTER TABLE [dbo].[DimProvince]  WITH CHECK ADD  CONSTRAINT [FK_DimProvince_DimCountry] FOREIGN KEY([CountryID])
+REFERENCES [dbo].[DimCountry] ([CountryID])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[DimProvince] CHECK CONSTRAINT [FK_DimProvince_DimCountry]
+GO
+ALTER TABLE [dbo].[FactPurchases]  WITH CHECK ADD  CONSTRAINT [FK_FactPurchases_FactPurchasesXDimCategory] FOREIGN KEY([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate])
+REFERENCES [dbo].[FactPurchasesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [SellerID], [CategoryID], [CategoryDeduplicate])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[FactPurchases] CHECK CONSTRAINT [FK_FactPurchases_FactPurchasesXDimCategory]
+GO
+ALTER TABLE [dbo].[FactPurchasesXDimCategory]  WITH CHECK ADD  CONSTRAINT [FK_FactPurchasesXDimCategory_DimCategory] FOREIGN KEY([CategoryID])
+REFERENCES [dbo].[DimCategory] ([CategoryID])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[FactPurchasesXDimCategory] CHECK CONSTRAINT [FK_FactPurchasesXDimCategory_DimCategory]
+GO
+ALTER TABLE [dbo].[FactPurchasesXDimCategory]  WITH CHECK ADD  CONSTRAINT [FK_FactPurchasesXDimCategory_DimCity] FOREIGN KEY([CityID])
+REFERENCES [dbo].[DimCity] ([CityID])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[FactPurchasesXDimCategory] CHECK CONSTRAINT [FK_FactPurchasesXDimCategory_DimCity]
+GO
+ALTER TABLE [dbo].[FactPurchasesXDimCategory]  WITH CHECK ADD  CONSTRAINT [FK_FactPurchasesXDimCategory_DimDay] FOREIGN KEY([DayID])
+REFERENCES [dbo].[DimDay] ([DayID])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[FactPurchasesXDimCategory] CHECK CONSTRAINT [FK_FactPurchasesXDimCategory_DimDay]
+GO
+ALTER TABLE [dbo].[FactPurchasesXDimCategory]  WITH CHECK ADD  CONSTRAINT [FK_FactPurchasesXDimCategory_DimPaymentMethod] FOREIGN KEY([PaymentMethodID])
+REFERENCES [dbo].[DimPaymentMethod] ([PaymentMethodID])
+GO
+ALTER TABLE [dbo].[FactPurchasesXDimCategory] CHECK CONSTRAINT [FK_FactPurchasesXDimCategory_DimPaymentMethod]
+GO
+ALTER TABLE [dbo].[FactPurchasesXDimCategory]  WITH CHECK ADD  CONSTRAINT [FK_FactPurchasesXDimCategory_DimSeller] FOREIGN KEY([SellerID])
+REFERENCES [dbo].[DimSeller] ([SellerID])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[FactPurchasesXDimCategory] CHECK CONSTRAINT [FK_FactPurchasesXDimCategory_DimSeller]
+GO
+ALTER TABLE [dbo].[FactSales]  WITH CHECK ADD  CONSTRAINT [FK_FactSales_FactSales] FOREIGN KEY([CityID], [DayID], [PaymentMethodID], [BuyerID], [CategoryID], [CategoryDeduplicate])
+REFERENCES [dbo].[FactSalesXDimCategory] ([CityID], [DayID], [PaymentMethodID], [BuyerID], [CategoryID], [CategoryDeduplicate])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[FactSales] CHECK CONSTRAINT [FK_FactSales_FactSales]
+GO
+ALTER TABLE [dbo].[FactSalesXDimCategory]  WITH CHECK ADD  CONSTRAINT [FK_FactSalesXDimCategory_DimBuyer] FOREIGN KEY([BuyerID])
+REFERENCES [dbo].[DimBuyer] ([BuyerID])
+ON UPDATE CASCADE
+ON DELETE CASCADE
+GO
+ALTER TABLE [dbo].[FactSalesXDimCategory] CHECK CONSTRAINT [FK_FactSalesXDimCategory_DimBuyer]
+GO
+ALTER TABLE [dbo].[FactSalesXDimCategory]  WITH CHECK ADD  CONSTRAINT [FK_FactSalesXDimCategory_DimCategory] FOREIGN KEY([CategoryID])
+REFERENCES [dbo].[DimCategory] ([CategoryID])
+GO
+ALTER TABLE [dbo].[FactSalesXDimCategory] CHECK CONSTRAINT [FK_FactSalesXDimCategory_DimCategory]
+GO
+ALTER TABLE [dbo].[FactSalesXDimCategory]  WITH CHECK ADD  CONSTRAINT [FK_FactSalesXDimCategory_DimCity] FOREIGN KEY([CityID])
+REFERENCES [dbo].[DimCity] ([CityID])
+GO
+ALTER TABLE [dbo].[FactSalesXDimCategory] CHECK CONSTRAINT [FK_FactSalesXDimCategory_DimCity]
+GO
+ALTER TABLE [dbo].[FactSalesXDimCategory]  WITH CHECK ADD  CONSTRAINT [FK_FactSalesXDimCategory_DimDay] FOREIGN KEY([DayID])
+REFERENCES [dbo].[DimDay] ([DayID])
+GO
+ALTER TABLE [dbo].[FactSalesXDimCategory] CHECK CONSTRAINT [FK_FactSalesXDimCategory_DimDay]
+GO
+ALTER TABLE [dbo].[FactSalesXDimCategory]  WITH CHECK ADD  CONSTRAINT [FK_FactSalesXDimCategory_DimPaymentMethod] FOREIGN KEY([PaymentMethodID])
+REFERENCES [dbo].[DimPaymentMethod] ([PaymentMethodID])
+GO
+ALTER TABLE [dbo].[FactSalesXDimCategory] CHECK CONSTRAINT [FK_FactSalesXDimCategory_DimPaymentMethod]
+GO
+USE [master]
+GO
+ALTER DATABASE [Finances] SET  READ_WRITE 
+GO
+</pre>
 		   
 		   
 		   
