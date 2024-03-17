@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"2024/03/15/11/53/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
+					<div class=\"book-cover\" id=\"blog-20240315-1153-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <h2>Setting up the dark theme in SQL Server Management Studio</h2>
