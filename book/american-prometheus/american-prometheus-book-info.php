@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"/american-prometheus/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"american-prometheus-img\"></div>
+					<div class=\"book-cover\" id=\"book-american-prometheus-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>American Prometheus: The Inspiration for the Major Motion Picture OPPENHEIMER</span>
