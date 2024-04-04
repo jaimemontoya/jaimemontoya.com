@@ -113,5 +113,9 @@ class Page
   {
     echo "\t\t<footer>\n\t\t\t<div>\n\t\t\t<a href=\"#\">Back to top</a>\n\t\t\t</div>\n\t\t</footer>\n";
   }
+  public function BookReviewsBibliography()
+  {
+    return "\t\t<div class=\"margintop15\">* Book review template obtained from \"Motta-Roth, D. (1998), Discourse analysis and academic book reviews: A study of text and disciplinary cultures. In 1. Fartanet, S. Posteguillo, J.C. Palmer, and J. F. Coli (Eds.), <span class=\"italic\">Genre studies in English for academic purposes</span> (pp. 29-58). Castello, Spain: Universitat Jaume I.\"</div>";
+  }
 }
 ?>
