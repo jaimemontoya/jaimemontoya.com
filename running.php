@@ -43,6 +43,7 @@ class RunningPage extends Page
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRunningChart2024);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRunningChart2023);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRunningChart2022);\n";
+	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRunningChart2021);\n";
 	echo "\t\t\t// Callback that creates and populates a data table, instantiates the pie chart, passes in the data and draws it.\n";
 	echo "\t\t\tfunction drawRunningChartAllYears() {\n";
 	echo "\t\t\t\t// Create the data table.\n";
@@ -137,12 +138,6 @@ class RunningPage extends Page
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
-	
-	
-	
-	
-	
-	
 	echo "\t\t\tfunction drawRunningChart2021() {\n";
 	echo "\t\t\t\t// Create the data table.\n";
 	echo "\t\t\t\tvar data = new google.visualization.DataTable();\n";
@@ -169,12 +164,7 @@ class RunningPage extends Page
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
-	echo "\t\t\t}\n";	
-	
-	
-	
-	
-	
+	echo "\t\t\t}\n";
 	echo "\t\t\tfunction barMouseOver(e) {\n";
 	echo "\t\t\t\tbarsVisualization.setSelection([e]);\n";
 	echo "\t\t\t}\n";
