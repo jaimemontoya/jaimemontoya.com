@@ -1,6 +1,6 @@
 <?php
   require("../page.php");
-  $running = new RunningPage();
+  $running = new Page();
   $running->title = "Running";
   $running->metaDescription = "Jaime Montoya's running history since August 2, 2020.";
   $running->content .= "<h1>Running</h1>";
