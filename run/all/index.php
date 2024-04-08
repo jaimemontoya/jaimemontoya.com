@@ -1,5 +1,5 @@
 <?php
-  require("../../page.php");
+  require("../../running.php");
   $index = new Page();
   $index->title = "Jaime Montoya's running history by year";
   $index->parentPage = "Running";

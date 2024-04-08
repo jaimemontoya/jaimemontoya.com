@@ -55,6 +55,7 @@ hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
 .container-finances @media screen and (max-width: 300px){span.psw{display:block;float:none}.cancelbtn{width:100%}}
 .container-finances #submit{background-color:#04AA6D;color:white;padding:10px 20px;margin:8px 0;border:none;cursor:pointer;width:auto;font-size:0.9em}
 .container-finances	#submit:hover{opacity:0.8}
+.container-running{margin:0 8px}
 .imgcontainer .logo a{color:#04AA6D!important}
 .widthauto{width:auto!important}
 .logo{padding-top:15px}
