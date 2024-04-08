@@ -137,6 +137,44 @@ class RunningPage extends Page
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
+	
+	
+	
+	
+	
+	
+	echo "\t\t\tfunction drawRunningChart2021() {\n";
+	echo "\t\t\t\t// Create the data table.\n";
+	echo "\t\t\t\tvar data = new google.visualization.DataTable();\n";
+	echo "\t\t\t\tdata.addColumn('string', 'Month');\n";
+	echo "\t\t\t\tdata.addColumn('number', 'Km');\n";
+	echo "\t\t\t\tdata.addRows([\n";
+	echo "\t\t\t\t\t['Jan',202.3],\n";
+	echo "\t\t\t\t\t['Feb',211.1],\n";
+	echo "\t\t\t\t\t['Mar',281.1],\n";
+	echo "\t\t\t\t\t['Apr',173.8],\n";
+	echo "\t\t\t\t\t['May',158.8],\n";
+	echo "\t\t\t\t\t['Jun',131.0],\n";
+	echo "\t\t\t\t\t['Jul',185.3],\n";
+	echo "\t\t\t\t\t['Aug',206.5],\n";
+	echo "\t\t\t\t\t['Sep',102.9],\n";
+	echo "\t\t\t\t\t['Oct',138.7],\n";
+	echo "\t\t\t\t\t['Nov',120.6],\n";
+	echo "\t\t\t\t\t['Dec',189.0]\n";
+	echo "\t\t\t\t]);\n";
+	echo "\t\t\t\t// Set chart options\n";
+	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s 2021 running history by month'};\n";
+	echo "\t\t\t\tbarsVisualization = new google.visualization.ColumnChart(document.getElementById('running-2021'));\n";
+	echo "\t\t\t\tbarsVisualization.draw(data, options);\n";
+	echo "\t\t\t\t// Add our over/out handlers.\n";
+	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
+	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
+	echo "\t\t\t}\n";	
+	
+	
+	
+	
+	
 	echo "\t\t\tfunction barMouseOver(e) {\n";
 	echo "\t\t\t\tbarsVisualization.setSelection([e]);\n";
 	echo "\t\t\t}\n";
