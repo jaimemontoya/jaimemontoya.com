@@ -19,7 +19,7 @@ class RunningPage extends Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo "\t\t<div class=\"container-running\">\n";
-    echo $this->content;
+    //echo $this->content;
     echo "\t\t</div>\n";
 	$this -> DisplayFooter();
     echo "\t</body>\n</html>\n";
