@@ -1,5 +1,5 @@
 <?php
-  require("../page.php");
+  require("../running.php");
   $index = new Page();
   $index->title = "Running";
   $index->metaDescription = "Jaime Montoya's running history since August 2, 2020.";
