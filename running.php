@@ -41,6 +41,7 @@ class RunningPage extends Page
 	echo "\t\t\t// Set a callback to run when the Google Visualization API is loaded.\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRunningChartAllYears);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRunningChart2024);\n";
+	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRunningChart2023);\n";
 	echo "\t\t\t// Callback that creates and populates a data table, instantiates the pie chart, passes in the data and draws it.\n";
 	echo "\t\t\tfunction drawRunningChartAllYears() {\n";
 	echo "\t\t\t\t// Create the data table.\n";
