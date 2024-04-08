@@ -5,7 +5,7 @@ class RunningPage extends Page
   public function Display()
   {
     echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
-	$this -> RunningAllYears();
+	$this -> RunningCharts();
     $this -> DisplayGoogleAdSense();
     $this -> DisplayGoogleAnalytics();
     $this -> DisplayFontAwesome();
@@ -31,7 +31,7 @@ class RunningPage extends Page
     echo "\t\t<link href=\"/styles.css\" type=\"text/css\" rel=\"stylesheet\">\n";
     echo "\t\t<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Carter+One\">\n";
   }
-  public function RunningAllYears()
+  public function RunningCharts()
   {
     echo "\t\t<!--Load the AJAX API-->\n";
     echo "\t\t<script type=\"text/javascript\" src=\"https://www.gstatic.com/charts/loader.js\"></script>\n";
@@ -61,6 +61,32 @@ class RunningPage extends Page
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
+	
+	
+	echo "\t\t\tfunction drawRunningChart2024() {\n";
+	echo "\t\t\t\t// Create the data table.\n";
+	echo "\t\t\t\tvar data = new google.visualization.DataTable();\n";
+	echo "\t\t\t\tdata.addColumn('string', 'Month');\n";
+	echo "\t\t\t\tdata.addColumn('number', 'Km');\n";
+	echo "\t\t\t\tdata.addRows([\n";
+	echo "\t\t\t\t\t['Jan',133.4],\n";
+	echo "\t\t\t\t\t['Feb',74.7],\n";
+	echo "\t\t\t\t\t['Mar',81.0],\n";
+	echo "\t\t\t\t\t['Apr',5.0]\n";
+	echo "\t\t\t\t]);\n";
+	echo "\t\t\t\t// Set chart options\n";
+	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s running history by year'};\n";
+	echo "\t\t\t\tbarsVisualization = new google.visualization.ColumnChart(document.getElementById('running-2024'));\n";
+	echo "\t\t\t\tbarsVisualization.draw(data, options);\n";
+	echo "\t\t\t\t// Add our over/out handlers.\n";
+	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
+	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
+	echo "\t\t\t}\n";
+	
+	
+	
+	
+	
 	echo "\t\t\tfunction barMouseOver(e) {\n";
 	echo "\t\t\t\tbarsVisualization.setSelection([e]);\n";
 	echo "\t\t\t}\n";
