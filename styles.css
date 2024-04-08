@@ -71,7 +71,7 @@ nav li a:hover{color:#afafaf;background-color:#0f0;text-decoration:none}
 .center{text-align:center}
 .book{display:flex;flex-direction:row;margin-top:14px}
 .book .book-thumbnail{text-decoration:none}
-.book > .book-thumbnail:first-child{display:flex;align-self:center;flex-basis:49%;height:137px;max-width:88px}
+.book > .book-thumbnail:first-child{display:flex;align-self:center;flex-basis:49%;height:80px;max-width:88px}
 .book-cover{align-items:center;background-color:transparent;background-repeat:no-repeat;background-size:contain;display:flex;flex:0 1 auto;justify-content:center;max-height:144px;max-width:84px;min-width:84px;position:relative;width:100%;}
 .book-title-authors-read-by{flex-grow:2;margin-left:16px;padding-top:10px}
 .book-title-authors-read-by span:first-child{display:inline-block;font:20px/20px Guardian Text Sans;font-weight:500;margin-bottom:8px;margin-top:0}
