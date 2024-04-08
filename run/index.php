@@ -6,6 +6,6 @@
   $running->content .= "<h1>Running</h1>";
   require("all/all-book-info.php");
   require("2024/2024-book-info.php");
-  require("2024/2023-book-info.php");
+  require("2023/2023-book-info.php");
   $running->Display();
 ?>
