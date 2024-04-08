@@ -130,7 +130,7 @@ class RunningPage extends Page
 	echo "\t\t\t\t\t['Dec',97.75]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s 2023 running history by month'};\n";
+	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s 2022 running history by month'};\n";
 	echo "\t\t\t\tbarsVisualization = new google.visualization.ColumnChart(document.getElementById('running-2022'));\n";
 	echo "\t\t\t\tbarsVisualization.draw(data, options);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
