@@ -1,5 +1,5 @@
 <?php
-  $index->content .= 
+  $running->content .= 
            "\t\t\t<a href=\"/run/all/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
 					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
