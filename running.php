@@ -45,7 +45,7 @@ class RunningPage extends Page
 	echo "\t\t\t\t// Create the data table.\n";
 	echo "\t\t\t\tvar data = new google.visualization.DataTable();\n";
 	echo "\t\t\t\tdata.addColumn('string', 'Year');\n";
-	echo "\t\t\t\tdata.addColumn('number', 'Kilometers');\n";
+	echo "\t\t\t\tdata.addColumn('number', 'Km');\n";
 	echo "\t\t\t\tdata.addRows([\n";
 	echo "\t\t\t\t\t['2020',746.4],\n";
 	echo "\t\t\t\t\t['2021',2101.0],\n";
