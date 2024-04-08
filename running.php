@@ -74,7 +74,7 @@ class RunningPage extends Page
 	echo "\t\t\t\t\t['Apr',5.0]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar options = {'title':'2024 Jaime Montoya\'s running history by month'};\n";
+	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s 2024 running history by month'};\n";
 	echo "\t\t\t\tbarsVisualization = new google.visualization.ColumnChart(document.getElementById('running-2024'));\n";
 	echo "\t\t\t\tbarsVisualization.draw(data, options);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
@@ -101,8 +101,8 @@ class RunningPage extends Page
 	echo "\t\t\t\t\t['Dec',127.0]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar options = {'title':'2024 Jaime Montoya\'s running history by month'};\n";
-	echo "\t\t\t\tbarsVisualization = new google.visualization.ColumnChart(document.getElementById('running-2024'));\n";
+	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s 2023 running history by month'};\n";
+	echo "\t\t\t\tbarsVisualization = new google.visualization.ColumnChart(document.getElementById('running-2023'));\n";
 	echo "\t\t\t\tbarsVisualization.draw(data, options);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
