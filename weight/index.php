@@ -10,5 +10,6 @@
   require("2022/2022-book-info.php");
   require("2021/2021-book-info.php");
   require("2020/2020-book-info.php");
+  require("2019/2019-book-info.php");
   $weight->Display();
 ?>
