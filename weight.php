@@ -85,7 +85,7 @@ class WeightPage extends Page
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
-	echo "\t\t\tfunction drawRunningChart2023() {\n";
+	echo "\t\t\tfunction drawWeightChart2023() {\n";
 	echo "\t\t\t\t// Create the data table.\n";
 	echo "\t\t\t\tvar data = new google.visualization.DataTable();\n";
 	echo "\t\t\t\tdata.addColumn('string', 'Month');\n";
