@@ -33,7 +33,7 @@ hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
 .apa-reference a{text-decoration:underline}
 .apa-reference a{color:#fff}
 .container {padding: 0 14px}
-.container h1, .container-running h1, .container-weight h1{display:inline-block;font:1.3em Arial;font-weight:500;margin-bottom:8px;margin-top:0}
+.container h1{display:inline-block;font:1.3em Arial;font-weight:500;margin-bottom:8px;margin-top:0}
 .container a:hover{color:#0f0!important}
 .container-finances, .container-running{margin:0 8px}
 .container-finances h1{font-size:1.5em;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
@@ -55,6 +55,8 @@ hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
 .container-finances @media screen and (max-width: 300px){span.psw{display:block;float:none}.cancelbtn{width:100%}}
 .container-finances #submit{background-color:#04AA6D;color:white;padding:10px 20px;margin:8px 0;border:none;cursor:pointer;width:auto;font-size:0.9em}
 .container-finances	#submit:hover{opacity:0.8}
+.container-running h1{display:inline-block;font:1.3em Arial;font-weight:500;margin-bottom:8px;margin-top:0}
+.container-weight h1{display:inline-block;font:1.3em Arial;font-weight:500;margin-bottom:8px;margin-top:0}
 .imgcontainer .logo a{color:#04AA6D!important}
 .widthauto{width:auto!important}
 .logo{padding-top:15px}
