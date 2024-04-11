@@ -1,9 +1,9 @@
 <?php
   require("../page.php");
   $index = new Page();
-  $index->title = "Book reviews";
-  $index->metaDescription = "Reviews for books read by Jaime Montoya from cover to cover.";
-  $index->content .= "<h1>Book reviews</h1>";
-  require("american-prometheus/american-prometheus-book-info.php");
+  $index->title = "Coursera";
+  $index->metaDescription = "List of Coursera courses successfully completed by Jaime Montoya.";
+  $index->content .= "<h1>Coursera</h1>";
+  require("introduction-to-marketing/introduction-to-marketing-book-info.php");
   $index->Display();
 ?>
