@@ -5,6 +5,6 @@
   $index->parentPage = "Blog";
   $index->metaDescription = "Discover how to fix Pending State, a problem that makes a database inaccessible.";
   $index->content .= "\t\t\t<h1>".$index->title."</h1>";
-  require("book-info-20240418-1109.php");
+  require("book-info-20240418-2309.php");
   $index->Display();
 ?>
