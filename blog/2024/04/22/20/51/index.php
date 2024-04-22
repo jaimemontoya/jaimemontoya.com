@@ -1,10 +1,10 @@
 <?php
   require("../../../../../../page.php");
   $index = new Page();
-  $index->title = "Provisioning Azure relational database services to create Azure SQL, MySQL, and PostgreSQL database resources";
+  $index->title = "Migrating existing database on SQL Server to Azure SQL Database using a .bacpac file";
   $index->parentPage = "Blog";
-  $index->metaDescription = "Steps to provision from an Azure subscription, the following resources: Azure SQL, MySQL, and PostgreSQL databases.";
+  $index->metaDescription = "This quickstart provides the steps to import an existing database on SQL Server into an Azure SQL Database using a .bacpac file.";
   $index->content .= "\t\t\t<h1>".$index->title."</h1>";
-  require("book-info-20231217-1141.php");
+  require("book-info-20240422-2051.php");
   $index->Display();
 ?>
