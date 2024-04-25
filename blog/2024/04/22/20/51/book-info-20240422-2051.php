@@ -1204,5 +1204,5 @@ GO
 ALTER DATABASE [FinancesBACKUP] SET  READ_WRITE 
 GO
 </pre>
-		   <p>This is the script that was generated containing both schema and data: <a href=\"includes/script.sql\">script.sql</a></p><div>Published: 8:51 AM GMT · Apr 22, 2023</div>\n";
+		   <p>This is the script that was generated containing both schema and data: <a href=\"includes/script.sql\">script.sql</a></p><p>I clicked <span class=\"cod\">Back Up...</span>:</p><div><img src=\"/blog/2024/04/22/20/51/img/backUpDatabase.jpg\" alt=\"Back up database\" width=\"651\" height=\"983\"></div><div>Published: 8:51 AM GMT · Apr 22, 2023</div>\n";
 ?>
