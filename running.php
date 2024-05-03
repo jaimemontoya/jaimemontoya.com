@@ -56,7 +56,7 @@ class RunningPage extends Page
 	echo "\t\t\t\t\t['2021',2101.0],\n";
 	echo "\t\t\t\t\t['2022',1575.0],\n";
 	echo "\t\t\t\t\t['2023',1698.8],\n";
-	echo "\t\t\t\t\t['2024',294.1] // 133.4+74.7+81.0+5.0\n";
+	echo "\t\t\t\t\t['2024',294.1] // 133.4+74.7+81.0+46.6+15.1\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s running history by year'};\n";
@@ -75,7 +75,8 @@ class RunningPage extends Page
 	echo "\t\t\t\t\t['Jan',133.4],\n";
 	echo "\t\t\t\t\t['Feb',74.7],\n";
 	echo "\t\t\t\t\t['Mar',81.0],\n";
-	echo "\t\t\t\t\t['Apr',5.0]\n";
+	echo "\t\t\t\t\t['Apr',46.6]\n";
+	echo "\t\t\t\t\t['May',15.1]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s 2024 running history by month'};\n";
