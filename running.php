@@ -75,7 +75,7 @@ class RunningPage extends Page
 	echo "\t\t\t\t\t['Jan',133.4],\n";
 	echo "\t\t\t\t\t['Feb',74.7],\n";
 	echo "\t\t\t\t\t['Mar',81.0],\n";
-	echo "\t\t\t\t\t['Apr',46.6]\n";
+	echo "\t\t\t\t\t['Apr',46.6],\n";
 	echo "\t\t\t\t\t['May',15.1]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
