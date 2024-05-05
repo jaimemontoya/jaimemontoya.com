@@ -46,7 +46,7 @@ class CapitalPage extends Page
 	echo "\t\t\t\t// Create the data table.\n";
 	echo "\t\t\t\tvar data = new google.visualization.DataTable();\n";
 	echo "\t\t\t\tdata.addColumn('string', 'Year');\n";
-	echo "\t\t\t\tdata.addColumn('number', 'Kg');\n";
+	echo "\t\t\t\tdata.addColumn('number', 'USD');\n";
 	echo "\t\t\t\tdata.addRows([\n";
 	echo "\t\t\t\t\t['2024',4023.84]\n";
 	echo "\t\t\t\t]);\n";
