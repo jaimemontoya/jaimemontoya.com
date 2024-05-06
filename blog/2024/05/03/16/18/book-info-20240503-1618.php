@@ -1,4 +1,4 @@
 <?php
   $index->content .= 
-           "<p>Start here...</p><div>Published: 8:51 AM GMT · Apr 22, 2023</div>\n";
+           "<p>From my SQL database, I clicked <span class=\"cod\">Set server firewall</span>:</p><div><img src=\"/blog/2024/05/03/16/18/img/setServerFirewall.jpg\" alt=\"Set server firewall\" width=\"846\" height=\"391\"></div><div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
 ?>
