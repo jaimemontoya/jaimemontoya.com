@@ -1,7 +1,7 @@
 <?php
-	echo "Hello World!";
-    /*$serverName = "jaimemontoya.database.windows.net"; // update me
-    $connectionOptions = array(
+    $serverName = "jaimemontoya.database.windows.net"; // update me
+    echo $serverName;
+	/*$connectionOptions = array(
         "Database" => "Finances", // update me
         "Uid" => "jaimemontoya", // update me
         "PWD" => "SuperEasy@1" // update me
