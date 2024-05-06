@@ -1,14 +1,14 @@
 <?php
     $serverName = "jaimemontoya.database.windows.net"; // update me
-    echo $serverName;
-	/*$connectionOptions = array(
+	$connectionOptions = array(
         "Database" => "Finances", // update me
         "Uid" => "jaimemontoya", // update me
         "PWD" => "SuperEasy@1" // update me
     );
     //Establishes the connection
     $conn = sqlsrv_connect($serverName, $connectionOptions);
-    $tsql= "SELECT DayID, FullDateAlternateKey FROM DimDay ORDER BY DayID DESC";
+	echo $conn;
+    /*$tsql= "SELECT DayID, FullDateAlternateKey FROM DimDay ORDER BY DayID DESC";
     $getResults= sqlsrv_query($conn, $tsql);
     echo ("Reading data from table" . PHP_EOL);
     if ($getResults == FALSE)
