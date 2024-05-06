@@ -1,5 +1,6 @@
 <?php
-    $serverName = "jaimemontoya.database.windows.net"; // update me
+	echo "Hello World!";
+    /*$serverName = "jaimemontoya.database.windows.net"; // update me
     $connectionOptions = array(
         "Database" => "Finances", // update me
         "Uid" => "jaimemontoya", // update me
@@ -15,5 +16,5 @@
     while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
      echo ($row['DayID'] . " " . $row['FullDateAlternateKey'] . PHP_EOL);
     }
-    sqlsrv_free_stmt($getResults);
+    sqlsrv_free_stmt($getResults);*/
 ?>
