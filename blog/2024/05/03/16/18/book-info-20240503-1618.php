@@ -1340,6 +1340,6 @@ root@jaimemontoya:/var/www/jaimemontoya.com# service apache2 restart
 	phpinfo();
 &quest;>
 </pre>
-           <p>My server was running PHP Version 8.3.6:</p><div><img src=\"/blog/2024/05/03/16/18/img/showPHPVersion.jpg\" alt=\"Show PHP version\" width=\"1267\" height=\"980\"></div>
+           <p>My server was running PHP Version 8.3.6:</p><div><img src=\"/blog/2024/05/03/16/18/img/showPHPVersion.jpg\" alt=\"Show PHP version\" width=\"1267\" height=\"980\"></div><p>This was the configuration before the installation:</p><div><img src=\"/blog/2024/05/03/16/18/img/configurationBeforeInstallation.jpg\" alt=\"Configuration before installation\" width=\"1270\" height=\"976\"></div><p>This was the configuration after the installation:</p><div><img src=\"/blog/2024/05/03/16/18/img/configurationAfterInstallation.jpg\" alt=\"Configuration after installation\" width=\"1299\" height=\"974\"></div>
 		   <div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
 ?>
