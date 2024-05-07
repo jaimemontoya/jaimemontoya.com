@@ -27,6 +27,11 @@
   \t\t\t<div><input type=\"text\" name=\"startDateKey\" class=\"widthauto\" value=\"".$_GET['startDateKey']."\"></div>
   \t\t\t<div>End date:</div>
   \t\t\t<div><input type=\"text\" name=\"endDateKey\" class=\"widthauto\" value=\"".$_GET['endDateKey']."\"></div>\n";
+  if(($_GET["reporttype"]=="Expenses") || ($_GET["reporttype"]=="Income")){
+    $finances->content .=
+    "\t\t\t<div>Select categories:</div>
+	\n";
+  }
   $finances->content .=
   "\t\t\t<div><input name=\"submit\" type=\"submit\" value=\"Submit\" id=\"submit\"></div>
   \t\t</form>
