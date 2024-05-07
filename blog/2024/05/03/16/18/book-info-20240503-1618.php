@@ -1352,6 +1352,7 @@ root@jaimemontoya:/var/www/jaimemontoya.com# service apache2 restart
         \"Uid\" => \"fakeuservalue\", // update me
         \"PWD\" => \"MyPassword!9\" // update me
     );
+	//Establishes the connection
 &quest;>
 </pre>
 		   <p>The connection was successful, retrieving data from a table in the database:</p><div><img src=\"/blog/2024/05/03/16/18/img/resultsRetrievedFromDatabase.jpg\" alt=\"Results retrieved from database\" width=\"461\" height=\"987\"></div><div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
