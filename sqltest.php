@@ -12,7 +12,7 @@
 	//phpinfo();
 	
 	// Report all PHP errors
-	error_reporting(E_ALL);
+	error_reporting(0);
     $tsql= "SELECT DayID, FullDateAlternateKey FROM DimDay ORDER BY DayID DESC";
     $getResults= sqlsrv_query($conn, $tsql);
     /*echo ("Reading data from table" . PHP_EOL);
