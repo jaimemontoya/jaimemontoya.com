@@ -38,17 +38,16 @@
 	  $sqlGetCategories = "SELECT * FROM DimCategory WHERE CategoryID IN (SELECT DISTINCT CategoryID FROM FactSalesXDimCategory) ORDER BY CategoryName ASC;";
 	}
 	$resultCategories = sqlsrv_query($conn, $sqlGetCategories);
-	if ($resultCategories == FALSE)
+	/*if ($resultCategories == FALSE)
       echo (sqlsrv_errors());
-    print_r($resultCategories);
+    print_r($resultCategories);*/
 	/*if ($resultCategories->num_rows > 0) {
       echo "Greater than 0";
     } else {
       $finances->content .=
       "0 categories";
     }*/
-  }
-	$finances->content .=
+    $finances->content .=
     "\t\t\t\t</div>";
   }
   $finances->content .=
