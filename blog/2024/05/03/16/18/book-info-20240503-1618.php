@@ -1334,11 +1334,11 @@ No user sessions are running outdated binaries.
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 root@jaimemontoya:/var/www/jaimemontoya.com# service apache2 restart
 </pre>
-		   <p>I created the file sqltest.php in the root directory of my website, containing the following code:</p>
+		   <p>I created the file <span class=\"cod\">sqltest.php</span> in the root directory of my website, containing the following code:</p>
 <pre>
-<?php
+<&quest;php
 	phpinfo();
-?>
+&quest;>
 </pre>
 		   <div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
 ?>
