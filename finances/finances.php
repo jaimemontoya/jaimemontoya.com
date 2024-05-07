@@ -63,6 +63,10 @@
   echo ("Reading data from table:" . "<br />");
   if ($getResults == FALSE)
     echo (sqlsrv_errors());
+
+  $row_count = sqlsrv_num_rows($getResults);
+  echo "Number of rows: ".$row_count;
+
   while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
     echo ($row['CategoryID'] . "
 ");
