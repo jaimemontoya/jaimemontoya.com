@@ -1,6 +1,5 @@
 <?php
-	phpinfo();
-	/*ini_set('display_errors', 1);
+	ini_set('display_errors', 1);
 	ini_set('display_startup_errors', 1);
 	error_reporting(E_ALL);
 	$serverName = "jaimemontoya.database.windows.net"; // update me
@@ -26,5 +25,5 @@
     while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
      echo ($row['DayID'] . "<br />");
     }
-    sqlsrv_free_stmt($getResults);*/
+    sqlsrv_free_stmt($getResults);
 ?>
