@@ -51,7 +51,7 @@
 	/*while ($row = sqlsrv_fetch_array($resultCategories, SQLSRV_FETCH_ASSOC)) {
       echo ($row['CategoryID'] . " ");*/
 	//Establishes the connection
-  $tsql= "SELECT DayID FROM DimDay ORDER BY DayID DESC";
+  $tsql= "SELECT CategoryID FROM DimCategory ORDER BY CategoryID DESC";
   var_dump($conn);
   if( $conn ) {
     echo "Connection established.<br />";
@@ -64,7 +64,7 @@
   if ($getResults == FALSE)
     echo (sqlsrv_errors());
   while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
-    echo ($row['DayID'] . "
+    echo ($row['CategoryID'] . "
 ");
   }
   sqlsrv_free_stmt($getResults);
