@@ -1357,13 +1357,13 @@ root@jaimemontoya:/var/www/jaimemontoya.com# service apache2 restart
     $tsql= \"SELECT DayID FROM DimDay ORDER BY DayID DESC\";
 	var_dump($conn);
 	if( $conn ) {
-		echo \"Connection established.<br />\";
+		echo \"Connection established.&lt;br /&gt;\";
 	}else{
-		echo \"Connection could not be established.<br />\";
+		echo \"Connection could not be established.&lt;br /&gt;\";
 		die( print_r( sqlsrv_errors(), true));
 	}
     $getResults= sqlsrv_query($conn, $tsql);
-	echo (\"Reading data from table:\" . \"<br />\");
+	echo (\"Reading data from table:\" . \"&lt;br /&gt;\");
 &quest;>
 </pre>
 		   <p>The connection was successful, retrieving data from a table in the database:</p><div><img src=\"/blog/2024/05/03/16/18/img/resultsRetrievedFromDatabase.jpg\" alt=\"Results retrieved from database\" width=\"461\" height=\"987\"></div><div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
