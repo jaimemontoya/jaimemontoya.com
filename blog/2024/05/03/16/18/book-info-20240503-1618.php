@@ -1273,5 +1273,66 @@ Get:22 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main armhf Package
 Fetched 7,449 kB in 4s (1,876 kB/s)
 Reading package lists... Done
 </pre>
+		   <div><img src=\"/blog/2024/05/03/16/18/img/installationsImage4.jpg\" alt=\"Installation - Image 4\" width=\"1148\" height=\"683\"></div>
+<pre>
+root@jaimemontoya:/var/www/jaimemontoya.com# ACCEPT_EULA=Y apt-get install -y msodbcsql18
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libwebp6
+Use 'apt autoremove' to remove it.
+The following additional packages will be installed:
+  odbcinst unixodbc
+The following NEW packages will be installed:
+  msodbcsql18 odbcinst unixodbc
+0 upgraded, 3 newly installed, 0 to remove and 144 not upgraded.
+Need to get 792 kB of archives.
+After this operation, 164 kB of additional disk space will be used.
+Get:1 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main amd64 msodbcsql18 amd64 18.3.3.1-1 [755 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 odbcinst amd64 2.3.9-5ubuntu0.1 [9,930 B]
+Get:3 http://us.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 unixodbc amd64 2.3.9-5ubuntu0.1 [26.7 kB]
+Fetched 792 kB in 0s (4,301 kB/s)
+Preconfiguring packages ...
+Selecting previously unselected package odbcinst.
+(Reading database ... 272532 files and directories currently installed.)
+Preparing to unpack .../odbcinst_2.3.9-5ubuntu0.1_amd64.deb ...
+Unpacking odbcinst (2.3.9-5ubuntu0.1) ...
+Selecting previously unselected package unixodbc.
+Preparing to unpack .../unixodbc_2.3.9-5ubuntu0.1_amd64.deb ...
+Unpacking unixodbc (2.3.9-5ubuntu0.1) ...
+Selecting previously unselected package msodbcsql18.
+Preparing to unpack .../msodbcsql18_18.3.3.1-1_amd64.deb ...
+Unpacking msodbcsql18 (18.3.3.1-1) ...
+Setting up odbcinst (2.3.9-5ubuntu0.1) ...
+Setting up unixodbc (2.3.9-5ubuntu0.1) ...
+Setting up msodbcsql18 (18.3.3.1-1) ...
+odbcinst: Driver installed. Usage count increased to 1.
+    Target directory is /etc
+Processing triggers for man-db (2.10.2-1) ...
+Scanning processes...
+Scanning candidates...
+Scanning linux images...
+
+Running kernel seems to be up-to-date.
+
+Restarting services...
+Service restarts being deferred:
+ systemctl restart NetworkManager.service
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart gdm.service
+ systemctl restart gdm3.service
+ systemctl restart networkd-dispatcher.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+ systemctl restart user@126.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+root@jaimemontoya:/var/www/jaimemontoya.com# service apache2 restart
+</pre>
 		   <div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
 ?>
