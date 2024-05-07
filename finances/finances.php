@@ -50,6 +50,32 @@
 	
 	/*while ($row = sqlsrv_fetch_array($resultCategories, SQLSRV_FETCH_ASSOC)) {
       echo ($row['CategoryID'] . " ");*/
+	//Establishes the connection
+  $tsql= "SELECT DayID FROM DimDay ORDER BY DayID DESC";
+  var_dump($conn);
+  if( $conn ) {
+    echo "Connection established.<br />";
+  }else{
+    echo "Connection could not be established.<br />";
+    die( print_r( sqlsrv_errors(), true));
+  }
+  $getResults= sqlsrv_query($conn, $tsql);
+  echo ("Reading data from table:" . "<br />");
+  if ($getResults == FALSE)
+    echo (sqlsrv_errors());
+  while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
+    echo ($row['DayID'] . "
+");
+  }
+  sqlsrv_free_stmt($getResults);
+	  
+	  
+	  
+	  
+	  
+	  
+	  
+	  
 	
   
   
