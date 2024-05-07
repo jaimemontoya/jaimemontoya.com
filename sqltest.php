@@ -1,5 +1,8 @@
 <?php
-    $serverName = "jaimemontoya.database.windows.net"; // update me
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
+	$serverName = "jaimemontoya.database.windows.net"; // update me
 	$connectionOptions = array(
         "Database" => "Finances", // update me
         "Uid" => "jaimemontoya", // update me
@@ -8,12 +11,10 @@
     //Establishes the connection
     $conn = sqlsrv_connect($serverName, $connectionOptions);
 	echo $conn;
+	$c = new PDO("sqlsrv:Server=jaimemontoya.database.windows.net;Database=Finances", "jaimemontoya", "SuperEasy@1");
 	
 	//phpinfo();
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
-	print_r($conn);
+
 	
 
     $tsql= "SELECT DayID, FullDateAlternateKey FROM DimDay ORDER BY DayID DESC";
