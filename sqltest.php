@@ -1,5 +1,5 @@
 <?php
-	/*ini_set('display_errors', 1);
+	ini_set('display_errors', 1);
 	ini_set('display_startup_errors', 1);
 	error_reporting(E_ALL);
 	global $conn;
@@ -11,11 +11,11 @@
     );
     //Establishes the connection
     $conn = sqlsrv_connect($serverName, $connectionOptions);
-	
+	var_dump($conn);
     $tsql= "SELECT DayID, FullDateAlternateKey FROM DimDay ORDER BY DayID DESC";
-    $getResults= sqlsrv_query($conn, $tsql);*/
+    //$getResults= sqlsrv_query($conn, $tsql);
     
-	phpinfo();
+	//phpinfo();
 	
 	/*echo ("Reading data from table" . PHP_EOL);
     if ($getResults == FALSE)
