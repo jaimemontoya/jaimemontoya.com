@@ -631,7 +631,7 @@ checking for unistd.h... yes
 checking for dlfcn.h... yes
 checking for objdir... .libs
 checking if cc supports -fno-rtti -fno-exceptions... no
-checking for cc option to produce PIC... -fPIC -DPIC
+checking for cc option to produce PIC... -fPIC -DPICf
 checking if cc PIC flag -fPIC -DPIC works... yes
 checking if cc static flag -static works... yes
 checking if cc supports -c -o file.o... yes
@@ -746,5 +746,6 @@ No user sessions are running outdated binaries.
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 root@jaimemontoya:/var/www/jaimemontoya.com#
 </pre>
+		   <div><img src=\"/blog/2024/05/03/16/18/img/installationsImage3.jpg\" alt=\"Installation - Image 3\" width=\"1171\" height=\"724\"></div>
 		   <div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
 ?>
