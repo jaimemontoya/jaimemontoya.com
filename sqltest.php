@@ -27,7 +27,7 @@
     if ($getResults == FALSE)
         echo (sqlsrv_errors());
     while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
-     echo ($row['DayID'] . " " . $row['FullDateAlternateKey'] . PHP_EOL);
+     echo ($row['DayID'] . " " . $row['FullDateAlternateKey']->format('d/m/Y') . PHP_EOL);
     }
     sqlsrv_free_stmt($getResults);
 ?>
