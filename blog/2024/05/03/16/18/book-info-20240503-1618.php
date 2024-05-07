@@ -1372,6 +1372,5 @@ root@jaimemontoya:/var/www/jaimemontoya.com# service apache2 restart
     sqlsrv_free_stmt($getResults);
 &quest;>
 </pre>
-		   <p>The connection was successful, retrieving data from a table in the database:</p>
-		   <div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
+		   <p>The connection was successful, retrieving data from a table in the database:</p><div><img src=\"/blog/2024/05/03/16/18/img/resultsRetrievedFromDatabase.jpg\" alt=\"Results retrieved from database\" width=\"461\" height=\"987\"></div><div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
 ?>
