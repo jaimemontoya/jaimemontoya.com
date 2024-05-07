@@ -1340,5 +1340,6 @@ root@jaimemontoya:/var/www/jaimemontoya.com# service apache2 restart
 	phpinfo();
 &quest;>
 </pre>
+           <p>My server was running PHP Version 8.3.6:</p><div><img src=\"/blog/2024/05/03/16/18/img/showPHPVersion.jpg\" alt=\"Show PHP version\" width=\"1267\" height=\"980\"></div>
 		   <div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
 ?>
