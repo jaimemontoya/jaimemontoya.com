@@ -41,7 +41,7 @@ No user sessions are running outdated binaries.
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 </pre>
-		   <div><img src=\"/blog/2024/05/03/16/18/img/installationsImage1.jpg\" alt=\"Installation image 1\" width=\"1034\" height=\"879\"></div>
+		   <div><img src=\"/blog/2024/05/03/16/18/img/installationsImage1.jpg\" alt=\"Installation - Image 1\" width=\"1034\" height=\"879\"></div>
 <pre>
 root@jaimemontoya:/var/www/jaimemontoya.com# apt install php-pear
 Reading package lists... Done
@@ -533,6 +533,218 @@ No user sessions are running outdated binaries.
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 root@jaimemontoya:/var/www/jaimemontoya.com# 
+</pre>
+           <div><img src=\"/blog/2024/05/03/16/18/img/installationsImage2.jpg\" alt=\"Installation - Image 2\" width=\"1909\" height=\"1077\"></div>
+<pre>
+root@jaimemontoya:/var/www/jaimemontoya.com# pecl install sqlsrv pdo_sqlsrv
+WARNING: channel "pecl.php.net" has updated its protocols, use "pecl channel-update pecl.php.net" to update
+downloading sqlsrv-5.12.0.tgz ...
+Starting to download sqlsrv-5.12.0.tgz (193,767 bytes)
+.........................................done: 193,767 bytes
+downloading pdo_sqlsrv-5.12.0.tgz ...
+Starting to download pdo_sqlsrv-5.12.0.tgz (188,170 bytes)
+...done: 188,170 bytes
+34 source files, building
+running: phpize
+Configuring for:
+PHP Api Version:         20230831
+Zend Module Api No:      20230831
+Zend Extension Api No:   420230831
+configure.ac:165: warning: The macro `AC_PROG_LIBTOOL' is obsolete.
+configure.ac:165: You should run autoupdate.
+build/libtool.m4:99: AC_PROG_LIBTOOL is expanded from...
+configure.ac:165: the top level
+building in /tmp/pear/temp/pear-build-rootMWFrfR/sqlsrv-5.12.0
+running: /tmp/pear/temp/sqlsrv/configure --with-php-config=/usr/bin/php-config
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for cc... cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables...
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether cc accepts -g... yes
+checking for cc option to enable C11 features... none needed
+checking how to run the C preprocessor... cc -E
+checking for icc... no
+checking for suncc... no
+checking for system library directory... lib
+checking if compiler supports -Wl,-rpath,... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for PHP prefix... /usr
+checking for PHP includes... -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib
+checking for PHP extension directory... /usr/lib/php/20230831
+checking for PHP installed headers prefix... /usr/include/php/20230831
+checking if debug is enabled... no
+checking if zts is enabled... no
+checking for gawk... gawk
+checking whether to enable sqlsrv functions... yes, shared
+checking for SQLSRV headers... /tmp/pear/temp/sqlsrv/shared/
+checking for g++... g++
+checking whether the compiler supports GNU C++... yes
+checking whether g++ accepts -g... yes
+checking for g++ option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... g++ -E
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by cc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... (cached) gawk
+checking command to parse /usr/bin/nm -B output from cc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if cc supports -fno-rtti -fno-exceptions... no
+checking for cc option to produce PIC... -fPIC -DPIC
+checking if cc PIC flag -fPIC -DPIC works... yes
+checking if cc static flag -static works... yes
+checking if cc supports -c -o file.o... yes
+checking if cc supports -c -o file.o... (cached) yes
+checking whether the cc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+configure: patching config.h.in
+configure: creating ./config.status
+config.status: creating config.h
+config.status: executing libtool commands
+running: make
+/bin/bash /tmp/pear/temp/pear-build-rootMWFrfR/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootMWFrfR/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootMWFrfR/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/conn.cpp -o conn.lo  -MMD -MF conn.dep -MT conn.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootMWFrfR/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootMWFrfR/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/conn.cpp -MMD -MF conn.dep -MT conn.lo  -fPIC -DPIC -o .libs/conn.o
+In file included from /tmp/pear/temp/sqlsrv/shared/typedefs_for_linux.h:23,
+                 from /tmp/pear/temp/sqlsrv/shared/xplat_winnls.h:24,
+                 from /tmp/pear/temp/sqlsrv/shared/FormattedPrint.h:24,
+                 from /tmp/pear/temp/sqlsrv/shared/core_sqlsrv.h:41,
+                 from /tmp/pear/temp/sqlsrv/php_sqlsrv_int.h:25,
+                 from /tmp/pear/temp/sqlsrv/conn.cpp:24:
+/tmp/pear/temp/sqlsrv/shared/xplat.h:30:10: fatal error: sql.h: No such file or directory
+   30 | #include <sql.h>
+      |          ^~~~~~~
+compilation terminated.
+make: *** [Makefile:210: conn.lo] Error 1
+ERROR: `make' failed
+root@jaimemontoya:/var/www/jaimemontoya.com# apt-get install unixodbc-dev
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following package was automatically installed and is no longer required:
+  libwebp6
+Use 'apt autoremove' to remove it.
+The following additional packages will be installed:
+  libodbc2 libodbccr2 libodbcinst2 unixodbc-common
+Suggested packages:
+  odbc-postgresql tdsodbc
+The following NEW packages will be installed:
+  libodbc2 libodbccr2 libodbcinst2 unixodbc-common unixodbc-dev
+0 upgraded, 5 newly installed, 0 to remove and 144 not upgraded.
+Need to get 464 kB of archives.
+After this operation, 2,504 kB of additional disk space will be used.
+Do you want to continue? [Y/n] Y
+Get:1 http://us.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libodbc2 amd64 2.3.9-5ubuntu0.1 [159 kB]
+Get:2 http://us.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libodbccr2 amd64 2.3.9-5ubuntu0.1 [16.7 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu jammy-updates/main amd64 unixodbc-common all 2.3.9-5ubuntu0.1 [9,256 B]
+Get:4 http://us.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libodbcinst2 amd64 2.3.9-5ubuntu0.1 [31.9 kB]
+Get:5 http://us.archive.ubuntu.com/ubuntu jammy-updates/main amd64 unixodbc-dev amd64 2.3.9-5ubuntu0.1 [248 kB]
+Fetched 464 kB in 0s (1,563 kB/s) 
+Selecting previously unselected package libodbc2:amd64.
+(Reading database ... 272489 files and directories currently installed.)
+Preparing to unpack .../libodbc2_2.3.9-5ubuntu0.1_amd64.deb ...
+Unpacking libodbc2:amd64 (2.3.9-5ubuntu0.1) ...
+Selecting previously unselected package libodbccr2:amd64.
+Preparing to unpack .../libodbccr2_2.3.9-5ubuntu0.1_amd64.deb ...
+Unpacking libodbccr2:amd64 (2.3.9-5ubuntu0.1) ...
+Selecting previously unselected package unixodbc-common.
+Preparing to unpack .../unixodbc-common_2.3.9-5ubuntu0.1_all.deb ...
+Unpacking unixodbc-common (2.3.9-5ubuntu0.1) ...
+Selecting previously unselected package libodbcinst2:amd64.
+Preparing to unpack .../libodbcinst2_2.3.9-5ubuntu0.1_amd64.deb ...
+Unpacking libodbcinst2:amd64 (2.3.9-5ubuntu0.1) ...
+Selecting previously unselected package unixodbc-dev:amd64.
+Preparing to unpack .../unixodbc-dev_2.3.9-5ubuntu0.1_amd64.deb ...
+Unpacking unixodbc-dev:amd64 (2.3.9-5ubuntu0.1) ...
+Setting up unixodbc-common (2.3.9-5ubuntu0.1) ...
+Setting up libodbc2:amd64 (2.3.9-5ubuntu0.1) ...
+Setting up libodbccr2:amd64 (2.3.9-5ubuntu0.1) ...
+Setting up libodbcinst2:amd64 (2.3.9-5ubuntu0.1) ...
+Setting up unixodbc-dev:amd64 (2.3.9-5ubuntu0.1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.7) ...
+Scanning processes...                                                                                                                                                                                              
+Scanning candidates...                                                                                                                                                                                             
+Scanning linux images...                                                                                                                                                                                           
+
+Running kernel seems to be up-to-date.
+
+Restarting services...
+Service restarts being deferred:
+ systemctl restart NetworkManager.service
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart gdm.service
+ systemctl restart gdm3.service
+ systemctl restart networkd-dispatcher.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+ systemctl restart user@0.service
+ systemctl restart user@126.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+root@jaimemontoya:/var/www/jaimemontoya.com#
 </pre>
 		   <div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
 ?>
