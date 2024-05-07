@@ -749,7 +749,7 @@ root@jaimemontoya:/var/www/jaimemontoya.com#
 		   <div><img src=\"/blog/2024/05/03/16/18/img/installationsImage3.jpg\" alt=\"Installation - Image 3\" width=\"1171\" height=\"724\"></div>
 <pre>
 root@jaimemontoya:/var/www/jaimemontoya.com# pecl install sqlsrv pdo_sqlsrv
-WARNING: channel "pecl.php.net" has updated its protocols, use "pecl channel-update pecl.php.net" to update
+WARNING: channel \"pecl.php.net\" has updated its protocols, use \"pecl channel-update pecl.php.net\" to update
 downloading sqlsrv-5.12.0.tgz ...
 Starting to download sqlsrv-5.12.0.tgz (193,767 bytes)
 .........................................done: 193,767 bytes
@@ -901,11 +901,11 @@ libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-r
 libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/StringFunctions.cpp -MMD -MF shared/StringFunctions.dep -MT shared/StringFunctions.lo  -fPIC -DPIC -o shared/.libs/StringFunctions.o
 /bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CC --mode=link cc -shared -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -g -O2 -D_GNU_SOURCE    -o sqlsrv.la -export-dynamic -avoid-version -prefer-pic -module -rpath /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules  conn.lo util.lo init.lo stmt.lo shared/core_conn.lo shared/core_results.lo shared/core_stream.lo shared/core_init.lo shared/core_stmt.lo shared/core_util.lo shared/FormattedPrint.lo shared/localizationimpl.lo shared/StringFunctions.lo -Wl,-z,now -lstdc++ -lodbc -lodbcinst
 libtool: link: cc -shared  -fPIC -DPIC  .libs/conn.o .libs/util.o .libs/init.o .libs/stmt.o shared/.libs/core_conn.o shared/.libs/core_results.o shared/.libs/core_stream.o shared/.libs/core_init.o shared/.libs/core_stmt.o shared/.libs/core_util.o shared/.libs/FormattedPrint.o shared/.libs/localizationimpl.o shared/.libs/StringFunctions.o   -lstdc++ -lodbc -lodbcinst  -g -O2 -Wl,-z -Wl,now   -Wl,-soname -Wl,sqlsrv.so -o .libs/sqlsrv.so
-libtool: link: ( cd ".libs" && rm -f "sqlsrv.la" && ln -s "../sqlsrv.la" "sqlsrv.la" )
+libtool: link: ( cd \".libs\" && rm -f \"sqlsrv.la\" && ln -s \"../sqlsrv.la\" \"sqlsrv.la\" )
 /bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CC --mode=install cp ./sqlsrv.la /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules
 libtool: install: cp ./.libs/sqlsrv.so /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules/sqlsrv.so
 libtool: install: cp ./.libs/sqlsrv.lai /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules/sqlsrv.la
-libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules
+libtool: finish: PATH=\"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin\" ldconfig -n /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules
 ----------------------------------------------------------------------
 Libraries have been installed in:
    /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules
@@ -928,9 +928,9 @@ more information, such as the ld(1) and ld.so(8) manual pages.
 Build complete.
 Don't forget to run 'make test'.
 
-running: make INSTALL_ROOT="/tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0" install
+running: make INSTALL_ROOT=\"/tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0\" install
 Installing shared extensions:     /tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0/usr/lib/php/20230831/
-running: find "/tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0" | xargs ls -dils
+running: find \"/tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0\" | xargs ls -dils
 193922   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0
 193928   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0/usr
 193929   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0/usr/lib
@@ -1089,11 +1089,11 @@ libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-bui
 libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/StringFunctions.cpp -MMD -MF shared/StringFunctions.dep -MT shared/StringFunctions.lo  -fPIC -DPIC -o shared/.libs/StringFunctions.o
 /bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CC --mode=link cc -shared -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -g -O2 -D_GNU_SOURCE    -o pdo_sqlsrv.la -export-dynamic -avoid-version -prefer-pic -module -rpath /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules  pdo_dbh.lo pdo_parser.lo pdo_util.lo pdo_init.lo pdo_stmt.lo shared/core_conn.lo shared/core_results.lo shared/core_stream.lo shared/core_init.lo shared/core_stmt.lo shared/core_util.lo shared/FormattedPrint.lo shared/localizationimpl.lo shared/StringFunctions.lo -Wl,-z,now -lstdc++ -lodbc -lodbcinst
 libtool: link: cc -shared  -fPIC -DPIC  .libs/pdo_dbh.o .libs/pdo_parser.o .libs/pdo_util.o .libs/pdo_init.o .libs/pdo_stmt.o shared/.libs/core_conn.o shared/.libs/core_results.o shared/.libs/core_stream.o shared/.libs/core_init.o shared/.libs/core_stmt.o shared/.libs/core_util.o shared/.libs/FormattedPrint.o shared/.libs/localizationimpl.o shared/.libs/StringFunctions.o   -lstdc++ -lodbc -lodbcinst  -g -O2 -Wl,-z -Wl,now   -Wl,-soname -Wl,pdo_sqlsrv.so -o .libs/pdo_sqlsrv.so
-libtool: link: ( cd ".libs" && rm -f "pdo_sqlsrv.la" && ln -s "../pdo_sqlsrv.la" "pdo_sqlsrv.la" )
+libtool: link: ( cd \".libs\" && rm -f \"pdo_sqlsrv.la\" && ln -s \"../pdo_sqlsrv.la\" \"pdo_sqlsrv.la\" )
 /bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CC --mode=install cp ./pdo_sqlsrv.la /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules
 libtool: install: cp ./.libs/pdo_sqlsrv.so /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules/pdo_sqlsrv.so
 libtool: install: cp ./.libs/pdo_sqlsrv.lai /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules/pdo_sqlsrv.la
-libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules
+libtool: finish: PATH=\"/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin\" ldconfig -n /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules
 ----------------------------------------------------------------------
 Libraries have been installed in:
    /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules
@@ -1116,9 +1116,9 @@ more information, such as the ld(1) and ld.so(8) manual pages.
 Build complete.
 Don't forget to run 'make test'.
 
-running: make INSTALL_ROOT="/tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0" install
+running: make INSTALL_ROOT=\"/tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0\" install
 Installing shared extensions:     /tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0/usr/lib/php/20230831/
-running: find "/tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0" | xargs ls -dils
+running: find \"/tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0\" | xargs ls -dils
 193942   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0
 193948   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0/usr
 193949   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0/usr/lib
@@ -1129,12 +1129,12 @@ running: find "/tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0" |
 Build process completed successfully
 Installing '/usr/lib/php/20230831/pdo_sqlsrv.so'
 install ok: channel://pecl.php.net/pdo_sqlsrv-5.12.0
-configuration option "php_ini" is not set to php.ini location
-You should add "extension=sqlsrv.so" to php.ini
-configuration option "php_ini" is not set to php.ini location
-You should add "extension=sqlsrv.so" to php.ini
-configuration option "php_ini" is not set to php.ini location
-You should add "extension=pdo_sqlsrv.so" to php.ini
+configuration option \"php_ini\" is not set to php.ini location
+You should add \"extension=sqlsrv.so\" to php.ini
+configuration option \"php_ini\" is not set to php.ini location
+You should add \"extension=sqlsrv.so\" to php.ini
+configuration option \"php_ini\" is not set to php.ini location
+You should add \"extension=pdo_sqlsrv.so\" to php.ini
 root@jaimemontoya:/var/www/jaimemontoya.com# cd /etc/php
 root@jaimemontoya:/etc/php# ls -al
 total 36
@@ -1150,8 +1150,8 @@ PHP 8.3.6 (cli) (built: Apr 11 2024 20:23:38) (NTS)
 Copyright (c) The PHP Group
 Zend Engine v4.3.6, Copyright (c) Zend Technologies
     with Zend OPcache v8.3.6, Copyright (c), by Zend Technologies
-root@jaimemontoya:/etc/php# printf "; priority=20\nextension=sqlsrv.so\n" > /etc/php/8.3/mods-available/sqlsrv.ini
-root@jaimemontoya:/etc/php# printf "; priority=30\nextension=pdo_sqlsrv.so\n" > /etc/php/8.3/mods-available/pdo_sqlsrv.ini
+root@jaimemontoya:/etc/php# printf \"; priority=20\nextension=sqlsrv.so\n\" > /etc/php/8.3/mods-available/sqlsrv.ini
+root@jaimemontoya:/etc/php# printf \"; priority=30\nextension=pdo_sqlsrv.so\n\" > /etc/php/8.3/mods-available/pdo_sqlsrv.ini
 root@jaimemontoya:/etc/php# phpenmod -v 8.3 sqlsrv pdo_sqlsrv
 root@jaimemontoya:/etc/php# systemctl restart apache2
 root@jaimemontoya:/var/www/jaimemontoya.com# php -i | grep sqlsrv
