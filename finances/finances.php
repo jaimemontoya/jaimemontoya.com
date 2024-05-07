@@ -37,6 +37,7 @@
 	if($_GET["reporttype"]=="Income"){
 	  $sqlGetCategories = "SELECT * FROM DimCategory WHERE CategoryID IN (SELECT DISTINCT CategoryID FROM FactSalesXDimCategory) ORDER BY CategoryName ASC;";
 	}
+	$resultCategories = sqlsrv_query($conn, $sqlGetCategories);
   }
   $finances->content .=
   "\t\t\t<div><input name=\"submit\" type=\"submit\" value=\"Submit\" id=\"submit\"></div>
