@@ -40,12 +40,13 @@
 	$resultCategories = sqlsrv_query($conn, $sqlGetCategories);
 	if ($resultCategories == FALSE)
       echo (sqlsrv_errors());
-	if ($resultCategories->num_rows > 0) {
+    print_r($resultCategories);
+	/*if ($resultCategories->num_rows > 0) {
       echo "Greater than 0";
     } else {
       $finances->content .=
       "0 categories";
-    }
+    }*/
   }
 	$finances->content .=
     "\t\t\t\t</div>";
