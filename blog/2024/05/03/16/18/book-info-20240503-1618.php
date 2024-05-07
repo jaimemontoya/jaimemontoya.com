@@ -1346,23 +1346,23 @@ root@jaimemontoya:/var/www/jaimemontoya.com# service apache2 restart
 	ini_set('display_errors', 1);
 	ini_set('display_startup_errors', 1);
 	error_reporting(E_ALL);
-	$serverName = \"jaimemontoya.database.windows.net\"; // update me
-	$connectionOptions = array(
+	\$serverName = \"jaimemontoya.database.windows.net\"; // update me
+	\$connectionOptions = array(
         \"Database\" => \"Finances\", // update me
         \"Uid\" => \"fakeuservalue\", // update me
         \"PWD\" => \"MyPassword!9\" // update me
     );
 	//Establishes the connection
-	$conn = sqlsrv_connect($serverName, $connectionOptions);
-    $tsql= \"SELECT DayID FROM DimDay ORDER BY DayID DESC\";
+	\$conn = sqlsrv_connect($serverName, $connectionOptions);
+    \$tsql= \"SELECT DayID FROM DimDay ORDER BY DayID DESC\";
 	var_dump($conn);
-	if( $conn ) {
+	if( \$conn ) {
 		echo \"Connection established.&lt;br /&gt;\";
 	}else{
 		echo \"Connection could not be established.&lt;br /&gt;\";
 		die( print_r( sqlsrv_errors(), true));
 	}
-    $getResults= sqlsrv_query($conn, $tsql);
+    \$getResults= sqlsrv_query($conn, $tsql);
 	echo (\"Reading data from table:\" . \"&lt;br /&gt;\");
 &quest;>
 </pre>
