@@ -10,15 +10,11 @@
     );
     //Establishes the connection
     $conn = sqlsrv_connect($serverName, $connectionOptions);
-	echo $conn;
-	$c = new PDO("sqlsrv:Server=jaimemontoya.database.windows.net;Database=Finances", "jaimemontoya", "SuperEasy@1");
-	
 	//phpinfo();
 
 	
-
     $tsql= "SELECT DayID, FullDateAlternateKey FROM DimDay ORDER BY DayID DESC";
-    //$getResults= sqlsrv_query($conn, $tsql);
+    $getResults= sqlsrv_query($conn, $tsql);
     /*echo ("Reading data from table" . PHP_EOL);
     if ($getResults == FALSE)
         echo (sqlsrv_errors());
