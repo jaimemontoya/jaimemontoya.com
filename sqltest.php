@@ -2,6 +2,7 @@
 	ini_set('display_errors', 1);
 	ini_set('display_startup_errors', 1);
 	error_reporting(E_ALL);
+	global $conn;
 	$serverName = "jaimemontoya.database.windows.net"; // update me
 	$connectionOptions = array(
         "Database" => "Finances", // update me
