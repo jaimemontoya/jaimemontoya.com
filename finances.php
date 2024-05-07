@@ -19,6 +19,7 @@ class FinancesPage extends Page
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
     echo "\t\t<div class=\"container-finances\">\n";
+	echo $this -> DisplayBreadcrumb($this->title, $this->parentPage, $this->parentPages);
     echo $this->content;
     echo "\t\t</div>\n";
 	$this -> DisplayFooter();
