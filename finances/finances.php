@@ -40,7 +40,12 @@
 	$resultCategories = sqlsrv_query($conn, $sqlGetCategories);
 	if ($resultCategories == FALSE)
       echo (sqlsrv_errors());
-    print_r($resultCategories);
+    if (sqlsrv_num_rows($resultCategories) > 0) {
+      echo "Greater than 0";
+	} else {
+      $finances->content .=
+      "0 categories";
+    }
 	/*if ($resultCategories->num_rows > 0) {
       echo "Greater than 0";
     } else {
