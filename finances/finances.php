@@ -51,7 +51,7 @@
 	/*while ($row = sqlsrv_fetch_array($resultCategories, SQLSRV_FETCH_ASSOC)) {
       echo ($row['CategoryID'] . " ");*/
 	//Establishes the connection
-  $tsql= "SELECT CategoryID FROM DimCategory ORDER BY CategoryID DESC";
+  $tsql= "SELECT * FROM DimCategory WHERE CategoryID IN (SELECT DISTINCT CategoryID FROM FactSalesXDimCategory) ORDER BY CategoryName ASC;";
   var_dump($conn);
   if( $conn ) {
     echo "Connection established.<br />";
