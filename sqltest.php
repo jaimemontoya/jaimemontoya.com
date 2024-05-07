@@ -11,7 +11,7 @@
     );
     //Establishes the connection
     $conn = sqlsrv_connect($serverName, $connectionOptions);
-    $tsql= "SELECT DayID, FullDateAlternateKey FROM DimDay ORDER BY DayID DESC";
+    $tsql= "SELECT DayID FROM DimDay ORDER BY DayID DESC";
 	var_dump($conn);
 	if( $conn ) {
 		echo "Connection established.<br />";
@@ -27,7 +27,7 @@
     if ($getResults == FALSE)
         echo (sqlsrv_errors());
     while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
-     echo ($row['DayID'] . " " . $row['FullDateAlternateKey']->format('d/m/Y') . PHP_EOL);
+     echo ($row['DayID'] . "<br />");
     }
     sqlsrv_free_stmt($getResults);
 ?>
