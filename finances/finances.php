@@ -48,6 +48,8 @@
     else
       echo $row_count;
 	
+	while ($row = sqlsrv_fetch_array($resultCategories, SQLSRV_FETCH_ASSOC)) {
+      echo ($row['CategoryID'] . " ");
 	
   
   
