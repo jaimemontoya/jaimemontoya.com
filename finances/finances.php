@@ -31,6 +31,12 @@
     $finances->content .=
     "\t\t\t<div>Select categories:</div>
 	\n";
+	if($_GET["reporttype"]=="Expenses"){
+	  $sqlGetCategories = "SELECT * FROM DimCategory WHERE CategoryID IN (SELECT DISTINCT CategoryID FROM FactPurchasesXDimCategory) ORDER BY CategoryName ASC;";
+	}
+	if($_GET["reporttype"]=="Income"){
+	  $sqlGetCategories = "SELECT * FROM DimCategory WHERE CategoryID IN (SELECT DISTINCT CategoryID FROM FactSalesXDimCategory) ORDER BY CategoryName ASC;";
+	}
   }
   $finances->content .=
   "\t\t\t<div><input name=\"submit\" type=\"submit\" value=\"Submit\" id=\"submit\"></div>
