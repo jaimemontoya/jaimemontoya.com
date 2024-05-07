@@ -1353,9 +1353,9 @@ root@jaimemontoya:/var/www/jaimemontoya.com# service apache2 restart
     \"PWD\" => \"MyPassword!9\" // update me
   );
   //Establishes the connection
-  \$conn = sqlsrv_connect($serverName, $connectionOptions);
+  \$conn = sqlsrv_connect(\$serverName, \$connectionOptions);
   \$tsql= \"SELECT DayID FROM DimDay ORDER BY DayID DESC\";
-  var_dump($conn);
+  var_dump(\$conn);
   if( \$conn ) {
     echo \"Connection established.&lt;br /&gt;\";
   }else{
@@ -1364,10 +1364,10 @@ root@jaimemontoya:/var/www/jaimemontoya.com# service apache2 restart
   }
   \$getResults= sqlsrv_query(\$conn, \$tsql);
   echo (\"Reading data from table:\" . \"&lt;br /&gt;\");
-  if ($getResults == FALSE)
+  if (\$getResults == FALSE)
     echo (sqlsrv_errors());
-  while ($row = sqlsrv_fetch_array(\$getResults, SQLSRV_FETCH_ASSOC)) {
-    echo ($row['DayID'] . \"<br />\");
+  while (\$row = sqlsrv_fetch_array(\$getResults, SQLSRV_FETCH_ASSOC)) {
+    echo (\$row['DayID'] . \"<br />\");
   }
   sqlsrv_free_stmt(\$getResults);
 &quest;>
