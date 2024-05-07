@@ -13,9 +13,11 @@
 	ini_set('display_errors', 1);
 	ini_set('display_startup_errors', 1);
 	error_reporting(E_ALL);
+	print_r($conn);
+	
 
     $tsql= "SELECT DayID, FullDateAlternateKey FROM DimDay ORDER BY DayID DESC";
-    $getResults= sqlsrv_query($conn, $tsql);
+    //$getResults= sqlsrv_query($conn, $tsql);
     /*echo ("Reading data from table" . PHP_EOL);
     if ($getResults == FALSE)
         echo (sqlsrv_errors());
