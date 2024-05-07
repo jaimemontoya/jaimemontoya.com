@@ -13,12 +13,12 @@
     $tsql= "SELECT DayID, FullDateAlternateKey FROM DimDay ORDER BY DayID DESC";
 	var_dump($conn);
 	if( $conn ) {
-	echo "Conexion establecida.<br />";
+		echo "Connection established.<br />";
 	}else{
-	echo "Conexion no se pudo establecer.<br />";
-	die( print_r( sqlsrv_errors(), true));
+		echo "Connection could not be established.<br />";
+		die( print_r( sqlsrv_errors(), true));
 	}
-    //$getResults= sqlsrv_query($conn, $tsql);
+    $getResults= sqlsrv_query($conn, $tsql);
     
 	//phpinfo();
 	
