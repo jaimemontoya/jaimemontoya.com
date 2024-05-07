@@ -537,7 +537,7 @@ root@jaimemontoya:/var/www/jaimemontoya.com#
            <div><img src=\"/blog/2024/05/03/16/18/img/installationsImage2.jpg\" alt=\"Installation - Image 2\" width=\"1909\" height=\"1077\"></div>
 <pre>
 root@jaimemontoya:/var/www/jaimemontoya.com# pecl install sqlsrv pdo_sqlsrv
-WARNING: channel "pecl.php.net" has updated its protocols, use "pecl channel-update pecl.php.net" to update
+WARNING: channel \"pecl.php.net\" has updated its protocols, use \"pecl channel-update pecl.php.net\" to update
 downloading sqlsrv-5.12.0.tgz ...
 Starting to download sqlsrv-5.12.0.tgz (193,767 bytes)
 .........................................done: 193,767 bytes
