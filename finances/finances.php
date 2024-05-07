@@ -40,7 +40,7 @@
 	$resultCategories = sqlsrv_query($conn, $sqlGetCategories);
 	if ($resultCategories == FALSE)
       echo (sqlsrv_errors());
-    /*print_r($resultCategories);*/
+    print_r($resultCategories);
 	/*if ($resultCategories->num_rows > 0) {
       echo "Greater than 0";
     } else {
