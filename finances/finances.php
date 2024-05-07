@@ -41,7 +41,14 @@
 	if ($resultCategories == FALSE)
       echo (sqlsrv_errors());
   
-    var_dump(sqlsrv_num_rows($resultCategories));
+    
+	$row_count = sqlsrv_num_rows( $resultCategories );
+    if ($row_count === false)
+      echo "Error in retrieveing row count.";
+    else
+      echo $row_count;
+	
+	
   
   
     if (sqlsrv_num_rows($resultCategories) > 0) {
