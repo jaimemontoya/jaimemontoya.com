@@ -41,5 +41,6 @@ No user sessions are running outdated binaries.
 
 No VM guests are running outdated hypervisor (qemu) binaries on this host.
 </pre>
+		   <div><img src=\"/blog/2024/05/03/16/18/img/installationsImage1.jpg\" alt=\"Installation image 1\" width=\"1034\" height=\"879\"></div>
 		   <div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
 ?>
