@@ -36,22 +36,14 @@
 	}
 	if($_GET["reporttype"]=="Income"){
 	  $sqlGetCategories = "SELECT * FROM DimCategory WHERE CategoryID IN (SELECT DISTINCT CategoryID FROM FactSalesXDimCategory) ORDER BY CategoryName ASC;";
-	}
-	
-	
-	var_dump($conn);
-  if( $conn ) {
-    echo "Connection established.<br />";
-  }else{
-    echo "Connection could not be established.<br />";
-    die( print_r( sqlsrv_errors(), true));
-  }
-	
-	
-	
+	}	
 	$resultCategories = sqlsrv_query($conn, $sqlGetCategories);
 	if ($resultCategories == FALSE)
       echo (sqlsrv_errors());
+  
+    var_dump(sqlsrv_num_rows($resultCategories));
+  
+  
     if (sqlsrv_num_rows($resultCategories) > 0) {
       echo "Greater than 0";
 	} else {
