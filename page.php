@@ -8,7 +8,7 @@ class Page
   public $metaDescription = "jaimemontoya.com, Jaime Montoya's Personal Home Page, featuring software technical documentation blog, and one-page resume.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
   public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-solid fa-blog\"></i>" => "/blog/", "<i class=\"fa-solid fa-address-card\"></i>" => "/about/");
-  public $parentPages = array("Coursera" => "/coursera/", "Weight" => "/weight/", "Running" => "/run/", "Book reviews" => "/book/", "Blog" => "/blog/", "Finances" => "/finances/");
+  public $parentPages = array("Coursera" => "/coursera/", "Weight" => "/weight/", "Running" => "/run/", "Book reviews" => "/book/", "Blog" => "/blog/");
   public function __set($name, $value)
   {
     $this->$name = $value;
