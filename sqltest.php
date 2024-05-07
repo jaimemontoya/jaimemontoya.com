@@ -10,9 +10,10 @@
 	echo $conn;
 	
 	//phpinfo();
-	
-	// Report all PHP errors
-	error_reporting(0);
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL);
+
     $tsql= "SELECT DayID, FullDateAlternateKey FROM DimDay ORDER BY DayID DESC";
     $getResults= sqlsrv_query($conn, $tsql);
     /*echo ("Reading data from table" . PHP_EOL);
