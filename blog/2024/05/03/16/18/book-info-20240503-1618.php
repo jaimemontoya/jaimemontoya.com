@@ -747,5 +747,531 @@ No VM guests are running outdated hypervisor (qemu) binaries on this host.
 root@jaimemontoya:/var/www/jaimemontoya.com#
 </pre>
 		   <div><img src=\"/blog/2024/05/03/16/18/img/installationsImage3.jpg\" alt=\"Installation - Image 3\" width=\"1171\" height=\"724\"></div>
+<pre>
+root@jaimemontoya:/var/www/jaimemontoya.com# pecl install sqlsrv pdo_sqlsrv
+WARNING: channel "pecl.php.net" has updated its protocols, use "pecl channel-update pecl.php.net" to update
+downloading sqlsrv-5.12.0.tgz ...
+Starting to download sqlsrv-5.12.0.tgz (193,767 bytes)
+.........................................done: 193,767 bytes
+downloading pdo_sqlsrv-5.12.0.tgz ...
+Starting to download pdo_sqlsrv-5.12.0.tgz (188,170 bytes)
+...done: 188,170 bytes
+34 source files, building
+running: phpize
+Configuring for:
+PHP Api Version:         20230831
+Zend Module Api No:      20230831
+Zend Extension Api No:   420230831
+configure.ac:165: warning: The macro `AC_PROG_LIBTOOL' is obsolete.
+configure.ac:165: You should run autoupdate.
+build/libtool.m4:99: AC_PROG_LIBTOOL is expanded from...
+configure.ac:165: the top level
+building in /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0
+running: /tmp/pear/temp/sqlsrv/configure --with-php-config=/usr/bin/php-config
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for cc... cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables...
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether cc accepts -g... yes
+checking for cc option to enable C11 features... none needed
+checking how to run the C preprocessor... cc -E
+checking for icc... no
+checking for suncc... no
+checking for system library directory... lib
+checking if compiler supports -Wl,-rpath,... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for PHP prefix... /usr
+checking for PHP includes... -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib
+checking for PHP extension directory... /usr/lib/php/20230831
+checking for PHP installed headers prefix... /usr/include/php/20230831
+checking if debug is enabled... no
+checking if zts is enabled... no
+checking for gawk... gawk
+checking whether to enable sqlsrv functions... yes, shared
+checking for SQLSRV headers... /tmp/pear/temp/sqlsrv/shared/
+checking for g++... g++
+checking whether the compiler supports GNU C++... yes
+checking whether g++ accepts -g... yes
+checking for g++ option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... g++ -E
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by cc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... (cached) gawk
+checking command to parse /usr/bin/nm -B output from cc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if cc supports -fno-rtti -fno-exceptions... no
+checking for cc option to produce PIC... -fPIC -DPIC
+checking if cc PIC flag -fPIC -DPIC works... yes
+checking if cc static flag -static works... yes
+checking if cc supports -c -o file.o... yes
+checking if cc supports -c -o file.o... (cached) yes
+checking whether the cc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+configure: patching config.h.in
+configure: creating ./config.status
+config.status: creating config.h
+config.status: executing libtool commands
+running: make
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/conn.cpp -o conn.lo  -MMD -MF conn.dep -MT conn.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/conn.cpp -MMD -MF conn.dep -MT conn.lo  -fPIC -DPIC -o .libs/conn.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/util.cpp -o util.lo  -MMD -MF util.dep -MT util.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/util.cpp -MMD -MF util.dep -MT util.lo  -fPIC -DPIC -o .libs/util.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/init.cpp -o init.lo  -MMD -MF init.dep -MT init.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/init.cpp -MMD -MF init.dep -MT init.lo  -fPIC -DPIC -o .libs/init.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/stmt.cpp -o stmt.lo  -MMD -MF stmt.dep -MT stmt.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/stmt.cpp -MMD -MF stmt.dep -MT stmt.lo  -fPIC -DPIC -o .libs/stmt.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/core_conn.cpp -o shared/core_conn.lo  -MMD -MF shared/core_conn.dep -MT shared/core_conn.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/core_conn.cpp -MMD -MF shared/core_conn.dep -MT shared/core_conn.lo  -fPIC -DPIC -o shared/.libs/core_conn.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/core_results.cpp -o shared/core_results.lo  -MMD -MF shared/core_results.dep -MT shared/core_results.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/core_results.cpp -MMD -MF shared/core_results.dep -MT shared/core_results.lo  -fPIC -DPIC -o shared/.libs/core_results.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/core_stream.cpp -o shared/core_stream.lo  -MMD -MF shared/core_stream.dep -MT shared/core_stream.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/core_stream.cpp -MMD -MF shared/core_stream.dep -MT shared/core_stream.lo  -fPIC -DPIC -o shared/.libs/core_stream.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/core_init.cpp -o shared/core_init.lo  -MMD -MF shared/core_init.dep -MT shared/core_init.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/core_init.cpp -MMD -MF shared/core_init.dep -MT shared/core_init.lo  -fPIC -DPIC -o shared/.libs/core_init.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/core_stmt.cpp -o shared/core_stmt.lo  -MMD -MF shared/core_stmt.dep -MT shared/core_stmt.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/core_stmt.cpp -MMD -MF shared/core_stmt.dep -MT shared/core_stmt.lo  -fPIC -DPIC -o shared/.libs/core_stmt.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/core_util.cpp -o shared/core_util.lo  -MMD -MF shared/core_util.dep -MT shared/core_util.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/core_util.cpp -MMD -MF shared/core_util.dep -MT shared/core_util.lo  -fPIC -DPIC -o shared/.libs/core_util.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/FormattedPrint.cpp -o shared/FormattedPrint.lo  -MMD -MF shared/FormattedPrint.dep -MT shared/FormattedPrint.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/FormattedPrint.cpp -MMD -MF shared/FormattedPrint.dep -MT shared/FormattedPrint.lo  -fPIC -DPIC -o shared/.libs/FormattedPrint.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/localizationimpl.cpp -o shared/localizationimpl.lo  -MMD -MF shared/localizationimpl.dep -MT shared/localizationimpl.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/localizationimpl.cpp -MMD -MF shared/localizationimpl.dep -MT shared/localizationimpl.lo  -fPIC -DPIC -o shared/.libs/localizationimpl.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/StringFunctions.cpp -o shared/StringFunctions.lo  -MMD -MF shared/StringFunctions.dep -MT shared/StringFunctions.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/sqlsrv -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/sqlsrv/shared/StringFunctions.cpp -MMD -MF shared/StringFunctions.dep -MT shared/StringFunctions.lo  -fPIC -DPIC -o shared/.libs/StringFunctions.o
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CC --mode=link cc -shared -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/main -I/tmp/pear/temp/sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/sqlsrv/shared/  -DHAVE_CONFIG_H  -g -O2 -D_GNU_SOURCE    -o sqlsrv.la -export-dynamic -avoid-version -prefer-pic -module -rpath /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules  conn.lo util.lo init.lo stmt.lo shared/core_conn.lo shared/core_results.lo shared/core_stream.lo shared/core_init.lo shared/core_stmt.lo shared/core_util.lo shared/FormattedPrint.lo shared/localizationimpl.lo shared/StringFunctions.lo -Wl,-z,now -lstdc++ -lodbc -lodbcinst
+libtool: link: cc -shared  -fPIC -DPIC  .libs/conn.o .libs/util.o .libs/init.o .libs/stmt.o shared/.libs/core_conn.o shared/.libs/core_results.o shared/.libs/core_stream.o shared/.libs/core_init.o shared/.libs/core_stmt.o shared/.libs/core_util.o shared/.libs/FormattedPrint.o shared/.libs/localizationimpl.o shared/.libs/StringFunctions.o   -lstdc++ -lodbc -lodbcinst  -g -O2 -Wl,-z -Wl,now   -Wl,-soname -Wl,sqlsrv.so -o .libs/sqlsrv.so
+libtool: link: ( cd ".libs" && rm -f "sqlsrv.la" && ln -s "../sqlsrv.la" "sqlsrv.la" )
+/bin/bash /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/libtool --tag=CC --mode=install cp ./sqlsrv.la /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules
+libtool: install: cp ./.libs/sqlsrv.so /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules/sqlsrv.so
+libtool: install: cp ./.libs/sqlsrv.lai /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules/sqlsrv.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /tmp/pear/temp/pear-build-rootcfvZ36/sqlsrv-5.12.0/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+
+Build complete.
+Don't forget to run 'make test'.
+
+running: make INSTALL_ROOT="/tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0" install
+Installing shared extensions:     /tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0/usr/lib/php/20230831/
+running: find "/tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0" | xargs ls -dils
+193922   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0
+193928   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0/usr
+193929   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0/usr/lib
+193930   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0/usr/lib/php
+193931   4 drwxr-xr-x 2 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0/usr/lib/php/20230831
+ 90326 416 -rwxr-xr-x 1 root root 422912 May  7 00:07 /tmp/pear/temp/pear-build-rootcfvZ36/install-sqlsrv-5.12.0/usr/lib/php/20230831/sqlsrv.so
+
+Build process completed successfully
+Installing '/usr/lib/php/20230831/sqlsrv.so'
+install ok: channel://pecl.php.net/sqlsrv-5.12.0
+35 source files, building
+running: phpize
+Configuring for:
+PHP Api Version:         20230831
+Zend Module Api No:      20230831
+Zend Extension Api No:   420230831
+configure.ac:165: warning: The macro `AC_PROG_LIBTOOL' is obsolete.
+configure.ac:165: You should run autoupdate.
+build/libtool.m4:99: AC_PROG_LIBTOOL is expanded from...
+configure.ac:165: the top level
+building in /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0
+running: /tmp/pear/temp/pdo_sqlsrv/configure --with-php-config=/usr/bin/php-config
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for cc... cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables...
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether cc accepts -g... yes
+checking for cc option to enable C11 features... none needed
+checking how to run the C preprocessor... cc -E
+checking for icc... no
+checking for suncc... no
+checking for system library directory... lib
+checking if compiler supports -Wl,-rpath,... yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking target system type... x86_64-pc-linux-gnu
+checking for PHP prefix... /usr
+checking for PHP includes... -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib
+checking for PHP extension directory... /usr/lib/php/20230831
+checking for PHP installed headers prefix... /usr/include/php/20230831
+checking if debug is enabled... no
+checking if zts is enabled... no
+checking for gawk... gawk
+checking for pdo_sqlsrv support... yes, shared
+checking for PDO includes... /usr/include/php/20230831/ext
+checking for PDO_SQLSRV headers... /tmp/pear/temp/pdo_sqlsrv/shared/
+checking for g++... g++
+checking whether the compiler supports GNU C++... yes
+checking whether g++ accepts -g... yes
+checking for g++ option to enable C++11 features... none needed
+checking how to run the C++ preprocessor... g++ -E
+checking how to print strings... printf
+checking for a sed that does not truncate output... (cached) /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by cc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -B
+checking the name lister (/usr/bin/nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-pc-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for ar... ar
+checking for archiver @FILE support... @
+checking for strip... strip
+checking for ranlib... ranlib
+checking for gawk... (cached) gawk
+checking command to parse /usr/bin/nm -B output from cc object... ok
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for mt... mt
+checking if mt is a manifest tool... no
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if cc supports -fno-rtti -fno-exceptions... no
+checking for cc option to produce PIC... -fPIC -DPIC
+checking if cc PIC flag -fPIC -DPIC works... yes
+checking if cc static flag -static works... yes
+checking if cc supports -c -o file.o... yes
+checking if cc supports -c -o file.o... (cached) yes
+checking whether the cc linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking how to run the C++ preprocessor... g++ -E
+checking for ld used by g++... /usr/bin/ld -m elf_x86_64
+checking if the linker (/usr/bin/ld -m elf_x86_64) is GNU ld... yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking for g++ option to produce PIC... -fPIC -DPIC
+checking if g++ PIC flag -fPIC -DPIC works... yes
+checking if g++ static flag -static works... yes
+checking if g++ supports -c -o file.o... yes
+checking if g++ supports -c -o file.o... (cached) yes
+checking whether the g++ linker (/usr/bin/ld -m elf_x86_64) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+configure: patching config.h.in
+configure: creating ./config.status
+config.status: creating config.h
+config.status: executing libtool commands
+running: make
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/pdo_dbh.cpp -o pdo_dbh.lo  -MMD -MF pdo_dbh.dep -MT pdo_dbh.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/pdo_dbh.cpp -MMD -MF pdo_dbh.dep -MT pdo_dbh.lo  -fPIC -DPIC -o .libs/pdo_dbh.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/pdo_parser.cpp -o pdo_parser.lo  -MMD -MF pdo_parser.dep -MT pdo_parser.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/pdo_parser.cpp -MMD -MF pdo_parser.dep -MT pdo_parser.lo  -fPIC -DPIC -o .libs/pdo_parser.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/pdo_util.cpp -o pdo_util.lo  -MMD -MF pdo_util.dep -MT pdo_util.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/pdo_util.cpp -MMD -MF pdo_util.dep -MT pdo_util.lo  -fPIC -DPIC -o .libs/pdo_util.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/pdo_init.cpp -o pdo_init.lo  -MMD -MF pdo_init.dep -MT pdo_init.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/pdo_init.cpp -MMD -MF pdo_init.dep -MT pdo_init.lo  -fPIC -DPIC -o .libs/pdo_init.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/pdo_stmt.cpp -o pdo_stmt.lo  -MMD -MF pdo_stmt.dep -MT pdo_stmt.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/pdo_stmt.cpp -MMD -MF pdo_stmt.dep -MT pdo_stmt.lo  -fPIC -DPIC -o .libs/pdo_stmt.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/core_conn.cpp -o shared/core_conn.lo  -MMD -MF shared/core_conn.dep -MT shared/core_conn.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/core_conn.cpp -MMD -MF shared/core_conn.dep -MT shared/core_conn.lo  -fPIC -DPIC -o shared/.libs/core_conn.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/core_results.cpp -o shared/core_results.lo  -MMD -MF shared/core_results.dep -MT shared/core_results.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/core_results.cpp -MMD -MF shared/core_results.dep -MT shared/core_results.lo  -fPIC -DPIC -o shared/.libs/core_results.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/core_stream.cpp -o shared/core_stream.lo  -MMD -MF shared/core_stream.dep -MT shared/core_stream.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/core_stream.cpp -MMD -MF shared/core_stream.dep -MT shared/core_stream.lo  -fPIC -DPIC -o shared/.libs/core_stream.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/core_init.cpp -o shared/core_init.lo  -MMD -MF shared/core_init.dep -MT shared/core_init.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/core_init.cpp -MMD -MF shared/core_init.dep -MT shared/core_init.lo  -fPIC -DPIC -o shared/.libs/core_init.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/core_stmt.cpp -o shared/core_stmt.lo  -MMD -MF shared/core_stmt.dep -MT shared/core_stmt.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/core_stmt.cpp -MMD -MF shared/core_stmt.dep -MT shared/core_stmt.lo  -fPIC -DPIC -o shared/.libs/core_stmt.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/core_util.cpp -o shared/core_util.lo  -MMD -MF shared/core_util.dep -MT shared/core_util.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/core_util.cpp -MMD -MF shared/core_util.dep -MT shared/core_util.lo  -fPIC -DPIC -o shared/.libs/core_util.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/FormattedPrint.cpp -o shared/FormattedPrint.lo  -MMD -MF shared/FormattedPrint.dep -MT shared/FormattedPrint.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/FormattedPrint.cpp -MMD -MF shared/FormattedPrint.dep -MT shared/FormattedPrint.lo  -fPIC -DPIC -o shared/.libs/FormattedPrint.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/localizationimpl.cpp -o shared/localizationimpl.lo  -MMD -MF shared/localizationimpl.dep -MT shared/localizationimpl.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/localizationimpl.cpp -MMD -MF shared/localizationimpl.dep -MT shared/localizationimpl.lo  -fPIC -DPIC -o shared/.libs/localizationimpl.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CXX --mode=compile g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector   -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/StringFunctions.cpp -o shared/StringFunctions.lo  -MMD -MF shared/StringFunctions.dep -MT shared/StringFunctions.lo
+libtool: compile:  g++ -I. -I/tmp/pear/temp/pdo_sqlsrv -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/ -DHAVE_CONFIG_H -std=c++11 -D_FORTIFY_SOURCE=2 -O2 -fstack-protector -I/usr/include/php/20230831/ext -std=c++11 -DZEND_COMPILE_DL_EXT=1 -c /tmp/pear/temp/pdo_sqlsrv/shared/StringFunctions.cpp -MMD -MF shared/StringFunctions.dep -MT shared/StringFunctions.lo  -fPIC -DPIC -o shared/.libs/StringFunctions.o
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CC --mode=link cc -shared -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/include -I/tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/main -I/tmp/pear/temp/pdo_sqlsrv -I/usr/include/php/20230831 -I/usr/include/php/20230831/main -I/usr/include/php/20230831/TSRM -I/usr/include/php/20230831/Zend -I/usr/include/php/20230831/ext -I/usr/include/php/20230831/ext/date/lib -I/tmp/pear/temp/pdo_sqlsrv/shared/  -DHAVE_CONFIG_H  -g -O2 -D_GNU_SOURCE    -o pdo_sqlsrv.la -export-dynamic -avoid-version -prefer-pic -module -rpath /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules  pdo_dbh.lo pdo_parser.lo pdo_util.lo pdo_init.lo pdo_stmt.lo shared/core_conn.lo shared/core_results.lo shared/core_stream.lo shared/core_init.lo shared/core_stmt.lo shared/core_util.lo shared/FormattedPrint.lo shared/localizationimpl.lo shared/StringFunctions.lo -Wl,-z,now -lstdc++ -lodbc -lodbcinst
+libtool: link: cc -shared  -fPIC -DPIC  .libs/pdo_dbh.o .libs/pdo_parser.o .libs/pdo_util.o .libs/pdo_init.o .libs/pdo_stmt.o shared/.libs/core_conn.o shared/.libs/core_results.o shared/.libs/core_stream.o shared/.libs/core_init.o shared/.libs/core_stmt.o shared/.libs/core_util.o shared/.libs/FormattedPrint.o shared/.libs/localizationimpl.o shared/.libs/StringFunctions.o   -lstdc++ -lodbc -lodbcinst  -g -O2 -Wl,-z -Wl,now   -Wl,-soname -Wl,pdo_sqlsrv.so -o .libs/pdo_sqlsrv.so
+libtool: link: ( cd ".libs" && rm -f "pdo_sqlsrv.la" && ln -s "../pdo_sqlsrv.la" "pdo_sqlsrv.la" )
+/bin/bash /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/libtool --tag=CC --mode=install cp ./pdo_sqlsrv.la /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules
+libtool: install: cp ./.libs/pdo_sqlsrv.so /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules/pdo_sqlsrv.so
+libtool: install: cp ./.libs/pdo_sqlsrv.lai /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules/pdo_sqlsrv.la
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/sbin" ldconfig -n /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /tmp/pear/temp/pear-build-rootgDGs20/pdo_sqlsrv-5.12.0/modules
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+
+Build complete.
+Don't forget to run 'make test'.
+
+running: make INSTALL_ROOT="/tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0" install
+Installing shared extensions:     /tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0/usr/lib/php/20230831/
+running: find "/tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0" | xargs ls -dils
+193942   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0
+193948   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0/usr
+193949   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0/usr/lib
+193950   4 drwxr-xr-x 3 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0/usr/lib/php
+193951   4 drwxr-xr-x 2 root root   4096 May  7 00:07 /tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0/usr/lib/php/20230831
+ 90571 416 -rwxr-xr-x 1 root root 423760 May  7 00:07 /tmp/pear/temp/pear-build-rootgDGs20/install-pdo_sqlsrv-5.12.0/usr/lib/php/20230831/pdo_sqlsrv.so
+
+Build process completed successfully
+Installing '/usr/lib/php/20230831/pdo_sqlsrv.so'
+install ok: channel://pecl.php.net/pdo_sqlsrv-5.12.0
+configuration option "php_ini" is not set to php.ini location
+You should add "extension=sqlsrv.so" to php.ini
+configuration option "php_ini" is not set to php.ini location
+You should add "extension=sqlsrv.so" to php.ini
+configuration option "php_ini" is not set to php.ini location
+You should add "extension=pdo_sqlsrv.so" to php.ini
+root@jaimemontoya:/var/www/jaimemontoya.com# cd /etc/php
+root@jaimemontoya:/etc/php# ls -al
+total 36
+drwxr-xr-x   7 root root  4096 Jan 16 03:02 .
+drwxr-xr-x 161 root root 12288 May  7 00:03 ..
+drwxr-xr-x   6 root root  4096 Aug  7  2019 7.0
+drwxr-xr-x   5 root root  4096 Aug  7  2019 7.3
+drwxr-xr-x   5 root root  4096 Nov  6  2021 8.0
+drwxr-xr-x   5 root root  4096 Aug 17  2023 8.1
+drwxr-xr-x   5 root root  4096 Jan 16 03:02 8.3
+root@jaimemontoya:/etc/php# php -v
+PHP 8.3.6 (cli) (built: Apr 11 2024 20:23:38) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.3.6, Copyright (c) Zend Technologies
+    with Zend OPcache v8.3.6, Copyright (c), by Zend Technologies
+root@jaimemontoya:/etc/php# printf "; priority=20\nextension=sqlsrv.so\n" > /etc/php/8.3/mods-available/sqlsrv.ini
+root@jaimemontoya:/etc/php# printf "; priority=30\nextension=pdo_sqlsrv.so\n" > /etc/php/8.3/mods-available/pdo_sqlsrv.ini
+root@jaimemontoya:/etc/php# phpenmod -v 8.3 sqlsrv pdo_sqlsrv
+root@jaimemontoya:/etc/php# systemctl restart apache2
+root@jaimemontoya:/var/www/jaimemontoya.com# php -i | grep sqlsrv
+/etc/php/8.3/cli/conf.d/20-sqlsrv.ini,
+/etc/php/8.3/cli/conf.d/30-pdo_sqlsrv.ini
+Registered PHP Streams => https, ftps, compress.zlib, php, file, glob, data, http, ftp, phar, sqlsrv
+PDO drivers => mysql, sqlsrv
+pdo_sqlsrv
+pdo_sqlsrv support => enabled
+pdo_sqlsrv.client_buffer_max_kb_size => 10240 => 10240
+pdo_sqlsrv.log_severity => 0 => 0
+pdo_sqlsrv.report_additional_errors => 1 => 1
+pdo_sqlsrv.set_locale_info => 2 => 2
+sqlsrv
+sqlsrv support => enabled
+sqlsrv.ClientBufferMaxKBSize => 10240 => 10240
+sqlsrv.LogSeverity => 0 => 0
+sqlsrv.LogSubsystems => 0 => 0
+sqlsrv.SetLocaleInfo => 2 => 2
+sqlsrv.WarningsReturnAsErrors => On => On
+root@jaimemontoya:/var/www/jaimemontoya.com# php -v
+PHP 8.3.6 (cli) (built: Apr 11 2024 20:23:38) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.3.6, Copyright (c) Zend Technologies
+    with Zend OPcache v8.3.6, Copyright (c), by Zend Technologies
+root@jaimemontoya:/var/www/jaimemontoya.com# a2dismod php8.1
+Module php8.1 disabled.
+To activate the new configuration, you need to run:
+  systemctl restart apache2
+root@jaimemontoya:/var/www/jaimemontoya.com# a2enmod php8.3
+Considering dependency mpm_prefork for php8.3:
+Considering conflict mpm_event for mpm_prefork:
+Considering conflict mpm_worker for mpm_prefork:
+Module mpm_prefork already enabled
+Considering conflict php5 for php8.3:
+Enabling module php8.3.
+To activate the new configuration, you need to run:
+  systemctl restart apache2
+root@jaimemontoya:/var/www/jaimemontoya.com# systemctl restart apache2
+root@jaimemontoya:/var/www/jaimemontoya.com# php -v
+PHP 8.3.6 (cli) (built: Apr 11 2024 20:23:38) (NTS)
+Copyright (c) The PHP Group
+Zend Engine v4.3.6, Copyright (c) Zend Technologies
+    with Zend OPcache v8.3.6, Copyright (c), by Zend Technologies
+root@jaimemontoya:/var/www/jaimemontoya.com# apt-get install libapache2-mod-php8.3 apache2                                                                                                                                                   Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+apache2 is already the newest version (2.4.52-1ubuntu4.9).
+libapache2-mod-php8.3 is already the newest version (8.3.6-1+ubuntu22.04.1+deb.sury.org+1).
+libapache2-mod-php8.3 set to manually installed.
+The following package was automatically installed and is no longer required:
+  libwebp6
+Use 'apt autoremove' to remove it.
+0 upgraded, 0 newly installed, 0 to remove and 144 not upgraded.
+root@jaimemontoya:/var/www/jaimemontoya.com# a2dismod mpm_event
+Module mpm_event already disabled
+root@jaimemontoya:/var/www/jaimemontoya.com# a2enmod mpm_prefork
+Considering conflict mpm_event for mpm_prefork:
+Considering conflict mpm_worker for mpm_prefork:
+Module mpm_prefork already enabled
+root@jaimemontoya:/var/www/jaimemontoya.com# a2enmod php8.3
+Considering dependency mpm_prefork for php8.3:
+Considering conflict mpm_event for mpm_prefork:
+Considering conflict mpm_worker for mpm_prefork:
+Module mpm_prefork already enabled
+Considering conflict php5 for php8.3:
+Module php8.3 already enabled
+root@jaimemontoya:/var/www/jaimemontoya.com# service apache2 restart
+root@jaimemontoya:/var/www/jaimemontoya.com# curl https://packages.microsoft.com/keys/microsoft.asc | sudo tee /etc/apt/trusted.gpg.d/microsoft.asc
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   983  100   983    0     0   7012      0 --:--:-- --:--:-- --:--:--  7021
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v1.4.7 (GNU/Linux)
+
+mQENBFYxWIwBCADAKoZhZlJxGNGWzqV+1OG1xiQeoowKhssGAKvd+buXCGISZJwT
+LXZqIcIiLP7pqdcZWtE9bSc7yBY2MalDp9Liu0KekywQ6VVX1T72NPf5Ev6x6DLV
+7aVWsCzUAF+eb7DC9fPuFLEdxmOEYoPjzrQ7cCnSV4JQxAqhU4T6OjbvRazGl3ag
+OeizPXmRljMtUUttHQZnRhtlzkmwIrUivbfFPD+fEoHJ1+uIdfOzZX8/oKHKLe2j
+H632kvsNzJFlROVvGLYAk2WRcLu+RjjggixhwiB+Mu/A8Tf4V6b+YppS44q8EvVr
+M+QvY7LNSOffSO6Slsy9oisGTdfE39nC7pVRABEBAAG0N01pY3Jvc29mdCAoUmVs
+ZWFzZSBzaWduaW5nKSA8Z3Bnc2VjdXJpdHlAbWljcm9zb2Z0LmNvbT6JATUEEwEC
+AB8FAlYxWIwCGwMGCwkIBwMCBBUCCAMDFgIBAh4BAheAAAoJEOs+lK2+EinPGpsH
+/32vKy29Hg51H9dfFJMx0/a/F+5vKeCeVqimvyTM04C+XENNuSbYZ3eRPHGHFLqe
+MNGxsfb7C7ZxEeW7J/vSzRgHxm7ZvESisUYRFq2sgkJ+HFERNrqfci45bdhmrUsy
+7SWw9ybxdFOkuQoyKD3tBmiGfONQMlBaOMWdAsic965rvJsd5zYaZZFI1UwTkFXV
+KJt3bp3Ngn1vEYXwijGTa+FXz6GLHueJwF0I7ug34DgUkAFvAs8Hacr2DRYxL5RJ
+XdNgj4Jd2/g6T9InmWT0hASljur+dJnzNiNCkbn9KbX7J/qK1IbR8y560yRmFsU+
+NdCFTW7wY0Fb1fWJ+/KTsC4=
+=J6gs
+-----END PGP PUBLIC KEY BLOCK-----
+root@jaimemontoya:/var/www/jaimemontoya.com# curl https://packages.microsoft.com/config/ubuntu/$(lsb_release -rs)/prod.list | sudo tee /etc/apt/sources.list.d/mssql-release.list
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100    88  100    88    0     0    852      0 --:--:-- --:--:-- --:--:--   854
+root@jaimemontoya:/var/www/jaimemontoya.com# apt-get update
+Hit:1 http://us.archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://us.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Hit:4 http://archive.ubuntu.com/ubuntu jammy InRelease
+Hit:5 http://dl.google.com/linux/chrome/deb stable InRelease
+Hit:6 https://repos.insights.digitalocean.com/apt/do-agent main InRelease
+Hit:7 https://repos-droplet.digitalocean.com/apt/droplet-agent main InRelease
+Get:8 https://packages.microsoft.com/ubuntu/22.04/prod jammy InRelease [3,632 B]
+Hit:9 https://ppa.launchpadcontent.net/ondrej/php/ubuntu jammy InRelease
+Get:10 http://us.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [1,617 kB]
+Get:11 http://us.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [305 kB]
+Get:12 http://us.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [1,836 kB]
+Get:13 http://us.archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [312 kB]
+Get:14 http://us.archive.ubuntu.com/ubuntu jammy-security/main amd64 Packages [1,395 kB]
+Get:15 http://us.archive.ubuntu.com/ubuntu jammy-security/main Translation-en [244 kB]
+Get:16 http://us.archive.ubuntu.com/ubuntu jammy-security/restricted Translation-en [300 kB]
+Get:17 http://us.archive.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [849 kB]
+Get:18 http://us.archive.ubuntu.com/ubuntu jammy-security/universe Translation-en [163 kB]
+Get:19 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main amd64 Packages [144 kB]
+Get:20 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main arm64 Packages [36.7 kB]
+Get:21 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main all Packages [1,035 B]
+Get:22 https://packages.microsoft.com/ubuntu/22.04/prod jammy/main armhf Packages [12.9 kB]
+Fetched 7,449 kB in 4s (1,876 kB/s)
+Reading package lists... Done
+</pre>
 		   <div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
 ?>
