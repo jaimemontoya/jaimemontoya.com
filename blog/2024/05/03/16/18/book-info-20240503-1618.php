@@ -1343,27 +1343,33 @@ root@jaimemontoya:/var/www/jaimemontoya.com# service apache2 restart
            <p>My server was running PHP Version 8.3.6:</p><div><img src=\"/blog/2024/05/03/16/18/img/showPHPVersion.jpg\" alt=\"Show PHP version\" width=\"1267\" height=\"980\"></div><p>This was the configuration before the installation:</p><div><img src=\"/blog/2024/05/03/16/18/img/configurationBeforeInstallation.jpg\" alt=\"Configuration before installation\" width=\"1270\" height=\"976\"></div><p>This was the configuration after the installation:</p><div><img src=\"/blog/2024/05/03/16/18/img/configurationAfterInstallation.jpg\" alt=\"Configuration after installation\" width=\"1299\" height=\"974\"></div><p>I changed the content of the file <span class=\"cod\">sqltest.php</span> in the root directory of my website, containing the code to query my Azure SQL Database:</p>
 <pre>
 <&quest;php
-	ini_set('display_errors', 1);
-	ini_set('display_startup_errors', 1);
-	error_reporting(E_ALL);
-	\$serverName = \"jaimemontoya.database.windows.net\"; // update me
-	\$connectionOptions = array(
-        \"Database\" => \"Finances\", // update me
-        \"Uid\" => \"fakeuservalue\", // update me
-        \"PWD\" => \"MyPassword!9\" // update me
-    );
-	//Establishes the connection
-	\$conn = sqlsrv_connect($serverName, $connectionOptions);
-    \$tsql= \"SELECT DayID FROM DimDay ORDER BY DayID DESC\";
-	var_dump($conn);
-	if( \$conn ) {
-		echo \"Connection established.&lt;br /&gt;\";
-	}else{
-		echo \"Connection could not be established.&lt;br /&gt;\";
-		die( print_r( sqlsrv_errors(), true));
-	}
-    \$getResults= sqlsrv_query($conn, $tsql);
-	echo (\"Reading data from table:\" . \"&lt;br /&gt;\");
+  ini_set('display_errors', 1);
+  ini_set('display_startup_errors', 1);
+  error_reporting(E_ALL);
+  \$serverName = \"jaimemontoya.database.windows.net\"; // update me
+  \$connectionOptions = array(
+    \"Database\" => \"Finances\", // update me
+    \"Uid\" => \"fakeuservalue\", // update me
+    \"PWD\" => \"MyPassword!9\" // update me
+  );
+  //Establishes the connection
+  \$conn = sqlsrv_connect($serverName, $connectionOptions);
+  \$tsql= \"SELECT DayID FROM DimDay ORDER BY DayID DESC\";
+  var_dump($conn);
+  if( \$conn ) {
+    echo \"Connection established.&lt;br /&gt;\";
+  }else{
+    echo \"Connection could not be established.&lt;br /&gt;\";
+    die( print_r( sqlsrv_errors(), true));
+  }
+  \$getResults= sqlsrv_query($conn, $tsql);
+  echo (\"Reading data from table:\" . \"&lt;br /&gt;\");
+  if ($getResults == FALSE)
+    echo (sqlsrv_errors());
+  while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
+    echo ($row['DayID'] . \"<br />\");
+  }
+  sqlsrv_free_stmt($getResults);
 &quest;>
 </pre>
 		   <p>The connection was successful, retrieving data from a table in the database:</p><div><img src=\"/blog/2024/05/03/16/18/img/resultsRetrievedFromDatabase.jpg\" alt=\"Results retrieved from database\" width=\"461\" height=\"987\"></div><div>Published: 4:18 PM GMT · May 3, 2024</div>\n";
