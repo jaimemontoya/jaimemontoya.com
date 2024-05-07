@@ -10,8 +10,8 @@
     );
     //Establishes the connection
     $conn = sqlsrv_connect($serverName, $connectionOptions);
-	var_dump($conn);
     $tsql= "SELECT DayID, FullDateAlternateKey FROM DimDay ORDER BY DayID DESC";
+	var_dump($conn, $tsql);
     //$getResults= sqlsrv_query($conn, $tsql);
     
 	//phpinfo();
