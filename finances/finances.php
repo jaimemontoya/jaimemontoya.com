@@ -51,7 +51,7 @@
         }
         $finances->content .=
         " />".$row['CategoryName']." \n";
-      }
+	}}
     } else {
       $finances->content .=
       "0 categories";
