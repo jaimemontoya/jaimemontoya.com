@@ -88,5 +88,6 @@
     if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
       $sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
+	$sumExpenses = sqlsrv_query($conn, $sqlGetCategories);
   }
 ?>
