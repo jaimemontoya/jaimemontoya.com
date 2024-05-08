@@ -96,6 +96,7 @@
     if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
       $sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
+    $sqlExpenses .= " ORDER BY a.Date DESC";
 	/*$sumExpenses = sqlsrv_query($conn, $sqlSumExpenses);
     if ($sumExpenses == FALSE)
       die( print_r( sqlsrv_errors(), true));*/
