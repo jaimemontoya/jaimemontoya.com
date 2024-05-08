@@ -113,9 +113,9 @@
       $finances->content .=
       "0 results";
     }
-	if(isset($_GET["submit"]) && $_GET["reporttype"]=="Income"){
-      $finances->content .=
-      "\t\t<h1>Income</h1>\n";
-    }
+  }
+  if(isset($_GET["submit"]) && $_GET["reporttype"]=="Income"){
+    $finances->content .=
+    "\t\t<h1>Income</h1>\n";
   }
 ?>
