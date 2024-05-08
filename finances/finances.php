@@ -51,7 +51,7 @@
         }
         $finances->content .=
         " />".$row['CategoryName']." \n";*/
-		echo $row['CategoryID'];
+		echo in_array($row['CategoryID']);
 	  }
     } else {
       $finances->content .=
