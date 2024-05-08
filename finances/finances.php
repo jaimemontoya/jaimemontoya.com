@@ -116,6 +116,5 @@
       $finances->content .=
       "\t\t</table>";
 	}	
-
   }
 ?>
