@@ -57,7 +57,7 @@
 	
 	/*while ($row = sqlsrv_fetch_array($resultCategories, SQLSRV_FETCH_ASSOC)) {
       echo ($row['CategoryID'] . " ");*/
-	//Establishes the connection
+/*	//Establishes the connection
   $tsql= "SELECT * FROM DimCategory WHERE CategoryID IN (SELECT DISTINCT CategoryID FROM FactSalesXDimCategory) ORDER BY CategoryName ASC;";
   var_dump($conn);
   if( $conn ) {
@@ -70,15 +70,12 @@
   echo ("Reading data from table:" . "<br />");
   if ($getResults == FALSE)
     echo (sqlsrv_errors());
-
-
-
   while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
     echo ($row['CategoryID'] . "
 ");
   }
   sqlsrv_free_stmt($getResults);
-	  
+*/  
 	  
 	  
 	  
@@ -89,18 +86,8 @@
 	
   
   
-    if (sqlsrv_num_rows($resultCategories) > 0) {
-      echo "Greater than 0";
-	} else {
-      $finances->content .=
-      "0 categories";
-    }
-	/*if ($resultCategories->num_rows > 0) {
-      echo "Greater than 0";
-    } else {
-      $finances->content .=
-      "0 categories";
-    }*/
+ 
+
     $finances->content .=
     "\t\t\t\t</div>";
   }
