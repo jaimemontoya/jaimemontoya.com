@@ -109,6 +109,9 @@
       }
       $finances->content .=
       "\t\t</table>";
-	}
+	} else {
+      $finances->content .=
+      "0 results";
+    }
   }
 ?>
