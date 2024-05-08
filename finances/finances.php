@@ -89,6 +89,11 @@
       $sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
 	$sumExpenses = sqlsrv_query($conn, $sqlSumExpenses);
-	$resultExpenses = sqlsrv_query($conn, $sqlExpenses);
+    $resultExpenses = sqlsrv_query($conn, $sqlExpenses);
+    $rows = sqlsrv_has_rows($resultExpenses);
+    if ($rows === true) {
+      $finances->content .=
+      "\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total = ".$sumExpenses->fetch_assoc()[sumExpenses]."</th></tr>";
+    }
   }
 ?>
