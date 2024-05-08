@@ -1,7 +1,7 @@
 <?php
-  ini_set('display_errors', 1);
+  /*ini_set('display_errors', 1);
   ini_set('display_startup_errors', 1);
-  error_reporting(E_ALL);
+  error_reporting(E_ALL);*/
   include '../../db.inc';
   $finances->content .=
   "\t\t\t<h1>Finances</h1>
@@ -96,10 +96,6 @@
     $resultExpenses = sqlsrv_query($conn, $sqlExpenses);
     if ($resultExpenses == FALSE)
       die( print_r( sqlsrv_errors(), true));
-    echo "Echo \$sqlSumExpenses: <br />";
-    print_r($sqlSumExpenses);
-	echo "<br /><br />Echo \$sqlExpenses:<br />";
-	print_r($sqlExpenses);
 	$rows = sqlsrv_has_rows($resultExpenses);
     if ($rows === true) {
 	  $finances->content .="\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total ="; 
