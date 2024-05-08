@@ -103,7 +103,10 @@
     $resultExpenses = sqlsrv_query($conn, $sqlExpenses);
     if ($resultExpenses == FALSE)
       die( print_r( sqlsrv_errors(), true));
-    print_r($sqlExpenses);
+    echo "Echo \$sqlSumExpenses:";
+    print_r($sqlSumExpenses);
+	echo "Echo \$sqlExpenses:";
+	print_r($sqlExpenses);
 	$rows = sqlsrv_has_rows($resultExpenses);
     if ($rows === true) {
       //$finances->content .="\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total = ".$sumExpenses->fetch_assoc()[sumExpenses]."</th></tr>";
