@@ -40,13 +40,15 @@
 	$resultCategories = sqlsrv_query($conn, $sqlGetCategories);
 	if ($resultCategories == FALSE)
       echo (sqlsrv_errors());
-  
-    
-	$row_count = sqlsrv_num_rows( $resultCategories );
-    if ($row_count === false)
-      echo "Error in retrieveing row count.";
-    else
-      echo $row_count;
+    $rows = sqlsrv_has_rows($resultCategories);
+    if ($rows === true)
+      echo "There are rows. <br />";
+    else 
+      echo "There are no rows. <br />";
+	
+	
+	
+	
 	
 	/*while ($row = sqlsrv_fetch_array($resultCategories, SQLSRV_FETCH_ASSOC)) {
       echo ($row['CategoryID'] . " ");*/
@@ -64,11 +66,7 @@
   if ($getResults == FALSE)
     echo (sqlsrv_errors());
 
-  $rows = sqlsrv_has_rows( $getResults );
-   if ($rows === true)
-      echo "There are rows. <br />";
-   else 
-      echo "There are no rows. <br />";
+
 
   while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
     echo ($row['CategoryID'] . "
