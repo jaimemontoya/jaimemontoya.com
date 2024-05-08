@@ -95,7 +95,6 @@
     if ($resultExpenses == FALSE)
       echo (sqlsrv_errors());
     print_r($sqlExpenses);
-	echo "sqlExpenses";
     /*$rows = sqlsrv_has_rows($resultExpenses);
     if ($rows === true) {
       $finances->content .=
