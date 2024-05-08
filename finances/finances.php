@@ -102,9 +102,9 @@
 	/*$sumExpenses = sqlsrv_query($conn, $sqlSumExpenses);
     if ($sumExpenses == FALSE)
       die( print_r( sqlsrv_errors(), true));*/
-    /*$resultExpenses = sqlsrv_query($conn, $sqlExpenses);
+    $resultExpenses = sqlsrv_query($conn, $sqlExpenses);
     if ($resultExpenses == FALSE)
-      die( print_r( sqlsrv_errors(), true));*/
+      die( print_r( sqlsrv_errors(), true));
     print_r($sqlExpenses);
 	
 	
