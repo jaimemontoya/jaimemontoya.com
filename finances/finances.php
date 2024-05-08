@@ -52,6 +52,9 @@
         $finances->content .=
         " />".$row['CategoryName']." \n";*/
 		$a = array('1.10', 12.4, 1.13);
+		if (in_array('12.4', $a, true)) {
+          echo "'12.4' found with strict check\n";
+        }
 	  }
     } else {
       $finances->content .=
