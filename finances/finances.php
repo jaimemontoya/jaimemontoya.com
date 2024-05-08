@@ -72,7 +72,7 @@
   if(isset($_GET["submit"]) && $_GET["reporttype"]=="Expenses"){
     $finances->content .=
     "\t\t<h1>Expenses</h1>\n";
-    $sqlSumExpenses = "SELECT SUM(Total) Total sumExpenses FROM (SELECT Description, DayID Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.DayID, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
+    $sqlSumExpenses = "SELECT SUM(Total) sumExpenses FROM (SELECT Description, DayID Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.DayID, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
     if(isset($_GET['category'])){
       $sqlSumExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
     }
@@ -96,7 +96,7 @@
     if ($rows === true) {
 	  $finances->content .="\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total ="; 
 	  $row = sqlsrv_fetch_array($sumExpenses, SQLSRV_FETCH_ASSOC);
-	  $finances->content .= $row["Total"];
+	  $finances->content .= $row["sumExpenses"];
 	  $finances->content .=
       "</th></tr>";
       while ($row = sqlsrv_fetch_array($resultExpenses, SQLSRV_FETCH_ASSOC)) {
@@ -113,7 +113,7 @@
   if(isset($_GET["submit"]) && $_GET["reporttype"]=="Income"){
     $finances->content .=
     "\t\t<h1>Income</h1>\n";
-    $sqlSumSales = "SELECT SUM(Total) Total sumSales FROM (SELECT Description, DayID Date, CityName City, PaymentMethodName 'Payment method', BuyerName Buyer, TotalSales Total FROM (SELECT Description, dd.DayID, dc.CityName, dpm.PaymentMethodName, db.BuyerName, dca.CategoryName, TotalSales FROM FactSales fs INNER JOIN DimCity dc ON fs.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fs.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimBuyer db ON fs.BuyerID=db.BuyerID INNER JOIN FactSalesXDimCategory fsxdc ON fs.CityID=fsxdc.CityID AND fs.DayID=fsxdc.DayID AND fs.PaymentMethodID=fsxdc.PaymentMethodID AND fs.BuyerID=fsxdc.BuyerID INNER JOIN DimCategory dca ON fsxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fs.DayID=dd.DayID";
+    $sqlSumSales = "SELECT SUM(Total) sumSales FROM (SELECT Description, DayID Date, CityName City, PaymentMethodName 'Payment method', BuyerName Buyer, TotalSales Total FROM (SELECT Description, dd.DayID, dc.CityName, dpm.PaymentMethodName, db.BuyerName, dca.CategoryName, TotalSales FROM FactSales fs INNER JOIN DimCity dc ON fs.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fs.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimBuyer db ON fs.BuyerID=db.BuyerID INNER JOIN FactSalesXDimCategory fsxdc ON fs.CityID=fsxdc.CityID AND fs.DayID=fsxdc.DayID AND fs.PaymentMethodID=fsxdc.PaymentMethodID AND fs.BuyerID=fsxdc.BuyerID INNER JOIN DimCategory dca ON fsxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fs.DayID=dd.DayID";
     if(isset($_GET['category'])){
       $sqlSumSales .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
     }
