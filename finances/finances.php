@@ -120,7 +120,7 @@
       /**********$finances->content .="\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total = </th></tr>";*********/
 	  $finances->content .="\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total ="; 
 	  $row = sqlsrv_fetch_array($sumExpenses, SQLSRV_FETCH_ASSOC);
-	  $finances->content .= row[""];
+	  $finances->content .= row["Total"];
 	  $finances->content .=
       "</th></tr>";
 	  
