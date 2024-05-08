@@ -41,10 +41,15 @@
 	if ($resultCategories == FALSE)
       echo (sqlsrv_errors());
     $rows = sqlsrv_has_rows($resultCategories);
-    if ($rows === true)
-      echo "There are rows. <br />";
-    else 
-      echo "There are no rows. <br />";
+    if ($rows === true) {
+      while ($row = sqlsrv_fetch_array($resultCategories, SQLSRV_FETCH_ASSOC)) {
+        $finances->content .=
+        "\t\t\t\t\t<input type=\"checkbox\" name=\"category[]\" value=\"".$row['CategoryID']."\" ";
+      }
+    } else {
+      $finances->content .=
+      "0 categories";
+    }
 	
 	
 	
