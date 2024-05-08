@@ -107,6 +107,8 @@
 	//$rows = sqlsrv_has_rows("SELECT * FROM DimCategory");
     if ($rows === true) {
       echo "sqlsrv_has_rows()";
+	} else {
+      echo "sqlsrv_has_rows() has NO ROWS.";
 	}
 	
     /*$rows = sqlsrv_has_rows($resultExpenses);
