@@ -96,9 +96,6 @@
     if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
       $sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
-	
-	
-	
 	/*$sumExpenses = sqlsrv_query($conn, $sqlSumExpenses);
     if ($sumExpenses == FALSE)
       die( print_r( sqlsrv_errors(), true));*/
@@ -106,15 +103,11 @@
     if ($resultExpenses == FALSE)
       die( print_r( sqlsrv_errors(), true));
     print_r($sqlExpenses);
-	
-	
 	$rows = sqlsrv_has_rows($resultExpenses);
-	//$rows = sqlsrv_has_rows($resultCategories);
-	/*$rows = sqlsrv_has_rows(sqlsrv_query($conn, "SELECT a.Description, a.Date, a.City, a.[Payment method], a.Seller, a.Total, (SELECT SUBSTRING((SELECT DISTINCT ', ' + CONVERT(VARCHAR(255),dca.CategoryName) FROM DimCategory dca WHERE dca.CategoryName = a.Category FOR XML PATH, TYPE).value('.[1]','NVARCHAR(MAX)'), 2, 2000)) AS Category FROM (SELECT Description, FullDateAlternateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, expensesTable.CategoryName Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.DayID, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID WHERE dca.CategoryID IN (38, 27, 28) AND fp.CategoryDeduplicate = fpxdc.CategoryDeduplicate) expensesTable) a WHERE Date >= '2023-10-01' AND Date <= '2023-11-15'"));*/
 	//$rows = sqlsrv_has_rows("SELECT * FROM DimCategory");
-    /*if ($rows === true) {
+    if ($rows === true) {
       echo "sqlsrv_has_rows()";
-	}*/
+	}
 	
     /*$rows = sqlsrv_has_rows($resultExpenses);
     if ($rows === true) {
