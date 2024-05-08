@@ -51,6 +51,7 @@
         }
         $finances->content .=
         " />".$row['CategoryName']." \n";*/
+		echo $row['CategoryID'];
 	  }
     } else {
       $finances->content .=
