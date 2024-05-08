@@ -55,8 +55,10 @@
 		if (in_array('12.4', $a, true)) {
           echo "'12.4' found with strict check\n";
         }
-		print_r($row['CategoryID']);
-		print_r($_GET['category']);
+		/*print_r($row['CategoryID']);
+		print_r($_GET['category']);*/
+		echo "CategoryID: ".$row['CategoryID'];
+		echo "category: ".$_GET['category'];
 		if (in_array($row['CategoryID'], $_GET['category'], true)) {
           echo "1.13 found with strict check\n";
         }
