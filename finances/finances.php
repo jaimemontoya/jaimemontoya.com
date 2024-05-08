@@ -108,10 +108,10 @@
     print_r($sqlExpenses);
 	
 	
-	$rows = sqlsrv_has_rows($resultExpenses);
+	/*$rows = sqlsrv_has_rows($resultExpenses);
     if ($rows === true) {
       echo "sqlsrv_has_rows()";
-	}
+	}*/
 	
     /*$rows = sqlsrv_has_rows($resultExpenses);
     if ($rows === true) {
