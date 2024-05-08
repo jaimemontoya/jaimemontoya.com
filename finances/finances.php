@@ -104,9 +104,9 @@
       $sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
     $sqlExpenses .= " ORDER BY a.Date DESC";
-	/*$sumExpenses = sqlsrv_query($conn, $sqlSumExpenses);
+	$sumExpenses = sqlsrv_query($conn, $sqlSumExpenses);
     if ($sumExpenses == FALSE)
-      die( print_r( sqlsrv_errors(), true));*/
+      die( print_r( sqlsrv_errors(), true));
     $resultExpenses = sqlsrv_query($conn, $sqlExpenses);
     if ($resultExpenses == FALSE)
       die( print_r( sqlsrv_errors(), true));
