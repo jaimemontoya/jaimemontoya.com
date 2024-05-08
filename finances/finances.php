@@ -47,7 +47,7 @@
       while ($row = sqlsrv_fetch_array($resultCategories, SQLSRV_FETCH_ASSOC)) {
         $finances->content .=
         "\t\t\t\t\t<input type=\"checkbox\" name=\"category[]\" value=\"".$row['CategoryID']."\" ";
-        if (in_array($row['CategoryID'], $_GET['category'])) {
+        if (in_array($row['CategoryID'], $_GET['category'] ?? [])) {
           $finances->content .=
           "checked";
         }
