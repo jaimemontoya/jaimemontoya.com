@@ -64,8 +64,11 @@
   if ($getResults == FALSE)
     echo (sqlsrv_errors());
 
-  $row_count = sqlsrv_num_rows($getResults);
-  echo "Number of rows: ".$row_count;
+  $rows = sqlsrv_has_rows( $getResults );
+   if ($rows === true)
+      echo "There are rows. <br />";
+   else 
+      echo "There are no rows. <br />";
 
   while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
     echo ($row['CategoryID'] . "
