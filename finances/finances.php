@@ -108,7 +108,8 @@
     //print_r($sqlExpenses);
 	
 	
-	$rows = sqlsrv_has_rows($resultExpenses);
+	//$rows = sqlsrv_has_rows($resultExpenses);
+	$rows = sqlsrv_has_rows("SELECT * FROM DimCategory");
     /*if ($rows === true) {
       echo "sqlsrv_has_rows()";
 	}*/
