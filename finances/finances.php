@@ -112,7 +112,7 @@
         /*$finances->content .=
         "\t\t\t<tr><td>".$row["Description"]."</td><td>".$row["Date"]."</td><td>".$row["City"]."</td><td>".preg_replace('/[0-9]/','*',$row["Payment method"])."</td><td>".$row["Seller"]."</td><td>".$row["Category"]."</td><td>".$row["Total"]."</td></tr>";*/
 		$finances->content .=
-        "\t\t\t<tr><td>".$row["Description"]."</td><td>Date...</td><td>".$row["City"]."</td><td>".preg_replace('/[0-9]/','*',$row["Payment method"])."</td><td>".$row["Seller"]."</td><td>".$row["Category"]."</td><td>".$row["Total"]."</td></tr>";
+        "\t\t\t<tr><td>".$row["Description"]."</td><td>".$row["Date"]."</td><td>".$row["City"]."</td><td>".preg_replace('/[0-9]/','*',$row["Payment method"])."</td><td>".$row["Seller"]."</td><td>".$row["Category"]."</td><td>".$row["Total"]."</td></tr>";
       }
       $finances->content .=
       "\t\t</table>";
