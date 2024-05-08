@@ -41,7 +41,7 @@
 	if ($resultCategories == FALSE)
       echo (sqlsrv_errors());
     $rows = sqlsrv_has_rows($resultCategories);
-    if ($rows === true) {
+    /*if ($rows === true) {
       while ($row = sqlsrv_fetch_array($resultCategories, SQLSRV_FETCH_ASSOC)) {
         $finances->content .=
         "\t\t\t\t\t<input type=\"checkbox\" name=\"category[]\" value=\"".$row['CategoryID']."\" ";
@@ -51,62 +51,11 @@
         }
 		$finances->content .=
         " />".$row['CategoryName']." \n";
-        /*$finances->content .=
-        " />".$row['CategoryName']." \n";*/
-		/*$a = array('1.10', 12.4, 1.13);
-		if (in_array('12.4', $a, true)) {
-          echo "'12.4' found with strict check\n";
-        }*/
-		/*print_r($row['CategoryID']);
-		print_r($_GET['category']);
-		echo "CategoryID: ".$row['CategoryID'];
-		echo "category: ".$_GET['category'];
-		if (in_array($row['CategoryID'], $_GET['category'], true)) {
-          echo "1.13 found with strict check\n";
-        }*/
 	  }
     } else {
       $finances->content .=
       "0 categories";
-    }
-	
-	
-	
-	
-	
-	/*while ($row = sqlsrv_fetch_array($resultCategories, SQLSRV_FETCH_ASSOC)) {
-      echo ($row['CategoryID'] . " ");*/
-/*	//Establishes the connection
-  $tsql= "SELECT * FROM DimCategory WHERE CategoryID IN (SELECT DISTINCT CategoryID FROM FactSalesXDimCategory) ORDER BY CategoryName ASC;";
-  var_dump($conn);
-  if( $conn ) {
-    echo "Connection established.<br />";
-  }else{
-    echo "Connection could not be established.<br />";
-    die( print_r( sqlsrv_errors(), true));
-  }
-  $getResults= sqlsrv_query($conn, $tsql);
-  echo ("Reading data from table:" . "<br />");
-  if ($getResults == FALSE)
-    echo (sqlsrv_errors());
-  while ($row = sqlsrv_fetch_array($getResults, SQLSRV_FETCH_ASSOC)) {
-    echo ($row['CategoryID'] . "
-");
-  }
-  sqlsrv_free_stmt($getResults);
-*/  
-	  
-	  
-	  
-	  
-	  
-	  
-	  
-	
-  
-  
- 
-
+    }*/
     $finances->content .=
     "\t\t\t\t</div>";
   }
