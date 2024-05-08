@@ -92,7 +92,7 @@
     if(isset($_GET['category'])){
       $sqlExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
     }
-    $sqlExpenses .= " AND fp.TicketDivisionNumber = fpxdc.TicketDivisionNumber) purchases) expensesTable";
+    $sqlExpenses .= " AND fp.CategoryDeduplicate = fpxdc.CategoryDeduplicate) purchases) expensesTable";
     if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
       $sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
