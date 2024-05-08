@@ -106,11 +106,10 @@
     if ($resultExpenses == FALSE)
       echo (sqlsrv_errors());
     //print_r($sqlExpenses);
-	print_r($resultExpenses);
 	
 	
-	/*$rows = sqlsrv_has_rows($resultExpenses);
-    if ($rows === true) {
+	$rows = sqlsrv_has_rows($resultExpenses);
+    /*if ($rows === true) {
       echo "sqlsrv_has_rows()";
 	}*/
 	
