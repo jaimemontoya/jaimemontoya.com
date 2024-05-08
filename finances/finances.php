@@ -49,9 +49,10 @@
           $finances->content .=
           "checked";
         }
-		/*$finances->content .=
-          " />".$row['CategoryName']." \n";
-        }*/
+		$finances->content .=
+          //" />".$row['CategoryName']." \n";
+          " />";
+        }
         /*$finances->content .=
         " />".$row['CategoryName']." \n";*/
 		/*$a = array('1.10', 12.4, 1.13);
