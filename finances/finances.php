@@ -72,7 +72,13 @@
   if(isset($_GET["submit"]) && $_GET["reporttype"]=="Expenses"){
     $finances->content .=
     "\t\t<h1>Expenses</h1>\n";
-    $sqlSumExpenses = "SELECT SUM(Total) Total FROM (SELECT a.Description, a.Date, a.City, a.[Payment method], a.Seller, a.Total, (SELECT SUBSTRING((SELECT DISTINCT ', ' + CONVERT(VARCHAR(255),dca.CategoryName) FROM DimCategory dca WHERE dca.CategoryName = a.Category FOR XML PATH, TYPE).value('.[1]','NVARCHAR(MAX)'), 2, 2000)) AS Category FROM (SELECT Description, FullDateAlternateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, expensesTable.CategoryName Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.FullDateAlternateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
+    $sqlSumExpenses = "SELECT SUM(Total) sumExpenses FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
+    if(isset($_GET['category'])){
+      $sqlSumExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
+    }
+    $sqlSumExpenses .= " AND fp.TicketDivisionNumber = fpxdc.TicketDivisionNumber) purchases GROUP BY TotalPurchases, Description, DateKey, CityName, PaymentMethodName, SellerName ORDER BY DateKey DESC) expenses";
+	print_r($sqlSumExpenses);
+    /*$sqlSumExpenses = "SELECT SUM(Total) Total FROM (SELECT a.Description, a.Date, a.City, a.[Payment method], a.Seller, a.Total, (SELECT SUBSTRING((SELECT DISTINCT ', ' + CONVERT(VARCHAR(255),dca.CategoryName) FROM DimCategory dca WHERE dca.CategoryName = a.Category FOR XML PATH, TYPE).value('.[1]','NVARCHAR(MAX)'), 2, 2000)) AS Category FROM (SELECT Description, FullDateAlternateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, expensesTable.CategoryName Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.FullDateAlternateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
     if(isset($_GET['category'])){
       $sqlSumExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
     }
@@ -80,7 +86,7 @@
     if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
       $sqlSumExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
-    $sqlSumExpenses .= ") b";
+    $sqlSumExpenses .= ") b";*/
 	$sqlExpenses = "SELECT a.Description, a.Date, a.City, a.[Payment method], a.Seller, a.Total, (SELECT SUBSTRING((SELECT DISTINCT ', ' + CONVERT(VARCHAR(255),dca.CategoryName) FROM DimCategory dca WHERE dca.CategoryName = a.Category FOR XML PATH, TYPE).value('.[1]','NVARCHAR(MAX)'), 2, 2000)) AS Category FROM (SELECT Description, FullDateAlternateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, expensesTable.CategoryName Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.FullDateAlternateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
     if(isset($_GET['category'])){
       $sqlExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
@@ -122,6 +128,5 @@
       $sqlSumSales .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
     }
     $sqlSumSales .= ") sales GROUP BY Description, DayID, CityName, PaymentMethodName, BuyerName, TotalSales) sales";
-	print_r($sqlSumSales);
   }
 ?>
