@@ -121,7 +121,7 @@
     if(isset($_GET['category'])){
       $sqlSumSales .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
     }
-    $sqlSumSales .= ") sales GROUP BY Description, DateKey, CityName, PaymentMethodName, BuyerName, TotalSales ORDER BY DateKey DESC) sales";
+    $sqlSumSales .= ") sales GROUP BY Description, DateKey, CityName, PaymentMethodName, BuyerName, TotalSales) sales";
 	print_r($sqlSumSales);
   }
 ?>
