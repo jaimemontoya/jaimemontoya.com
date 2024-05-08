@@ -118,5 +118,9 @@
       $sqlSumSales .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
     }
     $sqlSumSales .= ") sales GROUP BY Description, DayID, CityName, PaymentMethodName, BuyerName, TotalSales) sales";
+    if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
+      $sqlSumSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
+    }
+	print_r($sqlSumSales);
   }
 ?>
