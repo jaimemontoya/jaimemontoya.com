@@ -94,8 +94,8 @@
     $resultExpenses = sqlsrv_query($conn, $sqlExpenses);
     if ($resultExpenses == FALSE)
       echo (sqlsrv_errors());
-    print_r($resultExpenses);
-	echo "resultExpenses";
+    print_r($sqlExpenses);
+	echo "sqlExpenses";
     /*$rows = sqlsrv_has_rows($resultExpenses);
     if ($rows === true) {
       $finances->content .=
