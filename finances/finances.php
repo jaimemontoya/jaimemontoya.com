@@ -104,13 +104,10 @@
       die( print_r( sqlsrv_errors(), true));
     print_r($sqlExpenses);
 	$rows = sqlsrv_has_rows($resultExpenses);
-	//$rows = sqlsrv_has_rows("SELECT * FROM DimCategory");
     if ($rows === true) {
-      echo "sqlsrv_has_rows()";
-	} else {
-      echo "sqlsrv_has_rows() has NO ROWS.";
-	}
-	
+      //$finances->content .="\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total = ".$sumExpenses->fetch_assoc()[sumExpenses]."</th></tr>";
+      $finances->content .="\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Seller</th><th>Category</th><th>Total = </th></tr>";
+	}	
     /*$rows = sqlsrv_has_rows($resultExpenses);
     if ($rows === true) {
       $finances->content .=
