@@ -136,7 +136,7 @@
     if(isset($_GET['category'])){
       $sqlSales .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
     }
-    $sqlSales .= " AND fp.CategoryDeduplicate = fpxdc.CategoryDeduplicate) salesTable) a";
+    $sqlSales .= " AND fs.CategoryDeduplicate = fsxdc.CategoryDeduplicate) salesTable) a";
     if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
       $sqlSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
