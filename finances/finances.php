@@ -89,6 +89,7 @@
       $sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
     $sqlExpenses .= " ORDER BY a.Date DESC";
+	print_r($sqlSales);
 	$sumExpenses = sqlsrv_query($conn, $sqlSumExpenses);
     if ($sumExpenses == FALSE)
       die( print_r( sqlsrv_errors(), true));
@@ -132,6 +133,6 @@
     if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
       $sqlSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
     }
-    print_r($sqlSales);
+    //print_r($sqlSales);
   }
 ?>
