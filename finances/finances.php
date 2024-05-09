@@ -133,11 +133,10 @@
       $sqlSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
     $sqlSales .= " ORDER BY a.Date DESC";
-	print_r($sqlSales);
 	$sumSales = sqlsrv_query($conn, $sqlSales);
     if ($sumSales == FALSE)
       die( print_r( sqlsrv_errors(), true));
-    $resultSales = sqlsrv_query($conn, $sqlExpenses);
+    $resultSales = sqlsrv_query($conn, $sqlSales);
     if ($resultSales == FALSE)
       die( print_r( sqlsrv_errors(), true));
 	$rows = sqlsrv_has_rows($resultSales);
