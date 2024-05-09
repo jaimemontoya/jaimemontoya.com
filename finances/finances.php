@@ -60,6 +60,7 @@
     }
     $finances->content .=
     "\t\t\t\t</div>";
+	sqlsrv_free_stmt($resultCategories);
   }
   $finances->content .=
   "\t\t\t<div><input name=\"submit\" type=\"submit\" value=\"Submit\" id=\"submit\"></div>
@@ -112,6 +113,8 @@
       $finances->content .=
       "0 results";
     }
+	sqlsrv_free_stmt($sumExpenses);
+	sqlsrv_free_stmt($resultExpenses);
   }
   if(isset($_GET["submit"]) && $_GET["reporttype"]=="Income"){
     $finances->content .=
@@ -164,10 +167,7 @@
       $finances->content .=
       "0 results";
     }
+	sqlsrv_free_stmt($sumSales);
+	sqlsrv_free_stmt($resultSales);
   }
-  sqlsrv_free_stmt($resultCategories);
-  sqlsrv_free_stmt($sumExpenses);
-  sqlsrv_free_stmt($resultExpenses);
-  sqlsrv_free_stmt($sumSales);
-  sqlsrv_free_stmt($resultSales);
 ?>
