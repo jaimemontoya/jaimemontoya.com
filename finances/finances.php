@@ -72,11 +72,11 @@
   if(isset($_GET["submit"]) && $_GET["reporttype"]=="Expenses"){
     $finances->content .=
     "\t\t<h1>Expenses</h1>\n";
-    $sqlSumExpenses = "SELECT SUM(Total) sumExpenses FROM (SELECT Description, DayID Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.DayID, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
+    $sqlSumExpenses = "SELECT SUM(Total) sumExpenses FROM (SELECT Description, FullDateAlternateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.FullDateAlternateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
     if(isset($_GET['category'])){
       $sqlSumExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
     }
-    $sqlSumExpenses .= " AND fp.CategoryDeduplicate = fpxdc.CategoryDeduplicate) purchases GROUP BY TotalPurchases, Description, DayID, CityName, PaymentMethodName, SellerName) expenses";
+    $sqlSumExpenses .= " AND fp.CategoryDeduplicate = fpxdc.CategoryDeduplicate) purchases GROUP BY TotalPurchases, Description, FullDateAlternateKey, CityName, PaymentMethodName, SellerName) expenses";
     if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
       $sqlSumExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
     }
