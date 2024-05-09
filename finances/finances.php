@@ -134,6 +134,10 @@
     }
     $sqlSales .= " ORDER BY a.Date DESC";
 	$sumSales = sqlsrv_query($conn, $sqlSales);
+	
+	print_r($sumSales);
+	
+	
     if ($sumSales == FALSE)
       die( print_r( sqlsrv_errors(), true));
     $resultSales = sqlsrv_query($conn, $sqlSales);
