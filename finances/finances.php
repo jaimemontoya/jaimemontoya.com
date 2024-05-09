@@ -141,6 +141,33 @@
       $sqlSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
     $sqlSales .= " ORDER BY a.Date DESC";
-    print_r($sqlSales);
+	$sumSales = sqlsrv_query($conn, $sqlSales);
+    if ($sumSales == FALSE)
+      die( print_r( sqlsrv_errors(), true));
+    $resultSales = sqlsrv_query($conn, $sqlExpenses);
+    if ($resultSales == FALSE)
+      die( print_r( sqlsrv_errors(), true));
+	$rows = sqlsrv_has_rows($resultSales);
+    if ($rows === true) {
+	  $finances->content .="\t\t\t<table><tr><th>Description</th><th>Date</th><th>City</th><th>Payment method</th><th>Buyer</th><th>Category</th><th>Total ="; 
+	  $row = sqlsrv_fetch_array($sumSales, SQLSRV_FETCH_ASSOC);
+	  $finances->content .= $row["sumSales"];
+	  $finances->content .=
+      "</th></tr>";
+      while ($row = sqlsrv_fetch_array($resultSales, SQLSRV_FETCH_ASSOC)) {
+		$finances->content .=
+        "\t\t\t<tr><td>".$row["Description"]."</td><td>".$row["Date"]->format('Y-m-d')."</td><td>".$row["City"]."</td><td>".preg_replace('/[0-9]/','*',$row["Payment method"])."</td><td>".$row["Buyer"]."</td><td>".$row["Category"]."</td><td>".$row["Total"]."</td></tr>";
+      }
+      $finances->content .=
+      "\t\t</table>";
+	} else {
+      $finances->content .=
+      "0 results";
+    }
   }
+  sqlsrv_free_stmt($resultCategories);
+  sqlsrv_free_stmt($sumExpenses);
+  sqlsrv_free_stmt($resultExpenses);
+  sqlsrv_free_stmt($sumSales);
+  sqlsrv_free_stmt($resultSales);
 ?>
