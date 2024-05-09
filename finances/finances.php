@@ -89,7 +89,6 @@
       $sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
     $sqlExpenses .= " ORDER BY a.Date DESC";
-	print_r($sqlExpenses);
 	$sumExpenses = sqlsrv_query($conn, $sqlSumExpenses);
     if ($sumExpenses == FALSE)
       die( print_r( sqlsrv_errors(), true));
@@ -125,14 +124,23 @@
     if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
       $sqlSumSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
     }
-    $sqlSales = "SELECT * FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', BuyerName Buyer, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalSales Total FROM (SELECT Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, db.BuyerName, dca.CategoryName, TotalSales FROM FactSales fs INNER JOIN DimCity dc ON fs.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fs.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimBuyer db ON fs.BuyerID=db.BuyerID INNER JOIN FactSalesXDimCategory fsxdc ON fs.CityID=fsxdc.CityID AND fs.DayID=fsxdc.DayID AND fs.PaymentMethodID=fsxdc.PaymentMethodID AND fs.BuyerID=fsxdc.BuyerID INNER JOIN DimCategory dca ON fsxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fs.DayID=dd.DayID";
+    /*$sqlSales = "SELECT * FROM (SELECT Description, DateKey Date, CityName City, PaymentMethodName 'Payment method', BuyerName Buyer, GROUP_CONCAT(CategoryName SEPARATOR ', ') Category, TotalSales Total FROM (SELECT Description, dd.DateKey, dc.CityName, dpm.PaymentMethodName, db.BuyerName, dca.CategoryName, TotalSales FROM FactSales fs INNER JOIN DimCity dc ON fs.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fs.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimBuyer db ON fs.BuyerID=db.BuyerID INNER JOIN FactSalesXDimCategory fsxdc ON fs.CityID=fsxdc.CityID AND fs.DayID=fsxdc.DayID AND fs.PaymentMethodID=fsxdc.PaymentMethodID AND fs.BuyerID=fsxdc.BuyerID INNER JOIN DimCategory dca ON fsxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fs.DayID=dd.DayID";
     if(isset($_GET['category'])){
       $sqlSales .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
     }
     $sqlSales .= ") sales GROUP BY Description, DateKey, CityName, PaymentMethodName, BuyerName, TotalSales ORDER BY DateKey DESC) salesTable";
     if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
       $sqlSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
+    }*/
+	$sqlSales = "SELECT a.Description, a.Date, a.City, a.[Payment method], a.Buyer, a.Total, (SELECT SUBSTRING((SELECT DISTINCT ', ' + CONVERT(VARCHAR(255),dca.CategoryName) FROM DimCategory dca WHERE dca.CategoryName = a.Category FOR XML PATH, TYPE).value('.[1]','NVARCHAR(MAX)'), 2, 2000)) AS Category FROM (SELECT Description, FullDateAlternateKey Date, CityName City, PaymentMethodName 'Payment method', BuyerName Buyer, salesTable.CategoryName Category, TotalSales Total FROM (SELECT TotalSales, Description, dd.FullDateAlternateKey, dc.CityName, dpm.PaymentMethodName, db.BuyerName, dca.CategoryName FROM FactSales fs INNER JOIN DimCity dc ON fs.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fs.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimBuyer db ON fs.BuyerID=db.BuyerID INNER JOIN FactSalesXDimCategory fsxdc ON fs.CityID=fsxdc.CityID AND fs.DayID=fsxdc.DayID AND fs.PaymentMethodID=fsxdc.PaymentMethodID AND fs.BuyerID=fsxdc.BuyerID INNER JOIN DimCategory dca ON fsxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fs.DayID=dd.DayID AND fs.CategoryDeduplicate = fsxdc.CategoryDeduplicate) salesTable) a";
+    if(isset($_GET['category'])){
+      $sqlSales .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
     }
-    //print_r($sqlSales);
+    $sqlSales .= " AND fp.CategoryDeduplicate = fpxdc.CategoryDeduplicate) salesTable) a";
+    if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
+      $sqlSales .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
+    }
+    $sqlSales .= " ORDER BY a.Date DESC";
+    print_r($sqlSales);
   }
 ?>
