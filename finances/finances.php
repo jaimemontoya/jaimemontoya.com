@@ -78,7 +78,7 @@
     if (validateDate($_GET['startDateKey']) && validateDate($_GET['endDateKey'])) {
       $sqlSumExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."';";
     }
-	$sqlExpenses = "SELECT a.Description, a.Date, a.City, a.[Payment method], a.Seller, a.Total, (SELECT SUBSTRING((SELECT DISTINCT ', ' + CONVERT(VARCHAR(255),dca.CategoryName) FROM DimCategory dca WHERE dca.CategoryName = a.Category FOR XML PATH, TYPE).value('.[1]','NVARCHAR(MAX)'), 2, 2000)) AS Category FROM (SELECT Description, FullDateAlternateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, expensesTable.CategoryName Category, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.FullDateAlternateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
+	$sqlExpenses = "SELECT a.Description, a.Date, a.City, a.[Payment method], a.Seller, a.Total, (SELECT SUBSTRING((SELECT DISTINCT ', ' + CONVERT(VARCHAR(255),dca.CategoryName) FROM DimCategory dca WHERE dca.CategoryName = a.Category FOR XML PATH, TYPE).value('.[1]','NVARCHAR(MAX)'), 2, 2000)) AS Category, (SELECT SUBSTRING((SELECT DISTINCT ', ' + CONVERT(VARCHAR(255),pca.ParentCategoryName) FROM DimParentCategory pca WHERE pca.ParentCategoryName = a.ParentCategory FOR XML PATH, TYPE).value('.[1]','NVARCHAR(MAX)'), 2, 2000)) AS 'Parent Category' FROM (SELECT Description, FullDateAlternateKey Date, CityName City, PaymentMethodName 'Payment method', SellerName Seller, expensesTable.CategoryName Category, expensesTable.ParentCategoryName ParentCategory, TotalPurchases Total FROM (SELECT TotalPurchases, Description, dd.FullDateAlternateKey, dc.CityName, dpm.PaymentMethodName, ds.SellerName, dca.CategoryName, pca.ParentCategoryName FROM FactPurchases fp INNER JOIN DimCity dc ON fp.CityID=dc.CityID INNER JOIN DimPaymentMethod dpm ON fp.PaymentMethodID=dpm.PaymentMethodID INNER JOIN DimSeller ds ON fp.SellerID=ds.SellerID INNER JOIN FactPurchasesXDimCategory fpxdc ON fp.CityID=fpxdc.CityID AND fp.DayID=fpxdc.DayID AND fp.PaymentMethodID=fpxdc.PaymentMethodID AND fp.SellerID=fpxdc.SellerID INNER JOIN DimCategory dca ON fpxdc.CategoryID=dca.CategoryID INNER JOIN DimParentCategory pca ON dca.ParentCategoryID=pca.ParentCategoryID INNER JOIN DimDay dd ON fp.DayID=dd.DayID";
     if(isset($_GET['category'])){
       $sqlExpenses .= " WHERE dca.CategoryID IN (".implode(', ', $_GET['category']).")";
     }
@@ -87,7 +87,6 @@
       $sqlExpenses .= " WHERE Date >= '".$_GET['startDateKey']."' AND Date <= '".$_GET['endDateKey']."'";
     }
     $sqlExpenses .= " ORDER BY a.Date DESC";
-	print_r($sqlExpenses);
 	$sumExpenses = sqlsrv_query($conn, $sqlSumExpenses);
     if ($sumExpenses == FALSE)
       die( print_r( sqlsrv_errors(), true));
