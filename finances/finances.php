@@ -102,7 +102,7 @@
       "</th></tr>";
       while ($row = sqlsrv_fetch_array($resultExpenses, SQLSRV_FETCH_ASSOC)) {
 		$finances->content .=
-        "\t\t\t<tr><td>".$row["Description"]."</td><td>".$row["Date"]->format('Y-m-d')."</td><td>".$row["City"]."</td><td>".preg_replace('/[0-9]/','*',$row["Payment method"])."</td><td>".$row["Seller"]."</td><td>".$row["Category"]."</td><td>".$row["ParentCategory"]."</td><td>".$row["Total"]."</td></tr>";
+        "\t\t\t<tr><td>".$row["Description"]."</td><td>".$row["Date"]->format('Y-m-d')."</td><td>".$row["City"]."</td><td>".preg_replace('/[0-9]/','*',$row["Payment method"])."</td><td>".$row["Seller"]."</td><td>".$row["Category"]."</td><td>".$row["Parent Category"]."</td><td>".$row["Total"]."</td></tr>";
       }
       $finances->content .=
       "\t\t</table>";
