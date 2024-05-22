@@ -193,6 +193,22 @@
 				<div id=\"references\">
 					<p>Bible Study Tools. (n.d.). <em>Horite; Horim.</em> Retrieved May 20, 2024, from <a href=\"https://www.biblestudytools.com/encyclopedias/isbe/horite-horim.html\">https://www.biblestudytools.com/encyclopedias/isbe/horite-horim.html</a></p>
 					<p>Bolen, T. (n.d.). <em>Wilderness and mountains of Edom from west [Online image].</em> BiblePlaces.com. <a href=\"https://bibleplaces.photoshelter.com/image/I0000Da4zu3lJfRs\">https://bibleplaces.photoshelter.com/image/I0000Da4zu3lJfRs</a></p>
+					
+					
+					
+					<p>Geoghegan, J., & Homan, M. (2003). <em>The Bible For Dummies.</em> John Wiley & Sons, Inc. <a href=\"https://www.amazon.com/Bible-Dummies-Lifestyle-ebook/dp/B01GGR61A8/\">https://www.amazon.com/Bible-Dummies-Lifestyle-ebook/dp/B01GGR61A8/</a></p>
+					<p>Got Questions Ministries. (n.d.). <em>What is the significance of Edom in the Bible?</em> Retrieved May 16, 2024, from <a href=\"https://www.gotquestions.org/Edom-in-the-Bible.html\">https://www.gotquestions.org/Edom-in-the-Bible.html</a></p>
+					<p>Got Questions Ministries. (n.d.). <em>What is the significance of Mount Seir?</em> Retrieved May 20, 2024, from <a href=\"https://www.gotquestions.org/mount-Seir.html\">https://www.gotquestions.org/mount-Seir.html</a></p>
+					<p>Got Questions Ministries. (n.d.). <em>Who was Haman the Agagite?</em> Retrieved May 20, 2024, from <a href=\"https://www.gotquestions.org/Haman-the-Agagite.html\">https://www.gotquestions.org/Haman-the-Agagite.html</a></p>
+					<p>Got Questions Ministries. (n.d.). <em>Who were the Amalekites?</em> Retrieved May 20, 2024, from <a href=\"https://www.gotquestions.org/Amalekites.html\">https://www.gotquestions.org/Amalekites.html</a></p>
+					<p>Jewish Virtual Library. (n.d). <em>Edom.</em> Retrieved May 16, 2024, from <a href=\"https://www.jewishvirtuallibrary.org/edom\">https://www.jewishvirtuallibrary.org/edom</a></p>
+					<p>Henry, M. (1811). <em>An Exposition of the Old and New Testament.</em> <a href=\"https://www.google.com.sv/books/edition/An_Exposition_of_the_Old_and_New_Testame/fg8aY9ZqSMYC?hl=es-419&gbpv=1\">https://www.google.com.sv/books/edition/An_Exposition_of_the_Old_and_New_Testame/fg8aY9ZqSMYC?hl=es-419&gbpv=1</a></p>
+					<p>Thomas Nelson. (2017). <em>The King James Study Bible.</em></p>
+					<p>Zondervan. (2006). <em>Africa Bible Commentary.</em> <a href=\"https://www.amazon.com/Africa-Bible-Commentary-One-Scholars-ebook/dp/B003TFE8T\">https://www.amazon.com/Africa-Bible-Commentary-One-Scholars-ebook/dp/B003TFE8T</a></p>
+					<p>Zondervan. (2011). <em>NIV Study Bible Notes, Fully Revised Edition.</em> <a href=\"https://www.biblegateway.com/plus/\">https://www.biblegateway.com/plus/</a></p>
+					<p>Zondervan. (2015). <em>NIV Exhaustive Concordance Dictionary.</em> <a href=\"https://www.biblegateway.com/plus/\">https://www.biblegateway.com/plus/</a></p>
+					<p>Zondervan. (2021). <em>NIV Grace and Truth Study Bible.</em> <a href=\"https://www.biblegateway.com/plus/\">https://www.biblegateway.com/plus/</a></p>
+					<p>Zondervan. (2019). <em>NIV Quest Study Bible.</em> <a href=\"https://www.biblegateway.com/plus/\">https://www.biblegateway.com/plus/</a></p>
 				</div>
             </div>\n";
 ?>
