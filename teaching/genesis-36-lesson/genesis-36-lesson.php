@@ -125,6 +125,14 @@
 										<li>Amalek*</li>
 									</ol>
 								</li>
+								<li>Sons of Reuel. Grandsons of Esau with his wife Basemath (daughter of Ishmael and sister of Nebaioth).
+									<ol>
+										<li>Nahath*</li>
+										<li>Zerah*</li>
+										<li>Shammah*</li>
+										<li>Mizzah*</li>
+									</ol>
+								</li>
 							</ol>
 						</td>
 						<td>
