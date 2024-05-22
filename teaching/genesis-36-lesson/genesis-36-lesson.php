@@ -24,8 +24,8 @@
 					<li><a href=\"#purpose-of-biblical-genealogies\">Purpose of biblical genealogies</a>
 					<li><a href=\"#why-an-entire-chapter-given-to-esau-s-descendants\">Why an entire chapter given to Esau's descendants? (36:1-43)</a>
 					<li><a href=\"#how-could-moses-have-written-genesis-36\">How could Moses have written Genesis 36? (36:1-43)</a>
-					<li>Why was Esau called Edom? (36:1)
-					<li>Why did Esau marry Canaanite women? (36:2)
+					<li><a href=\"#why-was-esau-called-edom\">Why was Esau called Edom? (36:1)
+					<li>Why did Esau marry Canaanite women? (36:2)</a>
 					<li>What is the historic and prophetic relationship between Israel and Edom (36:6-8)
 					<li>Why did God bless Esau if He knew that the Edomites would not \"return the favor\" and bless Israel? What does this teach readers about Who God is and How He thinks and acts? (36:6-8)
 					<li>What is the connection between Esau (that is, Edom), and Seir? (36:8-9; 36:20-21; 36:25; 36:30)
@@ -53,5 +53,7 @@
 				</ol>
 				<h2 id=\"how-could-moses-have-written-genesis-36\">How could Moses have written Genesis 36? (36:1-43)</h2>
 				<p>Zondervan (2006) explains that the reference to kings (in different sections of the Pentateuch), and description of his own death in Genesis 34, indicates that Moses was not the writer of the entire Pentateuch. Nonetheless, it is still traditionally accepted that he was the author of all five books (\"36:1-43 The Descendants of Esau\" section).</p>
+				<h2 id=\"why-was-esau-called-edom\">Why was Esau called Edom? (36:1)</h2>
+				<p>In Hebrew, Edom literally means \"red\" (Zondervan, 2015). Referring to Esau, Genesis 25:25 says that \"The first to come out was red\". In Genesis 25:30, Esau asked Jacob to give him \"some of that red stew\". According to verse 30, \"That is why he was also called Edom.\" (’ᵉdôm).</p>
             </div>\n";
 ?>
