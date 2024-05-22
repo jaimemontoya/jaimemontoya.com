@@ -23,7 +23,7 @@
 				<ul>
 					<li><a href=\"#purpose-of-biblical-genealogies\">Purpose of biblical genealogies</a>
 					<li><a href=\"#why-an-entire-chapter-given-to-esau-s-descendants\">Why an entire chapter given to Esau's descendants? (36:1-43)</a>
-					<li>How could Moses have written Genesis 36? (36:1-43)
+					<li><a href=\"#how-could-moses-have-written-genesis-36\">How could Moses have written Genesis 36? (36:1-43)
 					<li>Why was Esau called Edom? (36:1)
 					<li>Why did Esau marry Canaanite women? (36:2)
 					<li>What is the historic and prophetic relationship between Israel and Edom (36:6-8)
@@ -51,5 +51,7 @@
 					<li>Because the Edomites were neighbours to Israel, and their genealogy would be of use to give light to the following stories of what passed between them.
 					<li>It is to show the performance of the promise to Abraham, that he should be \"the father of many nations,\" and of that answer which Rebekah had from the oracle she consulted, \"Two nations are in thy womb,\" and of the blessing of Isaac, \"Thy dwelling shall be the fatness of the earth.\" (Genesis 36)
 				</ol>
+				<h2 id=\"how-could-moses-have-written-genesis-36\">How could Moses have written Genesis 36? (36:1-43)</h2>
+				<p>Zondervan (2006) explains that the reference to kings (in different sections of the Pentateuch), and description of his own death in Genesis 34, indicates that Moses was not the writer of the entire Pentateuch. Nonetheless, it is still traditionally accepted that he was the author of all five books (\"36:1-43 The Descendants of Esau\" section).</p>
             </div>\n";
 ?>
