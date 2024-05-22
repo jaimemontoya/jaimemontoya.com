@@ -191,8 +191,7 @@
 				</ol>
 				<h2 class=\"center\">References</h2>
 				<div id=\"references\">
-					<p>Armbrecht, Tom. (2018). Getting Over Stumbling Blocks (of Text): Creating Engaging Content Pages. <em>ObjectLessons</em>. Retrieved from https://object-lessons.com/getting-over-stumbling-blocks-of-text-creating-engaging-content-pages/</p>
-					<p>Fruhling, Zachary R. (2018). HTML Basics for Instructional Designers. <em>ObjectLessons</em>. Retrieved from https://object-lessons.com/html-basics-for-instructional-designers/</p>
+					<p>Bible Study Tools. (n.d.). <em>Horite; Horim.</em> Retrieved May 20, 2024, from <a href=\"https://www.biblestudytools.com/encyclopedias/isbe/horite-horim.html\">https://www.biblestudytools.com/encyclopedias/isbe/horite-horim.html</a></p>
 				</div>
             </div>\n";
 ?>
