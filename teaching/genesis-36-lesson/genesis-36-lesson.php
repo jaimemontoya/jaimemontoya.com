@@ -28,7 +28,7 @@
 					<li><a href=\"#why-did-esau-marry-canaanite-women\">Why did Esau marry Canaanite women? (36:2)</a>
 					<li><a href=\"#what-is-the-historic-and-prophetic-relationship-between-israel-and-edom\">What is the historic and prophetic relationship between Israel and Edom (36:6-8)</a>
 					<li><a href=\"#why-did-god-bless-esau-if-he-knew-that-the-edomites-would-not-return-the-favor-and-bless-israel-what-does-this-teach-readers-about-who-god-is-and-how-he-thinks-and-acts\">Why did God bless Esau if He knew that the Edomites would not \"return the favor\" and bless Israel? What does this teach readers about Who God is and How He thinks and acts? (36:6-8)</a>
-					<li>What is the connection between Esau (that is, Edom), and Seir? (36:8-9; 36:20-21; 36:25; 36:30)
+					<li><a href=\"#what-is-the-connection-between-esau-that-is-edom-and-seir\">What is the connection between Esau (that is, Edom), and Seir? (36:8-9; 36:20-21; 36:25; 36:30)</a>
 					<li>What is the connection between Esau (that is, Edom), and the Amalekites? (36:12, 16)
 					<li>Why two lists of chiefs? (36:15-19; 36:40-43)
 					<li>How to interpret the Greek word βέβηλος bebēlos used in Hebrews 12:16 to describe Esau?
@@ -94,5 +94,10 @@
 				<p>In Genesis 25:23, God said this to Rebekah after she inquired of the Lord in prayer, asking why the babies jostled each other within her while being pregnant: \"Two nations are in your womb, and two peoples from within you will be separated; one people will be stronger than the other, and the older will serve the younger.\" The promise was that Esau would become a nation. God fulfilled it despite the wickedness of Esau. In Hebrews 12:16, Esau is described as godless: \"See that no one is sexually immoral, or is godless like Esau, who for a single meal sold his inheritance rights as the oldest son.\"</p>
 				<p>Another example of a covenant of God that is unconditional is found in Genesis 15. The fact that \"God alone passes between the animal pieces, in the form of a smoking furnace from which torch-like flames soot out\" means that this was an unconditional covenant that could only be carried out by God Himself (Thomas Nelson, 2017, p. 35).</p>
 				<p>2 Timothy 2:13 says: \"if we are faithless, he remains faithful, for he cannot disown himself.\"</p>
+				<h2 id=\"what-is-the-connection-between-esau-that-is-edom-and-seir\">What is the connection between Esau (that is, Edom), and Seir? (36:8-9; 36:20-21; 36:25; 36:30)</h2>
+				<p>The region of Seir would have received its name from Seir the Horite (Got Questions Ministries, n.d., What is the significance of Mount Seir?). According to Deuteronomy 2:12, the Horites lived in Seir before that place was occupied by the Edomites: \"Horites used to live in Seir, but the descendants of Esau drove them out. They destroyed the Horites from before them and settled in their place\".</p>
+				<p>After invading and conquering Seir, the descendants of the Edomites mixed with the Horites (Bible Study Tools, n.d., \"Horite; Horim\").</p>
+				<p>Henry (1811, Genesis 36:20-30) explains that mentioning the natives of Seir as part of the genealogy of the Edomites serves the purpose to show that by intermarrying with people from Seir, the descendants of Esau probably learned their ways and corrupted themselves.</p>
+
             </div>\n";
 ?>
