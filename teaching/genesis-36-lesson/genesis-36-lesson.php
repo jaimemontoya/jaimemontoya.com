@@ -73,7 +73,7 @@
 				<p>1 Kings 11:15-16 says that \"when David was fighting with Edom, Joab the commander of the army, who had gone up to bury the dead, had struck down all the men in Edom. Joad and all the Israelites stayed there for six months, until they had destroyed all the men in Edom.\" This passage reveals that the battle of David against Edom was not an overnight victory.</p>
 				<p>At some point during Solomon's reign (most likely at the end), Edom regained its independence and liberation from Israel (JVL, n.d.)</p>
 				<p>Prophets in the Old Testament denounced the hostility of Edom against Israel and God condemned it, expressing His anger and reproval of Edom:</p>
-				<ol class=\"quote\">
+				<ul class=\"quote\">
 					<li>\"Edom will be conquered; Seir, his enemy, will be conquered, but Israel will grow strong.\" (complete passage in Numbers 24:18).
 					<li>\"They will subdue Edom and Moab, and the Ammonites will be subject to them.\" (complete passage in Isaiah 11:14).
 					<li>\"My sword has drunk its fill in the heavens; see, it descends in judgment on Edom, the people I have totally destroyed. The sword of the Lord is bathed in blood, it is covered with fat -the blood of lambs and goats, fat from the kidneys of rams. For the Lord has a sacrifice in Bozrah and a great slaughter in the land of Edom.\" (Isaiah 34:5-6, see entire chapter for additional instances where Edom is mentioned as part of God's judgment against the nations).
@@ -84,7 +84,7 @@
 					<li>\"But Egypt will be desolate, Edom a desert waste, because of violence done to the people of Judah, in whose land they shed innocent blood.\" (Joel 3:19).
 					<li>'This is what the Lord says: \"For three sins of Edom, even for four, I will not relent. Because he pursued his brother with a sword and slaughtered the women of the land, because his anger raged continually and his fury flamed unchecked,' (Amos 1:11).
 					<li>'but Esau I have hated, and I have turned his hill country into a wasteland and left his inheritance to the desert jackals.\" Edom may say, \"Though we have been crushed, we will rebuild the ruins.\" But this is what the Lord Almighty says: \"They may build, but I will demolish. They will be called the Wicked Land a people always under the wrath of the Lord.' (Malachi 1:3-4).
-				</ol>
+				</ul>
 				<p>In the millennial kingdom of Christ, Israel will possess the land of Edom according to the prophecy in Obadiah 1:19-21 (Got Questions Ministries, n.d., What is the significance of Edom in the Bible?).</p>
             </div>\n";
 ?>
