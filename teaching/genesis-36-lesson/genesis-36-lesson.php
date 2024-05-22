@@ -133,6 +133,13 @@
 										<li>Mizzah*</li>
 									</ol>
 								</li>
+								<li>Sons of Esau with his wife Oholibamah (daughter of Anah and granddaughter of Zibeon the Hivite).
+									<ol>
+										<li>Jeush*</li>
+										<li>Jalam*</li>
+										<li>Korah*</li>
+									</ol>
+								</li>
 							</ol>
 						</td>
 						<td>
