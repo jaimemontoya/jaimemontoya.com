@@ -193,9 +193,6 @@
 				<div id=\"references\">
 					<p>Bible Study Tools. (n.d.). <em>Horite; Horim.</em> Retrieved May 20, 2024, from <a href=\"https://www.biblestudytools.com/encyclopedias/isbe/horite-horim.html\">https://www.biblestudytools.com/encyclopedias/isbe/horite-horim.html</a></p>
 					<p>Bolen, T. (n.d.). <em>Wilderness and mountains of Edom from west [Online image].</em> BiblePlaces.com. <a href=\"https://bibleplaces.photoshelter.com/image/I0000Da4zu3lJfRs\">https://bibleplaces.photoshelter.com/image/I0000Da4zu3lJfRs</a></p>
-					
-					
-					
 					<p>Geoghegan, J., & Homan, M. (2003). <em>The Bible For Dummies.</em> John Wiley & Sons, Inc. <a href=\"https://www.amazon.com/Bible-Dummies-Lifestyle-ebook/dp/B01GGR61A8/\">https://www.amazon.com/Bible-Dummies-Lifestyle-ebook/dp/B01GGR61A8/</a></p>
 					<p>Got Questions Ministries. (n.d.). <em>What is the significance of Edom in the Bible?</em> Retrieved May 16, 2024, from <a href=\"https://www.gotquestions.org/Edom-in-the-Bible.html\">https://www.gotquestions.org/Edom-in-the-Bible.html</a></p>
 					<p>Got Questions Ministries. (n.d.). <em>What is the significance of Mount Seir?</em> Retrieved May 20, 2024, from <a href=\"https://www.gotquestions.org/mount-Seir.html\">https://www.gotquestions.org/mount-Seir.html</a></p>
