@@ -201,7 +201,7 @@
 					<p>Jewish Virtual Library. (n.d). <em>Edom.</em> Retrieved May 16, 2024, from <a href=\"https://www.jewishvirtuallibrary.org/edom\">https://www.jewishvirtuallibrary.org/edom</a></p>
 					<p>Henry, M. (1811). <em>An Exposition of the Old and New Testament.</em> <a href=\"https://www.google.com.sv/books/edition/An_Exposition_of_the_Old_and_New_Testame/fg8aY9ZqSMYC?hl=es-419&gbpv=1\">https://www.google.com.sv/books/edition/An_Exposition_of_the_Old_and_New_Testame/fg8aY9ZqSMYC?hl=es-419&gbpv=1</a></p>
 					<p>Thomas Nelson. (2017). <em>The King James Study Bible.</em></p>
-					<p>Zondervan. (2006). <em>Africa Bible Commentary.</em> <a href=\"https://www.amazon.com/Africa-Bible-Commentary-One-Scholars-ebook/dp/B003TFE8TW/">https://www.amazon.com/Africa-Bible-Commentary-One-Scholars-ebook/dp/B003TFE8TW/</a></p>
+					<p>Zondervan. (2006). <em>Africa Bible Commentary.</em> <a href=\"https://www.amazon.com/Africa-Bible-Commentary-One-Scholars-ebook/dp/B003TFE8TW/\">https://www.amazon.com/Africa-Bible-Commentary-One-Scholars-ebook/dp/B003TFE8TW/</a></p>
 					<p>Zondervan. (2011). <em>NIV Study Bible Notes, Fully Revised Edition.</em> <a href=\"https://www.biblegateway.com/plus/\">https://www.biblegateway.com/plus/</a></p>
 					<p>Zondervan. (2015). <em>NIV Exhaustive Concordance Dictionary.</em> <a href=\"https://www.biblegateway.com/plus/\">https://www.biblegateway.com/plus/</a></p>
 					<p>Zondervan. (2021). <em>NIV Grace and Truth Study Bible.</em> <a href=\"https://www.biblegateway.com/plus/\">https://www.biblegateway.com/plus/</a></p>
