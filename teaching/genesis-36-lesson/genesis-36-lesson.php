@@ -55,5 +55,7 @@
 				<p>Zondervan (2006) explains that the reference to kings (in different sections of the Pentateuch), and description of his own death in Genesis 34, indicates that Moses was not the writer of the entire Pentateuch. Nonetheless, it is still traditionally accepted that he was the author of all five books (\"36:1-43 The Descendants of Esau\" section).</p>
 				<h2 id=\"why-was-esau-called-edom\">Why was Esau called Edom? (36:1)</h2>
 				<p>In Hebrew, Edom literally means \"red\" (Zondervan, 2015). Referring to Esau, Genesis 25:25 says that \"The first to come out was red\". In Genesis 25:30, Esau asked Jacob to give him \"some of that red stew\". According to verse 30, \"That is why he was also called Edom.\" (’ᵉdôm).</p>
+				<p>Bolen (n.d.) shares a photography of the wilderness and mountains of Edom:</p>
+				<div><img src=\"/teaching/genesis-36-lesson/img/wildernessAndMountainsOfEdom.jpg\" alt=\"Wilderness and mountains of Edom\" width=\"624\" height=\"415\"></div>
             </div>\n";
 ?>
