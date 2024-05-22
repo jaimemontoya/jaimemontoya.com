@@ -23,7 +23,7 @@
 				<ul>
 					<li><a href=\"#purpose-of-biblical-genealogies\">Purpose of biblical genealogies</a>
 					<li><a href=\"#why-an-entire-chapter-given-to-esau-s-descendants\">Why an entire chapter given to Esau's descendants? (36:1-43)</a>
-					<li><a href=\"#how-could-moses-have-written-genesis-36\">How could Moses have written Genesis 36? (36:1-43)
+					<li><a href=\"#how-could-moses-have-written-genesis-36\">How could Moses have written Genesis 36? (36:1-43)</a>
 					<li>Why was Esau called Edom? (36:1)
 					<li>Why did Esau marry Canaanite women? (36:2)
 					<li>What is the historic and prophetic relationship between Israel and Edom (36:6-8)
