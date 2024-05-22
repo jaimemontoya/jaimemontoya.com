@@ -159,5 +159,6 @@
 						</td>
 					</tr>
 				</table>
+				<p>*Chief among Esau's descendants.</p>
             </div>\n";
 ?>
