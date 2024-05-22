@@ -192,6 +192,7 @@
 				<h2 class=\"center\">References</h2>
 				<div id=\"references\">
 					<p>Bible Study Tools. (n.d.). <em>Horite; Horim.</em> Retrieved May 20, 2024, from <a href=\"https://www.biblestudytools.com/encyclopedias/isbe/horite-horim.html\">https://www.biblestudytools.com/encyclopedias/isbe/horite-horim.html</a></p>
+					<p>Bolen, T. (n.d.). <em>Wilderness and mountains of Edom from west [Online image].</em> BiblePlaces.com. https://bibleplaces.photoshelter.com/image/I0000Da4zu3lJfRs </p>
 				</div>
             </div>\n";
 ?>
