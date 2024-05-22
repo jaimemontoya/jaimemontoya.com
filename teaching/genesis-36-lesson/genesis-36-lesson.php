@@ -190,6 +190,9 @@
 					<li>Others conclude that God, in his wise and sovereign will, elects some but not others for reasons we cannot understand. His selection may seem unfair, but that is simply because we have a limited perspective. Humans, bound in sin, do not naturally seek God (3:11), but when God's grace comes to the elect, it enables them to choose God (this belief is known as Calvinism). (Romans 9:8-33)
 				</ol>
 				<h2 class=\"center\">References</h2>
-				
+				<div id=\"references\">
+					<p>Armbrecht, Tom. (2018). Getting Over Stumbling Blocks (of Text): Creating Engaging Content Pages. <em>ObjectLessons</em>. Retrieved from https://object-lessons.com/getting-over-stumbling-blocks-of-text-creating-engaging-content-pages/</p>
+					<p>Fruhling, Zachary R. (2018). HTML Basics for Instructional Designers. <em>ObjectLessons</em>. Retrieved from https://object-lessons.com/html-basics-for-instructional-designers/</p>
+				</div>
             </div>\n";
 ?>

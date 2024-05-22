@@ -15,6 +15,7 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .indent2{padding-left:40px}
 .cod{overflow-wrap:break-word;color:#fff;background-color:#00f;border:1px solid #fff;padding:2px;border-radius:4px}
 .quote{margin-left:40px}
+#references{text-indent: -36px; padding-left: 36px}
 .red{color:#f00}
 pre{padding:2px;background-color:#00f;color:#fff;border:1px solid #fff}
 hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
