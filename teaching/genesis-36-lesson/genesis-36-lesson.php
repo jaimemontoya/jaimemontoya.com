@@ -58,5 +58,13 @@
 				<p>Bolen (n.d.) shares a photography of the wilderness and mountains of Edom:</p>
 				<div><img src=\"/teaching/genesis-36-lesson/img/wildernessAndMountainsOfEdom.jpg\" alt=\"Wilderness and mountains of Edom\" width=\"624\" height=\"415\"></div>
 				<p>One theory says that the association between the kingdom of Edom and the word \"red\" took place before Esau controlled that region. According to that explanation, the name originated because of the red cliffs located in the area (Got Questions Ministries, n.d., What is the significance of Edom in the Bible?).</p>
+				<h2 id=\"why-did-esau-marry-canaanite-women\">Why did Esau marry Canaanite women? (36:2)</h2>
+				<p>Zondervan (2019) provides two possibilities:</p>
+				<ol class=\"quote\">
+					<li>No special reason. Simply because they were nearby and available.
+					<li>Political reasons to make peace with people in the area. An example of an international treaty ratified with a wedding is found in 2 Chronicles 18:1: \"Now Jehoshaphat had great wealth and honor, and he allied himself with Ahab by marriage.\" (Genesis 36)
+				</ol>
+				<p>In Genesis 27:40, one of the prophesies that Isaac pronounced over his son Esau was that he would \"live by the sword\". Having violent and warring people as descendants, Esau may have pursued peace with Elon the Hittite, Zibeon the Hivite, and Nebaioth, by establishing marriage alliances.</p>
+				<p>Zondervan (2006) says that the decision of having Canaanite women as wives, suggests that Esau did not care about his relationship with the God of his grandfather Abraham, father Isaac, and brother Jacob. Since his wives did not know God (in a personal relationship), it is almost certain that Esau and his wives raised children who did not know and fear God (\"36:1-43 The Descendants of Esau\" section).</p>
             </div>\n";
 ?>
