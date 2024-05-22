@@ -18,6 +18,6 @@
 					<li>Jaime Montoya
 				</ul>
 				<h2>Scripture quotations</h2>
-				<p>All Scripture quotations outside of references from bibliography, unless otherwise indicated, are taken from the Holy Bible: New International Version®. NIV®. Copyright &copy; 1973, 1978, 1984 by International Bible Society. Used by permission of Zondervan. All rights reserved.</p>
+				<p>All Scripture quotations outside of references from bibliography, unless otherwise indicated, are taken from the Holy Bible: New International Version&reg;. NIV&reg;. Copyright &copy; 1973, 1978, 1984 by International Bible Society. Used by permission of Zondervan. All rights reserved.</p>
             </div>\n";
 ?>
