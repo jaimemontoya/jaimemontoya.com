@@ -31,7 +31,7 @@
 					<li><a href=\"#what-is-the-connection-between-esau-that-is-edom-and-seir\">What is the connection between Esau (that is, Edom), and Seir? (36:8-9; 36:20-21; 36:25; 36:30)</a>
 					<li><a href=\"#what-is-the-connection-between-esau-that-is-edom-and-the-amalekites\">What is the connection between Esau (that is, Edom),vv and the Amalekites? (36:12, 16)</a>
 					<li><a href=\"#why-two-lists-of-chiefs\">Why two lists of chiefs? (36:15-19; 36:40-43)</a>
-					<li>How to interpret the Greek word βέβηλος bebēlos used in Hebrews 12:16 to describe Esau?
+					<li><a href=\"#how-to-interpret-the-greek-word-bebelos-used-in-hebrews-ch12v16-to-describe-esau\">How to interpret the Greek word βέβηλος bebēlos used in Hebrews 12:16 to describe Esau?</a>
 					<li>How to understand Romans 9:13, where God \"hated\" Esau?
 				</ul>
 				<h2 id=\"purpose-of-biblical-genealogies\">Purpose of biblical genealogies</h2>
@@ -163,5 +163,11 @@
 				<p>Fourteen chiefs in List 1. Eleven chiefs in List 2 (the same names in the same order in 1 Chronicles 1:51-54).</p>
 				<p>Only Teman and Kenaz appear in both lists. The purpose of the first list is probably to reveal chiefs based on genealogy, while the second list shows who oversaw various regions (Zondervan, 2019, Genesis 36).</p>
 				<p>List 1 seems to be genealogical, while List 2 would be geographical/political. None of the lists is exhaustive individually. The passage does not seem to provide sufficient evidence to conclude that the total number of chiefs was 14 + 11 – 2 = 23. Putting List 1 and List 2 together results in 23 chiefs. Nonetheless, the text does not specify that the chapter provides an exhaustive list of chiefs. The author might only be mentioning prominent chiefs.</p>
+				<h2 id=\"how-to-interpret-the-greek-word-bebelos-used-in-hebrews-ch12v16-to-describe-esau\">How to interpret the Greek word βέβηλος bebēlos used in Hebrews 12:16 to describe Esau?</h2>
+				<p>According to Zondervan (2015), this Greek word means “godless, irreligious, profane, worldly:– godless (4), irreligious (1)” (βέβηλος bebēlos).</p>
+				<p>Thomas Nelson (2017) further develops the explanation of Esau being a “profane person”:</p>
+				<p class=\"quote\">This profanity (Gr. Bebēlos) involves far more than one’s speech; it is a quality of one’s life. The author sees this quality exemplified in Esau, even though Esau was not a vile man. In fact, he was less of a crook than his brother Jacob. The author accurately focuses on the one area that revealed Esau as profane -the selling of his birthright. To “profane” is to regard something as unhallowed, to treat something sacred as common. Being totally concerned with his temporary and material needs, Esau gave them priority over his rights as the firstborn son and his responsibilities as heir to the blessing of the Abrahamic covenant (Gen. 25:29-34). The result in Esau’s life was that afterward, when he wanted the blessing, he was rejected. He repented with tears, but the situation was irrevocable. (p. 1991)</p>
+				<p>It is important to understand the kind of repentance that Esau experienced after losing his blessing. Zondervan (2021) provides this explanation:</p>
+				<p class=\"quote\">Esau regretted what he did, but he did not truly repent. There is a crucial distinction between regret and repentance. God never rejects true repentance, but he has no interest in worldly sorrow or regret (2 Corinthians 7:10). Esau did not grieve his sin; he grieved the loss of his blessing. He serves as a symbol of one who does not want God but only the blessings of God. Esau shed tears for the loss of his birthright, not tears that cried out for God’s restoration. Esau’s inclusion serves as a negative example that contrasts with the positive examples of faith in chapter 11 (Hebrews 12:12-17)</p>
             </div>\n";
 ?>
