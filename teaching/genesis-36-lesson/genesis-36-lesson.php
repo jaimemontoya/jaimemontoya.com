@@ -160,5 +160,8 @@
 					</tr>
 				</table>
 				<div>*Chief among Esau's descendants.</div>
+				<p>Fourteen chiefs in List 1. Eleven chiefs in List 2 (the same names in the same order in 1 Chronicles 1:51-54).</p>
+				<p>Only Teman and Kenaz appear in both lists. The purpose of the first list is probably to reveal chiefs based on genealogy, while the second list shows who oversaw various regions (Zondervan, 2019, Genesis 36).</p>
+				<p>List 1 seems to be genealogical, while List 2 would be geographical/political. None of the lists is exhaustive individually. The passage does not seem to provide sufficient evidence to conclude that the total number of chiefs was 14 + 11 – 2 = 23. Putting List 1 and List 2 together results in 23 chiefs. Nonetheless, the text does not specify that the chapter provides an exhaustive list of chiefs. The author might only be mentioning prominent chiefs.</p>
             </div>\n";
 ?>
