@@ -35,5 +35,6 @@
 					<li>How to understand Romans 9:13, where God “hated” Esau?
 				</ul>
 				<h2 id=\"purpose-of-biblical-genealogies\">Purpose of biblical genealogies</h2>
+				<p>Geoghegan & Homan (2003) explain the purpose and meaning of biblical genealogies:</p>
             </div>\n";
 ?>
