@@ -21,8 +21,8 @@
 				<p>All Scripture quotations outside of references from bibliography, unless otherwise indicated, are taken from the <span class=\"italic\">Holy Bible: New International Version</span>&reg;. NIV&reg;. Copyright &copy; 1973, 1978, 1984 by International Bible Society. Used by permission of Zondervan. All rights reserved.</p>
 				<h2>Table of contents</h2>
 				<ul>
-					<li>Purpose of biblical genealogies
-					<li>Why an entire chapter given to Esau’s descendants? (36:1-43)
+					<li><a href=\"#purpose-of-biblical-genealogies\">Purpose of biblical genealogies</a>
+					<li>Why an entire chapter given to Esau's descendants? (36:1-43)
 					<li>How could Moses have written Genesis 36? (36:1-43)
 					<li>Why was Esau called Edom? (36:1)
 					<li>Why did Esau marry Canaanite women? (36:2)
@@ -34,5 +34,6 @@
 					<li>How to interpret the Greek word βέβηλος bebēlos used in Hebrews 12:16 to describe Esau?
 					<li>How to understand Romans 9:13, where God “hated” Esau?
 				</ul>
+				<h2 id=\"purpose-of-biblical-genealogies\">Purpose of biblical genealogies</h2>
             </div>\n";
 ?>
