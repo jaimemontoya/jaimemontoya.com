@@ -32,7 +32,7 @@
 					<li>What is the connection between Esau (that is, Edom), and the Amalekites? (36:12, 16)
 					<li>Why two lists of chiefs? (36:15-19; 36:40-43)
 					<li>How to interpret the Greek word βέβηλος bebēlos used in Hebrews 12:16 to describe Esau?
-					<li>How to understand Romans 9:13, where God “hated” Esau?
+					<li>How to understand Romans 9:13, where God \"hated\" Esau?
 				</ul>
 				<h2 id=\"purpose-of-biblical-genealogies\">Purpose of biblical genealogies</h2>
 				<p>Geoghegan & Homan (2003) explain the purpose and meaning of biblical genealogies:</p>
@@ -44,7 +44,7 @@
 				<p class=\"quote\">-GENESIS 5:21-24</p>
 				<p class=\"quote\">Most interpreters understand the notice that \"Enoch walked with God\" to be a euphemism for \"having a close relationship with\" and \"obeying\" God. That is, the purpose of this particular genealogical notice is to make a theological point: God rewards those who seek to know Him and do what He commands. So what is Enoch's reward? Although some scholars have suggested that \"God took him\" simply means that Enoch died (hardly a reward for walking with God), most scholars agree that this phrase means that Enoch went to heaven. (In Trek-talk, God \"beamed him up.\") (chap. 4)</p>
 				<p>Since the Old Testament included prophecies about the Saviour, one of the special uses of genealogies in the Scripture is \"for the clearing of the pedigrees of the Messiah\" (Henry, 1811, 1 Chronicles 1).</p>
-				<h2 id=\"why-an-entire-chapter-given-to-esau-s-descendants\">Why an entire chapter given to Esau’s descendants? (36:1-43)</h2>
+				<h2 id=\"why-an-entire-chapter-given-to-esau-s-descendants\">Why an entire chapter given to Esau's descendants? (36:1-43)</h2>
 				<p>Henry (1811) provides three reasons to keep a register of Esau's family in Genesis 36:</p>
 				<ol class=\"quote\">
 					<li>Because he was the son of Isaac, for whose sake this honour is put upon him.
@@ -54,7 +54,7 @@
 				<h2 id=\"how-could-moses-have-written-genesis-36\">How could Moses have written Genesis 36? (36:1-43)</h2>
 				<p>Zondervan (2006) explains that the reference to kings (in different sections of the Pentateuch), and description of his own death in Genesis 34, indicates that Moses was not the writer of the entire Pentateuch. Nonetheless, it is still traditionally accepted that he was the author of all five books (\"36:1-43 The Descendants of Esau\" section).</p>
 				<h2 id=\"why-was-esau-called-edom\">Why was Esau called Edom? (36:1)</h2>
-				<p>In Hebrew, Edom literally means \"red\" (Zondervan, 2015). Referring to Esau, Genesis 25:25 says that \"The first to come out was red\". In Genesis 25:30, Esau asked Jacob to give him \"some of that red stew\". According to verse 30, \"That is why he was also called Edom.\" (’ᵉdôm).</p>
+				<p>In Hebrew, Edom literally means \"red\" (Zondervan, 2015). Referring to Esau, Genesis 25:25 says that \"The first to come out was red\". In Genesis 25:30, Esau asked Jacob to give him \"some of that red stew\". According to verse 30, \"That is why he was also called Edom.\" ('ᵉdôm).</p>
 				<p>Bolen (n.d.) shares a photography of the wilderness and mountains of Edom:</p>
 				<div><img src=\"/teaching/genesis-36-lesson/img/wildernessAndMountainsOfEdom.jpg\" alt=\"Wilderness and mountains of Edom\" width=\"624\" height=\"415\"></div>
 				<p>One theory says that the association between the kingdom of Edom and the word \"red\" took place before Esau controlled that region. According to that explanation, the name originated because of the red cliffs located in the area (Got Questions Ministries, n.d., What is the significance of Edom in the Bible?).</p>
@@ -66,5 +66,7 @@
 				</ol>
 				<p>In Genesis 27:40, one of the prophesies that Isaac pronounced over his son Esau was that he would \"live by the sword\". Having violent and warring people as descendants, Esau may have pursued peace with Elon the Hittite, Zibeon the Hivite, and Nebaioth, by establishing marriage alliances.</p>
 				<p>Zondervan (2006) says that the decision of having Canaanite women as wives, suggests that Esau did not care about his relationship with the God of his grandfather Abraham, father Isaac, and brother Jacob. Since his wives did not know God (in a personal relationship), it is almost certain that Esau and his wives raised children who did not know and fear God (\"36:1-43 The Descendants of Esau\" section).</p>
+				<h2 id=\"what-is-the-historic-and-prophetic-relationship-between-israel-and-edom\">What is the historic and prophetic relationship between Israel and Edom (36:6-8)</h2>
+				<p>Numbers 20:14-21 describes how the king of Edom denied Israel passage through their land. Moses' messengers introduced their request with a reminder of the family links between the nations: \"This is what your brother Israel says\". In addition, as part of the request, the messengers said: \"You know about all the hardships that have come on us.\" That message reveals that the king of Edom knew about the way Egypt treated the Israelites during their years of slavery. He also knew that both nations came from the common ancestor Isaac. Nonetheless, the king replied: \"You may not pass through\". His word was firm, and he was ready to attack Israel if they had gone through Edom's territory. He came out \"against them with a large and powerful army.\"</p>
             </div>\n";
 ?>
