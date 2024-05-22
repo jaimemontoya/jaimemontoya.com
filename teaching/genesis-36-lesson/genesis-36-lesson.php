@@ -22,7 +22,7 @@
 				<h2>Table of contents</h2>
 				<ul>
 					<li><a href=\"#purpose-of-biblical-genealogies\">Purpose of biblical genealogies</a>
-					<li>Why an entire chapter given to Esau's descendants? (36:1-43)
+					<li><a href=\"#why-an-entire-chapter-given-to-esau-s-descendants\">Why an entire chapter given to Esau's descendants? (36:1-43)</a>
 					<li>How could Moses have written Genesis 36? (36:1-43)
 					<li>Why was Esau called Edom? (36:1)
 					<li>Why did Esau marry Canaanite women? (36:2)
@@ -44,5 +44,6 @@
 				<p class=\"quote\">-GENESIS 5:21-24</p>
 				<p class=\"quote\">Most interpreters understand the notice that \"Enoch walked with God\" to be a euphemism for \"having a close relationship with\" and \"obeying\" God. That is, the purpose of this particular genealogical notice is to make a theological point: God rewards those who seek to know Him and do what He commands. So what is Enoch's reward? Although some scholars have suggested that \"God took him\" simply means that Enoch died (hardly a reward for walking with God), most scholars agree that this phrase means that Enoch went to heaven. (In Trek-talk, God \"beamed him up.\") (chap. 4)</p>
 				<p>Since the Old Testament included prophecies about the Saviour, one of the special uses of genealogies in the Scripture is \"for the clearing of the pedigrees of the Messiah\" (Henry, 1811, 1 Chronicles 1).</p>
+				<h2 id=\"why-an-entire-chapter-given-to-esau-s-descendants\">Why an entire chapter given to Esau’s descendants? (36:1-43)</h2>
             </div>\n";
 ?>
