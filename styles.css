@@ -21,6 +21,7 @@ hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
 .nested-ordered-list ol{counter-reset:item}
 .nested-ordered-list li{display:block}
 .nested-ordered-list li:before{content:counters(item, ".") ". ";counter-increment:item}
+.nested-ordered-list td{vertical-align:top}
 .black{color:#0f0!important}
 .white{color:#fff}
 .bold{font-weight:bold!important}
