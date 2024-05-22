@@ -36,5 +36,6 @@
 				</ul>
 				<h2 id=\"purpose-of-biblical-genealogies\">Purpose of biblical genealogies</h2>
 				<p>Geoghegan & Homan (2003) explain the purpose and meaning of biblical genealogies:</p>
+				<p class=\"quote\">The First (of Many) Biblical Genealogies (Genesis 5)</p>
             </div>\n";
 ?>
