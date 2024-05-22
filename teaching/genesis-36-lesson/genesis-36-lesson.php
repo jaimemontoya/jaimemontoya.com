@@ -46,7 +46,7 @@
 				<p>Since the Old Testament included prophecies about the Saviour, one of the special uses of genealogies in the Scripture is \"for the clearing of the pedigrees of the Messiah\" (Henry, 1811, 1 Chronicles 1).</p>
 				<h2 id=\"why-an-entire-chapter-given-to-esau-s-descendants\">Why an entire chapter given to Esau’s descendants? (36:1-43)</h2>
 				<p>Henry (1811) provides three reasons to keep a register of Esau's family in Genesis 36:</p>
-				<ol>
+				<ol class=\"quote\">
 					<li>Because he was the son of Isaac, for whose sake this honour is put upon him.
 					<li>Because the Edomites were neighbours to Israel, and their genealogy would be of use to give light to the following stories of what passed between them.
 					<li>It is to show the performance of the promise to Abraham, that he should be \"the father of many nations,\" and of that answer which Rebekah had from the oracle she consulted, \"Two nations are in thy womb,\" and of the blessing of Isaac, \"Thy dwelling shall be the fatness of the earth.\" (Genesis 36)
