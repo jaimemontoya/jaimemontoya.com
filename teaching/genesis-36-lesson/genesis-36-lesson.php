@@ -32,7 +32,7 @@
 					<li><a href=\"#what-is-the-connection-between-esau-that-is-edom-and-the-amalekites\">What is the connection between Esau (that is, Edom),vv and the Amalekites? (36:12, 16)</a>
 					<li><a href=\"#why-two-lists-of-chiefs\">Why two lists of chiefs? (36:15-19; 36:40-43)</a>
 					<li><a href=\"#how-to-interpret-the-greek-word-bebelos-used-in-hebrews-ch12v16-to-describe-esau\">How to interpret the Greek word βέβηλος bebēlos used in Hebrews 12:16 to describe Esau?</a>
-					<li>How to understand Romans 9:13, where God \"hated\" Esau?
+					<li><a href=\"#how-to-understand-Romans-ch9v13-where-god-hated-esau\">How to understand Romans 9:13, where God \"hated\" Esau?</a>
 				</ul>
 				<h2 id=\"purpose-of-biblical-genealogies\">Purpose of biblical genealogies</h2>
 				<p>Geoghegan & Homan (2003) explain the purpose and meaning of biblical genealogies:</p>
@@ -168,6 +168,22 @@
 				<p>Thomas Nelson (2017) further develops the explanation of Esau being a \"profane person\":</p>
 				<p class=\"quote\">This profanity (Gr. Bebēlos) involves far more than one's speech; it is a quality of one's life. The author sees this quality exemplified in Esau, even though Esau was not a vile man. In fact, he was less of a crook than his brother Jacob. The author accurately focuses on the one area that revealed Esau as profane -the selling of his birthright. To \"profane\" is to regard something as unhallowed, to treat something sacred as common. Being totally concerned with his temporary and material needs, Esau gave them priority over his rights as the firstborn son and his responsibilities as heir to the blessing of the Abrahamic covenant (Gen. 25:29-34). The result in Esau's life was that afterward, when he wanted the blessing, he was rejected. He repented with tears, but the situation was irrevocable. (p. 1991)</p>
 				<p>It is important to understand the kind of repentance that Esau experienced after losing his blessing. Zondervan (2021) provides this explanation:</p>
-				<p class=\"quote\">Esau regretted what he did, but he did not truly repent. There is a crucial distinction between regret and repentance. God never rejects true repentance, but he has no interest in worldly sorrow or regret (2 Corinthians 7:10). Esau did not grieve his sin; he grieved the loss of his blessing. He serves as a symbol of one who does not want God but only the blessings of God. Esau shed tears for the loss of his birthright, not tears that cried out for God's restoration. Esau's inclusion serves as a negative example that contrasts with the positive examples of faith in chapter 11 (Hebrews 12:12-17)</p>
+				<p class=\"quote\">Esau regretted what he did, but he did not truly repent. There is a crucial distinction between regret and repentance. God never rejects true repentance, but he has no interest in worldly sorrow or regret (2 Corinthians 7:10). Esau did not grieve his sin; he grieved the loss of his blessing. He serves as a symbol of one who does not want God but only the blessings of God. Esau shed tears for the loss of his birthright, not tears that cried out for God's restoration. Esau's inclusion serves as a negative example that contrasts with the positive examples of faith in chapter 11. (Hebrews 12:12-17)</p>
+				<h2 id=\"how-to-understand-Romans-ch9v13-where-god-hated-esau\">How to understand Romans 9:13, where God “hated” Esau?</h2>
+				<p>NIV Study Bible Notes (2011) provides two possible explanations to interpret that God “hated” Esau:</p>
+				<ol class=\"quote\">
+					<li>Equivalent to “Jacob I chose, but Esau I rejected”.
+					<li>“hate” meaning “love less”. (Romans 9:13)
+				</ol>
+				<p>Supporting option 1 above, in terms of pleasing God, the offering of Abel was accepted, while the one of Cain was rejected. In that sense, it could be said that “Abel was accepted”, while “Cain was rejected”. Genesis 4:6-7 says that ‘the Lord said to Cain, “Why are you angry? Why is your face downcast? If you do what is right, will you not be accepted?’ The obvious answer is “Yes”, if Cain had done what was right, he would have been accepted. Similarly, it is possible to think that Esau would not have been rejected if he had loved God with all his mind, heart, might and soul.</p>
+				<p>Option 2 listed above would go in the direction of using the passive meaning of “hate”. The same Hebrew שָׂנֵא śānē’ is used in Genesis 29:31 where the passage says that “the Lord saw that Leah was not loved”. In that instance, “not loved” could have been translated as “hated”. To illustrate the interpretation of “hate” as “love less”, it is possible to imagine a billionaire and a millionaire. Both would be wealthy, but in contrast, the millionaire would seem as being “poor” next to the billionaire. In the analogy, both Jacob and Esau would have been loved by God, but in contrast, Esau would seem as being “hated” by God when compared to the way God loved Jacob. That would be figurative language, specifically a hyperbole.</p>
+				<p>The same word “hate” is used in Luke 14:26: “If anyone comes to me and does not hate father and mother, wife and children, brothers and sisters -yes, even their own life- such a person cannot be my disciple.” This would be a hyperbole meaning that the love for Jesus must be even greater than the love for one’s family (NIV Study Bible Notes, 2011, Luke 14:26).</p>
+				<p>Malachi 1:3 says: “but Esau I have hated, and I have turned his hill country into a wasteland and left his inheritance to the desert jackals.” The word “hated” in that passage is translated according to (Zondervan, 2015) from the Hebrew שָׂנֵא śānē’, which has multiple meanings, some of which are:</p>
+				<ul class=\"quote\">
+					<li>“hate” can be active, as an enemy or adversary; or passive, as someone unloved or shunned
+					<li>am not loved 
+					<li>are shunned (śānē’)
+				</ul>
+				<p>To answer the question, “does God play favorites”, Zondervan (2019) explains two main schools of thought (Arminianism and Calvinism) regarding God’s election, before concluding that “The mystery of how God works in election is not easily resolved.”:</p>
             </div>\n";
 ?>
