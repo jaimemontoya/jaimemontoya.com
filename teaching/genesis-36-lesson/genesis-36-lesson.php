@@ -57,6 +57,6 @@
 				<p>In Hebrew, Edom literally means \"red\" (Zondervan, 2015). Referring to Esau, Genesis 25:25 says that \"The first to come out was red\". In Genesis 25:30, Esau asked Jacob to give him \"some of that red stew\". According to verse 30, \"That is why he was also called Edom.\" (’ᵉdôm).</p>
 				<p>Bolen (n.d.) shares a photography of the wilderness and mountains of Edom:</p>
 				<div><img src=\"/teaching/genesis-36-lesson/img/wildernessAndMountainsOfEdom.jpg\" alt=\"Wilderness and mountains of Edom\" width=\"624\" height=\"415\"></div>
-				<p>One theory says that the association between the kingdom of Edom and the word “red” took place before Esau controlled that region. According to that explanation, the name originated because of the red cliffs located in the area (Got Questions Ministries, n.d., What is the significance of Edom in the Bible?).</p>
+				<p>One theory says that the association between the kingdom of Edom and the word \"red\" took place before Esau controlled that region. According to that explanation, the name originated because of the red cliffs located in the area (Got Questions Ministries, n.d., What is the significance of Edom in the Bible?).</p>
             </div>\n";
 ?>
