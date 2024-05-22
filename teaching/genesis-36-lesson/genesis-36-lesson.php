@@ -30,7 +30,7 @@
 					<li><a href=\"#why-did-god-bless-esau-if-he-knew-that-the-edomites-would-not-return-the-favor-and-bless-israel-what-does-this-teach-readers-about-who-god-is-and-how-he-thinks-and-acts\">Why did God bless Esau if He knew that the Edomites would not \"return the favor\" and bless Israel? What does this teach readers about Who God is and How He thinks and acts? (36:6-8)</a>
 					<li><a href=\"#what-is-the-connection-between-esau-that-is-edom-and-seir\">What is the connection between Esau (that is, Edom), and Seir? (36:8-9; 36:20-21; 36:25; 36:30)</a>
 					<li><a href=\"#what-is-the-connection-between-esau-that-is-edom-and-the-amalekites\">What is the connection between Esau (that is, Edom), and the Amalekites? (36:12, 16)</a>
-					<li>Why two lists of chiefs? (36:15-19; 36:40-43)
+					<li><a href=\"#why-two-lists-of-chiefs\">Why two lists of chiefs? (36:15-19; 36:40-43)</a>
 					<li>How to interpret the Greek word βέβηλος bebēlos used in Hebrews 12:16 to describe Esau?
 					<li>How to understand Romans 9:13, where God \"hated\" Esau?
 				</ul>
@@ -105,6 +105,6 @@
 				<p>1 Chronicles 4:42-43 mentions that five hundred Simeonites invaded Seir and \"killed the remaining Amalekites\".</p>
 				<p>It is interesting to learn how God's wisdom ordered to kill the Amalekites. Saul disobeyed, showing \"mercy\" in their favor (in reality, Saul's motives were sinful). In return, future generations of Amalekites who survived were merciless against Israel, resulting in the \"threat of annihilation for all Jews\", as explained by Got Questions Ministries (n.d.):</p>
 				<p class=\"quote\">Haman was an Agagite and the son of Hammedatha. Haman was likely a descendent of Agag, king of the Amalekites, long-time enemies of the Jewish people. God had told King Saul to destroy the Amalekites centuries earlier (1 Samuel 15:3), but Saul failed to obey the command. His disobedience led to the loss of his kingdom and, in Esther's time, the threat of annihilation for all Jews. (Who was Haman the Agagite?)</p>
-				<p></p>
+				<h2 id=\"why-two-lists-of-chiefs\">Why two lists of chiefs? (36:15-19; 36:40-43)</h2>
             </div>\n";
 ?>
