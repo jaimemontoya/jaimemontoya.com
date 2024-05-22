@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"/teaching/genesis-36-lesson/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"book-genesis-36-lesson-img\"></div>
+					<div class=\"book-cover\" id=\"teaching-genesis-36-lesson-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Genesis 36 lesson</span>
