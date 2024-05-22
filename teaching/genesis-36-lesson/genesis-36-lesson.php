@@ -37,6 +37,6 @@
 				<h2 id=\"purpose-of-biblical-genealogies\">Purpose of biblical genealogies</h2>
 				<p>Geoghegan & Homan (2003) explain the purpose and meaning of biblical genealogies:</p>
 				<p class=\"quote\">The First (of Many) Biblical Genealogies (Genesis 5)</p>
-				<p class=\"quote\">WARNING. In Genesis 5, you encounter what is perhaps one of the most vicious, merciless creatures in the entire Bible. We refer, of course, to the dreaded \"who begat whom\" lists. Actually, you come across these genealogical monsters not only in Genesis 5, but in many places throughout the Bible, leading people to ask, “Why would the biblical authors waste so much precious space on such trivialities?” And perhaps more importantly, “Should I read them?”</p>
+				<p class=\"quote\">WARNING. In Genesis 5, you encounter what is perhaps one of the most vicious, merciless creatures in the entire Bible. We refer, of course, to the dreaded \"who begat whom\" lists. Actually, you come across these genealogical monsters not only in Genesis 5, but in many places throughout the Bible, leading people to ask, \"Why would the biblical authors waste so much precious space on such trivialities?\" And perhaps more importantly, \"Should I read them?\"</p>
             </div>\n";
 ?>
