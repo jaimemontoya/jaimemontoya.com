@@ -26,7 +26,7 @@
 					<li><a href=\"#how-could-moses-have-written-genesis-36\">How could Moses have written Genesis 36? (36:1-43)</a>
 					<li><a href=\"#why-was-esau-called-edom\">Why was Esau called Edom? (36:1)</a>
 					<li><a href=\"#why-did-esau-marry-canaanite-women\">Why did Esau marry Canaanite women? (36:2)</a>
-					<li><a href=\"#what-is-the-historic-and-prophetic-relationship-between-israel-and-edom>What is the historic and prophetic relationship between Israel and Edom (36:6-8)</a>
+					<li><a href=\"#what-is-the-historic-and-prophetic-relationship-between-israel-and-edom\">What is the historic and prophetic relationship between Israel and Edom (36:6-8)</a>
 					<li>Why did God bless Esau if He knew that the Edomites would not \"return the favor\" and bless Israel? What does this teach readers about Who God is and How He thinks and acts? (36:6-8)
 					<li>What is the connection between Esau (that is, Edom), and Seir? (36:8-9; 36:20-21; 36:25; 36:30)
 					<li>What is the connection between Esau (that is, Edom), and the Amalekites? (36:12, 16)
