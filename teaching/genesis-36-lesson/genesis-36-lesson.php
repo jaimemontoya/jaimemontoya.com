@@ -106,7 +106,7 @@
 				<p>It is interesting to learn how God's wisdom ordered to kill the Amalekites. Saul disobeyed, showing \"mercy\" in their favor (in reality, Saul's motives were sinful). In return, future generations of Amalekites who survived were merciless against Israel, resulting in the \"threat of annihilation for all Jews\", as explained by Got Questions Ministries (n.d.):</p>
 				<p class=\"quote\">Haman was an Agagite and the son of Hammedatha. Haman was likely a descendent of Agag, king of the Amalekites, long-time enemies of the Jewish people. God had told King Saul to destroy the Amalekites centuries earlier (1 Samuel 15:3), but Saul failed to obey the command. His disobedience led to the loss of his kingdom and, in Esther's time, the threat of annihilation for all Jews. (Who was Haman the Agagite?)</p>
 				<h2 id=\"why-two-lists-of-chiefs\">Why two lists of chiefs? (36:15-19; 36:40-43)</h2>
-				<table>
+				<table class=\"nested-ordered-list\">
 					<tr>
 						<th>List 1 (36:15-19)</th>
 						<th>List 2 (36:40-43)</th>

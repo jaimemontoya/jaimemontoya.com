@@ -18,6 +18,9 @@ a[href^=tel]{color:black!important;font:inherit!important}
 .red{color:#f00}
 pre{padding:2px;background-color:#00f;color:#fff;border:1px solid #fff}
 hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
+.nested-ordered-list ol{counter-reset:item}
+.nested-ordered-list li{display:block}
+.nested-ordered-list li:before{content:counters(item, ".") " ";counter-increment: item}
 .black{color:#0f0!important}
 .white{color:#fff}
 .bold{font-weight:bold!important}
