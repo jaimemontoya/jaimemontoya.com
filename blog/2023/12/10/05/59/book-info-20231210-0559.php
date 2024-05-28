@@ -288,5 +288,9 @@ Processing triggers for libc-bin (2.31-0ubuntu9.9) ...
 Processing triggers for php7.4-cli (7.4.3-4ubuntu2.22) ...
 root@unionchurchss:~#
 </pre>
+		   <p>I installed Apache:</p>
+<pre>
+
+</pre>
 		   <div>Published: 5:59 AM GMT · Dec 10, 2023</div>\n";
 ?>
