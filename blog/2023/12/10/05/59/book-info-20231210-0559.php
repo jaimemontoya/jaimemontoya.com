@@ -469,6 +469,22 @@ Apache (v6)                ALLOW       Anywhere (v6)
 OpenSSH (v6)               ALLOW       Anywhere (v6)             
 Apache Full (v6)           ALLOW       Anywhere (v6)
 </pre>
-		   <p>I found my <span class=\"cod\">ipv4</span>:</p><div><img src=\"/blog/2023/12/10/05/59/img/ipv4.jpg\" alt=\"ipv4\" width=\"1140\" height=\"364\"></div><p>I verified that everything went as planned by visiting <a href=\"http://159.203.42.1/\">http://159.203.42.1/</a>:</p><div><img src=\"/blog/2023/12/10/05/59/img/verifySuccessfulInstallationOfApache.jpg\" alt=\"Verify successful installation of Apache\" width=\"1782\" height=\"1027\"></div>
+		   <p>I found my <span class=\"cod\">ipv4</span>:</p><div><img src=\"/blog/2023/12/10/05/59/img/ipv4.jpg\" alt=\"ipv4\" width=\"1140\" height=\"364\"></div><p>I verified that everything went as planned by visiting <a href=\"http://159.203.42.1/\">http://159.203.42.1/</a>:</p><div><img src=\"/blog/2023/12/10/05/59/img/verifySuccessfulInstallationOfApache.jpg\" alt=\"Verify successful installation of Apache\" width=\"1782\" height=\"1027\"></div><p>In order to make Apache look for an <span class=\"cod\">index.php</span> file first, I applied the following change:</p>
+<pre>
+root@unionchurchss:~# cd /etc/apache2/mods-enabled/
+root@unionchurchss:/etc/apache2/mods-enabled# cat dir.conf
+<IfModule mod_dir.c>
+        DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index                                                                                                                                                             .htm
+</IfModule>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+root@unionchurchss:/etc/apache2/mods-enabled# pico dir.conf
+root@unionchurchss:/etc/apache2/mods-enabled# cat dir.conf
+<IfModule mod_dir.c>
+        DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
+</IfModule>
+
+# vim: syntax=apache ts=4 sw=4 sts=4 sr noet
+</pre>
 		   <div>Published: 5:59 AM GMT · Dec 10, 2023</div>\n";
 ?>
