@@ -502,6 +502,6 @@ root@unionchurchss:/etc/apache2/mods-enabled# systemctl status apache2
              ├─19858 /usr/sbin/apache2 -k start
              └─19859 /usr/sbin/apache2 -k start
 </pre>
-		   <p>I clicked <span class=\"cod\">Add Domain</span> to register <span class=\"cod\">unionchurchss.org</span> as one of my domains in the DigitalOcean Networking section:</p><div><img src=\"/blog/2023/12/10/05/59/img/addDomain.jpg\" alt=\"Add Domain\" width=\"1573\" height=\"659\"></div><p>The following <span class=\"cod\">NS</span> records were created:</p><div><img src=\"/blog/2023/12/10/05/59/img/successfulCreationOfNSRecords.jpg\" alt=\"Successful creation of NS records\" width=\"1375\" height=\"974\"></div>
+		   <p>I clicked <span class=\"cod\">Add Domain</span> to register <span class=\"cod\">unionchurchss.org</span> as one of my domains in the DigitalOcean Networking section:</p><div><img src=\"/blog/2023/12/10/05/59/img/addDomain.jpg\" alt=\"Add Domain\" width=\"1573\" height=\"659\"></div><p>The following <span class=\"cod\">NS</span> records were created:</p><div><img src=\"/blog/2023/12/10/05/59/img/successfulCreationOfNSRecords.jpg\" alt=\"Successful creation of NS records\" width=\"1375\" height=\"974\"></div><p>I did the same for <span class=\"cod\">jaimemontoya.org</span>:</p><div><img src=\"/blog/2023/12/10/05/59/img/addDomainJaimemontoyaDotOrg.jpg\" alt=\"Add Domain jaimemontoya.org\" width=\"1506\" height=\"977\"></div>
 		   <div>Published: 5:59 AM GMT · Dec 10, 2023</div>\n";
 ?>
