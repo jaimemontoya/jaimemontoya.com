@@ -486,6 +486,21 @@ root@unionchurchss:/etc/apache2/mods-enabled# cat dir.conf
 
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 </pre>
-		   <p>I restarted the Apache web server: <span class=\"cod\">systemctl restart apache2</span>.</p>
+		   <p>I restarted the Apache web server: <span class=\"cod\">systemctl restart apache2</span>. Then I checked on the status of the <span class=\"cod\">apache2</span> service:</p>
+<pre>
+root@unionchurchss:/etc/apache2/mods-enabled# systemctl status apache2
+● apache2.service - The Apache HTTP Server
+     Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+     Active: active (running) since Wed 2024-05-29 00:16:42 UTC; 52min ago
+       Docs: https://httpd.apache.org/docs/2.4/
+    Process: 19842 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+   Main PID: 19857 (apache2)
+      Tasks: 55 (limit: 1131)
+     Memory: 5.7M
+     CGroup: /system.slice/apache2.service
+             ├─19857 /usr/sbin/apache2 -k start
+             ├─19858 /usr/sbin/apache2 -k start
+             └─19859 /usr/sbin/apache2 -k start
+</pre>
 		   <div>Published: 5:59 AM GMT · Dec 10, 2023</div>\n";
 ?>
