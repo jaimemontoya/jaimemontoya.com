@@ -473,16 +473,16 @@ Apache Full (v6)           ALLOW       Anywhere (v6)
 <pre>
 root@unionchurchss:~# cd /etc/apache2/mods-enabled/
 root@unionchurchss:/etc/apache2/mods-enabled# cat dir.conf
-<IfModule mod_dir.c>
-        DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index                                                                                                                                                             .htm
-</IfModule>
+&lt;IfModule mod_dir.c&gt;
+        DirectoryIndex index.html index.cgi index.pl index.php index.xhtml index.htm
+&lt;/IfModule&gt;
 
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 root@unionchurchss:/etc/apache2/mods-enabled# pico dir.conf
 root@unionchurchss:/etc/apache2/mods-enabled# cat dir.conf
-<IfModule mod_dir.c>
+&lt;IfModule mod_dir.c&gt;
         DirectoryIndex index.php index.html index.cgi index.pl index.xhtml index.htm
-</IfModule>
+&lt;/IfModule&gt;
 
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 </pre>
