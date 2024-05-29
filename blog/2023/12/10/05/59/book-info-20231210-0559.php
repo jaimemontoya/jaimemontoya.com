@@ -469,6 +469,6 @@ Apache (v6)                ALLOW       Anywhere (v6)
 OpenSSH (v6)               ALLOW       Anywhere (v6)             
 Apache Full (v6)           ALLOW       Anywhere (v6)
 </pre>
-		   <p>I found my <span class=\"cod\">ipv4</span>:</p><div><img src=\"/blog/2023/12/10/05/59/img/ipv4.jpg\" alt=\"ipv4\" width=\"1140\" height=\"364\"></div>
+		   <p>I found my <span class=\"cod\">ipv4</span>:</p><div><img src=\"/blog/2023/12/10/05/59/img/ipv4.jpg\" alt=\"ipv4\" width=\"1140\" height=\"364\"></div><p>I verified that everything went as planned by visiting <a href=\"http://159.203.42.1/\">http://159.203.42.1/</a>:</p><div><img src=\"/blog/2023/12/10/05/59/img/verifySuccessfulInstallationOfApache.jpg\" alt=\"Verify successful installation of Apache\" width=\"1782\" height=\"1027\"></div>
 		   <div>Published: 5:59 AM GMT · Dec 10, 2023</div>\n";
 ?>
