@@ -486,5 +486,6 @@ root@unionchurchss:/etc/apache2/mods-enabled# cat dir.conf
 
 # vim: syntax=apache ts=4 sw=4 sts=4 sr noet
 </pre>
+		   <p>I restarted the Apache web server: <span class=\"cod\">systemctl restart apache2</span>.</p>
 		   <div>Published: 5:59 AM GMT · Dec 10, 2023</div>\n";
 ?>
