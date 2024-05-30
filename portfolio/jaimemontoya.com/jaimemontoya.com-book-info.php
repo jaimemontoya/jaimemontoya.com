@@ -1,5 +1,5 @@
 <?php
-  $portfolio->content .= 
+  $index->content .= 
            "\t\t\t<a href=\"https://jaimemontoya.com\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
 					<div class=\"book-cover\" id=\"jaimemontoya.com-img\"></div>
