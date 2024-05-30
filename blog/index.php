@@ -1,7 +1,7 @@
 <?php
   require("../page.php");
   $index = new Page();
-  $index->title = "Software technical documentation blog for myself and the world";
+  $index->title = "Blog";
   $index->metaDescription = "Jaime Montoya's blog featuring software technical documentation related to web hosting, web development, data analysis, and data migration.";
   $index->content .= "<h1>Blog</h1><p>Software technical documentation blog for myself and the world</p>";
   require("2024/05/03/16/18/20240503-1618-book-info.php");
