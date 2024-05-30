@@ -8,7 +8,7 @@ class Page
   public $metaDescription = "jaimemontoya.com, Jaime Montoya's Personal Home Page, featuring software technical documentation blog, and one-page resume.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
   public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-solid fa-blog\"></i>" => "/blog/", "<i class=\"fa-solid fa-address-card\"></i>" => "/about/");
-  public $parentPages = array("Portfolio" => "/portfolio/", "Blog" => "/blog/");
+  public $parentPages = array("Coursera" => "/coursera/", "Weight" => "/weight/", "Running" => "/run/", "Book reviews" => "/book/", "Blog" => "/blog/", "Capital" => "/capital/", "Teaching" => "/teaching/");
   public function __set($name, $value)
   {
     $this->$name = $value;
@@ -81,7 +81,7 @@ class Page
   public function DisplayHeader()
   {
     echo "\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"jaimemontoya.com\">jaimemontoya.com</a>\n\t\t\t</div>\n";
-    $this -> DisplayMenu($this->buttons);
+    // $this -> DisplayMenu($this->buttons);
     echo "\t\t</header>\n";
   }
   public function DisplayMenu($buttons)
@@ -112,6 +112,10 @@ class Page
   public function DisplayFooter()
   {
     echo "\t\t<footer>\n\t\t\t<div>\n\t\t\t<a href=\"#\">Back to top</a>\n\t\t\t</div>\n\t\t</footer>\n";
+  }
+  public function BookReviewsBibliography()
+  {
+    return "\t\t<div class=\"margintop15\">* Book review template obtained from \"Motta-Roth, D. (1998), Discourse analysis and academic book reviews: A study of text and disciplinary cultures. In 1. Fartanet, S. Posteguillo, J.C. Palmer, and J. F. Coli (Eds.), <span class=\"italic\">Genre studies in English for academic purposes</span> (pp. 29-58). Castello, Spain: Universitat Jaume I.\"</div>";
   }
 }
 ?>

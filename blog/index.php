@@ -1,9 +1,15 @@
 <?php
   require("../page.php");
   $index = new Page();
-  $index->title = "Software technical documentation blog for myself and the world";
+  $index->title = "Blog";
   $index->metaDescription = "Jaime Montoya's blog featuring software technical documentation related to web hosting, web development, data analysis, and data migration.";
-  $index->content .= "<h1>Software technical documentation blog for myself and the world</h1>";
+  $index->content .= "<h1>Blog</h1><p>Software technical documentation blog for myself and the world.</p>";
+  require("2024/05/03/16/18/20240503-1618-book-info.php");
+  require("2024/04/22/20/51/20240422-2051-book-info.php");
+  require("2024/03/15/11/53/20240315-1153-book-info.php");
+  require("2024/01/17/02/52/20240117-0252-book-info.php");
+  require("2024/01/16/02/10/20240116-0210-book-info.php");
+  require("2024/01/16/01/50/20240116-0150-book-info.php");
   require("2024/01/12/06/49/20240112-0649-book-info.php");
   require("2024/01/11/06/15/20240111-0615-book-info.php");
   require("2023/12/31/06/14/20231231-0614-book-info.php");
