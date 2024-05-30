@@ -58,7 +58,7 @@ class WeightPage extends Page
 	echo "\t\t\t\t\t['2021',59.25],\n";
 	echo "\t\t\t\t\t['2022',57.4],\n";
 	echo "\t\t\t\t\t['2023',57.43],\n";
-	echo "\t\t\t\t\t['2024',56.56]\n";
+	echo "\t\t\t\t\t['2024',56.71]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s weight history by year'};\n";
@@ -78,7 +78,7 @@ class WeightPage extends Page
 	echo "\t\t\t\t\t['Feb',56.19],\n";
 	echo "\t\t\t\t\t['Mar',57.44],\n";
 	echo "\t\t\t\t\t['Apr',57.17],\n";
-	echo "\t\t\t\t\t['May',56.1]\n";
+	echo "\t\t\t\t\t['May',57.02]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s 2024 weight history by month'};\n";
