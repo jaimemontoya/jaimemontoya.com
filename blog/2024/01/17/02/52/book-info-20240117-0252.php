@@ -8,6 +8,7 @@ import static android.content.ContentValues.TAG;
 import com.facebook.CallbackManager;
 public class SignIn ...{
   private CallbackManager callbackManager;
+  private static final String EMAIL = \"email\";
   ...
   protected void onCreate(...){
     ...
