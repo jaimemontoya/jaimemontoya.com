@@ -27,12 +27,12 @@ public class SignIn ...{
       public void onCancel() {
         // App code
       }
-	  @Override
-	  public void onError(@NonNull FacebookException e) {
-	    // App code
-	    e.printStackTrace();
-	  }
-	});
+      @Override
+      public void onError(@NonNull FacebookException e) {
+        // App code
+        e.printStackTrace();
+      }
+    });
     ...
   }
   @Override
