@@ -20,7 +20,7 @@ public class SignIn ...{
 	fbLoginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
 	  @Override
 	  public void onSuccess(LoginResult loginResult) {
-	    // App code
+        // App code
         handleFacebookAccessToken(loginResult.getAccessToken());
 	  }
 	  @Override
