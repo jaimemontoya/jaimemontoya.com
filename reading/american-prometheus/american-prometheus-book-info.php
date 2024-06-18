@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "\t\t\t<a href=\"/book/american-prometheus/\"><div class=\"book\">
+           "\t\t\t<div class=\"book\">
 				<div class=\"book-thumbnail\">
 					<div class=\"book-cover\" id=\"book-american-prometheus-img\"></div>
 				</div>
@@ -8,5 +8,5 @@
 		            <span>American Prometheus: The Inspiration for the Major Motion Picture OPPENHEIMER</span>
 					<p>By Kai Bird, Martin J. Sherwin. <mark>Book 58 read by Jaime Montoya</mark> from 12:29 PM August 19, 2023 to 9:08 PM October 3, 2023 GMT.</p>
                 </div>
-            </div></a>\n";
+            </div>\n";
 ?>
