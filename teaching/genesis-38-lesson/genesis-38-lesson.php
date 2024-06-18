@@ -56,10 +56,49 @@
 				<div><img src=\"/teaching/genesis-38-lesson/img/inheritanceWithErDeadHonoringLevirateMarriageResponsibility.jpg\" alt=\"Inheritance with Er dead honoring levirate marriage responsibility\" width=\"418\" height=\"307\"></div>
 				<div><img src=\"/teaching/genesis-38-lesson/img/inheritanceWithErDeadDishonoringLevirateMarriageResponsibility.jpg\" alt=\"Inheritance with Er dead dishonoring levirate marriage responsibility\" width=\"380\" height=\"308\"></div>
 				<div><img src=\"/teaching/genesis-38-lesson/img/inheritanceWithErAndOnanDeadDishonoringLevirateMarriageResponsibility.jpg\" alt=\"Inheritance with Er and Onan dead dishonoring levirate marriage responsibility\" width=\"435\" height=\"308\"></div>
-				
-				
-				
-				
+				<h2 id=\"where-did-judah-find-his-wife\">Where did Judah find his wife? (38:1-2)</h2>
+				<p>Shua, whose name means “prosperity” (Zondervan, 2015, šûa), was the father of the unnamed daughter who married Judah. Shua was a Canaanite and the city where Judah and Shua’s daughter met is Adullam.</p>
+				<p>Adullam is one of the thirty-six cities mentioned in Joshua 12 as part of the list of the kings of the “list of the kings of the land that Joshua and the Israelites conquered” (Joshua 12:7-24). David escaped to a cave in Adullam when he was hiding from Saul who wanted to kill him (1 Samuel 22:1). </p>
+				<h2 id=\"wicked-associations-resulting-in-spiritual-contamination\">Wicked associations resulting in spiritual contamination (38:1-2, 12, 20-22)</h2>
+				<p>Waldrip (n.d.) emphasizes that Judah made a poor spiritual decision with catastrophic consequences by establishing a long friendship with Hirah, a nonbeliever. Judah married a Canaanite wife and when she died, Hirah was again with Judah when his time of mourning was ended. He is also mentioned as a friend of Judah in charge of sending a young goat to Tamar the “prostitute”. It can be implied that Judah and Hirah were friends for a long time (Judah’s friend Hirah).</p>
+				<p>By marrying the daughter of and idolater, Judah would have profaned the holy desires of God and betrayed the way of his father Jacob, a sin portrayed in Malachi 2:11 (Kadari, n.d., Shua's daughter: Midrash and Aggadah):</p>
+				<p class=\"quote\">Judah has been unfaithful. A detestable thing has been committed in Israel and in Jerusalem: Judah has desecrated the sanctuary the Lord loves by marrying women who worship a foreign god.</p>
+				<h2 id=\"giving-names-to-each-of-their-children\">Giving names to each of their children (38:3-5)</h2>
+				<p>Zonvervan (2014) asks: “An absentee father? Where was Judah in the naming of his children?” The suspicion comes from the fact that Judah named his firstborn Er, but the one who gave names to Onan and Shelah was Shua (Judah’s wife). It appears as if Judah was neglecting his duties as a father. (Genesis 38:4-5).</p>
+				<p>Zondervan (2015) provides the meaning of the names of each of Judah’s sons:</p>
+				<ul class=\"quote\">
+					<li>Er: “watchful, watcher” (ʽēr)
+					<li>Onan: “powerful, intense” (’ônān)
+					<li>Shelah: “missile [a weapon], sprout” (šēlâ)
+				</ul>
+				<h2 id=\"why-did-judah-fear-that-shelah-could-experience-the-same-fate-as-his-brothers\">Why did Judah fear that Shelah could experience the same fate as his brothers? (38:11)</h2>
+				<p>Walton (2001) offers two possible reasons of why Judah feared that his third son Shelah might also die, following the death pattern of Judah’s first and second sons, Er and Onan:</p>
+				<ol class=\"quote\">
+					<li>Recognition that the deaths of his sons may well be punishment for his treatment of Joseph give plausibility to his fear that his last son, Shelah, will meet the same fate as his brothers.
+					<li>Women who seemed prone to become widows were in danger of being suspected of witchcraft. (Judah’s problem: Genesis 38:1 – 11).
+				</ol>
+				<p>In case of the second of the options above being the true reason for Judah’s fear, it is plausible to believe that Judah was blaming Tamar as responsible for the deaths of his first two sons Er and Onan, possibly trying to ignore or being blind to the fact that his sons who died were wicked before God.</p>
+				<p>Evans (2019) believes that Judah’s refusal to arrange marriage between Shelah and Tamar seemed to be because Judah blamed Tamar for the deaths of Er and Onan (Genesis 38:11).</p>
+				<h2 id=\"reputation-with-men-versus-good-standing-with-god\">Reputation with men versus good standing with God (38:12-23)</h2>
+				<p>In terms of his name or reputation, Judah did not seem to be proud of what he did concerning having a sexual encounter with someone who was, in his mind, a temple prostitute. In Genesis 38:23, English Standard Version, Judah says: “Let her keep the things as her own, or we shall be laughed at.” Henry (1811) provides two possible interpretations for “lest we be shamed” in verse 23:</p>
+				<ol class=\"quote\">
+					<li>Lest his sin should come to be known publicly, and be talked of. Fornication and uncleanness have ever been looked upon as scandalous things and the reproach and shame of those that are convicted of them. Nothing will make those blush that are not ashamed of these.
+					<li>Lest he should be laughed at as a fool for trusting a strumpet with his signet and his bracelets. He expresses no concern about the sin, to get that pardoned, only about the shame, to prevent that. Note, There are many who are more solicitous to preserve their reputation with men than to secure the favour of God and a good conscience; lest we be shamed goes further with them than lest we be damned. (Genesis 38:12-23).
+				</ol>
+				<p>Ironically, Judah seemed to be concerned about his reputation. (Thomas Nelson, 2002, Genesis 38:23).</p>
+				<p>As a lesson to learn from the story, after his sexual encounter with Tamar, Judah seemed more interested in protecting his reputation with men than repenting to have a good standing with God. Fortunately, unlike Er and Onan, it can be inferred that Judah repented from his sin once it was exposed. He admitted being wrong, and abandoned sexual sin with Tamar, as expressed in Genesis 38:26: 'Judah recognized them and said, “She is more righteous than I, since I wouldn’t give her to my son Shelah.” And he did not sleep with her again.'</p>
+				<h2 id=\"what-kind-of-prostitute-did-tamar-pretend-to-be\">What kind of prostitute did Tamar pretend to be? (38:21)</h2>
+				<p>Crossway Bibles (2005) explains that the Hebrew used in Genesis 38:21 when referring to Tamar as a “cult prostitute”, means “sacred woman; a woman who served a pagan deity by prostitution.” (Genesis 38:21, p. 32).</p>
+				<p>Tamar “dressed and acted like a Canaanite temple prostitute” (Thomas Nelson, 2017, p. 79).</p>
+				<h2 id=\"did-god-also-kill-shelah\">Did God also kill Shelah? (38:26)</h2>
+				<p>The last time in Genesis 38 where Shelah is mentioned is in verse 26. Nonetheless, Shelah is mentioned in 1 Chronicles 4:21-23, including the list of his sons. This reveals that Shelah eventually married and was not killed by God the way his brothers Er and Onan were. It is interesting to notice that Er was the name of one of Shelah's sons, presumably the firstborn because he is listed first in 1 Chronicles 4:21. It was not Shelah’s fault that he did not practice levirate marriage with Tamar. It could be a possibility that naming his son Er, was a way to honor his deceased brother Er. Regardless, the Messianic genealogy comes from Judah and Tamar, not from Shelah.</p>
+				<h2 id=\"pattern-of-second-son-being-greater-than-the-firstborn\">Pattern of second son being greater than the firstborn (38:27-30)</h2>
+				<p>As Tamar was giving birth, Zerah came out first by putting out his hand. Nonetheless, Zerah drew back his hand and his brother Perez came out. They were twin boys.</p>
+				<p>Perez's name originates from the midwife's exclamation that he had made a “breakthrough”. No reason is provided for Zerah's name (Tan, 2017, p. 113).</p>
+				<p>The pattern of “the second son being greater than the firstborn” is found several times in the Bible. For example, Cain and Abel, Ishmael and Isaac, Esau and Jacob, and Manasseh and Ephraim.</p>
+				<p>The genealogy of Zerah, whose name means “dawning, shining or flashing [red or scarlet] light” (Zondervan, 2015, zeraḥ),  appears in 1 Chronicles 2:6. The sons of Perez, whose name means “breaking out” (Zondervan, 2015, pereṣ),  are mentioned in 1 Chronicles 2:5.</p>
+				<p>1 Chronicles 2:7 mentions Karmi as the father of Achar. Joshua 7:1 also refers to both Karmi and Achar, even though in Joshua the name is spelled Achan (using the New International Version). Both passages are referring to the same persons. It is also revealed in Joshua 7:1 that Achar comes from Zerah, son of Judah. Sadly, Achar’s sin described in Joshua 7, produced God’s fierce anger and the people of Israel stoned him to death as God’s judgement against Achar.</p>
+				<p>The line of Christ is found in the genealogy of Perez, as revealed in 1 Chronicles 2:5, 9-16.</p>
 				<h2 class=\"center\">References</h2>
 				<div id=\"references\">
 					<p>Crossway Bibles. (2005). <em>The Holy Bible. Life Discovery Bible. ESV.</em></p>
