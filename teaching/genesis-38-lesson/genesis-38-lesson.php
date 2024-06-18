@@ -52,6 +52,11 @@
 				<p>Frymer-Kensky (n.d.) provides a financial explanation of what could have motivated Onan to forsake his levirate marriage responsibility:</p>
 				<p class=\"quote\">According to inheritance customs, the estate of Judah, who had three sons, would be divided into four equal parts, with the eldest son acquiring one half and the others one fourth each. A child engendered for Er would inherit at least one fourth and possibly one half (as the son of the firstborn). If Er remained childless, then Judah’s estate would be divided into three, with the eldest, most probably Onan, inheriting two thirds. Onan opts to preserve his financial advantage and interrupts coitus with Tamar, spilling his semen on the ground. For this, God punishes Onan with death, as God had previously punished Er for doing something wicked. (Tamar: Bible).</p>
 				<p>The following pie charts provide a way to visualize the distribution of the inheritance in different scenarios presented in Genesis 38:</p>
+				<div><img src=\"/teaching/genesis-38-lesson/img/inheritanceWithEveryoneAlive.jpg\" alt=\"Inheritance with everyone alive\" width=\"397\" height=\"308\"></div>
+				<div><img src=\"/teaching/genesis-38-lesson/img/inheritanceWithErDeadHonoringLevirateMarriageResponsibility.jpg\" alt=\"Inheritance with Er dead honoring levirate marriage responsibility\" width=\"418\" height=\"307\"></div>
+				<div><img src=\"/teaching/genesis-38-lesson/img/inheritanceWithErDeadDishonoringLevirateMarriageResponsibility.jpg\" alt=\"Inheritance with Er dead dishonoring levirate marriage responsibility\" width=\"380\" height=\"308\"></div>
+				<div><img src=\"/teaching/genesis-38-lesson/img/inheritanceWithErAndOnanDeadDishonoringLevirateMarriageResponsibility.jpg\" alt=\"Inheritance with Er and Onan dead dishonoring levirate marriage responsibility\" width=\"435\" height=\"308\"></div>
+				
 				
 				
 				
