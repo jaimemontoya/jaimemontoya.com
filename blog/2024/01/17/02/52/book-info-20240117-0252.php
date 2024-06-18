@@ -18,8 +18,8 @@ public class SignIn ...{
     fbLoginButton = (LoginButton) findViewById(R.id.fbLoginButton);
     fbLoginButton.setReadPermissions(Arrays.asList(EMAIL));
     fbLoginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
-	  @Override
-	  public void onSuccess(LoginResult loginResult) {
+      @Override
+      public void onSuccess(LoginResult loginResult) {
         // App code
         handleFacebookAccessToken(loginResult.getAccessToken());
 	  }
