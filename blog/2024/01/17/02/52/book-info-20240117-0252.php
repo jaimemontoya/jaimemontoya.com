@@ -11,13 +11,13 @@ import com.facebook.CallbackManager;
 public class SignIn ...{
   private CallbackManager callbackManager;
   private static final String EMAIL = \"email\";
-  private LoginButton loginButton;
+  private LoginButton fbLoginButton;
   ...
   protected void onCreate(...){
     ...
 	callbackManager = CallbackManager.Factory.create();
-	loginButton = (LoginButton) findViewById(R.id.fbLoginButton);
-	loginButton.setReadPermissions(Arrays.asList(EMAIL));
+	fbLoginButton = (LoginButton) findViewById(R.id.fbLoginButton);
+	fbLoginButton.setReadPermissions(Arrays.asList(EMAIL));
     ...
   }
 }
@@ -30,8 +30,7 @@ public class SignIn ...{
     android:layout_height=\"wrap_content\"
     android:layout_gravity=\"center_horizontal\"
     android:layout_marginTop=\"20dp\"
-    android:layout_marginBottom=\"20dp\"
-    android:onClick=\"performFBLogin\" /&gt;
+    android:layout_marginBottom=\"20dp\" /&gt;
 </pre>
 		   <div>Published: 2:52 AM GMT · Jan 17, 2024</div>\n";
 ?>
