@@ -42,7 +42,7 @@ public class SignIn ...{
   }
   ...
   private void handleFacebookAccessToken(AccessToken token) {
-	System.out.println(\"Facebook AccessToken: \"+token);
+    System.out.println(\"Facebook AccessToken: \"+token);
   }
   ...
 }
