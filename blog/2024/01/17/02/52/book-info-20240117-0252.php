@@ -22,11 +22,11 @@ public class SignIn ...{
       public void onSuccess(LoginResult loginResult) {
         // App code
         handleFacebookAccessToken(loginResult.getAccessToken());
-	  }
-	  @Override
-	  public void onCancel() {
-	    // App code
-	  }
+      }
+      @Override
+      public void onCancel() {
+        // App code
+      }
 	  @Override
 	  public void onError(@NonNull FacebookException e) {
 	    // App code
