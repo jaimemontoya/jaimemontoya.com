@@ -3,7 +3,6 @@
            "<p>I completed the first 8 steps of the <span class=\"cod\">Facebook Login for Android - Quickstart</span> available at <a href=\"https://developers.facebook.com/docs/facebook-login/android/\">https://developers.facebook.com/docs/facebook-login/android/</a>. After that, I continued with the remaining steps shared below.</p><p>I added the following code to my <span class=\"cod\">SignIn.java</span> file:</p>
 <pre>
 package ...;
-import static android.content.ContentValues.TAG;
 ...
 import java.util.Arrays;
 ...
@@ -18,8 +17,34 @@ public class SignIn ...{
 	callbackManager = CallbackManager.Factory.create();
 	fbLoginButton = (LoginButton) findViewById(R.id.fbLoginButton);
 	fbLoginButton.setReadPermissions(Arrays.asList(EMAIL));
+	fbLoginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+	  @Override
+	  public void onSuccess(LoginResult loginResult) {
+	    // App code
+		handleFacebookAccessToken(loginResult.getAccessToken());
+	  }
+	  @Override
+	  public void onCancel() {
+	    // App code
+	  }
+	  @Override
+	  public void onError(@NonNull FacebookException e) {
+	    // App code
+	    e.printStackTrace();
+	  }
+	});
     ...
   }
+  @Override
+  protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    callbackManager.onActivityResult(requestCode, resultCode, data);
+	super.onActivityResult(requestCode, resultCode, data);
+  }
+  ...
+  private void handleFacebookAccessToken(AccessToken token) {
+	System.out.println(\"Facebook AccessToken: \"+token);
+  }
+  ...
 }
 </pre>
 		   <p>I added the following code to my <span class=\"cod\">sign_in.xml</span> file:</p>
