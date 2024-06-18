@@ -21,7 +21,7 @@ public class SignIn ...{
 	  @Override
 	  public void onSuccess(LoginResult loginResult) {
 	    // App code
-		handleFacebookAccessToken(loginResult.getAccessToken());
+        handleFacebookAccessToken(loginResult.getAccessToken());
 	  }
 	  @Override
 	  public void onCancel() {
