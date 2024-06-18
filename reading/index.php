@@ -5,6 +5,7 @@
   $index->metaDescription = "Listing all of the books read by Jaime Montoya from cover to cover.";
   $index->content .= "<h1>Reading</h1><p>Listing all of the books I have read from cover to cover.</p>";
   require("american-prometheus/american-prometheus-book-info.php");
+  require("wordpress-5-complete/wordpress-5-complete-book-info.php");
   require("the-power-of-habit/the-power-of-habit-book-info.php");
   require("niv-gospel-john-devotional-notes/niv-gospel-john-devotional-notes-book-info.php");
   require("the-logic-of-god/the-logic-of-god-book-info.php");
