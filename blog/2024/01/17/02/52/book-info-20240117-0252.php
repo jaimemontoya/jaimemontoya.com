@@ -5,6 +5,8 @@
 package ...;
 import static android.content.ContentValues.TAG;
 ...
+import java.util.Arrays;
+...
 import com.facebook.CallbackManager;
 public class SignIn ...{
   private CallbackManager callbackManager;
@@ -15,6 +17,7 @@ public class SignIn ...{
     ...
 	callbackManager = CallbackManager.Factory.create();
 	loginButton = (LoginButton) findViewById(R.id.fbLoginButton);
+	loginButton.setReadPermissions(Arrays.asList(EMAIL));
     ...
   }
 }
