@@ -19,5 +19,16 @@ public class SignIn ...{
   }
 }
 </pre>
+		   <p>I added the following code to my <span class=\"cod\">sign_in.xml</span> file:</p>
+<pre>
+<com.facebook.login.widget.LoginButton
+    android:id=\"@+id/fbLoginButton\"
+    android:layout_width=\"wrap_content\"
+    android:layout_height=\"wrap_content\"
+    android:layout_gravity=\"center_horizontal\"
+    android:layout_marginTop=\"20dp\"
+    android:layout_marginBottom=\"20dp\"
+    android:onClick=\"performFBLogin\" />
+</pre>
 		   <div>Published: 2:52 AM GMT · Jan 17, 2024</div>\n";
 ?>
