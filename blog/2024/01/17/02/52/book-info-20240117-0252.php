@@ -14,10 +14,10 @@ public class SignIn ...{
   ...
   protected void onCreate(...){
     ...
-	callbackManager = CallbackManager.Factory.create();
-	fbLoginButton = (LoginButton) findViewById(R.id.fbLoginButton);
-	fbLoginButton.setReadPermissions(Arrays.asList(EMAIL));
-	fbLoginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+    callbackManager = CallbackManager.Factory.create();
+    fbLoginButton = (LoginButton) findViewById(R.id.fbLoginButton);
+    fbLoginButton.setReadPermissions(Arrays.asList(EMAIL));
+    fbLoginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
 	  @Override
 	  public void onSuccess(LoginResult loginResult) {
         // App code
