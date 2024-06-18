@@ -38,7 +38,7 @@ public class SignIn ...{
   @Override
   protected void onActivityResult(int requestCode, int resultCode, Intent data) {
     callbackManager.onActivityResult(requestCode, resultCode, data);
-	super.onActivityResult(requestCode, resultCode, data);
+    super.onActivityResult(requestCode, resultCode, data);
   }
   ...
   private void handleFacebookAccessToken(AccessToken token) {
