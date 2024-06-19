@@ -5,6 +5,7 @@
   $index->metaDescription = "Listing all of the books read by Jaime Montoya from cover to cover since August 31, 2018.";
   $index->content .= "<h1>Reading</h1><p>Listing all of the books I have read from cover to cover since August 31, 2018.</p>";
   require("american-prometheus/american-prometheus-book-info.php");
+  require("the-7-habits-of-highly-effective-people/the-7-habits-of-highly-effective-people-book-info.php");
   require("how-not-to-diet/how-not-to-diet-book-info.php");
   require("fire-in-the-valley/fire-in-the-valley-book-info.php");
   require("the-accidental-billionaires/the-accidental-billionaires-book-info.php");
