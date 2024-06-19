@@ -1,5 +1,5 @@
 <?php
-  require("../page.php");
+  require("../../page.php");
   $index = new Page();
   $index->title = "The Pilgrim's Progress: A Readable Modern-Day Version of John Bunyan’s Pilgrim’s Progress";
   $index->metaDescription = "The story chronicles the epic adventure of a man named Christian who leaves his home in the City of Destruction and begins a life-long quest to the Celestial City.";
