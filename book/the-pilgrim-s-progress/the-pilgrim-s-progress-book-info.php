@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "\t\t\t<a href=\"/the-pilgrim-s-progress/\"><div class=\"book\">
+           "\t\t\t<a href=\"/book/the-pilgrim-s-progress/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
 					<div class=\"book-cover\" id=\"the-pilgrim-s-progress-img\"></div>
 				</div>
