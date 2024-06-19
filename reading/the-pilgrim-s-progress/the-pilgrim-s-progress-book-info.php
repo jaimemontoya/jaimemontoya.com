@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "\t\t\t<a href=\"/the-pilgrim-s-progress/\"><div class=\"book\">
+           "\t\t\t<div class=\"book\">
 				<div class=\"book-thumbnail\">
 					<div class=\"book-cover\" id=\"the-pilgrim-s-progress-img\"></div>
 				</div>
@@ -8,5 +8,5 @@
 		            <span>The Pilgrim's Progress: A Readable Modern-Day Version of John Bunyan’s Pilgrim’s Progress</span>
 					<p>By John Bunyan, Alan Vermilye. <mark>Book 37 read by Jaime Montoya</mark> from 11:00 PM September 8, 2022 to 6:31 PM September 14, 2022 GMT.</p>
                 </div>
-            </div></a>\n";
+            </div>\n";
 ?>
