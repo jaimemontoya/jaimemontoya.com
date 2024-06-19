@@ -1,10 +1,8 @@
 <?php
   require("../page.php");
   $index = new Page();
-  $index->title = "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones - Book review";
-  $index->metaDescription = "No matter your goals, Atomic Habits offers a proven framework for improving--every day.";
-  require("atomic-habits-book-info.php");
-  require("atomic-habits-summary-critique-review.php");
-  require("book-reviews-bibliography.php");
+  $index->title = "Blogging For Dummiess. 7th Edition";
+  $index->metaDescription = "Ready to make your mark on the online world? Start a blog! Blogging For Dummies provides you with information on blogging basics, the anatomy of a good blog, and the tools required to get started.";
+  require("blogging-for-dummies-book-info.php");
   $index->Display();
 ?>
