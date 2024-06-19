@@ -5,6 +5,7 @@
   $index->metaDescription = "Listing all of the books read by Jaime Montoya from cover to cover.";
   $index->content .= "<h1>Reading</h1><p>Listing all of the books I have read from cover to cover.</p>";
   require("american-prometheus/american-prometheus-book-info.php");
+  require("success-habits-dummies-zeller/success-habits-dummies-zeller-book-info.php");
   require("niv-holy-bible/niv-holy-bible-book-info.php");
   require("get-programming-scala/get-programming-scala-book-info.php");
   require("programming-scala-3rd/programming-scala-3rd-book-info.php");
