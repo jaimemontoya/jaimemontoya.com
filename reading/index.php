@@ -4,6 +4,7 @@
   $index->title = "Reading";
   $index->metaDescription = "Listing all of the books read by Jaime Montoya from cover to cover since August 31, 2018.";
   $index->content .= "<h1>Reading</h1><p>Listing all of the books I have read from cover to cover since August 31, 2018.</p>";
+  require("napoleon-a-life/napoleon-a-life-book-info.php");
   require("blogging-for-dummies/blogging-for-dummies-book-info.php");
   require("atomic-habits/atomic-habits-book-info.php");
   require("the-7-habits-of-highly-effective-people/the-7-habits-of-highly-effective-people-book-info.php");
