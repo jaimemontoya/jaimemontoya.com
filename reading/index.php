@@ -13,6 +13,7 @@
   require("personal-finance-101/personal-finance-101-book-info.php");
   require("napoleon-a-life/napoleon-a-life-book-info.php");
   require("blogging-for-dummies/blogging-for-dummies-book-info.php");
+  require("12-rules-for-life-an-antidote-to-chaos/12-rules-for-life-an-antidote-to-chaos-book-info.php");
   require("atomic-habits/atomic-habits-book-info.php");
   require("the-7-habits-of-highly-effective-people/the-7-habits-of-highly-effective-people-book-info.php");
   require("american-prometheus/american-prometheus-book-info.php");
