@@ -5,9 +5,9 @@
   $index->metaDescription = "Listing all of the books read by Jaime Montoya from cover to cover since August 31, 2018.";
   $index->content .= "<h1>Reading</h1><p>Listing all of the books I have read from cover to cover since August 31, 2018.</p>";
   require("how-to-win-friends-and-influence-people/how-to-win-friends-and-influence-people-book-info.php");
+  require("the-richest-man-in-babylon/the-richest-man-in-babylon-book-info.php");
   require("customer-centricity/customer-centricity-book-info.php");
   require("the-10x-rule/the-10x-rule-book-info.php");
-  require("the-richest-man-in-babylon/the-richest-man-in-babylon-book-info.php");
   require("rich-dad-poor-dad/rich-dad-poor-dad-book-info.php");
   require("the-craft-of-research-3rd-ed/the-craft-of-research-3rd-ed-book-info.php");
   require("personal-finance-101/personal-finance-101-book-info.php");
