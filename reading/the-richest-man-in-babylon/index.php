@@ -1,8 +1,8 @@
 <?php
   require("../page.php");
   $index = new Page();
-  $index->title = "The Richest Man in Babylon";
-  $index->metaDescription = "Beloved by millions, this timeless classic holds the key to all you desire and everything you wish to accomplish. This is the book that reveals the secret to personal wealth.";
-  require("the-richest-man-in-babylon-book-info.php");
+  $index->title = "The 10X Rule: The Only Difference Between Success and Failure";
+  $index->metaDescription = "While most people operate with only three degrees of action-no action, retreat, or normal action-if you're after big goals, you don't want to settle for the ordinary.";
+  require("the-10x-rule-book-info.php");
   $index->Display();
 ?>
