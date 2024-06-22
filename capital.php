@@ -64,7 +64,8 @@ class CapitalPage extends Page
 	echo "\t\t\t\tdata.addColumn('string', 'Month');\n";
 	echo "\t\t\t\tdata.addColumn('number', 'USD');\n";
 	echo "\t\t\t\tdata.addRows([\n";
-	echo "\t\t\t\t\t['May',6048.01]\n";
+	echo "\t\t\t\t\t['May',6085.27],\n";
+	echo "\t\t\t\t\t['June',7091.94]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s 2024 capital history by month'};\n";
