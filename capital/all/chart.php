@@ -16,7 +16,7 @@
 			 </tr>
 			 <tr>
 			   <td>2024-06-20</td>
-			   <td>$7120.28</td>
+			   <td><span class=\"red bold\">$7120.28 *All-time record</span></td>
 			 </tr>
 			 <tr>
 			   <td>2024-06-19</td>
@@ -104,7 +104,7 @@
 			 </tr>
 			 <tr>
 			   <td>2024-05-29</td>
-			   <td><span class=\"red bold\">$7064.2 *All-time record</span></td>
+			   <td>$7064.2</td>
 			 </tr>
 			 <tr>
 			   <td>2024-05-28</td>
