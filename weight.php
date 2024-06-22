@@ -78,7 +78,7 @@ class WeightPage extends Page
 	echo "\t\t\t\t\t['Feb',56.19],\n";
 	echo "\t\t\t\t\t['Mar',57.44],\n";
 	echo "\t\t\t\t\t['Apr',57.17],\n";
-	echo "\t\t\t\t\t['May',57.01]\n";
+	echo "\t\t\t\t\t['May',57.01],\n";
 	echo "\t\t\t\t\t['May',57.65]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
