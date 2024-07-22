@@ -4,6 +4,7 @@
   $index->title = "Reading";
   $index->metaDescription = "Listing all of the books read by Jaime Montoya from cover to cover since August 31, 2018.";
   $index->content .= "<h1>Reading</h1><p>Listing all of the books I have read from cover to cover since August 31, 2018.</p>";
+  require("rich-dads-guide-investing/rich-dads-guide-investing-book-info.php");
   require("the-bible-for-dummies-for-dummies-lifestyle/the-bible-for-dummies-for-dummies-lifestyle-book-info.php");
   require("rich-dad-s-cashflow-quadrant-rich-dad-s-guide-to-financial-freedom/rich-dad-s-cashflow-quadrant-rich-dad-s-guide-to-financial-freedom-book-info.php");
   require("beyond-order-12-more-rules-for-life/beyond-order-12-more-rules-for-life-book-info.php");
