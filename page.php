@@ -2,10 +2,10 @@
 class Page
 {
   public $content;
-  public $title = "jaimemontoya.com: Jaime Montoya's Personal Home Page";
+  public $title = "jaimemontoya.com: Jaime Montoya's website";
   public $parentPage = "";
-  public $metaKeywords = "jaimemontoya.com, Jaime Montoya, Personal Home Page, website, portfolio, software technical documentation, blog, resume";
-  public $metaDescription = "jaimemontoya.com, Jaime Montoya's Personal Home Page, featuring software technical documentation blog, and one-page resume.";
+  public $metaKeywords = "jaimemontoya.com, Jaime Montoya";
+  public $metaDescription = "jaimemontoya.com, Jaime Montoya's website.";
   public $metaViewport = "width=device-width, initial-scale=1.0";
   public $buttons = array("<i class=\"fa-solid fa-house\"></i>" => "/", "<i class=\"fa-solid fa-blog\"></i>" => "/blog/", "<i class=\"fa-solid fa-address-card\"></i>" => "/about/");
   public $parentPages = array("Coursera" => "/coursera/", "Reading" => "/reading/", "Weight" => "/weight/", "Running" => "/run/", "Book reviews" => "/book/", "Blog" => "/blog/", "Capital" => "/capital/", "Teaching" => "/teaching/");
