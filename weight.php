@@ -80,7 +80,8 @@ class WeightPage extends Page
 	echo "\t\t\t\t\t['Apr',57.17],\n";
 	echo "\t\t\t\t\t['May',57.01],\n";
 	echo "\t\t\t\t\t['Jun',57.57],\n";
-	echo "\t\t\t\t\t['Jul',56.69]\n";
+	echo "\t\t\t\t\t['Jul',56.69],\n";
+	echo "\t\t\t\t\t['Jul',57.9]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s 2024 weight history by month'};\n";
