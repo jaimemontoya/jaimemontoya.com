@@ -33,7 +33,7 @@
     <td>$3647.79</td>
   </tr>
   <tr>
-    <td>Profit</td>
+    <td>Profit 2</td>
     <td>$64.03</td>
   </tr>
   <tr>
