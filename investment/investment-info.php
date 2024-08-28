@@ -1,8 +1,6 @@
 <?php
   $index->content .= 
            "\t\t\t<ul><li>Yearly performance average: 11.13%<li>Total profit: $143.82<li>Total profit per day: $1.081353383</ul><h2>Investment 2</h2>
-		   
-		   
 <table>
   <tr>
     <th>Cash flow</th>
@@ -13,31 +11,31 @@
     <td>28-Jun-2024</td>
   </tr>
   <tr>
-    <td>-$1500.00</td>
+    <td>-$-1,500.00</td>
     <td>30-Jul-2024</td>
   </tr>
   <tr>
-    <td>$3647.79</td>
+    <td>$3,647.79</td>
     <td>27-Aug-24</td>
   </tr>
   <tr>
     <td>XIRR()</td>
-    <td>0.148605436</td>
+    <td>0.1486054361</td>
   </tr>
   <tr>
-    <td>Investment 2</td>
-    <td>$3583.76</td>
+    <td>Investment</td>
+    <td>$3,583.76</td>
   </tr>
   <tr>
-    <td>Return 2</td>
-    <td>$3647.79</td>
+    <td>Return</td>
+    <td>$3,647.79</td>
   </tr>
   <tr>
-    <td>Profit 2</td>
+    <td>Profit</td>
     <td>$64.03</td>
   </tr>
   <tr>
-    <td>ROI 2</td>
+    <td>ROI</td>
     <td>1.79%</td>
   </tr>
   <tr>
@@ -53,6 +51,67 @@
     <td>60</td>
   </tr>
 </table>
-		   
-		   \n";
+<h2>Investment 1</h2>
+<table>
+  <tr>
+    <th>Cash flow</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td>-$250.00</td>
+    <td>12-Apr-24</td>
+  </tr>
+  <tr>
+    <td>-$1,750.00</td>
+    <td>16-Apr-24</td>
+  </tr>
+  <tr>
+    <td>-$500.00</td>
+    <td>7-May-24</td>
+  </tr>
+  <tr>
+    <td>-$500.00</td>
+    <td>14-May-24</td>
+  </tr>
+  <tr>
+    <td>-$500.00</td>
+    <td>15-May-24</td>
+  </tr>
+  <tr>
+    <td>-$3,579.79</td>
+    <td>24-Jun-24</td>
+  </tr>
+  <tr>
+    <td>XIRR()</td>
+    <td>0.1519099295</td>
+  </tr>
+  <tr>
+    <td>Investment</td>
+    <td>$3,500.00</td>
+  </tr>
+  <tr>
+    <td>Return</td>
+    <td>$3,579.79</td>
+  </tr>
+  <tr>
+    <td>Profit</td>
+    <td>$79.79</td>
+  </tr>
+  <tr>
+    <td>ROI</td>
+    <td>2.28%</td>
+  </tr>
+  <tr>
+    <td>Yearly profit projection</td>
+    <td>$398.95</td>
+  </tr>
+  <tr>
+    <td>Yearly performance projection</td>
+    <td>11.40%</td>
+  </tr>
+  <tr>
+    <td>Days</td>
+    <td>73</td>
+  </tr>
+</table>\n";
 ?>
