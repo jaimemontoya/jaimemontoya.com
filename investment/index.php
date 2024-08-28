@@ -1,0 +1,9 @@
+<?php
+  require("../page.php");
+  $index = new Page();
+  $index->title = "Investment";
+  $index->metaDescription = "Mutual fund investments I have made since April 12, 2024.";
+  $index->content .= "<h1>Investment</h1><p>Mutual fund investments I have made since April 12, 2024.</p>";
+  require("investment-info.php");
+  $index->Display();
+?>
