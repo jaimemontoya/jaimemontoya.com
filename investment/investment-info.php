@@ -51,6 +51,7 @@
     <td>60</td>
   </tr>
 </table>
+<br />
 <h2>Investment 1</h2>
 <table>
   <tr>
