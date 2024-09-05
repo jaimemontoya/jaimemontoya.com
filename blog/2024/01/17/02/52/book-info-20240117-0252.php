@@ -21,7 +21,7 @@ public class SignIn ...{
       @Override
       public void onSuccess(LoginResult loginResult) {
         // App code
-        handleFacebookAccessToken(loginResult.getAccessToken());
+        handleFacebookAccessToken(loginResult);
       }
       @Override
       public void onCancel() {
@@ -41,8 +41,9 @@ public class SignIn ...{
     super.onActivityResult(requestCode, resultCode, data);
   }
   ...
-  private void handleFacebookAccessToken(AccessToken token) {
-    System.out.println(\"Facebook AccessToken: \"+token);
+  private void handleFacebookAccessToken(LoginResult loginResult) {
+    System.out.println(\"Facebook loginResult:\"+loginResult);
+	System.out.println(\"Facebook loginResult.getAccessToken().getToken():\"+loginResult.getAccessToken().getToken());
   }
   ...
 }
