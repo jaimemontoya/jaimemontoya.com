@@ -43,7 +43,7 @@ public class SignIn ...{
   ...
   private void handleFacebookAccessToken(LoginResult loginResult) {
     System.out.println(\"Facebook loginResult:\"+loginResult);
-	System.out.println(\"Facebook loginResult.getAccessToken().getToken():\"+loginResult.getAccessToken().getToken());
+    System.out.println(\"Facebook loginResult.getAccessToken().getToken():\"+loginResult.getAccessToken().getToken());
   }
   ...
 }
