@@ -17,7 +17,7 @@ public class SignIn ...{
     callbackManager = CallbackManager.Factory.create();
     fbLoginButton = (LoginButton) findViewById(R.id.fbLoginButton);
     fbLoginButton.setReadPermissions(Arrays.asList(EMAIL));
-    fbLoginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {
+    fbLoginButton.registerCallback(callbackManager, new FacebookCallback<LoginResult>() {a
       @Override
       public void onSuccess(LoginResult loginResult) {
         // App code
