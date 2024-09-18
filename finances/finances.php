@@ -156,7 +156,8 @@
       $finances->content .=
       "0 results";
     }
-	sqlsrv_free_stmt($sumSales);
-	sqlsrv_free_stmt($resultSales);
+	//sqlsrv_free_stmt($sumSales);
+	//sqlsrv_free_stmt($resultSales);
+	$finances->content .= $sqlSales;
   }
 ?>
