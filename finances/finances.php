@@ -165,6 +165,5 @@
     }
 	sqlsrv_free_stmt($sumSales);
 	sqlsrv_free_stmt($resultSales);********************/
-	echo $sqlSales;
   }
 ?>
