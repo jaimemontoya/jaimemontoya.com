@@ -51,8 +51,17 @@ public class SignIn ...{
   }
   ...
   private void handleFacebookAccessToken(LoginResult loginResult) {
-    System.out.println(\"Facebook loginResult:\"+loginResult);
-    System.out.println(\"Facebook loginResult.getAccessToken().getToken():\"+loginResult.getAccessToken().getToken());
+    GraphRequest.Callback gCallback = new GraphRequest.Callback() {
+      @Override
+      public void onCompleted(@NonNull GraphResponse response) {
+        System.out.println(\"response.getJSONObject().toString(): \"+response.getJSONObject().toString());
+		// I/System.out: response.getJSONObject().toString(): {\"id\":\"100001513883090\",\"name\":\"Jaime Montoya\",\"email\":\"jmontoya@jaimemontoya.com\",\"first_name\":\"Jaime\",\"last_name\":\"Montoya\"}
+        if (response != null && response.getJSONObject() != null && response.getJSONObject().has(\"first_name\")) {
+          try {
+            System.out.println(\"response.getJSONObject().getString(\\\"first_name\\\"): \" + response.getJSONObject().getString(\"first_name\"));
+            // I/System.out: response.getJSONObject().getString(\"first_name\"): Jaime
+						
+				
   }
   ...
 }
