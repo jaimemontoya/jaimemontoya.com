@@ -60,7 +60,13 @@ public class SignIn ...{
           try {
             System.out.println(\"response.getJSONObject().getString(\\\"first_name\\\"): \" + response.getJSONObject().getString(\"first_name\"));
             // I/System.out: response.getJSONObject().getString(\"first_name\"): Jaime
-						
+          } catch (JSONException e) {
+            Log.e(TAG, \"onCompleted: \", e);
+          }
+        }
+      }
+    };						
+    new GraphRequest(AccessToken.getCurrentAccessToken(),\"/me?fields=id,name,email,first_name,last_name\", null,HttpMethod.GET, gCallback).executeAsync();
 				
   }
   ...
