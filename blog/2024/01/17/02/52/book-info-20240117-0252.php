@@ -55,7 +55,7 @@ public class SignIn ...{
       @Override
       public void onCompleted(@NonNull GraphResponse response) {
         System.out.println(\"response.getJSONObject().toString(): \"+response.getJSONObject().toString());
-		// I/System.out: response.getJSONObject().toString(): {\"id\":\"100001513883090\",\"name\":\"Jaime Montoya\",\"email\":\"jmontoya@jaimemontoya.com\",\"first_name\":\"Jaime\",\"last_name\":\"Montoya\"}
+        // I/System.out: response.getJSONObject().toString(): {\"id\":\"100001513883090\",\"name\":\"Jaime Montoya\",\"email\":\"jmontoya@jaimemontoya.com\",\"first_name\":\"Jaime\",\"last_name\":\"Montoya\"}
         if (response != null && response.getJSONObject() != null && response.getJSONObject().has(\"first_name\")) {
           try {
             System.out.println(\"response.getJSONObject().getString(\\\"first_name\\\"): \" + response.getJSONObject().getString(\"first_name\"));
