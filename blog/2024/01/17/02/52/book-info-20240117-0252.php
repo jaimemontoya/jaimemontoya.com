@@ -67,7 +67,47 @@ public class SignIn ...{
       }
     };						
     new GraphRequest(AccessToken.getCurrentAccessToken(),\"/me?fields=id,name,email,first_name,last_name\", null,HttpMethod.GET, gCallback).executeAsync();
-				
+    GraphRequest request = GraphRequest.newMeRequest(loginResult.getAccessToken(), new GraphRequest.GraphJSONObjectCallback() {
+      @Override
+      public void onCompleted(@Nullable JSONObject jsonObject, @Nullable GraphResponse graphResponse) {
+        // App code
+        // Access the response here and retrieve the information you want and print it out
+        String rawResponse = graphResponse.getRawResponse();
+        System.out.println(\"graphResponse.getRawResponse(): \"+rawResponse);
+        // I/System.out: graphResponse.getRawResponse(): {\"id\":\"100001513883090\",\"name\":\"Jaime Montoya\",\"email\":\"jmontoya@jaimemontoya.com\",\"picture\":{\"data\":{\"height\":50,\"is_silhouette\":false,\"url\":\"https:\/\/scontent-mia3-1.xx.fbcdn.net\/v\/t39.30808-1\/294888000_5376067482453661_527545311208686112_n.jpg?stp=cp1_dst-jpg_s50x50&_nc_cat=100&ccb=1-7&_nc_sid=6738e8&_nc_eui2=AeHlWp-lPLRcFXHEYbQxdAiD4Acj0RkYfD3gByPRGRh8Pd-THM0TB9SKYxa3HqARKGUDUrjCeujRwIihU-T5DZNB&_nc_ohc=Hu_mnUSvep0Q7kNvgGlLSvW&_nc_ht=scontent-mia3-1.xx&edm=AP4hL3IEAAAA&oh=00_AYBgut2eXf9VkZHd2zjyNbRE3Forr-cKw-Qck9bsEvMoiw&oe=66F92186\",\"width\":50}}}
+        if (graphResponse.getError() != null) {
+          // Handle error
+          System.out.println(\"ERROR graphResponse.getError().toString(): \"+graphResponse.getError().toString());
+        } else {
+          String jsonresult = String.valueOf(jsonObject);
+          System.out.println(\"String.valueOf(jsonObject): \"+jsonresult);
+          // I/System.out: String.valueOf(jsonObject): {\"id\":\"100001513883090\",\"name\":\"Jaime Montoya\",\"email\":\"jmontoya@jaimemontoya.com\",\"picture\":{\"data\":{\"height\":50,\"is_silhouette\":false,\"url\":\"https:\/\/scontent-mia3-1.xx.fbcdn.net\/v\/t39.30808-1\/294888000_5376067482453661_527545311208686112_n.jpg?stp=cp1_dst-jpg_s50x50&_nc_cat=100&ccb=1-7&_nc_sid=6738e8&_nc_eui2=AeHlWp-lPLRcFXHEYbQxdAiD4Acj0RkYfD3gByPRGRh8Pd-THM0TB9SKYxa3HqARKGUDUrjCeujRwIihU-T5DZNB&_nc_ohc=Hu_mnUSvep0Q7kNvgGlLSvW&_nc_ht=scontent-mia3-1.xx&edm=AP4hL3IEAAAA&oh=00_AYBgut2eXf9VkZHd2zjyNbRE3Forr-cKw-Qck9bsEvMoiw&oe=66F92186\",\"width\":50}}}
+          String resp = String.valueOf(graphResponse.getJSONObject());
+          System.out.println(\"String.valueOf(graphResponse.getJSONObject()): \"+resp);
+          // I/System.out: String.valueOf(graphResponse.getJSONObject()): {\"id\":\"100001513883090\",\"name\":\"Jaime Montoya\",\"email\":\"jmontoya@jaimemontoya.com\",\"picture\":{\"data\":{\"height\":50,\"is_silhouette\":false,\"url\":\"https:\/\/scontent-mia3-1.xx.fbcdn.net\/v\/t39.30808-1\/294888000_5376067482453661_527545311208686112_n.jpg?stp=cp1_dst-jpg_s50x50&_nc_cat=100&ccb=1-7&_nc_sid=6738e8&_nc_eui2=AeHlWp-lPLRcFXHEYbQxdAiD4Acj0RkYfD3gByPRGRh8Pd-THM0TB9SKYxa3HqARKGUDUrjCeujRwIihU-T5DZNB&_nc_ohc=Hu_mnUSvep0Q7kNvgGlLSvW&_nc_ht=scontent-mia3-1.xx&edm=AP4hL3IEAAAA&_nc_gid=AU0hDo5VUmJ90SLSrSDffIa&oh=00_AYAgVwgQHdsNY8842kh-RB2cwnUQSPqhLh1vDTCAB5kW6g&oe=66F92186\",\"width\":50}}}
+          // I/System.out: String.valueOf(graphResponse.getJSONObject()): {\"id\":\"100001513883090\",\"name\":\"Jaime Montoya\",\"email\":\"jmontoya@jaimemontoya.com\",\"picture\":{\"data\":{\"height\":50,\"is_silhouette\":false,\"url\":\"https:\/\/scontent-mia3-1.xx.fbcdn.net\/v\/t39.30808-1\/294888000_5376067482453661_527545311208686112_n.jpg?stp=cp1_dst-jpg_s50x50&_nc_cat=100&ccb=1-7&_nc_sid=6738e8&_nc_eui2=AeHlWp-lPLRcFXHEYbQxdAiD4Acj0RkYfD3gByPRGRh8Pd-THM0TB9SKYxa3HqARKGUDUrjCeujRwIihU-T5DZNB&_nc_ohc=Hu_mnUSvep0Q7kNvgGlLSvW&_nc_ht=scontent-mia3-1.xx&edm=AP4hL3IEAAAA&oh=00_AYBgut2eXf9VkZHd2zjyNbRE3Forr-cKw-Qck9bsEvMoiw&oe=66F92186\",\"width\":50}}}
+        }
+        Log.e(TAG,\"jsonObject.toString(): \"+jsonObject.toString());
+        // E/ContentValues: jsonObject.toString(): {\"id\":\"100001513883090\",\"name\":\"Jaime Montoya\",\"email\":\"jmontoya@jaimemontoya.com\",\"picture\":{\"data\":{\"height\":50,\"is_silhouette\":false,\"url\":\"https:\/\/scontent-mia3-1.xx.fbcdn.net\/v\/t39.30808-1\/294888000_5376067482453661_527545311208686112_n.jpg?stp=cp1_dst-jpg_s50x50&_nc_cat=100&ccb=1-7&_nc_sid=6738e8&_nc_eui2=AeHlWp-lPLRcFXHEYbQxdAiD4Acj0RkYfD3gByPRGRh8Pd-THM0TB9SKYxa3HqARKGUDUrjCeujRwIihU-T5DZNB&_nc_ohc=Hu_mnUSvep0Q7kNvgGlLSvW&_nc_ht=scontent-mia3-1.xx&edm=AP4hL3IEAAAA&_nc_gid=AU0hDo5VUmJ90SLSrSDffIa&oh=00_AYAgVwgQHdsNY8842kh-RB2cwnUQSPqhLh1vDTCAB5kW6g&oe=66F92186\",\"width\":50}}}
+        // E/ContentValues: jsonObject.toString(): {\"id\":\"100001513883090\",\"name\":\"Jaime Montoya\",\"email\":\"jmontoya@jaimemontoya.com\",\"picture\":{\"data\":{\"height\":50,\"is_silhouette\":false,\"url\":\"https:\/\/scontent-mia3-1.xx.fbcdn.net\/v\/t39.30808-1\/294888000_5376067482453661_527545311208686112_n.jpg?stp=cp1_dst-jpg_s50x50&_nc_cat=100&ccb=1-7&_nc_sid=6738e8&_nc_eui2=AeHlWp-lPLRcFXHEYbQxdAiD4Acj0RkYfD3gByPRGRh8Pd-THM0TB9SKYxa3HqARKGUDUrjCeujRwIihU-T5DZNB&_nc_ohc=Hu_mnUSvep0Q7kNvgGlLSvW&_nc_ht=scontent-mia3-1.xx&edm=AP4hL3IEAAAA&oh=00_AYBgut2eXf9VkZHd2zjyNbRE3Forr-cKw-Qck9bsEvMoiw&oe=66F92186\",\"width\":50}}}
+        Log.e(TAG,\"graphResponse.toString(): \"+graphResponse.toString());
+        // E/ContentValues: graphResponse.toString(): {Response:  responseCode: 200, graphObject: {\"id\":\"100001513883090\",\"name\":\"Jaime Montoya\",\"email\":\"jmontoya@jaimemontoya.com\",\"picture\":{\"data\":{\"height\":50,\"is_silhouette\":false,\"url\":\"https:\/\/scontent-mia3-1.xx.fbcdn.net\/v\/t39.30808-1\/294888000_5376067482453661_527545311208686112_n.jpg?stp=cp1_dst-jpg_s50x50&_nc_cat=100&ccb=1-7&_nc_sid=6738e8&_nc_eui2=AeHlWp-lPLRcFXHEYbQxdAiD4Acj0RkYfD3gByPRGRh8Pd-THM0TB9SKYxa3HqARKGUDUrjCeujRwIihU-T5DZNB&_nc_ohc=Hu_mnUSvep0Q7kNvgGlLSvW&_nc_ht=scontent-mia3-1.xx&edm=AP4hL3IEAAAA&_nc_gid=AU0hDo5VUmJ90SLSrSDffIa&oh=00_AYAgVwgQHdsNY8842kh-RB2cwnUQSPqhLh1vDTCAB5kW6g&oe=66F92186\",\"width\":50}}}, error: null}
+        // E/ContentValues: graphResponse.toString(): {Response:  responseCode: 200, graphObject: {"id":"100001513883090","name":"Jaime Montoya","email":"jmontoya@jaimemontoya.com","picture":{"data":{"height":50,"is_silhouette":false,"url":"https:\/\/scontent-mia3-1.xx.fbcdn.net\/v\/t39.30808-1\/294888000_5376067482453661_527545311208686112_n.jpg?stp=cp1_dst-jpg_s50x50&_nc_cat=100&ccb=1-7&_nc_sid=6738e8&_nc_eui2=AeHlWp-lPLRcFXHEYbQxdAiD4Acj0RkYfD3gByPRGRh8Pd-THM0TB9SKYxa3HqARKGUDUrjCeujRwIihU-T5DZNB&_nc_ohc=Hu_mnUSvep0Q7kNvgGlLSvW&_nc_ht=scontent-mia3-1.xx&edm=AP4hL3IEAAAA&oh=00_AYBgut2eXf9VkZHd2zjyNbRE3Forr-cKw-Qck9bsEvMoiw&oe=66F92186","width":50}}}, error: null}
+        try {
+          String email  = jsonObject.getString(\"email\");
+          String birthday = jsonObject.getString(\"birthday\");
+          String gender = jsonObject.getString(\"gender\");
+          String name = jsonObject.getString(\"name\");
+        } catch (JSONException ex) {
+          Log.d(\"ex.toString(): \", ex.toString());
+          // D/ex.toString(): org.json.JSONException: No value for birthday
+        }
+      }
+    });
+    Bundle parameters = new Bundle();
+    parameters.putString(\"fields\",\"id,name,email,gender,birthday,picture,timezone\");
+    request.setParameters(parameters);
+    request.executeAsync();
   }
   ...
 }
