@@ -15,40 +15,44 @@
     <td>30-Jul-2024</td>
   </tr>
   <tr>
-    <td>$3,647.79</td>
-    <td>27-Aug-24</td>
+    <td>-$2,317.82</td>
+    <td>3-Sep-24</td>
+  </tr>
+  <tr>
+    <td>$6,578.63</td>
+    <td>18-Oct-24</td>
   </tr>
   <tr>
     <td>XIRR()</td>
-    <td>0.1486054361</td>
+    <td>0.102817493677139</td>
   </tr>
   <tr>
     <td>Investment</td>
-    <td>$3,583.76</td>
+    <td>$6,451.93</td>
   </tr>
   <tr>
     <td>Return</td>
-    <td>$3,647.79</td>
+    <td>$6,582.44</td>
   </tr>
   <tr>
     <td>Profit</td>
-    <td>$64.03</td>
+    <td>$130.51</td>
   </tr>
   <tr>
     <td>ROI</td>
-    <td>1.79%</td>
+    <td>2.02%</td>
   </tr>
   <tr>
     <td>Yearly profit projection</td>
-    <td>$389.52</td>
+    <td>$425.32</td>
   </tr>
   <tr>
     <td>Yearly performance projection</td>
-    <td>10.87%</td>
+    <td>6.59%</td>
   </tr>
   <tr>
     <td>Days</td>
-    <td>60</td>
+    <td>112</td>
   </tr>
 </table>
 <br />
