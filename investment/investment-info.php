@@ -1,6 +1,53 @@
 <?php
   $index->content .= 
-           "\t\t\t<h2>My Crecer mutual fund investment historic averages</h2><ul><li>Yearly performance projection average: 9.00%<li>Yearly performance projection XIRR() average: 12.74%<li>Total profit: $214.27<li>Total profit per day: $1.16</ul><h2>Investment 2 in Crecer mutual fund</h2>
+           "\t\t\t<h2>My AAPL stocks investment historic averages</h2><ul><li>Yearly performance projection average: 141.73%<li>Yearly performance projection XIRR() average: 300.04%<li>Total profit: $198.24<li>Total profit per day: $24.78</ul><h2>My Crecer mutual fund investment historic averages</h2><ul><li>Yearly performance projection average: 9.00%<li>Yearly performance projection XIRR() average: 12.74%<li>Total profit: $214.27<li>Total profit per day: $1.16</ul><h2>Investment 1 in AAPL stocks</h2>
+<table>
+  <tr>
+    <th>Cash flow</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td>-$6,381.76</td>
+    <td>11-Oct-24</td>
+  </tr>
+  <tr>
+    <td>$6,580.00</td>
+    <td>19-Oct-24</td>
+  </tr>
+  <tr>
+    <td>XIRR()</td>
+    <td>3.0378256559372</td>
+  </tr>
+  <tr>
+    <td>Investment</td>
+    <td>$6,381.76</td>
+  </tr>
+  <tr>
+    <td>Return</td>
+    <td>$6,580.00</td>
+  </tr>
+  <tr>
+    <td>Profit</td>
+    <td>$198.24</td>
+  </tr>
+  <tr>
+    <td>ROI</td>
+    <td>3.11%</td>
+  </tr>
+  <tr>
+    <td>Yearly profit projection</td>
+    <td>$9,044.70</td>
+  </tr>
+  <tr>
+    <td>Yearly performance projection</td>
+    <td>141.73%</td>
+  </tr>
+  <tr>
+    <td>Days</td>
+    <td>8</td>
+  </tr>
+</table>
+<h2>Investment 2 in Crecer mutual fund</h2>
 <table>
   <tr>
     <th>Cash flow</th>
