@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "\t\t\t<h2>My AAPL stocks investment historic averages</h2><ul><li>Yearly performance projection average: 141.73%<li>Yearly performance projection XIRR() average: 300.04%<li>Total profit: $198.24<li>Total profit per day: $24.78</ul><h2>My Crecer mutual fund investment historic averages</h2><ul><li>Yearly performance projection average: 9.00%<li>Yearly performance projection XIRR() average: 12.74%<li>Total profit: $214.27<li>Total profit per day: $1.16</ul><h2>Investment 1 in AAPL stocks</h2>
+           "\t\t\t<h2>My AAPL stock investment historic averages</h2><ul><li>Yearly performance projection average: 141.73%<li>Yearly performance projection XIRR() average: 300.04%<li>Total profit: $198.24<li>Total profit per day: $24.78</ul><h2>My Crecer mutual fund investment historic averages</h2><ul><li>Yearly performance projection average: 9.00%<li>Yearly performance projection XIRR() average: 12.74%<li>Total profit: $214.27<li>Total profit per day: $1.16</ul><h2>Investment 1 in AAPL stock</h2>
 <table>
   <tr>
     <th>Cash flow</th>
