@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "\t\t\t<h2>My Crecer mutual fund investment historic averages</h2><ul><li>Yearly performance average: 11.13%<li>Total profit: $143.82<li>Total profit per day: $1.081353383</ul><h2>Investment 2 in Crecer mutual fund</h2>
+           "\t\t\t<h2>My Crecer mutual fund investment historic averages</h2><ul><li>Yearly performance projection average: 9.00%<li>Yearly performance projection XIRR() average: 12.74%<li>Total profit: $214.27<li>Total profit per day: $1.16</ul><h2>Investment 2 in Crecer mutual fund</h2>
 <table>
   <tr>
     <th>Cash flow</th>
