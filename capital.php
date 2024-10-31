@@ -67,8 +67,8 @@ class CapitalPage extends Page
 	echo "\t\t\t\t\t['May',6085.27],\n";
 	echo "\t\t\t\t\t['Jun',5699.26],\n";
 	echo "\t\t\t\t\t['Jul',2112.84129],\n";
-	echo "\t\t\t\t\t['Aug',3652.596774]\n";
-	echo "\t\t\t\t\t['Sep',5684.295]\n";
+	echo "\t\t\t\t\t['Aug',3652.596774],\n";
+	echo "\t\t\t\t\t['Sep',5684.295],\n";
 	echo "\t\t\t\t\t['Oct',6532.467419]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
