@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "\t\t\t<h2>My [TEST/Simulator] AAPL stock investment historic averages</h2><ul><li>Yearly performance projection average: 141.73%<li>Yearly performance projection XIRR() average: 300.04%<li>Total profit: $198.24<li>Total profit per day: $24.78</ul><h2>My Crecer mutual fund investment historic averages</h2><ul><li>Yearly performance projection average: 9.00%<li>Yearly performance projection XIRR() average: 12.74%<li>Total profit: $214.27<li>Total profit per day: $1.16</ul><h2>Investment 1 in [TEST/Simulator] AAPL stock</h2>
+           "\t\t\t<h2>My [TEST/Simulator] AAPL stock investment historic averages</h2><ul><li>Yearly performance projection average: -38.34%<li>Yearly performance projection XIRR() average: -32.14%<li>Total profit: -$140.76<li>Total profit per day: -$6.70</ul><h2>My Crecer mutual fund investment historic averages</h2><ul><li>Yearly performance projection average: 7.41%<li>Yearly performance projection XIRR() average: 10.14%<li>Total profit: $156.13<li>Total profit per day: $0.78</ul><h2>Investment 1 in [TEST/Simulator] AAPL stock</h2>
 <table>
   <tr>
     <th>Cash flow</th>
@@ -11,12 +11,12 @@
     <td>11-Oct-24</td>
   </tr>
   <tr>
-    <td>$6,580.00</td>
-    <td>19-Oct-24</td>
+    <td>$6,241.00</td>
+    <td>1-Nov-24</td>
   </tr>
   <tr>
     <td>XIRR()</td>
-    <td>3.0378256559372</td>
+    <td>-32.14</td>
   </tr>
   <tr>
     <td>Investment</td>
@@ -24,27 +24,27 @@
   </tr>
   <tr>
     <td>Return</td>
-    <td>$6,580.00</td>
+    <td>$6,241.00</td>
   </tr>
   <tr>
     <td>Profit</td>
-    <td>$198.24</td>
+    <td>-$140.76</td>
   </tr>
   <tr>
     <td>ROI</td>
-    <td>3.11%</td>
+    <td>-2.21%</td>
   </tr>
   <tr>
     <td>Yearly profit projection</td>
-    <td>$9,044.70</td>
+    <td>-$2,446.54</td>
   </tr>
   <tr>
     <td>Yearly performance projection</td>
-    <td>141.73%</td>
+    <td>-38.34%</td>
   </tr>
   <tr>
     <td>Days</td>
-    <td>8</td>
+    <td>21</td>
   </tr>
 </table>
 <h2>Investment 2 in Crecer mutual fund</h2>
@@ -66,12 +66,16 @@
     <td>3-Sep-24</td>
   </tr>
   <tr>
-    <td>$6,578.63</td>
-    <td>18-Oct-24</td>
+    <td>-$550.35</td>
+    <td>1-Oct-24</td>
+  </tr>
+  <tr>
+    <td>6,528.27</td>
+    <td>1-Nov-24</td>
   </tr>
   <tr>
     <td>XIRR()</td>
-    <td>0.102817493677139</td>
+	<td>0.050911530852317</td>
   </tr>
   <tr>
     <td>Investment</td>
@@ -79,27 +83,27 @@
   </tr>
   <tr>
     <td>Return</td>
-    <td>$6,582.44</td>
+    <td>$6,528.27</td>
   </tr>
   <tr>
     <td>Profit</td>
-    <td>$130.51</td>
+    <td>$76.34</td>
   </tr>
   <tr>
     <td>ROI</td>
-    <td>2.02%</td>
+    <td>1.18%</td>
   </tr>
   <tr>
     <td>Yearly profit projection</td>
-    <td>$425.32</td>
+    <td>$221.14</td>
   </tr>
   <tr>
     <td>Yearly performance projection</td>
-    <td>6.59%</td>
+    <td>3.43%</td>
   </tr>
   <tr>
     <td>Days</td>
-    <td>112</td>
+    <td>126</td>
   </tr>
 </table>
 <br />
