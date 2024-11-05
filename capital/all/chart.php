@@ -7,6 +7,26 @@
 			   <th>Capital</th>
 		     </tr>
 			 <tr>
+			   <td>2024-11-05</td>
+			   <td><span class=\"red bold\">$8,197.31 *All-time record</span></td>
+			 </tr>
+			 <tr>
+			   <td>2024-11-04</td>
+			   <td>$6,530.26</td>
+			 </tr>
+			 <tr>
+			   <td>2024-11-03</td>
+			   <td>$6,530.26</td>
+			 </tr>
+			 <tr>
+			   <td>2024-11-02</td>
+			   <td>$6,530.26</td>
+			 </tr>
+			 <tr>
+			   <td>2024-11-01</td>
+			   <td>$6,528.27</td>
+			 </tr>
+			 <tr>
 			   <td>2024-10-31</td>
 			   <td>$6,556.83</td>
 			 </tr>
@@ -540,7 +560,7 @@
 			 </tr>
 			 <tr>
 			   <td>2024-06-20</td>
-			   <td><span class=\"red bold\">$7,120.28 *All-time record</span></td>
+			   <td>$7,120.28</td>
 			 </tr>
 			 <tr>
 			   <td>2024-06-19</td>
