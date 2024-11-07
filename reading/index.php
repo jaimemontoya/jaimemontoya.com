@@ -5,6 +5,7 @@
   $index->metaDescription = "Listing all of the books read by Jaime Montoya from cover to cover since August 31, 2018.";
   $index->content .= "<h1>Reading</h1><p>Listing all of the books I have read from cover to cover since August 31, 2018.</p>";
   require("systematic-theology-2nd-introduction-biblical-doctrine/systematic-theology-2nd-introduction-biblical-doctrine-book-info.php");
+  require("the-psychology-of-money/the-psychology-of-money-book-info.php");
   require("investing-for-dummies-9th-edition/investing-for-dummies-9th-edition-book-info.php");
   require("rich-dads-guide-investing/rich-dads-guide-investing-book-info.php");
   require("the-bible-for-dummies-for-dummies-lifestyle/the-bible-for-dummies-for-dummies-lifestyle-book-info.php");
