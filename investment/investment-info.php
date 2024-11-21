@@ -1,6 +1,6 @@
 <?php
   $index->content .= 
-           "\t\t\t<iframe src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSnedM83IJlnIUy0Ttj4DrDrGWCrqhjC_HXUwxa8cv3nmhraprEToUSuy776FLfXewO49AdS_9SQdUH/pubhtml?widget=true&amp;headers=false\"></iframe><h2>My [TEST/Simulator] AAPL stock investment historic averages</h2><ul><li>Yearly performance projection average: -38.34%<li>Yearly performance projection XIRR() average: -32.14%<li>Total profit: -$140.76<li>Total profit per day: -$6.70</ul><h2>My Crecer mutual fund investment historic averages</h2><ul><li>Yearly performance projection average: 7.41%<li>Yearly performance projection XIRR() average: 10.14%<li>Total profit: $156.13<li>Total profit per day: $0.78</ul><h2>Investment 1 in [TEST/Simulator] AAPL stock</h2>
+           "\t\t\t<iframe src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSnedM83IJlnIUy0Ttj4DrDrGWCrqhjC_HXUwxa8cv3nmhraprEToUSuy776FLfXewO49AdS_9SQdUH/pubhtml?widget=true&amp;headers=false\ id=\"investment-spreadsheet\" \"></iframe><h2>My [TEST/Simulator] AAPL stock investment historic averages</h2><ul><li>Yearly performance projection average: -38.34%<li>Yearly performance projection XIRR() average: -32.14%<li>Total profit: -$140.76<li>Total profit per day: -$6.70</ul><h2>My Crecer mutual fund investment historic averages</h2><ul><li>Yearly performance projection average: 7.41%<li>Yearly performance projection XIRR() average: 10.14%<li>Total profit: $156.13<li>Total profit per day: $0.78</ul><h2>Investment 1 in [TEST/Simulator] AAPL stock</h2>
 <table>
   <tr>
     <th>Cash flow</th>
