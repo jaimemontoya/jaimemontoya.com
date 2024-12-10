@@ -47,8 +47,6 @@ class HomePage extends Page
     echo "\t\t\t\t\t['AAPL',3.73],\n";
     echo "\t\t\t\t\t['NVDA',3.4],\n";
     echo "\t\t\t\t\t['MSFT',3.32],\n";
-    echo "\t\t\t\t\t['AMZN',2.38],\n";
-    echo "\t\t\t\t\t['GOOG',2.16],\n";
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Biggest company in the world by market capitalization'};\n";
