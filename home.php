@@ -68,7 +68,7 @@ class HomePage extends Page
 	echo "\t\t\t\chart.setSelection([e]);\n";
 	echo "\t\t\t}\n";
 	echo "\t\t\tfunction barMouseOut(e) {\n";
-	echo "\t\t\t\chart.setSelection([{'row': null, 'column': null}]);\n";
+	echo "\t\t\tchart.setSelection([{'row': null, 'column': null}]);\n";
 	echo "\t\t\t}\n";
 	echo "\t\t</script>\n";
   }
