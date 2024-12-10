@@ -15,7 +15,6 @@ class RunningPage extends Page
     $this -> DisplayMetaCharset();
     $this -> DisplayMetaKeywords();
     $this -> DisplayMetaDescription();
-    $this -> DisplayMetaViewport();
     $this -> DisplayStyles();
     echo "\t</head>\n\t<body>\n";
     $this -> DisplayHeader();
