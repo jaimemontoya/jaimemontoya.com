@@ -59,16 +59,16 @@ class HomePage extends Page
 	echo "\t\t\t\tvar options = {'title':'Biggest company in the world by market capitalization'};\n";
     echo "\t\t\t\t// Draw\n";
 	echo "\t\t\t\tconst chart = new google.visualization.BarChart(document.getElementById('biggest-company'));\n";
-	echo "\t\t\t\tbarsVisualization.draw(data, options);\n";
+	echo "\t\t\t\chart.draw(data, options);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
 	echo "\t\t\tfunction barMouseOver(e) {\n";
-	echo "\t\t\t\tbarsVisualization.setSelection([e]);\n";
+	echo "\t\t\t\chart.setSelection([e]);\n";
 	echo "\t\t\t}\n";
 	echo "\t\t\tfunction barMouseOut(e) {\n";
-	echo "\t\t\t\tbarsVisualization.setSelection([{'row': null, 'column': null}]);\n";
+	echo "\t\t\t\chart.setSelection([{'row': null, 'column': null}]);\n";
 	echo "\t\t\t}\n";
 	echo "\t\t</script>\n";
   }
