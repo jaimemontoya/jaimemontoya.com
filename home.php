@@ -57,7 +57,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Biggest company in the world by market capitalization'};\n";
-    echo "\t\t\t\t// Draw";
+    echo "\t\t\t\t// Draw\n";
 	echo "\t\t\t\tconst chart = new google.visualization.BarChart(document.getElementById('biggest-company'));\n";
 	echo "\t\t\t\tbarsVisualization.draw(data, options);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
