@@ -157,6 +157,7 @@ drwxrwxr-x  15 root              syslog          4.0K Dec 21 00:32 .
 -rw-r-----   1 syslog            adm             215M Dec 15 00:00 syslog.1
 -rw-rw----   1 root              utmp            297M Nov 30 23:59 btmp.1
 -rw-r-----   1 xrdp              adm             9.6G Dec 21 03:12 xrdp.log
+root@jaimemontoya:/var/www/jaimemontoya.com# rm -d /var/log/xrdp.log
 root@jaimemontoya:/var/www/jaimemontoya.com# reboot
 root@jaimemontoya:~# df -h
 Filesystem      Size  Used Avail Use% Mounted on
