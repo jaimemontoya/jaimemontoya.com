@@ -83,7 +83,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t['Huang',117.6]\n";
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar options = {'title':'Top ten richest companies'};\n";
+	echo "\t\t\t\tvar options = {'title':'Top ten richest people'};\n";
     echo "\t\t\t\t// Draw\n";
 	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('richest-people'));\n";
 	echo "\t\t\t\tchart.draw(data, options);\n";
