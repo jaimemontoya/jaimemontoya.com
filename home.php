@@ -67,7 +67,7 @@ class HomePage extends Page
 	echo "\t\t\t}\n";
 	
 	
-	echo "\t\t\tfunction drawRichestPeopleChartChart() {\n";	
+	echo "\t\t\tfunction drawRichestPeopleChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
     echo "\t\t\t\t\t['Company', 'Billions'],\n";
