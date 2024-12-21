@@ -59,7 +59,7 @@ class HomePage extends Page
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Top ten richest companies'};\n";
     echo "\t\t\t\t// Draw\n";
-	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('biggest-company'));\n";
+	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('richest-company'));\n";
 	echo "\t\t\t\tchart.draw(data, options);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
@@ -85,7 +85,7 @@ class HomePage extends Page
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Top ten richest companies'};\n";
     echo "\t\t\t\t// Draw\n";
-	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('biggest-company'));\n";
+	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('richest-people'));\n";
 	echo "\t\t\t\tchart.draw(data, options);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
