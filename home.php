@@ -75,12 +75,12 @@ class HomePage extends Page
     echo "\t\t\t\t\t['Bezos',238.5],\n";
     echo "\t\t\t\t\t['Ellison',213.7],\n";
     echo "\t\t\t\t\t['Zuckerberg',202.4],\n";
-    echo "\t\t\t\t\t['Arnault',166.9],\n";
+    echo "\t\t\t\t\t['Arnault',167.2],\n";
     echo "\t\t\t\t\t['Page',157.8],\n";
     echo "\t\t\t\t\t['Brin',150.7],\n";
     echo "\t\t\t\t\t['Buffet',142.0],\n";
     echo "\t\t\t\t\t['Ballmer',127.7],\n";
-    echo "\t\t\t\t\t['Huang',117.6]\n";
+    echo "\t\t\t\t\t['Huang',117.8]\n";
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Top ten richest people'};\n";
