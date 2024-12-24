@@ -125,32 +125,6 @@ class HomePage extends Page
     
   };
 	
-	
-	
-    echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
-    echo "\t\t\t\t\t['Company', 'Billions'],\n";
-    echo "\t\t\t\t\t['Musk',437.5],\n";
-    echo "\t\t\t\t\t['Bezos',239.1],\n";
-    echo "\t\t\t\t\t['Ellison',212.3],\n";
-    echo "\t\t\t\t\t['Zuckerberg',206.9],\n";
-    echo "\t\t\t\t\t['Arnault',167.5],\n";
-    echo "\t\t\t\t\t['Page',159.9],\n";
-    echo "\t\t\t\t\t['Brin',152.6],\n";
-    echo "\t\t\t\t\t['Buffet',141.3],\n";
-    echo "\t\t\t\t\t['Ballmer',127.4],\n";
-    echo "\t\t\t\t\t['Huang',121.1]\n";
-    echo "\t\t\t\t]);\n";
-	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar options = {'title':'Top ten richest people'};\n";
-    echo "\t\t\t\t// Draw\n";
-	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('richest-people'));\n";
-	echo "\t\t\t\tchart.draw(data, options);\n";
-	echo "\t\t\t\t// Add our over/out handlers.\n";
-	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
-	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
-	echo "\t\t\t}\n";	
-	
-	
 	echo "\t\t\tfunction barMouseOver(e) {\n";
 	echo "\t\t\t\tchart.setSelection([e]);\n";
 	echo "\t\t\t}\n";
