@@ -41,7 +41,7 @@ class HomePage extends Page
 	echo "\t\t\t// Set a callback to run when the Google Visualization API is loaded.\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRichestCompaniesChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRichestPeopleChart);\n";
-	//echo "\t\t\tgoogle.charts.setOnLoadCallback(drawJaimeMontoyaCapitalChart);\n";
+	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawJaimeMontoyaCapitalChart);\n";
 	echo "\t\t\t// Callback that creates and populates a data table, instantiates the bar chart, passes in the data and draws it.\n";
 	echo "\t\t\tfunction drawRichestCompaniesChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
@@ -93,7 +93,7 @@ class HomePage extends Page
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
 	
-	/*echo "\t\t\tfunction drawJaimeMontoyaCapitalChart() {\n";	
+	echo "\t\t\tfunction drawJaimeMontoyaCapitalChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tvar data = new google.visualization.DataTable();";
     echo "\t\t\t\tdata.addColumn('date', 'X');";
@@ -121,7 +121,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t\ttitle: 'Popularity'";
     echo "\t\t\t\t\t}";
     echo "\t\t\t\t}";
-    echo "\t\t\t};";*/
+    echo "\t\t\t};";
     
 
 	
