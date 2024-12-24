@@ -121,6 +121,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t\ttitle: 'Popularity'";
     echo "\t\t\t\t\t}";
     echo "\t\t\t\t};";
+    echo "\t\t\t};";
     
   };
 	
