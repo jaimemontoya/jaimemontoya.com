@@ -97,7 +97,7 @@ class HomePage extends Page
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tvar data = new google.visualization.DataTable();\n";
     echo "\t\t\t\tdata.addColumn('date', 'X');\n";
-    echo "\t\t\t\tdata.addColumn('number', 'USD');\n";
+    echo "\t\t\t\tdata.addColumn('number', 'Capital (USD)');\n";
     echo "\t\t\t\tdata.addRows([\n";
     echo "\t\t\t\t\t[new Date(2024, 4, 5), 4023.84],\n";
     echo "\t\t\t\t\t[new Date(2024, 4, 6), 4023.96],\n";
