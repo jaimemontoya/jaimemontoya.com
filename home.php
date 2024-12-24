@@ -157,6 +157,6 @@ class HomePage extends Page
 	echo "\t\t\tchart.setSelection([{'row': null, 'column': null}]);\n";
 	echo "\t\t\t}\n";
 	echo "\t\t</script>\n";
-  }
+  
 }
 ?>
