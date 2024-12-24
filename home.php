@@ -107,7 +107,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
     echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital',\n";
-    echo "\t\t\t\t\tcolors: [\"#fff\"],\n";
+    echo "\t\t\t\t\tcolors: [\"#4184F3\"],\n";
     echo "\t\t\t\t\tlineWidth: 3,\n";
     echo "\t\t\t\t\tlegend: {\n";
     echo "\t\t\t\t\t\tposition: \"none\"\n";
