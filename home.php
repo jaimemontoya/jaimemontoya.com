@@ -124,7 +124,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t\ttitlePosition: 'none'\n";
     echo "\t\t\t\t\t},\n";
     echo "\t\t\t\t\tvAxis: {\n";
-    echo "\t\t\t\t\t\ttitle: 'Popularity'\n";
+    echo "\t\t\t\t\t\ttitle: 'Capital (USD)'\n";
     echo "\t\t\t\t\t}\n";
     echo "\t\t\t\t}\n";
     echo "\t\t\t\tvar chart = new google.charts.Line(document.getElementById('jaime-montoya-capital'));\n";
