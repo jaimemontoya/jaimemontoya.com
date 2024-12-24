@@ -99,11 +99,11 @@ class HomePage extends Page
     echo "\t\t\t\tdata.addColumn('date', 'X');\n";
     echo "\t\t\t\tdata.addColumn('number', 'Dogs');\n";
     echo "\t\t\t\tdata.addRows([\n";
-    echo "\t\t\t\t\t[new Date(2024, 5, 5), 4023.84],\n";
-    echo "\t\t\t\t\t[new Date(2024, 5, 6), 4023.96],\n";
-    echo "\t\t\t\t\t[new Date(2024, 5, 7), 4028.48],\n";
-    echo "\t\t\t\t\t[new Date(2024, 5, 8), 5033.9],\n";
-    echo "\t\t\t\t\t[new Date(2024, 5, 9), 5031.05]\n";
+    echo "\t\t\t\t\t[new Date(2024, 4, 5), 4023.84],\n";
+    echo "\t\t\t\t\t[new Date(2024, 4, 6), 4023.96],\n";
+    echo "\t\t\t\t\t[new Date(2024, 4, 7), 4028.48],\n";
+    echo "\t\t\t\t\t[new Date(2024, 4, 8), 5033.9],\n";
+    echo "\t\t\t\t\t[new Date(2024, 4, 9), 5031.05]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
     echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital',\n";
