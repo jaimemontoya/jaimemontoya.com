@@ -68,7 +68,7 @@ class HomePage extends Page
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
 	
-	/*echo "\t\t\tfunction drawRichestPeopleChart() {\n";	
+	echo "\t\t\tfunction drawRichestPeopleChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
     echo "\t\t\t\t\t['Company', 'Billions'],\n";
@@ -91,9 +91,9 @@ class HomePage extends Page
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
-	echo "\t\t\t}\n";*/
+	echo "\t\t\t}\n";
 	
-	echo "\t\t\tfunction drawJaimeMontoyaCapitalChart() {\n";	
+	/*echo "\t\t\tfunction drawJaimeMontoyaCapitalChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tvar data = new google.visualization.DataTable();";
     echo "\t\t\t\tdata.addColumn('date', 'X');";
@@ -120,8 +120,8 @@ class HomePage extends Page
     echo "\t\t\t\t\tvAxis: {";
     echo "\t\t\t\t\t\ttitle: 'Popularity'";
     echo "\t\t\t\t\t}";
-    echo "\t\t\t\t};";
-    echo "\t\t\t};";
+    echo "\t\t\t\t}";
+    echo "\t\t\t};";*/
     
   };
 	
