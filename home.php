@@ -123,7 +123,7 @@ class HomePage extends Page
     echo "\t\t\t\t}";
     echo "\t\t\t};";*/
     
-  };
+
 	
 	echo "\t\t\tfunction barMouseOver(e) {\n";
 	echo "\t\t\t\tchart.setSelection([e]);\n";
@@ -132,6 +132,6 @@ class HomePage extends Page
 	echo "\t\t\tchart.setSelection([{'row': null, 'column': null}]);\n";
 	echo "\t\t\t}\n";
 	echo "\t\t</script>\n";
-  
+  }  
 }
 ?>
