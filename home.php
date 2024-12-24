@@ -47,16 +47,16 @@ class HomePage extends Page
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
     echo "\t\t\t\t\t['Company', 'Trillions'],\n";
-    echo "\t\t\t\t\t['AAPL',3.84],\n";
-    echo "\t\t\t\t\t['NVDA',3.4],\n";
+    echo "\t\t\t\t\t['AAPL',3.86],\n";
+    echo "\t\t\t\t\t['NVDA',3.42],\n";
     echo "\t\t\t\t\t['MSFT',3.24],\n";
     echo "\t\t\t\t\t['GOOG',2.39],\n";
     echo "\t\t\t\t\t['AMZN',2.37],\n";
-    echo "\t\t\t\t\t['2222',1.86],\n";
+    echo "\t\t\t\t\t['2222',1.83],\n";
     echo "\t\t\t\t\t['META',1.51],\n";
-    echo "\t\t\t\t\t['TSLA',1.39],\n";
-    echo "\t\t\t\t\t['AVGO',1.08],\n";
-    echo "\t\t\t\t\t['BRK.A',0.97]\n";
+    echo "\t\t\t\t\t['TSLA',1.38],\n";
+    echo "\t\t\t\t\t['AVGO',1.09],\n";
+    echo "\t\t\t\t\t['BRK.A',0.98]\n";
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Top ten richest companies'};\n";
@@ -67,21 +67,20 @@ class HomePage extends Page
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
-	
 	echo "\t\t\tfunction drawRichestPeopleChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
     echo "\t\t\t\t\t['Company', 'Billions'],\n";
-    echo "\t\t\t\t\t['Musk',437.5],\n";
-    echo "\t\t\t\t\t['Bezos',239.1],\n";
-    echo "\t\t\t\t\t['Ellison',212.3],\n";
-    echo "\t\t\t\t\t['Zuckerberg',206.9],\n";
-    echo "\t\t\t\t\t['Arnault',167.5],\n";
-    echo "\t\t\t\t\t['Page',159.9],\n";
-    echo "\t\t\t\t\t['Brin',152.6],\n";
-    echo "\t\t\t\t\t['Buffet',141.3],\n";
+    echo "\t\t\t\t\t['Musk',436.3],\n";
+    echo "\t\t\t\t\t['Bezos',238.6],\n";
+    echo "\t\t\t\t\t['Ellison',213.5],\n";
+    echo "\t\t\t\t\t['Zuckerberg',207.4],\n";
+    echo "\t\t\t\t\t['Arnault',167.8],\n";
+    echo "\t\t\t\t\t['Page',160.2],\n";
+    echo "\t\t\t\t\t['Brin',152.9],\n";
+    echo "\t\t\t\t\t['Buffet',141.9],\n";
     echo "\t\t\t\t\t['Ballmer',127.4],\n";
-    echo "\t\t\t\t\t['Huang',121.1]\n";
+    echo "\t\t\t\t\t['Huang',121.9]\n";
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Top ten richest people'};\n";
@@ -358,9 +357,6 @@ class HomePage extends Page
     echo "\t\t\t\tvar chart = new google.charts.Line(document.getElementById('jaime-montoya-capital'));\n";
     echo "\t\t\t\tchart.draw(data, google.charts.Line.convertOptions(options));\n";
     echo "\t\t\t};";
-    
-
-	
 	echo "\t\t\tfunction barMouseOver(e) {\n";
 	echo "\t\t\t\tchart.setSelection([e]);\n";
 	echo "\t\t\t}\n";
