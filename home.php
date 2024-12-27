@@ -348,7 +348,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t\tcolor: '#000',\n";
     echo "\t\t\t\t\t\tfontName: 'Arial'\n";
     echo "\t\t\t\t\t},\n";
-    echo "\t\t\t\t\tcolors: [\"#4184F3\"],\n";
+    echo "\t\t\t\t\tcolors: [\"#0f0\"],\n";
     echo "\t\t\t\t\tlineWidth: 3,\n";
     echo "\t\t\t\t\tlegend: {\n";
     echo "\t\t\t\t\t\tposition: \"none\"\n";
