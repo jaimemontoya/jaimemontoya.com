@@ -337,7 +337,7 @@ class HomePage extends Page
     echo "\t\t\t\tvar options = {\n";
     echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital',\n";
     echo "\t\t\t\t\ttitleTextStyle: {
-    color: '#a34f8b'
+    color: '#000'
 },\n";
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
