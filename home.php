@@ -354,7 +354,8 @@ class HomePage extends Page
     echo "\t\t\t\t\t\tpointSize: 2,\n";
     echo "\t\t\t\t\t\tformat: 'd MMM yyyy',\n";
     echo "\t\t\t\t\t\ttitle: '',\n";
-    echo "\t\t\t\t\t\ttitlePosition: 'none'\n";
+    echo "\t\t\t\t\t\ttitlePosition: 'none',\n";
+    echo "\t\t\t\t\t\ttextStyle: {color: '#fff'}\n";
     echo "\t\t\t\t\t},\n";
     echo "\t\t\t\t\tvAxis: {\n";
     echo "\t\t\t\t\t\ttitle: 'Capital (USD)'\n";
