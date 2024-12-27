@@ -340,7 +340,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1\n";
     echo "\t\t\t\t\t},chartArea: {
-    backgroundColor: '#F0F0F0'
+    backgroundColor: '#FFF'
   },\n";
     echo "\t\t\t\t\ttitleTextStyle:{\n";
     echo "\t\t\t\t\t\tbold: true,\n";
