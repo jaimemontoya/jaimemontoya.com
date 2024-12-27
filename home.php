@@ -339,6 +339,7 @@ class HomePage extends Page
     echo "\t\t\t\t\ttitleTextStyle:{\n";
     echo "\t\t\t\t\t\tbold: true,\n";
     echo "\t\t\t\t\t\tcolor: '#000',\n";
+    echo "\t\t\t\t\t\tbackgroundColor: '#E4E4E4',\n";
     echo "\t\t\t\t\t\tfontName: 'Arial'\n";
     echo "\t\t\t\t\t},\n";
     echo "\t\t\t\t\tcolors: [\"#4184F3\"],\n";
