@@ -355,7 +355,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t},\n";
     echo "\t\t\t\t\thAxis: {\n";
 	echo "\t\t\t\t\t\tgridlines: {
-              color: '#C0C0C0', count : 30
+              color: '#0f0', count : 30
 
             },\n";
     echo "\t\t\t\t\t\tpointSize: 2,\n";
