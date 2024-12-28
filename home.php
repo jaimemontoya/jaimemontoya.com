@@ -60,7 +60,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Top ten richest companies last updates 2024-Dec-27',\n";
+    echo "\t\t\t\t\t'title':'Top ten richest companies last updated 2024-Dec-27',\n";
 	
 	
 	
