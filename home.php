@@ -60,15 +60,33 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Top ten richest companies',\n";
-
+    echo "\t\t\t\t\t'title':'Top ten richest companies from 2024-Dec-21 to 2024-Dec-27',\n";
+	
+	
+	
+/*    echo "\t\t\t\t\tbackgroundColor: {\n";
+    echo "\t\t\t\t\t\tfill: '#000',\n";
+    echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
+    echo "\t\t\t\t\t},\n";*/
+	echo "\t\t\t\t\tchartArea: {\n";
+    echo "\t\t\t\t\t\tbackgroundColor: '#000'\n";
+    echo "\t\t\t\t\t},\n";
+    echo "\t\t\t\t\ttitleTextStyle:{\n";
+    echo "\t\t\t\t\t\tbold: true,\n";
+    echo "\t\t\t\t\t\tcolor: '#0f0',\n";
+    echo "\t\t\t\t\t\tfontName: 'Arial'\n";
+    echo "\t\t\t\t\t},\n";	
+	
+	
+	
+	
+	
+	
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
     echo "\t\t\t\t\t}\n";
-	
 	echo "\t\t\t\t}\n";
-	
     echo "\t\t\t\t// Draw\n";
 	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('richest-company'));\n";
 	echo "\t\t\t\tchart.draw(data, options);\n";
@@ -100,7 +118,6 @@ class HomePage extends Page
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
-	
 	echo "\t\t\tfunction drawJaimeMontoyaCapitalChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tvar data = new google.visualization.DataTable();\n";
