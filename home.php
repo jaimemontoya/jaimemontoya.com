@@ -60,7 +60,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Ten richest companies, last updated 2024-Dec-27',\n";
+    echo "\t\t\t\t\t'title':'Richest companies, last updated 2024-Dec-27',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\tvAxis: {\n";
     echo "\t\t\t\t\t\ttitle: 'Trillions (USD)',\n";
@@ -116,8 +116,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-	
-	echo "\t\t\t\t\t'title':'Ten richest people, last updated 2024-Dec-27',\n";
+	echo "\t\t\t\t\t'title':'Richest people, last updated 2024-Dec-27',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\thAxis: {\n";
 	echo "\t\t\t\t\t\tgridlines: {\n";
@@ -135,8 +134,6 @@ class HomePage extends Page
     echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'},\n";
     echo "\t\t\t\t\t\ttitleTextStyle: {color: '#0f0', italic: false}\n";
     echo "\t\t\t\t\t},\n";
-	
-	
     echo "\t\t\t\t\tcolors: ['#0f0'],\n";
 	echo "\t\t\t\t\tchartArea: {\n";
     echo "\t\t\t\t\t\tbackgroundColor: '#000'\n";
@@ -150,13 +147,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
     echo "\t\t\t\t\t}\n";	
-	
-	
-	
 	echo "\t\t\t\t}\n";
-	
-
-	
     echo "\t\t\t\t// Draw\n";
 	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('richest-people'));\n";
 	echo "\t\t\t\tchart.draw(data, options);\n";
