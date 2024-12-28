@@ -114,8 +114,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t['Huang',119.6]\n";
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar options = {'title':'Ten richest people, last updated 2024-Dec-27'};\n";
-	
+	echo "\t\t\t\tvar options = {\n";
 	
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\thAxis: {\n";
@@ -123,10 +122,17 @@ class HomePage extends Page
     echo "\t\t\t\t\t\t\tcolor: '#9E9E9E',\n";
     echo "\t\t\t\t\t\t\tcount: 1\n";
     echo "\t\t\t\t\t\t},\n";
+    echo "\t\t\t\t\t\tpointSize: 2,\n";
+    echo "\t\t\t\t\t\tformat: 'd MMM yyyy',\n";
+    echo "\t\t\t\t\t\ttitle: '',\n";
+    echo "\t\t\t\t\t\ttitlePosition: 'none',\n";
+    echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'}\n";
+    echo "\t\t\t\t\t},\n";
     echo "\t\t\t\t\tvAxis: {\n";
-    echo "\t\t\t\t\t\ttitle: 'Billions (USD)',\n";
-    echo "\t\t\t\t\t\ttitleTextStyle: {color: '#0f0', italic: false}\n";
-    echo "\t\t\t\t\t},\n";	
+    echo "\t\t\t\t\t\ttitle: 'Capital (USD)',\n";
+    echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'}\n";
+    echo "\t\t\t\t\t}\n";
+	echo "\t\t\t\t}\n";
 	
 	
 	
