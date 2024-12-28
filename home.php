@@ -62,31 +62,22 @@ class HomePage extends Page
 	echo "\t\t\t\tvar options = {\n";
     echo "\t\t\t\t\t'title':'Ten richest companies, last updated 2024-Dec-27',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
-	
-	
-	
     echo "\t\t\t\t\thAxis: {\n";
 	echo "\t\t\t\t\t\tgridlines: {\n";
     echo "\t\t\t\t\t\t\tcolor: '#9E9E9E',\n";
     echo "\t\t\t\t\t\t\tcount: 1\n";
     echo "\t\t\t\t\t\t},\n";
+    echo "\t\t\t\t\tvAxis: {\n";
+    echo "\t\t\t\t\t\ttitle: 'Trillions (USD)',\n";
+    echo "\t\t\t\t\t\ttitleTextStyle: {color: '#0f0', italic: false}\n";
+    echo "\t\t\t\t\t},\n";
     echo "\t\t\t\t\t\tpointSize: 2,\n";
     echo "\t\t\t\t\t\tformat: 'd MMM yyyy',\n";
     echo "\t\t\t\t\t\ttitle: '',\n";
     echo "\t\t\t\t\t\ttitlePosition: 'none',\n";
     echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'}\n";
     echo "\t\t\t\t\t},\n";
-	
-    echo "\t\t\t\t\tvAxis: {\n";
-    echo "\t\t\t\t\t\ttitle: 'Trillions (USD)',\n";
-    //echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'},\n";
-    echo "\t\t\t\t\t\ttitleTextStyle: {color: '#0f0', italic: false}\n";
-
-	
-    echo "\t\t\t\t\t},\n";
-	
     echo "\t\t\t\t\tcolors: ['#0f0'],\n";
-	
 	echo "\t\t\t\t\tchartArea: {\n";
     echo "\t\t\t\t\t\tbackgroundColor: '#000'\n";
     echo "\t\t\t\t\t},\n";
@@ -111,19 +102,34 @@ class HomePage extends Page
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
     echo "\t\t\t\t\t['Company', 'Billions'],\n";
-    echo "\t\t\t\t\t['Musk',450.4],\n";
-    echo "\t\t\t\t\t['Bezos',240.8],\n";
-    echo "\t\t\t\t\t['Ellison',217.8],\n";
-    echo "\t\t\t\t\t['Zuckerberg',208.1],\n";
-    echo "\t\t\t\t\t['Arnault',167.8],\n";
-    echo "\t\t\t\t\t['Page',161.3],\n";
-    echo "\t\t\t\t\t['Brin',153.9],\n";
-    echo "\t\t\t\t\t['Buffet',143.2],\n";
-    echo "\t\t\t\t\t['Ballmer',128.3],\n";
-    echo "\t\t\t\t\t['Huang',122.0]\n";
+    echo "\t\t\t\t\t['Musk',436.8],\n";
+    echo "\t\t\t\t\t['Bezos',237.5],\n";
+    echo "\t\t\t\t\t['Ellison',213.3],\n";
+    echo "\t\t\t\t\t['Zuckerberg',207.4],\n";
+    echo "\t\t\t\t\t['Arnault',169.3],\n";
+    echo "\t\t\t\t\t['Page',158.8],\n";
+    echo "\t\t\t\t\t['Brin',151.5],\n";
+    echo "\t\t\t\t\t['Buffet',142.5],\n";
+    echo "\t\t\t\t\t['Ballmer',126.3],\n";
+    echo "\t\t\t\t\t['Huang',119.6]\n";
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar options = {'title':'Top ten richest people'};\n";
+	echo "\t\t\t\tvar options = {\n";
+
+
+	echo "\t\t\t\t\tlegend: 'none',\n";
+    echo "\t\t\t\t\thAxis: {\n";
+	echo "\t\t\t\t\t\tgridlines: {\n";
+    echo "\t\t\t\t\t\t\tcolor: '#9E9E9E',\n";
+    echo "\t\t\t\t\t\t\tcount: 1\n";
+    echo "\t\t\t\t\t\t},\n";
+    echo "\t\t\t\t\tvAxis: {\n";
+    echo "\t\t\t\t\t\ttitle: 'Trillions (USD)',\n";
+    echo "\t\t\t\t\t\ttitleTextStyle: {color: '#0f0', italic: false}\n";
+    echo "\t\t\t\t\t},\n";
+
+	echo "\t\t\t\t};\n";	
+	
     echo "\t\t\t\t// Draw\n";
 	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('richest-people'));\n";
 	echo "\t\t\t\tchart.draw(data, options);\n";
