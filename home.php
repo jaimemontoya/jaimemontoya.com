@@ -60,12 +60,12 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Top ten richest companies';\n";
+    echo "\t\t\t\t\t'title':'Top ten richest companies',\n";
 
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
-    echo "\t\t\t\t\t},\n";
+    echo "\t\t\t\t\t}\n";
 	
 	echo "\t\t\t\t}\n";
 	
