@@ -115,6 +115,21 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Ten richest people, last updated 2024-Dec-27'};\n";
+	
+	
+	echo "\t\t\t\t\tlegend: 'none',\n";
+    echo "\t\t\t\t\thAxis: {\n";
+	echo "\t\t\t\t\t\tgridlines: {\n";
+    echo "\t\t\t\t\t\t\tcolor: '#9E9E9E',\n";
+    echo "\t\t\t\t\t\t\tcount: 1\n";
+    echo "\t\t\t\t\t\t},\n";
+    echo "\t\t\t\t\tvAxis: {\n";
+    echo "\t\t\t\t\t\ttitle: 'Billions (USD)',\n";
+    echo "\t\t\t\t\t\ttitleTextStyle: {color: '#0f0', italic: false}\n";
+    echo "\t\t\t\t\t},\n";	
+	
+	
+	
     echo "\t\t\t\t// Draw\n";
 	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('richest-people'));\n";
 	echo "\t\t\t\tchart.draw(data, options);\n";
