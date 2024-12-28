@@ -130,11 +130,11 @@ class HomePage extends Page
     echo "\t\t\t\t\t},\n";
     echo "\t\t\t\t\tvAxis: {\n";
     echo "\t\t\t\t\t\ttitle: 'Capital (USD)',\n";
-    echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'}\n";
+    echo "\t\t\t\t\t\ttextStyle: {color: '#0f0', italic: false}\n";
     echo "\t\t\t\t\t}\n";
 	echo "\t\t\t\t}\n";
 	
-	
+
 	
     echo "\t\t\t\t// Draw\n";
 	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('richest-people'));\n";
@@ -417,7 +417,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t},\n";
     echo "\t\t\t\t\tvAxis: {\n";
     echo "\t\t\t\t\t\ttitle: 'Capital (USD)',\n";
-    echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'}\n";
+    echo "\t\t\t\t\t\ttextStyle: {color: '#0f0', italic: false}\n";
     echo "\t\t\t\t\t}\n";
     echo "\t\t\t\t}\n";
     echo "\t\t\t\tvar chart = new google.charts.Line(document.getElementById('jaime-montoya-capital'));\n";
