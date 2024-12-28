@@ -133,7 +133,25 @@ class HomePage extends Page
     echo "\t\t\t\t\t\ttitle: 'Billions (USD)',\n";
     echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'},\n";
     echo "\t\t\t\t\t\ttitleTextStyle: {color: '#0f0', italic: false}\n";
-    echo "\t\t\t\t\t}\n";
+    echo "\t\t\t\t\t},\n";
+	
+	
+    echo "\t\t\t\t\tcolors: ['#0f0'],\n";
+	echo "\t\t\t\t\tchartArea: {\n";
+    echo "\t\t\t\t\t\tbackgroundColor: '#000'\n";
+    echo "\t\t\t\t\t},\n";
+    echo "\t\t\t\t\ttitleTextStyle:{\n";
+    echo "\t\t\t\t\t\tbold: true,\n";
+    echo "\t\t\t\t\t\tcolor: '#0f0',\n";
+    echo "\t\t\t\t\t\tfontName: 'Arial'\n";
+    echo "\t\t\t\t\t},\n";
+    echo "\t\t\t\t\tbackgroundColor: {\n";
+    echo "\t\t\t\t\t\tfill: '#000',\n";
+    echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
+    echo "\t\t\t\t\t}\n";	
+	
+	
+	
 	echo "\t\t\t\t}\n";
 	
 
