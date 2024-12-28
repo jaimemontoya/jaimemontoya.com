@@ -335,9 +335,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t[new Date(2024, 11 , 26), 9922.97]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital',titleTextStyle: {
-    color: '#0f0'
-  },\n";
+    echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital',\n";
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
@@ -356,6 +354,9 @@ class HomePage extends Page
     echo "\t\t\t\t\t\tposition: \"none\"\n";
     echo "\t\t\t\t\t},\n";
     echo "\t\t\t\t\thAxis: {\n";
+    echo "\t\t\t\t\t\ttitleTextStyle: {\n";
+    echo "\t\t\t\t\t\t\tcolor: '#0f0'\n";
+    echo "\t\t\t\t\t\t},\n";
 	echo "\t\t\t\t\t\tgridlines: {\n";
     echo "\t\t\t\t\t\t\tcolor: '#fff',\n";
     echo "\t\t\t\t\t\t\tcount: 1\n";
