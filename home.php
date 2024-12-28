@@ -66,7 +66,7 @@ class HomePage extends Page
 	echo "\t\t\t\t\t\tgridlines: {\n";
     echo "\t\t\t\t\t\t\tcolor: '#9E9E9E',\n";
     echo "\t\t\t\t\t\t\tcount: 1\n";
-    echo "\t\t\t\t\t\t},\n";
+    echo "\t\t\t\t\t\t},\n";	
     echo "\t\t\t\t\tvAxis: {\n";
     echo "\t\t\t\t\t\ttitle: 'Trillions (USD)',\n";
     echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'},\n";
