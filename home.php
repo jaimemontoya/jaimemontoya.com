@@ -60,7 +60,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Richest companies, last updated 2024-Dec-28',\n";
+    echo "\t\t\t\t\t'title':'Richest companies, last updated 2024-Dec-29',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\tvAxis: {\n";
     echo "\t\t\t\t\t\ttitle: 'Trillions (USD)',\n";
@@ -107,7 +107,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t['Bezos',237.5],\n";
     echo "\t\t\t\t\t['Ellison',213.3],\n";
     echo "\t\t\t\t\t['Zuckerberg',207.4],\n";
-    echo "\t\t\t\t\t['Arnault',169.3],\n";
+    echo "\t\t\t\t\t['Arnault',169.5],\n";
     echo "\t\t\t\t\t['Page',158.8],\n";
     echo "\t\t\t\t\t['Brin',151.5],\n";
     echo "\t\t\t\t\t['Buffet',142.5],\n";
@@ -116,7 +116,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-	echo "\t\t\t\t\t'title':'Richest people, last updated 2024-Dec-28',\n";
+	echo "\t\t\t\t\t'title':'Richest people, last updated 2024-Dec-29',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\thAxis: {\n";
 	echo "\t\t\t\t\t\tgridlines: {\n";
@@ -397,10 +397,11 @@ class HomePage extends Page
     echo "\t\t\t\t\t[new Date(2024, 11 , 25), 9922.81],\n";
     echo "\t\t\t\t\t[new Date(2024, 11 , 26), 9922.97],\n";
     echo "\t\t\t\t\t[new Date(2024, 11 , 27), 9934.82],\n";
-    echo "\t\t\t\t\t[new Date(2024, 11 , 28), 9936.08]\n";
+    echo "\t\t\t\t\t[new Date(2024, 11 , 28), 9936.08],\n";
+    echo "\t\t\t\t\t[new Date(2024, 11 , 29), 9936.08]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital from 2024-May-05 to 2024-Dec-28',\n";
+    echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital from 2024-May-05 to 2024-Dec-29',\n";
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
