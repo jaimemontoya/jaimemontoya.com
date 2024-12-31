@@ -41,6 +41,7 @@ hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
 .container{padding: 0 14px}
 .container h1, .container-home h1, .container-running h1, .container-weight h1{display:inline-block;font:1.3em Arial;font-weight:500;margin-bottom:8px;margin-top:0}
 .container a:hover{color:#0f0!important}
+.container-home a{color:#fff}
 .container-finances, .container-home, .container-running, .container-weight{margin:0 8px}
 .container-finances h1{font-size:1.5em;font-family:Arial,Helvetica,sans-serif;font-weight:bold}
 .container-finances select{padding:5px}
