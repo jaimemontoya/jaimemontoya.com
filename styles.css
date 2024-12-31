@@ -39,7 +39,7 @@ hr{border-top:1px solid #0f0;border-bottom:1px solid #0f0}
 .apa-reference a{text-decoration:underline}
 .apa-reference a{color:#fff}
 .container{padding: 0 14px}
-.container img{padding-right:3px}
+.container img{padding-right:5px}
 .container h1, .container-home h1, .container-running h1, .container-weight h1{display:inline-block;font:1.3em Arial;font-weight:500;margin-bottom:8px;margin-top:0}
 .container a:hover{color:#0f0!important}
 .container-home a{color:#fff;text-decoration:underline}
