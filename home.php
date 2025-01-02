@@ -401,7 +401,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t[new Date(2024, 11 , 29), 9936.08],\n";
     echo "\t\t\t\t\t[new Date(2024, 11 , 30), 9937.02],\n";
     echo "\t\t\t\t\t[new Date(2024, 11 , 31), 9918.46],\n";
-    echo "\t\t\t\t\t[new Date(2025, 0 , 1), 9916.17]\n";
+    echo "\t\t\t\t\t[new Date(2025, 0 , 1), 9916.17],\n";
     echo "\t\t\t\t\t[new Date(2025, 0 , 2), 9920.52]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
