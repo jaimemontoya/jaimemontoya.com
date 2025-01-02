@@ -1,0 +1,4 @@
+<?php
+  $index->content .= 
+           "<div><img src=\"/opinion/2025/01/01/21/33/img/20250101-0133-thumb.jpg\" alt=\"20250101-0133-thumb\" width=\"84\" height=\"84\" class=\"floatleft\"><p>The Price-to-Earnings of Tesla is one of the highest among the elite group of top most valuable companies. That reality could mean that Tesla’s stock is overvalued.</p><p>Tesla is Musk’s primary driver of net worth. The significant volatility of that company puts him in a position where he needs to keep a substantial margin ahead of the second richest person (as he does now) to stay unchallenged as number one. Otherwise, with such high volatility, he may not remain steadily as dominant in 2025, as he was in 2024.</p><p>Berkshire Hathaway has been a successful company for decades, following Buffett’s well-known strategy: Buy and hold for the long term!</p></div><div>Published: 9:33 PM GMT · Jan 1, 2025</div>\n";
+?>
