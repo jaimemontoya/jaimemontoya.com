@@ -76,7 +76,7 @@
 				<div id=\"references\">
 					<p>Clarke, A. (n.d.). Clarke's Commentary. <a href=\"https://www.studylight.org/commentaries/eng/acc/genesis-43.html\">https://www.studylight.org/commentaries/eng/acc/genesis-43.html</a></p>
 					<p>Geoghegan, J., & Homan, M. (2003). <em>The Bible For Dummies.</em> John Wiley & Sons, Inc. <a href=\"https://www.amazon.com/Bible-Dummies-Lifestyle-ebook/dp/B01GGR61A8/\">https://www.amazon.com/Bible-Dummies-Lifestyle-ebook/dp/B01GGR61A8/</a></p>
-					<p>Bush, G. (1852). <em>Notes, Critical and Practical on the Book of Genesis.</em> <a href=\"https://www.amazon.com/Bible-Dummies-Lifestyle-ebook/dp/B01GGR61A8/\">https://archive.org/details/notescriticalpra1852bush/page/n8/mode/1up?view=theater</a></p>
+					<p>Bush, G. (1852). <em>Notes, Critical and Practical on the Book of Genesis.</em> <a href=\"https://archive.org/details/notescriticalpra1852bush/page/n8/mode/1up?view=theater\">https://archive.org/details/notescriticalpra1852bush/page/n8/mode/1up?view=theater</a></p>
 					<p>Thomas Nelson. (2017). <em>The King James Study Bible.</em></p>
 					<p>Zondervan. (2019). <em>NIV Quest Study Bible.</em> <a href=\"https://www.biblegateway.com/plus/\">https://www.biblegateway.com/plus/</a></p>
 					<p>Zondervan. (2011). <em>NIV Study Bible Notes, Fully Revised Edition.</em> <a href=\"https://www.biblegateway.com/plus/\">https://www.biblegateway.com/plus/</a></p>
