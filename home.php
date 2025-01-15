@@ -112,7 +112,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t['Brin',149.3],\n";
     echo "\t\t\t\t\t['Buffet',140.6],\n";
     echo "\t\t\t\t\t['Ballmer',123.0],\n";
-    echo "\t\t\t\t\t['Huang',116.4]\n";
+    echo "\t\t\t\t\t['Ortega',116.4]\n";
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
