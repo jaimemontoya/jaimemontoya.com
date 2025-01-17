@@ -5,6 +5,6 @@
   $index->parentPage = "Opinion";
   $index->metaDescription = "For Jensen Huang, 2025 is not looking bright as his company does not seem to be in the unstoppable patch of continuous growth of 2024.";
   $index->content .= "\t\t\t<h1>".$index->title."</h1>";
-  require("book-info-20250118-0509.php");
+  require("book-info-20250117-0509.php");
   $index->Display();
 ?>
