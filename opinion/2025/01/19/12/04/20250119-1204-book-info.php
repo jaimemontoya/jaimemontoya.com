@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"2025/01/19/12/04/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"opinion-20250118-1414-img\"></div>
+					<div class=\"book-cover\" id=\"opinion-20250119-1204-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <h2>Aramco needing aggressive growth. Broadcom with a bright future.</h2>
