@@ -52,7 +52,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t['MSFT',3.19],\n";
     echo "\t\t\t\t\t['GOOG',2.41],\n";
     echo "\t\t\t\t\t['AMZN',2.38],\n";
-    echo "\t\t\t\t\t['2222',1.82],\n";
+    echo "\t\t\t\t\t['2222',1.81],\n";
     echo "\t\t\t\t\t['META',1.55],\n";
     echo "\t\t\t\t\t['TSLA',1.37],\n";
     echo "\t\t\t\t\t['AVGO',1.11],\n";
@@ -60,7 +60,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Richest companies, last updated 2025-Jan-20',\n";
+    echo "\t\t\t\t\t'title':'Richest companies, last updated 2025-Jan-21',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\tvAxis: {\n";
     echo "\t\t\t\t\t\ttitle: 'Trillions (USD)',\n";
@@ -107,7 +107,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t['Bezos',239.4],\n";
     echo "\t\t\t\t\t['Zuckerberg',211.8],\n";
     echo "\t\t\t\t\t['Ellison',204.6],\n";
-    echo "\t\t\t\t\t['Arnault',180.6],\n";
+    echo "\t\t\t\t\t['Arnault',183.1],\n";
     echo "\t\t\t\t\t['Page',161.4],\n";
     echo "\t\t\t\t\t['Brin',154.0],\n";
     echo "\t\t\t\t\t['Buffet',146.2],\n";
@@ -116,7 +116,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-	echo "\t\t\t\t\t'title':'Richest people, last updated 2025-Jan-20',\n";
+	echo "\t\t\t\t\t'title':'Richest people, last updated 2025-Jan-21',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\thAxis: {\n";
 	echo "\t\t\t\t\t\tgridlines: {\n";
@@ -420,10 +420,11 @@ class HomePage extends Page
     echo "\t\t\t\t\t[new Date(2025, 0 , 17), 10729.61],\n";
     echo "\t\t\t\t\t[new Date(2025, 0 , 18), 10752.34],\n";
     echo "\t\t\t\t\t[new Date(2025, 0 , 19), 10752.34],\n";
-    echo "\t\t\t\t\t[new Date(2025, 0 , 20), 10752.34]\n";
+    echo "\t\t\t\t\t[new Date(2025, 0 , 20), 10752.34],\n";
+    echo "\t\t\t\t\t[new Date(2025, 0 , 21), 10764.35]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital from 2024-May-05 to 2025-Jan-20',\n";
+    echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital from 2024-May-05 to 2025-Jan-21',\n";
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
