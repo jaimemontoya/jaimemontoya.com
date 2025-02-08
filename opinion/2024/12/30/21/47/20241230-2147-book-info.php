@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <h2>Another bad day in the stock market</h2>
-					<p>Another bad day in the stock market. Weak performance to finish the year. <mark>Published: 9:47 PM GMT · Dec 30, 2024</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i></p>
+					<p>Another bad day in the stock market. Weak performance to finish the year. <mark>Published: 9:47 PM GMT · Dec 30, 2024 · 2 comments</mark> <span class=\"underline white\">Read more</span> <i class=\"fa fa-link white\" aria-hidden=\"true\"></i></p>
                 </div>
             </div></a>\n";
 ?>
