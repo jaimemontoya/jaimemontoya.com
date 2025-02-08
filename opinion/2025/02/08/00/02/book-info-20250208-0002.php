@@ -28,9 +28,6 @@
 			     <div class=\"comment-body\">
 			       <p>The ebb and flow of wealth often mirrors societal shifts. It's a dance between innovation and adaptation, where those who grasp the zeitgeist tend to prosper. Consider how technology can both empower individuals and concentrate power in the hands of a few. This tension is inherent in progress itself. Ultimately, it's about finding meaning and purpose amidst these fluctuations.</p>
 			     </div>
-				 
-				 
-				 
 				 <div class=\"replies\">
 			     <div class=\"comment-heading\">
                    <div class=\"comment-info\">
@@ -41,13 +38,7 @@
 			       <p> Absolutely! There is tension in the process. My examples of Bill Gates and Netscape offered the positive side of equitable distribution of technological advancements. But there is another side of the story too. Bill Gates was accused of monopoly and went to court in a legal fight of Gates Vs. Netscape, which became more formally “United States of America v. Microsoft Corporation, 253 F.3d 34 (D.C. Cir. 2001)”. Netscape lost its position of power. Microsoft bundled Internet Explorer with every copy of Windows. It could be said that Internet Explorer/Microsoft/Bill Gates won the browser war. The point is, these tensions will always produce losers and winners of races. And there are ethical implications that cannot and should not be ignored. Finding purpose and meaning would go in that direction of understanding that there is something ultimately more important than the person or company being richer or higher in the ranking.</p>
 			     </div>
 			   </div>
-				 
-				 
-				 
-				 
-				 
-			   </div>
-			 </div>
+		     </div>
 		   </div>
 		   \n";
 ?>
