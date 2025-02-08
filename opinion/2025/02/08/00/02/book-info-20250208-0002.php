@@ -7,6 +7,9 @@
 			     <a href=\"https://www.linkedin.com/in/uniquegodwin/\" class=\"comment-author\">Godwin Josh</a>
 			   </div>
 			 </div>
+			 <div class=\"comment-body\">
+			   <p>The narrative focuses on wealth fluctuations tied to stock performance, neglecting the broader economic and social impacts of these companies' actions. For instance, Amazon's sales forecast might reflect shifting consumer behavior rather than inherent weakness, a trend mirrored by the recent surge in subscription-based services. How does this emphasis on individual wealth creation align with the growing discourse on equitable distribution of technological advancements?</p>
+			 </div>
 		   </div>
 		   \n";
 ?>
