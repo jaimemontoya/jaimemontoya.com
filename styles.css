@@ -134,6 +134,12 @@ nav li a:hover{color:#afafaf;background-color:#0f0;text-decoration:none}
     position: relative;
     margin: 20px auto;
 }
+.comment-heading {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    font-size: 14px;
+}
 #news-20241113-2239-img{background-image:url('news/2024/11/13/22/39/img/20241113-2239-thumb.jpg')}
 #news-20241111-2213-img{background-image:url('news/2024/11/11/22/13/img/20241111-2213-thumb.jpg')}
 #news-20241107-0000-img{background-image:url('news/2024/11/07/00/00/img/20241107-0000-thumb.jpg')}
