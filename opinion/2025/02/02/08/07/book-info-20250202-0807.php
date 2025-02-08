@@ -20,6 +20,28 @@
 			   <div class=\"comment-body\">
 			     <p>The tariffs may have a variety of purposes in mind. For example, compelling nations to meet specific demands. Generating short-term revenue might be another objective. Halting illegal immigration could be another example. In other words, tariffs may not necessarily have exclusively economic purposes in mind, such as protecting local manufacturers. The purposes could be geopolitical too. That is not to say that economic purposes should not be primary. But the reality may be different than the theoretical purposes and the conversation easily moves to the political rather than the economical spectrum.</p>
 			   </div>
+			   <div class=\"replies\">
+			     <div class=\"comment-heading\">
+                   <div class=\"comment-info\">
+			         <a href=\"https://www.linkedin.com/in/dmitriy-c-b8074751/\" class=\"comment-author\">Dmitriy C</a>
+			       </div>
+			     </div>
+			     <div class=\"comment-body\">
+			       <p>Jaime Montoya as I said before, tariffs are an economic measure and their inappropriate, political use, as a threat, only hurts the people of the country that uses them.</p>
+                   <p>Tariffs are not going to stop immigration.</p>
+			     </div>
+				 <div class=\"replies\">
+			       <div class=\"comment-heading\">
+                     <div class=\"comment-info\">
+			           <a href=\"https://www.linkedin.com/in/jaimemontoyain/\" class=\"comment-author\">Jaime Montoya</a>
+			         </div>
+			       </div>
+			       <div class=\"comment-body\">
+			         <p>Tariffs are a source of revenue for the government. Nonetheless, it makes sense to think that the fundamental purpose of tariffs should be to safeguard domestic industry. From that perspective, it could be said that it is inappropriate to use tariffs mainly for political or geopolitical purposes.</p>
+			       </div>
+			     </div>
+			   </div>
+		     </div>
 		     </div>
 		   </div>
 		   \n";
