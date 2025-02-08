@@ -134,6 +134,7 @@ nav li a:hover{color:#afafaf;background-color:#0f0;text-decoration:none}
     position: relative;
     margin: 20px auto;
 }
+.comment a{color:#fff;text-decoration:underline}
 .comment-heading {
     display: flex;
     align-items: center;
