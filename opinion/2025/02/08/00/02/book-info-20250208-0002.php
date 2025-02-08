@@ -4,7 +4,7 @@
            <div class=\"comment\">
 		     <div class=\"comment-heading\">
                <div class=\"comment-info\">
-			     <a href=\"#\" class=\"comment-author\">Godwin Josh</a>
+			     <a href=\"https://www.linkedin.com/in/uniquegodwin/\" class=\"comment-author\">Godwin Josh</a>
 			   </div>
 			 </div>
 		   </div>
