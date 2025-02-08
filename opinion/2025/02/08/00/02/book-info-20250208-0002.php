@@ -20,19 +20,14 @@
 			     <p>True. For example, why was 2022 bad for Amazon in the stock market? Interest rates were raised aggressively to combat inflation, making tech stocks less attractive to investors. Post-pandemic lockdowns were eased, with consumers shifting to in-person retail services. The overexpansion during the pandemic led to excess capacity in 2022, when things went back to pre-pandemic reality. There are countless variables to explain stock performance. This includes consumer behavior, political changes, etc. It is not necessarily inherent weakness or poor management that may lead to poor performance. But one way or another, companies have wealth fluctuations that reflect many circumstances that take them to the elite, or make them disappear from those privileged positions in the rankings. The equitable distribution of technological advancements can happen in parallel with wealth creation. For example, when Bill Gates thought about all homes having a personal computer. His wealth was growing exponentially and people had computers with an operating system that they could use, at home. The same happened with the Internet, when Netscape provided a revolutionary web browser. Netscape increased its wealth and people browsed the web.</p>
 			   </div>
 			   <div class=\"replies\">
-			   
-			   
-			   
-			   <div class=\"comment-heading\">
-                 <div class=\"comment-info\">
-			       <a href=\"https://www.linkedin.com/in/jaimemontoyain/\" class=\"comment-author\">Jaime Montoya</a>
+			     <div class=\"comment-heading\">
+                   <div class=\"comment-info\">
+			         <a href=\"https://www.linkedin.com/in/uniquegodwin/\" class=\"comment-author\">Godwin Josh</a>
+			       </div>
 			     </div>
-			   </div>
-			   <div class=\"comment-body\">
-			     <p>True. For example, why was 2022 bad for Amazon in the stock market? Interest rates were raised aggressively to combat inflation, making tech stocks less attractive to investors. Post-pandemic lockdowns were eased, with consumers shifting to in-person retail services. The overexpansion during the pandemic led to excess capacity in 2022, when things went back to pre-pandemic reality. There are countless variables to explain stock performance. This includes consumer behavior, political changes, etc. It is not necessarily inherent weakness or poor management that may lead to poor performance. But one way or another, companies have wealth fluctuations that reflect many circumstances that take them to the elite, or make them disappear from those privileged positions in the rankings. The equitable distribution of technological advancements can happen in parallel with wealth creation. For example, when Bill Gates thought about all homes having a personal computer. His wealth was growing exponentially and people had computers with an operating system that they could use, at home. The same happened with the Internet, when Netscape provided a revolutionary web browser. Netscape increased its wealth and people browsed the web.</p>
-			   </div>
-			   
-			   
+			     <div class=\"comment-body\">
+			       <p>The ebb and flow of wealth often mirrors societal shifts. It's a dance between innovation and adaptation, where those who grasp the zeitgeist tend to prosper. Consider how technology can both empower individuals and concentrate power in the hands of a few. This tension is inherent in progress itself. Ultimately, it's about finding meaning and purpose amidst these fluctuations.</p>
+			     </div>
 			   </div>
 			 </div>
 		   </div>
