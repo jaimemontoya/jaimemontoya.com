@@ -1,0 +1,4 @@
+<?php
+  $index->content .= 
+           "<div class=\"floatleft\"><img src=\"/opinion/2025/02/09/11/24/img/20250209-1124-collage.jpg\" alt=\"20250209-1124-collage\" width=\"400\" height=\"400\" class=\"floatleft\"><p>The theory that DeepSeek developed a more efficient model that will make Nvidia crash in the AI race, may be a fallacy considering that at least for now, Nvidia’s largest clients are still spending and planning to spend large amounts of money on AI and Nvidia’s most advanced chips.</p><p>Amazon’s strong Q4 results were not enough to overshadow the company’s guidance for growth deceleration, interrupting on Friday the solid growth that the company had been experiencing in the stock market.</p></div><div class=\"clearboth\">Published: 11:24 AM GMT · 9 Feb 2025</div>\n";
+?>
