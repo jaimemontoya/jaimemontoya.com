@@ -20,6 +20,16 @@
 			   <div class=\"comment-body\">
 			     <p>Absolutely! It is interesting to realize that Broadcom had its origin in Hewlett-Packard. Currently, Broadcom is the 10th richest company in the world while HP is number 669.</p>
 			   </div>
+			   <div class=\"replies\">
+			     <div class=\"comment-heading\">
+                   <div class=\"comment-info\">
+			         <a href=\"https://www.linkedin.com/company/ettfosmasterclass/\" class=\"comment-author\">ETTFOS</a>
+			       </div>
+			     </div>
+			     <div class=\"comment-body\">
+			       <p>Jaime yeah</p>
+			     </div>
+		       </div>
 		     </div>
 		     </div>
 		   </div>
