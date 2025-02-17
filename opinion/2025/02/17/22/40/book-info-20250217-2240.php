@@ -1,0 +1,4 @@
+<?php
+  $index->content .= 
+           "<div class=\"floatleft\"><img src=\"/opinion/2025/02/17/22/40/img/20250217-2240-collage.jpg\" alt=\"20250217-2240-collage\" width=\"400\" height=\"400\" class=\"floatleft\"><p>Broadcom has a sky-high trailing P/E ratio of 180.65. Nvidia’s trailing P/E ratio is already elevated: 54.82. When comparing and contrasting the two companies, specifically using the price-to-earnings (P/E) ratio measure, Nvidia is on paper the winner. Nonetheless, there are many elements to consider other than the P/E ratio, and the AI wave and revolution is highly unpredictable and volatile.</p></div><div class=\"clearboth\">Published: 10:40 PM GMT · 17 Feb 2025</div>\n";
+?>
