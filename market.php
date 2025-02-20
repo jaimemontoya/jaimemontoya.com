@@ -53,8 +53,12 @@ class MarketPage extends Page
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'},width:900,height:500};\n";
-	echo "\t\t\t\tbarsVisualization = new google.visualization.ColumnChart(document.getElementById('apple-vs-sp500'));\n";
-	echo "\t\t\t\tbarsVisualization.draw(data, options);\n";
+	
+	echo "\t\t\t\tvar chart = new google.charts.Line(document.getElementById('apple-vs-sp500'));\n";
+    echo "\t\t\t\tchart.draw(data, google.charts.Line.convertOptions(options));\n";
+	
+	/*echo "\t\t\t\tbarsVisualization = new google.visualization.ColumnChart(document.getElementById('apple-vs-sp500'));\n";
+	echo "\t\t\t\tbarsVisualization.draw(data, options);\n";*/
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
