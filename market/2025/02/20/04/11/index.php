@@ -2,7 +2,7 @@
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
   require("../../../../../../market.php");
-  $market = new CapitalPage();
+  $market = new MarketPage();
   $market->title = "Performance comparison: Apple Vs. S&P 500 (SPX)";
   $market->parentPage = "Market";
   $market->metaDescription = "The chart illustrates the hypothetical performance of a $10,000 investment in Apple and S&P 500 (SPX).";
