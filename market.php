@@ -51,7 +51,8 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2024, 11, 30), 1000, 1000],\n";
 	echo "\t\t\t\t\t[new Date(2024, 11, 31), 250.42/252.20*1000, 5881.63/5906.94*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 0, 1), 250.42/252.20*1000, 5881.63/5906.94*1000],\n";
-	echo "\t\t\t\t\t[new Date(2025, 0, 2), 243.85/252.20*1000, 5868.55/5906.94*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 0, 2), 243.85/252.20*1000, 5868.55/5906.94*1000],\n";
+	echo "\t\t\t\t\t[new Date(2025, 0, 3), 243.36/252.20*1000, 5942.47/5906.94*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";
