@@ -5,7 +5,7 @@ class MarketPage extends Page
   public function Display()
   {
     echo "<!doctype html>\n<html lang=\"en\">\n\t<head>\n";
-	$this -> CapitalCharts();
+	$this -> MarketCharts();
     $this -> DisplayGoogleAdSense();
     $this -> DisplayGoogleAnalytics();
     $this -> DisplayFontAwesome();
