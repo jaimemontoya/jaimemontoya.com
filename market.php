@@ -48,8 +48,8 @@ class MarketPage extends Page
     echo "\t\t\t\tdata.addColumn('number', 'Apple');\n";
     echo "\t\t\t\tdata.addColumn('number', 'S&P 500 (SPX)');\n";
 	echo "\t\t\t\tdata.addRows([\n";
-	echo "\t\t\t\t\t[new Date(2024, 11, 30), 1, 1],\n";
-	echo "\t\t\t\t\t[new Date(2024, 11, 31), 250.42/252.20, 5881.63/5906.94]\n";
+	echo "\t\t\t\t\t[new Date(2024, 11, 30), 1000, 1000],\n";
+	echo "\t\t\t\t\t[new Date(2024, 11, 31), 250.42/252.20*1000, 5881.63/5906.94*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";
