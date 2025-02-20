@@ -68,7 +68,7 @@ class MarketPage extends Page
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
 	echo "\t\t\tfunction barMouseOut(e) {\n";
-	echo "\t\t\t\tbarsVisualization.setSelection([{'row': null, 'column': null}]);\n";
+	echo "\t\t\t\tchart.setSelection([{'row': null, 'column': null}]);\n";
 	echo "\t\t\t}\n";
 	echo "\t\t</script>\n";
   }
