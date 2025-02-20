@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"2025/02/20/04/11/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"blog-20250220-0411-img\"></div>
+					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <h2>Performance comparison: Apple Vs. S&P 500 (SPX)</h2>
