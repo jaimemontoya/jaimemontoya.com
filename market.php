@@ -44,7 +44,7 @@ class MarketPage extends Page
 	echo "\t\t\t// Callback that creates and populates a data table, instantiates the line chart, passes in the data and draws it.\n";
 	echo "\t\t\tfunction drawAppleVsSP500Chart() {\n";
 	echo "\t\t\t\t// Create the data table.\n";
-	echo "\t\t\t\tvar data = new google.visualization.DataTable();\n";
+	echo "\t\t\t\tvar dataAppleVsSP500 = new google.visualization.DataTable();\n";
 	echo "\t\t\t\tdata.addColumn('date', 'X');\n";
     echo "\t\t\t\tdata.addColumn('number', 'Apple');\n";
     echo "\t\t\t\tdata.addColumn('number', 'S&P 500 (SPX)');\n";
@@ -104,16 +104,16 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 1, 20), 245.83/252.20*1000, 6117.52/5906.94*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar options = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
-	echo "\t\t\t\tvar chart = new google.visualization.LineChart(document.getElementById('apple-vs-sp500'));\n";
-    echo "\t\t\t\tchart.draw(data, options);\n";
+	echo "\t\t\t\tvar optionsAppleVsSP500 = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
+	echo "\t\t\t\tvar chartAppleVsSP500 = new google.visualization.LineChart(document.getElementById('apple-vs-sp500'));\n";
+    echo "\t\t\t\tchartAppleVsSP500.draw(dataAppleVsSP500, optionsAppleVsSP500);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
 	echo "\t\t\tfunction drawAppleVsDJIAChart() {\n";
 	echo "\t\t\t\t// Create the data table.\n";
-	echo "\t\t\t\tvar data = new google.visualization.DataTable();\n";
+	echo "\t\t\t\tvar dataAppleVsDJIA = new google.visualization.DataTable();\n";
 	echo "\t\t\t\tdata.addColumn('date', 'X');\n";
     echo "\t\t\t\tdata.addColumn('number', 'Apple');\n";
     echo "\t\t\t\tdata.addColumn('number', 'Global X Dow 30 Covered Call ETF (DJIA)');\n";
@@ -171,14 +171,13 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 1, 18), 244.47/252.20*1000, 44556.34/42573.73*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 1, 19), 244.87/252.20*1000, 44627.59/42573.73*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 1, 20), 245.83/252.20*1000, 44176.65/42573.73*1000]\n";
-
-
-
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar options = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
-	echo "\t\t\t\tvar chart = new google.visualization.LineChart(document.getElementById('apple-vs-sp500'));\n";
-    echo "\t\t\t\tchart.draw(data, options);\n";
+	echo "\t\t\t\tvar optionsAppleVsSP500 = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
+	echo "\t\t\t\tvar chartAppleVsSP500 = new google.visualization.LineChart(document.getElementById('apple-vs-sp500'));\n";
+	echo "\t\t\t\tvar optionsAppleVsDJIA = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
+	echo "\t\t\t\tvar chartAppleVsDJIA = new google.visualization.LineChart(document.getElementById('apple-vs-djia'));\n";    	
+	echo "\t\t\t\tchart.draw(data, options);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
