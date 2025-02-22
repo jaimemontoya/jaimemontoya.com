@@ -291,7 +291,7 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 1, 20), 140.11/252.20*1000, 19962.36/19756.78*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar optionsAppleVsNASDAQ = {chart:{'title':'Performance comparison: Apple Vs. NASDAQ Composite Index (COMP)',subtitle:'in dollars (USD)'}};\n";	
+	echo "\t\t\t\tvar optionsNvidiaVsNASDAQ = {chart:{'title':'Performance comparison: Apple Vs. NASDAQ Composite Index (COMP)',subtitle:'in dollars (USD)'}};\n";	
 	echo "\t\t\t\tvar chartNvidiaVsNASDAQ = new google.visualization.LineChart(document.getElementById('nvidia-vs-nasdaq'));\n";
     echo "\t\t\t\tchartNvidiaVsNASDAQ.draw(dataNvidiaVsNASDAQ, optionsNvidiaVsNASDAQ);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
