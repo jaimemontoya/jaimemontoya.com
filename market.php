@@ -292,8 +292,8 @@ class MarketPage extends Page
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsAppleVsNASDAQ = {chart:{'title':'Performance comparison: Apple Vs. NASDAQ Composite Index (COMP)',subtitle:'in dollars (USD)'}};\n";	
-	echo "\t\t\t\tvar chartAppleVsNASDAQ = new google.visualization.LineChart(document.getElementById('apple-vs-nasdaq'));\n";
-    echo "\t\t\t\tchartAppleVsNASDAQ.draw(dataAppleVsNASDAQ, optionsAppleVsNASDAQ);\n";
+	echo "\t\t\t\tvar chartNvidiaVsNASDAQ = new google.visualization.LineChart(document.getElementById('nvidia-vs-nasdaq'));\n";
+    echo "\t\t\t\tchartNvidiaVsNASDAQ.draw(dataNvidiaVsNASDAQ, optionsNvidiaVsNASDAQ);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
