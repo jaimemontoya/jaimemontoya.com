@@ -41,6 +41,7 @@ class MarketPage extends Page
 	echo "\t\t\t// Set a callback to run when the Google Visualization API is loaded.\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawAppleVsSP500Chart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawAppleVsDJIAChart);\n";
+	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawNvidiaVsDJIAChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawAppleVsNASDAQChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawNvidiaVsNASDAQChart);\n";
 	echo "\t\t\t// Callback that creates and populates a data table, instantiates the line chart, passes in the data and draws it.\n";
