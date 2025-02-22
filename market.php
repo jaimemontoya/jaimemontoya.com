@@ -103,7 +103,8 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 1, 17), 244.60/252.20*1000, 6114.63/5906.94*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 1, 18), 244.47/252.20*1000, 6129.58/5906.94*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 1, 19), 244.87/252.20*1000, 6144.15/5906.94*1000],\n";
-	echo "\t\t\t\t\t[new Date(2025, 1, 20), 245.83/252.20*1000, 6117.52/5906.94*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 1, 20), 245.83/252.20*1000, 6117.52/5906.94*1000],\n";
+	echo "\t\t\t\t\t[new Date(2025, 1, 21), 245.55/252.20*1000, 6013.13/5906.94*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsAppleVsSP500 = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
@@ -172,7 +173,8 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 1, 17), 244.60/252.20*1000, 44546.08/42573.73*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 1, 18), 244.47/252.20*1000, 44556.34/42573.73*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 1, 19), 244.87/252.20*1000, 44627.59/42573.73*1000],\n";
-	echo "\t\t\t\t\t[new Date(2025, 1, 20), 245.83/252.20*1000, 44176.65/42573.73*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 1, 20), 245.83/252.20*1000, 44176.65/42573.73*1000],\n";
+	echo "\t\t\t\t\t[new Date(2025, 1, 21), 245.55/252.20*1000, 43428.02/42573.73*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsAppleVsDJIA = {chart:{'title':'Performance comparison: Apple Vs. Global X Dow 30 Covered Call ETF (DJIA)',subtitle:'in dollars (USD)'}};\n";	
@@ -241,7 +243,8 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 1, 17), 244.60/252.20*1000, 20026.77/19486.78*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 1, 18), 244.47/252.20*1000, 20041.26/19486.78*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 1, 19), 244.87/252.20*1000, 20056.25/19486.78*1000],\n";
-	echo "\t\t\t\t\t[new Date(2025, 1, 20), 245.83/252.20*1000, 19962.36/19486.78*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 1, 20), 245.83/252.20*1000, 19962.36/19486.78*1000],\n";
+	echo "\t\t\t\t\t[new Date(2025, 1, 21), 245.55/252.20*1000, 19524.01/19486.78*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsAppleVsNASDAQ = {chart:{'title':'Performance comparison: Apple Vs. NASDAQ Composite Index (COMP)',subtitle:'in dollars (USD)'}};\n";	
@@ -288,7 +291,8 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 1, 17), 138.85/140.83*1000, 20026.77/19756.78*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 1, 18), 139.40/140.83*1000, 20041.26/19756.78*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 1, 19), 139.23/140.83*1000, 20056.25/19756.78*1000],\n";
-	echo "\t\t\t\t\t[new Date(2025, 1, 20), 140.11/140.83*1000, 19962.36/19756.78*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 1, 20), 140.11/140.83*1000, 19962.36/19756.78*1000],\n";
+	echo "\t\t\t\t\t[new Date(2025, 1, 21), 134.43/140.83*1000, 19524.01/19756.78*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsNvidiaVsNASDAQ = {chart:{'title':'Performance comparison: Apple Vs. NASDAQ Composite Index (COMP)',subtitle:'in dollars (USD)'}};\n";	
