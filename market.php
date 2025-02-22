@@ -157,7 +157,7 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 1, 21), 134.43/140.83*1000, 6013.13/6049.24*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar optionsNvidiaVsSP500 = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
+	echo "\t\t\t\tvar optionsNvidiaVsSP500 = {chart:{'title':'Performance comparison: Nvidia Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
 	echo "\t\t\t\tvar chartNvidiaVsSP500 = new google.visualization.LineChart(document.getElementById('nvidia-vs-sp500'));\n";
     echo "\t\t\t\tchartNvidiaVsSP500.draw(dataNvidiaVsSP500, optionsNvidiaVsSP500);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
