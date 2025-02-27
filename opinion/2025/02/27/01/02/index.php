@@ -1,10 +1,10 @@
 <?php
   require("../../../../../../page.php");
   $index = new Page();
-  $index->title = "Nightmare for Tesla. TSMC richer than Tesla. Aramco performing better than all Magnificent 7 stocks. Musk lost $15.6 billion. Buffett having a great week for his net worth. Bezos richer than Zuckerberg.";
+  $index->title = "The freefall for Broadcom ended. Apple had a weak Wednesday. Broadcom richer than Tesla. Boycott against Musk and Tesla. Zuckerberg richer than Bezos.";
   $index->parentPage = "Opinion";
-  $index->metaDescription = "Saudi Aramco had a positive stock price growth of 0.74% on Tuesday, better than all Magnificent 7 stocks (Apple, Microsoft, Amazon, Alphabet, Meta, Nvidia, and Tesla).";
+  $index->metaDescription = "Apple interrupted on Wednesday its consistent stock price growth that had started on 11 Feb 2025. That caused Apple to have a negative 2025 balance, with a decrease of 1.43% this year.";
   $index->content .= "\t\t\t<h1>".$index->title."</h1>";
-  require("book-info-20250226-0333.php");
+  require("book-info-20250227-0102.php");
   $index->Display();
 ?>
