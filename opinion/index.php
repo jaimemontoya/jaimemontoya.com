@@ -6,6 +6,7 @@
   $index->content .= "<h1>Opinion</h1><p>Stock Market, Business & Finance Opinion since 2024-Dec-30 9:47 PM GMT.</p>";
   $index->content .= 
            "\t\t\t<iframe src=\"https://docs.google.com/document/d/e/2PACX-1vSI9um9QUifKrVuSKbRJexc1qWy1aaFrSOc3Rjzx8WrGU9_INb5x8vR3EmTPkcdom2mgN5kwW9J6RTq/pub?embedded=true\" id=\"opinion-spreadsheet\"></iframe>\n";
+  require("2025/03/06/14/27/20250306-1427-book-info.php");
   require("2025/03/05/08/48/20250305-0848-book-info.php");
   require("2025/03/04/03/50/20250304-0350-book-info.php");
   require("2025/03/01/07/27/20250301-0727-book-info.php");
