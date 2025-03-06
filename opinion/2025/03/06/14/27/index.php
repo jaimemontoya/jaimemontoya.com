@@ -5,6 +5,6 @@
   $index->parentPage = "Opinion";
   $index->metaDescription = "Larry Page had a good Tuesday to make his net worth grow by $3.1 billion (2.20% increase). That was a little relief considering that his company, Alphabet, has been experiencing consistent decrease in its stock price since 5 Feb 2025 to 3 Mar 2025.";
   $index->content .= "\t\t\t<h1>".$index->title."</h1>";
-  require("book-info-20250305-0848.php");
+  require("book-info-20250306-1427.php");
   $index->Display();
 ?>
