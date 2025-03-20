@@ -479,7 +479,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t[new Date(2025, 2 , 17), 11459.9],\n";
     echo "\t\t\t\t\t[new Date(2025, 2 , 18), 11459.85],\n";
     echo "\t\t\t\t\t[new Date(2025, 2 , 19), 11467.9],\n";
-    echo "\t\t\t\t\t[new Date(2025, 2 , 20), 11467.9]\n";
+    echo "\t\t\t\t\t[new Date(2025, 2 , 20), 11496.53]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
     echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital from 2024-May-05 to 2025-Mar-20',\n";
