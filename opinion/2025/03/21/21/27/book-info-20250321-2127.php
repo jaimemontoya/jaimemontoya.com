@@ -1,0 +1,4 @@
+<?php
+  $index->content .= 
+           "<div class=\"floatleft\"><img src=\"/opinion/2025/03/21/21/27/img/20250321-2127-collage.jpg\" alt=\"20250321-2127-collage\" width=\"400\" height=\"400\" class=\"floatleft\"><p>Apple enjoyed a successful week even in the middle of stock market uncertainty and political changes in the United States. With a share price growth of 2.33%, Apple is still the richest company in the world.</p><p>Nvidia was downgraded from 2nd to 3rd richest company in the world, while Microsoft was upgraded from 3rd to 2nd. The week for Microsoft had a stock price growth of 1.23%, while Nvidia fell by 4.15%. It is interesting to see again Apple and Microsoft in the top of the ranking, the legendary two companies that revolutionized the PC industry in the 1990s.</p></div><div class=\"clearboth\">Published: 9:27 PM GMT · 21 Mar 2025</div>\n";
+?>
