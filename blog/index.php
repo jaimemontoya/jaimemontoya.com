@@ -4,6 +4,7 @@
   $index->title = "Blog";
   $index->metaDescription = "Jaime Montoya's blog featuring software technical documentation related to web hosting, web development, data analysis, and data migration.";
   $index->content .= "<h1>Blog</h1><p>Software technical documentation blog for myself and the world.</p>";
+  require("2025/03/31/23/06/20250331-2306-book-info.php");
   require("2024/12/21/04/27/20241221-0427-book-info.php");
   require("2024/05/03/16/18/20240503-1618-book-info.php");
   require("2024/04/22/20/51/20240422-2051-book-info.php");
