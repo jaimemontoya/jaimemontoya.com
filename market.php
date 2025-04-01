@@ -154,9 +154,9 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 2, 31), 222.13/252.20*1000, 5611.85/5906.94*1000, 42001.76/42573.73*1000, 17299.29/19486.78*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar optionsAppleVsSP500 = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
-	echo "\t\t\t\tvar chartAppleVsSP500 = new google.visualization.LineChart(document.getElementById('apple-vs-sp500'));\n";
-    echo "\t\t\t\tchartAppleVsSP500.draw(dataAppleVsSP500, optionsAppleVsSP500);\n";
+	echo "\t\t\t\tvar optionsAppleVsMarket = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
+	echo "\t\t\t\tvar chartAppleVsMarket = new google.visualization.LineChart(document.getElementById('apple-vs-market'));\n";
+    echo "\t\t\t\tchartAppleVsMarket.draw(dataAppleVsMarket, optionsAppleVsMarket);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
