@@ -51,7 +51,7 @@ class MarketPage extends Page
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawNvidiaVsDJIAChart);\n"; // Section 5
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawNvidiaVsNASDAQChart);\n"; // Section 6
 	echo "\t\t\t// Callback that creates and populates a data table, instantiates the line chart, passes in the data and draws it.\n";
-	echo "\t\t\tfunction drawAppleVsSP500Chart() {\n"; // Section 1
+	echo "\t\t\tfunction drawAppleVsMarketChart() {\n"; // Section 1
 	echo "\t\t\t\t// Create the data table.\n";
 	echo "\t\t\t\tvar dataAppleVsSP500 = new google.visualization.DataTable();\n";
 	echo "\t\t\t\tdataAppleVsMarket.addColumn('date', 'X');\n";
