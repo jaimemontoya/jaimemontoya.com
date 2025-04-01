@@ -60,7 +60,7 @@ class MarketPage extends Page
 	echo "\t\t\t\tdataAppleVsSP500.addColumn('number', 'Global X Dow 30 Covered Call ETF (DJIA)');\n";
 	echo "\t\t\t\tdataAppleVsSP500.addColumn('number', 'NASDAQ Composite Index (COMP)');\n";
 	echo "\t\t\t\tdataAppleVsSP500.addRows([\n";
-	echo "\t\t\t\t\t[new Date(2024, 11, 30), 1000, 1000, 1000],\n";
+	echo "\t\t\t\t\t[new Date(2024, 11, 30), 1000, 1000, 1000, 1000],\n";
 	echo "\t\t\t\t\t[new Date(2024, 11, 31), 250.42/252.20*1000, 5881.63/5906.94*1000, 5881.63/5936.94*1000, 5899.63/5936.94*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 0, 1), 250.42/252.20*1000, 5881.63/5906.94*1000, 5881.63/5936.94*1000, 5899.63/5936.94*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 0, 2), 243.85/252.20*1000, 5868.55/5906.94*1000, 5881.63/5936.94*1000, 5899.63/5936.94*1000],\n";
