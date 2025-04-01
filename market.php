@@ -44,7 +44,7 @@ class MarketPage extends Page
 	// https://www.nasdaq.com/market-activity/index/comp/historical
 	// Apple: https://www.nasdaq.com/market-activity/stocks/aapl/historical
 	// Nvidia: https://www.nasdaq.com/market-activity/stocks/nvda/historical
-	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawAppleVsSP500Chart);\n"; // Section 1
+	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawAppleVsMarketChart);\n"; // Section 1
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawAppleVsDJIAChart);\n"; // Section 2
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawAppleVsNASDAQChart);\n"; // Section 3
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawNvidiaVsSP500Chart);\n"; // Section 4
@@ -54,12 +54,12 @@ class MarketPage extends Page
 	echo "\t\t\tfunction drawAppleVsSP500Chart() {\n"; // Section 1
 	echo "\t\t\t\t// Create the data table.\n";
 	echo "\t\t\t\tvar dataAppleVsSP500 = new google.visualization.DataTable();\n";
-	echo "\t\t\t\tdataAppleVsSP500.addColumn('date', 'X');\n";
-    echo "\t\t\t\tdataAppleVsSP500.addColumn('number', 'Apple');\n";
-    echo "\t\t\t\tdataAppleVsSP500.addColumn('number', 'S&P 500 (SPX)');\n";
-	echo "\t\t\t\tdataAppleVsSP500.addColumn('number', 'Global X Dow 30 Covered Call ETF (DJIA)');\n";
-	echo "\t\t\t\tdataAppleVsSP500.addColumn('number', 'NASDAQ Composite Index (COMP)');\n";
-	echo "\t\t\t\tdataAppleVsSP500.addRows([\n";
+	echo "\t\t\t\tdataAppleVsMarket.addColumn('date', 'X');\n";
+    echo "\t\t\t\tdataAppleVsMarket.addColumn('number', 'Apple');\n";
+    echo "\t\t\t\tdataAppleVsMarket.addColumn('number', 'S&P 500 (SPX)');\n";
+	echo "\t\t\t\tdataAppleVsMarket.addColumn('number', 'Global X Dow 30 Covered Call ETF (DJIA)');\n";
+	echo "\t\t\t\tdataAppleVsMarket.addColumn('number', 'NASDAQ Composite Index (COMP)');\n";
+	echo "\t\t\t\tdataAppleVsMarket.addRows([\n";
 	echo "\t\t\t\t\t[new Date(2024, 11, 30), 1000, 1000, 1000, 1000],\n";
 	echo "\t\t\t\t\t[new Date(2024, 11, 31), 250.42/252.20*1000, 5881.63/5906.94*1000, 42544.22/42573.73*1000, 19310.79/19486.78*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 0, 1), 250.42/252.20*1000, 5881.63/5906.94*1000, 42544.22/42573.73*1000, 19310.79/19486.78*1000],\n";
