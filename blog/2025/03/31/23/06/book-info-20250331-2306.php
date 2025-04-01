@@ -9,5 +9,7 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/manageDomainOnCloudflare.jpg\" alt=\"Manage domain on Cloudflare\" width=\"1485\" height=\"801\"></div>
 		   <p>I clicked <span class=\"cod\">Update DNS configuration</span>:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/updateDNSConfigurationFromCloudflare.jpg\" alt=\"Update DNS configuration from Cloudflare\" width=\"1485\" height=\"804\"></div>
+		   <p>I scrolled down to find the Cloudflare Nameservers:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/findCloudflareNameservers.jpg\" alt=\"Find Cloudflare Nameservers\" width=\"1488\" height=\"802\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
