@@ -166,7 +166,7 @@ class MarketPage extends Page
 	echo "\t\t\t\tdataNvidiaVsMarket.addColumn('number', 'Global X Dow 30 Covered Call ETF (DJIA)');\n";
 	echo "\t\t\t\tdataNvidiaVsMarket.addColumn('number', 'NASDAQ Composite Index (COMP)');\n";
 	echo "\t\t\t\tdataNvidiaVsMarket.addRows([\n";
-	echo "\t\t\t\t\t[new Date(2024, 0, 22), 1000, 1000, 1000, 1000],\n";
+	echo "\t\t\t\t\t[new Date(2025, 0, 22), 1000, 1000, 1000, 1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 0, 23), 147.22/147.07*1000, 6118.71/5906.94*1000, 44565.07/42573.73*1000, 20053.68/19486.78*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 0, 24), 142.62/147.07*1000, 6101.24/5906.94*1000, 44424.25/42573.73*1000, 19954.30/19486.78*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 0, 25), 142.62/147.07*1000, 6101.24/5906.94*1000, 44424.25/42573.73*1000, 19954.30/19486.78*1000],\n";
