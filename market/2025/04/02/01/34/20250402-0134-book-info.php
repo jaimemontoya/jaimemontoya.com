@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"2025/04/02/01/34/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
+					<div class=\"book-cover\" id=\"market-20250402-0134-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <h2>Performance comparison: Nvidia Vs. S&P 500 (SPX) Vs. Global X Dow 30 Covered Call ETF (DJIA) Vs. NASDAQ Composite Index (COMP)</h2>
