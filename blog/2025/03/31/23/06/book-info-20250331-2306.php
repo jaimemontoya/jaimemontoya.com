@@ -19,5 +19,8 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/addADomain.jpg\" alt=\"Add a domain\" width=\"1865\" height=\"1005\"></div>
 		   <p>I entered the website's apex domain <span class=\"cod\">christianmontessorifellowship.com</span>. Then I chose <span class=\"cod\">Quick scan for DNS records</span> and clicked <span class=\"cod\">Continue</span>:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/enterAnExistingDomain.jpg\" alt=\"Enter an existing domain\" width=\"1856\" height=\"1007\"></div>
+		   <p>I clicked <span class=\"cod\">Select plan</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/clickSelectPlan.jpg\" alt=\"Click Select plan\" width=\"1852\" height=\"998\"></div>
+		   
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
