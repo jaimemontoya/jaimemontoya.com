@@ -23,9 +23,11 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/clickSelectPlan.jpg\" alt=\"Click Select plan\" width=\"1852\" height=\"998\"></div>
 		   <p>The initial result was <span class=\"cod\">Invalid nameservers</span>:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/invalidNameservers.jpg\" alt=\"Invalid nameservers\" width=\"1860\" height=\"1003\"></div>
-		   <p>I found at <a href=\"https://whois.domaintools.com/christianmontessorifellowship.com\">https://whois.domaintools.com/christianmontessorifellowship.com</a> the IP address of the hosting server</span>:</p>
-		   <div><img src=\"/blog/2025/03/31/23/06/img/iPAddressOfTheHostingServer.jpg\" alt=\"IP address of the hosting server\" width=\"1687\" height=\"1005\"></div>
+		   <p>I found at <a href=\"https://whois.domaintools.com/internationalcmi.com\">https://whois.domaintools.com/internationalcmi.com</a> the IP address of the hosting server</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/iPAddressOfTheHostingServer.jpg\" alt=\"IP address of the hosting server\" width=\"1682\" height=\"1007\"></div>
 		   <p>I scrolled down and clicked <span class=\"cod\">Add record</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/addRecord.jpg\" alt=\"Click Add record\" width=\"1847\" height=\"1007\"></div>
+		   <p>I provided the details for the new <span class=\"cod\">A</span> record and clicked <span class=\"cod\">Save</span>:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/addRecord.jpg\" alt=\"Click Add record\" width=\"1847\" height=\"1007\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
