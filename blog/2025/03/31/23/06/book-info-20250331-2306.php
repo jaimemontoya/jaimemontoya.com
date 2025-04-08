@@ -15,5 +15,7 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/saveUpdatedNameserverValuesOnCloudflare.jpg\" alt=\"Save updated nameserver values on Cloudflare\" width=\"1828\" height=\"1002\"></div>
 		   <p>The domain <span class=\"cod\">christianmontessorifellowship.com</span> was pointed to <span class=\"cod\">Custom DNS</span> in previous steps. I confirmed that the DNSSEC feature for domains pointed to Custom nameservers was disabled:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/confirmDisabledDNSSEC.jpg\" alt=\"Confirm disabled DNSSEC\" width=\"1816\" height=\"1003\"></div>
+		   <p>From the Cloudflare dashboard, I clicked <span class=\"cod\">Add a domain</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/addADomain.jpg\" alt=\"Add a domain\" width=\"1865\" height=\"1005\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
