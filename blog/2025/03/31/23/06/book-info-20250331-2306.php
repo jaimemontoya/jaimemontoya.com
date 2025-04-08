@@ -28,6 +28,6 @@
 		   <p>I scrolled down and clicked <span class=\"cod\">Add record</span>:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/addRecord.jpg\" alt=\"Click Add record\" width=\"1847\" height=\"1007\"></div>
 		   <p>I provided the details for the new <span class=\"cod\">A</span> record and clicked <span class=\"cod\">Save</span>:</p>
-		   <div><img src=\"/blog/2025/03/31/23/06/img/addRecord.jpg\" alt=\"Click Add record\" width=\"1847\" height=\"1007\"></div>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/addARecord.jpg\" alt=\"Click Add record\" width=\"1855\" height=\"1012\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
