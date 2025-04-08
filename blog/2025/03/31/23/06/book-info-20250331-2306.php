@@ -23,6 +23,7 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/clickSelectPlan.jpg\" alt=\"Click Select plan\" width=\"1852\" height=\"998\"></div>
 		   <p>The initial result was <span class=\"cod\">Invalid nameservers</span>:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/invalidNameservers.jpg\" alt=\"Invalid nameservers\" width=\"1860\" height=\"1003\"></div>
-		   
+		   <p>I scrolled down and clicked <span class=\"cod\">Continue to activation</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/clickContinueToActivation.jpg\" alt=\"Invalid nameservers\" width=\"1862\" height=\"1002\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
