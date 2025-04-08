@@ -31,5 +31,9 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/addARecord.jpg\" alt=\"Click Add record\" width=\"1855\" height=\"1012\"></div>
 		   <p>I clicked <span class=\"cod\">Continue to activation</span>:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/clickContinueToActivation.jpg\" alt=\"Click Continue to activation\" width=\"1857\" height=\"998\"></div>
+		   <p>I found the assigned Cloudflare nameservers:</p>
+		   <p>I clicked <span class=\"cod\">Continue to activation</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/assignedCloudflareNameserversPart1Of2.jpg\" alt=\"Assigned Cloudflare nameservers part 1 of 2\" width=\"1862\" height=\"1006\"></div>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/assignedCloudflareNameserversPart2Of2.jpg\" alt=\"Assigned Cloudflare nameservers part 2 of 2\" width=\"1857\" height=\"1008\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
