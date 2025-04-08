@@ -39,5 +39,7 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/provideNewNameservers.jpg\" alt=\"Provide new nameservers\" width=\"1816\" height=\"1010\"></div>
 		   <p>The change was saved:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/showSavedChange.jpg\" alt=\"Show saved change\" width=\"1827\" height=\"1006\"></div>
+		   <p>I clicked <span class=\"cod\">Continue</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/clickContinueFromCloudflare.jpg\" alt=\"Click continue from Cloudflare\" width=\"1856\" height=\"1010\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
