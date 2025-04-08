@@ -37,5 +37,7 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/assignedCloudflareNameserversPart2Of2.jpg\" alt=\"Assigned Cloudflare nameservers part 2 of 2\" width=\"1857\" height=\"1008\"></div>
 		   <p>I provided the new nameservers and clicked the Save icon:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/provideNewNameservers.jpg\" alt=\"Provide new nameservers\" width=\"1816\" height=\"1010\"></div>
+		   <p>The change was saved:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/showSavedChange.jpg\" alt=\"Show saved change\" width=\"1827\" height=\"1006\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
