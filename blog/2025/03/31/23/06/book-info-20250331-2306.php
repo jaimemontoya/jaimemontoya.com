@@ -25,5 +25,7 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/invalidNameservers.jpg\" alt=\"Invalid nameservers\" width=\"1860\" height=\"1003\"></div>
 		   <p>I found at <a href=\"https://whois.domaintools.com/christianmontessorifellowship.com\">https://whois.domaintools.com/christianmontessorifellowship.com</a> the IP address of the hosting server</span>:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/iPAddressOfTheHostingServer.jpg\" alt=\"IP address of the hosting server\" width=\"1687\" height=\"1005\"></div>
+		   <p>I scrolled down and clicked <span class=\"cod\">Add record</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/addRecord.jpg\" alt=\"Click Add record\" width=\"1847\" height=\"1007\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
