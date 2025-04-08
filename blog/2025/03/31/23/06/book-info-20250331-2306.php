@@ -25,5 +25,7 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/invalidNameservers.jpg\" alt=\"Invalid nameservers\" width=\"1860\" height=\"1003\"></div>
 		   <p>I scrolled down and clicked <span class=\"cod\">Add record</span>:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/addRecord.jpg\" alt=\"Add record\" width=\"1860\" height=\"998\"></div>
+		   <p>I added the first nameserver and clicked <span class=\"cod\">Save</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/addFirstNameserver.jpg\" alt=\"Add first nameserver\" width=\"1857\" height=\"1001\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
