@@ -278,7 +278,7 @@ class MarketPage extends Page
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsMicrosoftVsMarket = {chart:{'title':'Performance comparison: Microsoft Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
 	echo "\t\t\t\tvar chartMicrosoftVsMarket = new google.visualization.LineChart(document.getElementById('microsoft-vs-market'));\n";
-    echo "\t\t\t\tchartMicrosoftVsMarket.draw(dataNvidiaVsMarket, optionsNvidiaVsMarket);\n";
+    echo "\t\t\t\tchartMicrosoftVsMarket.draw(dataMicrosoftVsMarket, optionsMicrosoftVsMarket);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
