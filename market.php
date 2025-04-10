@@ -46,6 +46,7 @@ class MarketPage extends Page
 	// Nvidia: https://www.nasdaq.com/market-activity/stocks/nvda/historical
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawAppleVsMarketChart);\n"; // Apple
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawNvidiaVsMarketChart);\n"; // Nvidia
+	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawMicrosoftVsMarketChart);\n"; // Microsoft
 	echo "\t\t\t// Callback that creates and populates a data table, instantiates the line chart, passes in the data and draws it.\n";
 	echo "\t\t\tfunction drawAppleVsMarketChart() {\n"; // Apple
 	echo "\t\t\t\t// Create the data table.\n";
@@ -154,7 +155,9 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 3, 4), 188.38/252.20*1000, 	5074.08/5906.94*1000, 38314.86/42573.73*1000, 15587.79/19486.78*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 5), 188.38/252.20*1000, 	5074.08/5906.94*1000, 38314.86/42573.73*1000, 15587.79/19486.78*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 6), 188.38/252.20*1000, 	5074.08/5906.94*1000, 38314.86/42573.73*1000, 15587.79/19486.78*1000],\n";
-	echo "\t\t\t\t\t[new Date(2025, 3, 7), 181.46/252.20*1000, 	5062.25/5906.94*1000, 37965.60/42573.73*1000, 15603.26/19486.78*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 7), 181.46/252.20*1000, 	5062.25/5906.94*1000, 37965.60/42573.73*1000, 15603.26/19486.78*1000],\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 8), 172.42/252.20*1000, 	4982.77/5906.94*1000, 37645.59/42573.73*1000, 15267.91/19486.78*1000],\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 9), 198.85/252.20*1000, 	5456.90/5906.94*1000, 40608.45/42573.73*1000, 17124.97/19486.78*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsAppleVsMarket = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
@@ -249,6 +252,8 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 3, 5), 94.31/147.07*1000, 	5074.08/6086.37*1000, 38314.86/44156.73*1000, 15587.79/20009.34*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 6), 94.31/147.07*1000, 	5074.08/6086.37*1000, 38314.86/44156.73*1000, 15587.79/20009.34*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 7), 97.64/147.07*1000, 	5062.25/6086.37*1000, 37965.60/44156.73*1000, 15603.26/20009.34*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 8), 172.42/147.07*1000, 	4982.77/6086.37*1000, 37645.59/44156.73*1000, 15267.91/20009.34*1000],\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 9), 198.85/147.07*1000, 	5456.90/6086.37*1000, 40608.45/44156.73*1000, 17124.97/20009.34*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsNvidiaVsMarket = {chart:{'title':'Performance comparison: Nvidia Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
@@ -258,6 +263,29 @@ class MarketPage extends Page
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
+	echo "\t\t\tfunction drawMicrosoftVsMarketChart() {\n"; // Microsoft
+	echo "\t\t\t\t// Create the data table.\n";
+	echo "\t\t\t\tvar dataMicrosoftVsMarket = new google.visualization.DataTable();\n";
+	echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('date', 'X');\n";
+    echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('number', 'Microsoft');\n";
+    echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('number', 'S&P 500 (SPX)');\n";
+	echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('number', 'Global X Dow 30 Covered Call ETF (DJIA)');\n";
+	echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('number', 'NASDAQ Composite Index (COMP)');\n";
+	echo "\t\t\t\tdataMicrosoftVsMarket.addRows([\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 9), 1000, 1000, 1000, 1000],\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 10), 198.85/147.07*1000, 5456.90/6086.37*1000, 39593.66/40608.45*1000, 16387.31/17124.97*1000]\n";
+	echo "\t\t\t\t]);\n";
+	echo "\t\t\t\t// Set chart options\n";
+	echo "\t\t\t\tvar optionsMicrosoftVsMarket = {chart:{'title':'Performance comparison: Nvidia Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
+	echo "\t\t\t\tvar chartMicrosoftVsMarket = new google.visualization.LineChart(document.getElementById('nvidia-vs-market'));\n";
+    echo "\t\t\t\tchartMicrosoftVsMarket.draw(dataNvidiaVsMarket, optionsNvidiaVsMarket);\n";
+	echo "\t\t\t\t// Add our over/out handlers.\n";
+	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
+	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
+	echo "\t\t\t}\n";	
+	
+	
+	
 	echo "\t\t\tfunction barMouseOut(e) {\n";
 	echo "\t\t\t\tchart.setSelection([{'row': null, 'column': null}]);\n";
 	echo "\t\t\t}\n";
