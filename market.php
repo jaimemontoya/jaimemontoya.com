@@ -273,7 +273,7 @@ class MarketPage extends Page
 	echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('number', 'NASDAQ Composite Index (COMP)');\n";
 	echo "\t\t\t\tdataMicrosoftVsMarket.addRows([\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 9), 1000, 1000, 1000, 1000],\n";
-	echo "\t\t\t\t\t[new Date(2025, 3, 10), 198.85/147.07*1000, 5456.90/6086.37*1000, 39593.66/40608.45*1000, 16387.31/17124.97*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 10), 198.85/147.07*1000, 5268.05/5456.90*1000, 40608.45/39593.66*1000, 16387.31/17124.97*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsMicrosoftVsMarket = {chart:{'title':'Performance comparison: Microsoft Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
