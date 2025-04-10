@@ -47,16 +47,16 @@ class HomePage extends Page
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
     echo "\t\t\t\t\t['Company', 'Trillions'],\n";
-    echo "\t\t\t\t\t['AAPL',2.987],\n";
-	echo "\t\t\t\t\t['MSFT',2.902],\n";	
-	echo "\t\t\t\t\t['NVDA',2.789],\n";	
-	echo "\t\t\t\t\t['AMZN',2.025],\n";
+    echo "\t\t\t\t\t['AAPL',2.860],\n";
+	echo "\t\t\t\t\t['MSFT',2.834],\n";	
+	echo "\t\t\t\t\t['NVDA',2.624]\n";	
+	/*echo "\t\t\t\t\t['AMZN',2.025],\n";
 	echo "\t\t\t\t\t['GOOG',1.947],\n";
 	echo "\t\t\t\t\t['2222.SR',1.676],\n";
 	echo "\t\t\t\t\t['META',1.484],\n";
 	echo "\t\t\t\t\t['BKR-B',1.122],\n";
 	echo "\t\t\t\t\t['TSLA',0.87553],\n";
-	echo "\t\t\t\t\t['AVGO',0.87056]\n";
+	echo "\t\t\t\t\t['AVGO',0.87056]\n";*/
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
