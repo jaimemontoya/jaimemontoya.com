@@ -44,6 +44,7 @@ class MarketPage extends Page
 	// https://www.nasdaq.com/market-activity/index/comp/historical
 	// Apple: https://www.nasdaq.com/market-activity/stocks/aapl/historical
 	// Nvidia: https://www.nasdaq.com/market-activity/stocks/nvda/historical
+	// Nvidia: https://www.nasdaq.com/market-activity/stocks/msft/historical
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawAppleVsMarketChart);\n"; // Apple
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawNvidiaVsMarketChart);\n"; // Nvidia
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawMicrosoftVsMarketChart);\n"; // Microsoft
@@ -273,7 +274,7 @@ class MarketPage extends Page
 	echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('number', 'NASDAQ Composite Index (COMP)');\n";
 	echo "\t\t\t\tdataMicrosoftVsMarket.addRows([\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 9), 1000, 1000, 1000, 1000],\n";
-	echo "\t\t\t\t\t[new Date(2025, 3, 10), 198.85/147.07*1000, 5268.05/5456.90*1000, 40608.45/39593.66*1000, 16387.31/17124.97*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 10), 381.35/390.49*1000, 5268.05/5456.90*1000, 40608.45/39593.66*1000, 16387.31/17124.97*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsMicrosoftVsMarket = {chart:{'title':'Performance comparison: Microsoft Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
@@ -282,10 +283,7 @@ class MarketPage extends Page
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
-	echo "\t\t\t}\n";	
-	
-	
-	
+	echo "\t\t\t}\n";
 	echo "\t\t\tfunction barMouseOut(e) {\n";
 	echo "\t\t\t\tchart.setSelection([{'row': null, 'column': null}]);\n";
 	echo "\t\t\t}\n";
