@@ -159,6 +159,8 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 3, 7), 181.46/252.20*1000, 	5062.25/5906.94*1000, 37965.60/42573.73*1000, 15603.26/19486.78*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 8), 172.42/252.20*1000, 	4982.77/5906.94*1000, 37645.59/42573.73*1000, 15267.91/19486.78*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 9), 198.85/252.20*1000, 	5456.90/5906.94*1000, 40608.45/42573.73*1000, 17124.97/19486.78*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 10), 190.42/252.20*1000, 5268.05/5906.94*1000, 39593.66/42573.73*1000, 16387.31/19486.78*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 11), 198.15/252.20*1000, 5363.36/5906.94*1000, 40212.71/42573.73*1000, 16724.46/19486.78*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsAppleVsMarket = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
@@ -255,6 +257,8 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 3, 7), 97.64/147.07*1000, 	5062.25/6086.37*1000, 37965.60/44156.73*1000, 15603.26/20009.34*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 8), 96.30/147.07*1000, 	4982.77/6086.37*1000, 37645.59/44156.73*1000, 15267.91/20009.34*1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 9), 114.33/147.07*1000, 	5456.90/6086.37*1000, 40608.45/44156.73*1000, 17124.97/20009.34*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 10), 107.57/147.07*1000, 5268.05/6086.37*1000, 39593.66/44156.73*1000, 16387.31/20009.34*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 11), 110.93/147.07*1000, 5363.36/6086.37*1000, 40212.71/44156.73*1000, 16724.46/20009.34*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsNvidiaVsMarket = {chart:{'title':'Performance comparison: Nvidia Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
@@ -275,6 +279,7 @@ class MarketPage extends Page
 	echo "\t\t\t\tdataMicrosoftVsMarket.addRows([\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 9), 1000, 1000, 1000, 1000],\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 10), 381.35/390.49*1000, 5268.05/5456.90*1000, 39593.66/40608.45*1000, 16387.31/17124.97*1000]\n";
+	echo "\t\t\t\t\t[new Date(2025, 3, 11), 388.45/390.49*1000, 5363.36/5456.90*1000, 40212.71/40608.45*1000, 16724.46/17124.97*1000]\n";
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar optionsMicrosoftVsMarket = {chart:{'title':'Performance comparison: Microsoft Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
