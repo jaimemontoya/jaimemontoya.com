@@ -55,6 +55,8 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/createPageRule.jpg\" alt=\"Create Page Rule\" width=\"1842\" height=\"1000\"></div>
 		   <p>I created a rule:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/saveAndDeployPageRule.jpg\" alt=\"Save and Deploy Page Rule\" width=\"1858\" height=\"1006\"></div>
-		   <p>The <span class=\"cod\">proxied DNS record</span> link points to <a href=\"https://developers.cloudflare.com/dns/proxy-status/\">https://developers.cloudflare.com/dns/proxy-status/</a></span></p>
+		   <p>The <span class=\"cod\">proxied DNS record</span> link points to <a href=\"https://developers.cloudflare.com/dns/proxy-status/\">https://developers.cloudflare.com/dns/proxy-status/</a></span>. I clicked <span class=\"cod\">Deploy rule</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/deployRule.jpg\" alt=\"Deploy rule\" width=\"1850\" height=\"1001\"></div>
+		   
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
