@@ -49,5 +49,7 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/findNewIPAddressToTry.jpg\" alt=\"Find new IP address to try\" width=\"1685\" height=\"1003\"></div>
 		   <p>I saved the new IP address in the Cloudflare settings:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/saveNewIPAddressInCloudflareSettings.jpg\" alt=\"Save new IP address in the Cloudflare settings\" width=\"1855\" height=\"1008\"></div>
+		   <p>I deleted the DNS record that I had created:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/deleteDnsRecord.jpg\" alt=\"Delete DNS record\" width=\"1857\" height=\"1007\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
