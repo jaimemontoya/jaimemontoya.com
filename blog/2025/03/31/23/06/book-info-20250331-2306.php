@@ -51,5 +51,7 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/saveNewIPAddressInCloudflareSettings.jpg\" alt=\"Save new IP address in the Cloudflare settings\" width=\"1855\" height=\"1008\"></div>
 		   <p>I deleted the DNS record that I had created:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/deleteDnsRecord.jpg\" alt=\"Delete DNS record\" width=\"1857\" height=\"1007\"></div>
+		   <p>I clicked <span class=\"cod\">Create Page Rule</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/createPageRule.jpg\" alt=\"Create Page Rule\" width=\"1842\" height=\"1000\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
