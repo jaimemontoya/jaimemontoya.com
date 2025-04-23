@@ -69,6 +69,6 @@
              </tr>
 		   </table>
 		   <p>I clicked <span class=\"cod\">Create record & deploy rule</span>:</p>
-		   <div><img src=\"/blog/2025/03/31/23/06/img/deployRule.jpg\" alt=\"Create record & deploy rule\" width=\"1862\" height=\"1011\"></div>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/createRecordAndDeployRule.jpg\" alt=\"Create record & deploy rule\" width=\"1862\" height=\"1011\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
