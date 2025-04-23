@@ -76,5 +76,6 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/dnsRecordTypeACreatedAutomaticallyForPageRule.jpg\" alt=\"DNS record type A created automatically for Page Rule\" width=\"1855\" height=\"1006\"></div>
 		   <p>I created a new rule:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/creationOfSecondPageRule.jpg\" alt=\"Creation of second Page Rule\" width=\"1866\" height=\"1007\"></div>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/completionOfCreationOfSecondRule.jpg\" alt=\"Completion of creation of second rule\" width=\"1872\" height=\"1011\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
