@@ -55,8 +55,20 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/createPageRule.jpg\" alt=\"Create Page Rule\" width=\"1842\" height=\"1000\"></div>
 		   <p>I created a rule:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/saveAndDeployPageRule.jpg\" alt=\"Save and Deploy Page Rule\" width=\"1858\" height=\"1006\"></div>
-		   <p>The <span class=\"cod\">proxied DNS record</span> link points to <a href=\"https://developers.cloudflare.com/dns/proxy-status/\">https://developers.cloudflare.com/dns/proxy-status/</a></span>. I clicked <span class=\"cod\">Deploy rule</span>:</p>
-		   <div><img src=\"/blog/2025/03/31/23/06/img/deployRule.jpg\" alt=\"Deploy rule\" width=\"1850\" height=\"1001\"></div>
-		   
+		   <p>The <span class=\"cod\">proxied DNS record</span> link points to <a href=\"https://developers.cloudflare.com/dns/proxy-status/\">https://developers.cloudflare.com/dns/proxy-status/</a></span>. I clicked <span class=\"cod\">Create a new proxied DNS record</span>. I provided the following values:</p>
+		   <table>
+		     <tr>
+		       <th>Type</th>
+               <th>Name (required)</th>
+               <th>IPv4 address (required)</th>
+             </tr>
+             <tr>
+               <td>A</td>
+               <td>www.christianmontessorifellowship.com</td>
+               <td>192.0.2.1</td>
+             </tr>
+		   </table>
+		   <p>I clicked <span class=\"cod\">Create record & deploy rule</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/deployRule.jpg\" alt=\"Create record & deploy rule\" width=\"1862\" height=\"1011\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
