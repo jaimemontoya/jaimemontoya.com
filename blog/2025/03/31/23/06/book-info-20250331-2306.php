@@ -79,5 +79,7 @@
 		   <div><img src=\"/blog/2025/03/31/23/06/img/completionOfCreationOfSecondRule.jpg\" alt=\"Completion of creation of second rule\" width=\"1872\" height=\"1011\"></div>
 		   <p>The two rules were created successfully, and the corresponding DNS records type <span class=\"cod\">A</span>:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/twoRulesCreatedSuccessfully.jpg\" alt=\"Two rules created successfully\" width=\"1857\" height=\"1013\"></div>
+		   <p>Two DNS records type <span class=\"cod\">A</span> were created. The <span class=\"cod\">Name</span> value for <span class=\"cod\">christianmontessori...</span> in the image below, is in reality <span class=\"cod\">christianmontessorifellowship.com</span>:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/twoDnsRecordsTypeA.jpg\" alt=\"Two DNS records type A\" width=\"1871\" height=\"1007\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
