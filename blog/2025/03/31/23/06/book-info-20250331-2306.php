@@ -70,5 +70,7 @@
 		   </table>
 		   <p>I clicked <span class=\"cod\">Create record & deploy rule</span>:</p>
 		   <div><img src=\"/blog/2025/03/31/23/06/img/createRecordAndDeployRule.jpg\" alt=\"Create record & deploy rule\" width=\"1862\" height=\"1011\"></div>
+		   <p>The <span class=\"cod\">Page Rule</span> was created successfully:</p>
+		   <div><img src=\"/blog/2025/03/31/23/06/img/pageRuleCreatedSuccessfully.jpg\" alt=\"Page Rule created successfully\" width=\"1870\" height=\"1012\"></div>
 		   <div>Published: 11:06 PM GMT · Mar 31, 2025</div>\n";
 ?>
