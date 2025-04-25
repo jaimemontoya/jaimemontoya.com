@@ -47,9 +47,9 @@ class HomePage extends Page
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
     echo "\t\t\t\t\t['Company', 'Trillions'],\n";
-    echo "\t\t\t\t\t['AAPL',3.073],\n";
-	echo "\t\t\t\t\t['MSFT',2.783],\n";	
-	echo "\t\t\t\t\t['NVDA',2.506]\n";	
+    echo "\t\t\t\t\t['AAPL',3.130],\n";
+	echo "\t\t\t\t\t['MSFT',2.879],\n";	
+	echo "\t\t\t\t\t['NVDA',2.596]\n";	
 	/*echo "\t\t\t\t\t['AMZN',2.025],\n";
 	echo "\t\t\t\t\t['GOOG',1.947],\n";
 	echo "\t\t\t\t\t['2222.SR',1.676],\n";
@@ -60,7 +60,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Companies that have been the richest in the world at some point in history and its current market capitalization, last updated 2025-Apr-23',\n";
+    echo "\t\t\t\t\t'title':'Companies that have been the richest in the world at some point in history and its current market capitalization, last updated 2025-Apr-25',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\tvAxis: {\n";
     echo "\t\t\t\t\t\ttitle: 'Trillions (USD)',\n";
@@ -513,10 +513,12 @@ class HomePage extends Page
     echo "\t\t\t\t\t[new Date(2025, 3 , 20), 11300.84],\n";
     echo "\t\t\t\t\t[new Date(2025, 3 , 21), 11300.84],\n";
     echo "\t\t\t\t\t[new Date(2025, 3 , 22), 11228.93],\n";
-    echo "\t\t\t\t\t[new Date(2025, 3 , 23), 11254.76]\n";
+    echo "\t\t\t\t\t[new Date(2025, 3 , 23), 11254.76],\n";
+    echo "\t\t\t\t\t[new Date(2025, 3 , 24), 11254.76],\n";
+    echo "\t\t\t\t\t[new Date(2025, 3 , 25), 11387.92]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital from 2024-May-05 to 2025-Apr-23',\n";
+    echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital from 2024-May-05 to 2025-Apr-25',\n";
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
