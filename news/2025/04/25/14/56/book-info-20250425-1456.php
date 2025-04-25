@@ -20,7 +20,7 @@
   <p>I clicked <span class=\"cod\">Continue</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/confirmInformationPart1Of3.jpg\" alt=\"Confirm Information. Part 1 of 3.\" width=\"1873\" height=\"1007\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/confirmInformationPart2Of3.jpg\" alt=\"Confirm Information. Part 2 of 3.\" width=\"1862\" height=\"1016\"></div>
-  <div><img src=\"/news/2025/04/25/14/56/img/confirmInformationPart2Of3.jpg\" alt=\"Confirm Information. Part 3 of 3.\" width=\"1887\" height=\"1005\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/confirmInformationPart3Of3.jpg\" alt=\"Confirm Information. Part 3 of 3.\" width=\"1887\" height=\"1005\"></div>
   <div><div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
