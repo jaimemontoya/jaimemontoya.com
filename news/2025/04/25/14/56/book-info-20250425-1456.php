@@ -30,6 +30,8 @@
   <div><img src=\"/news/2025/04/25/14/56/img/clickSelectToWithdrawFunds.jpg\" alt=\"Click Select to withdraw funds\" width=\"1872\" height=\"1007\"></div>
   <p>I clicked the wire bank account that I just created:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/clickTheWireBankAccountThatWasCreated.jpg\" alt=\"Click the wire bank account that was created\" width=\"1866\" height=\"1012\"></div>
+  <p>I was ready to create a withdrawal:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/readyForWithdrawal.jpg\" alt=\"Ready for withdrawal\" width=\"1863\" height=\"1008\"></div>
   <div><div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
