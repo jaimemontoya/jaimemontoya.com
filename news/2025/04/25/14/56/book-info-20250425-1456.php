@@ -11,6 +11,8 @@
   <div><img src=\"/news/2025/04/25/14/56/img/selectCorrespondentBank.jpg\" alt=\"Select Correspondent Bank\" width=\"1863\" height=\"1012\"></div>
   <p>I clicked <span class=\"cod\">Provide Correspondent Selection</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/provideCorrespondentSelection.jpg\" alt=\"Provide Correspondent Selection\" width=\"1867\" height=\"1018\"></div>
+  <p>I provided the <span class=\"cod\">SWIFT/BIC Code</span> and clicked <span class=\"cod\">Submit</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/privideSwiftBicCodAndClickSubmit.jpg\" alt=\"Provide SWIFT/BIC Code and click Submit\" width=\"1855\" height=\"1012\"></div>
   <div><div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
