@@ -4,6 +4,11 @@
   <div><img src=\"/news/2025/04/25/14/56/img/clickWithdrawAfterSuccessfulLogin.jpg\" alt=\"Click Withdraw after successful login\" width=\"1892\" height=\"1011\"></div>
   <p>I clicked <span class=\"cod\">Use this Method</span> to use <span class=\"cod\">Bank Wire</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/useBankWireMethod.jpg\" alt=\"Use Bank Wire method\" width=\"1865\" height=\"1001\"></div>
+  <p>I provided the Bank Wire information:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/bankWireInformationPart1Of2.jpg\" alt=\"Bank Wire information. Part 1 of 2\" width=\"1873\" height=\"1005\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/bankWireInformationPart2Of2.jpg\" alt=\"Bank Wire information. Part 2 of 2\" width=\"1856\" height=\"1012\"></div>
+  <p>I clicked <span class=\"cod\">Select</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/selectCorrespondentBank.jpg\" alt=\"Select Correspondent Bank\" width=\"1863\" height=\"1012\"></div>
   <div><div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
