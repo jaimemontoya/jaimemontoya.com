@@ -1,7 +1,7 @@
 <?php
   $index->content .=
   "<p>After a successful login to <a href=\"\">https://www.interactivebrokers.co.uk/</a>, I clicked <span class=\"cod\">Withdraw</span>:</p>
-  <div><img src=\"/news/2024/11/13/22/39/img/clickWithdrawAfterSuccessfulLogin.jpg\" alt=\"Click Withdraw after successful login\" width=\"1892\" height=\"1011\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/clickWithdrawAfterSuccessfulLogin.jpg\" alt=\"Click Withdraw after successful login\" width=\"1892\" height=\"1011\"></div>
   <div><div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
