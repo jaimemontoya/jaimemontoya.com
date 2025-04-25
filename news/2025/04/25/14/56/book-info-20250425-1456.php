@@ -26,6 +26,8 @@
   <p>I clicked <span class=\"cod\">Finish</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/processCompletedSuccessfullyPart1Of2.jpg\" alt=\"Process completed successfully. Part 1 of 2.\" width=\"1867\" height=\"1013\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/processCompletedSuccessfullyPart2Of2.jpg\" alt=\"Process completed successfully. Part 2 of 2.\" width=\"1862\" height=\"1015\"></div>
+  <p>I clicked <span class=\"cod\">Select</span> to withdraw funds:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/processCompletedSuccessfullyPart2Of2.jpg\" alt=\"Process completed successfully. Part 2 of 2.\" width=\"1862\" height=\"1015\"></div>
   <div><div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
