@@ -9,6 +9,8 @@
   <div><img src=\"/news/2025/04/25/14/56/img/bankWireInformationPart2Of2.jpg\" alt=\"Bank Wire information. Part 2 of 2\" width=\"1856\" height=\"1012\"></div>
   <p>I clicked <span class=\"cod\">Select</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/selectCorrespondentBank.jpg\" alt=\"Select Correspondent Bank\" width=\"1863\" height=\"1012\"></div>
+  <p>I clicked <span class=\"cod\">Provide Correspondent Selection</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/provideCorrespondentSelection.jpg\" alt=\"Provide Correspondent Selection\" width=\"1867\" height=\"1018\"></div>
   <div><div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
