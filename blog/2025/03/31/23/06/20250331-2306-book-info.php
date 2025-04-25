@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"2025/03/31/23/06/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"no-photo-available-img\"></div>
+					<div class=\"book-cover\" id=\"blog-20250331-2306-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <h2>Redirecting website visitors from website that has Namecheap as domain registrar, to different website that has Cloudflare as domain registrar</h2>
