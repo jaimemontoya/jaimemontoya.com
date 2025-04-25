@@ -28,6 +28,8 @@
   <div><img src=\"/news/2025/04/25/14/56/img/processCompletedSuccessfullyPart2Of2.jpg\" alt=\"Process completed successfully. Part 2 of 2.\" width=\"1862\" height=\"1015\"></div>
   <p>I clicked <span class=\"cod\">Select</span> to withdraw funds:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/clickSelectToWithdrawFunds.jpg\" alt=\"Click Select to withdraw funds\" width=\"1872\" height=\"1007\"></div>
+  <p>I clicked the wire bank account that I just created:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/clickTheWireBankAccountThatWasCreated.jpg\" alt=\"Click the wire bank account that was created\" width=\"1866\" height=\"1012\"></div>
   <div><div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
