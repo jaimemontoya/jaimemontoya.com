@@ -2,6 +2,8 @@
   $index->content .=
   "<p>After a successful login to <a href=\"\">https://www.interactivebrokers.co.uk/</a>, I clicked <span class=\"cod\">Withdraw</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/clickWithdrawAfterSuccessfulLogin.jpg\" alt=\"Click Withdraw after successful login\" width=\"1892\" height=\"1011\"></div>
+  <p>I clicked <span class=\"cod\">Use this Method</span> to use <span class=\"cod\">Bank Wire</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/useBankWireMethod.jpg\" alt=\"Use Bank Wire method\" width=\"1865\" height=\"1001\"></div>
   <div><div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
