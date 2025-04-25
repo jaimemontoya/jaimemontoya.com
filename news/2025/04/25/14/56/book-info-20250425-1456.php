@@ -15,6 +15,8 @@
   <div><img src=\"/news/2025/04/25/14/56/img/privideSwiftBicCodAndClickSubmit.jpg\" alt=\"Provide SWIFT/BIC Code and click Submit\" width=\"1855\" height=\"1012\"></div>
   <p>I observed that the information looked correct:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/informationLookingCorrect.jpg\" alt=\"Information looking correct\" width=\"1858\" height=\"1017\"></div>
+  <p>I clicked <span class=\"cod\">Save Bank Information</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/saveBankInformation.jpg\" alt=\"Save Bank Information\" width=\"1848\" height=\"1006\"></div>
   <div><div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
