@@ -32,6 +32,214 @@
   <div><img src=\"/news/2025/04/25/14/56/img/clickTheWireBankAccountThatWasCreated.jpg\" alt=\"Click the wire bank account that was created\" width=\"1866\" height=\"1012\"></div>
   <p>I was ready to create a withdrawal:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/readyForWithdrawal.jpg\" alt=\"Ready for withdrawal\" width=\"1863\" height=\"1008\"></div>
+  <p>For the record, this is my chat conversation with my local bank from El Salvador, to complete the process described above:</p>
+  <pre>
+Cindy says:
+
+¡Hola! Bienvenid@ al servicio de WhatsApp de BAC Credomatic, mi nombre es Cindy Ortiz. 
+
+Buenos días un gusto saludarle, le compartimos información para recibir transferencias internacionales.
+
+BANCO BENEFICIARIO: BANCO DE AMERICA CENTRAL,S.A.
+DIRECCIÓN: 55 Av. Entre Calle Roosevelt y Avenida Olímpica, San Salvador, El Salvador.
+SWIFT: BAMCSVSS
+
+Jaime says:
+
+Ok.
+
+Para Bank Account Type tengo 2 opciones:
+
+1) International Bank Account Number (IBAN)
+
+2) Bank Account Number
+
+Cual debo seleccionar?
+
+Cindy says:
+
+Bancos intermediarios.
+
+BANCO INTERMEDIARIO: CITIBANK NA NEW YORK
+Dirección : 111 Wall Street, New York N.Y.
+ABA:021000089
+SWIFT: CITIUS33
+CTA. Entre Bancos No.: 36148605
+
+A TRAVES DE DEUTSCHE BANK
+
+BANCO INTERMEDIARIO: BANK DEUTSCHE BANK TRUST COMPANY AMERICAS
+SWIFT: BKTRUSSS
+BANCO BENEFICIARIO: BANCO DE AMERICA CENTRAL,S.A.
+DIRECCIÓN: 55 Av. Entre Calle Roosevelt y Avenida Olímpica, San Salvador, El Salvador.
+SWIFT: BAMCSVSS
+CTA. Entre Bancos No.: 04459927
+
+A TRAVES DE BANK OF AMERICA
+
+BANCO INTERMEDIARIO: BANK OF AMERICA, NA.
+SWIFT: BOFAUS3N
+BANCO BENEFICIARIO: BANCO DE AMERICA CENTRAL, S.A.
+55 Av. Entre Calle Roosevelt y Avenida Olimpica,
+San Salvador, El Salvador.
+SWIFT: BAMCSVSS
+CTA. Entre Bancos No.: 1901643100
+ 
+EN EUROS
+BANCO BENEFICIARIO: BANCO DE AMERICA CENTRAL,S.A.
+DIRECCIÓN: 55 Av. Entre Calle Roosevelt y Avenida Olímpica, San Salvador, El Salvador.
+SWIFT: BAMCSVSS
+CUENTA ENTRE BANCOS: 400882210800 EUR
+INTERMEDIARY BANK: COMMERZBANK, FRANKFURT
+SWIFT: COBADEFF
+
+No contamos con número IBAN u otro tipo de códigos, solo el SWIFT.
+
+Jaime says:
+
+Entonces debo seleccionar \"Bank Account Number\".
+
+Bank Account Number: 36148605
+
+Cindy says:
+
+Si
+
+Jaime says:
+
+Bank Name: CITIBANK - EL SALVADORS
+
+Bank Address: EDIFI ALAMEDA DR. MANUEL E. ARAUJO, SAN SALVADOR, San Salvador 1101, El Salvador
+
+SWIFT/BIC Code: 
+CITISVS1XXX
+
+Cindy says:
+
+¿Habría alguna otra consulta?
+
+Jaime says:
+
+Your bank requires a correspondent bank for USD transfers.
+
+We could not find any correspondent banks automatically. You should contact your bank for the correct correspondent information to use. If your bank has provided you with their correspondent information, you may click Provide Correspondent Information and provide it to us yourself.
+
+Estoy revisando esa parte.
+
+Cindy says:
+
+Comprendo, de nuestra parte la información para recibir es la que le hemos compartido.
+
+Jaime says:
+
+Si, solo dejeme confirmar eso.
+
+Por si tengo una pregunta adicional.
+
+Creo que hasta el momento van los pasos bien con lo que usted me ha compartido.
+
+Cindy says:
+
+Entiendo.
+
+Jaime says:
+
+Estoy seleccionando Correspondent Bank.
+
+Ya le confirmo si todo bien.
+
+Cindy says:
+
+Comprendo.
+
+Jaime says:
+
+Casi casi.
+
+Cual es el codigo correcto, \"CITIUS33\" o \"CITISVS1XXX\"?
+
+Cindy says:
+
+SWIFT: CITIUS33
+
+Con gusto.
+
+Jaime says:
+
+\"Your Session Has Expired.\"
+
+Me expiro la sesion, pero ya tengo todos los datos y lo hare de nuevo en este momento.
+
+Receiving Bank:
+
+Bank Name
+CITIBANK - EL SALVADORS
+Bank Address
+EDIFI ALAMEDA DR. MANUEL E. ARAUJO, SAN SALVADOR, San Salvador 1101, El Salvador
+SWIFT/BIC Code
+CITISVS1XXX
+
+Correspondent Bank:
+
+Bank Name
+CITIBANK N.A.
+Bank Address
+388 GREENWICH STREET, NEW YORK, New York 10013, United States
+SWIFT/BIC Code
+CITIUS33
+
+👆🏽 Se ve bien esa informacion?
+
+Cindy says:
+
+Si
+
+Jaime says:
+
+Perfect.
+
+Un momento, dare finalizar a ver que pasa.
+
+Ok, me pide confirmar informacion, estoy en eso.
+
+Cindy says:
+
+Comprendo.
+
+Jaime says:
+
+Ya casi confirmo la informacion.
+
+Cindy says:
+
+Entiendo.
+
+Jaime says:
+
+Casi.
+
+Confirmando proceso.
+
+Cindy says:
+
+¿Habría alguna otra consulta?
+
+Jaime says:
+
+Proceso completado. Me queda este chat sin ser borrado para referencia?
+
+Cindy says:
+
+Correcto, Sr. Montoya.
+
+Jaime says:
+
+Muchas gracias, ya me funciona todo, feliz dia.
+
+Cindy says:
+
+Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un excelente día.
+  </pre>
   <div><div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
