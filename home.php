@@ -55,8 +55,8 @@ class HomePage extends Page
 	echo "\t\t\t\t\t['META',1.754],\n";
 	echo "\t\t\t\t\t['2222.SR',1.599],\n";
 	echo "\t\t\t\t\t['AVGO',1.161],\n";
-	echo "\t\t\t\t\t['BKR-B',1.064]\n";
-	echo "\t\t\t\t\t['TSM',1.064],\n";
+	echo "\t\t\t\t\t['BKR-B',1.064],\n";
+	echo "\t\t\t\t\t['TSM',1.064]\n";
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
@@ -557,7 +557,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t[new Date(2025, 5 , 3), 16832.71],\n";
     echo "\t\t\t\t\t[new Date(2025, 5 , 4), 16832.71],\n";
     echo "\t\t\t\t\t[new Date(2025, 5 , 5), 16868.71],\n";
-    echo "\t\t\t\t\t[new Date(2025, 5 , 6), 16876.96],\n";
+    echo "\t\t\t\t\t[new Date(2025, 5 , 6), 16876.96]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
     echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital from 5 May 2024 to 6 June 2025',\n";
