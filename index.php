@@ -9,9 +9,9 @@
     <th>Accomplished</th>
   </tr>
   <tr>
-    <td>Goal 1</td>
+    <td>1. I will update my personal finance software database with all the missing values that I need to insert since its first entry to present. That will be foundational input data to build my software. The database will be fully populated and up-to-date by 1 January 2026.</td>
     <td>Date</td>
-    <td>Date</td>
+    <td>In progress</td>
   </tr>
 </table>  
   <h2>Featured financial charts</h2><div id=\"jaime-montoya-capital\"></div><iframe src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSnedM83IJlnIUy0Ttj4DrDrGWCrqhjC_HXUwxa8cv3nmhraprEToUSuy776FLfXewO49AdS_9SQdUH/pubhtml?widget=true&amp;headers=false\" id=\"investment-spreadsheet\"></iframe><div id=\"richest-company\"></div><div id=\"richest-people\"></div><h2>Table of contents</h2><ol><li><a href=\"about/\">About</a>: My one-page resume.<li><a href=\"blog/\">Blog</a>: Software technical documentation blog for myself and the world.<li><a href=\"book/\">Book reviews</a>: My reviews for some of the books I have read from cover to cover.<li><a href=\"capital/\">Capital</a>: Capital history in my records since May 5, 2024.<li><a href=\"coursera/\">Coursera</a>: Coursera courses I have successfully completed.<li><a href=\"finances/\">Finances</a>: Personal finance software I have created.<li><a href=\"investment\">Investment</a>: Mutual fund and stock investments I have made since April 12, 2024.<li><a href=\"market/\">Market</a>: Monitoring tool to beat the market.<li><a href=\"news/\">News</a>: Personal news since November 7, 2024, 00:00 AM GMT.<li><a href=\"opinion/\">Opinion</a>: Stock Market, Business & Finance Opinion since 2024-Dec-30 9:47 PM GMT.<li><a href=\"portfolio/\">Portfolio</a>: Websites I have created, designed, developed, upgraded, maintained and/or hosted.<li><a href=\"reading/\">Reading</a>: Listing all of the books I have read from cover to cover since August 31, 2018.<li><a href=\"run/\">Running</a>: Running history I have endured since August 2, 2020.<li><a href=\"teaching/\">Teaching</a>: In-person classes I have taught.<li><a href=\"weight/\">Weight</a>: Weight history from my body since October 19, 2019.</ol></p>";
