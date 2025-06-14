@@ -1,8 +1,8 @@
 <?php
   require("../page.php");
   $index = new Page();
-  $index->title = "Academic Writing for Graduate Students: Essential Tasks and Skills (Michigan Series In English For Academic & Professional Purposes). 3rd Edition.";
-  $index->metaDescription = "Like its predecessor, the third edition of Academic Writing for Graduate Students explains understanding the intended audience, the purpose of the paper, and academic genres; includes the use of task-based methodology, analytic group discussion, and genre consciousness-raising; shows how to write summaries and critiques; features Language Focus sections that address linguistic elements as they affect the wider rhetorical objectives; and helps students position themselves as junior scholars in their academic communities.";
-  require("academic-writing-for-graduate-students-book-info.php");
+  $index->title = "Robert's Rules of Order Newly Revised In Brief, 3rd edition.";
+  $index->metaDescription = "Originally published in 1876, Robert's Rules of Order is the definitive book on parliamentary proceedings, yet those not well versed on what has now become a rather thick document can find themselves lost. The solution? Robert's Rules of Order Newly Revised in Brief.";
+  require("roberts-rules-order-in-brief-3rd-ed-book-info.php");
   $index->Display();
 ?>
