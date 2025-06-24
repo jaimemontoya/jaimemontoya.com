@@ -1,7 +1,9 @@
 <?php
   require("home.php");
   $index = new HomePage();
-  $index->content .= "<h1>Jaime Montoya's website</h1><p>Welcome to my website! My introduction is this inspiring story: Spaniard Pablo de Sarasate, internationally acclaimed as the greatest violinist of the nineteenth century, was once called a genius by a famous critic. In reply to this Sarasate said, <span class=\"cod\">\"Genius! For 37 years I've practiced 14 hours a day, and now they call me a genius.\"</span></p><p>The code to build this website has been written by myself, from scratch, and it is entirely available on GitHub at <a href=\"https://github.com/jaimemontoya/jaimemontoya.com\">https://github.com/jaimemontoya/jaimemontoya.com</a>.</p><h2>Mission</h2><p>To create Blue Chip Finances, an open-source personal financial management (PFM) software that helps people to be free from financial debt and achieve greatness in their personal finances.</p><h2>Vision</h2><p>To pursue a future where individuals are empowered to be free from financial debt and achieve financial greatness through disciplined long term blue chip stock investing.</p><h2>Values</h2><ul><li>Discipline<li>Laser focus<li>Patience</ul><h2>Goals</h2>
+  $index->content .= "<h1>Jaime Montoya's website</h1><p>Welcome to my website! My introduction is this inspiring story: Spaniard Pablo de Sarasate, internationally acclaimed as the greatest violinist of the nineteenth century, was once called a genius by a famous critic. In reply to this Sarasate said, <span class=\"cod\">\"Genius! For 37 years I've practiced 14 hours a day, and now they call me a genius.\"</span></p>
+  <p>I have been working since Tue Jun 24 07:00:07 2025 -0600 from objectives, to achieve goals, to fulfill a mission, to make reality a vision, applying foundational values in the process.</p>
+  <p>The code to build this website has been written by myself, from scratch, and it is entirely available on GitHub at <a href=\"https://github.com/jaimemontoya/jaimemontoya.com\">https://github.com/jaimemontoya/jaimemontoya.com</a>.</p><h2>Mission</h2><p>To create Blue Chip Finances, an open-source personal financial management (PFM) software that helps people to be free from financial debt and achieve greatness in their personal finances.</p><h2>Vision</h2><p>To pursue a future where individuals are empowered to be free from financial debt and achieve financial greatness through disciplined long term blue chip stock investing.</p><h2>Values</h2><ul><li>Discipline<li>Laser focus<li>Patience</ul><h2>Goals & objectives</h2>
 <table>
   <tr>
     <th>Goals & objectives</th>
@@ -15,7 +17,7 @@
   </tr>
   <tr>
 	<td>1.1. I will record in my .txt file of personal expenses, the pending cash transactions that only exist in my memory. That will contribute to my software to have a fully populated database without missing values. The .txt file will be up-to-date with the values from my memory by 1 July 2025.</td>
-	<td>Mon Jun 24 7:02:34 2025 -0600</td>
+	<td>Tue Jun 24 07:00:07 2025 -0600</td>
 	<td>In progress</td>
   </tr>
 </table>  
