@@ -2,6 +2,7 @@
   require("home.php");
   $index = new HomePage();
   $index->content .= "<h1>Jaime Montoya's website</h1>
+  <hr>
   <h2>Values</h2>
   <ul>
     <li>Discipline
@@ -42,6 +43,7 @@
   <h2>Table of contents</h2><ol><li><a href=\"about/\">About</a>: My one-page resume.<li><a href=\"blog/\">Blog</a>: Software technical documentation blog for myself and the world.<li><a href=\"book/\">Book reviews</a>: My reviews for some of the books I have read from cover to cover.<li><a href=\"capital/\">Capital</a>: Capital history in my records since May 5, 2024.<li><a href=\"coursera/\">Coursera</a>: Coursera courses I have successfully completed.<li><a href=\"finances/\">Finances</a>: Personal finance software I have created.<li><a href=\"investment\">Investment</a>: Mutual fund and stock investments I have made since April 12, 2024.<li><a href=\"market/\">Market</a>: Monitoring tool to beat the market.<li><a href=\"news/\">News</a>: Personal news since November 7, 2024, 00:00 AM GMT.<li><a href=\"opinion/\">Opinion</a>: Stock Market, Business & Finance Opinion since 2024-Dec-30 9:47 PM GMT.<li><a href=\"portfolio/\">Portfolio</a>: Websites I have created, designed, developed, upgraded, maintained and/or hosted.<li><a href=\"reading/\">Reading</a>: Listing all of the books I have read from cover to cover since August 31, 2018.<li><a href=\"run/\">Running</a>: Running history I have endured since August 2, 2020.<li><a href=\"teaching/\">Teaching</a>: In-person classes I have taught.<li><a href=\"weight/\">Weight</a>: Weight history from my body since October 19, 2019.</ol></p>
   <hr>
   <p>The code to build this website has been written by myself, from scratch, and it is entirely available on GitHub at <a href=\"https://github.com/jaimemontoya/jaimemontoya.com\">https://github.com/jaimemontoya/jaimemontoya.com</a>.</p>
+  <hr>
   ";
   $index->Display();
 ?>
