@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"/coursera/microsoft-azure-sql/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"microsoft-azure-sql-img\"></div>
+					<div class=\"book-cover\" id=\"coursera-microsoft-azure-sql-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Microsoft Azure SQL</span>
