@@ -20,6 +20,11 @@
       <th>Created</th>
       <th>Accomplished</th>
     </tr>
+	<tr>
+	  <td>1.2. I will record in my .txt file of personal expenses, the pending transactions only recorded in my Notes on iCloud.com. My Notes document will be empty and all information moved to my Dropbox storage. That will contribute to my software to have a fully populated database without missing values. The .txt file will be up-to-date with the values from my Notes on iCloud.com by 1 August 2025.</td>
+	  <td>Tue Jun 28 09:12:07 2025 -0600</td>
+	  <td>In progress</td>
+    </tr>
     <tr>
 	  <td>1.1. I will record in my .txt file of personal expenses, the pending cash transactions that only exist in my memory. That will contribute to my software to have a fully populated database without missing values. The .txt file will be up-to-date with the values from my memory by 1 July 2025.</td>
 	  <td>Tue Jun 24 07:00:07 2025 -0600</td>
