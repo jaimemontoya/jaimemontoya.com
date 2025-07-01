@@ -240,6 +240,8 @@ Cindy says:
 
 Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un excelente día.
   </pre>
+  <p>From the home page, I clicked <span class=\"cod\">Portfolio</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/clickPortfolio.jpg\" alt=\"Click Portfolio.\" width=\"1098\" height=\"1007\"></div>
   <div><div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
