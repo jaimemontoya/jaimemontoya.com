@@ -273,6 +273,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/provideAmountAndClickCreateWithdrawal.jpg\" alt=\"Provide withdrawal amount and click Create Withdrawal.\" width=\"1890\" height=\"1010\"></div>
   <p>My withdrawal was being processed:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/withdrawalBeingProcessed.jpg\" alt=\"Withdrawal being processed.\" width=\"1903\" height=\"1017\"></div>
+  <p>I left $5.00 in my account to keep it active:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/leaveUSD5InAccountToKeepItActive.jpg\" alt=\"Leave $5.00 to keep account active.\" width=\"1898\" height=\"1012\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
