@@ -248,8 +248,11 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/clickPreviewSellOrderForPfizer.jpg\" alt=\"Click Preview Sell for Pfizer.\" width=\"1726\" height=\"1013\"></div>
   <p>I clicked <span class=\"cod\">Submit Sell Order</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/clickSubmitSellOrderForPfizer.jpg\" alt=\"Click Submit Sell Order for Pfizer.\" width=\"1895\" height=\"1005\"></div>
-  <p>I clicked <span class=\"cod\">Accept</span> to submit Sell Order for <span class=\"cod\">Pfizer</span>:</p>
+  <p>I clicked <span class=\"cod\">Accept</span> to submit <span class=\"cod\">Sell Order</span> for <span class=\"cod\">Pfizer</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/clickAcceptToSubmitSellOrderForPfizer.jpg\" alt=\"Click Accept to submit Sell Order for Pfizer.\" width=\"1885\" height=\"1007\"></div>
+  <p>I clicked <span class=\"cod\">Done</span> for my submitted <span class=\"cod\">Sell Order</span> for <span class=\"cod\">Pfizer</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/clickDoneForSubmittedSellOrderForPfizerPart1Of2.jpg\" alt=\"Click Done for submitted Sell Order for Pfizer. Part 1 of 2\" width=\"1888\" height=\"1012\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/clickDoneForSubmittedSellOrderForPfizerPart2Of2.jpg\" alt=\"Click Done for submitted Sell Order for Pfizer. Part 2 of 2\" width=\"1882\" height=\"1018\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
