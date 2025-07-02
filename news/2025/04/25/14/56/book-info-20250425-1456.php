@@ -275,6 +275,9 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/withdrawalBeingProcessed.jpg\" alt=\"Withdrawal being processed.\" width=\"1903\" height=\"1017\"></div>
   <p>I left $5.00 in my account to keep it active:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/leaveUSD5InAccountToKeepItActive.jpg\" alt=\"Leave $5.00 to keep account active.\" width=\"1898\" height=\"1012\"></div>
+  <p>I scrolled down to confirm my withdrawal:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/scrollDownToConfirmWithdrawalPart1Of2.jpg\" alt=\"Scroll down to confirm withdrawal. Part 1 of 2.\" width=\"1901\" height=\"1016\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/scrollDownToConfirmWithdrawalPart2Of2.jpg\" alt=\"Scroll down to confirm withdrawal. Part 2 of 2.\" width=\"1905\" height=\"1013\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
