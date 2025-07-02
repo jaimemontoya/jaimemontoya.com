@@ -257,6 +257,10 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/clickSellForNvidia.jpg\" alt=\"Click Sell for Nvidia.\" width=\"1911\" height=\"1012\"></div>
   <p>I click <span class=\"cod\">Preview</span> for the <span class=\"cod\">Sell Order</span> for <span class=\"cod\">Nvidia</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/clickPreviewSellOrderForNvidia.jpg\" alt=\"Click Preview for the Sell Order for Nvidia.\" width=\"1900\" height=\"1013\"></div>
+  <p>I clicked <span class=\"cod\">Submit Sell Order</span> for <span class=\"cod\">Nvidia</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/clickSubmitSellOrderForNvidia.jpg\" alt=\"Click Submit Sell Order for Nvidia.\" width=\"1900\" height=\"1012\"></div>
+  <p>I clicked <span class=\"cod\">Accept</span> to submit my <span class=\"cod\">Sell Order</span> for <span class=\"cod\">Nvidia</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/clickAcceptToSubmitSellOrderForNvidia.jpg\" alt=\"Click Accept to submit Sell Order for Nvidia.\" width=\"1902\" height=\"1018\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
