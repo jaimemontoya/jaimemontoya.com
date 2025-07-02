@@ -290,6 +290,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/withdrawalSubmittedPart1Of3.jpg\" alt=\"Withdrawal submitted. Part 1 of 3.\" width=\"1912\" height=\"1015\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/withdrawalSubmittedPart2Of3.jpg\" alt=\"Withdrawal submitted. Part 2 of 3.\" width=\"1897\" height=\"1012\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/withdrawalSubmittedPart3Of3.jpg\" alt=\"Withdrawal submitted. Part 3 of 3.\" width=\"1886\" height=\"1007\"></div>
+  <p>I received an email confirmation for the processed withdrawal:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/emailConfirmationOfProcessedWithdrawal.jpg\" alt=\"Email confirmation of processed withdrawal.\" width=\"1072\" height=\"701\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
