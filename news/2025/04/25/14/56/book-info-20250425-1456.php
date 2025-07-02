@@ -286,6 +286,10 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/withdrawalDisclosurePart1Of3.jpg\" alt=\"Regulatory Disclosure Receipt. Part 1 of 3.\" width=\"1905\" height=\"1017\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/withdrawalDisclosurePart2Of3.jpg\" alt=\"Regulatory Disclosure Receipt. Part 2 of 3.\" width=\"1887\" height=\"1013\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/withdrawalDisclosurePart3Of3.jpg\" alt=\"Regulatory Disclosure Receipt. Part 3 of 3.\" width=\"1897\" height=\"1007\"></div>
+  <p>I read the confirmation of the submission of my withdrawal and clicked <span class=\"cod\">Finish</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/withdrawalSubmittedPart1Of3.jpg\" alt=\"Withdrawal submitted. Part 1 of 3.\" width=\"1912\" height=\"1015\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/withdrawalSubmittedPart2Of3.jpg\" alt=\"Withdrawal submitted. Part 2 of 3.\" width=\"1897\" height=\"1012\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/withdrawalSubmittedPart3Of3.jpg\" alt=\"Withdrawal submitted. Part 3 of 3.\" width=\"1886\" height=\"1007\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
