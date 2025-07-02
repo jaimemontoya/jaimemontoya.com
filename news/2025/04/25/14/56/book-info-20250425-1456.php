@@ -246,6 +246,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/clickSellForPfizer.jpg\" alt=\"Click Sell for Pfizer.\" width=\"1098\" height=\"1011\"></div>
   <p>I clicked <span class=\"cod\">Preview</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/clickPreviewSellOrderForPfizer.jpg\" alt=\"Click Preview Sell for Pfizer.\" width=\"1726\" height=\"1013\"></div>
+  <p>I clicked <span class=\"cod\">Submit Sell Order</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/clickSubmitSellOrderForPfizer.jpg\" alt=\"Click Submit Sell Order for Pfizer.\" width=\"1895\" height=\"1005\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
