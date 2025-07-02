@@ -278,6 +278,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <p>I scrolled down to confirm my withdrawal:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/scrollDownToConfirmWithdrawalPart1Of2.jpg\" alt=\"Scroll down to confirm withdrawal. Part 1 of 2.\" width=\"1901\" height=\"1016\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/scrollDownToConfirmWithdrawalPart2Of2.jpg\" alt=\"Scroll down to confirm withdrawal. Part 2 of 2.\" width=\"1905\" height=\"1013\"></div>
+  <p>I clicked <span class=\"cod\">Confirm Withdrawal</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/confirmWithdrawal.jpg\" alt=\"Confirm withdrawal.\" width=\"1890\" height=\"1013\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
