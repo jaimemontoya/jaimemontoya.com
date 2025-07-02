@@ -282,6 +282,10 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/confirmWithdrawal.jpg\" alt=\"Confirm withdrawal.\" width=\"1890\" height=\"1013\"></div>
   <p>I provided the <span class=\"cod\">Security Code</span> using the <span class=\"cod\">Authenticator</span> app. Then I clicked <span class=\"cod\">Confirm Withdrawal</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/provideCodeToConfirmWithdrawalUsingAuthenticator.jpg\" alt=\"Provide Security Code using the Authenticator app.\" width=\"1895\" height=\"1006\"></div>
+  <p>I read the <span class=\"cod\">Regulatory Disclosure and Receipt</span> and clicked <span class=\"cod\">Continue</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/withdrawalDisclosurePart1Of3.jpg\" alt=\"Regulatory Disclosure Receipt. Part 1 of 3.\" width=\"1905\" height=\"1017\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/withdrawalDisclosurePart2Of3.jpg\" alt=\"Regulatory Disclosure Receipt. Part 2 of 3.\" width=\"1887\" height=\"1013\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/withdrawalDisclosurePart3Of3.jpg\" alt=\"Regulatory Disclosure Receipt. Part 3 of 3.\" width=\"1897\" height=\"1007\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
