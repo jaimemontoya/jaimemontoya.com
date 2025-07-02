@@ -269,6 +269,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/allMoneyInSettledCashClickWithdraw.jpg\" alt=\"Money moved to Settled Cash.\" width=\"1903\" height=\"1011\"></div>
   <p>I chose the withdrawal method that I wanted to use:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/clickWireCitiBank.jpg\" alt=\"Choose withdrawal method.\" width=\"1910\" height=\"1022\"></div>
+  <p>I provided the withdrawal amount and clicked <span class=\"cod\">Create Withdrawal</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/provideAmountAndClickCreateWithdrawal.jpg\" alt=\"Provide withdrawal amount and click Create Withdrawal.\" width=\"1890\" height=\"1010\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
