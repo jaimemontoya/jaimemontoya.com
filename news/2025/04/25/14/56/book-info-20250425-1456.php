@@ -280,7 +280,7 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/scrollDownToConfirmWithdrawalPart2Of2.jpg\" alt=\"Scroll down to confirm withdrawal. Part 2 of 2.\" width=\"1905\" height=\"1013\"></div>
   <p>I clicked <span class=\"cod\">Confirm Withdrawal</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/confirmWithdrawal.jpg\" alt=\"Confirm withdrawal.\" width=\"1890\" height=\"1013\"></div>
-  <p>I provided the <span class=\"cod\">Security Code</span> using the <span class=\"cod\">Authenticator</span> app:</p>
+  <p>I provided the <span class=\"cod\">Security Code</span> using the <span class=\"cod\">Authenticator</span> app. Then I clicked <span class=\"cod\">Confirm Withdrawal</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/provideCodeToConfirmWithdrawalUsingAuthenticator.jpg\" alt=\"Provide Security Code using the Authenticator app.\" width=\"1895\" height=\"1006\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
