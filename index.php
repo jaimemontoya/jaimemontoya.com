@@ -1,7 +1,7 @@
 <?php
   require("home.php");
   $index = new HomePage();
-  $index->content .= "<h1>Creating bluechipfinances.com · bluechipfinances.org since Fri Jul 4 11:11:46 2025 -0600</h1>
+  $index->content .= "<h1 class=\"center\">bluechipfinances.com · bluechipfinances.org</h1>
   <hr>
   <p>Welcome to my website! My introduction is this inspiring story: Spaniard Pablo de Sarasate, internationally acclaimed as the greatest violinist of the nineteenth century, was once called a genius by a famous critic. In reply to this Sarasate said, <span class=\"cod\">\"Genius! For 37 years I've practiced 14 hours a day, and now they call me a genius.\"</span></p>
   <hr>
