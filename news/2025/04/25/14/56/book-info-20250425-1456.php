@@ -297,6 +297,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/bacCredomaticSwiftCodesPart2Of2.jpg\" alt=\"BAC Credomatic SWIFT codes. Part 2 of 2.\" width=\"636\" height=\"803\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/cuscatlanBankSwiftCodesPart1Of2.jpg\" alt=\"Banco CUSCATLAN SWIFT codes. Part 1 of 2.\" width=\"818\" height=\"806\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/cuscatlanBankSwiftCodesPart2Of2.jpg\" alt=\"Banco CUSCATLAN SWIFT codes. Part 2 of 2.\" width=\"817\" height=\"280\"></div>
+  <p>I opened a ticket with my withdrawal inquiry:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/interactiveBrokersWithdrawalInquiry.jpg\" alt=\"Interactive Brokers. Withdrawal Inquiry.\" width=\"1882\" height=\"1012\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
