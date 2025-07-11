@@ -293,6 +293,10 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <p>I received an email confirmation for the processed withdrawal:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/emailConfirmationOfProcessedWithdrawal.jpg\" alt=\"Email confirmation of processed withdrawal.\" width=\"1072\" height=\"701\"></div>
   <p>The money had not arrived yet on 10 July 2025. My investigations with local banks (BAC Credomatic, Banco CUSCATLAN, and Citibank®, N.A. Sucursal El Salvador) revealed that BAC Credomatic made a mistake in the way they provided instructions to me, and BAC Credomatic acknowledged its mistake and apologized. I obtained the following pages from BAC Credomatic and Banco CUSCATLAN as part of my investigations about the information they normally provide for wire transfers, to understand what went wrong and how they provided wrong instructions to me about what to use as the SWIFT code for my transfer to receive money to my bank account:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/bacCredomaticSwiftCodesPart1Of2.jpg\" alt=\"BAC Credomatic SWIFT codes. Part 1 of 2.\" width=\"636\" height=\"803\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/bacCredomaticSwiftCodesPart2Of2.jpg\" alt=\"BAC Credomatic SWIFT codes. Part 2 of 2.\" width=\"636\" height=\"803\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/cuscatlanBankSwiftCodesPart1Of2.jpg\" alt=\"Banco CUSCATLAN SWIFT codes. Part 1 of 2.\" width=\"818\" height=\"806\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/cuscatlanBankSwiftCodesPart2Of2.jpg\" alt=\"Banco CUSCATLAN SWIFT codes. Part 2 of 2.\" width=\"817\" height=\"280\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
