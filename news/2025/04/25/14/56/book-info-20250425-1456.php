@@ -317,6 +317,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <p>I chose <span class=\"cod\">Bank Name: WELLS FARGO BANK, N.A. | Bank Address: NEW YORK, New York, United States
  | SWIFT/BIC Code: PNBPUS3NNYC</span></p>
   <div><img src=\"/news/2025/04/25/14/56/img/chooseWellsFargoBankAsTheCorrespondentBank.jpg\" alt=\"Choose Wells Fargo Bank as the Correspondent Bank\" width=\"1892\" height=\"1012\"></div>
+  <p>I clicked <span class=\"cod\">Save Bank Information</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/saveCompleteBankInformation.jpg\" alt=\"Save complete bank information\" width=\"1880\" height=\"1007\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
