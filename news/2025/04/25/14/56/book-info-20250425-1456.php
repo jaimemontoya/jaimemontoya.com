@@ -303,7 +303,7 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/bacCredomaticMadeMistakeWrongSwiftCode24April2025.jpg\" alt=\"BAC Credomatic made mistake providing wrong SWIFT code on 24 April 2025\" width=\"910\" height=\"887\"></div>
   <p>I received a reply from Interactive Brokers LLC to my ticket:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/replyFromInteractiveBrokers.jpg\" alt=\"Reply from Interactive Brokers\" width=\"1897\" height=\"1012\"></div>
-  <p>The transaction history reveals that my withdrawal was for $201.00, but the deposit that I received back as a result of the failed transaction, was only $189.70. That is $201.00 - $189.70 = $11.3. In other words, the penalty that I had to pay for the failed transaction was $11.3:
+  <p>The transaction history reveals that my withdrawal was for $201.00, but the deposit that I received back as a result of the failed transaction, was only $189.70. That is $201.00 - $189.70 = $11.30. In other words, the penalty that I had to pay for the failed transaction was $11.3:
   <div><img src=\"/news/2025/04/25/14/56/img/reportOfDepositsAndWithdrawals.jpg\" alt=\"Report of deposits and withdrawals\" width=\"1886\" height=\"1003\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
