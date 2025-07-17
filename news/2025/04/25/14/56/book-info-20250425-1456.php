@@ -353,8 +353,11 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/wireWithdrawalSubmittedSuccessfullyPart3Of3.jpg\" alt=\"Wire Withdrawal submitted successfully. Part 1 of 3.\" width=\"1893\" height=\"1002\"></div>
   <p>I checked the status of my withdrawals:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/showWithdrawalHistory.jpg\" alt=\"Show withdrawal history\" width=\"1892\" height=\"1012\"></div>
-  <p>Show rejected withdrawal:</p>
+  <p>I checked my rejected withdrawal:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/showRejectedWithdrawal.jpg\" alt=\"Show rejected withdrawal\" width=\"1892\" height=\"1012\"></div>
+  <p>I checked my pending withdrawal:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/showPendingWithdrawalPart1Of2.jpg\" alt=\"Show pending withdrawal. Part 1 of 2.\" width=\"1892\" height=\"1012\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/showPendingWithdrawalPart2Of2.jpg\" alt=\"Show pending withdrawal. Part 2 of 2.\" width=\"1892\" height=\"1012\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
