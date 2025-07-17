@@ -314,6 +314,9 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <p>I provided my bank information and clicked <span class=\"cod\">Select</span> to provide the <span class=\"cod\">Correspondent Bank</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/selectCorrespondentBankPart1Of2.jpg\" alt=\"Select Correspondent Bank. Part 1 of 2.\" width=\"1891\" height=\"1002\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/selectCorrespondentBankPart2Of2.jpg\" alt=\"Select Correspondent Bank. Part 2 of 2.\" width=\"1887\" height=\"1007\"></div>
+  <p>I chose <span class=\"cod\">Bank Name: WELLS FARGO BANK, N.A. | Bank Address: NEW YORK, New York, United States
+ | SWIFT/BIC Code: PNBPUS3NNYC</span></p>
+  <div><img src=\"/news/2025/04/25/14/56/img/chooseWellsFargoBankAsTheCorrespondentBank.jpg\" alt=\"Choose Wells Fargo Bank as the Correspondent Bank\" width=\"1892\" height=\"1012\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
