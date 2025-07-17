@@ -341,6 +341,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/confirmWithdrawalPart1Of3.jpg\" alt=\"Confirm withdrawal. Part 1 of 3.\" width=\"1902\" height=\"1017\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/confirmWithdrawalPart2Of3.jpg\" alt=\"Confirm withdrawal. Part 2 of 3.\" width=\"1881\" height=\"1008\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/confirmWithdrawalPart3Of3.jpg\" alt=\"Confirm withdrawal. Part 3 of 3.\" width=\"1872\" height=\"1007\"></div>
+  <p>I provided my credentials and Security Code to confirm the withdrawal:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/confirmWithdrawalToBACAccount.jpg\" alt=\"Provide Security Code and confirm withdrawal\" width=\"1901\" height=\"1007\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
