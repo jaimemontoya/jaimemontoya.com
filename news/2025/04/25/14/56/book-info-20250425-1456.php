@@ -305,6 +305,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/replyFromInteractiveBrokers.jpg\" alt=\"Reply from Interactive Brokers\" width=\"1897\" height=\"1012\"></div>
   <p>The transaction history reveals that my withdrawal was for $201.00, but the deposit that I received back as a result of the failed transaction, was only $189.70. That is $201.00 - $189.70 = $11.30. In other words, the penalty that I had to pay for the failed transaction was $11.30:
   <div><img src=\"/news/2025/04/25/14/56/img/reportOfDepositsAndWithdrawals.jpg\" alt=\"Report of deposits and withdrawals\" width=\"1886\" height=\"1003\"></div>
+  <p>From the home page, I clicked <span class=\"cod\">Withdraw</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/clickWithdrawFromHomePage.jpg\" alt=\"Click Withdraw from home page\" width=\"1907\" height=\"1008\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
