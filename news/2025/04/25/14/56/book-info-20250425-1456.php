@@ -326,6 +326,9 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <p>I provided my credentials and clicked <span class=\"cod\">Continue</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/provideCredentialsAndClickContinue.jpg\" alt=\"Provide credentials and click Continue\" width=\"1882\" height=\"1007\"></div>
   <p>I clicked <span class=\"cod\">Finish</span> to exit Wire information screen:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/wireInformationWindowPart1Of3.jpg\" alt=\"Click Finish to exit Wire information screen. Part 1 of 3.\" width=\"1897\" height=\"1002\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/wireInformationWindowPart2Of3.jpg\" alt=\"Click Finish to exit Wire information screen. Part 2 of 3.\" width=\"1877\" height=\"1018\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/wireInformationWindowPart3Of3.jpg\" alt=\"Click Finish to exit Wire information screen. Part 3 of 3.\" width=\"1881\" height=\"1002\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
