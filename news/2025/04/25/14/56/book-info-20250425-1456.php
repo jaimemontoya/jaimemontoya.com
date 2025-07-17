@@ -323,6 +323,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/confirmIdentityForWireTransferPart1Of3.jpg\" alt=\"Confirm identity for wire transfer. Part 1 of 3.\" width=\"1892\" height=\"1006\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/confirmIdentityForWireTransferPart2Of3.jpg\" alt=\"Confirm identity for wire transfer. Part 2 of 3.\" width=\"1882\" height=\"1006\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/confirmIdentityForWireTransferPart3Of3.jpg\" alt=\"Confirm identity for wire transfer. Part 3 of 3.\" width=\"1902\" height=\"1008\"></div>
+  <p>I provided my credentials and clicked <span class=\"cod\">Continue</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/provideCredentialsAndClickContinue.jpg\" alt=\"Provide credentials and click Continue\" width=\"1882\" height=\"1007\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
