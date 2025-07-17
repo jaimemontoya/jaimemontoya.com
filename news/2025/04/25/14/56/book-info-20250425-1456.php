@@ -348,9 +348,9 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/regulatoryDisclosureAndReceiptScreenPart2Of3.jpg\" alt=\"Regulatory Disclosure and Receipt. Part 2 of 3.\" width=\"1886\" height=\"1013\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/regulatoryDisclosureAndReceiptScreenPart1Of3.jpg\" alt=\"Regulatory Disclosure and Receipt. Part 3 of 3.\" width=\"1895\" height=\"1015\"></div>
   <p>I clicked <span class=\"cod\">Finish</span>. My Wire Withdrawal was submitted successfully:</p>
-  <div><img src=\"/news/2025/04/25/14/56/img/wireWithdrawalSubmittedSuccessfullyPart2Of3.jpg\" alt=\"Wire Withdrawal submitted successfully. Part 2 of 3.\" width=\"1890\" height=\"1007\"></div>
-  <div><img src=\"/news/2025/04/25/14/56/img/wireWithdrawalSubmittedSuccessfullyPart3Of3.jpg\" alt=\"Wire Withdrawal submitted successfully. Part 3 of 3.\" width=\"1893\" height=\"1021\"></div>
-  <div><img src=\"/news/2025/04/25/14/56/img/wireWithdrawalSubmittedSuccessfullyPart1Of3.jpg\" alt=\"Wire Withdrawal submitted successfully. Part 1 of 3.\" width=\"1893\" height=\"1002\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/wireWithdrawalSubmittedSuccessfullyPart1Of3.jpg\" alt=\"Wire Withdrawal submitted successfully. Part 2 of 3.\" width=\"1890\" height=\"1007\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/wireWithdrawalSubmittedSuccessfullyPart2Of3.jpg\" alt=\"Wire Withdrawal submitted successfully. Part 3 of 3.\" width=\"1893\" height=\"1021\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/wireWithdrawalSubmittedSuccessfullyPart3Of3.jpg\" alt=\"Wire Withdrawal submitted successfully. Part 1 of 3.\" width=\"1893\" height=\"1002\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
