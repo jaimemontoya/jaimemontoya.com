@@ -333,6 +333,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/clickWithdrawFunds.jpg\" alt=\"Click Withdraw Funds\" width=\"1891\" height=\"1011\"></div>
   <p>I chose the withdrawal method that I created:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/chooseWithdrawalMethodThatWasCreated.jpg\" alt=\"Choose withdrawal method that was created\" width=\"1890\" height=\"1012\"></div>
+  <p>I provided the withdrawal amount and clicked <span class=\"cod\">Create Withdrawal</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/createWithdrawal.jpg\" alt=\"Create withdrawal\" width=\"1881\" height=\"1007\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
