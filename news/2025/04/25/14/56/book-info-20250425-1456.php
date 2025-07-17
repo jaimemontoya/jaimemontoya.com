@@ -331,6 +331,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/wireInformationWindowPart3Of3.jpg\" alt=\"Click Finish to exit Wire information screen. Part 3 of 3.\" width=\"1881\" height=\"1002\"></div>
   <p>I clicked <span class=\"cod\">Select</span> for the <span class=\"cod\">Withdraw Funds</span> box:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/clickWithdrawFunds.jpg\" alt=\"Click Withdraw Funds\" width=\"1891\" height=\"1011\"></div>
+  <p>I chose the withdrawal method that I created:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/chooseWithdrawalMethodThatWasCreated.jpg\" alt=\"Choose withdrawal method that was created\" width=\"1890\" height=\"1012\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
