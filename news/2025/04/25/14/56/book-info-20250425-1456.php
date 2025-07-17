@@ -311,6 +311,9 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/chooseBankWireAsTheTransferMethod.jpg\" alt=\"Use Bank Wire method\" width=\"1883\" height=\"1011\"></div>
   <p>I retrieved my bank account information:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/bacCredomaticAccountNumber.jpg\" alt=\"BAC Credomatic account number\" width=\"816\" height=\"793\"></div>
+  <p>I provided my bank information and clicked <span class=\"cod\">Select</span> to provide the <span class=\"cod\">Correspondent Bank</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/selectCorrespondentBankPart1Of2.jpg\" alt=\"Select Correspondent Bank. Part 1 of 2.\" width=\"1891\" height=\"1002\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/selectCorrespondentBankPart2Of2.jpg\" alt=\"Select Correspondent Bank. Part 2 of 2.\" width=\"1887\" height=\"1007\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
