@@ -301,6 +301,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/interactiveBrokersWithdrawalInquiry.jpg\" alt=\"Interactive Brokers. Withdrawal Inquiry.\" width=\"1882\" height=\"1012\"></div>
   <p>This was the attachment I added to my ticket:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/bacCredomaticMadeMistakeWrongSwiftCode24April2025.jpg\" alt=\"BAC Credomatic made mistake providing wrong SWIFT code on 24 April 2025\" width=\"910\" height=\"887\"></div>
+  <p>I received a reply from Interactive Brokers LLC to my ticket:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/replyFromInteractiveBrokers.jpg\" alt=\"Reply from Interactive Brokers\" width=\"1897\" height=\"1012\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
