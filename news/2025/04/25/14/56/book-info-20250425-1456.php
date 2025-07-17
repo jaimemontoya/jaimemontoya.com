@@ -307,6 +307,8 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/reportOfDepositsAndWithdrawals.jpg\" alt=\"Report of deposits and withdrawals\" width=\"1886\" height=\"1003\"></div>
   <p>From the home page, I clicked <span class=\"cod\">Withdraw</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/clickWithdrawFromHomePage.jpg\" alt=\"Click Withdraw from home page\" width=\"1907\" height=\"1008\"></div>
+  <p>I clicked <span class=\"cod\">Use this Method</span> to use <span class=\"cod\">Bank Wire</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/chooseBankWireAsTheTransferMethod.jpg\" alt=\"Use Bank Wire method\" width=\"1883\" height=\"1011\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
