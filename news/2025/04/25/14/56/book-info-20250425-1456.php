@@ -337,6 +337,10 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/createWithdrawal.jpg\" alt=\"Create withdrawal\" width=\"1881\" height=\"1007\"></div>
   <p>I clicked <span class=\"cod\">Withdraw USD 184.72</span>:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/leaveSomeCashInTheBalance.jpg\" alt=\"Leave some cash in the balance\" width=\"1887\" height=\"1003\"></div>
+  <p>I provided my credentials and clicked <span class=\"cod\">Confirm Withdrawal</span>:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/confirmWithdrawalPart1Of3.jpg\" alt=\"Confirm withdrawal. Part 1 of 3.\" width=\"1902\" height=\"1017\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/confirmWithdrawalPart2Of3.jpg\" alt=\"Confirm withdrawal. Part 2 of 3.\" width=\"1881\" height=\"1008\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/confirmWithdrawalPart3Of3.jpg\" alt=\"Confirm withdrawal. Part 3 of 3.\" width=\"1872\" height=\"1007\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
