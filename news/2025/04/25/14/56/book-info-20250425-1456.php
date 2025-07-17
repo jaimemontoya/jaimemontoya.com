@@ -343,6 +343,10 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/confirmWithdrawalPart3Of3.jpg\" alt=\"Confirm withdrawal. Part 3 of 3.\" width=\"1872\" height=\"1007\"></div>
   <p>I provided my credentials and Security Code to confirm the withdrawal:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/confirmWithdrawalToBACAccount.jpg\" alt=\"Provide Security Code and confirm withdrawal\" width=\"1901\" height=\"1007\"></div>
+  <p>From the <span class=\"cod\">Regulatory Disclosure and Receipt</span> screen, I clicked Continue:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/regulatoryDisclosureAndReceiptScreenPart1Of3.jpg\" alt=\"Regulatory Disclosure and Receipt. Part 1 of 3.\" width=\"1897\" height=\"1002\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/regulatoryDisclosureAndReceiptScreenPart2Of3.jpg\" alt=\"Regulatory Disclosure and Receipt. Part 2 of 3.\" width=\"1886\" height=\"1013\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/regulatoryDisclosureAndReceiptScreenPart3Of3.jpg\" alt=\"Regulatory Disclosure and Receipt. Part 3 of 3.\" width=\"1895\" height=\"1015\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
