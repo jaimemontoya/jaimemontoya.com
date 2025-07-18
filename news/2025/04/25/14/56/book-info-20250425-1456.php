@@ -358,7 +358,7 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <p>I checked my pending withdrawal:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/showPendingWithdrawalPart1Of2.jpg\" alt=\"Show pending withdrawal. Part 1 of 2.\" width=\"1892\" height=\"1012\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/showPendingWithdrawalPart2Of2.jpg\" alt=\"Show pending withdrawal. Part 2 of 2.\" width=\"1892\" height=\"1012\"></div>
-  <p>I received a notification about the successful arrival of the funds in my destination local bank from El Salvador:</p>\
+  <p>I received a notification about the successful arrival of the funds in my destination local bank from El Salvador:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/fyiSuccessfulWithdrawalNotification.jpg\" alt=\"Show FYI successful withdrawal notification\" width=\"1885\" height=\"1011\"></div>
   <p>I noticed that my withdrawal was for USD 184.72, but the deposit that I received was for USD 88.00. That is, 184.72 - 88.00 = 96.72. The total in fees and payments related to the Wire transfer was USD 96.72:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/showCostOfWireTransferFromUSAToElSalvador.jpg\" alt=\"Show cost of Wire transfer from the USA to El Salvador\" width=\"1896\" height=\"1008\"></div>
