@@ -372,7 +372,7 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/incomingInternationalTransferFormPart5Of5.jpg\" alt=\"Incoming International Transfer form. Part 5 of 5.\" width=\"1722\" height=\"1010\"></div>
   <p>My Incoming International Transfer was confirmed:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/incomingInternationalTransferConfirmed.jpg\" alt=\"Incoming International Transfer confirmed.\" width=\"1895\" height=\"1008\"></div>
-  <p>I received the money successfully. The local bank charged 25.00 + 3.85 = USD 28.25. The $25 is the BAC Credomatic local bank commission. The $3.85 is El Salvador tax for receiving a wire transfer from abroad:</p>
+  <p>I received the money successfully. The local bank charged 25.00 + 3.85 = USD 28.25. The $25 is the BAC Credomatic local bank commission. The $3.25 is El Salvador tax for receiving a wire transfer from abroad:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/moneyReceivedAtBACCredomaticPart1Of2.jpg\" alt=\"Money received at BAC Credomatic. Part 1 of 2.\" width=\"1722\" height=\"1008\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/moneyReceivedAtBACCredomaticPart2Of2.jpg\" alt=\"Money received at BAC Credomatic. Part 2 of 2.\" width=\"1715\" height=\"1006\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
