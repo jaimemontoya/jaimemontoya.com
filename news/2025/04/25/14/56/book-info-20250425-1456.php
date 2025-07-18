@@ -364,6 +364,12 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/showCostOfWireTransferFromUSAToElSalvador.jpg\" alt=\"Show cost of Wire transfer from the USA to El Salvador\" width=\"1896\" height=\"1008\"></div>
   <p>From online banking, I saw the incoming money sent to my account:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/wireTransferInMyIncomingMoneyOnline.jpg\" alt=\"Wire transfer in my incoming money online\" width=\"1902\" height=\"1015\"></div>
+  <p>I filled out the Incoming International Transfer form:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/incomingInternationalTransferFormPart1Of5.jpg\" alt=\"Incoming International Transfer form. Part 1 of 5.\" width=\"1902\" height=\"1015\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/incomingInternationalTransferFormPart2Of5.jpg\" alt=\"Incoming International Transfer form. Part 2 of 5.\" width=\"1902\" height=\"1015\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/incomingInternationalTransferFormPart3Of5.jpg\" alt=\"Incoming International Transfer form. Part 3 of 5.\" width=\"1902\" height=\"1015\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/incomingInternationalTransferFormPart4Of5.jpg\" alt=\"Incoming International Transfer form. Part 4 of 5.\" width=\"1902\" height=\"1015\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/incomingInternationalTransferFormPart5Of5.jpg\" alt=\"Incoming International Transfer form. Part 5 of 5.\" width=\"1902\" height=\"1015\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
