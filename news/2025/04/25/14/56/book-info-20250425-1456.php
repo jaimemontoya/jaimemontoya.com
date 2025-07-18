@@ -378,6 +378,11 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <p>The entire Wire transfer process took 0 days 9 hours 56 minutes:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/wireTransferCompletedPart1Of2.jpg\" alt=\"Wire Transfer completed\" width=\"1903\" height=\"1012\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/wireTransferCompletedPart2Of2.jpg\" alt=\"Wire Transfer completed\" width=\"1721\" height=\"1021\"></div>
+  <p>I also received an email confirming the transfer:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/emailConfirmationForWireTransferPart1Of4.jpg\" alt=\"Email confirmation for Wire transfer. Part 1 of 4.\" width=\"1183\" height=\"700\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/emailConfirmationForWireTransferPart2Of4.jpg\" alt=\"Email confirmation for Wire transfer. Part 2 of 4.\" width=\"1416\" height=\"757\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/emailConfirmationForWireTransferPart3Of4.jpg\" alt=\"Email confirmation for Wire transfer. Part 3 of 4.\" width=\"1112\" height=\"770\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/emailConfirmationForWireTransferPart4Of4.jpg\" alt=\"Email confirmation for Wire transfer. Part 4 of 4.\" width=\"1112\" height=\"778\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
