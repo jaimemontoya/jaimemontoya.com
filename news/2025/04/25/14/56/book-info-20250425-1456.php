@@ -383,6 +383,9 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/emailConfirmationForWireTransferPart2Of4.jpg\" alt=\"Email confirmation for Wire transfer. Part 2 of 4.\" width=\"1416\" height=\"757\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/emailConfirmationForWireTransferPart3Of4.jpg\" alt=\"Email confirmation for Wire transfer. Part 3 of 4.\" width=\"1112\" height=\"770\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/emailConfirmationForWireTransferPart4Of4.jpg\" alt=\"Email confirmation for Wire transfer. Part 4 of 4.\" width=\"1112\" height=\"778\"></div>
+  <p>From my Interactive Brokers account, the Wire transfer transaction appeared as completed too:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/wireTransferCompletedAppearingOnInteractiveBrokersPart1Of2.jpg\" alt=\"Wire transfer completed, appearing on Interactive Brokers. Part 1 of 2.\" width=\"1900\" height=\"1007\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/wireTransferCompletedAppearingOnInteractiveBrokersPart2Of2.jpg\" alt=\"Wire transfer completed, appearing on Interactive Brokers. Part 2 of 2.\" width=\"1902\" height=\"1007\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
