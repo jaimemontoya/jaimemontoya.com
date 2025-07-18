@@ -375,6 +375,9 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <p>I received the money successfully. The local bank charged 25.00 + 3.85 = USD 28.25. The $25 is the BAC Credomatic local bank commission. The $3.25 is El Salvador tax for receiving a wire transfer from abroad:</p>
   <div><img src=\"/news/2025/04/25/14/56/img/moneyReceivedAtBACCredomaticPart1Of2.jpg\" alt=\"Money received at BAC Credomatic. Part 1 of 2.\" width=\"1722\" height=\"1008\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/moneyReceivedAtBACCredomaticPart2Of2.jpg\" alt=\"Money received at BAC Credomatic. Part 2 of 2.\" width=\"1715\" height=\"1006\"></div>
+  <p>The entire Wire transfer process took 0 days 9 hours 56 minutes:</p>
+  <div><img src=\"/news/2025/04/25/14/56/img/wireTransferCompletedPart1Of2.jpg\" alt=\"Wire Transfer completed\" width=\"1903\" height=\"1012\"></div>
+  <div><img src=\"/news/2025/04/25/14/56/img/wireTransferCompletedPart2Of2.jpg\" alt=\"Wire Transfer completed\" width=\"1721\" height=\"1021\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
