@@ -45,6 +45,8 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/viewDetailsOfTransactionPendingApproval.jpg\" alt=\"View details of transaction pending approval\" width=\"1883\" height=\"1003\"></div>
 		   <p>I clicked <span class=\"cod\">Approve</span> to approve the pending template:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/approvePendingTemplate.jpg\" alt=\"Approve pending template\" width=\"1893\" height=\"1008\"></div>
+		   <p>I clicked <span class=\"cod\">Apply</span> from the <span class=\"cod\">TEMPLATE CONFIRMATION</span> screen:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/clickApplyFromTemplateConfirmationScreen.jpg\" alt=\"Click Apply from TEMPLATE CONFIRMATION screen\" width=\"1911\" height=\"1016\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
   //$index->content .= 
            "<p>Another milestone completed in the process to enter stock market investments. My local bank approved my request to preregister an international transfer to Interactive Brokers LLC. The beneficiary bank is:</p><p>Citibank N.A.<br />388 Greenwich Street<br />New York 10013<br />United States</p><p>The beneficiary of the funds is:</p><p>Interactive Brokers LLC<br />One Pickwick Plaza<br />Greenwich, Connecticut 06830<br />United States</p><div><img src=\"/news/2024/11/11/22/13/img/internationalTransferToInteractiveBrokersLLCSent.jpg\" alt=\"International transfer to Interactive Brokers\" width=\"568\" height=\"745\"></div><div>Published: 10:13 PM GMT · Nov 11, 2024</div>\n";
