@@ -13,7 +13,7 @@
 		   <p>My notification of a wire deposit was completed successfully:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/notificationOfWireTransferSuccessfulPart1Of2.jpg\" alt=\"Notification of wire transfer successful. Part 1 of 2.\" width=\"1892\" height=\"1012\"></div>
 		   <div><img src=\"/news/2025/07/21/17/00/img/notificationOfWireTransferSuccessfulPart2Of2.jpg\" alt=\"Notification of wire transfer successful. Part 2 of 2.\" width=\"1898\" height=\"1013\"></div>
-		   <p>I went to the <span class=\"cod\">International transfers</span> section from my online banking account:</p>
+		   <p>I went to the <span class=\"cod\">International transfers</span> section from my online banking account and clicked the <span class=\"cod\">Templates</span> link at the bottom:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/internationalTransfersPart1Of2.jpg\" alt=\"International transfers. Part 1 of 2.\" width=\"1912\" height=\"1007\"></div>
 		   <div><img src=\"/news/2025/07/21/17/00/img/internationalTransfersPart2Of2.jpg\" alt=\"International transfers. Part 2 of 2.\" width=\"1902\" height=\"1012\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
