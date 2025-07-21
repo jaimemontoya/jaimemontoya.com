@@ -26,6 +26,8 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/clickSearchBank.jpg\" alt=\"Click Search bank.\" width=\"1897\" height=\"1015\"></div>
 		   <p>I provided the destination bank SWIFT/BIC Code:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/provideDestinationBankSwiftCode.jpg\" alt=\"Provide destination bank SWIFT/BIC Code.\" width=\"1720\" height=\"1011\"></div>
+		   <p>I clicked <span class=\"cod\">Select</span> to select the destination bank found by SWIFT Code:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/provideDestinationBankSwiftCode.jpg\" alt=\"Provide destination bank SWIFT/BIC Code.\" width=\"1720\" height=\"1011\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
   //$index->content .= 
            "<p>Another milestone completed in the process to enter stock market investments. My local bank approved my request to preregister an international transfer to Interactive Brokers LLC. The beneficiary bank is:</p><p>Citibank N.A.<br />388 Greenwich Street<br />New York 10013<br />United States</p><p>The beneficiary of the funds is:</p><p>Interactive Brokers LLC<br />One Pickwick Plaza<br />Greenwich, Connecticut 06830<br />United States</p><div><img src=\"/news/2024/11/11/22/13/img/internationalTransferToInteractiveBrokersLLCSent.jpg\" alt=\"International transfer to Interactive Brokers\" width=\"568\" height=\"745\"></div><div>Published: 10:13 PM GMT · Nov 11, 2024</div>\n";
