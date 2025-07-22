@@ -59,5 +59,9 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/currencyOutFlowDeclarationPart2Of4.jpg\" alt=\"Complete Currency Outflow Declaration. Part 2 of 4.\" width=\"1887\" height=\"1008\"></div>
 		   <div><img src=\"/news/2025/07/21/17/00/img/currencyOutFlowDeclarationPart3Of4.jpg\" alt=\"Complete Currency Outflow Declaration. Part 3 of 4.\" width=\"1716\" height=\"1002\"></div>
 		   <div><img src=\"/news/2025/07/21/17/00/img/currencyOutFlowDeclarationPart4Of4.jpg\" alt=\"Complete Currency Outflow Declaration. Part 4 of 4.\" width=\"1730\" height=\"1012\"></div>
+		   <p>I clicked <span class=\"cod\">Transfer</span> to execute the wire transfer:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/completeTransferPart1Of3.jpg\" alt=\"Complete transfer. Part 1 of 3.\" width=\"1897\" height=\"1013\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/completeTransferPart2Of3.jpg\" alt=\"Complete transfer. Part 2 of 3.\" width=\"1733\" height=\"1013\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/completeTransferPart3Of3.jpg\" alt=\"Complete transfer. Part 3 of 3.\" width=\"1726\" height=\"1002\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
