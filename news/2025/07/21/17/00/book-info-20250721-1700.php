@@ -70,5 +70,7 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/confirmationOfTransferPart4Of4.jpg\" alt=\"Confirmation of transfer. Part 4 of 4.\" width=\"1725\" height=\"1007\"></div>
 		   <p>My wire transfer was sent successfully from El Salvador to the USA:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/wireTransferSentSuccessfullyFromElSalvadorToUSA.jpg\" alt=\"Wire transfer sent successfully from El Salvador to the USA.\" width=\"822\" height=\"977\"></div>
+		   <p>In my bank statements, I saw the amount I sent as a Withheld amount, no longer available:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/wireTransferAppearingAsWithheldAmount.jpg\" alt=\"Wire transfer appearing as withheld amount.\" width=\"1721\" height=\"1008\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
