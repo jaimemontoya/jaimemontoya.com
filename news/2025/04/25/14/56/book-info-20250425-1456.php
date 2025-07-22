@@ -387,7 +387,7 @@ Gracias por haber utilizado nuestro servicio de WhatsApp. Esperamos tenga un ex
   <div><img src=\"/news/2025/04/25/14/56/img/wireTransferCompletedAppearingOnInteractiveBrokersPart1Of2.jpg\" alt=\"Wire transfer completed, appearing on Interactive Brokers. Part 1 of 2.\" width=\"1900\" height=\"1007\"></div>
   <div><img src=\"/news/2025/04/25/14/56/img/wireTransferCompletedAppearingOnInteractiveBrokersPart2Of2.jpg\" alt=\"Wire transfer completed, appearing on Interactive Brokers. Part 2 of 2.\" width=\"1902\" height=\"1007\"></div>
   <p>My template was approved. I clicked the <span class=\"cod\">To transfer</span> link:</p>
-  
+  <div><img src=\"/news/2025/04/25/14/56/img/templateApproved.jpg\" alt=\"Show approved template.\" width=\"1890\" height=\"1010\"></div>
   <div>Published: 2:56 PM GMT · Apr 25, 2024</div>
   ";
   /*$index->content .= 
