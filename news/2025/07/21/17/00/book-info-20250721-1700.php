@@ -50,6 +50,6 @@
 		   <p>The status changed to <span class=\"cod\">Pending approval by Banco de America Central</span>, including the message <span class=\"cod\">You should send this template with supporting documents to your executive by e-mail or take them to the nearest agency for approval.</span></p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/templatePendingBankApproval.jpg\" alt=\"Show template pending bank approval\" width=\"1895\" height=\"1008\"></div>
 		   <p>My template was approved. I clicked the <span class=\"cod\">To transfer</span> link:</p>
-           <div><img src=\"/news/2025/04/25/14/56/img/templateApproved.jpg\" alt=\"Show approved template.\" width=\"1890\" height=\"1010\"></div>
+           <div><img src=\"/news/2025/07/21/17/00/img/templateApproved.jpg\" alt=\"Show approved template.\" width=\"1890\" height=\"1010\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
