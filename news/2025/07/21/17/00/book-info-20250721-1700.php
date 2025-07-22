@@ -51,5 +51,8 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/templatePendingBankApproval.jpg\" alt=\"Show template pending bank approval\" width=\"1895\" height=\"1008\"></div>
 		   <p>My template was approved. I clicked the <span class=\"cod\">To transfer</span> link:</p>
            <div><img src=\"/news/2025/07/21/17/00/img/templateApproved.jpg\" alt=\"Show approved template.\" width=\"1890\" height=\"1010\"></div>
+		   <p>I provided the amount to transfer and a description. Then I clicked <span class=\"cod\">Continue to</span>:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/provideAmountPart1Of2.jpg\" alt=\"Provide amount. Part 1 of 2.\" width=\"1890\" height=\"1010\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/provideAmountPart2Of2.jpg\" alt=\"Provide amount. Part 2 of 2.\" width=\"1890\" height=\"1010\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
