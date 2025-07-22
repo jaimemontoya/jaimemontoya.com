@@ -63,5 +63,10 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/completeTransferPart1Of3.jpg\" alt=\"Complete transfer. Part 1 of 3.\" width=\"1897\" height=\"1013\"></div>
 		   <div><img src=\"/news/2025/07/21/17/00/img/completeTransferPart2Of3.jpg\" alt=\"Complete transfer. Part 2 of 3.\" width=\"1733\" height=\"1013\"></div>
 		   <div><img src=\"/news/2025/07/21/17/00/img/completeTransferPart3Of3.jpg\" alt=\"Complete transfer. Part 3 of 3.\" width=\"1726\" height=\"1002\"></div>
+		   <p>The confirmation of transfer appeared on screen.</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/confirmationOfTransferPart1Of4.jpg\" alt=\"Confirmation of transfer. Part 1 of 4.\" width=\"1888\" height=\"1008\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/confirmationOfTransferPart2Of4.jpg\" alt=\"Confirmation of transfer. Part 2 of 4.\" width=\"1721\" height=\"1008\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/confirmationOfTransferPart3Of4.jpg\" alt=\"Confirmation of transfer. Part 3 of 4.\" width=\"1725\" height=\"1008\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/confirmationOfTransferPart4Of4.jpg\" alt=\"Confirmation of transfer. Part 4 of 4.\" width=\"1725\" height=\"1007\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
