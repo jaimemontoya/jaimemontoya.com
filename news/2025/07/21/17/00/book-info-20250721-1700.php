@@ -89,5 +89,6 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/clickStockForNvidia.jpg\" alt=\"Click Stock for Nvidia.\" width=\"1901\" height=\"1020\"></div>
 		   <p>I clicked <span class=\"cod\">Buy</span>:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/buyNvidia.jpg\" alt=\"Buy Nvidia.\" width=\"1907\" height=\"1008\"></div>
+		   <p>I provided the values for my order and clicked <span class=\"cod\">Preview</span>:</p>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
