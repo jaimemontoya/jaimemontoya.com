@@ -138,5 +138,7 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/hopingPurchaseWasAtAGoodTime.jpg\" alt=\"Hoping purchase was at a good time.\" width=\"1867\" height=\"1017\"></div>
 		   <p>This was Nvidia's performance for the day:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/nvidiaPerformanceForTheDay.jpg\" alt=\"Nvidia performance for the day.\" width=\"1862\" height=\"1020\"></div>
+		   <p>In the <span class=\"cod\">Orders & Trades</span> section, three rows appear even though the three correspond to the same order. I imagine the maximum number of shares allowed per row is 50, and I bought 100.1662 shares. In other words, the system shows three trades but they correspond to the same order I made today as a single order:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/threeTradesCorrespondingToTheSameOrder.jpg\" alt=\"Three trades corresponding to the same order.\" width=\"1877\" height=\"1017\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
