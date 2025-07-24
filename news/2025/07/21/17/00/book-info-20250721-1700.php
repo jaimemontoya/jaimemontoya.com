@@ -85,5 +85,7 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/trackingCompletedPaymentPart2Of2.jpg\" alt=\"Tracking completed payment. Part 2 of 2.\" width=\"1891\" height=\"1011\"></div>
 		   <p>I searched for <span class=\"cod\">NVIDIA</span>:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/searchForNvidiaStock.jpg\" alt=\"Search for NVIDIA stock.\" width=\"1905\" height=\"1015\"></div>
+		   <p>I clicked <span class=\"cod\">Stock</span>:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/clickStockForNvidia.jpg\" alt=\"Click Stock for Nvidia.\" width=\"1901\" height=\"1020\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
