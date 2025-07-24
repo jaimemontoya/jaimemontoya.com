@@ -99,5 +99,7 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/fixValuesForNvidiaPurchasePart2Of2.jpg\" alt=\"Fix values for Nvidia purchase. Part 2 of 2.\" width=\"1716\" height=\"1007\"></div>
 		   <p>I started over. After clicking <span class=\"cod\">Preview</span>, I reviewed the values. Everything looked correct as I intended. I clicked <span class=\"cod\">Submit Buy Order</span>:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/submitBuyOrderForNvidia.jpg\" alt=\"Submit Buy Order for Nvidia.\" width=\"1726\" height=\"1010\"></div>
+		   <p>I clicked <span class=\"cod\">Accept</span>:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/ConfirmMandatoryCapPrice.jpg\" alt=\"Confirm Mandatory Cap Price.\" width=\"1722\" height=\"1011\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
