@@ -79,5 +79,7 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/emailNotificationOfSuccessfulWireTransferPart4Of4.jpg\" alt=\"Email notification of successful wire transfer. Part 4 of 4.\" width=\"1102\" height=\"778\"></div>
 		   <p>My deposit was available for trading:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/depositAvailableForTrading.jpg\" alt=\"Deposit available for trading.\" width=\"1888\" height=\"1007\"></div>
+		   <p>The transfer was successful as shown in my local online banking website:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/transferCompletedShownOnLocalBankWebsite.jpg\" alt=\"Transfer completed shown on local bank website.\" width=\"1718\" height=\"1017\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
