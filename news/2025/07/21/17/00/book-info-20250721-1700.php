@@ -111,5 +111,32 @@
 		   <p>This is the current condition for Nvidia in the stock market:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/nvidiaCompaniesMarketCapDotCom.jpg\" alt=\"Nvidia companiesmarrketcap.com.\" width=\"1718\" height=\"1015\"></div>
 		   <div><img src=\"/news/2025/07/21/17/00/img/nvidiaTradingViewDotCom.jpg\" alt=\"Nvidia tradingviewdotcom.\" width=\"1872\" height=\"1012\"></div>
+		   <p>It was unlikely that Nvidia would reach my target value of USD 169.99 as my <span class=\"cod\">limit order type</span>, to execute the purchase:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/nvidiaUnlikelyToReachTodayUSD169Dot99LimitOrderType.jpg\" alt=\"Nvidia unlikely to reach today USD 169.99 limit order type.\" width=\"1843\" height=\"1000\"></div>
+		   <p>The price growth of about 1% did not seem to have good changes of turning into negative territory:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/nvidiaNotMovingIntoNegativeTerritory.jpg\" alt=\"Nvidia not moving into negative territory.\" width=\"1712\" height=\"1003\"></div>
+		   <p>I monitored the P/E ratio for Nvidia and it was at 55.79:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/peRatioForNvidia.jpg\" alt=\"P/E ratio for Nvidia.\" width=\"1846\" height=\"1013\"></div>
+		   <p>I cancelled the order that I had submitted:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/cancelOrder.jpg\" alt=\"Cancel order.\" width=\"1871\" height=\"1011\"></div>
+		   <p>I confirmed the cancellation of the order:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/confirmCancellationOfOrder.jpg\" alt=\"Confirm cancellation of order.\" width=\"1883\" height=\"1012\"></div>
+		   <p>My balance remained intact:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/balanceRemainedIntact.jpg\" alt=\"Balance remained intact.\" width=\"1905\" height=\"1016\"></div>
+		   <p>I clicked <span class=\"cod\">Buy</span> for <span class=\"cod\">Nvidia</span> stock:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/buyNvidiaStock.jpg\" alt=\"Buy Nvidia stock.\" width=\"1905\" height=\"1013\"></div>
+		   <p>I specified the settings for my order:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/placeOrderForNvidiaPart1Of2.jpg\" alt=\"Place order for Nvidia. Part 1 of 2.\" width=\"1712\" height=\"1010\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/placeOrderForNvidiaPart2Of2.jpg\" alt=\"Place order for Nvidia. Part 2 of 2.\" width=\"1723\" height=\"1007\"></div>
+		   <p>I saw the verified of my order and clicked <span class=\"cod\">Submit Buy Order</span>:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/submitBuyOrder.jpg\" alt=\"Submit buy order.\" width=\"1721\" height=\"1007\"></div>
+		   <p>I confirmed the <span class=\"cod\">Mandatory Cap Price</span>. My order was filled. I clicked <span class=\"cod\">Done</span>:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/nvidiaOrderFilledSuccessfully.jpg\" alt=\"Nvidia order filled successfully.\" width=\"1725\" height=\"1012\"></div>
+		   <p>My purchase was successful:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/successfulPurchaseOfNvidiaShares.jpg\" alt=\"Successful purchase of Nvidia shares.\" width=\"1903\" height=\"1008\"></div>
+		   <p>I hoped my purchase was at a good time:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/hopingPurchaseWasAtAGoodTime.jpg\" alt=\"Hoping purchase was at a good time.\" width=\"1867\" height=\"1017\"></div>
+		   <p>This was Nvidia's performance for the day:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/nvidiaPerformanceForTheDay.jpg\" alt=\"Nvidia performance for the day.\" width=\"1862\" height=\"1020\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
