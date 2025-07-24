@@ -108,5 +108,8 @@
 		   <p>I clicked <span class=\"cod\">Done</span>:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/clickOK.jpg\" alt=\"Click OK.\" width=\"1717\" height=\"1012\"></div>
 		   <div><img src=\"/news/2025/07/21/17/00/img/orderDone.jpg\" alt=\"Order done.\" width=\"1733\" height=\"1017\"></div>
+		   <p>This is the current condition for Nvidia in the stock market:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/nvidiaCompaniesMarketCapDotCom.jpg\" alt=\"Nvidia companiesmarrketcap.com.\" width=\"1718\" height=\"1015\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/nvidiaTradingViewDotCom.jpg\" alt=\"Nvidia tradingviewdotcom.\" width=\"1872\" height=\"1012\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
