@@ -101,5 +101,7 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/submitBuyOrderForNvidia.jpg\" alt=\"Submit Buy Order for Nvidia.\" width=\"1726\" height=\"1010\"></div>
 		   <p>I clicked <span class=\"cod\">Accept</span>:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/ConfirmMandatoryCapPrice.jpg\" alt=\"Confirm Mandatory Cap Price.\" width=\"1722\" height=\"1011\"></div>
+		   <p>I clicked <span class=\"cod\">Use on This Order</span> to use the <span class=\"cod\">Price Management Algo</span>:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/usePriceManagementAlgo.jpg\" alt=\"Use Price Management Algo on this order.\" width=\"1726\" height=\"1011\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
