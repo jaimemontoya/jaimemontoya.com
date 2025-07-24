@@ -105,5 +105,8 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/usePriceManagementAlgo.jpg\" alt=\"Use Price Management Algo on this order.\" width=\"1726\" height=\"1011\"></div>
 		   <p>I clicked <span class=\"cod\">OK</span>:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/clickOK.jpg\" alt=\"Click OK.\" width=\"1717\" height=\"1012\"></div>
+		   <p>I clicked <span class=\"cod\">Done</span>:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/clickOK.jpg\" alt=\"Click OK.\" width=\"1717\" height=\"1012\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/orderDone.jpg\" alt=\"Order done.\" width=\"1733\" height=\"1017\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
