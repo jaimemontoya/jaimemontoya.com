@@ -77,5 +77,7 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/emailNotificationOfSuccessfulWireTransferPart2Of4.jpg\" alt=\"Email notification of successful wire transfer. Part 2 of 4.\" width=\"1410\" height=\"753\"></div>
 		   <div><img src=\"/news/2025/07/21/17/00/img/emailNotificationOfSuccessfulWireTransferPart3Of4.jpg\" alt=\"Email notification of successful wire transfer. Part 3 of 4.\" width=\"622\" height=\"692\"></div>
 		   <div><img src=\"/news/2025/07/21/17/00/img/emailNotificationOfSuccessfulWireTransferPart4Of4.jpg\" alt=\"Email notification of successful wire transfer. Part 4 of 4.\" width=\"1102\" height=\"778\"></div>
+		   <p>My deposit was available for trading:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/depositAvailableForTrading.jpg\" alt=\"Deposit available for trading.\" width=\"1888\" height=\"1007\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
