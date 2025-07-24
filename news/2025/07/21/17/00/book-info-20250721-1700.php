@@ -81,5 +81,7 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/depositAvailableForTrading.jpg\" alt=\"Deposit available for trading.\" width=\"1888\" height=\"1007\"></div>
 		   <p>The transfer was successful as shown in my local online banking website:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/transferCompletedShownOnLocalBankWebsite.jpg\" alt=\"Transfer completed shown on local bank website.\" width=\"1718\" height=\"1017\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/trackingCompletedPaymentPart1Of2.jpg\" alt=\"Tracking completed payment. Part 1 of 2.\" width=\"1897\" height=\"1012\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/trackingCompletedPaymentPart1Of2.jpg\" alt=\"Tracking completed payment. Part 2 of 2.\" width=\"1891\" height=\"1011\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
