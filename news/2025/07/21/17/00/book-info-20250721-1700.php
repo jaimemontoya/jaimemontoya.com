@@ -92,5 +92,7 @@
 		   <p>I provided the values for my order and clicked <span class=\"cod\">Preview</span>:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/previewOrderPart1Of2.jpg\" alt=\"Preview order. Part 1 of 2.\" width=\"1722\" height=\"1013\"></div>
 		   <div><img src=\"/news/2025/07/21/17/00/img/previewOrderPart2Of2.jpg\" alt=\"Preview order. Part 2 of 2.\" width=\"1722\" height=\"1013\"></div>
+		   <p>I needed to consider and include in my purchase, the USD 1.00 commission/fee for Interactive Brokers LLC:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/includeUSD1Commission.jpg\" alt=\"Include USD 1 commission.\" width=\"1723\" height=\"1017\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
