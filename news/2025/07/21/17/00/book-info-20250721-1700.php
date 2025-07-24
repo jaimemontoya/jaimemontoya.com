@@ -72,5 +72,10 @@
 		   <div><img src=\"/news/2025/07/21/17/00/img/wireTransferSentSuccessfullyFromElSalvadorToUSA.jpg\" alt=\"Wire transfer sent successfully from El Salvador to the USA.\" width=\"822\" height=\"977\"></div>
 		   <p>In my bank statements, I saw the amount I sent as a Withheld amount, no longer available:</p>
 		   <div><img src=\"/news/2025/07/21/17/00/img/wireTransferAppearingAsWithheldAmount.jpg\" alt=\"Wire transfer appearing as withheld amount.\" width=\"1721\" height=\"1008\"></div>
+		   <p>I received an email notification confirming the successful completion of the wire transfer:</p>
+		   <div><img src=\"/news/2025/07/21/17/00/img/emailNotificationOfSuccessfulWireTransferPart1Of4.jpg\" alt=\"Email notification of successful wire transfer. Part 1 of 4.\" width=\"652\" height=\"257\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/emailNotificationOfSuccessfulWireTransferPart2Of4.jpg\" alt=\"Email notification of successful wire transfer. Part 2 of 4.\" width=\"1410\" height=\"753\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/emailNotificationOfSuccessfulWireTransferPart3Of4.jpg\" alt=\"Email notification of successful wire transfer. Part 3 of 4.\" width=\"622\" height=\"692\"></div>
+		   <div><img src=\"/news/2025/07/21/17/00/img/emailNotificationOfSuccessfulWireTransferPart4Of4.jpg\" alt=\"Email notification of successful wire transfer. Part 4 of 4.\" width=\"1102\" height=\"778\"></div>
 		   <div>Published: 5:00 PM GMT · Jul 21, 2025</div>\n";
 ?>
