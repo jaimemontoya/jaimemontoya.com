@@ -1,4 +1,6 @@
-<?php
+<?php ini_set('display_errors', 1); // Enables displaying errors
+ini_set('display_startup_errors', 1); // Enables displaying errors encountered during PHP's startup
+error_reporting(E_ALL); // Reports all types of errors, warnings, and notices
 class Page
 {
   public $content;
