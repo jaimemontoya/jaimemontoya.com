@@ -608,7 +608,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t[new Date(2025, 6 , 24), 17486.5]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital from 5 May 2024 to 26 June 2025',\n";
+    echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital from 5 May 2024 to 24 July 2025',\n";
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
