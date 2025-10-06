@@ -111,8 +111,8 @@ class HomePage extends Page
 	echo "\t\t\t\t\t['Brin',191.5],\n";
 	echo "\t\t\t\t\t['Arnault',165.2],\n";
 	echo "\t\t\t\t\t['Huang',161.3],\n";
-	echo "\t\t\t\t\t['Ballmer',158.7]\n";
-	echo "\t\t\t\t\t['Buffet',150.2],\n";
+	echo "\t\t\t\t\t['Ballmer',158.7],\n";
+	echo "\t\t\t\t\t['Buffet',150.2]\n";
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
@@ -681,7 +681,7 @@ class HomePage extends Page
 	echo "\t\t\t\t\t[new Date(2025, 9 , 5), 21944.4]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital from 5 May 2024 to 24 July 2025',\n";
+    echo "\t\t\t\t\t'title':'Jaime Montoya\'s capital from 5 May 2024 to 5 August 2025',\n";
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
