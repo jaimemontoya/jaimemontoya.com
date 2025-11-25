@@ -60,7 +60,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Richest companies in the world by market capitalization, last updated 23 October 2025',\n";
+    echo "\t\t\t\t\t'title':'Richest companies in the world by market capitalization, last updated 25 November 2025',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\tvAxis: {\n";
     echo "\t\t\t\t\t\ttitle: 'Trillions (USD)',\n";
@@ -116,7 +116,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-	echo "\t\t\t\t\t'title':'Richest people, last updated 23 October 2025',\n";
+	echo "\t\t\t\t\t'title':'Richest people, last updated 25 November 2025',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\thAxis: {\n";
 	echo "\t\t\t\t\t\tgridlines: {\n";
