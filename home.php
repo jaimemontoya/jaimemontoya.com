@@ -53,10 +53,10 @@ class HomePage extends Page
 	echo "\t\t\t\t\t['MSFT',3.604],\n";
 	echo "\t\t\t\t\t['AMZN',2.441],\n";
 	echo "\t\t\t\t\t['META',1.667],\n";
-	echo "\t\t\t\t\t['TSLA',1.625]\n";
+	echo "\t\t\t\t\t['TSLA',1.625],\n";
 	echo "\t\t\t\t\t['AVGO',1.618],\n";
 	echo "\t\t\t\t\t['2222.SR',1.531],\n";
-	echo "\t\t\t\t\t['TSM',1.521],\n";
+	echo "\t\t\t\t\t['TSM',1.521]\n";
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
