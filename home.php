@@ -116,7 +116,7 @@ class HomePage extends Page
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
-	echo "\t\t\t\t\t'title':'Richest people, last updated 18 March 2026',\n";
+	echo "\t\t\t\t\t'title':'Richest people, last updated 27 March 2026',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\thAxis: {\n";
 	echo "\t\t\t\t\t\tgridlines: {\n";
