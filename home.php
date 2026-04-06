@@ -105,7 +105,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t['Company', 'Billions'],\n";
     echo "\t\t\t\t\t['Musk',799.4],\n";
 	echo "\t\t\t\t\t['Page',246.7],\n";
-	echo "\t\t\t\t\t['Brin',227.3,\n";
+	echo "\t\t\t\t\t['Brin',227.3],\n";
 	echo "\t\t\t\t\t['Bezos',225.1],\n";
 	echo "\t\t\t\t\t['Zuckerberg',198.2],\n";
 	echo "\t\t\t\t\t['Ellison',185.9],\n";
