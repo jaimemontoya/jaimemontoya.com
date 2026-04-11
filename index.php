@@ -4,7 +4,7 @@
   $index->content .= "<h1 class=\"center\"><a href=\"http://bluechipfinances.com\">bluechipfinances.com</a> · <a href=\"http://bluechipfinances.org\">bluechipfinances.org</a></h1>
   <hr>
   <h2>Featured financial charts</h2>
-  <p>Jaime Montoya's real-time net worth: <span class=\"cod\">32,736.55 USD</span></p>
+  <p>Jaime Montoya's real-time net worth: <span class=\"cod\">33,485.47 USD</span></p>
   <div id=\"jaime-montoya-capital\"></div>
   <iframe src=\"https://docs.google.com/spreadsheets/d/e/2PACX-1vSnedM83IJlnIUy0Ttj4DrDrGWCrqhjC_HXUwxa8cv3nmhraprEToUSuy776FLfXewO49AdS_9SQdUH/pubhtml?widget=true&amp;headers=false\" id=\"investment-spreadsheet\"></iframe>
   <div id=\"richest-company\"></div>
