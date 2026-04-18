@@ -1,8 +1,7 @@
 <?php
   require("home.php");
   $index = new HomePage();
-  $index->content .= "<h1 class=\"center\"><a href=\"http://bluechipfinances.com\">bluechipfinances.com</a> · Freedom from financial debt, and financial greatness through disciplined long term blue chip stock investing · <a href=\"http://bluechipfinances.org\">bluechipfinances.org</a></h1>
-  <p>Jaime Montoya's real-time net worth: <span class=\"cod\">34,921.77 USD</span></p>
+  $index->content .= "<h1 class=\"center\"><a href=\"http://bluechipfinances.com\">bluechipfinances.com</a> · Freedom from financial debt, and financial greatness through disciplined long term blue chip stock investing · <a href=\"http://bluechipfinances.org\">bluechipfinances.org</a><br />Jaime Montoya's real-time net worth: <span class=\"cod\">34,921.77 USD</span></h1>
   <hr>
   <h2>Featured financial charts</h2>
   <div id=\"jaime-montoya-capital\"></div>
