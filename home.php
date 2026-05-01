@@ -884,10 +884,12 @@ class HomePage extends Page
 	echo "\t\t\t\t\t[new Date(2026, 3 , 26), 35705.3],\n";
 	echo "\t\t\t\t\t[new Date(2026, 3 , 27), 36103.33],\n";
 	echo "\t\t\t\t\t[new Date(2026, 3 , 28), 36090.3],\n";
-	echo "\t\t\t\t\t[new Date(2026, 3 , 29), 35919.15]\n";
+	echo "\t\t\t\t\t[new Date(2026, 3 , 29), 35919.15],\n";
+	echo "\t\t\t\t\t[new Date(2026, 3 , 30), 34811.54],\n";
+	echo "\t\t\t\t\t[new Date(2026, 4 , 1), 34670.86]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Jaime Montoya\'s net worth from 5 May 2024 to 29 April 2026',\n";
+    echo "\t\t\t\t\t'title':'Jaime Montoya\'s net worth from 5 May 2024 to 1 May 2026',\n";
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
