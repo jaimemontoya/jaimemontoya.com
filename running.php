@@ -39,6 +39,7 @@ class RunningPage extends Page
 	echo "\t\t\tgoogle.charts.load('current', {'packages':['corechart']});\n";
 	echo "\t\t\t// Set a callback to run when the Google Visualization API is loaded.\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRunningChartAllYears);\n";
+	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRunningChart2026);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRunningChart2025);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRunningChart2024);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRunningChart2023);\n";
