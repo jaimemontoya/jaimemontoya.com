@@ -58,7 +58,7 @@ class RunningPage extends Page
 	echo "\t\t\t\t\t['2023',1698.8],\n";
 	echo "\t\t\t\t\t['2024',799.8],\n";
 	echo "\t\t\t\t\t['2025',15.1+11.1+21.0+12.8+39.0+67.9+85.7+56.8+33.2+104.7+53.0+97.9],\n"; //598.2
-	echo "\t\t\t\t\t['2025',30.7+72.1+143.9+60.9]\n"; //307.6
+	echo "\t\t\t\t\t['2026',30.7+72.1+143.9+60.9]\n"; //307.6
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s running history by year'};\n";
