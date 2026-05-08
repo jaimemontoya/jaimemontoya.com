@@ -57,11 +57,39 @@ class RunningPage extends Page
 	echo "\t\t\t\t\t['2022',1575.0],\n";
 	echo "\t\t\t\t\t['2023',1698.8],\n";
 	echo "\t\t\t\t\t['2024',799.8],\n";
-	echo "\t\t\t\t\t['2025',15.1+11.1+21.0+12.8+39.0+67.9+85.7+56.8+33.2+104.7+53.0+97.9]\n"; //598.2
+	echo "\t\t\t\t\t['2025',15.1+11.1+21.0+12.8+39.0+67.9+85.7+56.8+33.2+104.7+53.0+97.9],\n"; //598.2
+	echo "\t\t\t\t\t['2025',30.7+72.1+143.9+60.9]\n"; //307.6
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s running history by year'};\n";
 	echo "\t\t\t\tbarsVisualization = new google.visualization.ColumnChart(document.getElementById('running-all-years'));\n";
+	echo "\t\t\t\tbarsVisualization.draw(data, options);\n";
+	echo "\t\t\t\t// Add our over/out handlers.\n";
+	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
+	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
+	echo "\t\t\t}\n";
+	echo "\t\t\tfunction drawRunningChart2026() {\n";
+	echo "\t\t\t\t// Create the data table.\n";
+	echo "\t\t\t\tvar data = new google.visualization.DataTable();\n";
+	echo "\t\t\t\tdata.addColumn('string', 'Month');\n";
+	echo "\t\t\t\tdata.addColumn('number', 'Km');\n";
+	echo "\t\t\t\tdata.addRows([\n";
+	echo "\t\t\t\t\t['Jan',30.7],\n";
+	echo "\t\t\t\t\t['Feb',72.1],\n";
+	echo "\t\t\t\t\t['Mar',143.9],\n";
+	echo "\t\t\t\t\t['Apr',60.9]\n";
+	/*echo "\t\t\t\t\t['May',39.0],\n";
+	echo "\t\t\t\t\t['Jun',67.9],\n";
+	echo "\t\t\t\t\t['Jul',85.7],\n";
+	echo "\t\t\t\t\t['Aug',56.8],\n";
+	echo "\t\t\t\t\t['Sep',33.2],\n";
+	echo "\t\t\t\t\t['Oct',104.7],\n";
+	echo "\t\t\t\t\t['Nov',53.0],\n";
+	echo "\t\t\t\t\t['Dec',97.9]\n";*/
+	echo "\t\t\t\t]);\n";
+	echo "\t\t\t\t// Set chart options\n";
+	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s 2026 running history by month'};\n";
+	echo "\t\t\t\tbarsVisualization = new google.visualization.ColumnChart(document.getElementById('running-2026'));\n";
 	echo "\t\t\t\tbarsVisualization.draw(data, options);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
