@@ -5,6 +5,7 @@
   $running->metaDescription = "Jaime Montoya's running history since August 2, 2020.";
   $running->content .= "<h1>Running</h1><p>Running history I have endured since August 2, 2020.</p>";
   require("all/all-book-info.php");
+  require("2025/2025-book-info.php");
   require("2024/2024-book-info.php");
   require("2023/2023-book-info.php");
   require("2022/2022-book-info.php");
