@@ -40,6 +40,7 @@ class WeightPage extends Page
 	echo "\t\t\tgoogle.charts.load('current', {'packages':['corechart']});\n";
 	echo "\t\t\t// Set a callback to run when the Google Visualization API is loaded.\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawWeightChartAllYears);\n";
+	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawWeightChart2026);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawWeightChart2025);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawWeightChart2024);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawWeightChart2023);\n";
