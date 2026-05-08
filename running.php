@@ -78,14 +78,6 @@ class RunningPage extends Page
 	echo "\t\t\t\t\t['Feb',72.1],\n";
 	echo "\t\t\t\t\t['Mar',143.9],\n";
 	echo "\t\t\t\t\t['Apr',60.9]\n";
-	/*echo "\t\t\t\t\t['May',39.0],\n";
-	echo "\t\t\t\t\t['Jun',67.9],\n";
-	echo "\t\t\t\t\t['Jul',85.7],\n";
-	echo "\t\t\t\t\t['Aug',56.8],\n";
-	echo "\t\t\t\t\t['Sep',33.2],\n";
-	echo "\t\t\t\t\t['Oct',104.7],\n";
-	echo "\t\t\t\t\t['Nov',53.0],\n";
-	echo "\t\t\t\t\t['Dec',97.9]\n";*/
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s 2026 running history by month'};\n";
