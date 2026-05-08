@@ -85,7 +85,7 @@ class WeightPage extends Page
 	echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {'title':'Jaime Montoya\'s 2026 weight history by month'};\n";
-	echo "\t\t\t\tbarsVisualization = new google.visualization.ColumnChart(document.getElementById('weight-2025'));\n";
+	echo "\t\t\t\tbarsVisualization = new google.visualization.ColumnChart(document.getElementById('weight-2026'));\n";
 	echo "\t\t\t\tbarsVisualization.draw(data, options);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
