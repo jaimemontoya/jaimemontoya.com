@@ -570,7 +570,7 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2026, 4, 21), 304.99/252.20*1000, 7445.72/5906.94*1000, 50285.66/42573.73*1000, 26293.10/19486.78*1000]\n";
 	echo "\t\t\t\t]);\n"; // Apple end.
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar optionsAppleVsMarket = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
+	echo "\t\t\t\tvar optionsAppleVsMarket = {chart:{'title':'Performance comparison: Apple Vs. S&P 500 Index (SPX) Vs. Dow Jones Industrial Average (DJIA) Vs. NASDAQ Composite Index (COMP)',subtitle:'in dollars (USD)'}};\n";	
 	echo "\t\t\t\tvar chartAppleVsMarket = new google.visualization.LineChart(document.getElementById('apple-vs-market'));\n";
     echo "\t\t\t\tchartAppleVsMarket.draw(dataAppleVsMarket, optionsAppleVsMarket);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
@@ -1028,7 +1028,6 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2026, 3, 7), 178.10/147.07*1000, 6616.85/6086.37*1000, 46584.46/44156.73*1000, 22017.85/20009.34*1000],\n";
 	echo "\t\t\t\t\t[new Date(2026, 3, 8), 182.08/147.07*1000, 6782.81/6086.37*1000, 47909.92/44156.73*1000, 22634.99/20009.34*1000],\n";
 	echo "\t\t\t\t\t[new Date(2026, 3, 9), 183.91/147.07*1000, 6824.66/6086.37*1000, 48185.80/44156.73*1000, 22822.42/20009.34*1000],\n";
-	
 	echo "\t\t\t\t\t[new Date(2026, 3, 10), 188.63/147.07*1000, 6816.89/6086.37*1000, 47916.57/44156.73*1000, 22902.89/20009.34*1000],\n";
 	echo "\t\t\t\t\t[new Date(2026, 3, 11), 188.63/147.07*1000, 6816.89/6086.37*1000, 47916.57/44156.73*1000, 22902.89/20009.34*1000],\n";
 	echo "\t\t\t\t\t[new Date(2026, 3, 12), 188.63/147.07*1000, 6816.89/6086.37*1000, 47916.57/44156.73*1000, 22902.89/20009.34*1000],\n";
@@ -1073,7 +1072,7 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2026, 4, 21), 219.51/147.07*1000, 7445.72/6086.37*1000, 50285.66/44156.73*1000, 26293.10/20009.34*1000]\n";
 	echo "\t\t\t\t]);\n"; //Nvidia end.
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar optionsNvidiaVsMarket = {chart:{'title':'Performance comparison: Nvidia Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
+	echo "\t\t\t\tvar optionsNvidiaVsMarket = {chart:{'title':'Performance comparison: Nvidia Vs. S&P 500 Index (SPX) Vs. Dow Jones Industrial Average (DJIA) Vs. NASDAQ Composite Index (COMP)'}};\n";	
 	echo "\t\t\t\tvar chartNvidiaVsMarket = new google.visualization.LineChart(document.getElementById('nvidia-vs-market'));\n";
     echo "\t\t\t\tchartNvidiaVsMarket.draw(dataNvidiaVsMarket, optionsNvidiaVsMarket);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
@@ -1456,7 +1455,7 @@ class MarketPage extends Page
 	echo "\t\t\t\t\t[new Date(2026, 3, 9), 373.07/390.49*1000, 6824.66/5456.90*1000, 48185.80/40608.45*1000, 22822.42/17124.97*1000]\n";
 	echo "\t\t\t\t]);\n"; // Microsoft end.
 	echo "\t\t\t\t// Set chart options\n";
-	echo "\t\t\t\tvar optionsMicrosoftVsMarket = {chart:{'title':'Performance comparison: Microsoft Vs. S&P 500 (SPX)',subtitle:'in dollars (USD)'}};\n";	
+	echo "\t\t\t\tvar optionsMicrosoftVsMarket = {chart:{'title':'Performance comparison: Microsoft Vs. S&P 500 Index (SPX) Vs. Dow Jones Industrial Average (DJIA) Vs. NASDAQ Composite Index (COMP)',subtitle:'in dollars (USD)'}};\n";	
 	echo "\t\t\t\tvar chartMicrosoftVsMarket = new google.visualization.LineChart(document.getElementById('microsoft-vs-market'));\n";
     echo "\t\t\t\tchartMicrosoftVsMarket.draw(dataMicrosoftVsMarket, optionsMicrosoftVsMarket);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
