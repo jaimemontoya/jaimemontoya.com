@@ -39,8 +39,11 @@ class MarketPage extends Page
 	echo "\t\t\t// Load the Visualization API and the corechart package.\n";
 	echo "\t\t\tgoogle.charts.load('current', {'packages':['corechart']});\n";
 	echo "\t\t\t// Set a callback to run when the Google Visualization API is loaded.\n";
+	// https://www.wsj.com/market-data/quotes/index/SPX/advanced-chart // The Wall Street Journal Advanced Charting. S&P 500 Index (SPX)
+	// https://www.wsj.com/market-data/quotes/index/DJIA/advanced-chart // The Wall Street Journal Advanced Charting. Dow Jones Industrial Average (DJIA)
+	// https://www.wsj.com/market-data/quotes/index/COMP/advanced-chart // The Wall Street Journal Advanced Charting. NASDAQ Composite Index (COMP).
 	// https://www.investing.com/indices/us-spx-500-historical-data // S&P 500 (SPX)
-	// https://www.nasdaq.com/market-activity/etf/djia/historical // Global X Dow 30 Covered Call ETF (DJIA) Historical
+	// https://www.nasdaq.com/market-activity/etf/djia/historical // Dow Jones Industrial Average (DJIA)
 	// https://www.nasdaq.com/market-activity/index/comp/historical // NASDAQ Composite Index (COMP) Historical Data
 	// https://www.nasdaq.com/market-activity/stocks/aapl/historical // Apple
 	// https://www.nasdaq.com/market-activity/stocks/nvda/historical // Nvidia
@@ -54,8 +57,8 @@ class MarketPage extends Page
 	echo "\t\t\t\tvar dataAppleVsMarket = new google.visualization.DataTable();\n";
 	echo "\t\t\t\tdataAppleVsMarket.addColumn('date', 'X');\n";
     echo "\t\t\t\tdataAppleVsMarket.addColumn('number', 'Apple');\n";
-    echo "\t\t\t\tdataAppleVsMarket.addColumn('number', 'S&P 500 (SPX)');\n";
-	echo "\t\t\t\tdataAppleVsMarket.addColumn('number', 'Global X Dow 30 Covered Call ETF (DJIA)');\n";
+    echo "\t\t\t\tdataAppleVsMarket.addColumn('number', 'S&P 500 Index (SPX)');\n";
+	echo "\t\t\t\tdataAppleVsMarket.addColumn('number', 'Dow Jones Industrial Average (DJIA)');\n";
 	echo "\t\t\t\tdataAppleVsMarket.addColumn('number', 'NASDAQ Composite Index (COMP)');\n";
 	echo "\t\t\t\tdataAppleVsMarket.addRows([\n";
 	echo "\t\t\t\t\t[new Date(2024, 11, 30), 1000, 1000, 1000, 1000],\n";
@@ -579,8 +582,8 @@ class MarketPage extends Page
 	echo "\t\t\t\tvar dataNvidiaVsMarket = new google.visualization.DataTable();\n";
 	echo "\t\t\t\tdataNvidiaVsMarket.addColumn('date', 'X');\n";
     echo "\t\t\t\tdataNvidiaVsMarket.addColumn('number', 'Nvidia');\n";
-    echo "\t\t\t\tdataNvidiaVsMarket.addColumn('number', 'S&P 500 (SPX)');\n";
-	echo "\t\t\t\tdataNvidiaVsMarket.addColumn('number', 'Global X Dow 30 Covered Call ETF (DJIA)');\n";
+    echo "\t\t\t\tdataNvidiaVsMarket.addColumn('number', 'S&P 500 Index (SPX)');\n";
+	echo "\t\t\t\tdataNvidiaVsMarket.addColumn('number', 'Dow Jones Industrial Average (DJIA)');\n";
 	echo "\t\t\t\tdataNvidiaVsMarket.addColumn('number', 'NASDAQ Composite Index (COMP)');\n";
 	echo "\t\t\t\tdataNvidiaVsMarket.addRows([\n";
 	echo "\t\t\t\t\t[new Date(2025, 0, 22), 1000, 1000, 1000, 1000],\n";
@@ -1039,8 +1042,8 @@ class MarketPage extends Page
 	echo "\t\t\t\tvar dataMicrosoftVsMarket = new google.visualization.DataTable();\n";
 	echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('date', 'X');\n";
     echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('number', 'Microsoft');\n";
-    echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('number', 'S&P 500 (SPX)');\n";
-	echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('number', 'Global X Dow 30 Covered Call ETF (DJIA)');\n";
+    echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('number', 'S&P 500 Index (SPX)');\n";
+	echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('number', 'Dow Jones Industrial Average (DJIA)');\n";
 	echo "\t\t\t\tdataMicrosoftVsMarket.addColumn('number', 'NASDAQ Composite Index (COMP)');\n";
 	echo "\t\t\t\tdataMicrosoftVsMarket.addRows([\n";
 	echo "\t\t\t\t\t[new Date(2025, 3, 9), 1000, 1000, 1000, 1000],\n";
