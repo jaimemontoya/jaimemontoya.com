@@ -6,7 +6,7 @@
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>The Nvidia Way: Jensen Huang and the Making of a Tech Giant</span>
-					<p>By Tae Kim. <mark>Book [in progress...] read by Jaime Montoya</mark> from 12:18 PM March 26, 2026 to [in progress...] GMT.</p>
+					<p>By Tae Kim. <mark>Book 82 read by Jaime Montoya</mark> from 12:18 PM March 26, 2026 to 1:36 PM May 24, 2026 GMT.</p>
                 </div>
             </div>\n";
 ?>
