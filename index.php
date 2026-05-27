@@ -3,7 +3,7 @@
   $index = new HomePage();
   $index->content .= "<h1 class=\"center\">Jaime Montoya's net worth as of 22 May 2026: <span class=\"cod\">38,261.28 USD</span> <a href=\"about/\">About Jaime Montoya</a></h1>
   <h2 class=\"center\">R&D: <a href=\"https://www.coursera.org/learn/microsoft-azure-cosmos-db\">Microsoft Azure Cosmos DB</a></h2>
-  <h2 class=\"center\">News: <a href=\"https://www.wsj.com\">The Wall Street Journal</a> | <a href=\"https://www.barrons.com\">Barron's</a> | <a href=\"https://www.bloomberg.com/live/\">Bloomberg Television</a> | <a href=\"https://www.bloombergradio.com/\">Bloomberg Radio</a></h2>
+  <h2 class=\"center\">News: <a href=\"https://www.wsj.com\">The Wall Street Journal</a> | <a href=\"https://www.barrons.com\">Barron's</a> | <a href=\"https://www.bloomberg.com/live/\">Bloomberg Television</a> | <a href=\"https://www.bloombergradio.com/\">Bloomberg Radio</a> | <a href=\"https://schwabnetwork.com/\">Schwab Network</a> | <a href=\"https://finance.yahoo.com/live/\">Yahoo Finance</a></h2>
   <hr>
   <p>My investment philosophy is inspired by the Matthew effect, sometimes called the Matthew principle or cumulative advantage. For that reason, whenever I buy stocks I only choose the world's most valuable company by market capitalization. I follow a disciplined long term blue chip stock investing approach. I passionately advocate for 1) Financial greatness 2) Freedom from financial debt. This is the Matthew 25:29 Bible verse in the King James Verse:</p>
   <div class=\"center\"><img src=\"img/kingJamesBibleMatthewCh25V29.jpg\" alt=\"Matthew 25:29 in the King James Version\" width=\"318\" height=\"70\"></div>
