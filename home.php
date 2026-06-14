@@ -932,7 +932,7 @@ class HomePage extends Page
 	echo "\t\t\t\t\t[new Date(2026, 5 , 13), 37465.17]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Jaime Montoya\'s net worth from 5 May 2024 to 13 May 2026',\n";
+    echo "\t\t\t\t\t'title':'Jaime Montoya\'s net worth from 5 May 2024 to 13 June 2026',\n";
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
