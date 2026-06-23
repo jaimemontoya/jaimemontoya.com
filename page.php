@@ -80,11 +80,7 @@ class Page
   }
   public function DisplayHeader()
   {
-    echo "\t\t<header>\n\t\t\t
-	
-	<div class=\"bible\">\n\t\t\t\tRead the Bible from start to finish, from Genesis to Revelation. 10 May 2026: <a href=\"https://www.biblegateway.com/reading-plans/beginning/2026/05/10?version=EXB\" title=\"Read the Bible\">1 Chronicles 28-29 Expanded Bible (EXB)</a>\n\t\t\t</div>
-	
-	<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"jaimemontoya.com\">jaimemontoya.com</a>\n\t\t\t</div>\n";
+    echo "\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"jaimemontoya.com\">jaimemontoya.com</a>\n\t\t\t</div>\n";
     // $this -> DisplayMenu($this->buttons);
     echo "\t\t</header>\n";
   }
