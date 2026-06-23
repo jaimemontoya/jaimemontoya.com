@@ -935,6 +935,11 @@ class HomePage extends Page
 	echo "\t\t\t\t\t[new Date(2026, 5 , 16), 37812.73],\n";
 	echo "\t\t\t\t\t[new Date(2026, 5 , 17), 37625.42],\n";
 	echo "\t\t\t\t\t[new Date(2026, 5 , 18), 38046.51],\n";
+	echo "\t\t\t\t\t[new Date(2026, 5 , 19), 38046.51],\n";
+	echo "\t\t\t\t\t[new Date(2026, 5 , 20), 38046.51],\n";
+	echo "\t\t\t\t\t[new Date(2026, 5 , 21), 38136.74],\n";
+	echo "\t\t\t\t\t[new Date(2026, 5 , 22), 37287.66],\n";
+	echo "\t\t\t\t\t[new Date(2026, 5 , 23), 37073.3]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
     echo "\t\t\t\t\t'title':'Jaime Montoya\'s net worth from 5 May 2024 to 18 June 2026',\n";
