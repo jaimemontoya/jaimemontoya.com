@@ -1,7 +1,7 @@
 <?php
   require("home.php");
   $index = new HomePage();
-  $index->content .= "<h1 class=\"center\">Jaime Montoya's net worth as of 18 June 2026: <span class=\"cod\">38,046.51 USD</span> <a href=\"about/\">About Jaime Montoya</a></h1>
+  $index->content .= "<h1 class=\"center\">Jaime Montoya's net worth as of 18 June 2026: <span class=\"cod\">38,046.51 USD</span></h1>
   <h2 class=\"center\">R&D: <a href=\"https://www.coursera.org/learn/microsoft-azure-cosmos-db\">Microsoft Azure Cosmos DB</a></h2>
   <h2 class=\"center\">News: <a href=\"https://www.wsj.com\">The Wall Street Journal</a> | <a href=\"https://www.barrons.com\">Barron's</a> | <a href=\"https://www.bloomberg.com/live/\">Bloomberg Television</a> | <a href=\"https://www.bloombergradio.com/\">Bloomberg Radio</a> | <a href=\"https://schwabnetwork.com/\">Schwab Network</a> | <a href=\"https://finance.yahoo.com/live/\">Yahoo Finance</a></h2>
   <hr>
