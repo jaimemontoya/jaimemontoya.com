@@ -2,7 +2,7 @@
   $index->content .= 
            "\t\t\t<a href=\"/coursera/microsoft-azure-cosmos-db/\"><div class=\"book\">
 				<div class=\"book-thumbnail\">
-					<div class=\"book-cover\" id=\"microsoft-azure-cosmos-db-img\"></div>
+					<div class=\"book-cover\" id=\"coursera-microsoft-azure-cosmos-db-img\"></div>
 				</div>
                 <div class=\"book-title-authors-read-by\">
 		            <span>Microsoft Azure Cosmos DB</span>
