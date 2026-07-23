@@ -6,7 +6,7 @@
   <hr>
   <h2>Table of contents</h2>
   <ol>
-    <li><a href=\"about/\">About</a>: Jaime Montoya's resume.
+    <li><a href=\"about/\">About</a>: Jaime Montoya's one-page resume.
 	<li><a href=\"coursera/\">Coursera</a>: Coursera courses I have successfully completed.
   </ol>
   <hr>
