@@ -966,10 +966,14 @@ class HomePage extends Page
 	echo "\t\t\t\t\t[new Date(2026, 6 , 17), 42782.58],\n";
 	echo "\t\t\t\t\t[new Date(2026, 6 , 18), 42782.58],\n";
 	echo "\t\t\t\t\t[new Date(2026, 6 , 19), 42782.58],\n";
-	echo "\t\t\t\t\t[new Date(2026, 6 , 20), 42025.16]\n";
+	echo "\t\t\t\t\t[new Date(2026, 6 , 20), 42025.16],\n";
+	echo "\t\t\t\t\t[new Date(2026, 6 , 21), 42564.36],\n";
+	echo "\t\t\t\t\t[new Date(2026, 6 , 22), 43426.17],\n";
+	echo "\t\t\t\t\t[new Date(2026, 6 , 23), 43021.22],\n";
+	echo "\t\t\t\t\t[new Date(2026, 6 , 24), 42967.23]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Jaime Montoya\'s net worth from 5 May 2024 to 20 July 2026',\n";
+    echo "\t\t\t\t\t'title':'Jaime Montoya\'s net worth from 5 May 2024 to 24 July 2026',\n";
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
