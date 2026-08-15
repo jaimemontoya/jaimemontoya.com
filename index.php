@@ -1,8 +1,8 @@
 <?php
   require("home.php");
   $index = new HomePage();
-  $index->content .= "<h1 class=\"center\">Jaime Montoya's net worth: 1) Current: <span class=\"cod\">52,313.77 USD</span> as of 4 August 2026. 2) All-time high: <span class=\"cod\">52,313.77 USD</span> on 4 August 2026.
-  </h1>
+  $index->content .= "<!--<h1 class=\"center\">Jaime Montoya's net worth: 1) Current: <span class=\"cod\">52,313.77 USD</span> as of 4 August 2026. 2) All-time high: <span class=\"cod\">52,313.77 USD</span> on 4 August 2026.
+  </h1>-->
   <hr>
   <h2>Table of contents</h2>
   <ol>
