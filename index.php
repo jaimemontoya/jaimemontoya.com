@@ -4,12 +4,12 @@
   $index->content .= "<!--<h1 class=\"center\">Jaime Montoya's net worth: 1) Current: <span class=\"cod\">52,313.77 USD</span> as of 4 August 2026. 2) All-time high: <span class=\"cod\">52,313.77 USD</span> on 4 August 2026.
   </h1>-->
   <hr>
-  <h2>Table of contents</h2>
+  <!--<h2>Table of contents</h2>
   <ol>
     <li><a href=\"about/\">About</a>: Jaime Montoya's one-page resume.
 	<li><a href=\"coursera/\">Coursera</a>: Coursera courses I have successfully completed.
   </ol>
-  <hr>
+  <hr>-->
   
   <p>My investment philosophy is inspired by the Matthew effect, sometimes called the Matthew principle or cumulative advantage. For that reason, whenever I buy stocks I only choose the world's most valuable company by market capitalization. I follow a disciplined long term blue chip stock investing approach. I passionately advocate for 1) Financial greatness 2) Freedom from financial debt. This is the Matthew 25:29 Bible verse in the King James Verse:</p>
   <div class=\"center\"><img src=\"img/kingJamesBibleMatthewCh25V29.jpg\" alt=\"Matthew 25:29 in the King James Version\" width=\"318\" height=\"70\"></div>
