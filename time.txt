@@ -37,31 +37,31 @@ The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
 
 Saturday, 23 July 2026:
-Running 						FAILED
+Running 							PASSED
 Studying 						FAILED
 The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
 
 Saturday, 24 July 2026:
-Running 						FAILED
+Running 							PASSED
 Studying 						FAILED
 The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
 
 Saturday, 25 July 2026:
-Running 						FAILED
+Running 							PASSED
 Studying 						FAILED
 The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
 
 Saturday, 26 July 2026:
-Running 						FAILED
+Running 							PASSED
 Studying 						FAILED
 The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
 
 Saturday, 27 July 2026:
-Running 						FAILED
+Running 							PASSED
 Studying 						FAILED
 The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
@@ -114,23 +114,83 @@ Studying 						FAILED
 The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
 
+Saturday, 05 August 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 06 August 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 07 August 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 08 August 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 09 August 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 10 August 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 11 August 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 12 August 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 13 August 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 13 August 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
 ---------
 
 31. items
 
-1st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1504h. 13m. 43s.																	MODIFIED!
-2nd.      -- 1. From July 16, 2024 to ?: Team International: 1417h. 15m. 26s.																MODIFIED!
+1st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1528h. 20m. 24s.																	MODIFIED!
+2nd.      -- 1. From July 16, 2024 to ?: Team International: 1426h. 42m. 01s.																MODIFIED!
 3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 382h. 58m. 29s.																	MODIFIED!
 4th.      -- 3. From July 16, 2024 to ?: unionchurchss.org & UCSS Board Total: 223h. 42m.
-5th.      -- 18. From 4 Feb 2025 to ?: Personal finance software: 222h. 52m. 29s.															MODIFIED!
-6th.      -- 7. From September 4, 2024 to ?: Cupon Club: 158h. 10m. 18s.
-7th.      -- 13. From December 12, 2024 to ?: UCSS Children's Ministry 155h. 49m. 48s.
-8th.      -- 30. From 11 May 2026 to ?: The Wall Street Journal (and family subscription) and Bloomberg Newsweek reading: 153h. 48m. 09s.	MODIFIED!
+5th.      -- 18. From 4 Feb 2025 to ?: Personal finance software: 223h. 43m. 57s.															MODIFIED!
+6th.      -- 7. From September 4, 2024 to ?: Cupon Club: 159h. 10m. 18s.
+7th.      -- 30. From 11 May 2026 to ?: The Wall Street Journal (and family subscription) and Bloomberg Newsweek reading: 165h. 22m. 27s.	MODIFIED!
+8th.      -- 13. From December 12, 2024 to ?: UCSS Children's Ministry 155h. 49m. 48s.
 9th.      -- 20. From 28 Mar 2025 to ?: Wedding & honeymoon & anniversary: 72h. 32m. 06s.
 10th.     -- 16. From Jan 15, 2025 to ?: Adult Bible teaching: 63h. 17m. 36s.																MODIFIED!
 12th.     -- 5. From August 22, 2024 to ?: Coursera: 52h. 09m. 48s.																			MODIFIED!
 11th.     -- 15. From December 17, 2024 to ?: unionchurchss.org & info@unionchurchss.org: 51h. 55m. 59s.									MODIFIED!
-14th.     -- 27. From 22 October 2025 to ?: Bible study as a student: 49h 10m. 59s.															MODIFIED!
+14th.     -- 27. From 22 October 2025 to ?: Bible study as a student: 50h 10m. 59s.															MODIFIED!
 13th.     -- 23. From 28 June 2025 to ?: Cleaning, ordering, & house maintenance: 48h. 49m. 14s.											MODIFIED!
 15th.     -- 19. From 5 Mar 2025 to ?: International Christian Montessori Institute web systems: 17h. 57m. 08s.
 16th.     -- 8. From October 30, 2024 to ?: mfh-elsalvador.org: 12h. 35m. 58s.																MODIFIED!
@@ -143,7 +203,7 @@ The Wall Street Journal				PASSED
 23rd.     -- 11. From December 10, 2024 to ?: Bible reading: 3h. 29m. 48s.
 24th.     -- 9. From November 13, 2024 to ?: Applying to jobs: 3h. 23m. 55s.
 25th.	  -- 31. From August 3, 2026 to ?: unionchurchss.org: 1h. 58m. 9s.																	MODIFIED!
-26th.     -- 28. From 5 November 2025 to ?: UCSS sound board & worship team: 1h. 52m. 17s.
+26th.     -- 28. From 5 November 2025 to ?: UCSS sound board & worship team: 7h. 52m. 17s.
 27th.     -- 6. From August 23, 2024 to ?: O'Reilly Total: 1h. 45m. 0s.
 28th.     -- 17. From Jan 15, 2025 to ?: UCSS Newsletter: 1h. 33m. 19s.
 29th.     -- 4. From July 23, 2024 to ?: Freelancing consulting services with Carlos Alvarenga Total: 1h. 11m.
