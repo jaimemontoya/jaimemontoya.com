@@ -5,6 +5,7 @@
   </h1>-->
   <hr>
   <h2>Mission</h2>
+  <p>Follow a disciplined long term blue chip stock investing approach passionately advocating for 1) Financial greatness 2) Freedom from financial debt.</p>
   <h2>Jaime Montoya's net worth</h2>
   <ul>
     <li>Current: <span class=\"cod\">53,288.63 USD</span> as of 14 August 2026.
