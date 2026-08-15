@@ -4,7 +4,11 @@
   $index->content .= "<!--<h1 class=\"center\">Jaime Montoya's net worth: 1) Current: <span class=\"cod\">52,313.77 USD</span> as of 4 August 2026. 2) All-time high: <span class=\"cod\">52,313.77 USD</span> on 4 August 2026.
   </h1>-->
   <hr>
-  <p>Jaime Montoya's net worth: 1) Current: <span class=\"cod\">53,288.63 USD</span> as of 14 August 2026. 2) All-time high: <span class=\"cod\">54,120.46 USD</span> on 9 August 2026.</p>
+  <p>Jaime Montoya's net worth:</p>
+  <ul>
+    <li>Current: <span class=\"cod\">53,288.63 USD</span> as of 14 August 2026.
+	<li>All-time high: <span class=\"cod\">54,120.46 USD</span> on 9 August 2026.
+  </ul>
   <!--<h2>Table of contents</h2>
   <ol>
     <li><a href=\"about/\">About</a>: Jaime Montoya's one-page resume.
