@@ -8,7 +8,7 @@
   <p>Follow a disciplined long term blue chip stock investing approach passionately advocating for 1) Financial greatness 2) Freedom from financial debt.</p>
   <h2>Jaime Montoya's net worth</h2>
   <ul>
-    <li>Current: <span class=\"cod\">53,288.63 USD</span> as of 14 August 2026.
+    <li>Current: <span class=\"cod\">53,530.82 USD</span> as of 16 August 2026.
 	<li>All-time high: <span class=\"cod\">54,120.46 USD</span> on 9 August 2026.
   </ul>
   <!--<h2>Table of contents</h2>

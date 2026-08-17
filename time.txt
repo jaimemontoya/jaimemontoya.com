@@ -178,9 +178,9 @@ The Wall Street Journal				PASSED
 
 31. items
 
-1st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1528h. 20m. 24s.																	MODIFIED!
-2nd.      -- 1. From July 16, 2024 to ?: Team International: 1426h. 42m. 01s.																MODIFIED!
-3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 382h. 58m. 29s.																	MODIFIED!
+1st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1530h. 31m. 05s.																	MODIFIED!
+2nd.      -- 1. From July 16, 2024 to ?: Team International: 1428h. 40m. 21s.																MODIFIED!
+3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 385h. 13m. 07s.																	MODIFIED!
 4th.      -- 3. From July 16, 2024 to ?: unionchurchss.org & UCSS Board Total: 223h. 42m.
 5th.      -- 18. From 4 Feb 2025 to ?: Personal finance software: 223h. 43m. 57s.															MODIFIED!
 6th.      -- 7. From September 4, 2024 to ?: Cupon Club: 159h. 10m. 18s.
@@ -195,15 +195,15 @@ The Wall Street Journal				PASSED
 15th.     -- 19. From 5 Mar 2025 to ?: International Christian Montessori Institute web systems: 17h. 57m. 08s.
 16th.     -- 8. From October 30, 2024 to ?: mfh-elsalvador.org: 12h. 35m. 58s.																MODIFIED!
 17th.     -- 25. From 18 August 2025 to ?: Couples devotional with Gabriela: 12h. 29m. 02s.													MODIFIED!
-18th.     -- 24. From 10 July 2025 to ?: Car repair & maintenance: Total 10h. 31m. 32s.														MODIFIED!
-19th.     -- 29. From 20 March 2026 to ?: The Expanded Bible devotional!: 8h. 03m. 51s.														MODIFIED!
-20th.     -- 10. From December 10, 2024 to ?: Prayer: 4h. 11m. 57s.
-21st.     -- 12. From December 10, 2024 to ?: Rhema: 3h. 08m. 40s.
-22nd.     -- 21. From 12 June 2025 to ?: Objective 1.1: 3h. 45m. 05s.
-23rd.     -- 11. From December 10, 2024 to ?: Bible reading: 3h. 29m. 48s.
-24th.     -- 9. From November 13, 2024 to ?: Applying to jobs: 3h. 23m. 55s.
-25th.	  -- 31. From August 3, 2026 to ?: unionchurchss.org: 1h. 58m. 9s.																	MODIFIED!
-26th.     -- 28. From 5 November 2025 to ?: UCSS sound board & worship team: 7h. 52m. 17s.
+18th.     -- 28. From 5 November 2025 to ?: UCSS sound board & worship team: 11h. 52m. 17s.													MODIFIED!
+19th.     -- 24. From 10 July 2025 to ?: Car repair & maintenance: Total 10h. 31m. 32s.														MODIFIED!
+20th.     -- 29. From 20 March 2026 to ?: The Expanded Bible devotional!: 8h. 03m. 51s.														MODIFIED!
+21st.     -- 10. From December 10, 2024 to ?: Prayer: 4h. 11m. 57s.
+22nd.     -- 12. From December 10, 2024 to ?: Rhema: 3h. 08m. 40s.
+23rd.     -- 21. From 12 June 2025 to ?: Objective 1.1: 3h. 45m. 05s.
+24th.     -- 11. From December 10, 2024 to ?: Bible reading: 3h. 29m. 48s.
+25th.     -- 9. From November 13, 2024 to ?: Applying to jobs: 3h. 23m. 55s.
+26th.	  -- 31. From August 3, 2026 to ?: unionchurchss.org: 3h. 15m. 55s.																	MODIFIED!
 27th.     -- 6. From August 23, 2024 to ?: O'Reilly Total: 1h. 45m. 0s.
 28th.     -- 17. From Jan 15, 2025 to ?: UCSS Newsletter: 1h. 33m. 19s.
 29th.     -- 4. From July 23, 2024 to ?: Freelancing consulting services with Carlos Alvarenga Total: 1h. 11m.
