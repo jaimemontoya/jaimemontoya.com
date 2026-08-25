@@ -67,7 +67,7 @@ The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
 
 Saturday, 28 July 2026:
-Running 						FAILED
+Running 							PASSED
 Studying 						FAILED
 The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
@@ -178,20 +178,20 @@ The Wall Street Journal				PASSED
 
 31. items
 
-1st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1530h. 31m. 05s.																	MODIFIED!
-2nd.      -- 1. From July 16, 2024 to ?: Team International: 1428h. 40m. 21s.																MODIFIED!
-3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 385h. 13m. 07s.																	MODIFIED!
+1st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1552h. 039m. 41s.																	MODIFIED!
+2nd.      -- 1. From July 16, 2024 to ?: Team International: 1447h. 31m. 48s.																MODIFIED!
+3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 385h. 41m. 37s.																	MODIFIED!
 4th.      -- 3. From July 16, 2024 to ?: unionchurchss.org & UCSS Board Total: 223h. 42m.
-5th.      -- 18. From 4 Feb 2025 to ?: Personal finance software: 223h. 43m. 57s.															MODIFIED!
-6th.      -- 7. From September 4, 2024 to ?: Cupon Club: 159h. 10m. 18s.
-7th.      -- 30. From 11 May 2026 to ?: The Wall Street Journal (and family subscription) and Bloomberg Newsweek reading: 165h. 22m. 27s.	MODIFIED!
+5th.      -- 18. From 4 Feb 2025 to ?: Personal finance software: 223h. 52m. 11s.															MODIFIED!
+6th.      -- 7. From September 4, 2024 to ?: Cupon Club: 159h. 15m. 18s.
+7th.      -- 30. From 11 May 2026 to ?: The Wall Street Journal (and family subscription) and Bloomberg Newsweek reading: 167h. 42m. 41s.	MODIFIED!
 8th.      -- 13. From December 12, 2024 to ?: UCSS Children's Ministry 155h. 49m. 48s.
 9th.      -- 20. From 28 Mar 2025 to ?: Wedding & honeymoon & anniversary: 72h. 32m. 06s.
 10th.     -- 16. From Jan 15, 2025 to ?: Adult Bible teaching: 63h. 17m. 36s.																MODIFIED!
 12th.     -- 5. From August 22, 2024 to ?: Coursera: 52h. 09m. 48s.																			MODIFIED!
 11th.     -- 15. From December 17, 2024 to ?: unionchurchss.org & info@unionchurchss.org: 51h. 55m. 59s.									MODIFIED!
-14th.     -- 27. From 22 October 2025 to ?: Bible study as a student: 50h 10m. 59s.															MODIFIED!
-13th.     -- 23. From 28 June 2025 to ?: Cleaning, ordering, & house maintenance: 48h. 49m. 14s.											MODIFIED!
+14th.     -- 27. From 22 October 2025 to ?: Bible study as a student: 51h 10m. 59s.															MODIFIED!
+13th.     -- 23. From 28 June 2025 to ?: Cleaning, ordering, & house maintenance: 49h. 30m. 51s.											MODIFIED!
 15th.     -- 19. From 5 Mar 2025 to ?: International Christian Montessori Institute web systems: 17h. 57m. 08s.
 16th.     -- 8. From October 30, 2024 to ?: mfh-elsalvador.org: 12h. 35m. 58s.																MODIFIED!
 17th.     -- 25. From 18 August 2025 to ?: Couples devotional with Gabriela: 12h. 29m. 02s.													MODIFIED!

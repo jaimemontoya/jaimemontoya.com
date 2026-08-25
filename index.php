@@ -4,6 +4,8 @@
   $index->content .= "<!--<h1 class=\"center\">Jaime Montoya's net worth: 1) Current: <span class=\"cod\">52,313.77 USD</span> as of 4 August 2026. 2) All-time high: <span class=\"cod\">52,313.77 USD</span> on 4 August 2026.
   </h1>-->
   <hr>
+  <h2>Vision</h2>
+  <p>Proverbs 6:6-8 EXB: \"Go watch the ants, you lazy person. Watch what they do [its paths] and be [or become] wise. Ants have no commander, no leader or ruler, but they store up [get their] food in the summer and gather their supplies [provisions] at harvest.\"</p>
   <h2>Mission</h2>
   <p>Follow a disciplined long term blue chip stock investing approach passionately advocating for 1) Financial greatness 2) Freedom from financial debt.</p>
   <h2>Jaime Montoya's net worth</h2>
