@@ -1003,10 +1003,16 @@ class HomePage extends Page
 	echo "\t\t\t\t\t[new Date(2026, 7 , 23), 52529.88],\n";
 	echo "\t\t\t\t\t[new Date(2026, 7 , 24), 50330.63],\n";
 	echo "\t\t\t\t\t[new Date(2026, 7 , 25), 50542.44],\n";
-	echo "\t\t\t\t\t[new Date(2026, 7 , 26), 51832.62]\n";
+	echo "\t\t\t\t\t[new Date(2026, 7 , 26), 51832.62],\n";
+	echo "\t\t\t\t\t[new Date(2026, 7 , 27), 52261.85],\n";
+	echo "\t\t\t\t\t[new Date(2026, 7 , 28), 52264.2],\n";
+	echo "\t\t\t\t\t[new Date(2026, 7 , 29), 52264.2],\n";
+	echo "\t\t\t\t\t[new Date(2026, 7 , 30), 52264.2],\n";
+	echo "\t\t\t\t\t[new Date(2026, 7 , 31), 55373.9],\n";
+	echo "\t\t\t\t\t[new Date(2026, 8 , 01), 55081.06]\n";
     echo "\t\t\t\t]);\n";
     echo "\t\t\t\tvar options = {\n";
-    echo "\t\t\t\t\t'title':'Jaime Montoya\'s net worth from 5 May 2024 to 26 August 2026',\n";
+    echo "\t\t\t\t\t'title':'Jaime Montoya\'s net worth from 5 May 2024 to 1 September 2026',\n";
     echo "\t\t\t\t\tbackgroundColor: {\n";
     echo "\t\t\t\t\t\tfill: '#000',\n";
     echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
