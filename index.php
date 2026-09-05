@@ -1,17 +1,15 @@
 <?php
   require("home.php");
   $index = new HomePage();
-  $index->content .= "<!--<h1 class=\"center\">Jaime Montoya's net worth: 1) Current: <span class=\"cod\">52,313.77 USD</span> as of 4 August 2026. 2) All-time high: <span class=\"cod\">52,313.77 USD</span> on 4 August 2026.
-  </h1>-->
-  <hr>
+  $index->content .= "<hr>
   <h2>Vision</h2>
   <p>Proverbs 6:6-8 EXB: \"Go watch the ants, you lazy person. Watch what they do [its paths] and be [or become] wise. Ants have no commander, no leader or ruler, but they store up [get their] food in the summer and gather their supplies [provisions] at harvest.\"</p>
   <h2>Mission</h2>
   <p>Follow a disciplined long term blue chip stock investing approach passionately advocating for 1) Financial greatness 2) Freedom from financial debt.</p>
   <h2>Jaime Montoya's net worth</h2>
   <ul>
-    <li>Current: <span class=\"cod\">55,081.06 USD</span> as of 1 September 2026.
-	<li>All-time high: <span class=\"cod\">55,373.9 USD</span> on 31 August 2026.
+    <li>Current: <span class=\"cod\">57,772.4 USD</span> as of 1 September 2026.
+	<li>All-time high: <span class=\"cod\">58,091.81 USD</span> on 31 August 2026.
   </ul>
   <!--<h2>Table of contents</h2>
   <ol>
