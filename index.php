@@ -74,7 +74,7 @@
     </ul>
 
 </div>
-  "
+  ";
   $index->content .= "<h2>Vision</h2>
   <p>Proverbs 6:6-8 EXB: \"Go watch the ants, you lazy person. Watch what they do [its paths] and be [or become] wise. Ants have no commander, no leader or ruler, but they store up [get their] food in the summer and gather their supplies [provisions] at harvest.\"</p>
   <h2>Mission</h2>
