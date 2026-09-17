@@ -13,6 +13,12 @@
         From <strong>June 18, 2024, to September 17, 2026</strong>, <strong>NVIDIA (NVDA)</strong> shares significantly outperformed all three major U.S. stock indices (S&P 500, Nasdaq, and Dow Jones). This massive surge has been primarily driven by the ongoing commercial expansion and market consolidation of Artificial Intelligence infrastructure.
     </p>
 
+    <!-- Performance Chart Image -->
+    <h3 style=\"color: #0f0 !important; font-size: 18px; margin-top: 30px; margin-bottom: 15px;\">📈 Growth Trajectory & Performance Chart (% Change)</h3>
+    <div style=\"margin-bottom: 35px; border: 1px solid #0f0 !important; border-radius: 6px; padding: 10px; background-color: #050505; text-align: center;\">
+        <img src=\"https://jaimemontoya.com/img/nvidiaVsTheMarket.jpg\" alt=\"Performance Comparison: NVIDIA vs S&P 500 vs Nasdaq vs Dow Jones\" style=\"max-width: 100%; height: auto; display: block; border-radius: 4px; margin: 0 auto;\">
+    </div>
+
     <!-- Performance Table -->
     <h3 style=\"color: #0f0 !important; font-size: 18px; margin-top: 30px; margin-bottom: 12px;\">📊 Performance Breakdown (June 2024 – September 2026)</h3>
     <div style=\"overflow-x: auto; margin-bottom: 35px; border: 1px solid #0f0 !important; border-radius: 6px;\">
