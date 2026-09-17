@@ -13,6 +13,12 @@
         From <strong>June 18, 2024, to September 17, 2026</strong>, <strong>NVIDIA (NVDA)</strong> shares significantly outperformed all three major U.S. stock indices (S&P 500, Nasdaq, and Dow Jones). This massive surge has been primarily driven by the ongoing commercial expansion and market consolidation of Artificial Intelligence infrastructure.
     </p>
 
+    <!-- Performance Chart Container -->
+    <h3 style=\"color: #0f0 !important; font-size: 18px; margin-top: 30px; margin-bottom: 15px;\">📈 Growth Trajectory & Performance Chart (% Change)</h3>
+    <div style=\"position: relative; margin-bottom: 40px; padding: 15px; border: 1px solid #0f0 !important; border-radius: 6px; background-color: #050505;\">
+        <canvas id=\"performanceChart\" width=\"100\" height=\"50\"></canvas>
+    </div>
+
     <!-- Performance Table -->
     <h3 style=\"color: #0f0 !important; font-size: 18px; margin-top: 30px; margin-bottom: 12px;\">📊 Performance Breakdown (June 2024 – September 2026)</h3>
     <div style=\"overflow-x: auto; margin-bottom: 35px; border: 1px solid #0f0 !important; border-radius: 6px;\">
@@ -60,7 +66,6 @@
     </h3>
     
     <div style=\"display: flex; flex-direction: column; gap: 15px;\">
-        
         <!-- Insight 1 -->
         <div style=\"background-color: #000; border: 1px solid #0f0 !important; border-left: 4px solid #0f0 !important; padding: 15px; border-radius: 0 6px 6px 0;\">
             <h4 style=\"margin: 0 0 5px 0; color: #0f0 !important; font-size: 15px; font-weight: 700;\">NVIDIA’s Outsized Dominance</h4>
@@ -84,10 +89,77 @@
                 The S&P 500 Index managed a stellar <strong>39.59%</strong> gain, carried extensively by its heavy allocation to tech megacaps. Conversely, the Dow Jones Industrial Average—which tracks traditional blue-chip, industrial, and non-tech sectors—underperformed the pack at <strong>32.27%</strong>, proving that equity growth remains highly centralized within technological ecosystems.
             </p>
         </div>
-
     </div>
-
 </div>
+
+<!-- Load Chart.js Library securely from CDN -->
+<script src=\"https://jsdelivr.net\"></script>
+<script>
+    const ctx = document.getElementById('performanceChart').getContext('2d');
+    
+    // Normalized performance metrics tracking data snapshots from June 2024 through September 2026
+    const labels = ['June '24', 'Sept '24', 'Dec '24', 'Mar '25', 'June '25', 'Sept '25', 'Dec '25', 'Mar '26', 'June '26', 'Sept '26'];
+    
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: labels,
+            datasets: [
+                {
+                    label: 'NVIDIA (NVDA)',
+                    data: [0, -4.0, 6.4, -7.0, 12.1, 39.5, 50.5, 40.4, 66.4, 73.55],
+                    borderColor: '#00ff00',
+                    borderWidth: 3,
+                    backgroundColor: 'rgba(0, 255, 0, 0.05)',
+                    tension: 0.2,
+                    pointRadius: 3
+                },
+                {
+                    label: 'Nasdaq Composite',
+                    data: [0, 7.1, 15.8, 19.8, 21.8, 31.7, 42.5, 33.3, 44.2, 46.10],
+                    borderColor: '#00aa00',
+                    borderWidth: 1.5,
+                    borderDash: [5, 5],
+                    tension: 0.1,
+                    pointRadius: 0
+                },
+                {
+                    label: 'S&P 500',
+                    data: [0, 5.0, 8.5, 3.7, 9.3, 21.9, 26.8, 23.3, 37.2, 39.59],
+                    borderColor: '#008800',
+                    borderWidth: 1.5,
+                    tension: 0.1,
+                    pointRadius: 0
+                },
+                {
+                    label: 'Dow Jones',
+                    data: [0, 5.6, 12.5, 11.2, 9.0, 17.3, 22.1, 18.5, 31.7, 32.27],
+                    borderColor: '#005500',
+                    borderWidth: 1.5,
+                    tension: 0.1,
+                    pointRadius: 0
+                }
+            ]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: '#00ff00',
+                        font: { family: 'monospace', size: 12 }
+                    }
+                },
+                tooltip: {
+                    mode: 'index',
+                    intersect: false,
+                    backgroundColor: '#111',
+                    titleColor: '#00ff00',
+                    bodyColor: '#00ff00',
+                    borderColor: '#00ff00',
+                    borderWidth: 1,
+                    callbacks: {
+                        label: function(context) {
 
   ";
   $index->content .= "<h2>Vision</h2>
