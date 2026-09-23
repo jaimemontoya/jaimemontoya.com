@@ -1,7 +1,9 @@
 <?php
   require("home.php");
   $index = new HomePage();
-  $index->content .= "<p><span=\"bold\">Author:</span> Jaime Montoya. <span=\"bold\">Date:</span> Wednesday, 23 September 2026 at 00:00 GMT. <span=\"bold\">Title:</span> The Winner-Take-All Matthew Effect Portfolio</p>
+  $index->content .= "<p>Author: Jaime Montoya.<br>
+  Date: Wednesday, 23 September 2026 at 00:00 GMT.<br>
+  Title: The Winner-Take-All Matthew Effect Portfolio</p>
   <p>My investment approach is anchored in supreme market dominance, directly inspired by the <span=\"bold\">Matthew effect</span>: the economic reality that the rich get richer.</p>
   <ul>
   <li><span=\"bold\">The Strategy:</span> Every quarter, I allocate fresh capital exclusively to the single most valuable company on the planet by market cap. I back the reigning global heavyweight.
