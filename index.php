@@ -10,7 +10,7 @@
   <li><span=\"bold\">The Discipline:</span> Radical patience. I ignore short-term volatility and never panic-sell.
   <li><span=\"bold\">The Purpose:</span> I only ever exit a position to fund profound, life-altering milestones such as buying an apartment, earning a degree, or launching a new business.
   </ul>
-  <img src=\"theWinnerTakeAllMatthewEffectPortfolio.jpg\" alt=\"The Winner-Take-All Matthew Effect Portfolio\" width=\"601\" height=\"491\">
+  <img src=\"img/theWinnerTakeAllMatthewEffectPortfolio.jpg\" alt=\"The Winner-Take-All Matthew Effect Portfolio\" width=\"601\" height=\"491\">
   <div id=\"jaime-montoya-capital\"></div>
   <div id=\"richest-company\"></div>
   <div id=\"richest-people\"></div>
