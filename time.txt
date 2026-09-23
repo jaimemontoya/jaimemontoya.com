@@ -3,7 +3,7 @@ From Friday, 16 July 2026.
 Saturday, 17 July 2026:
 Running 							PASSED
 Studying 						FAILED 0h 8m. 17s.
-The Expanded Bible devotional!	FAILED
+The Expanded Bible devotional!		PASSED
 The Wall Street Journal				PASSED
 
 Saturday, 18 July 2026:
@@ -406,7 +406,7 @@ Saturday, 22 September 2026:
 Running 						FAILED
 Studying 						FAILED
 The Expanded Bible devotional!	FAILED
-The Wall Street Journal			FAILED
+The Wall Street Journal				PASSED
 
 ---------
 
@@ -414,7 +414,7 @@ The Wall Street Journal			FAILED
 
 1st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1606h. 34m. 22s.																	MODIFIED!
 2nd.      -- 1. From July 16, 2024 to ?: Team International: 1488h. 48m. 05s.																MODIFIED!
-3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 386h. 41m. 52s.																	MODIFIED!
+3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 387h. 09m. 32s.																	MODIFIED!
 4th.      -- 18. From 4 Feb 2025 to ?: Personal finance software: 237h. 00m. 20s.															MODIFIED!
 5th.      -- 30. From 11 May 2026 to ?: Reading business/economics subscriptions: 234h. 55m. 53s.											MODIFIED!
 6th.      -- 3. From July 16, 2024 to ?: unionchurchss.org & UCSS Board Total: 223h. 42m.
@@ -431,7 +431,7 @@ The Wall Street Journal			FAILED
 17th.     -- 25. From 18 August 2025 to ?: Couples devotional with Gabriela: 12h. 54m. 09s.													MODIFIED!
 18th.     -- 28. From 5 November 2025 to ?: UCSS sound board & worship team: 11h. 52m. 17s.													MODIFIED!
 19th.     -- 24. From 10 July 2025 to ?: Car repair & maintenance: Total 10h. 31m. 32s.														MODIFIED!
-20th.     -- 29. From 20 March 2026 to ?: The Expanded Bible devotional!: 8h. 03m. 51s.														MODIFIED!
+20th.     -- 29. From 20 March 2026 to ?: The Expanded Bible devotional!: 8h. 34m. 55s.														MODIFIED!
 21th.	  -- 31. From August 3, 2026 to ?: unionchurchss.org: 7h. 55m. 34s.																	MODIFIED!
 22st.     -- 10. From December 10, 2024 to ?: Prayer: 4h. 11m. 57s.
 23nd.     -- 12. From December 10, 2024 to ?: Rhema: 3h. 08m. 40s.
