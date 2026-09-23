@@ -97,7 +97,7 @@ The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
 
 Saturday, 02 August 2026:
-Running 						FAILED
+Running 							PASSED
 Studying 						FAILED
 The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
@@ -282,15 +282,141 @@ Studying 						FAILED
 The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
 
+Saturday, 2 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 3 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 4 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 5 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 6 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 7 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 8 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 9 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 10 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 11 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 12 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 13 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 14 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 15 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 16 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 17 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 18 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 19 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 20 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 21 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal				PASSED
+
+Saturday, 22 September 2026:
+Running 						FAILED
+Studying 						FAILED
+The Expanded Bible devotional!	FAILED
+The Wall Street Journal			FAILED
+
 ---------
 
 31. items
 
 1st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1606h. 34m. 22s.																	MODIFIED!
-2nd.      -- 1. From July 16, 2024 to ?: Team International: 1486h. 13m. 40s.																MODIFIED!
+2nd.      -- 1. From July 16, 2024 to ?: Team International: 1488h. 48m. 05s.																MODIFIED!
 3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 386h. 36m. 52s.																	MODIFIED!
-4th.      -- 18. From 4 Feb 2025 to ?: Personal finance software: 235h. 47m. 40s.															MODIFIED!
-5th.      -- 30. From 11 May 2026 to ?: Reading business/economics subscriptions: 232h. 56m. 55s.											MODIFIED!
+4th.      -- 18. From 4 Feb 2025 to ?: Personal finance software: 237h. 00m. 20s.															MODIFIED!
+5th.      -- 30. From 11 May 2026 to ?: Reading business/economics subscriptions: 234h. 55m. 53s.											MODIFIED!
 6th.      -- 3. From July 16, 2024 to ?: unionchurchss.org & UCSS Board Total: 223h. 42m.
 7th.      -- 7. From September 4, 2024 to ?: Cupon Club: 171h. 28m. 37s.
 8th.      -- 13. From December 12, 2024 to ?: UCSS Children's Ministry 158h. 12m. 13s.
