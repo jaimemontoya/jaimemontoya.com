@@ -12,6 +12,7 @@
   </ul>
   <p>By matching the compound interest of corporate giants with institutional-grade patience, I invest at the absolute peak of global excellence.</p>
   <img src=\"img/theWinnerTakeAllMatthewEffectPortfolio.jpg\" alt=\"The Winner-Take-All Matthew Effect Portfolio\" width=\"601\" height=\"491\" style=\"max-width: 100%; height: auto; display: block;\">
+  <br>
   <div id=\"jaime-montoya-capital\"></div>
   <div id=\"richest-company\"></div>
   <div id=\"richest-people\"></div>
