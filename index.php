@@ -98,21 +98,21 @@
                             <td class=\"font-bold\">Active Portfolio Baseline</td>
                         </tr>
                         <tr>
-                            <td class=\"indent-sub\">&eand; <strong>NVIDIA (NVDA) Total</strong></td>
+                            <td class=\"indent-sub\">&bull; <strong>NVIDIA (NVDA) Total</strong></td>
                             <td class=\"font-italic\">+$7,472.61</td>
                             <td class=\"font-italic\">+18.86%</td>
                             <td class=\"font-italic\">+21.93%</td>
                             <td class=\"desc-text\">Ultimate portfolio growth engine</td>
                         </tr>
                         <tr>
-                            <td class=\"indent-sub\">&eand; <strong>Amazon (AMZN) Total</strong></td>
+                            <td class=\"indent-sub\">&bull; <strong>Amazon (AMZN) Total</strong></td>
                             <td class=\"font-italic\">-$0.08</td>
                             <td class=\"font-italic\">-0.04%</td>
                             <td class=\"font-italic\">-13.35%</td>
                             <td class=\"desc-text\">Short-term breakeven trade</td>
                         </tr>
                         <tr>
-                            <td class=\"indent-sub\">&eand; <strong>Pfizer (PFE) Total</strong></td>
+                            <td class=\"indent-sub\">&bull; <strong>Pfizer (PFE) Total</strong></td>
                             <td class=\"font-italic\">-$4.86</td>
                             <td class=\"font-italic\">-8.84%</td>
                             <td class=\"font-italic\">-17.55%</td>
@@ -146,6 +146,7 @@
     })();
 </script>
 <!-- Isolated Terminal Style Table Container End -->
+
 
 
   ";
