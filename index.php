@@ -83,6 +83,7 @@
                     <thead>
                         <tr>
                             <th>Category / Investment Strategy</th>
+                            <th>Amount Invested</th>
                             <th>Net Profit (USD)</th>
                             <th>Total ROI</th>
                             <th>Annualized Return (XIRR)</th>
@@ -91,7 +92,8 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class=\"font-bold\">Jaime Montoya's Real Portfolio (Consolidated)</td>
+                            <td class=\"font-bold\">Jaime Montoya's Portfolio</td>
+                            <td class=\"font-bold\">$39,733.16</td>
                             <td class=\"font-bold\">+$7,467.67</td>
                             <td class=\"font-bold\">+18.79%</td>
                             <td class=\"font-bold\">+21.93%</td>
@@ -99,6 +101,7 @@
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>NVIDIA (NVDA) Total</strong></td>
+                            <td class=\"font-italic\">$39,619.36</td>
                             <td class=\"font-italic\">+$7,472.61</td>
                             <td class=\"font-italic\">+18.86%</td>
                             <td class=\"font-italic\">+21.93%</td>
@@ -106,6 +109,7 @@
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>Amazon (AMZN) Total</strong></td>
+                            <td class=\"font-italic\">$203.80</td>
                             <td class=\"font-italic\">-$0.08</td>
                             <td class=\"font-italic\">-0.04%</td>
                             <td class=\"font-italic\">-13.35%</td>
@@ -113,27 +117,31 @@
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>Pfizer (PFE) Total</strong></td>
+                            <td class=\"font-italic\">$55.00</td>
                             <td class=\"font-italic\">-$4.86</td>
                             <td class=\"font-italic\">-8.84%</td>
                             <td class=\"font-italic\">-17.55%</td>
                             <td class=\"desc-text\">Mid-term defensive drag</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
-                            <td class=\"font-bold\">Hypothetical NASDAQ-100 (QQQ)</td>
+                            <td class=\"font-bold\">NASDAQ</td>
+                            <td>$39,733.16</td>
                             <td class=\"font-bold\">+$5,059.69</td>
                             <td class=\"font-bold\">+12.73%</td>
                             <td class=\"font-bold\">+14.82%</td>
                             <td>+7.11% Annual Alpha over Tech Index</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
-                            <td class=\"font-bold\">Hypothetical S&P 500 (SPY)</td>
+                            <td class=\"font-bold\">S&P 500</td>
+                            <td>$39,733.16</td>
                             <td class=\"font-bold\">+$4,098.77</td>
                             <td class=\"font-bold\">+10.32%</td>
                             <td class=\"font-bold\">+11.98%</td>
                             <td>+9.95% Annual Alpha over Broad Market</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
-                            <td class=\"font-bold\">Hypothetical Dow Jones (DIA)</td>
+                            <td class=\"font-bold\">Dow Jones</td>
+                            <td>$39,733.16</td>
                             <td class=\"font-bold\">+$1,884.04</td>
                             <td class=\"font-bold\">+4.74%</td>
                             <td class=\"font-bold\">+5.49%</td>
@@ -146,6 +154,7 @@
     })();
 </script>
 <!-- Isolated Terminal Style Table Container End -->
+
 
 
 
