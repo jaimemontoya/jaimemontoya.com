@@ -14,8 +14,7 @@
     <li><a href=\"beat-the-market/STOCKS.html\" target=\"_blank\" rel=\"noopener noreferrer\">Stock profits from 12 Nov 2024 to 25 September 2026.</a>
     <li><a href=\"beat-the-market/MutualFunds.html\" target=\"_blank\" rel=\"noopener noreferrer\">Mutual funds profits from 12 Apr 2024 to 25 September 2026.</a>
   </ul>
-  <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's real stock investments from 12 November 2024 to 25 September 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA)</h2>
-<!-- Isolated Terminal Style Table Container Start -->
+  <!-- Isolated Terminal Style Table Container Start -->
 <div id=\"jaime-portfolio-terminal-table-root\"></div>
 <script>
     (function() {
@@ -124,7 +123,7 @@
                             <td class=\"desc-text\">Mid-term defensive drag</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
-                            <td class=\"font-bold\">NASDAQ</td>
+                            <td class=\"font-bold\">NASDAQ-100 (QQQ)</td>
                             <td>$39,733.16</td>
                             <td class=\"font-bold\">+$5,059.69</td>
                             <td class=\"font-bold\">+12.73%</td>
@@ -132,7 +131,7 @@
                             <td>+7.11% Annual Alpha over Tech Index</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
-                            <td class=\"font-bold\">S&P 500</td>
+                            <td class=\"font-bold\">S&P 500 (SPY)</td>
                             <td>$39,733.16</td>
                             <td class=\"font-bold\">+$4,098.77</td>
                             <td class=\"font-bold\">+10.32%</td>
@@ -140,7 +139,7 @@
                             <td>+9.95% Annual Alpha over Broad Market</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
-                            <td class=\"font-bold\">Dow Jones</td>
+                            <td class=\"font-bold\">Dow Jones (DIA)</td>
                             <td>$39,733.16</td>
                             <td class=\"font-bold\">+$1,884.04</td>
                             <td class=\"font-bold\">+4.74%</td>
@@ -154,6 +153,7 @@
     })();
 </script>
 <!-- Isolated Terminal Style Table Container End -->
+
 
 
 
