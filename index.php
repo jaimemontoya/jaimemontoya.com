@@ -14,7 +14,7 @@
     <li><a href=\"beat-the-market/STOCKS.html\" target=\"_blank\" rel=\"noopener noreferrer\">Stock profits from 12 Nov 2024 to 25 September 2026.</a>
     <li><a href=\"beat-the-market/MutualFunds.html\" target=\"_blank\" rel=\"noopener noreferrer\">Mutual funds profits from 12 Apr 2024 to 25 September 2026.</a>
   </ul>
-  <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's real stock investments from 12 November 2024 to 25 September 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA)</h2>
+  <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's stock investments from 12 November 2024 to 25 September 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA)</h2>
 <!-- Isolated Terminal Style Table Container Start -->
 <div id=\"jaime-portfolio-terminal-table-root\"></div>
 <script>
@@ -157,9 +157,10 @@
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's real stock investments from 12 November 2024 to 25 September 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA)</h2>
   <img src=\"beat-the-market/jaimeMontoyasPortfolioBeatingTheMarket.jpg\" 
      alt=\"Jaime Montoya's Portfolio beating the market\" 
-     width=\"562\" 
-     height=\"335\" 
+     width=\"560\" 
+     height=\"330\" 
      style=\"max-width: 100%; height: auto;\">
+  // Credits: https://share.google/aimode/jFEROl5pyOQzVuLXv
   ";
   $index->Display();
 ?>
