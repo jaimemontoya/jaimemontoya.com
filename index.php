@@ -156,10 +156,10 @@
 <!-- Isolated Terminal Style Table Container End -->
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's real stock investments from 12 November 2024 to 25 September 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA)</h2>
   <img src=\"beat-the-market/jaimeMontoyasPortfolioBeatingTheMarket.jpg\" 
-     alt="Jaime Montoya's Portfolio beating the market" 
-     width="562" 
-     height="335" 
-     style="max-width: 100%; height: auto;">
+     alt=\"Jaime Montoya's Portfolio beating the market\" 
+     width=\"562\" 
+     height=\"335\" 
+     style=\"max-width: 100%; height: auto;\">
   ";
   $index->Display();
 ?>
