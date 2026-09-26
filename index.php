@@ -160,7 +160,7 @@
      width=\"563\" 
      height=\"332\" 
      style=\"max-width: 100%; height: auto;\">
-  // Credits: https://share.google/aimode/y4UdRax6tK0nDjMxC
+  <!-- Credits: https://share.google/aimode/y4UdRax6tK0nDjMxC -->
   ";
   $index->Display();
 ?>
