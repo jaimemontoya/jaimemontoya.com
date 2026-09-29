@@ -155,7 +155,6 @@
     })();
 </script>
 <!-- Isolated Terminal Style Table Container End -->
-
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's stock portfolio performance vs NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 28 September 2026.</h2>
   <img src=\"beat-the-market/jaimeMontoyasPortfolioBeatingTheMarket.jpg\" 
      alt=\"Jaime Montoya's Portfolio beating the market\" 
