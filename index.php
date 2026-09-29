@@ -15,7 +15,7 @@
     <li><a href=\"beat-the-market/STOCKS.html\" target=\"_blank\" rel=\"noopener noreferrer\">Stock profits from 12 Nov 2024 to 28 September 2026.</a>
     <li><a href=\"beat-the-market/MutualFunds.html\" target=\"_blank\" rel=\"noopener noreferrer\">Mutual funds profits from 12 Apr 2024 to 28 September 2026.</a>
   </ul>
-  <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's stock investments from 12 November 2024 to 25 September 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA).</h2>
+  <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's stock investments from 12 November 2024 to 28 September 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA).</h2>
 <!-- Isolated Terminal Style Table Container Start -->
 <div id=\"jaime-portfolio-terminal-table-root\"></div>
 <script>
@@ -93,60 +93,44 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td class=\"font-bold\">Jaime Montoya's Portfolio</td>
-                            <td class=\"font-bold\">$39,733.16</td>
-                            <td class=\"font-bold\">+$7,467.67</td>
-                            <td class=\"font-bold\">+18.79%</td>
-                            <td class=\"font-bold\">+21.93%</td>
+                            <td class=\"font-bold\">Jaime Montoya's stock portfolio</td>
+                            <td class=\"font-bold\">$39,619.36</td>
+                            <td class=\"font-bold\">+$8,660.45</td>
+                            <td class=\"font-bold\">+21.86%</td>
+                            <td class=\"font-bold\">+24.83%</td>
                             <td class=\"font-bold\">Active Portfolio Baseline</td>
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>NVIDIA (NVDA) Total</strong></td>
                             <td class=\"font-italic\">$39,619.36</td>
-                            <td class=\"font-italic\">+$7,472.61</td>
-                            <td class=\"font-italic\">+18.86%</td>
-                            <td class=\"font-italic\">+21.93%</td>
+                            <td class=\"font-italic\">+$8,660.45</td>
+                            <td class=\"font-italic\">+21.86%</td>
+                            <td class=\"font-italic\">+24.83%</td>
                             <td class=\"desc-text\">Ultimate portfolio growth engine</td>
-                        </tr>
-                        <tr>
-                            <td class=\"indent-sub\">&bull; <strong>Amazon (AMZN) Total</strong></td>
-                            <td class=\"font-italic\">$203.80</td>
-                            <td class=\"font-italic\">-$0.08</td>
-                            <td class=\"font-italic\">-0.04%</td>
-                            <td class=\"font-italic\">-13.35%</td>
-                            <td class=\"desc-text\">Short-term breakeven trade</td>
-                        </tr>
-                        <tr>
-                            <td class=\"indent-sub\">&bull; <strong>Pfizer (PFE) Total</strong></td>
-                            <td class=\"font-italic\">$55.00</td>
-                            <td class=\"font-italic\">-$4.86</td>
-                            <td class=\"font-italic\">-8.84%</td>
-                            <td class=\"font-italic\">-17.55%</td>
-                            <td class=\"desc-text\">Mid-term defensive drag</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">NASDAQ-100 (QQQ)</td>
-                            <td>$39,733.16</td>
+                            <td>$39,619.36</td>
                             <td class=\"font-bold\">+$5,059.69</td>
-                            <td class=\"font-bold\">+12.73%</td>
+                            <td class=\"font-bold\">+12.77%</td>
                             <td class=\"font-bold\">+14.82%</td>
-                            <td>+7.11% Annual Alpha over Tech Index</td>
+                            <td>+10.01% Annual Alpha over Tech Index</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">S&P 500 (SPY)</td>
-                            <td>$39,733.16</td>
+                            <td>$39,619.36</td>
                             <td class=\"font-bold\">+$4,098.77</td>
-                            <td class=\"font-bold\">+10.32%</td>
+                            <td class=\"font-bold\">+10.35%</td>
                             <td class=\"font-bold\">+11.98%</td>
-                            <td>+9.95% Annual Alpha over Broad Market</td>
+                            <td>+12.85% Annual Alpha over Broad Market</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">Dow Jones (DIA)</td>
-                            <td>$39,733.16</td>
+                            <td>$39,619.36</td>
                             <td class=\"font-bold\">+$1,884.04</td>
-                            <td class=\"font-bold\">+4.74%</td>
+                            <td class=\"font-bold\">+4.76%</td>
                             <td class=\"font-bold\">+5.49%</td>
-                            <td>+16.44% Annual Alpha over Industrials</td>
+                            <td>+19.34% Annual Alpha over Industrials</td>
                         </tr>
                     </tbody>
                 </table>
