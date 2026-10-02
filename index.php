@@ -15,7 +15,7 @@
     <li><a href=\"beat-the-market/STOCKS.html\" target=\"_blank\" rel=\"noopener noreferrer\">Stock profits from 12 Nov 2024 to 2 October 2026.</a>
     <li><a href=\"beat-the-market/MutualFunds.html\" target=\"_blank\" rel=\"noopener noreferrer\">Mutual funds profits from 12 Apr 2024 to 2 October 2026.</a>
   </ul>
-  <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's stock investments from 12 November 2024 to 28 September 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA).</h2>
+  <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's stock investments from 12 November 2024 to 2 October 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA).</h2>
 <!-- Isolated Terminal Style Table Container Start -->
 <div id=\"jaime-portfolio-terminal-table-root\"></div>
 <script>
@@ -95,17 +95,17 @@
                         <tr>
                             <td class=\"font-bold\">Jaime Montoya's stock portfolio</td>
                             <td class=\"font-bold\">$39,878.16</td>
-                            <td class=\"font-bold\">+$8,655.51</td>
-                            <td class=\"font-bold\">+21.71%</td>
-                            <td class=\"font-bold\">+24.73%</td>
+                            <td class=\"font-bold\">+$9,278.51</td>
+                            <td class=\"font-bold\">+23.27%</td>
+                            <td class=\"font-bold\">+26.10%</td>
                             <td class=\"font-bold\">Active Portfolio Baseline</td>
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>NVIDIA (NVDA) Total</strong></td>
                             <td class=\"font-italic\">$39,619.36</td>
-                            <td class=\"font-italic\">+$8,660.45</td>
-                            <td class=\"font-italic\">+21.86%</td>
-                            <td class=\"font-italic\">+24.83%</td>
+                            <td class=\"font-italic\">+$9,283.45</td>
+                            <td class=\"font-italic\">+23.43%</td>
+                            <td class=\"font-italic\">+26.10%</td>
                             <td class=\"desc-text\">Ultimate portfolio growth engine</td>
                         </tr>
                         <tr>
@@ -127,26 +127,26 @@
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">NASDAQ-100 (QQQ)</td>
                             <td>$39,878.16</td>
-                            <td class=\"font-bold\">+$5,064.52</td>
-                            <td class=\"font-bold\">+12.70%</td>
-                            <td class=\"font-bold\">+14.77%</td>
-                            <td>+9.96% Annual Alpha over Tech Index</td>
+                            <td class=\"font-bold\">+$5,562.30</td>
+                            <td class=\"font-bold\">+13.95%</td>
+                            <td class=\"font-bold\">+15.65%</td>
+                            <td>+10.45% Annual Alpha over Tech Index</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">S&P 500 (SPY)</td>
                             <td>$39,878.16</td>
-                            <td class=\"font-bold\">+$4,103.11</td>
-                            <td class=\"font-bold\">+10.29%</td>
-                            <td class=\"font-bold\">+11.94%</td>
-                            <td>+12.79% Annual Alpha over Broad Market</td>
+                            <td class=\"font-bold\">+$4,302.77</td>
+                            <td class=\"font-bold\">+10.79%</td>
+                            <td class=\"font-bold\">+12.12%</td>
+                            <td>+13.98% Annual Alpha over Broad Market</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">Dow Jones (DIA)</td>
                             <td>$39,878.16</td>
-                            <td class=\"font-bold\">+$1,885.24</td>
-                            <td class=\"font-bold\">+4.73%</td>
-                            <td class=\"font-bold\">+5.47%</td>
-                            <td>+19.26% Annual Alpha over Industrials</td>
+                            <td class=\"font-bold\">+$1,942.20</td>
+                            <td class=\"font-bold\">+4.87%</td>
+                            <td class=\"font-bold\">+5.48%</td>
+                            <td>+20.62% Annual Alpha over Industrials</td>
                         </tr>
                     </tbody>
                 </table>
@@ -155,6 +155,8 @@
     })();
 </script>
 <!-- Isolated Terminal Style Table Container End -->
+
+
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's stock portfolio performance vs NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 28 September 2026.</h2>
   <img src=\"beat-the-market/jaimeMontoyasPortfolioBeatingTheMarket.jpg\" 
      alt=\"Jaime Montoya's Portfolio beating the market\" 
