@@ -164,6 +164,12 @@
      height=\"332\" 
      style=\"max-width: 100%; height: auto;\">
   <!-- Credits: https://share.google/aimode/PZED86KgEsBxeXJRk -->
+<ul>
+  <li><strong>Clear Outperformance:</strong> Jaime Montoya's stock portfolio significantly beat all three major stock market benchmarks in both total dollar profit and annualized rate of return over this nearly two-year period.</li>
+  <li><strong>Margin of Victory vs. Tech:</strong> The portfolio's annualized return of <strong>26.1%</strong> outperformed the tech-heavy NASDAQ-100 (QQQ) by <strong>10.45 percentage points</strong>, and generated nearly $3,716 more in net profit.</li>
+  <li><strong>Margin of Victory vs. Broad Market:</strong> It more than doubled the annualized return of the S&P 500 (SPY) and nearly quintupled the performance of the Dow Jones Industrial Average (DIA).</li>
+</ul>
+<!-- Credits: Google AI: Analyze this image: https://jaimemontoya.com/beat-the-market/jaimeMontoyasPortfolioBeatingTheMarket.jpg -->
   ";
   $index->Display();
 ?>
