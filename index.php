@@ -96,94 +96,29 @@
      width=\"563\" 
      height=\"335\" 
      style=\"max-width: 100%; height: auto;\">
-  <!-- Credits: https://share.google/aimode/PZED86KgEsBxeXJRk -->
-<!-- Isolated Terminal Style Content Container Start -->
-<div id=\"jaime-portfolio-analysis-root\"></div>
-<script>
-    (function() {
-        const container = document.getElementById('jaime-portfolio-analysis-root');
-        if (!container) return;
-        
-        // Create an isolated Shadow DOM boundary to block website CSS
-        const shadow = container.attachShadow({ mode: 'closed' });
-        
-        shadow.innerHTML = `
-            <style>
-                :host {
-                    display: block;
-                    width: 100%;
-                    margin: 20px 0;
-                    box-sizing: border-box;
-                    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif !important;
-                    font-size: 14px !important;
-                    line-height: 1.6 !important;
-                }
-                .content-wrapper {
-                    background-color: #000000 !important;
-                    color: #00ff00 !important;
-                    padding: 20px;
-                    border-radius: 4px;
-                    border: 1px solid #333333;
-                }
-                h3 {
-                    color: #00ff00 !important;
-                    font-size: 16px !important;
-                    font-weight: 600 !important;
-                    margin-top: 0;
-                    margin-bottom: 12px;
-                    text-transform: uppercase;
-                    letter-spacing: 0.5px;
-                    border-bottom: 1px solid #222222;
-                    padding-bottom: 6px;
-                }
-                ul {
-                    list-style-type: none !important;
-                    padding-left: 0 !important;
-                    margin-top: 0 !important;
-                    margin-bottom: 20px !important;
-                }
-                li {
-                    margin-bottom: 8px !important;
-                    padding-left: 15px !important;
-                    position: relative !important;
-                }
-                li::before {
-                    content: \"•\" !important;
-                    position: absolute !important;
-                    left: 0 !important;
-                    color: #00ff00 !important;
-                }
-                .highlight-text {
-                    font-weight: bold !important;
-                }
-                .italic-text {
-                    font-style: italic !important;
-                    opacity: 0.9;
-                }
-            </style>
-            
-            <div class=\"content-wrapper\">
-                <h3>Verification of Data and Visual Identity</h3>
-                <ul>
-                    <li><span class=\"highlight-text\">Official Chart Title:</span> Aligns precisely with specifications, reading \"Jaime Montoya's stock portfolio performance vs NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 5 October 2026.\"</li>
-                    <li><span class=\"highlight-text\">X-Axis Label Layout:</span> The primary tracker is neatly split into a two-line horizontal array (\"Jaime Montoya's\" on top and \"stock portfolio\" stacked beneath), anchoring the labels at 0 degrees of rotation for maximum legibility.</li>
-                    <li><span class=\"highlight-text\">Legend Color Mapping:</span> Blue bars correspond to Net Profit (USD) tracked along the left axis scale, while orange bars track Annualized Return (XIRR) along the right axis scale.</li>
-                </ul>
+<ul style=\"list-style-type:none; padding-left:0; margin:0; background-color:#000000; color:#00ff00; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; font-size:14px; line-height:1.6;\">
+    <li style=\"margin-bottom:12px; padding-left:20px; position:relative;\">
+        <span style=\"position:absolute; left:0; color:#00ff00;\">&bull;</span>
+        <strong>Jaime Montoya's Stock Portfolio:</strong> Outperformed every single market benchmark by a significant margin. Anchored by heavy allocation in NVIDIA, the portfolio secured an absolute <strong>Net Profit of $10,966.83 USD</strong> and a phenomenal compounding efficiency of <strong>28.71% XIRR</strong>.
+    </li>
+    <li style=\"margin-bottom:12px; padding-left:20px; position:relative;\">
+        <span style=\"position:absolute; left:0; color:#00ff00;\">&bull;</span>
+        <strong>Vs. NASDAQ-100 (QQQ):</strong> Generated a massive dollar premium of <strong>+$5,404.53 USD</strong> over the tech index. The active strategy expanded your compounding pace past the QQQ’s baseline of 15.65% by an <strong>Annual Alpha margin of +13.06%</strong>.
+    </li>
+    <li style=\"margin-bottom:12px; padding-left:20px; position:relative;\">
+        <span style=\"position:absolute; left:0; color:#00ff00;\">&bull;</span>
+        <strong>Vs. S&P 500 (SPY):</strong> More than doubled the absolute dollar returns achieved by a hypothetical passive market investment ($4,302.77 USD). The portfolio outpaced the index's 12.12% growth rate by an <strong>Annual Alpha margin of +16.59%</strong>.
+    </li>
+    <li style=\"margin-bottom:0; padding-left:20px; position:relative;\">
+        <span style=\"position:absolute; left:0; color:#00ff00;\">&bull;</span>
+        <strong>Vs. Dow Jones (DIA):</strong> Highlighted your widest active selection edge. The portfolio multiplied the industrial index's flat dollar returns ($1,942.20 USD) by over <strong>5.6 times</strong>, crushing its modest 5.48% return rate by a dominant <strong>Annual Alpha margin of +23.23%</strong>.
+    </li>
+</ul>
 
-                <h3>Performance Metric Analysis (Market Alpha)</h3>
-                <ul>
-                    <li><span class=\"highlight-text\">Your Real Portfolio:</span> Controls the far left of the chart layout with the maximum active visual threshold, recording an absolute net profit of <span class=\"highlight-text\">$10,966.83 USD</span> and a standalone annualized return (XIRR) of <span class=\"highlight-text\">28.71%</span>.</li>
-                    <li><span class=\"highlight-text\">Vs. NASDAQ-100 (QQQ):</span> Active selection generated <span class=\"highlight-text\">$5,404.53 USD more in absolute cash gains</span> than the tech benchmark, capturing an annualized alpha premium of <span class=\"highlight-text\">+13.06%</span>.</li>
-                    <li><span class=\"highlight-text\">Vs. S&P 500 (SPY):</span> Deployed assets more than doubled the dollar profits of the broader marketplace alternative ($4,302.77 USD baseline), outpacing its annualized metrics by a delta of <span class=\"highlight-text\">+16.59%</span>.</li>
-                    <li><span class=\"highlight-text\">Vs. Dow Jones (DIA):</span> Highlights the widest active selection edge, scaling up total capital returns by nearly six times relative to the passive index ($1,885.24 USD baseline) and posting a dominant annualized growth gap of <span class=\"highlight-text\">+23.23%</span>.</li>
-                </ul>
-            </div>
-        `;
-    })();
-</script>
-<!-- Isolated Terminal Style Content Container End -->
 
-<!-- Credits: Google AI: Analyze this image: https://jaimemontoya.com/beat-the-market/jaimeMontoyasPortfolioBeatingTheMarket.jpg -->
+<!-- Credits: Google AI: Analyze this image: https://jaimemontoya.com/beat-the-market/jaimeMontoyasPortfolioBeatingTheMarket.jpg 
+			  https://share.google/aimode/PZED86KgEsBxeXJRk
+-->
   ";
   $index->Display();
 ?>
