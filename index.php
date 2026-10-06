@@ -16,124 +16,79 @@
     <li><a href=\"beat-the-market/MutualFunds.html\" target=\"_blank\" rel=\"noopener noreferrer\">Mutual funds profits from 12 Apr 2024 to 5 October 2026.</a>
   </ul>
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's stock investments from 12 November 2024 to 5 October 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA).</h2>
-<!-- Isolated Terminal Style Graph Container Start -->
-<div id=\"jaime-portfolio-terminal-graph-root\"></div>
-<script>
-    (function() {
-        const container = document.getElementById('jaime-portfolio-terminal-graph-root');
-        if (!container) return;
+<div style=\"width:100%; overflow-x:auto; background-color:#000000; padding:10px; border-radius:4px; box-sizing:border-box;\">
+    <table style=\"width:100%; border-collapse:collapse; text-align:left; font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; font-size:14px; line-height:1.5; border:1px solid #333333; background-color:#000000; color:#00ff00;\">
+        <thead>
+            <tr style=\"background-color:#111111; border-bottom:2px solid #333333;\">
+                <th style=\"padding:12px; font-weight:600; color:#00ff00;\">Category / Investment Strategy</th>
+                <th style=\"padding:12px; font-weight:600; color:#00ff00;\">Amount Invested</th>
+                <th style=\"padding:12px; font-weight:600; color:#00ff00;\">Net Profit (USD)</th>
+                <th style=\"padding:12px; font-weight:600; color:#00ff00;\">Total ROI</th>
+                <th style=\"padding:12px; font-weight:600; color:#00ff00;\">Annualized Return (XIRR)</th>
+                <th style=\"padding:12px; font-weight:600; color:#00ff00;\">Performance Role / Alpha Margin</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr style=\"border-bottom:1px solid #222222;\">
+                <td style=\"padding:12px; font-weight:bold;\">Jaime Montoya's stock portfolio</td>
+                <td style=\"padding:12px; font-weight:bold;\">$39,878.16</td>
+                <td style=\"padding:12px; font-weight:bold;\">+$10,966.83</td>
+                <td style=\"padding:12px; font-weight:bold;\">+27.50%</td>
+                <td style=\"padding:12px; font-weight:bold;\">+28.71%</td>
+                <td style=\"padding:12px; font-weight:bold;\">Active Portfolio Baseline</td>
+            </tr>
+            <tr style=\"border-bottom:1px solid #222222;\">
+                <td style=\"padding:12px; padding-left:24px;\">&bull; <strong>NVIDIA (NVDA) Total</strong></td>
+                <td style=\"padding:12px; font-style:italic;\">$39,619.36</td>
+                <td style=\"padding:12px; font-style:italic;\">+$10,971.77</td>
+                <td style=\"padding:12px; font-style:italic;\">+27.69%</td>
+                <td style=\"padding:12px; font-style:italic;\">+30.15%</td>
+                <td style=\"padding:12px; opacity:0.8; font-style:italic;\">Ultimate portfolio growth engine</td>
+            </tr>
+            <tr style=\"border-bottom:1px solid #222222;\">
+                <td style=\"padding:12px; padding-left:24px;\">&bull; <strong>Amazon (AMZN) Total</strong></td>
+                <td style=\"padding:12px; font-style:italic;\">$203.80</td>
+                <td style=\"padding:12px; font-style:italic;\">-$0.08</td>
+                <td style=\"padding:12px; font-style:italic;\">-0.04%</td>
+                <td style=\"padding:12px; font-style:italic;\">-13.35%</td>
+                <td style=\"padding:12px; opacity:0.8; font-style:italic;\">Short-term breakeven trade</td>
+            </tr>
+            <tr style=\"border-bottom:1px solid #222222;\">
+                <td style=\"padding:12px; padding-left:24px;\">&bull; <strong>Pfizer (PFE) Total</strong></td>
+                <td style=\"padding:12px; font-style:italic;\">$55.00</td>
+                <td style=\"padding:12px; font-style:italic;\">-$4.86</td>
+                <td style=\"padding:12px; font-style:italic;\">-8.84%</td>
+                <td style=\"padding:12px; font-style:italic;\">-17.55%</td>
+                <td style=\"padding:12px; opacity:0.8; font-style:italic;\">Mid-term defensive drag</td>
+            </tr>
+            <tr style=\"border-bottom:1px solid #222222; background-color:#050505;\">
+                <td style=\"padding:12px; font-weight:bold;\">NASDAQ-100 (QQQ)</td>
+                <td style=\"padding:12px;\">$39,878.16</td>
+                <td style=\"padding:12px; font-weight:bold;\">+$5,562.30</td>
+                <td style=\"padding:12px; font-weight:bold;\">+13.95%</td>
+                <td style=\"padding:12px; font-weight:bold;\">+15.65%</td>
+                <td style=\"padding:12px;\">+13.06% Annual Alpha over Tech Index</td>
+            </tr>
+            <tr style=\"border-bottom:1px solid #222222; background-color:#050505;\">
+                <td style=\"padding:12px; font-weight:bold;\">S&P 500 (SPY)</td>
+                <td style=\"padding:12px;\">$39,878.16</td>
+                <td style=\"padding:12px; font-weight:bold;\">+$4,103.11</td>
+                <td style=\"padding:12px; font-weight:bold;\">+10.29%</td>
+                <td style=\"padding:12px; font-weight:bold;\">+11.94%</td>
+                <td style=\"padding:12px;\">+16.59% Annual Alpha over Broad Market</td>
+            </tr>
+            <tr style=\"border-bottom:1px solid #222222; background-color:#050505;\">
+                <td style=\"padding:12px; font-weight:bold;\">Dow Jones (DIA)</td>
+                <td style=\"padding:12px;\">$39,878.16</td>
+                <td style=\"padding:12px; font-weight:bold;\">+$1,885.24</td>
+                <td style=\"padding:12px; font-weight:bold;\">+4.73%</td>
+                <td style=\"padding:12px; font-weight:bold;\">+5.47%</td>
+                <td style=\"padding:12px;\">+23.23% Annual Alpha over Industrials</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
 
-        // Create an isolated Shadow DOM boundary to block website CSS from breaking layout
-        const shadow = container.attachShadow({ mode: 'closed' });
-
-        // Setup HTML structure inside shadow with adequate breathing room
-        shadow.innerHTML = `
-            <style>
-                :host {
-                    display: block;
-                    width: 100%;
-                    margin: 20px 0;
-                    box-sizing: border-box;
-                }
-                .graph-wrapper {
-                    width: 100%;
-                    background-color: #000000 !important;
-                    padding: 25px 20px;
-                    border-radius: 4px;
-                    border: 1px solid #333333;
-                }
-                .canvas-container {
-                    position: relative;
-                    width: 100%;
-                    height: 460px;
-                }
-            </style>
-            <div class=\"graph-wrapper\">
-                <div class=\"canvas-container\">
-                    <canvas id=\"portfolioChart\"></canvas>
-                </div>
-            </div>
-        `;
-
-        // Load Chart.js dynamically inside the shadow environment safely
-        const script = document.createElement('script');
-        script.src = 'https://jsdelivr.net';
-        script.onload = () => {
-            const ctx = shadow.getElementById('portfolioChart').getContext('2d');
-            
-            new script.target.Chart(ctx, {
-                type: 'bar',
-                data: {
-                    labels: [[\"Jaime Montoya's\", \"stock portfolio\"], 'NASDAQ-100 (QQQ)', 'S&P 500 (SPY)', 'Dow Jones (DIA)'],
-                    datasets: [
-                        {
-                            label: 'Net Profit (USD)',
-                            data: [10966.83, 5562.30, 4302.77, 1942.20],
-                            backgroundColor: '#00cc00',
-                            borderColor: '#00ff00',
-                            borderWidth: 1,
-                            yAxisID: 'yNetProfit'
-                        },
-                        {
-                            label: 'Annualized Return (XIRR)',
-                            data: [28.71, 15.65, 12.12, 5.48], // Fully calibrated parameters
-                            backgroundColor: '#003300',
-                            borderColor: '#00ff00',
-                            borderWidth: 2,
-                            yAxisID: 'yXIRR'
-                        }
-                    ]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        x: {
-                            ticks: { 
-                                color: '#00ff00', 
-                                autoSkip: false,
-                                maxRotation: 0, 
-                                minRotation: 0, 
-                                padding: 12,
-                                font: { family: '-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif', size: 11 } 
-                            },
-                            grid: { color: '#111111' }
-                        },
-                        yNetProfit: {
-                            type: 'linear',
-                            position: 'left',
-                            title: { display: true, text: 'Net Profit (USD)', color: '#00ff00' },
-                            ticks: { color: '#00ff00', callback: value => '\$' + value },
-                            grid: { color: '#222222' }
-                        },
-                        yXIRR: {
-                            type: 'linear',
-                            position: 'right',
-                            title: { display: true, text: 'Annualized Return (XIRR %)', color: '#00ff00' },
-                            ticks: { color: '#00ff00', callback: value => value + '%' },
-                            grid: { drawOnChartArea: false }
-                        }
-                    },
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: \"Jaime Montoya's stock portfolio performance vs NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 5 October 2026.\",
-                            color: '#00ff00',
-                            font: { size: 13, weight: '600', family: '-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif' },
-                            padding: { bottom: 25 }
-                        },
-                        legend: {
-                            labels: { color: '#00ff00', font: { family: '-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif' } }
-                        }
-                    }
-                }
-            });
-        };
-        
-        shadow.appendChild(script);
-    })();
-</script>
-<!-- Isolated Terminal Style Graph Container End -->
 
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's stock portfolio performance vs NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 2 October 2026.</h2>
   <img src=\"beat-the-market/jaimeMontoyasPortfolioBeatingTheMarket.jpg\" 
