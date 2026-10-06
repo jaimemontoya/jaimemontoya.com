@@ -16,17 +16,16 @@
     <li><a href=\"beat-the-market/MutualFunds.html\" target=\"_blank\" rel=\"noopener noreferrer\">Mutual funds profits from 12 Apr 2024 to 5 October 2026.</a>
   </ul>
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's stock investments from 12 November 2024 to 5 October 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA).</h2>
-<!-- Isolated Terminal Style Graph Container Start -->
-<div id=\"jaime-portfolio-terminal-graph-root\"></div>
+<!-- Isolated Terminal Style Table Container Start -->
+<div id=\"jaime-portfolio-terminal-table-root\"></div>
 <script>
     (function() {
-        const container = document.getElementById('jaime-portfolio-terminal-graph-root');
+        const container = document.getElementById('jaime-portfolio-terminal-table-root');
         if (!container) return;
-
-        // Create an isolated Shadow DOM boundary to block website CSS from breaking layout
+        
+        // Create an isolated Shadow DOM boundary to block website CSS
         const shadow = container.attachShadow({ mode: 'closed' });
-
-        // Setup HTML structure inside shadow with adequate breathing room
+        
         shadow.innerHTML = `
             <style>
                 :host {
@@ -35,106 +34,128 @@
                     margin: 20px 0;
                     box-sizing: border-box;
                 }
-                .graph-wrapper {
-                    width: 100%;
-                    background-color: #000000 !important;
-                    padding: 25px 20px;
-                    border-radius: 4px;
-                    border: 1px solid #333333;
+                * {
+                    box-sizing: border-box;
                 }
-                .canvas-container {
-                    position: relative;
+                .table-wrapper {
                     width: 100%;
-                    height: 460px; /* Perfectly balanced for the two-line layout */
+                    overflow-x: auto;
+                    -webkit-overflow-scrolling: touch;
+                    background-color: #000000 !important;
+                    padding: 10px;
+                    border-radius: 4px;
+                }
+                table {
+                    width: 100%;
+                    border-collapse: collapse !important;
+                    text-align: left;
+                    font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif !important;
+                    font-size: 14px !important;
+                    line-height: 1.5 !important;
+                    border: 1px solid #333333 !important;
+                    background-color: #000000 !important;
+                    color: #00ff00 !important;
+                }
+                th {
+                    background-color: #111111 !important;
+                    border-bottom: 2px solid #333333 !important;
+                    padding: 12px !important;
+                    font-weight: 600 !important;
+                    color: #00ff00 !important;
+                }
+                tr {
+                    border-bottom: 1px solid #222222 !important;
+                }
+                td {
+                    padding: 12px !important;
+                    vertical-align: middle !important;
+                }
+                .font-bold { font-weight: bold !important; }
+                .font-italic { font-style: italic !important; }
+                .indent-sub { padding-left: 24px !important; }
+                .desc-text { opacity: 0.8; font-style: italic !important; }
+                .row-hypothetical {
+                    background-color: #050505 !important;
                 }
             </style>
-            <div class=\"graph-wrapper\">
-                <div class=\"canvas-container\">
-                    <canvas id=\"portfolioChart\"></canvas>
-                </div>
+            
+            <div class=\"table-wrapper\">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Category / Investment Strategy</th>
+                            <th>Amount Invested</th>
+                            <th>Net Profit (USD)</th>
+                            <th>Total ROI</th>
+                            <th>Annualized Return (XIRR)</th>
+                            <th>Performance Role / Alpha Margin</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class=\"font-bold\">Jaime Montoya's stock portfolio</td>
+                            <td class=\"font-bold\">$39,878.16</td>
+                            <td class=\"font-bold\">+$10,966.83</td>
+                            <td class=\"font-bold\">+27.50%</td>
+                            <td class=\"font-bold\">+28.71%</td>
+                            <td class=\"font-bold\">Active Portfolio Baseline</td>
+                        </tr>
+                        <tr>
+                            <td class=\"indent-sub\">&bull; <strong>NVIDIA (NVDA) Total</strong></td>
+                            <td class=\"font-italic\">$39,619.36</td>
+                            <td class=\"font-italic\">+$10,971.77</td>
+                            <td class=\"font-italic\">+27.69%</td>
+                            <td class=\"font-italic\">+30.15%</td>
+                            <td class=\"desc-text\">Ultimate portfolio growth engine</td>
+                        </tr>
+                        <tr>
+                            <td class=\"indent-sub\">&bull; <strong>Amazon (AMZN) Total</strong></td>
+                            <td class=\"font-italic\">$203.80</td>
+                            <td class=\"font-italic\">-$0.08</td>
+                            <td class=\"font-italic\">-0.04%</td>
+                            <td class=\"font-italic\">-13.35%</td>
+                            <td class=\"desc-text\">Short-term breakeven trade</td>
+                        </tr>
+                        <tr>
+                            <td class=\"indent-sub\">&bull; <strong>Pfizer (PFE) Total</strong></td>
+                            <td class=\"font-italic\">$55.00</td>
+                            <td class=\"font-italic\">-$4.86</td>
+                            <td class=\"font-italic\">-8.84%</td>
+                            <td class=\"font-italic\">-17.55%</td>
+                            <td class=\"desc-text\">Mid-term defensive drag</td>
+                        </tr>
+                        <tr class=\"row-hypothetical\">
+                            <td class=\"font-bold\">NASDAQ-100 (QQQ)</td>
+                            <td>$39,878.16</td>
+                            <td class=\"font-bold\">+$5,562.30</td>
+                            <td class=\"font-bold\">+13.95%</td>
+                            <td class=\"font-bold\">+14.77%</td>
+                            <td>+13.94% Annual Alpha over Tech Index</td>
+                        </tr>
+                        <tr class=\"row-hypothetical\">
+                            <td class=\"font-bold\">S&P 500 (SPY)</td>
+                            <td>$39,878.16</td>
+                            <td class=\"font-bold\">+$4,103.11</td>
+                            <td class=\"font-bold\">+10.29%</td>
+                            <td class=\"font-bold\">+11.94%</td>
+                            <td>+16.77% Annual Alpha over Broad Market</td>
+                        </tr>
+                        <tr class=\"row-hypothetical\">
+                            <td class=\"font-bold\">Dow Jones (DIA)</td>
+                            <td>$39,878.16</td>
+                            <td class=\"font-bold\">+$1,885.24</td>
+                            <td class=\"font-bold\">+4.73%</td>
+                            <td class=\"font-bold\">+5.47%</td>
+                            <td>+23.24% Annual Alpha over Industrials</td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         `;
-
-        // Load Chart.js dynamically inside the shadow environment safely
-        const script = document.createElement('script');
-        script.src = 'https://jsdelivr.net';
-        script.onload = () => {
-            const ctx = shadow.getElementById('portfolioChart').getContext('2d');
-            
-            new script.target.Chart(ctx, {
-                type: 'bar',
-                data: {
-                    // Split the first label into an array for a clean two-line horizontal stack
-                    labels: [[\"Jaime Montoya's\", \"stock portfolio\"], 'NASDAQ-100 (QQQ)', 'S&P 500 (SPY)', 'Dow Jones (DIA)'],
-                    datasets: [
-                        {
-                            label: 'Net Profit (USD)',
-                            data: [10966.83, 5562.30, 4302.77, 1942.20],
-                            backgroundColor: '#00cc00',
-                            borderColor: '#00ff00',
-                            borderWidth: 1,
-                            yAxisID: 'yNetProfit'
-                        },
-                        {
-                            label: 'Annualized Return (XIRR)',
-                            data: [28.71, 15.65, 12.12, 5.48],
-                            backgroundColor: '#003300',
-                            borderColor: '#00ff00',
-                            borderWidth: 2,
-                            yAxisID: 'yXIRR'
-                        }
-                    ]
-                },
-                options: {
-                    responsive: true,
-                    maintainAspectRatio: false,
-                    scales: {
-                        x: {
-                            ticks: { 
-                                color: '#00ff00', 
-                                autoSkip: false,
-                                maxRotation: 0, // Forces strict horizontal placement
-                                minRotation: 0, // Disables any automated angled fallbacks
-                                padding: 12,
-                                font: { family: '-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif', size: 11 } 
-                            },
-                            grid: { color: '#111111' }
-                        },
-                        yNetProfit: {
-                            type: 'linear',
-                            position: 'left',
-                            title: { display: true, text: 'Net Profit (USD)', color: '#00ff00' },
-                            ticks: { color: '#00ff00', callback: value => '\$' + value },
-                            grid: { color: '#222222' }
-                        },
-                        yXIRR: {
-                            type: 'linear',
-                            position: 'right',
-                            title: { display: true, text: 'Annualized Return (XIRR %)', color: '#00ff00' },
-                            ticks: { color: '#00ff00', callback: value => value + '%' },
-                            grid: { drawOnChartArea: false }
-                        }
-                    },
-                    plugins: {
-                        title: {
-                            display: true,
-                            text: \"Jaime Montoya's stock portfolio performance vs NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 5 October 2026.\",
-                            color: '#00ff00',
-                            font: { size: 13, weight: '600', family: '-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif' },
-                            padding: { bottom: 25 }
-                        },
-                        legend: {
-                            labels: { color: '#00ff00', font: { family: '-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif' } }
-                        }
-                    }
-                }
-            });
-        };
-        
-        shadow.appendChild(script);
     })();
 </script>
-<!-- Isolated Terminal Style Graph Container End -->
+<!-- Isolated Terminal Style Table Container End -->
+
 
 
 
