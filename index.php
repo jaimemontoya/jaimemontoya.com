@@ -96,6 +96,119 @@
      width=\"563\" 
      height=\"335\" 
      style=\"max-width: 100%; height: auto;\">
+	 
+<!-- Isolated Terminal Style Graph Container Start -->
+<div id=\"jaime-portfolio-terminal-graph-root\"></div>
+<script>
+    (function() {
+        const container = document.getElementById('jaime-portfolio-terminal-graph-root');
+        if (!container) return;
+
+        // Create an isolated Shadow DOM boundary to block website CSS from breaking canvas layout
+        const shadow = container.attachShadow({ mode: 'closed' });
+
+        // Setup HTML structure inside shadow
+        shadow.innerHTML = `
+            <style>
+                :host {
+                    display: block;
+                    width: 100%;
+                    margin: 20px 0;
+                    box-sizing: border-box;
+                }
+                .graph-wrapper {
+                    width: 100%;
+                    background-color: #000000 !important;
+                    padding: 20px;
+                    border-radius: 4px;
+                    border: 1px solid #333333;
+                }
+                .canvas-container {
+                    position: relative;
+                    width: 100%;
+                    height: 400px;
+                }
+            </style>
+            <div class=\"graph-wrapper\">
+                <div class=\"canvas-container\">
+                    <canvas id=\"portfolioChart\"></canvas>
+                </div>
+            </div>
+        `;
+
+        // Load Chart.js dynamically inside the shadow environment safely
+        const script = document.createElement('script');
+        script.src = 'https://jsdelivr.net';
+        script.onload = () => {
+            const ctx = shadow.getElementById('portfolioChart').getContext('2d');
+            
+            new script.target.Chart(ctx, {
+                type: 'bar',
+                data: {
+                    labels: [[\"Jaime Montoya's\", \"stock portfolio\"], 'NASDAQ-100 (QQQ)', 'S&P 500 (SPY)', 'Dow Jones (DIA)'],
+                    datasets: [
+                        {
+                            label: 'Net Profit (USD)',
+                            data: [10140.32, 5592.12, 4310.22, 1944.30],
+                            backgroundColor: '#00cc00',
+                            borderColor: '#00ff00',
+                            borderWidth: 1,
+                            yAxisID: 'yNetProfit'
+                        },
+                        {
+                            label: 'Annualized Return (XIRR)',
+                            data: [27.81, 15.35, 11.83, 5.34],
+                            backgroundColor: '#003300',
+                            borderColor: '#00ff00',
+                            borderWidth: 2,
+                            yAxisID: 'yXIRR'
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            ticks: { color: '#00ff00', font: { family: '-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif', size: 12 } },
+                            grid: { color: '#111111' }
+                        },
+                        yNetProfit: {
+                            type: 'linear',
+                            position: 'left',
+                            title: { display: true, text: 'Net Profit (USD)', color: '#00ff00' },
+                            ticks: { color: '#00ff00', callback: value => '\$' + value },
+                            grid: { color: '#222222' }
+                        },
+                        yXIRR: {
+                            type: 'linear',
+                            position: 'right',
+                            title: { display: true, text: 'Annualized Return (XIRR %)', color: '#00ff00' },
+                            ticks: { color: '#00ff00', callback: value => value + '%' },
+                            grid: { drawOnChartArea: false }
+                        }
+                    },
+                    plugins: {
+                        title: {
+                            display: true,
+                            text: \"Jaime Montoya's stock portfolio performance vs NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 6 October 2026.\",
+                            color: '#00ff00',
+                            font: { size: 14, weight: '600', family: '-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif' },
+                            padding: { bottom: 20 }
+                        },
+                        legend: {
+                            labels: { color: '#00ff00', font: { family: '-apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, sans-serif' } }
+                        }
+                    }
+                }
+            });
+        };
+        
+        shadow.appendChild(script);
+    })();
+</script>
+<!-- Isolated Terminal Style Graph Container End -->
+	 
 
 <!-- Credits: https://share.google/aimode/PZED86KgEsBxeXJRk -->
   ";

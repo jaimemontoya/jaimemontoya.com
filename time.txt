@@ -473,8 +473,8 @@ The Wall Street Journal				PASSED
 31. items
 
 1st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1628h. 56m. 23s.																	MODIFIED!
-2nd.      -- 1. From July 16, 2024 to ?: Team International: 1499h. 28m. 36s.																MODIFIED!
-3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 396h. 49m. 35s.																	MODIFIED!
+2nd.      -- 1. From July 16, 2024 to ?: Team International: 1500h. 26m. 47s.																MODIFIED!
+3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 397h. 17m. 39s.																	MODIFIED!
 4th.      -- 30. From 11 May 2026 to ?: Reading business/economics subscriptions: 288h. 34m. 05s.											MODIFIED!
 5th.      -- 18. From 4 Feb 2025 to ?: Personal finance software: 243h. 35m. 11s.															MODIFIED!
 6th.      -- 3. From July 16, 2024 to ?: unionchurchss.org & UCSS Board Total: 223h. 42m.
@@ -482,7 +482,7 @@ The Wall Street Journal				PASSED
 8th.      -- 13. From December 12, 2024 to ?: UCSS Children's Ministry 159h. 12m. 13s.
 9th.      -- 20. From 28 Mar 2025 to ?: Wedding & honeymoon & anniversary: 72h. 32m. 06s.
 10th.     -- 16. From Jan 15, 2025 to ?: Adult Bible teaching: 63h. 17m. 36s.																MODIFIED!
-11th.     -- 27. From 22 October 2025 to ?: Bible study as a student: 59h 10m. 59s.															MODIFIED!
+11th.     -- 27. From 22 October 2025 to ?: Bible study as a student: 61h 10m. 59s.															MODIFIED!
 12th.     -- 5. From August 22, 2024 to ?: Coursera: 52h. 09m. 48s.																			MODIFIED!
 13th.     -- 15. From December 17, 2024 to ?: unionchurchss.org & info@unionchurchss.org: 51h. 55m. 59s.									MODIFIED!
 14th.     -- 23. From 28 June 2025 to ?: Cleaning, ordering, & house maintenance: 51h. 23m. 57s.											MODIFIED!
