@@ -19,7 +19,6 @@
   </ul>
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's stock investments from 12 November 2024 to 7 October 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA).</h2>
 <!-- Isolated Terminal Style Table Container Start -->
-<!-- Isolated Terminal Style Table Container Start -->
 <div id=\"jaime-portfolio-terminal-table-root\"></div>
 <script>
     (function() {
@@ -96,16 +95,16 @@
                         <tr>
                             <td class=\"font-bold\">Jaime Montoya's stock portfolio</td>
                             <td class=\"font-bold\">$39,878.16</td>
-                            <td class=\"font-bold\">+$10,140.32</td>
-                            <td class=\"font-bold\">+25.43%</td>
-                            <td class=\"font-bold\">+27.81%</td>
+                            <td class=\"font-bold\">+$10,009.49</td>
+                            <td class=\"font-bold\">+25.10%</td>
+                            <td class=\"font-bold\">+27.38%</td>
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>NVIDIA (NVDA) Total</strong></td>
                             <td class=\"font-italic\">$39,619.36</td>
-                            <td class=\"font-italic\">+$10,145.26</td>
-                            <td class=\"font-italic\">+25.61%</td>
-                            <td class=\"font-italic\">+27.94%</td>
+                            <td class=\"font-italic\">+$10,014.43</td>
+                            <td class=\"font-italic\">+25.28%</td>
+                            <td class=\"font-italic\">+27.51%</td>
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>Amazon (AMZN) Total</strong></td>
@@ -149,6 +148,7 @@
     })();
 </script>
 <!-- Isolated Terminal Style Table Container End -->
+
 <!-- Credits: https://share.google/aimode/HSQ0zdWOokfq8otas -->
   ";
   $index->Display();
