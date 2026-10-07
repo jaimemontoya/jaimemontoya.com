@@ -43,57 +43,6 @@ class HomePage extends Page
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRichestPeopleChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawJaimeMontoyaCapitalChart);\n";
 	echo "\t\t\t// Callback that creates and populates a data table, instantiates the bar chart, passes in the data and draws it.\n";
-    echo "
-function drawBeatTheMarketChart() {
-	var button = document.getElementById('change-chart');
-	var chartDiv = document.getElementById('beat-the-market');
-
-	var data = google.visualization.arrayToDataTable([
-	  ['Galaxy', 'Distance', 'Brightness'],
-	  ['Canis Major Dwarf', 8000, 23.3],
-	  ['Sagittarius Dwarf', 24000, 4.5],
-	  ['Ursa Major II Dwarf', 30000, 14.3],
-	  ['Lg. Magellanic Cloud', 50000, 0.9],
-	  ['Bootes I', 60000, 13.1]
-	]);
-
-	var materialOptions = {
-	  width: 900,
-	  chart: {
-		title: 'Nearby galaxies',
-		subtitle: 'distance on the left, brightness on the right'
-	  },
-	  series: {
-		0: { axis: 'distance' }, // Bind series 0 to an axis named 'distance'.
-		1: { axis: 'brightness' } // Bind series 1 to an axis named 'brightness'.
-	  },
-	  axes: {
-		y: {
-		  distance: {label: 'parsecs'}, // Left y-axis.
-		  brightness: {side: 'right', label: 'apparent magnitude'} // Right y-axis.
-		}
-	  },
-	  colors: ['#0f0'],
-	  chartArea: {
-        backgroundColor: '#000'
-      }
-	};
-
-	function drawMaterialChart() {
-	  var materialChart = new google.charts.Bar(chartDiv);
-	  materialChart.draw(data, google.charts.Bar.convertOptions(materialOptions));
-	  button.innerText = 'Change to Classic';
-	  button.onclick = drawClassicChart;
-	}
-
-	function drawClassicChart() {
-	  button.innerText = 'Change to Material';
-	  button.onclick = drawMaterialChart;
-	}
-
-	drawMaterialChart();
-};
-	";
 	echo "\t\t\tfunction drawRichestCompaniesChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
