@@ -38,7 +38,6 @@ class HomePage extends Page
 	echo "\t\t\t// Load the Visualization API and the corechart package.\n";
 	echo "\t\t\tgoogle.charts.load('current', {'packages':['corechart','line','bar']});\n";
 	echo "\t\t\t// Set a callback to run when the Google Visualization API is loaded.\n";
-	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawBeatTheMarketChart);\n";	
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRichestCompaniesChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRichestPeopleChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawJaimeMontoyaCapitalChart);\n";
