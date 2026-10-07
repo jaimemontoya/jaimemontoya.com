@@ -59,7 +59,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t'title':'Jaime Montoya\'s net profit (USD) stock portfolio performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 7 October 2026.',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\tvAxis: {\n";
-    echo "\t\t\t\t\t\ttitle: 'Trillions (USD)',\n";
+    echo "\t\t\t\t\t\ttitle: 'Net profit (USD)',\n";
     echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'},\n";
     echo "\t\t\t\t\t\ttitleTextStyle: {color: '#0f0', italic: false}\n";
     echo "\t\t\t\t\t},\n";
