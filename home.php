@@ -73,6 +73,7 @@ function drawBeatTheMarketChart() {
 		  brightness: {side: 'right', label: 'apparent magnitude'} // Right y-axis.
 		}
 	  },
+	  colors: ['#0f0'],
 	  chartArea: {
         backgroundColor: '#000'
       }
