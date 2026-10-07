@@ -72,7 +72,10 @@ function drawBeatTheMarketChart() {
 		  distance: {label: 'parsecs'}, // Left y-axis.
 		  brightness: {side: 'right', label: 'apparent magnitude'} // Right y-axis.
 		}
-	  }
+	  },
+	  chartArea: {
+        backgroundColor: '#000'
+      }
 	};
 
 	function drawMaterialChart() {
