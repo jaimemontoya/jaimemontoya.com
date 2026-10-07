@@ -97,9 +97,7 @@
      height=\"335\" 
      style=\"max-width: 100%; height: auto;\">
 
-<!-- Credits: Google AI: Analyze this image: https://jaimemontoya.com/beat-the-market/jaimeMontoyasPortfolioBeatingTheMarket.jpg 
-			  https://share.google/aimode/PZED86KgEsBxeXJRk
--->
+<!-- Credits: https://share.google/aimode/PZED86KgEsBxeXJRk -->
   ";
   $index->Display();
 ?>
