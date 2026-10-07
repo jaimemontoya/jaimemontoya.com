@@ -46,7 +46,7 @@ class HomePage extends Page
     echo "
 function drawBeatTheMarketChart() {
 	var button = document.getElementById('change-chart');
-	var chartDiv = document.getElementById('chart_div');
+	var chartDiv = document.getElementById('beat-the-market');
 
 	var data = google.visualization.arrayToDataTable([
 	  ['Galaxy', 'Distance', 'Brightness'],
