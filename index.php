@@ -144,9 +144,9 @@
     <li><a href=\"beat-the-market/STOCKS.html\" target=\"_blank\" rel=\"noopener noreferrer\">Stock profits from 12 Nov 2024 to 7 October 2026.</a>
     <li><a href=\"beat-the-market/MutualFunds.html\" target=\"_blank\" rel=\"noopener noreferrer\">Mutual funds profits from 12 Apr 2024 to 7 October 2026.</a>
   </ul>
+  <div id=\"jaime-montoya-capital\"></div>
   <div id=\"richest-company\"></div>
   <div id=\"richest-people\"></div>
-  <div id=\"jaime-montoya-capital\"></div>
   ";
   $index->Display();
 ?>
