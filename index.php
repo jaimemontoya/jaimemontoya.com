@@ -17,6 +17,7 @@
   </ul>
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's stock investments from 12 November 2024 to 6 October 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA).</h2>
 <!-- Isolated Terminal Style Table Container Start -->
+<!-- Isolated Terminal Style Table Container Start -->
 <div id=\"jaime-portfolio-terminal-table-root\"></div>
 <script>
     (function() {
@@ -73,7 +74,6 @@
                 .font-bold { font-weight: bold !important; }
                 .font-italic { font-style: italic !important; }
                 .indent-sub { padding-left: 24px !important; }
-                .desc-text { opacity: 0.8; font-style: italic !important; }
                 .row-hypothetical {
                     background-color: #050505 !important;
                 }
@@ -97,7 +97,6 @@
                             <td class=\"font-bold\">+$10,140.32</td>
                             <td class=\"font-bold\">+25.43%</td>
                             <td class=\"font-bold\">+27.81%</td>
-                            <td class=\"font-bold\">Active Portfolio Baseline</td>
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>NVIDIA (NVDA) Total</strong></td>
@@ -105,7 +104,6 @@
                             <td class=\"font-italic\">+$10,145.26</td>
                             <td class=\"font-italic\">+25.61%</td>
                             <td class=\"font-italic\">+27.94%</td>
-                            <td class=\"desc-text\">Ultimate portfolio growth engine</td>
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>Amazon (AMZN) Total</strong></td>
@@ -113,7 +111,6 @@
                             <td class=\"font-italic\">-$0.08</td>
                             <td class=\"font-italic\">-0.04%</td>
                             <td class=\"font-italic\">-13.35%</td>
-                            <td class=\"desc-text\">Short-term breakeven trade</td>
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>Pfizer (PFE) Total</strong></td>
@@ -121,7 +118,6 @@
                             <td class=\"font-italic\">-$4.86</td>
                             <td class=\"font-italic\">-8.84%</td>
                             <td class=\"font-italic\">-17.55%</td>
-                            <td class=\"desc-text\">Mid-term defensive drag</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">NASDAQ-100 (QQQ)</td>
@@ -129,7 +125,6 @@
                             <td class=\"font-bold\">+$5,592.12</td>
                             <td class=\"font-bold\">+14.02%</td>
                             <td class=\"font-bold\">+15.35%</td>
-                            <td>+12.46% Annual Alpha over Tech Index</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">S&P 500 (SPY)</td>
@@ -137,7 +132,13 @@
                             <td class=\"font-bold\">+$4,310.22</td>
                             <td class=\"font-bold\">+10.81%</td>
                             <td class=\"font-bold\">+11.83%</td>
-                            <td>+15.98% Annual Alpha over Broad Market</td>
+                        </tr>
+                        <tr class=\"row-hypothetical\">
+                            <td class=\"font-bold\">Dow Jones (DIA)</td>
+                            <td>$39,878.16</td>
+                            <td class=\"font-bold\">+$1,944.30</td>
+                            <td class=\"font-bold\">+4.88%</td>
+                            <td class=\"font-bold\">+5.34%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -145,7 +146,8 @@
         `;
     })();
 </script>
-<!-- Isolated Terminal Style Table Container End. -->
+<!-- Isolated Terminal Style Table Container End -->
+
 
 
 
