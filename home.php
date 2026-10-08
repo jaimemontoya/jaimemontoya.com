@@ -51,10 +51,10 @@ class HomePage extends Page
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
     echo "\t\t\t\t\t['Investment / Index', 'Total ROI'],\n";
-    echo "\t\t\t\t\t['JM\'s Stock',25.1],\n";
-	echo "\t\t\t\t\t['NASDAQ',14.02],\n";	
-	echo "\t\t\t\t\t['S&P 500',10.81],\n";
-	echo "\t\t\t\t\t['Dow Jones',4.88]\n";
+    echo "\t\t\t\t\t['JM\'s Stock',25.1%],\n";
+	echo "\t\t\t\t\t['NASDAQ',14.02%],\n";	
+	echo "\t\t\t\t\t['S&P 500',10.81%],\n";
+	echo "\t\t\t\t\t['Dow Jones',4.88%]\n";
     echo "\t\t\t\t]);\n";
 	echo "\t\t\t\t// Set chart options\n";
 	echo "\t\t\t\tvar options = {\n";
