@@ -63,7 +63,7 @@ class HomePage extends Page
     //echo "\t\t\t\t\t'title':'Jaime Montoya\'s Total ROI Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 7 October 2026.',\n";
 	echo "\t\t\t\t\tlegend: 'none',\n";
     echo "\t\t\t\t\tvAxis: {\n";
-    echo "\t\t\t\t\t\ttitle: 'Total ROI (%)',\n";
+    echo "\t\t\t\t\t\ttitle: 'Annualized Return (XIRR %)',\n";
     echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'},\n";
     echo "\t\t\t\t\t\ttitleTextStyle: {color: '#0f0', italic: false}\n";
     echo "\t\t\t\t\t},\n";
