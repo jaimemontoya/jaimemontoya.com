@@ -154,6 +154,7 @@
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Richest companies in the world by market capitalization, last updated 7 October 2026.</h2>
   <div id=\"richest-company\"></div>
   <hr>
+  <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Richest people, last updated 7 October 2026.</h2>
   <div id=\"richest-people\"></div>
   <hr>
   ";
