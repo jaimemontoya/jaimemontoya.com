@@ -39,7 +39,7 @@ class HomePage extends Page
 	echo "\t\t\tgoogle.charts.load('current', {'packages':['corechart','line']});\n";
 	echo "\t\t\t// Set a callback to run when the Google Visualization API is loaded.\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawTotalROIChart);\n";
-	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawAnnualizedReturnXIRRChart);\n";
+	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawNetProfitChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRichestCompaniesChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRichestPeopleChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawJaimeMontoyaCapitalChart);\n";
@@ -102,7 +102,7 @@ class HomePage extends Page
 
 
 
-	echo "\t\t\tfunction drawAnnualizedReturnXIRRChart() {\n";	
+	echo "\t\t\tfunction drawNetProfitChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
     echo "\t\t\t\t\t['Investment / Index', 'Net profit (USD)'],\n";
@@ -146,7 +146,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t}\n";
 	echo "\t\t\t\t}\n";
     echo "\t\t\t\t// Draw\n";
-	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('annualized-return-xirr'));\n";
+	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('net-profit'));\n";
 	echo "\t\t\t\tchart.draw(data, options);\n";
 	echo "\t\t\t\t// Add our over/out handlers.\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
