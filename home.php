@@ -38,12 +38,67 @@ class HomePage extends Page
 	echo "\t\t\t// Load the Visualization API and the corechart package.\n";
 	echo "\t\t\tgoogle.charts.load('current', {'packages':['corechart','line']});\n";
 	echo "\t\t\t// Set a callback to run when the Google Visualization API is loaded.\n";
+	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawAnnualizedReturnXIRRChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawTotalROIChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawNetProfitChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRichestCompaniesChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRichestPeopleChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawJaimeMontoyaCapitalChart);\n";
 	echo "\t\t\t// Callback that creates and populates a data table, instantiates the bar chart, passes in the data and draws it.\n";
+	
+	
+	
+	
+	echo "\t\t\tfunction drawAnnualizedReturnXIRRChart() {\n";	
+    echo "\t\t\t\t// Create the data table.\n";
+    echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
+    echo "\t\t\t\t\t['Investment / Index', 'Annualized Return (XIRR %)'],\n";
+    echo "\t\t\t\t\t['JM\'s Stocks',27.38],\n";
+	echo "\t\t\t\t\t['NASDAQ',15.35],\n";	
+	echo "\t\t\t\t\t['S&P 500',11.83],\n";
+	echo "\t\t\t\t\t['Dow Jones',5.34]\n";
+    echo "\t\t\t\t]);\n";
+	echo "\t\t\t\t// Set chart options\n";
+	echo "\t\t\t\tvar options = {\n";
+    //echo "\t\t\t\t\t'title':'Jaime Montoya\'s Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 7 October 2026.',\n";
+	echo "\t\t\t\t\tlegend: 'none',\n";
+    echo "\t\t\t\t\tvAxis: {\n";
+    echo "\t\t\t\t\t\ttitle: 'Total ROI (%)',\n";
+    echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'},\n";
+    echo "\t\t\t\t\t\ttitleTextStyle: {color: '#0f0', italic: false}\n";
+    echo "\t\t\t\t\t},\n";
+    echo "\t\t\t\t\thAxis: {\n";
+	echo "\t\t\t\t\t\tgridlines: {\n";
+    echo "\t\t\t\t\t\t\tcolor: '#9E9E9E',\n";
+    echo "\t\t\t\t\t\t\tcount: 1\n";
+    echo "\t\t\t\t\t\t},\n";	
+    echo "\t\t\t\t\t\tpointSize: 2,\n";
+    echo "\t\t\t\t\t\tformat: 'd MMM yyyy',\n";
+    echo "\t\t\t\t\t\ttitle: '',\n";
+    echo "\t\t\t\t\t\ttitlePosition: 'none',\n";
+    echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'}\n";
+    echo "\t\t\t\t\t},\n";
+    echo "\t\t\t\t\tcolors: ['#0f0'],\n";
+	echo "\t\t\t\t\tchartArea: {\n";
+    echo "\t\t\t\t\t\tbackgroundColor: '#000'\n";
+    echo "\t\t\t\t\t},\n";
+    echo "\t\t\t\t\ttitleTextStyle:{\n";
+    echo "\t\t\t\t\t\tbold: true,\n";
+    echo "\t\t\t\t\t\tcolor: '#0f0',\n";
+    echo "\t\t\t\t\t\tfontName: 'Arial'\n";
+    echo "\t\t\t\t\t},\n";
+    echo "\t\t\t\t\tbackgroundColor: {\n";
+    echo "\t\t\t\t\t\tfill: '#000',\n";
+    echo "\t\t\t\t\t\tfillOpacity: 1,stroke:'#0f0'\n";
+    echo "\t\t\t\t\t}\n";
+	echo "\t\t\t\t}\n";
+    echo "\t\t\t\t// Draw\n";
+	echo "\t\t\t\tconst chart = new google.visualization.ColumnChart(document.getElementById('annualized-return-xirr)'));\n";
+	echo "\t\t\t\tchart.draw(data, options);\n";
+	echo "\t\t\t\t// Add our over/out handlers.\n";
+	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
+	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
+	echo "\t\t\t}\n";
 	
 
 
@@ -97,11 +152,6 @@ class HomePage extends Page
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
-
-
-
-
-
 	echo "\t\t\tfunction drawNetProfitChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
