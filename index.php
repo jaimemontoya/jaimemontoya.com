@@ -137,6 +137,7 @@
 </script>
 <!-- Isolated Terminal Style Table Container End -->
 <!-- Credits: https://share.google/aimode/HSQ0zdWOokfq8otas -->  
+  <hr>
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's investments from 12 April 2024 to 7 October 2026.</h2>
   <ul>
     <li><a href=\"beat-the-market/Capital.html\" target=\"_blank\" rel=\"noopener noreferrer\">Capital including chronological net worth resulting from investments and amounts in (a) Mutual funds (b) Bank accounts (c) Stock market. Data available from 5 May 2024 to 7 October 2026.</a>
@@ -148,9 +149,12 @@
     <li><a href=\"beat-the-market/MutualFunds.html\" target=\"_blank\" rel=\"noopener noreferrer\">Mutual funds profits from 12 Apr 2024 to 7 October 2026.</a>
   </ul>
   <div id=\"jaime-montoya-capital\"></div>
+  <hr>
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Richest companies in the world by market capitalization, last updated 7 October 2026.</h2>
   <div id=\"richest-company\"></div>
+  <hr>
   <div id=\"richest-people\"></div>
+  <hr>
   ";
   $index->Display();
 ?>
