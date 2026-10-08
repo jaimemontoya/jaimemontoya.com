@@ -155,7 +155,7 @@ class HomePage extends Page
 	echo "\t\t\tfunction drawRichestCompaniesChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
-    echo "\t\t\t\t\t['Company', 'Trillions'],\n";
+    echo "\t\t\t\t\t['Company', 'Trillions (USD)'],\n";
     echo "\t\t\t\t\t['NVDA',5.734],\n";
 	echo "\t\t\t\t\t['AAPL',4.913],\n";	
 	echo "\t\t\t\t\t['GOOG',4.248],\n";
