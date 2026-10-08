@@ -45,10 +45,6 @@ class HomePage extends Page
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawRichestPeopleChart);\n";
 	echo "\t\t\tgoogle.charts.setOnLoadCallback(drawJaimeMontoyaCapitalChart);\n";
 	echo "\t\t\t// Callback that creates and populates a data table, instantiates the bar chart, passes in the data and draws it.\n";
-	
-	
-	
-	
 	echo "\t\t\tfunction drawAnnualizedReturnXIRRChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
@@ -99,14 +95,11 @@ class HomePage extends Page
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseover', barMouseOver);\n";
 	echo "\t\t\t\tgoogle.visualization.events.addListener(barsVisualization, 'onmouseout', barMouseOut);\n";
 	echo "\t\t\t}\n";
-	
-
-
 	echo "\t\t\tfunction drawTotalROIChart() {\n";	
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
     echo "\t\t\t\t\t['Investment / Index', 'Total ROI (%)'],\n";
-    echo "\t\t\t\t\t['JM\'s Stocks',25.1],\n";
+    echo "\t\t\t\t\t['Montoya\'s Stocks',25.1],\n";
 	echo "\t\t\t\t\t['NASDAQ',14.02],\n";	
 	echo "\t\t\t\t\t['S&P 500',10.81],\n";
 	echo "\t\t\t\t\t['Dow Jones',4.88]\n";
@@ -156,7 +149,7 @@ class HomePage extends Page
     echo "\t\t\t\t// Create the data table.\n";
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
     echo "\t\t\t\t\t['Investment / Index', 'Net profit (USD)'],\n";
-    echo "\t\t\t\t\t['JM\'s Stocks',10009.49],\n";
+    echo "\t\t\t\t\t['Montoya\'s Stocks',10009.49],\n";
 	echo "\t\t\t\t\t['NASDAQ',5592.12],\n";	
 	echo "\t\t\t\t\t['S&P 500',4310.22],\n";
 	echo "\t\t\t\t\t['Dow Jones',1944.30]\n";
