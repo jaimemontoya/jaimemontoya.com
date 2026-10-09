@@ -3,7 +3,7 @@
   $index = new HomePage();
   $index->content .= "
 <hr>
-<h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">A Message From Warren E. Buffett, CEO of Berkshire Hathaway Inc.</h2>
+<h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">A message from Jaime Montoya, retail investor.</h2>
 
 <hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 7 October 2026.</h2>
