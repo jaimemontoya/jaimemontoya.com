@@ -4,7 +4,7 @@
   $index->content .= "
 <hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">A message from Jaime Montoya, retail investor.</h2>
-<p>San Salvador, 9 October 2026, 06:05 PM (UTC-4)</p>
+<p>San Salvador, 9 October 2026, 06:05 PM (UTC-4).</p>
 <p>Dear Reader,</p>
 <p>You probably know some of the golden rules of investment: Buy low, sell high. Pay yourself first. Past performance does not guarantee future results.</p>
     <p>But here is a lesser-known truth: unlike institutional fund managers, retail investors possess a structural advantage: Total freedom from performance pressures and regulatory mandates when it comes to investment philosophies and strategies.</p>
