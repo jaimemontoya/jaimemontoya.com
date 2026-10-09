@@ -150,7 +150,7 @@ class HomePage extends Page
     echo "\t\t\t\tconst data = google.visualization.arrayToDataTable([\n";
     echo "\t\t\t\t\t['Investment / Index', 'Net profit (USD)'],\n";
     echo "\t\t\t\t\t['Montoya\'s Stocks',8337.79],\n";
-	echo "\t\t\t\t\t['NASDAQ',$5594.12],\n";	
+	echo "\t\t\t\t\t['NASDAQ',5594.12],\n";	
 	echo "\t\t\t\t\t['S&P 500',4312.22],\n";
 	echo "\t\t\t\t\t['Dow Jones',1944.30]\n";
     echo "\t\t\t\t]);\n";
