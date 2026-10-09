@@ -4,22 +4,34 @@
   $index->content .= "
 <hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">A message from Jaime Montoya, retail investor.</h2>
+<p>San Salvador, 9 October 2026, 06:05 PM (UTC-4)</p>
 <p>Dear Reader,</p>
-<p>You probably know some of the golden rules of investment:</p>
-<ul>
-<li>Buy low, sell high.
-<li>Pay yourself first.
-<li>Past performance does not guarantee future results.
-</ul>
-<p>Unlike institutional fund managers, retail investors possess the structural advantage of total freedom from performance pressures and regulatory mandates when it comes to investment philosophies and strategies.</p>
-<p>I started investing in the stock market on 12 November 2024. I have two thoughts regarding my personal stock investments:</p>
-<ol>
-<li>I wish I had started earlier.
-<li>I am thankful I did not start later.
-</ol>
-<p>I am sharing my journey as a retail investor. I have purposefully chosen not to interpret these results, allowing the data to speak for itself.</p>
-<p>Sincerely,</p>
-<p>Jaime Montoya</p>
+<p>You probably know some of the golden rules of investment: <em>Buy low, sell high. Pay yourself first. Past performance does not guarantee future results.</em></p>
+    <p>But here is a lesser-known truth: unlike institutional fund managers, <strong>retail investors possess a structural advantage:</strong> Total freedom from performance pressures and regulatory mandates when it comes to investment philosophies and strategies.</p>
+    <h2>My investment philosophy is built on specific principles:</h2>
+    <ol>
+        <li><strong>Never trade but be a long-term investor.</strong></li>
+        <li><strong>Never rebalance; just buy and sell following personal investment principles from my philosophy and strategy.</strong></li>
+        <li><strong>Never invest in cryptocurrency.</strong></li>
+        <li><strong>Conduct all transactions solely through Interactive Brokers and the banking system; never use alternative intermediaries.</strong></li>
+        <li><strong>Buy consistently and regularly</strong> from continuous significant savings.</li>
+        <li><strong>Invest exclusively on the stock market always buying the richest company in the world by market capitalization (never ETFs, mutual funds, financial money managers, etc.).</strong></li>
+        <li><strong>Apply time in the market for buying, while timing the market for selling.</strong></li>
+        <li><strong>Permanently follow the news via TV, websites, apps, newspapers, and magazines from Bloomberg, Barron's, The Economist, Financial Times, and The Wall Street Journal to decide intelligently when to sell.</strong></li>
+        <li><strong>Execute sales using FIFO (First-In, First-Out).</strong></li>
+        <li><strong>Reinvest</strong> exclusively in the following: 1) Personal education, and 2) Paying off debt.</li>
+    </ol>
+    <p>My ultimate vision is a final lifetime balance that outperforms the market.</p>
+    <div>
+        <p>I started investing in the stock market on <strong>12 November 2024</strong>. Looking back at my personal stock investments, two thoughts stand out:</p>
+        <ul>
+            <li><strong>I wish I had started earlier.</strong></li>
+            <li><strong>I am thankful I did not start later.</strong></li>
+        </ul>
+    </div>
+    <p>I am sharing my journey as a retail investor transparently on this website. I have purposefully chosen not to interpret my investment's results, allowing the raw data to speak entirely for itself.</p>
+    <p>Sincerely,</p>
+    <p><strong>Jaime Montoya</strong></p>
 <hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 7 October 2026.</h2>
 <div id=\"annualized-return-xirr\"></div>
