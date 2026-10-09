@@ -12,7 +12,14 @@
 <li>Past performance does not guarantee future results.
 </ul>
 <p>Unlike institutional fund managers, retail investors possess the structural advantage of total freedom from performance pressures and regulatory mandates when it comes to investment philosophies and strategies.</p>
-<p>I started investing in the stock market on 12 November 2024. Sharing my investment philosophy and strategy is not an invitation for you to follow my path.</p>
+<p>I started investing in the stock market on 12 November 2024. I have two thoughts regarding my personal stock investments:</p>
+<ol>
+<li>I wish I had started earlier.
+<li>I am thankful I did not start later.
+</ol>
+<p>I am sharing my journey as a retail investor. I have purposefully chosen not to interpret these results, allowing the data to speak for itself.</p>
+<p>Sincerely,</p>
+<p>Jaime Montoya</p>
 <hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 7 October 2026.</h2>
 <div id=\"annualized-return-xirr\"></div>
