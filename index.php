@@ -4,12 +4,12 @@
   $index->content .= "
 <hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 9 October 2026.</h2>
-<table style=\"border-collapse: collapse; border: 1px solid black;color: #0f0\">
+<table style=\"border-collapse: collapse; border: 1px solid #0f0;\">
   <tr>
-    <td style=\"border: 1px solid black; padding: 10px; text-align: center;color: #0f0\">Jaime Montoya's Stock Portfolio:<span class=\"cod\">23.02%</span></td>
-    <td style=\"border: 1px solid black; padding: 10px; text-align: center;color: #0f0\">NASDAQ-100 (QQQ): 15.31%</td>
-    <td style=\"border: 1px solid black; padding: 10px; text-align: center;color: #0f0\">S&P 500 (SPY): 11.81%</td>
-    <td style=\"border: 1px solid black; padding: 10px; text-align: center;color: #0f0\">Dow Jones (DIA): 5.31%</td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio:<span class=\"cod\">23.02%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): 15.31%</td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): 11.81%</td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): 5.31%</td>
   </tr>
 </table>
 <p> ·  ·  · </p>
