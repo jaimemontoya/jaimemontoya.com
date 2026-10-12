@@ -73,7 +73,17 @@ class HomePage extends Page
     echo "\t\t\t\t\t\ttitle: '',\n";
     echo "\t\t\t\t\t\ttitlePosition: 'none',\n";
     echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'}\n";
-    echo "\t\t\t\t\t},\n";
+    echo "\t\t\t\t\t}series: {
+            0: { lineDashStyle: [1, 1] },
+            1: { lineDashStyle: [2, 2] },
+            2: { lineDashStyle: [4, 4] },
+            3: { lineDashStyle: [5, 1, 3] },
+            4: { lineDashStyle: [4, 1] },
+            5: { lineDashStyle: [10, 2] },
+            6: { lineDashStyle: [14, 2, 7, 2] },
+            7: { lineDashStyle: [14, 2, 2, 7] },
+            8: { lineDashStyle: [2, 2, 20, 2, 20, 2] }
+          },,\n";
     echo "\t\t\t\t\tcolors: ['#e2431e','#0f0'],\n";
 	echo "\t\t\t\t\tchartArea: {\n";
     echo "\t\t\t\t\t\tbackgroundColor: '#000'\n";
