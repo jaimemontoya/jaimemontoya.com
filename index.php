@@ -4,12 +4,7 @@
   $index->content .= "
 <hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 9 October 2026.</h2>
-<ul>
-<li>Jaime Montoya's Stock Portfolio:<span class=\"cod\">23.02%</span>
-<li>NASDAQ-100 (QQQ): 15.31%
-<li>S&P 500 (SPY): 11.81%
-<li>Dow Jones (DIA): 5.31%
-</ul>
+<p>Jaime Montoya's Stock Portfolio:<span class=\"cod\">23.02%</span> · NASDAQ-100 (QQQ): 15.31% · S&P 500 (SPY): 11.81% · Dow Jones (DIA): 5.31%</p>
 <div id=\"annualized-return-xirr\"></div>
 <hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Total ROI Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 9 October 2026.</h2>
