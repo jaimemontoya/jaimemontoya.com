@@ -4,7 +4,7 @@
   $index->content .= "
 <hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 9 October 2026.</h2>
-<table border=\"1\">
+<table style=\"border-collapse: collapse; border: 1px solid black;\">
   <tr>
     <td>Jaime Montoya's Stock Portfolio:<span class=\"cod\">23.02%</span></td>
     <td>NASDAQ-100 (QQQ): 15.31%</td>
