@@ -6,7 +6,7 @@
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 12 October 2026.</h2>
 <table style=\"border-collapse: collapse; border: 1px solid #0f0;\">
   <tr>
-    <td>Annualized Return (XIRR)</td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Annualized Return (XIRR)</td>
   </tr>
   <tr>
     <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">21.05%</span></td>
