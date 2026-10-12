@@ -74,7 +74,7 @@ class HomePage extends Page
     echo "\t\t\t\t\t\ttitlePosition: 'none',\n";
     echo "\t\t\t\t\t\ttextStyle: {color: '#0f0'}\n";
     echo "\t\t\t\t\t},\n";
-    echo "\t\t\t\t\tcolors: ['#0f0'],\n";
+    echo "\t\t\t\t\tcolors: ['#e2431e','#0f0'],\n";
 	echo "\t\t\t\t\tchartArea: {\n";
     echo "\t\t\t\t\t\tbackgroundColor: '#000'\n";
     echo "\t\t\t\t\t},\n";
