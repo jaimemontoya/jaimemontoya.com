@@ -9,10 +9,10 @@
     <th colspan=\"4\" style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Annualized Return (XIRR) from 12 November 2024 to 13 October 2026</th>
   </tr>
   <tr>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">21.05%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">15.12%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">11.58%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">5.22%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">22.47%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">14.77%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">11.94%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">5.47%</span></td>
   </tr>
 </table>
 <div id=\"annualized-return-xirr\"></div>
@@ -101,16 +101,16 @@
                         <tr>
                             <td class=\"font-bold\">Jaime Montoya's stock portfolio</td>
                             <td class=\"font-bold\">$39,878.16</td>
-                            <td class=\"font-bold\">+$7,658.73</td>
-                            <td class=\"font-bold\">+19.21%</td>
-                            <td class=\"font-bold\">+21.05%</td>
+                            <td class=\"font-bold\">+$8,254.72</td>
+                            <td class=\"font-bold\">+20.70%</td>
+                            <td class=\"font-bold\">+22.47%</td>
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>NVIDIA (NVDA) Total</strong></td>
                             <td class=\"font-italic\">$39,619.36</td>
-                            <td class=\"font-italic\">+$7,663.67</td>
-                            <td class=\"font-italic\">+19.34%</td>
-                            <td class=\"font-italic\">+21.16%</td>
+                            <td class=\"font-italic\">+$8,259.66</td>
+                            <td class=\"font-italic\">+20.85%</td>
+                            <td class=\"font-italic\">+22.58%</td>
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>Amazon (AMZN) Total</strong></td>
@@ -129,23 +129,23 @@
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">NASDAQ-100 (QQQ)</td>
                             <td>$39,878.16</td>
-                            <td class=\"font-bold\">+$5,635.40</td>
-                            <td class=\"font-bold\">+14.13%</td>
-                            <td class=\"font-bold\">+15.12%</td>
+                            <td class=\"font-bold\">+$5,064.52</td>
+                            <td class=\"font-bold\">+12.70%</td>
+                            <td class=\"font-bold\">+14.77%</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">S&P 500 (SPY)</td>
                             <td>$39,878.16</td>
-                            <td class=\"font-bold\">+$4,322.10</td>
-                            <td class=\"font-bold\">+10.84%</td>
-                            <td class=\"font-bold\">+11.58%</td>
+                            <td class=\"font-bold\">+$4,103.11</td>
+                            <td class=\"font-bold\">+10.29%</td>
+                            <td class=\"font-bold\">+11.94%</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">Dow Jones (DIA)</td>
                             <td>$39,878.16</td>
-                            <td class=\"font-bold\">+$1,948.50</td>
-                            <td class=\"font-bold\">+4.89%</td>
-                            <td class=\"font-bold\">+5.22%</td>
+                            <td class=\"font-bold\">+$1,885.24</td>
+                            <td class=\"font-bold\">+4.73%</td>
+                            <td class=\"font-bold\">+5.47%</td>
                         </tr>
                     </tbody>
                 </table>
