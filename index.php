@@ -101,16 +101,16 @@
                         <tr>
                             <td class=\"font-bold\">Jaime Montoya's stock portfolio</td>
                             <td class=\"font-bold\">$39,878.16</td>
-                            <td class=\"font-bold\">+$8,254.72</td>
-                            <td class=\"font-bold\">+20.70%</td>
-                            <td class=\"font-bold\">+22.47%</td>
+                            <td class=\"font-bold\">+$4,947.78</td>
+                            <td class=\"font-bold\">+12.41%</td>
+                            <td class=\"font-bold\">+13.12%</td>
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>NVIDIA (NVDA) Total</strong></td>
                             <td class=\"font-italic\">$39,619.36</td>
-                            <td class=\"font-italic\">+$8,259.66</td>
-                            <td class=\"font-italic\">+20.85%</td>
-                            <td class=\"font-italic\">+22.58%</td>
+                            <td class=\"font-italic\">+$4,952.72</td>
+                            <td class=\"font-italic\">+12.50%</td>
+                            <td class=\"font-italic\">+13.21%</td>
                         </tr>
                         <tr>
                             <td class=\"indent-sub\">&bull; <strong>Amazon (AMZN) Total</strong></td>
@@ -129,23 +129,23 @@
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">NASDAQ-100 (QQQ)</td>
                             <td>$39,878.16</td>
-                            <td class=\"font-bold\">+$5,064.52</td>
-                            <td class=\"font-bold\">+12.70%</td>
-                            <td class=\"font-bold\">+14.77%</td>
+                            <td class=\"font-bold\">+$3,248.55</td>
+                            <td class=\"font-bold\">+8.15%</td>
+                            <td class=\"font-bold\">+8.85%</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">S&P 500 (SPY)</td>
                             <td>$39,878.16</td>
-                            <td class=\"font-bold\">+$4,103.11</td>
-                            <td class=\"font-bold\">+10.29%</td>
-                            <td class=\"font-bold\">+11.94%</td>
+                            <td class=\"font-bold\">+$2,810.35</td>
+                            <td class=\"font-bold\">+7.05%</td>
+                            <td class=\"font-bold\">+7.42%</td>
                         </tr>
                         <tr class=\"row-hypothetical\">
                             <td class=\"font-bold\">Dow Jones (DIA)</td>
                             <td>$39,878.16</td>
-                            <td class=\"font-bold\">+$1,885.24</td>
-                            <td class=\"font-bold\">+4.73%</td>
-                            <td class=\"font-bold\">+5.47%</td>
+                            <td class=\"font-bold\">+$1,224.12</td>
+                            <td class=\"font-bold\">+3.07%</td>
+                            <td class=\"font-bold\">+3.22%</td>
                         </tr>
                     </tbody>
                 </table>
@@ -154,6 +154,7 @@
     })();
 </script>
 <!-- Isolated Terminal Style Table Container End -->
+
 <!-- Credits: https://share.google/aimode/HSQ0zdWOokfq8otas -->  
   <hr>
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's investments from 12 April 2024 to 16 October 2026.</h2>
