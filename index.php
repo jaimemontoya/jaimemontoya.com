@@ -3,7 +3,7 @@
   $index = new HomePage();
   $index->content .= "
 <hr>
-<p><span class=\"cod\">Jaime Montoya is beating the market</span> with an Annualized Return (XIRR) from 12 November 2024 to 16 October 2026 of <span class=\"cod\">19.34%</span>, versus the XIRR of NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) being <span class=\"cod\">12.33%</span>, <span class=\"cod\">10.42%</span>, and <span class=\"cod\">5.21%</span>, respectively.</p>
+<p><span class=\"cod\">Jaime Montoya is beating the market</span> with an <span class=\"cod\">annualized return (XIRR) of 19.34%</span> from 12 November 2024 to 16 October 2026, outperforming <span class=\"cod\">QQQ (12.33%), SPY (10.42%),</span> and <span class=\"cod\">DIA (5.21%).</p>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 16 October 2026.</h2>
 <table style=\"border-collapse: collapse; border: 1px solid #0f0;\">
   <tr>
