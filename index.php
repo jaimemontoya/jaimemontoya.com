@@ -181,6 +181,9 @@
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">The Matthew Effect Strategy - How to Beat the Market by Investing Exclusively in Winner-Take-All Giants</h2>
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Introduction</h2>
   <p>The Matthew Effect—the biblical principle that wealth compounds to the wealthy—is my definitive playbook to outperform the market.</p>
+  <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Chapter 1. Capital Behemoths: A Financial History of the World’s Most Valuable Companies</h2>
+  <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Nvidia Corporation</h2>
+  <p>On 18 June 2024, Nvidia closed the trading day as the most valuable publicly traded company on Earth, dethroning two tech behemoths that had dominated the market for years: Microsoft and Apple. This was no temporary fluke; by October 2026, Nvidia continued to hold the global crown, safely maintaining its number-one spot ahead of its rivals.</p>
   <hr>
   ";
   $index->Display();
