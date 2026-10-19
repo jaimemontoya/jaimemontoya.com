@@ -178,6 +178,10 @@
   <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Richest people, last updated 16 October 2026.</h2>
   <div id=\"richest-people\"></div>
   <hr>
+  <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">The Matthew Effect Strategy - How to Beat the Market by Investing Exclusively in Winner-Take-All Giants</h2>
+  <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Introduction</h2>
+  <p>The Matthew Effect—the biblical principle that wealth compounds to the wealthy—is my definitive playbook to outperform the market.</p>
+  <hr>
   ";
   $index->Display();
 ?>
