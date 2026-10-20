@@ -556,10 +556,10 @@ The Wall Street Journal				PASSED
 
 32. items
 
-st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1642h. 12m. 43s.																	MODIFIED!
-2nd.      -- 1. From July 16, 2024 to ?: Team International: 1523h. 07m. 32s.																MODIFIED!
+1st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1651h. 40m. 57s.																	MODIFIED!
+2nd.      -- 1. From July 16, 2024 to ?: Team International: 1529h. 56m. 06s.																MODIFIED!
 3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 412h. 58m. 57s.																	MODIFIED!
-4th.      -- 30. From 11 May 2026 to ?: Reading business/economics subscriptions: 328h. 39m. 36s.											MODIFIED!
+4th.      -- 30. From 11 May 2026 to ?: Reading business/economics subscriptions: 332h. 08m. 40s.											MODIFIED!
 5th.      -- 18. From 4 Feb 2025 to ?: Personal finance software: 240h. 13m. 45s.															MODIFIED!
 6th.      -- 3. From July 16, 2024 to ?: unionchurchss.org & UCSS Board Total: 223h. 42m.
 7th.      -- 7. From September 4, 2024 to ?: Cupon Club: 182h. 38m. 23s.
@@ -587,4 +587,4 @@ st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1642h. 12m. 43s.							
 29th.     -- 26. From 8 October 2025 to ?: LinkedIn: 1h. 31m. 46s.																			MODIFIED!
 30th.     -- 4. From July 23, 2024 to ?: Freelancing consulting services with Carlos Alvarenga Total: 1h. 11m.
 31th.     -- 22. From 28 June 2025 to ?: Objective 1.2: 1h. 3m. 37s.
-32th.	  -- 32. From 19 October 2026 to ?: Writing "Beating the market book": 0h. 34m. 36s.												MODIFIED!
+32th.	  -- 32. From 19 October 2026 to ?: Writing "Beating the market book": 0h. 55m. 25s.												MODIFIED!
