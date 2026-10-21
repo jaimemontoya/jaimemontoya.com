@@ -135,22 +135,23 @@
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">NASDAQ-100 (QQQ)</td> 
                     <td>$39,878.16</td> 
-                    <td class=\"font-bold\">+$5,148.27</td> 
-                    <td class=\"font-bold\">+12.91%</td> 
-                    <td class=\"font-bold\">+14.15%</td> 
+                    <td class=\"font-bold\">+$7,734.29</td> 
+                    <td class=\"font-bold\">+19.39%</td> 
+                    <td class=\"font-bold\">+14.22%</td> 
                 </tr> 
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">S&P 500 (SPY)</td> 
                     <td>$39,878.16</td> 
-                    <td class=\"font-bold\">+$4,023.70</td> 
-                    <td class=\"font-bold\">+10.09%</td> 
-                    <td class=\"font-bold\">+11.23%</td> 
+                    <td class=\"font-bold\">+$6,609.94</td> 
+                    <td class=\"font-bold\">+16.58%</td> 
+                    <td class=\"font-bold\">+12.18%</td> 
                 </tr> 
                 <tr class=\"row-hypothetical\"> 
-                    <td class=\"font-bold\">Dow Jones (DIA)</td> <td>$39,878.16</td> 
-                    <td class=\"font-bold\">+$1,842.36</td> 
-                    <td class=\"font-bold\">+4.62%</td> 
-                    <td class=\"font-bold\">+5.22%</td> 
+                    <td class=\"font-bold\">Dow Jones (DIA)</td> 
+                    <td>$39,878.16</td> 
+                    <td class=\"font-bold\">+$2,027.64</td> 
+                    <td class=\"font-bold\">+5.08%</td> 
+                    <td class=\"font-bold\">+3.85%</td> 
                 </tr> 
             </tbody> 
         </table> 
@@ -158,6 +159,7 @@
 })(); 
 </script> 
 <!-- Isolated Terminal Style Table Container End -->
+
 
 
 <!-- Credits: https://share.google/aimode/HSQ0zdWOokfq8otas -->  
