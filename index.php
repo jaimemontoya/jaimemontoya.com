@@ -147,8 +147,7 @@
                     <td class=\"font-bold\">+11.23%</td> 
                 </tr> 
                 <tr class=\"row-hypothetical\"> 
-                    <td class=\"font-bold\">Dow Jones (DIA)</td> 
-                    <td>$39,878.16</td> 
+                    <td class=\"font-bold\">Dow Jones (DIA)</td> <td>$39,878.16</td> 
                     <td class=\"font-bold\">+$1,842.36</td> 
                     <td class=\"font-bold\">+4.62%</td> 
                     <td class=\"font-bold\">+5.22%</td> 
@@ -159,6 +158,7 @@
 })(); 
 </script> 
 <!-- Isolated Terminal Style Table Container End -->
+
 
 <!-- Credits: https://share.google/aimode/HSQ0zdWOokfq8otas -->  
   <hr>
