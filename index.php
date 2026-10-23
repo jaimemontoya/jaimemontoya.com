@@ -3,17 +3,17 @@
   $index = new HomePage();
   $index->content .= "
 <hr>
-<p><span class=\"cod\">Jaime Montoya is beating the market</span> with an <span class=\"cod\">annualized return (XIRR) of 24.01%</span> from 12 November 2024 to 23 October 2026, outperforming <span class=\"cod\">QQQ (18.12%), SPY (14.65%),</span> and <span class=\"cod\">DIA (6.85%).</p>
+<p><span class=\"cod\">Jaime Montoya is beating the market</span> with an <span class=\"cod\">annualized return (XIRR) of 16.59%</span> from 12 November 2024 to 23 October 2026, outperforming <span class=\"cod\">QQQ (14.71%), SPY (14.65%),</span> and <span class=\"cod\">DIA (6.12%).</p>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 23 October 2026.</h2>
 <table style=\"border-collapse: collapse; border: 1px solid #0f0;\">
   <tr>
     <th colspan=\"4\" style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Annualized Return (XIRR) from 12 November 2024 to 23 October 2026</th>
   </tr>
   <tr>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">24.01%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">18.12%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">16.59%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">14.71%</span></td>
     <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">14.65%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">6.85%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">6.12%</span></td>
   </tr>
 </table>
 <div id=\"annualized-return-xirr\"></div>
