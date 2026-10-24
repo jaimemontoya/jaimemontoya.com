@@ -3,8 +3,8 @@
   $index = new HomePage();
   $index->content .= "
 <hr>
-<p><span class=\"cod\">Jaime Montoya is beating the market</span> with an <span class=\"cod\">annualized return (XIRR) of 16.59%</span> from 12 November 2024 to 23 October 2026, outperforming <span class=\"cod\">QQQ (14.71%), SPY (14.65%),</span> and <span class=\"cod\">DIA (6.12%).</p>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 23 October 2026.</h2>
+<p><span class=\"cod\">Jaime Montoya is beating the market</span> with an <span class=\"cod\">annualized return (XIRR) of 16.59%</span> from 12 November 2024 to 23 October 2026, outperforming <span class=\"cod\">QQQ (14.71%), SPY (14.65%),</span> and <span class=\"cod\">DIA (6.12%).</p>
 <table style=\"border-collapse: collapse; border: 1px solid #0f0;\">
   <tr>
     <th colspan=\"4\" style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Annualized Return (XIRR) from 12 November 2024 to 23 October 2026</th>
