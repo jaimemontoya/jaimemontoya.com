@@ -9,7 +9,7 @@
 <div class=\"center\"><img src=\"img/NVIDIA_logo.jpg\" alt=\"Nvidia Corporation logo\" width=\"206\" height=\"140\"></div>
 <hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 23 October 2026.</h2>
-<p><span class=\"cod\">Jaime Montoya is outperforming all three major benchmarks: the S&P 500, Nasdaq, and Dow Jones.</span> From 12 November 2024 to 23 October 2026, Montoya achieved an <span class=\"cod\">annualized return (XIRR) of 16.59%,</span> outperforming the corresponding annualized total returns of QQQ (14.71%), SPY (14.65%), and DIA (6.12%).</p>
+<p>From 12 November 2024 to 23 October 2026, Montoya achieved an <span class=\"cod\">annualized return (XIRR) of 16.59%,</span> outperforming the corresponding annualized total returns of QQQ (14.71%), SPY (14.65%), and DIA (6.12%).</p>
 <table style=\"border-collapse: collapse; border: 1px solid #0f0;\">
   <tr>
     <th colspan=\"4\" style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Annualized Return (XIRR) from 12 November 2024 to 23 October 2026</th>
