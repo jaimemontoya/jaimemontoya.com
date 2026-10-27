@@ -3,13 +3,7 @@
   $index = new HomePage();
   $index->content .= "
 <hr>
-<p>Since 12 November 2024, my investment philosophy has been inspired by the Matthew effect, sometimes called the Matthew principle or cumulative advantage. For that reason, whenever I buy stocks I only choose the world's most valuable company by market capitalization. I follow a disciplined, long-term strategy of investing exclusively in the number-one company. I passionately advocate for 1) Financial greatness 2) Freedom from financial debt. This is the Matthew 25:29 Bible verse in the King James Verse:</p>
-<div class=\"center\"><img src=\"img/kingJamesBibleMatthewCh25V29.jpg\" alt=\"Matthew 25:29 in the King James Version\" width=\"318\" height=\"70\"></div>
-<p>Following my investment philosophy, if I were to buy stocks today 26 October 2026, Nvidia Corporation (NVDA) is the company where I would invest it all:</p>
-<div class=\"center\"><img src=\"img/NVIDIA_logo.jpg\" alt=\"Nvidia Corporation logo\" width=\"206\" height=\"140\"></div>
-<hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 23 October 2026.</h2>
-<p>From 12 November 2024 to 23 October 2026, Montoya achieved an <span class=\"cod\">annualized return (XIRR) of 16.59%,</span> outperforming the corresponding annualized total returns of QQQ (14.71%), SPY (14.65%), and DIA (6.12%).</p>
 <table style=\"border-collapse: collapse; border: 1px solid #0f0;\">
   <tr>
     <th colspan=\"4\" style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Annualized Return (XIRR) from 12 November 2024 to 23 October 2026</th>
