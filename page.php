@@ -80,7 +80,7 @@ class Page
   }
   public function DisplayHeader()
   {
-    echo "\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"jaimemontoya.com\">jaimemontoya.com</a>\n\t\t\t</div><span>The Matthew Effect Portfolio: Compounding with the World's Number One Leader.</span>\n";
+    echo "\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"jaimemontoya.com\">jaimemontoya.com</a>\n\t\t\t</div>\n";
     // $this -> DisplayMenu($this->buttons);
     echo "\t\t</header>\n";
   }
