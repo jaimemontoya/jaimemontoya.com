@@ -3,7 +3,7 @@
   $index = new HomePage();
   $index->content .= "
 <hr>
-<p>Data accurate as of 30 October 2026 at 4:00 PM EST (US Market Close).</p>
+<p><span class=\"cod\">Data accurate as of 30 October 2026 at 4:00 PM EST (US Market Close).</span></p>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 30 October 2026.</h2>
 <table style=\"border-collapse: collapse; border: 1px solid #0f0;\">
   <tr>
