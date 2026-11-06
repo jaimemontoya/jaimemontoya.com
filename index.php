@@ -11,9 +11,9 @@
   </tr>
   <tr>
     <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">-3.97%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">14.39%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">13.11%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">11.28%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">9.45%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">7.91%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">3.20%</span></td>
   </tr>
 </table>
 <div id=\"annualized-return-xirr\"></div>
@@ -25,9 +25,9 @@
   </tr>
   <tr>
     <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">-2.82%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">29.83%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">27.04%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">23.09%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">11.82%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">9.81%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">3.92%</span></td>
   </tr>
 </table>
 <div id=\"total-roi\"></div>
@@ -39,9 +39,9 @@
   </tr>
   <tr>
     <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">-$1,125.50</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">$11,895.65</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">$10,782.91</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">$9,207.87</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">$4,714.28</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">$3,912.44</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">$1,563.15</span></td>
   </tr>
 </table>
 <div id=\"net-profit\"></div>
