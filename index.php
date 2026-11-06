@@ -157,23 +157,23 @@
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">NASDAQ-100 (QQQ)</td> 
                     <td>$39,878.16</td> 
-                    <td class=\"font-bold\">+$11,895.65</td> 
-                    <td class=\"font-bold\">+29.83%</td> 
-                    <td class=\"font-bold\">+14.39%</td> 
+                    <td class=\"font-bold\">+$4,714.28</td> 
+                    <td class=\"font-bold\">+11.82%</td> 
+                    <td class=\"font-bold\">+9.45%</td> 
                 </tr> 
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">S&P 500 (SPY)</td> 
                     <td>$39,878.16</td> 
-                    <td class=\"font-bold\">+$10,782.91</td> 
-                    <td class=\"font-bold\">+27.04%</td> 
-                    <td class=\"font-bold\">+13.11%</td> 
+                    <td class=\"font-bold\">+$3,912.44</td> 
+                    <td class=\"font-bold\">+9.81%</td> 
+                    <td class=\"font-bold\">+7.91%</td> 
                 </tr> 
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">Dow Jones (DIA)</td> 
                     <td>$39,878.16</td> 
-                    <td class=\"font-bold\">+$9,207.87</td> 
-                    <td class=\"font-bold\">+23.09%</td> 
-                    <td class=\"font-bold\">+11.28%</td> 
+                    <td class=\"font-bold\">+$1,563.15</td> 
+                    <td class=\"font-bold\">+3.92%</td> 
+                    <td class=\"font-bold\">+3.20%</td> 
                 </tr> 
             </tbody> 
         </table> 
@@ -181,6 +181,7 @@
 })(); 
 </script> 
 <!-- Isolated Terminal Style Table Container End -->
+
 
 
 
