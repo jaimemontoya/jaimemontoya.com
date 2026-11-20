@@ -129,23 +129,23 @@
                 <tr> 
                     <td class=\"font-bold\">Jaime Montoya's stock portfolio</td> 
                     <td class=\"font-bold\">$46,323.37</td> 
-                    <td class=\"font-bold\">-$10,228.32</td> 
-                    <td class=\"font-bold\">-22.08%</td> 
-                    <td class=\"font-bold\">-16.68%</td> 
+                    <td class=\"font-bold\">-$13,202.23</td> 
+                    <td class=\"font-bold\">-28.50%</td> 
+                    <td class=\"font-bold\">-21.90%</td> 
                 </tr> 
                 <tr> 
                     <td class=\"indent-sub\">&bull; <strong>Apple (AAPL) Total</strong></td> 
                     <td class=\"font-italic\">$6,445.21</td> 
-                    <td class=\"font-italic\">-$123.90</td> 
-                    <td class=\"font-italic\">-1.92%</td> 
-                    <td class=\"font-italic\">-63.66%</td> 
+                    <td class=\"font-italic\">-$243.20</td> 
+                    <td class=\"font-italic\">-3.77%</td> 
+                    <td class=\"font-italic\">-82.71%</td> 
                 </tr> 
                 <tr> 
                     <td class=\"indent-sub\">&bull; <strong>NVIDIA (NVDA) Total</strong></td> 
                     <td class=\"font-italic\">$39,619.36</td> 
-                    <td class=\"font-italic\">-$10,099.47</td> 
-                    <td class=\"font-italic\">-25.49%</td> 
-                    <td class=\"font-italic\">-33.81%</td> 
+                    <td class=\"font-italic\">-$12,954.08</td> 
+                    <td class=\"font-italic\">-32.70%</td> 
+                    <td class=\"font-italic\">-43.29%</td> 
                 </tr> 
                 <tr> 
                     <td class=\"indent-sub\">&bull; <strong>Amazon (AMZN) Total</strong></td> 
@@ -164,23 +164,23 @@
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">NASDAQ-100 (QQQ)</td> 
                     <td>$46,323.37</td> 
-                    <td class=\"font-bold\">+$8,292.07</td> 
-                    <td class=\"font-bold\">+17.90%</td> 
-                    <td class=\"font-bold\">+12.19%</td> 
+                    <td class=\"font-bold\">+$6,374.95</td> 
+                    <td class=\"font-bold\">+13.76%</td> 
+                    <td class=\"font-bold\">+9.43%</td> 
                 </tr> 
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">S&P 500 (SPY)</td> 
                     <td>$46,323.37</td> 
-                    <td class=\"font-bold\">+$6,815.57</td> 
-                    <td class=\"font-bold\">+14.71%</td> 
-                    <td class=\"font-bold\">+10.09%</td> 
+                    <td class=\"font-bold\">+$5,949.01</td> 
+                    <td class=\"font-bold\">+12.84%</td> 
+                    <td class=\"font-bold\">+8.82%</td> 
                 </tr> 
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">Dow Jones (DIA)</td> 
                     <td>$46,323.37</td> 
-                    <td class=\"font-bold\">+$4,190.81</td> 
-                    <td class=\"font-bold\">+9.05%</td> 
-                    <td class=\"font-bold\">+6.29%</td> 
+                    <td class=\"font-bold\">+$3,305.35</td> 
+                    <td class=\"font-bold\">+7.14%</td> 
+                    <td class=\"font-bold\">+4.96%</td> 
                 </tr> 
             </tbody> 
         </table> 
@@ -188,6 +188,7 @@
 })(); 
 </script> 
 <!-- Isolated Terminal Style Table Container End -->
+
 
 
 
