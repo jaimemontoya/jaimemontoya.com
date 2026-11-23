@@ -133,7 +133,7 @@ The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
 
 Saturday, 09 August 2026:
-Running 						FAILED
+Running 							PASSED
 Studying 						FAILED
 The Expanded Bible devotional!	FAILED
 The Wall Street Journal				PASSED
@@ -603,16 +603,16 @@ The Wall Street Journal				PASSED
 
 32. items
 
-1st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1725h. 05m. 49s.																	MODIFIED!
-2nd.      -- 1. From July 16, 2024 to ?: Team International: 1557h. 27m. 41s.																MODIFIED!
-3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 427h. 36m. 34s.																	MODIFIED!
-4th.      -- 30. From 11 May 2026 to ?: Reading business/economics subscriptions: 424h. 40m. 20s.											MODIFIED!
+1st.      -- 14. From December 12, 2024 to ?: UCSS Board: 1731h. 37m. 35s.																	MODIFIED!
+2nd.      -- 1. From July 16, 2024 to ?: Team International: 1557h. 36m. 10s.																MODIFIED!
+3rd.      -- 2. From July 16, 2024 to ?: jaimemontoya.com: 431h. 30m. 34s.																	MODIFIED!
+4th.      -- 30. From 11 May 2026 to ?: Reading business/economics subscriptions: 435h. 19m. 03s.											MODIFIED!
 5th.      -- 18. From 4 Feb 2025 to ?: Personal finance software: 248h. 13m. 41s.															MODIFIED!
 6th.      -- 3. From July 16, 2024 to ?: unionchurchss.org & UCSS Board Total: 223h. 42m.
 7th.      -- 7. From September 4, 2024 to ?: Cupon Club: 185h. 41m. 52s.
-8th.      -- 13. From December 12, 2024 to ?: UCSS Children's Ministry 164h. 47m. 13s.
+8th.      -- 13. From December 12, 2024 to ?: UCSS Children's Ministry 165h. 57m. 13s.
 9th.      -- 20. From 28 Mar 2025 to ?: Wedding & honeymoon & anniversary: 72h. 32m. 06s.
-10th.     -- 16. From Jan 15, 2025 to ?: Adult Bible teaching: 77h. 49m. 46s.																MODIFIED!
+10th.     -- 16. From Jan 15, 2025 to ?: Adult Bible teaching: 78h. 55m. 18s.																MODIFIED!
 11th.     -- 27. From 22 October 2025 to ?: Bible study as a student: 72h 10m. 59s.															MODIFIED!
 12th.     -- 23. From 28 June 2025 to ?: Cleaning, ordering, & house maintenance: 57h. 59m. 51s.											MODIFIED!
 13th.     -- 5. From August 22, 2024 to ?: Coursera: 52h. 19m. 15s.																			MODIFIED!
