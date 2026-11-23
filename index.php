@@ -4,9 +4,9 @@
   $index->content .= "
 <hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Mission</h2>
-<p>To beat the market with individual stocks over index ETFs, documented through a live portfolio experiment tracking real-money investments against QQQ, SPY, and DIA.</p>
+<p>To beat the market with individual stocks over index ETFs, documented through a live portfolio experiment tracking real-money investments against QQQ, SPY, and DIA.*</p>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Vision</h2>
-<p>To prove that disciplined individual stock picking can outperform passive indexing over a lifetime.</p>
+<p>To prove that disciplined individual stock picking can outperform passive indexing over a lifetime.*</p>
 <p>* Mission and Vision created and last updated Mon Nov 23 16:40:13 2026 -0600.</p>
 <p><span class=\"cod\">Data accurate as of 20 November 2026 at 4:00 PM EST (US Market Close).</span></p>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 20 November 2026.</h2>
