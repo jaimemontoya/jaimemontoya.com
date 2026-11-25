@@ -51,7 +51,6 @@
 <div id=\"net-profit\"></div>
 <hr>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Stock Investments from 12 November 2024 to 20 November 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA).</h2>
-
 <!-- Isolated Terminal Style Table Container Start --> 
 <div id=\"jaime-portfolio-terminal-table-root\"></div> 
 <script> 
@@ -134,23 +133,23 @@
                 <tr> 
                     <td class=\"font-bold\">Jaime Montoya's stock portfolio</td> 
                     <td class=\"font-bold\">$46,323.37</td> 
-                    <td class=\"font-bold\">-$7,079.92</td> 
-                    <td class=\"font-bold\">-15.28%</td> 
-                    <td class=\"font-bold\">-23.13%</td> 
+                    <td class=\"font-bold\">-$7,652.55</td> 
+                    <td class=\"font-bold\">-16.52%</td> 
+                    <td class=\"font-bold\">-12.16%</td> 
                 </tr> 
                 <tr> 
                     <td class=\"indent-sub\">&bull; <strong>Apple (AAPL) Total</strong></td> 
                     <td class=\"font-italic\">$6,445.21</td> 
-                    <td class=\"font-italic\">-$152.42</td> 
-                    <td class=\"font-italic\">-2.36%</td> 
-                    <td class=\"font-italic\">-54.80%</td> 
+                    <td class=\"font-italic\">-$64.70</td> 
+                    <td class=\"font-italic\">-1.00%</td> 
+                    <td class=\"font-italic\">-26.43%</td> 
                 </tr> 
                 <tr> 
                     <td class=\"indent-sub\">&bull; <strong>NVIDIA (NVDA) Total</strong></td> 
                     <td class=\"font-italic\">$39,619.36</td> 
-                    <td class=\"font-italic\">-$6,922.56</td> 
-                    <td class=\"font-italic\">-17.47%</td> 
-                    <td class=\"font-italic\">-22.80%</td> 
+                    <td class=\"font-italic\">-$7,582.91</td> 
+                    <td class=\"font-italic\">-19.14%</td> 
+                    <td class=\"font-italic\">-24.91%</td> 
                 </tr> 
                 <tr> 
                     <td class=\"indent-sub\">&bull; <strong>Amazon (AMZN) Total</strong></td> 
@@ -169,23 +168,23 @@
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">NASDAQ-100 (QQQ)</td> 
                     <td>$46,323.37</td> 
-                    <td class=\"font-bold\">+$10,062.84</td> 
-                    <td class=\"font-bold\">+21.72%</td> 
-                    <td class=\"font-bold\">+14.64%</td> 
+                    <td class=\"font-bold\">+$7,719.41</td> 
+                    <td class=\"font-bold\">+16.66%</td> 
+                    <td class=\"font-bold\">+11.09%</td> 
                 </tr> 
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">S&P 500 (SPY)</td> 
                     <td>$46,323.37</td> 
-                    <td class=\"font-bold\">+$8,410.28</td> 
-                    <td class=\"font-bold\">+18.16%</td> 
-                    <td class=\"font-bold\">+12.30%</td> 
+                    <td class=\"font-bold\">+$7,155.78</td> 
+                    <td class=\"font-bold\">+15.45%</td> 
+                    <td class=\"font-bold\">+10.31%</td> 
                 </tr> 
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">Dow Jones (DIA)</td> 
                     <td>$46,323.37</td> 
-                    <td class=\"font-bold\">+$4,812.53</td> 
-                    <td class=\"font-bold\">+10.39%</td> 
-                    <td class=\"font-bold\">+7.15%</td> 
+                    <td class=\"font-bold\">+$4,945.92</td> 
+                    <td class=\"font-bold\">+10.68%</td> 
+                    <td class=\"font-bold\">+7.20%</td> 
                 </tr> 
             </tbody> 
         </table> 
@@ -193,6 +192,7 @@
 })(); 
 </script> 
 <!-- Isolated Terminal Style Table Container End -->
+
 
 
 <!-- Credits: https://share.google/aimode/yQsVJmze8gidycuiR -->  
