@@ -83,8 +83,8 @@ class Page
     echo "\t\t<header>\n\t\t\t<div class=\"logo\">\n\t\t\t\t<a href=\"/\" title=\"jaimemontoya.com\">jaimemontoya.com</a>\n\t\t\t</div>\n";
     // $this -> DisplayMenu($this->buttons);
 	echo "
-<p style=\"margin: 0.35rem 0 0.25rem 0; font-size: 1.15rem; font-weight: 600; color: #111827; line-height: 1.4;\">Open-book investing: Tracking my race against the market.</p>
-<p style=\"margin: 0 0 1.5rem 0; font-size: 0.95rem; font-weight: 400; color: #4b5563; line-height: 1.4;\">Live portfolio performance benchmarked against the S&amp;P 500, NASDAQ-100, and Dow Jones.</p>
+<p style=\"margin: 0.35rem 0 0.25rem 0; font-size: 1.15rem; font-weight: 600; color: #0f0!important; line-height: 1.4;\">Open-book investing: Tracking my race against the market.</p>
+<p style=\"margin: 0 0 1.5rem 0; font-size: 0.95rem; font-weight: 400; color: #0f0!important; line-height: 1.4;\">Live portfolio performance benchmarked against the S&amp;P 500, NASDAQ-100, and Dow Jones.</p>
     ";
     echo "\t\t</header>\n";
   }
