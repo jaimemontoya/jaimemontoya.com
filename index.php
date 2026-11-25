@@ -27,52 +27,9 @@ Date:   Wed Nov 25 22:18:19 2026 +0000
   <li style=\"margin-bottom: 0.4rem;\">Avoid reckless losses and evaluate exits against the market rather than selling prematurely.</li>
   <li>Keep portfolio performance and net worth data updated after U.S. market close.</li>
 </ul>
-
-
 <p><span class=\"cod\">Data accurate as of 25 November 2026 at 4:00 PM EST (US Market Close).</span></p>
-<h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 25 November 2026.</h2>
-<table style=\"border-collapse: collapse; border: 1px solid #0f0;\">
-  <tr>
-    <th colspan=\"4\" style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Annualized Return (XIRR) from 12 November 2024 to 25 November 2026</th>
-  </tr>
-  <tr>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">-12.16%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">11.09%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">10.31%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">7.20%</span></td>
-  </tr>
-</table>
-<div id=\"annualized-return-xirr\"></div>
-<hr>
-<h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Total ROI Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 25 November 2026.</h2>
-<table style=\"border-collapse: collapse; border: 1px solid #0f0;\">
-  <tr>
-    <th colspan=\"4\" style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Total ROI from 12 November 2024 to 25 November 2026</th>
-  </tr>
-  <tr>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">-16.52%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">16.66%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">15.45%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">10.68%</span></td>
-  </tr>
-</table>
-<div id=\"total-roi\"></div>
-<hr>
-<h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Net Profit (USD) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 25 November 2026.</h2>
-<table style=\"border-collapse: collapse; border: 1px solid #0f0;\">
-  <tr>
-    <th colspan=\"4\" style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Net Profit (USD) from 12 November 2024 to 25 November 2026</th>
-  </tr>
-  <tr>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">-$7,652.55</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">$7,719.41</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">$7,155.78</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">$4,945.92</span></td>
-  </tr>
-</table>
-<div id=\"net-profit\"></div>
-<hr>
-<h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Stock Investments from 12 November 2024 to 25 November 2026 versus hypothetical investments of the same amounts on NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA).</h2>
+
+
 <!-- Isolated Terminal Style Table Container Start --> 
 <div id=\"jaime-portfolio-terminal-table-root\"></div> 
 <script> 
@@ -155,23 +112,23 @@ Date:   Wed Nov 25 22:18:19 2026 +0000
                 <tr> 
                     <td class=\"font-bold\">Jaime Montoya's stock portfolio</td> 
                     <td class=\"font-bold\">$46,323.37</td> 
-                    <td class=\"font-bold\">-$7,652.55</td> 
-                    <td class=\"font-bold\">-16.52%</td> 
-                    <td class=\"font-bold\">-12.16%</td> 
+                    <td class=\"font-bold\">-$8,471.09</td> 
+                    <td class=\"font-bold\">-18.29%</td> 
+                    <td class=\"font-bold\">-27.50%</td> 
                 </tr> 
                 <tr> 
                     <td class=\"indent-sub\">&bull; <strong>Apple (AAPL) Total</strong></td> 
                     <td class=\"font-italic\">$6,445.21</td> 
-                    <td class=\"font-italic\">-$64.70</td> 
-                    <td class=\"font-italic\">-1.00%</td> 
-                    <td class=\"font-italic\">-26.43%</td> 
+                    <td class=\"font-italic\">-$37.09</td> 
+                    <td class=\"font-italic\">-0.58%</td> 
+                    <td class=\"font-italic\">-14.96%</td> 
                 </tr> 
                 <tr> 
                     <td class=\"indent-sub\">&bull; <strong>NVIDIA (NVDA) Total</strong></td> 
                     <td class=\"font-italic\">$39,619.36</td> 
-                    <td class=\"font-italic\">-$7,582.91</td> 
-                    <td class=\"font-italic\">-19.14%</td> 
-                    <td class=\"font-italic\">-24.91%</td> 
+                    <td class=\"font-italic\">-$8,429.06</td> 
+                    <td class=\"font-italic\">-21.28%</td> 
+                    <td class=\"font-italic\">-27.62%</td> 
                 </tr> 
                 <tr> 
                     <td class=\"indent-sub\">&bull; <strong>Amazon (AMZN) Total</strong></td> 
@@ -190,23 +147,23 @@ Date:   Wed Nov 25 22:18:19 2026 +0000
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">NASDAQ-100 (QQQ)</td> 
                     <td>$46,323.37</td> 
-                    <td class=\"font-bold\">+$7,719.41</td> 
-                    <td class=\"font-bold\">+16.66%</td> 
-                    <td class=\"font-bold\">+11.09%</td> 
+                    <td class=\"font-bold\">-$110.39</td> 
+                    <td class=\"font-bold\">-0.24%</td> 
+                    <td class=\"font-bold\">-0.34%</td> 
                 </tr> 
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">S&P 500 (SPY)</td> 
                     <td>$46,323.37</td> 
-                    <td class=\"font-bold\">+$7,155.78</td> 
-                    <td class=\"font-bold\">+15.45%</td> 
-                    <td class=\"font-bold\">+10.31%</td> 
+                    <td class=\"font-bold\">+$1,269.31</td> 
+                    <td class=\"font-bold\">+2.74%</td> 
+                    <td class=\"font-bold\">+3.94%</td> 
                 </tr> 
                 <tr class=\"row-hypothetical\"> 
                     <td class=\"font-bold\">Dow Jones (DIA)</td> 
                     <td>$46,323.37</td> 
-                    <td class=\"font-bold\">+$4,945.92</td> 
-                    <td class=\"font-bold\">+10.68%</td> 
-                    <td class=\"font-bold\">+7.20%</td> 
+                    <td class=\"font-bold\">+$1,271.99</td> 
+                    <td class=\"font-bold\">+2.75%</td> 
+                    <td class=\"font-bold\">+3.95%</td> 
                 </tr> 
             </tbody> 
         </table> 
@@ -214,6 +171,7 @@ Date:   Wed Nov 25 22:18:19 2026 +0000
 })(); 
 </script> 
 <!-- Isolated Terminal Style Table Container End -->
+
 
 
 
