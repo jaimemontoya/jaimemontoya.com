@@ -7,6 +7,20 @@
 <p>To beat the market with individual stocks over index ETFs, documented through a live portfolio experiment tracking real-money investments against QQQ, SPY, and DIA.</p>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Vision</h2>
 <p>To prove that disciplined individual stock picking can outperform passive indexing over a lifetime.</p>
+
+<h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Goals</h2>
+<ul style=\"margin: 0.5rem 0 1.5rem 0; padding-left: 1.25rem; line-height: 1.6;\">
+  <li style=\"margin-bottom: 0.4rem;\">Achieve long-term wealth growth by building a high-conviction stock portfolio that outperforms passive index funds.</li>
+  <li>Maintain 100% transparency by tracking real-money performance in public—through both gains and drawdowns.</li>
+</ul>
+<h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Objectives</h2>
+<ul style=\"margin: 0.5rem 0 1.5rem 0; padding-left: 1.25rem; line-height: 1.6;\">
+  <li style=\"margin-bottom: 0.4rem;\">Outperform the annualized return (XIRR) and total ROI of QQQ, SPY, and DIA over multi-year horizons.</li>
+  <li style=\"margin-bottom: 0.4rem;\">Avoid reckless losses and evaluate exits against the market rather than selling prematurely.</li>
+  <li>Keep portfolio performance and net worth data updated after U.S. market close.</li>
+</ul>
+
+
 <p><span class=\"cod\">Data accurate as of 20 November 2026 at 4:00 PM EST (US Market Close).</span></p>
 <h2 style=\"cursor: default; user-select: none; -webkit-font-smoothing: antialiased; font-family: Arial; font-size: 16px; font-weight: bold;\">Jaime Montoya's Annualized Return (XIRR) Stock Portfolio Performance vs. NASDAQ-100 (QQQ), S&P 500 (SPY), and Dow Jones (DIA) from 12 November 2024 to 20 November 2026.</h2>
 <table style=\"border-collapse: collapse; border: 1px solid #0f0;\">
