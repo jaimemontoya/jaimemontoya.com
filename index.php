@@ -27,10 +27,10 @@
     <th colspan=\"4\" style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Annualized Return (XIRR) from 12 November 2024 to 27 November 2026</th>
   </tr>
   <tr>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">-27.50%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">-0.34%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">3.94%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">3.95%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">-26.35%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">3.06%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">6.20%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">8.48%</span></td>
   </tr>
 </table>
 <div id=\"annualized-return-xirr\"></div>
@@ -41,10 +41,10 @@
     <th colspan=\"4\" style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Total ROI from 12 November 2024 to 27 November 2026</th>
   </tr>
   <tr>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">-18.29%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">-0.24%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">2.74%</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">2.75%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">-17.67%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">2.07%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">4.21%</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">5.76%</span></td>
   </tr>
 </table>
 <div id=\"total-roi\"></div>
@@ -55,10 +55,10 @@
     <th colspan=\"4\" style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Net Profit (USD) from 12 November 2024 to 27 November 2026</th>
   </tr>
   <tr>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">-$8,471.09</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">-$110.39</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">$1,269.31</span></td>
-    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">$1,271.99</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Jaime Montoya's Stock Portfolio: <span class=\"cod\">-$8,185.56</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">NASDAQ-100 (QQQ): <span class=\"cod\">960.06</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">S&P 500 (SPY): <span class=\"cod\">$1,950.75</span></td>
+    <td style=\"border: 1px solid #0f0; padding: 10px; text-align: center;\">Dow Jones (DIA): <span class=\"cod\">$2,670.03</span></td>
   </tr>
 </table>
 <div id=\"net-profit\"></div>
